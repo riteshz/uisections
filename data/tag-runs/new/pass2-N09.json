@@ -1,0 +1,17 @@
+{
+  "taskId": "N09",
+  "sites": [
+    { "batch": "w223", "companyName": "Linear", "companySlug": "linear", "confidence": "high", "evidence": "copy says 'turn it into a customer request linked to a Linear project or issue'; Linear Customer Requests feature UI and dark Linear styling" },
+    { "batch": "w224", "companyName": "Stripe", "companySlug": "stripe", "confidence": "high", "evidence": "copy 'Stripe helps startups build', 'Stripe for startups' button, Stripe Startups programme and Stripe Atlas cards" },
+    { "batch": "w225", "companyName": "Stripe", "companySlug": "stripe", "confidence": "high", "evidence": "stripe wordmark in nav, 'Global GDP running on Stripe', 'stripe sessions' banner, 'See the latest from Stripe'" }
+  ],
+  "records": [
+    { "id": "d0eafad403", "companyName": "Linear", "companySlug": "linear", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "d7222439dd", "companyName": "Stripe", "companySlug": "stripe", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "medium" },
+    { "id": "52054ffebf", "companyName": "Stripe", "companySlug": "stripe", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "d098269424", "companyName": "Stripe", "companySlug": "stripe", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "d633df1a83", "companyName": "Stripe", "companySlug": "stripe", "companyConfidence": "high", "category": "divider", "categoryConfidence": "medium" },
+    { "id": "87a4da594c", "companyName": "Stripe", "companySlug": "stripe", "companyConfidence": "high", "category": "stats", "categoryConfidence": "high" },
+    { "id": "bf442296bd", "companyName": "Stripe", "companySlug": "stripe", "companyConfidence": "high", "category": "blog", "categoryConfidence": "high" }
+  ]
+}

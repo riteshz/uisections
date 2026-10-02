@@ -1,0 +1,65 @@
+{
+  "taskId": "N02",
+  "sites": [
+    { "batch": "w154", "companyName": "Unknown", "companySlug": "unknown", "confidence": "low", "evidence": "single dark section about a compute pricing index; no logo, wordmark, domain or product name visible" },
+    { "batch": "w155", "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "confidence": "high", "evidence": "Hyper Effekt wordmark in nav; copy 'Hyper Effekt is an independent digital commerce agency'" },
+    { "batch": "w156", "companyName": "Slite", "companySlug": "slite", "confidence": "high", "evidence": "slite wordmark in nav and footer; footer '(c)2026 Slite, Inc.'" },
+    { "batch": "w157", "companyName": "Orchestra", "companySlug": "orchestra", "confidence": "high", "evidence": "orchestra wordmark in nav and footer; footer '(c) 2025 Orchestra Bio Inc.', hello@orchestra.bio; matches known company Orchestra" },
+    { "batch": "w158", "companyName": "Acctual", "companySlug": "acctual", "confidence": "high", "evidence": "Acctual wordmark in nav; known company" },
+    { "batch": "w159", "companyName": "Acctual", "companySlug": "acctual", "confidence": "high", "evidence": "testimonial 'Acctual makes invoices so easy'; banner 'Acctual is joining Altitude'; invoice product" },
+    { "batch": "w160", "companyName": "Composio", "companySlug": "composio", "confidence": "high", "evidence": "Composio named in announcement bar, section copy, FAQ and footer '(c) Composio 2026'" },
+    { "batch": "w161", "companyName": "Supersonik", "companySlug": "supersonik", "confidence": "high", "evidence": "Supersonik wordmark in nav and footer; footer '(c) Supersonik 2026'" }
+  ],
+  "records": [
+    { "id": "a7da823621", "companyName": "Unknown", "companySlug": "unknown", "companyConfidence": "low", "category": "value-proposition", "categoryConfidence": "medium" },
+
+    { "id": "ca4078549c", "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "7704c52e39", "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "companyConfidence": "high", "category": "about", "categoryConfidence": "medium" },
+    { "id": "e9f246b7c5", "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "1a647d24d0", "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "companyConfidence": "high", "category": "logo-cloud", "categoryConfidence": "low" },
+
+    { "id": "82974de6b0", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "c9571244db", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "531d595d66", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "d091658aee", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "94514dd16a", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "integration", "categoryConfidence": "medium" },
+    { "id": "8e70ab3fbf", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "security", "categoryConfidence": "high" },
+    { "id": "6c6b4aef66", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "high" },
+    { "id": "79bf90b92d", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "pricing", "categoryConfidence": "high" },
+    { "id": "474e14ec05", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "cta", "categoryConfidence": "high" },
+    { "id": "bbba5f299e", "companyName": "Slite", "companySlug": "slite", "companyConfidence": "high", "category": "footer", "categoryConfidence": "high" },
+
+    { "id": "5840b14235", "companyName": "Orchestra", "companySlug": "orchestra", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "8932761436", "companyName": "Orchestra", "companySlug": "orchestra", "companyConfidence": "high", "category": "hero", "categoryConfidence": "low" },
+    { "id": "714fb01d90", "companyName": "Orchestra", "companySlug": "orchestra", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "f8d48ceef1", "companyName": "Orchestra", "companySlug": "orchestra", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "151138a709", "companyName": "Orchestra", "companySlug": "orchestra", "companyConfidence": "high", "category": "blog", "categoryConfidence": "high" },
+    { "id": "6400740679", "companyName": "Orchestra", "companySlug": "orchestra", "companyConfidence": "high", "category": "cta", "categoryConfidence": "medium" },
+
+    { "id": "aa8209b96d", "companyName": "Acctual", "companySlug": "acctual", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+
+    { "id": "3b0b10cd59", "companyName": "Acctual", "companySlug": "acctual", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "high" },
+    { "id": "7384a94ced", "companyName": "Acctual", "companySlug": "acctual", "companyConfidence": "high", "category": "use-case", "categoryConfidence": "high" },
+    { "id": "4eed1062b2", "companyName": "Acctual", "companySlug": "acctual", "companyConfidence": "high", "category": "cta", "categoryConfidence": "medium" },
+
+    { "id": "be962f235a", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "d43b36a203", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "how-it-works", "categoryConfidence": "medium" },
+    { "id": "ae1eebca4d", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "7c310fae9b", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "use-case", "categoryConfidence": "medium" },
+    { "id": "9c9d228713", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "81f3a65625", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "security", "categoryConfidence": "high" },
+    { "id": "1dfd91aa18", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "faq", "categoryConfidence": "high" },
+    { "id": "6d85f0f68b", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "cta", "categoryConfidence": "high" },
+    { "id": "fc9ebd27ce", "companyName": "Composio", "companySlug": "composio", "companyConfidence": "high", "category": "footer", "categoryConfidence": "high" },
+
+    { "id": "5fcd79a550", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "2211ad2dc2", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "medium" },
+    { "id": "59da2e690d", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "use-case", "categoryConfidence": "high" },
+    { "id": "7a21835598", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "integration", "categoryConfidence": "low" },
+    { "id": "f131bad950", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "about", "categoryConfidence": "medium" },
+    { "id": "7e5a86cc30", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "e8255e7836", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "3cd389e1ef", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "security", "categoryConfidence": "high" },
+    { "id": "a5f31566e5", "companyName": "Supersonik", "companySlug": "supersonik", "companyConfidence": "high", "category": "footer", "categoryConfidence": "medium" }
+  ]
+}

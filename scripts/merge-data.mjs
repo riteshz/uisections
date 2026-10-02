@@ -14,8 +14,8 @@ const COMPANY_PAGE_MIN = 2;
 const INDUSTRY_MIN_COMPANIES = 3; // an industry page needs at least this many companies…
 const INDUSTRY_PAGE_MIN = 10;     // …and this many sections (indexed from TAG_INDEX_MIN)
 const COMPANY_INDEX_MIN = 3;
-// Measured on mobile Lighthouse: 397 cards → performance 96, 592 cards → 95 (CLS 0, TBT 0).
-const LISTING_WARN = 650;
+// Measured on mobile Lighthouse: 397 cards → performance 96, 788 cards → 95 (CLS 0, TBT 0).
+const LISTING_WARN = 900;
 // Section types left out of the site entirely (with their screenshots).
 const EXCLUDED_CATEGORIES = new Set(['divider']);
 const FOLD = { careers: 'team', 'value-proposition': 'feature', stats: 'feature', newsletter: 'cta', security: 'feature', 'use-case': 'feature', navbar: 'hero', comparison: 'pricing' };
@@ -38,7 +38,8 @@ const publishedSlugs = readJson(path.join(DATA_DIR, 'published-slugs.json'), {})
 /** id → date the screenshot first entered the library (file dates are copy dates, so we record our own). */
 const addedDatesFile = path.join(DATA_DIR, 'added-dates.json');
 const addedDates = readJson(addedDatesFile, {});
-const today = new Date().toISOString().slice(0, 10);
+// Full timestamps, so several additions on the same day still sort newest first.
+const today = new Date().toISOString();
 
 // --- AI records -----------------------------------------------------------
 const Conf = z.enum(['high', 'medium', 'low']);

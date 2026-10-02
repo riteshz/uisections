@@ -1,0 +1,429 @@
+{
+  "taskId": "N06",
+  "sites": [
+    { "batch": "w183", "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "confidence": "high", "evidence": "Fillout wordmark in nav and footer, 'How people use Fillout' heading, Fillout named in copy" },
+    { "batch": "w184", "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "confidence": "high", "evidence": "weav wordmark in nav and footer, '© 2026 Weav.com, LLC', weav.com in phone chat UI; different brand from existing Weave (engineering analytics)" },
+    { "batch": "w185", "companyName": "Semaloop", "companySlug": "semaloop", "domain": null, "confidence": "high", "evidence": "Semaloop logo and wordmark in nav" },
+    { "batch": "w186", "companyName": "Semaloop", "companySlug": "semaloop", "domain": null, "confidence": "medium", "evidence": "no logo; identical gray/sage styling, hexagon badge and mobile test replay copy matching Semaloop batches w185/w187" },
+    { "batch": "w187", "companyName": "Semaloop", "companySlug": "semaloop", "domain": null, "confidence": "high", "evidence": "quote names Semaloop; CTA copy 'See how Semaloop catches issues'" },
+    { "batch": "w188", "companyName": "Fourmula", "companySlug": "fourmula", "domain": null, "confidence": "high", "evidence": "Fourmula logo and wordmark in footer, '© 2026, Fourmula ltd'" },
+    { "batch": "w189", "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "confidence": "high", "evidence": "Clarasight logo in nav, Clarasight named in copy and testimonial" },
+    { "batch": "w190", "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "confidence": "high", "evidence": "'© 2026 Clarasight' and large wordmark in footer, 'Clarasight's customers' in stats copy" },
+    { "batch": "w191", "companyName": "Spade", "companySlug": "spade", "domain": null, "confidence": "high", "evidence": "SPADE wordmark in nav, 'Spade takes messy transaction data' copy" },
+    { "batch": "w192", "companyName": "Spade", "companySlug": "spade", "domain": null, "confidence": "medium", "evidence": "no logo; merchant/location data enrichment copy, mono labels and mint chip match Spade styling of w191/w194" },
+    { "batch": "w193", "companyName": "Spade", "companySlug": "spade", "domain": null, "confidence": "high", "evidence": "'© Spade 2026' in footer, Spade line-art coin artwork" },
+    { "batch": "w194", "companyName": "Spade", "companySlug": "spade", "domain": null, "confidence": "high", "evidence": "testimonial quote 'Spade's granular merchant data', stat labels mention Spade" },
+    { "batch": "w195", "companyName": "Solidroad", "companySlug": "solidroad", "domain": null, "confidence": "high", "evidence": "Solidroad logo in nav and footer, '© 2026 Solidroad Inc.'" },
+    { "batch": "w196", "companyName": "Solidroad", "companySlug": "solidroad", "domain": null, "confidence": "medium", "evidence": "no logo; serif type, lime 'Get a demo' button, mountain imagery and agent-training copy match Solidroad batch w195" },
+    { "batch": "w197", "companyName": "EVpin", "companySlug": "evpin", "domain": null, "confidence": "high", "evidence": "EVpin logo and wordmark in nav" },
+    { "batch": "w198", "companyName": "EVpin", "companySlug": "evpin", "domain": null, "confidence": "medium", "evidence": "no logo; EV charging site report with Location Data/Design Site/Cost Estimate tabs matches EVpin's shareable report product (w197)" },
+    { "batch": "w199", "companyName": "Deck", "companySlug": "deck", "domain": null, "confidence": "high", "evidence": "DECK wordmark in nav, 'Deck Agent' in product UI" }
+  ],
+  "records": [
+    {
+      "id": "267d63c54f",
+      "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Forms that do it all",
+      "alt": "Fillout hero section: centered headline and AI prompt box over an illustrated city skyline, above product tabs and an e-signature form mockup",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "523ec3e9ca",
+      "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "medium", "categoryAlternates": ["testimonial", "stats"], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "100,000+ organizations trust Fillout for secure data intake",
+      "alt": "Fillout logo cloud section: grayscale customer logo row above a trust statement and two rating cards for G2 and Product Hunt",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "810fa44553",
+      "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "It all starts with a form",
+      "alt": "Fillout features section: centered heading above a 2x2 grid of cards with form builder, workflow, login form and responses table mockups",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d5ebe9ecd9",
+      "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Create a lasting impression",
+      "alt": "Fillout features section: centered heading above stacked feature cards on the left and a branded form with a theme designer panel on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1961f583bd",
+      "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Integrate with all your apps",
+      "alt": "Fillout integrations section: centered heading above two rows of cards grouping app icons by task, cut off at the edges, and a view-all button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0270d4935f",
+      "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "metrics", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "How people use Fillout",
+      "alt": "Fillout testimonials section: centered heading above three quote cards with avatars and two rating cards for G2 and Product Hunt",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3f6a2c86c7",
+      "companyName": "Fillout", "companySlug": "fillout", "domain": "fillout.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Make your first form in minutes",
+      "alt": "Fillout footer section: dark CTA card with yellow button and form mockups above a charcoal footer with link columns and compliance badges",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "309ff6af6b",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "You didn’t start a business to answer support emails all day.",
+      "alt": "Weav hero section: headline and two buttons on a bright blue background beside a hand holding a phone with a support chat, wave pattern below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "32b132589a",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Trusted by the brands that set the standard for CX",
+      "alt": "Weav logo cloud section: thin pink strip with a small trust label and a row of blue customer logos separated by dividers",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b79603dfd6",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Support every customer without scaling your headcount. Deploy expert AI agents in minutes that master your product data to deliver precise, automated resolutions around the clock.",
+      "alt": "Weav features section: intro text on pink above a white card with an expandable feature list on the left and stacked sync and chat UI cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fcfcc2ce84",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Solve real problems, not just questions.",
+      "alt": "Weav features section: blue headline and checklist on pink above a white panel with an AI reasoning chat flow and a blue panel with a sourced reply",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fb471f87ab",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Support more customers in just a few minutes",
+      "alt": "Weav divider section: solid bright blue band with a small logo mark, left-aligned headline and one line of supporting copy",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "57a02b2dd1",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Train weav once. Watch it improve forever.",
+      "alt": "Weav features section: blue headline and checklist above a gray panel with a website sync form and file and chat cards linked to a central logo",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6f872b870a",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Master of your tone, partner to your team.",
+      "alt": "Weav divider section: solid bright blue band with a small logo mark, left-aligned headline and a short line of copy",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "059ba63e70",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "A workspace where humans and AI work together",
+      "alt": "Weav features section: headline, button and checklist above a tablet showing a support inbox, with two cards for AI drafted replies below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1bcb77ec9f",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["divider"], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "centered", "confidence": "high" }],
+      "headline": "Pricing that scales with your business",
+      "alt": "Weav call to action section: centered headline, copy and pink button on a bright blue background under a wave pattern strip",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2bcc329783",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Launch in minutes. No code required.",
+      "alt": "Weav features section: headline and two buttons above a hand holding a phone with a dark chat UI over a pink blob, plus a chat reply card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "06b0f637e8",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }],
+      "headline": "The latest from Weav",
+      "alt": "Weav blog & resources section: blue background with a 3x2 grid of product links above three article cards with abstract thumbnails",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4a4d92d683",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "code", "confidence": "high" }],
+      "headline": "Developer’s choice, enterprise standard.",
+      "alt": "Weav features section: dark brown band with headline and docs button on the left and a JSON request code block with an API key popup",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "391925f140",
+      "companyName": "Weav", "companySlug": "weav", "domain": "weav.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "You’ve seen how it works. Now put it to work.",
+      "alt": "Weav footer section: large blue CTA headline and button above a white footer with wordmark, three link columns and legal links",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7795aab282",
+      "companyName": "Semaloop", "companySlug": "semaloop", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "form", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Catch mobile bugs before your users do.",
+      "alt": "Semaloop hero section: left-aligned headline and email field with demo button above two rows of logos and a photo of a phone on a shelf",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6731c24dae",
+      "companyName": "Semaloop", "companySlug": "semaloop", "domain": null, "companyConfidence": "medium",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }],
+      "headline": "See exactly what happened in every run.",
+      "alt": "Semaloop features section: numbered headline and feature list on the left beside a sage green panel with a phone test replay player",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "48cf2bde7f",
+      "companyName": "Semaloop", "companySlug": "semaloop", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "“Testing should increase velocity, but teams spend more time fixing tests than shipping. Semaloop is the first tool I’ve found that genuinely changes this, making mobile end-to-end testing finally possible.”",
+      "alt": "Semaloop testimonials section: centered single quote under a company icon with an agent badge, name and title below on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ca8e83933a",
+      "companyName": "Semaloop", "companySlug": "semaloop", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "form", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Start testing your app the way it’s actually used.",
+      "alt": "Semaloop call to action section: sage green card with headline, short copy and an email field with demo button, thin circle outline at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f20eec3911",
+      "companyName": "Fourmula", "companySlug": "fourmula", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Your catalog, instantly re-shot.",
+      "alt": "Fourmula hero section: ring of rounded fashion model photos around an upload box, with a large two-tone headline at bottom left on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e147d658cb",
+      "companyName": "Fourmula", "companySlug": "fourmula", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "On-brand visuals. Made by AI.",
+      "alt": "Fourmula features section: large headline above a gray card showing a jacket product image turned into a dashboard grid of AI model photos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3c1467f6bb",
+      "companyName": "Fourmula", "companySlug": "fourmula", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "pattern-background", "confidence": "high" }],
+      "headline": "",
+      "alt": "Fourmula footer section: wordmark, small link columns and legal text above a gray dot-matrix field forming a halftone shape",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "116115f741",
+      "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "The AI platform for trusted travel data, decisions and automation",
+      "alt": "Clarasight hero section: centered headline and two buttons on a navy-to-indigo gradient fading to white, above a customer logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "040e641438",
+      "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["divider"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "$1.5T in corporate travel, meetings, and events spend still runs on disconnected systems and manual processes. Clarasight changes that.",
+      "alt": "Clarasight value proposition section: small Why Clarasight label above a centered three-line statement on a pale lavender-white background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a4ee0ab66c",
+      "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "\"Clarasight has completely changed how I operate. It puts the critical information I need at my fingertips to confidently navigate internal and external conversations, uncovering true value and savings across my program.\"",
+      "alt": "Clarasight testimonials section: centered quote under a Scania logo with a round headshot, name and title below on a pale background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b5d0acbed3",
+      "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "Your data is mission critical. We protect it that way.",
+      "alt": "Clarasight security section: dark navy card with headline, checklist and button on the left and a 2x2 grid of ISO, SOC 2 and GDPR badges",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2d0eb510c2",
+      "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Join the Corporate Travel AI Network",
+      "alt": "Clarasight call to action section: indigo rounded banner with headline, copy and white button beside a photo of a group at a dinner table",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e59e2503b0",
+      "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "metrics", "confidence": "high" }],
+      "headline": "Proven impact across enterprise travel programs.",
+      "alt": "Clarasight stats section: dark navy card with headline, copy and case study button above three large metrics, faint dotted globe at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3e977b22b9",
+      "companyName": "Clarasight", "companySlug": "clarasight", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }, { "id": "oversized-type", "confidence": "medium" }],
+      "headline": "Cut costs. Enforce policy. Recover time.",
+      "alt": "Clarasight footer section: centered CTA headline and button above link columns, compliance badges and a huge faint lavender wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8604678695",
+      "companyName": "Spade", "companySlug": "spade", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "pastel", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "The data & AI platform for modern finance",
+      "alt": "Spade hero section: centered headline over a line-art coin drawing with transaction data cards on a mint green panel, button below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0ae9dfa816",
+      "companyName": "Spade", "companySlug": "spade", "domain": null, "companyConfidence": "medium",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Make every authorization smarter",
+      "alt": "Spade features section: labeled headline, copy, button and latency stat chip on the left beside a photo of hands holding a phone at a laptop",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "65d373570f",
+      "companyName": "Spade", "companySlug": "spade", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }, { "id": "form", "confidence": "medium" }],
+      "headline": "Add intelligence to every layer of your data",
+      "alt": "Spade footer section: dark green CTA with centered headline, green button and line-art coins above link columns and a newsletter email field",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "900f7156a3",
+      "companyName": "Spade", "companySlug": "spade", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Proven across payments and beyond",
+      "alt": "Spade testimonials section: headline above a dark olive quote card with Bilt logo beside two stat blocks with corner marks on mint green",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fbce5d0806",
+      "companyName": "Solidroad", "companySlug": "solidroad", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "full-bleed-media", "confidence": "high" }, { "id": "split", "confidence": "medium" }, { "id": "photography", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Better customer outcomes start with better training",
+      "alt": "Solidroad hero section: serif headline and lime button over a mountain landscape photo beside a training dashboard UI, logo row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "610f9c7b67",
+      "companyName": "Solidroad", "companySlug": "solidroad", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "We know the terrain. You know the destination.",
+      "alt": "Solidroad footer section: serif CTA headline and lime button above logo and link columns on cream with a faint halftone dot texture",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "340b00a768",
+      "companyName": "Solidroad", "companySlug": "solidroad", "domain": null, "companyConfidence": "medium",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Simulations for every conversation, system, and workflow.",
+      "alt": "Solidroad features section: two-tone serif headline above a blurred landscape card with score UI chips beside an expandable feature list",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e21b539d24",
+      "companyName": "EVpin", "companySlug": "evpin", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }, { "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "The industry standard for finding prime EV charging sites",
+      "alt": "EVpin hero section: headline, buttons and checklist on a bright cyan gradient beside a street map with charging station pins",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cbc6b8a913",
+      "companyName": "EVpin", "companySlug": "evpin", "domain": null, "companyConfidence": "medium",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Share a detailed, interactive report in minutes.",
+      "alt": "EVpin features section: centered heading and segmented tabs above site report cards with utilization scores, cut off at the right edge",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a3e72f9092",
+      "companyName": "Deck", "companySlug": "deck", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "Design and deploy agents to execute workflows like a human",
+      "alt": "Deck hero section: dark page with headline left and buttons right above a chat app window over a rendered purple hill landscape",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d9b9c37e3e",
+      "companyName": "Deck", "companySlug": "deck", "domain": null, "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Any workflow. Any application. Infinite agents.",
+      "alt": "Deck integrations section: dark background with a wide headline above a grid of app task cards with running status, fading at the edges",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

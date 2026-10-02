@@ -1,0 +1,13 @@
+{
+  "note": "Decisions for the 8 new companies where the two classification runs disagreed.",
+  "companies": [
+    { "slug": "arcade", "primary": "sales-marketing", "secondary": "design-tools" },
+    { "slug": "beside", "primary": "ai", "secondary": "customer-support" },
+    { "slug": "deck", "primary": "ai", "secondary": "developer-tools" },
+    { "slug": "evpin", "primary": "logistics", "secondary": "data-analytics" },
+    { "slug": "fourmula", "primary": "ecommerce", "secondary": "ai" },
+    { "slug": "lovable", "primary": "ai", "secondary": "developer-tools" },
+    { "slug": "quartr", "primary": "fintech", "secondary": "data-analytics" },
+    { "slug": "solidroad", "primary": "customer-support", "secondary": "ai" }
+  ]
+}

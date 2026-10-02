@@ -26,6 +26,9 @@ async function encode(it) {
   const out = (suffix) => path.join(CACHE, `${it.id}-${suffix}.webp`);
   const entry = manifest[it.id] ?? {};
   const has = (key, suffix) => entry[key] && fs.existsSync(out(suffix));
+  const complete = THUMB_WIDTHS.every((w) => has(`t${w}`, w)) && has('lg', 'lg') && has('md', 'md');
+  if (complete) return;
+  if (!fs.existsSync(src)) throw new Error(`Original for ${it.id} (${it.file}) has moved and its web versions are incomplete — put the original back to re-encode it.`);
 
   // Thumbnails: crop the top of tall sections to the card frame.
   const cropH = it.ratio > FRAME_RATIO ? Math.round(it.width * FRAME_RATIO) : it.height;

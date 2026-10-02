@@ -797,5 +797,151 @@
   "zamp-ai": [
     "fintech",
     "ai"
+  ],
+  "arrakis": [
+    "ai"
+  ],
+  "clarasight": [
+    "logistics",
+    "ai"
+  ],
+  "clarion": [
+    "healthcare",
+    "ai"
+  ],
+  "coderabbit": [
+    "developer-tools",
+    "ai"
+  ],
+  "composio": [
+    "developer-tools",
+    "ai"
+  ],
+  "concurrence": [
+    "healthcare",
+    "ai"
+  ],
+  "customer-io": [
+    "sales-marketing"
+  ],
+  "exa": [
+    "data-analytics",
+    "ai"
+  ],
+  "fillout": [
+    "productivity"
+  ],
+  "greptile": [
+    "developer-tools",
+    "ai"
+  ],
+  "heidi": [
+    "healthcare",
+    "ai"
+  ],
+  "heyclicky": [
+    "ai",
+    "productivity"
+  ],
+  "hyper-effekt": [
+    "agencies",
+    "ecommerce"
+  ],
+  "intercom": [
+    "customer-support",
+    "ai"
+  ],
+  "medusa": [
+    "ecommerce",
+    "developer-tools"
+  ],
+  "melius": [
+    "design-tools",
+    "ai"
+  ],
+  "orchestra-bio": [
+    "healthcare",
+    "productivity"
+  ],
+  "polar-signals": [
+    "developer-tools"
+  ],
+  "pryzm": [
+    "design-tools"
+  ],
+  "rezi": [
+    "hr",
+    "ai"
+  ],
+  "semaloop": [
+    "developer-tools",
+    "ai"
+  ],
+  "slite": [
+    "productivity",
+    "ai"
+  ],
+  "spade": [
+    "fintech",
+    "data-analytics"
+  ],
+  "strawberry": [
+    "ai",
+    "productivity"
+  ],
+  "stripe": [
+    "fintech"
+  ],
+  "supercut": [
+    "productivity"
+  ],
+  "supersonik": [
+    "sales-marketing",
+    "ai"
+  ],
+  "teak": [
+    "sales-marketing"
+  ],
+  "unkey": [
+    "developer-tools"
+  ],
+  "weav": [
+    "customer-support",
+    "ai"
+  ],
+  "ycode": [
+    "design-tools"
+  ],
+  "arcade": [
+    "sales-marketing",
+    "design-tools"
+  ],
+  "beside": [
+    "ai",
+    "customer-support"
+  ],
+  "deck": [
+    "ai",
+    "developer-tools"
+  ],
+  "evpin": [
+    "logistics",
+    "data-analytics"
+  ],
+  "fourmula": [
+    "ecommerce",
+    "ai"
+  ],
+  "lovable": [
+    "ai",
+    "developer-tools"
+  ],
+  "quartr": [
+    "fintech",
+    "data-analytics"
+  ],
+  "solidroad": [
+    "customer-support",
+    "ai"
   ]
 }

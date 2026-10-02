@@ -1,0 +1,402 @@
+{
+  "taskId": "N02",
+  "sites": [
+    { "batch": "w154", "companyName": "Unknown", "companySlug": "unknown", "domain": null, "confidence": "low", "evidence": "single image with no logo, wordmark, domain or product name; copy only mentions a compute pricing index" },
+    { "batch": "w155", "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "domain": null, "confidence": "high", "evidence": "Hyper Effekt wordmark in nav; overview copy and testimonial name Hyper Effekt" },
+    { "batch": "w156", "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "confidence": "high", "evidence": "slite wordmark in nav and footer, (c)2026 Slite, Inc. in footer, Slite Agent repeated in copy" },
+    { "batch": "w157", "companyName": "Orchestra Bio", "companySlug": "orchestra-bio", "domain": "orchestra.bio", "confidence": "high", "evidence": "orchestra wordmark in nav and footer, (c) 2025 Orchestra Bio Inc. and hello@orchestra.bio in footer; drug-development platform, distinct from the existing 'orchestra' (agency client portal)" },
+    { "batch": "w158", "companyName": "Acctual", "companySlug": "acctual", "domain": "acctual.com", "confidence": "high", "evidence": "Acctual wordmark in nav and 'Acctual is joining Altitude' banner" },
+    { "batch": "w159", "companyName": "Acctual", "companySlug": "acctual", "domain": "acctual.com", "confidence": "high", "evidence": "testimonial names Acctual, 'Acctual is joining Altitude' banner, matching invoice product styling" },
+    { "batch": "w160", "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "confidence": "high", "evidence": "Composio in announcement bar, headlines and FAQ, (c) Composio 2026 in footer" },
+    { "batch": "w161", "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "confidence": "high", "evidence": "Supersonik wordmark in nav and footer, (c) Supersonik 2026, name repeated in headlines" }
+  ],
+  "records": [
+    {
+      "id": "a7da823621",
+      "companyName": "Unknown", "companySlug": "unknown", "domain": null, "companyConfidence": "low",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Transparent. Reliable. Trusted.",
+      "alt": "Unknown value proposition section: stacked headline at left, three ruled benefit rows with vertical line graphics on a black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ca4078549c",
+      "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }],
+      "headline": "Building world-class experiences in commerce",
+      "alt": "Hyper Effekt hero section: oversized white headline with an inline Shopify icon over a full-bleed blurred product photo, with nav",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7704c52e39",
+      "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "domain": null, "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition", "other"], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Bring new energy to digital commerce",
+      "alt": "Hyper Effekt about & mission section: agency overview text and consultation button above two client photo cards for Polarwise and Underhance",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e9f246b7c5",
+      "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "We've got you covered on all fronts",
+      "alt": "Hyper Effekt features section: headline above three numbered service rows, Design, Build and Grow, each with a short list on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1a647d24d0",
+      "companyName": "Hyper Effekt", "companySlug": "hyper-effekt", "domain": null, "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "medium", "categoryAlternates": ["testimonial", "about"], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "carousel", "confidence": "high" }],
+      "headline": "Fashion & Apparel – Food & Beverage – Health & Beauty",
+      "alt": "Hyper Effekt logo cloud section: industry line over a 6-column client logo grid, then about text, rack photo, quote carousel and contact intro",
+      "usable": false, "issues": ["not-a-section"], "duplicateOf": null
+    },
+    {
+      "id": "82974de6b0",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Verified knowledge, kept in sync with reality",
+      "alt": "Slite hero section: centered headline, orange CTA and compliance badges above a knowledge base doc screenshot and customer logo row on cream",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c9571244db",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "Finally, an AI knowledge base that does its job",
+      "alt": "Slite features section: centered headline over three peach cards for capture, accuracy and search, each with a product UI snippet",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "531d595d66",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "pattern-background", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "Slite Agent detects knowledge drift across your tools",
+      "alt": "Slite features section: headline ringed by app icons on a grid, four team columns, then cards with doc maintenance and review UI on cream",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d091658aee",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }, { "id": "product-ui", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "Slite Agent brings enterprise AI search to your knowledge base",
+      "alt": "Slite features section: tabbed AI search chat mockup, app icon row, three capability cards with UI snippets and a short customer quote",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "94514dd16a",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "code", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "The context layer for AI agents you already use",
+      "alt": "Slite integrations section: MCP diagram linking Slite to agent, terminal, Cursor and ChatGPT windows, tool chips and a customer quote",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8e70ab3fbf",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "An infrastructure your security team can sign off on",
+      "alt": "Slite security section: centered headline and button above four columns for compliance, access, data handling and audit, with badges",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6c6b4aef66",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Slite testimonials section: three quote cards in blue, orange and beige with author avatars, plus a customer stories button on cream",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "79bf90b92d",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Simple pricing that scales with your team",
+      "alt": "Slite pricing section: centered headline above Basic, Pro and Enterprise plan cards, with the Pro card highlighted as recommended",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "474e14ec05",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "The self-maintaining knowledge base your team and agents can trust",
+      "alt": "Slite call to action section: centered two-line headline with an orange Book demo button and a See pricing link on a cream band",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bbba5f299e",
+      "companyName": "Slite", "companySlug": "slite", "domain": "slite.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Slite footer section: logo, tagline and review ratings beside five link columns, legal links, language list and copyright on cream",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5840b14235",
+      "companyName": "Orchestra Bio", "companySlug": "orchestra-bio", "domain": "orchestra.bio", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Manage the business of science.",
+      "alt": "Orchestra Bio hero section: nav above a centered two-tone headline, serif subtitle and pale green demo button on dark teal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8932761436",
+      "companyName": "Orchestra Bio", "companySlug": "orchestra-bio", "domain": "orchestra.bio", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["hero", "other"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Orchestra Bio features section: central program report document linked to smaller document cards on a dark teal grid background",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "714fb01d90",
+      "companyName": "Orchestra Bio", "companySlug": "orchestra-bio", "domain": "orchestra.bio", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Align your organization from bench to boardroom",
+      "alt": "Orchestra Bio features section: headline and R&D planning accordion at left, program timeline product UI on a faint grid at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f8d48ceef1",
+      "companyName": "Orchestra Bio", "companySlug": "orchestra-bio", "domain": "orchestra.bio", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works", "value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "The intelligent management system for life sciences R&D",
+      "alt": "Orchestra Bio features section: headline above a line diagram of three linked loops for science, operations and finance with labels",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "151138a709",
+      "companyName": "Orchestra Bio", "companySlug": "orchestra-bio", "domain": "orchestra.bio", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }],
+      "headline": "Latest updates",
+      "alt": "Orchestra Bio blog & resources section: Latest updates heading over three article cards with illustrated thumbnails on dark teal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6400740679",
+      "companyName": "Orchestra Bio", "companySlug": "orchestra-bio", "domain": "orchestra.bio", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["footer"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }],
+      "headline": "Make every R&D dollar count.",
+      "alt": "Orchestra Bio call to action section: centered headline and demo button on dark teal with faint loop shapes, above a footer",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "aa8209b96d",
+      "companyName": "Acctual", "companySlug": "acctual", "domain": "acctual.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Get paid on time",
+      "alt": "Acctual hero section: centered headline, CTA and fee checklist above an invoice mockup framed by desk objects on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3b0b10cd59",
+      "companyName": "Acctual", "companySlug": "acctual", "domain": "acctual.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Acctual testimonials section: single centered quote with five orange stars and a script attribution in a light gray rounded panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7384a94ced",
+      "companyName": "Acctual", "companySlug": "acctual", "domain": "acctual.com", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "We designed an invoice that works harder for your business",
+      "alt": "Acctual use cases section: centered headline above a 3x2 grid of audience cards for freelancers, agencies, contractors and more",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4eed1062b2",
+      "companyName": "Acctual", "companySlug": "acctual", "domain": "acctual.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Send an invoice that gets you paid faster",
+      "alt": "Acctual call to action section: centered headline and button above a rounded photo of a printed invoice lying in a flower meadow",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "be962f235a",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Give your AI secure access to 1,500+ apps in minutes",
+      "alt": "Composio hero section: centered headline with blue highlight, two CTAs and a trusted-by logo row on black with glitchy color bars",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d43b36a203",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Composio turns your AI into a doer",
+      "alt": "Composio how it works section: two phone mockups linked through a Composio step list, example tabs and a row of AI tool chips",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ae1eebca4d",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "code", "confidence": "high" }],
+      "headline": "Everything between the ask and the result, handled",
+      "alt": "Composio features section: numbered side nav beside four rows of dark UI and code panels on colorful pixel art, each with text",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7c310fae9b",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "medium", "categoryAlternates": ["integration", "feature"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Composio helps AI take action 100M+ times a week",
+      "alt": "Composio use cases section: centered headline above six white cards of example prompts by category with app names, plus two CTAs",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9c9d228713",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Build agents on battle-tested infrastructure",
+      "alt": "Composio features section: code snippet and CTAs beside a grid of agent cards, then four platform feature columns on near-black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "81f3a65625",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Secure by default, at every layer",
+      "alt": "Composio security section: perspective wireframe of a gradient panel at left and an accordion of security topics at right on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1dfd91aa18",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Frequently asked questions",
+      "alt": "Composio faq section: heading at left beside an accordion list of eleven questions with plus icons on near-black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6d85f0f68b",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Connect your AI to 1,500+ apps for free",
+      "alt": "Composio call to action section: single-line headline beside a black Try Composio now button in a slim light gray band",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fc9ebd27ce",
+      "companyName": "Composio", "companySlug": "composio", "domain": "composio.dev", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["newsletter"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Subscribe to our newsletter",
+      "alt": "Composio footer section: newsletter heading with email field and blue subscribe button above six monospace link columns on black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5fcd79a550",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "pattern-background", "confidence": "high" }],
+      "headline": "Your product, explained live to every buyer.",
+      "alt": "Supersonik hero section: centered serif headline and two CTAs below a soft UI mockup with call controls on a light grid background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2211ad2dc2",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats", "logo-cloud"], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "metrics", "confidence": "medium" }],
+      "headline": "Leading companies win with Supersonik.",
+      "alt": "Supersonik testimonials section: customer logo tabs above a Salesforce case study card with a large +250 metric and serif story headline",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "59da2e690d",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Where Supersonik fits.",
+      "alt": "Supersonik use cases section: serif headline over three pastel panels for sales, customer success and enablement with UI sketches",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7a21835598",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works", "feature"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "From signal to conversation to action.",
+      "alt": "Supersonik integrations section: serif headline and button at left, workflow step diagram and grid of app icons at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f131bad950",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Research, deployed.",
+      "alt": "Supersonik about & mission section: serif headline, lab description and investor logos at left, three research areas listed at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7e5a86cc30",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Every interaction makes your business smarter.",
+      "alt": "Supersonik features section: serif headline and link at left, glowing sphere of chat bubbles linked to a logo at right on dark teal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e8255e7836",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "split", "confidence": "high" }],
+      "headline": "Built to stay current as your product changes",
+      "alt": "Supersonik features section: UI mockup with call controls at left, serif headline, copy and link at right on dark teal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3cd389e1ef",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Governed, secure, and ready for production.",
+      "alt": "Supersonik security section: serif headline, copy, SOC 2 and GDPR badges and two buttons above two governance points on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a5f31566e5",
+      "companyName": "Supersonik", "companySlug": "supersonik", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "medium", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Where should product expertise create leverage first?",
+      "alt": "Supersonik footer section: large serif question with two CTA buttons above a wordmark, three link columns and copyright on dark teal",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

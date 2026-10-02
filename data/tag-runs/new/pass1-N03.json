@@ -1,0 +1,417 @@
+{
+  "taskId": "N03",
+  "sites": [
+    { "batch": "w162", "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "confidence": "high", "evidence": "greptile wordmark and logo in footer, 'Over 22,000+ teams use Greptile' caption, product name repeated throughout copy" },
+    { "batch": "w163", "companyName": "Beside", "companySlug": "beside", "domain": "beside.com", "confidence": "high", "evidence": "Beside logo in nav, 'Beside for agencies' nav link, beside.com URL in product mockup, 'Handled by Beside' pills" },
+    { "batch": "w164", "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "confidence": "high", "evidence": "ycode wordmark in nav, 'Run Ycode yourself' heading, © Ycode Inc. 2026 in footer" },
+    { "batch": "w165", "companyName": "Rogo", "companySlug": "rogo", "domain": null, "confidence": "high", "evidence": "rogo wordmark in nav, 'Rogo is the trusted AI partner' copy, © 2026 ROGO AI in footer; known company" },
+    { "batch": "w166", "companyName": "Ruul", "companySlug": "ruul", "domain": null, "confidence": "high", "evidence": "Ruul logo in nav, large Ruul wordmark and © Copyright Ruul 2018-2026 in footer; known company" }
+  ],
+  "records": [
+    {
+      "id": "0030ebc371",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "The AI Code Reviewer",
+      "alt": "Greptile hero section: bold headline and two CTAs on the left, halftone iguana artwork on the right, green announcement bar above",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "01d817f666",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "OVER 22,000+ TEAMS USE GREPTILE",
+      "alt": "Greptile logo cloud section: two rows of grayscale customer logos in bordered grid cells under a small mono caption",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a3907d9880",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "We've tried more code review tools than I can count. Greptile outperforms them all by a mile. Honestly the only AI reviewer that doesn't annoy the s**t out of me.",
+      "alt": "Greptile testimonials section: centered single customer quote with company logo, avatar, name, title and a case study button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "caac81753a",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "How Greptile reviews every PR",
+      "alt": "Greptile how it works section: three step cards with wireframe graphics on a dark slate background below a mint headline",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4565eac766",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Catch them all",
+      "alt": "Greptile features section: centered headline over three cards showing example bugs caught in open-source repos with diff snippets",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dd61d529dd",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["divider"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Reviews that adapt to your team",
+      "alt": "Greptile features section: centered eyebrow label, headline and one-line subtitle on a light gray band with a striped top edge",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e9aeba873c",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Greptile features section: two cards side by side, one with a custom rules form UI, one with a blue wireframe torus graphic",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3d33101f49",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "code", "confidence": "medium" }],
+      "headline": "The Central Validation Layer.",
+      "alt": "Greptile integrations section: left-aligned headline above four numbered cards showing IDE, MCP, Claude Code plugin and loop workflows",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bea68627ef",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Autonomously Test Every PR",
+      "alt": "Greptile features section: centered product launch headline and button above a blue line-wave landscape illustration",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ac87b0accc",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Security-First Design",
+      "alt": "Greptile security section: headline with learn more button above three numbered cards for self-hosting, SOC 2 and enterprise features",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "97d88a5ce9",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "See what our customers are saying",
+      "alt": "Greptile testimonials section: grid of quote cards with avatars and company logos around a large headline cell with a button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "824440c754",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "FAQ",
+      "alt": "Greptile faq section: centered accordion list of six questions flanked by vertical dotted lines with yellow dots on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "682be2b285",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Greptile is building the code validation layer so you can get back to shipping.",
+      "alt": "Greptile call to action section: lime headline and two buttons on the left, code review comment UI with diff nodes on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b003d9eeb0",
+      "companyName": "Greptile", "companySlug": "greptile", "domain": "greptile.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "3d", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Greptile footer section: large green logo beside four link columns, above a pile of gray isometric logo blocks on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b06b50704b",
+      "companyName": "Beside", "companySlug": "beside", "domain": "beside.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "The AI operating system that runs your local business",
+      "alt": "Beside hero section: centered headline with a business name search field above a tilted app dashboard screenshot on white",
+      "usable": true, "issues": ["modal-overlay"], "duplicateOf": null
+    },
+    {
+      "id": "2f87b4b0c5",
+      "companyName": "Beside", "companySlug": "beside", "domain": "beside.com", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "carousel", "confidence": "medium" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Three jobs stand between you and your craft.",
+      "alt": "Beside value proposition section: headline and testimonial stat card on the left, four numbered job rows with status pills on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4d190ac33e",
+      "companyName": "Beside", "companySlug": "beside", "domain": "beside.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "The phone that answers for you",
+      "alt": "Beside features section: centered headline and buttons above a feature tab bar and a phone mockup with annotations in a gray panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b00e2e741d",
+      "companyName": "Beside", "companySlug": "beside", "domain": "beside.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "It asks first, then earns the keys",
+      "alt": "Beside features section: left-aligned headline above three cards, each with a short description and an approval UI snippet",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b0abcea660",
+      "companyName": "Beside", "companySlug": "beside", "domain": "beside.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "And it's all one system",
+      "alt": "Beside features section: headline and intro above a three-column list of twelve capabilities with line icons and short descriptions",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5c4ed6dd12",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Visual website builder and CMS, now open source",
+      "alt": "Ycode hero section: left-aligned headline with version badge and two buttons above a large website editor screenshot on black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b1011fb8ff",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Ycode about & mission section: two columns of gray paragraph text about closed platforms and open source control on black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "94600f60b8",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Run Ycode yourself",
+      "alt": "Ycode how it works section: headline above three numbered steps with icons and buttons for GitHub, Vercel and Supabase on black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "da62fb731c",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Bring your own AI",
+      "alt": "Ycode integrations section: headline over four AI provider rows with icons on the left, three AI feature rows on the right, black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a9cd4d9fe7",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Pricing",
+      "alt": "Ycode pricing section: heading on the left, self-host and cloud plan cards with a yearly toggle and checkmark feature lists",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7e37dc3219",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Releases",
+      "alt": "Ycode blog & resources section: releases heading above three changelog entries on a horizontal timeline with a view all button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fd1f06a613",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "bento", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Build with the community",
+      "alt": "Ycode testimonials section: headline with Discord button above a bento grid of six quote cards in mixed widths with avatars",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "194fafe77b",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "The open web starts here",
+      "alt": "Ycode call to action section: centered headline with a spotlight fade effect and two buttons on a black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8795cec70a",
+      "companyName": "Ycode", "companySlug": "ycode", "domain": "ycode.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Ycode footer section: small logo, two short link columns, social icon buttons and copyright line on a black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "433d8a1ced",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "For the most ambitious firms in finance",
+      "alt": "Rogo hero section: centered serif headline and demo button over a full-bleed dusk photo of a city skyline, logo strip at the bottom",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e457613a63",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Helping finance teams build smarter organizations",
+      "alt": "Rogo testimonials section: centered serif headline above one expanded quote card and two collapsed cards with company logos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dae0b8e6ed",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": null, "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Why financial institutions choose Rogo",
+      "alt": "Rogo value proposition section: serif headline on the left, five stacked benefit rows with icons and descriptions on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "893783dfee",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": null, "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "By the numbers",
+      "alt": "Rogo stats section: three large serif numbers in divided rows with short labels on the right, light gray background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3ba5d5c045",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "Built for enterprise, secure by design",
+      "alt": "Rogo security section: centered serif headline above a row of five compliance badge tiles (SOC 2, CCPA, ISO, GDPR, EU AI Act)",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "11d2ab649e",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Unlock financial AI for your firm",
+      "alt": "Rogo footer section: serif CTA headline with demo button above four link columns and a copyright line on a dark background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d8ffb5ab2a",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "We help freelancers and businesses work together, handling invoicing, payments, and compliance.",
+      "alt": "Ruul hero section: audience toggle and centered serif headline above a dark green panel with a portrait photo and invoice UI card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "953df5b841",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Trusted by thousands of teams & organisations",
+      "alt": "Ruul logo cloud section: small caption above a single row of grayscale organisation logos on an off-white background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b04a8f9945",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "split", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Invoice, get paid, and stay tax ready, anywhere you work in the world.",
+      "alt": "Ruul how it works section: serif headline above three numbered rows with text left and UI cards on grid panels right, plus a flags strip",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "292e8db4e3",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pattern-background", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Ruul divider section: thin band of light grid lines across the top with empty off-white space below",
+      "usable": false, "issues": ["mostly-blank"], "duplicateOf": null
+    },
+    {
+      "id": "2289b40a19",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "A platform built to make contract work easy for you and your clients.",
+      "alt": "Ruul features section: serif headline with two buttons above a dashboard screenshot on a dark green textured panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "44ead8f0d8",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "photography", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Ruul features section: bento grid of benefit tiles in dark green, lime and warm gray, with a portrait photo and a node diagram",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7e5905eebc",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "medium", "categoryAlternates": ["logo-cloud"], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Works with the wallets and bank accounts you already use.",
+      "alt": "Ruul integrations section: small caption above a row of grayscale bank and wallet logos on an off-white background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3e8c2b4a2f",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Get faster payouts, more control, and less chasing with exclusive features.",
+      "alt": "Ruul features section: serif headline above three feature cards in dark green, gray and lime with payout and toggle UI mockups",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e8895e8b35",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Ruul is synonymous of advanced online services, with a spike of high level customer service. They are very professional – highly recommended.",
+      "alt": "Ruul testimonials section: white card with a large quote and arrow controls above three rows of large serif stats on beige",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "98fb3a5ebd",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Frequently asked questions",
+      "alt": "Ruul faq section: dark green image card with serif headline and buttons on the left, three collapsed question rows on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d9ad7ac0ae",
+      "companyName": "Ruul", "companySlug": "ruul", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "dark-mode", "confidence": "medium" }],
+      "headline": "Start in minutes. Get paid tomorrow. No setup cost. No monthly fees.",
+      "alt": "Ruul footer section: serif CTA over dark green hills artwork, with a dark panel of link columns and a large Ruul wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

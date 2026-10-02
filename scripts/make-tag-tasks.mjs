@@ -1,12 +1,19 @@
 // Splits the inventory into tagging tasks for the AI workflow.
 // WebP capture batches are never split (one agent sees a whole site);
 // JPEGs are grouped by company. Writes data/agent-batches/*.json.
+import fs from 'node:fs';
 import path from 'node:path';
-import { DATA_DIR, CACHE_DIR, readJson, writeJson } from './lib/common.mjs';
+import { DATA_DIR, CACHE_DIR, GEN_DIR, readJson, writeJson } from './lib/common.mjs';
 
 const TARGET = Number(process.env.TASK_SIZE ?? 45);
 const OUT = path.join(DATA_DIR, 'agent-batches');
-const { items } = readJson(path.join(DATA_DIR, 'inventory.json'));
+const all = readJson(path.join(DATA_DIR, 'inventory.json')).items;
+// ONLY_UNTAGGED=1: only screenshots without an AI record yet (tasks are prefixed N).
+const ONLY_UNTAGGED = process.env.ONLY_UNTAGGED === '1';
+const tagged = new Set();
+const tagsDir = path.join(DATA_DIR, 'tags');
+for (const f of fs.readdirSync(tagsDir, { recursive: true }).filter((f) => f.endsWith('.json'))) for (const r of readJson(path.join(tagsDir, f))) tagged.add(r.id);
+const items = ONLY_UNTAGGED ? all.filter((it) => !tagged.has(it.id)) : all;
 const vision = readJson(path.join(CACHE_DIR, 'vision', 'index.json'));
 
 const toImage = (it) => ({
@@ -48,13 +55,15 @@ function pack(list, prefix) {
 const jpegUnits = [...units.values()].filter((u) => u.kind === 'jpeg').sort((a, b) => a.key.localeCompare(b.key));
 // WebP batches stay in capture order so neighbouring singletons share a task.
 const webpUnits = [...units.values()].filter((u) => u.kind === 'webp').sort((a, b) => a.key.localeCompare(b.key));
-const tasks = [...pack(jpegUnits, 'J'), ...pack(webpUnits, 'W')];
+const tasks = ONLY_UNTAGGED ? [...pack(jpegUnits, 'NJ'), ...pack(webpUnits, 'N')] : [...pack(jpegUnits, 'J'), ...pack(webpUnits, 'W')];
 
 for (const t of tasks) writeJson(path.join(OUT, 'tasks', `${t.taskId}.json`), t);
 
-const knownCompanies = [...new Set(items.filter((it) => it.kind === 'jpeg').map((it) => it.company))].sort();
+// Every company already on the site (slug + display name), so new captures reuse existing slugs.
+const knownCompanies = readJson(path.join(GEN_DIR, 'companies.json'), []).filter((c) => c.slug !== 'unknown').map((c) => ({ slug: c.slug, name: c.name, domain: c.domain }));
 writeJson(path.join(OUT, 'known-companies.json'), knownCompanies);
 
+if (!ONLY_UNTAGGED) {
 // Calibration set: ~20 JPEGs spread across categories + whole WebP batches (~20 images).
 const byCat = new Map();
 for (const it of items.filter((i) => i.kind === 'jpeg')) {
@@ -68,6 +77,7 @@ const webpPick = ['w010', 'w040', 'w090', 'w120'].map((k) => units.get(k)).filte
 const calibWebp = [];
 for (const u of webpPick) if (calibWebp.length + u.images.length <= 22) calibWebp.push(...u.images);
 writeJson(path.join(OUT, 'tasks', 'CAL.json'), { taskId: 'CAL', kind: 'mixed', batches: ['calibration'], images: [...calibJpeg, ...calibWebp] });
+console.log(`Calibration task: ${calibJpeg.length} jpeg + ${calibWebp.length} webp`);
+}
 
 console.log(`${tasks.length} tasks (${tasks.filter((t) => t.kind === 'jpeg').length} jpeg, ${tasks.filter((t) => t.kind === 'webp').length} webp); sizes: ${tasks.map((t) => t.images.length).join(',')}`);
-console.log(`Calibration task: ${calibJpeg.length} jpeg + ${calibWebp.length} webp`);

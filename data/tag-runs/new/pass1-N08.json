@@ -1,0 +1,422 @@
+{
+  "taskId": "N08",
+  "sites": [
+    { "batch": "w213", "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "confidence": "high", "evidence": "Rezi wordmark in nav and Rezi logo in the product screenshot" },
+    { "batch": "w214", "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "confidence": "high", "evidence": "Quote opens with 'Rezi is an awesome AI-based resume builder'; same styling as the other Rezi captures" },
+    { "batch": "w215", "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "confidence": "high", "evidence": "Headline 'Over 4.5 million users trust Rezi', footer © 2026 Rezi, support@rezi.io and Rezi logo" },
+    { "batch": "w216", "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "confidence": "high", "evidence": "CTA copy 'Join the millions who have used Rezi'; same Rezi blue" },
+    { "batch": "w217", "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "confidence": "high", "evidence": "FAQ question 'How does Rezi tailor my resume...'; same styling as the other Rezi captures" },
+    { "batch": "w218", "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "confidence": "high", "evidence": "Chatbase wordmark in nav and footer, © 2026 Chatbase Inc., giant CHATBASE wordmark" },
+    { "batch": "w219", "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "confidence": "high", "evidence": "Strawberry logo in nav and footer, copy repeatedly names Strawberry; footer © 2026 Dendrite Systems" },
+    { "batch": "w220", "companyName": "CodeRabbit", "companySlug": "coderabbit", "domain": "coderabbit.ai", "confidence": "high", "evidence": "Rabbit logo in nav, coderabbitai bot in the product UI, footer CodeRabbit Inc. © 2026 and CodeRabbit wordmark" },
+    { "batch": "w221", "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "confidence": "high", "evidence": "Linear wordmark in nav, Linear product UI, copy 'Linear sets a new standard'" },
+    { "batch": "w222", "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "confidence": "high", "evidence": "Quotes about Linear and caption 'Linear powers over 40,000 product teams'; same section as w221 customers" }
+  ],
+  "records": [
+    {
+      "id": "a51124a391",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "form", "confidence": "medium" }],
+      "headline": "Ranked #1 AI Resume Builder by Forbes",
+      "alt": "Rezi hero section: left headline with copy and CTA at right, resume upload bar, and a large resume editor screenshot below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2d51b49685",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Rezi testimonials section: single Forbes quote with a blue highlighted lead-in, author avatar and Forbes wordmark on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "68eac5e604",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "carousel", "confidence": "high" }],
+      "headline": "ATS-friendly resume formats that land jobs",
+      "alt": "Rezi features section: resume template gallery with style tabs, two resume previews in a slider with arrows and a rated description",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1800ea6e36",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "medium", "categoryAlternates": ["use-case"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Find inspiration with great resume examples",
+      "alt": "Rezi blog & resources section: two-row grid of resume example category cards with company logos and a gray view-all tile",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "59b0020e25",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "video", "confidence": "high" }, { "id": "photography", "confidence": "medium" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Over 4.5 million users trust Rezi",
+      "alt": "Rezi testimonials section: two-column review wall with a video testimonial card, star-rated quote cards and a peach Reddit quote",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8d9998d8af",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Choose from our most popular plans",
+      "alt": "Rezi pricing section: headline and Trustpilot quote on the left, blue Pro plan card and white Free plan card with checklists at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2bc9254e63",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Rezi footer section: logo with user count and support email, five link columns, rating and SOC badge, copyright and social icons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6c6526dd8b",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Join the millions who have used Rezi to land their dream job.",
+      "alt": "Rezi call to action section: blue full-width band with a two-tone headline on the left and a white pill button on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5214633358",
+      "companyName": "Rezi", "companySlug": "rezi", "domain": "rezi.ai", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Your questions, answered.",
+      "alt": "Rezi faq section: two-tone headline above a side tab list and an accordion of question cards with one expanded answer",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "55ed0a8616",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "Conversational agents for customer experience",
+      "alt": "Chatbase hero section: left headline with italic serif words and CTAs, right blue patterned panel with a data sources UI card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "333d224add",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Chatbase logo cloud section: bordered three-row grid of gray customer logos on a light background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "241456bde9",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "medium", "categoryAlternates": ["feature", "testimonial"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "3d", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "One agent for every customer interaction, runs support, sales, and product guidance 24/7",
+      "alt": "Chatbase use cases section: three agent cards with colorful isometric cubes on line grids, plus an OpenAI quote with portrait below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bc874b25cd",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }, { "id": "tabs", "confidence": "medium" }],
+      "headline": "The agent lifecycle",
+      "alt": "Chatbase how it works section: four numbered lifecycle steps beside a magenta panel of agent config cards, customer story strip below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7e48a65f4d",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "The complete product suite for customer-facing agents. Build, deploy and optimize across every channel, on one platform.",
+      "alt": "Chatbase features section: bento grid of product UI tiles for procedures, widgets, helpdesk and analytics, a centered quote and logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c3e1ef63c6",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "bold-color", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }],
+      "headline": "Build once and deploy everywhere",
+      "alt": "Chatbase features section: blue patterned panel with a chat app mockup on the left, headline and Chat, Email, Voice selector on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "45d1527dfe",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "Trusted by over 10,000 brands.",
+      "alt": "Chatbase testimonials section: slider of photo-backed customer story cards with arrows, G2 rating and badges below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c01a9040d1",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Enterprise-grade security",
+      "alt": "Chatbase security section: dark centered headline over three cards with GDPR, SOC 2 and HIPAA diamond badges and a row of trust points",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "693c1e5cf7",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Built for your industry",
+      "alt": "Chatbase use cases section: industry slider with an expanded retail photo card with chat bubbles and narrow grayscale photo cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4b0d4e8f70",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "The world’s best customer experiences run on Chatbase",
+      "alt": "Chatbase call to action section: centered black headline, short copy and two buttons in a white bordered box",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bcb0aafc5c",
+      "companyName": "Chatbase", "companySlug": "chatbase", "domain": "chatbase.co", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "medium" }, { "id": "oversized-type", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Chatbase footer section: white link-column panel on a blue background above a giant serif Chatbase wordmark with compliance stickers",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ab8e321379",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "AI that works alongside you",
+      "alt": "Strawberry hero section: centered headline and buttons, cartoon characters perched on a browser screenshot showing an AI agent task",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5870b5d2a1",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Meet your companion",
+      "alt": "Strawberry features section: logo strip on top, then headline and download button beside three cartoon companion characters",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4a0fe74567",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Learns from your tabs, works in your tabs",
+      "alt": "Strawberry integrations section: centered headline and copy above rows of fading app icons and the top of a prompt input box",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "62d64d85e1",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Your entire AI stack in one place",
+      "alt": "Strawberry features section: centered headline over a 2x2 grid of cards with UI snippets for personalization, slides, notes and workflows",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "e6f107cfc0",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "How Strawberry can help you",
+      "alt": "Strawberry use cases section: three use case cards with mini browser mockups, characters and tool icons, with slider arrows",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "54c5cf1379",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Get started in minutes",
+      "alt": "Strawberry how it works section: three columns for install, import data and meet your companion, with a download button and characters",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "abe5fe3a7a",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "There are 1.5 billion websites, Strawberry can use them all",
+      "alt": "Strawberry features section: centered headline above a browser screenshot of a LinkedIn profile with an AI research chat panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c70582a936",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "Loved by ambitious teams",
+      "alt": "Strawberry testimonials section: centered headline over a 3x2 grid of rounded quote cards with avatars on a cream background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "033cd07e04",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "We're committed to safety and security for teams and individuals",
+      "alt": "Strawberry security section: headline and download button on the left, 2x2 grid of icon trust points on the right, pixel fade below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "badb5d6939",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Frequently asked questions",
+      "alt": "Strawberry faq section: headline and contact button on the left, questions as chat bubbles with one dark answer and a character",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d1e1e6a5be",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Experience Strawberry for free",
+      "alt": "Strawberry call to action section: centered headline and dark download button above a faded customer logo strip",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f55b65ffc3",
+      "companyName": "Strawberry", "companySlug": "strawberry", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Strawberry footer section: logo and copyright on the left, four link columns on the right, legal links row on a cream background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f398bc800b",
+      "companyName": "CodeRabbit", "companySlug": "coderabbit", "domain": "coderabbit.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "tabs", "confidence": "high" }],
+      "headline": "The future isn't writing code. It's reviewing it.",
+      "alt": "CodeRabbit hero section: dark page with left headline, copy and CTA at right, and a tabbed product panel showing a PR review comment",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "eb53ed470d",
+      "companyName": "CodeRabbit", "companySlug": "coderabbit", "domain": "coderabbit.ai", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "medium", "categoryAlternates": ["stats", "testimonial"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "CodeRabbit logo cloud section: dark bordered grid of customer logos above stat tiles for customers and repositories and an NVIDIA quote",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f4930df702",
+      "companyName": "CodeRabbit", "companySlug": "coderabbit", "domain": "coderabbit.ai", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "medium", "categoryAlternates": ["testimonial"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Raise the quality bar. Lower the review burden.",
+      "alt": "CodeRabbit stats section: dark row of four customer outcome cards with logos, large percentages and case study links",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2679dcdec3",
+      "companyName": "CodeRabbit", "companySlug": "coderabbit", "domain": "coderabbit.ai", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }],
+      "headline": "",
+      "alt": "CodeRabbit footer section: dark link columns with orange labels, email subscribe field and a huge outlined CodeRabbit wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "26f87e2086",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "The product development system for teams and agents",
+      "alt": "Linear hero section: dark page with a large left-aligned headline and a full-width issue tracker screenshot with an agent chat panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1514953fc8",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "high", "categoryAlternates": ["logo-cloud"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.",
+      "alt": "Linear value proposition section: dark logo strip, two-tone statement and three columns with isometric line drawings and short benefits",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f0c70cf232",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Intake and integrations",
+      "alt": "Linear features section: dark headline and copy above a Slack thread overlapping a kanban board screenshot, feature links below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9d31a00716",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "AI and automations",
+      "alt": "Linear features section: dark headline and copy above a row of agent chat windows fading off both edges, feature links below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4728a06f65",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Changelog",
+      "alt": "Linear blog & resources section: dark changelog with four dated entries along a horizontal timeline and a view-all link",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f860a2d29e",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "medium" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Linear testimonials section: dark background with a large blue-lavender gradient quote card and a lime quote card, caption below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7ef1abb94c",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Built for the future. Available today.",
+      "alt": "Linear call to action section: centered two-line headline with light and dark pill buttons on a black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d4bde9d256",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Linear footer section: dark footer with a logo mark, five link columns and a row of legal links",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2eb01a8d70",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Linear testimonials section: dark background with a large white quote card and a lavender quote card, caption below",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "f860a2d29e"
+    }
+  ]
+}

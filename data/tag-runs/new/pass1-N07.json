@@ -1,0 +1,425 @@
+{
+  "taskId": "N07",
+  "sites": [
+    { "batch": "w200", "companyName": "Deck", "companySlug": "deck", "domain": null, "confidence": "medium", "evidence": "use case list (Agentic Payments, Bill Fetch, Card Switch, Spend Management) matches the Deck footer use cases in w201; no logo visible" },
+    { "batch": "w201", "companyName": "Deck", "companySlug": "deck", "domain": null, "confidence": "high", "evidence": "giant DECK wordmark and (c) 2026 Deck Software Inc. in footer" },
+    { "batch": "w202", "companyName": "Teak", "companySlug": "teak", "domain": null, "confidence": "high", "evidence": "teak wordmark in nav, 'studios use Teak' in hero copy" },
+    { "batch": "w203", "companyName": "Teak", "companySlug": "teak", "domain": null, "confidence": "high", "evidence": "copy 'Teak integrates in under a week', same visual style as w202" },
+    { "batch": "w204", "companyName": "Teak", "companySlug": "teak", "domain": null, "confidence": "high", "evidence": "teak logo in dashboard, (c) 2026 Teak in footer, 'Get a tour of Teak today'" },
+    { "batch": "w205", "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "confidence": "high", "evidence": "heyclicky wordmark in nav and hero, product name repeated in FAQ and footer wordmark" },
+    { "batch": "w206", "companyName": "Melius", "companySlug": "melius", "domain": null, "confidence": "high", "evidence": "Melius logo in nav, MELIUS label on persona card" },
+    { "batch": "w207", "companyName": "Melius", "companySlug": "melius", "domain": null, "confidence": "high", "evidence": "large Melius wordmark and (c) 2026 Melius AI, Inc. in footer" },
+    { "batch": "w208", "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "confidence": "high", "evidence": "Antimetal logo in nav, 'Antimetal is the autonomous system for production' in hero copy" },
+    { "batch": "w209", "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "confidence": "high", "evidence": "FAQ questions and intro name Antimetal repeatedly" },
+    { "batch": "w210", "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "confidence": "high", "evidence": "dotted Antimetal logo mark and tagline 'The autonomous system for production' in footer" },
+    { "batch": "w211", "companyName": "Supercut", "companySlug": "supercut", "domain": null, "confidence": "high", "evidence": "Supercut logo in nav, product name in hero, CTA and footer links" },
+    { "batch": "w212", "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "confidence": "high", "evidence": "attio wordmark in nav and footer, (c) 2026 Attio Ltd." }
+  ],
+  "records": [
+    {
+      "id": "a14bc772e7",
+      "companyName": "Deck", "companySlug": "deck", "domain": null, "companyConfidence": "medium",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Endless use cases for your business",
+      "alt": "Deck use cases section: phone payment mockup over green hills at left, headline and vertical list of use case links at right, dark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6123a66054",
+      "companyName": "Deck", "companySlug": "deck", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }],
+      "headline": "",
+      "alt": "Deck footer section: six link columns with Ask Claude and Ask ChatGPT buttons above a full-width white DECK wordmark on black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c25dc22dfb",
+      "companyName": "Teak", "companySlug": "teak", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "metrics", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "The retention engine behind irresistible games",
+      "alt": "Teak hero section: left-aligned headline with yellow CTA and stats, phone push notification mockup at right, studio logo row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "deef85f5c0",
+      "companyName": "Teak", "companySlug": "teak", "domain": null, "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "medium", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "A masterclass in retention",
+      "alt": "Teak divider section: mint green promo banner with headline and short copy at left, pink diamond sparkles and yellow Learn more button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b80f615dcb",
+      "companyName": "Teak", "companySlug": "teak", "domain": null, "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "From setup to launch in 7, 6, 5...",
+      "alt": "Teak how it works section: headline and demo button in a bordered box at left, three stacked step cards for integrate, build, execute",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f58d5b96db",
+      "companyName": "Teak", "companySlug": "teak", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["footer", "newsletter"], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Ready to level up?",
+      "alt": "Teak call to action section: headline and buttons beside a dashboard screenshot, then email signup, link columns and round color icons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ce37a84a57",
+      "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "heyclicky",
+      "alt": "heyclicky hero section: centered wordmark headline with download buttons, scattered mac video windows and stickers around a large video player",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "795aa55068",
+      "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "alternating", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "",
+      "alt": "heyclicky features section: three zig-zag rows pairing short captions and colored heyclicky pills with mac-window videos of laptops",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3650cafb26",
+      "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "medium" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "",
+      "alt": "heyclicky about & mission section: founder note in a mac notes window with signature, framed by a rainbow arc of 3D folders",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0a22d25c77",
+      "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "medium" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "they use it everyday",
+      "alt": "heyclicky testimonials section: marquee headline above a three-column wall of tweet cards in mac windows, user count bar at bottom",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a814bced04",
+      "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "full-bleed-media", "confidence": "high" }, { "id": "glassmorphism", "confidence": "medium" }],
+      "headline": "heyclicky, your way",
+      "alt": "heyclicky pricing section: three plan cards with monthly/yearly toggle over a blue cloudy sky photo, dark student discount bar below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "12778a81eb",
+      "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "frequently asked questions",
+      "alt": "heyclicky faq section: centered headline over a single-column accordion of white question rows, first one expanded, on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1dfd0cc454",
+      "companyName": "heyclicky", "companySlug": "heyclicky", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "oversized-type", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "heyclicky footer section: four link columns above a giant wordmark built from blue folder icons, copyright line on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1977a9aacd",
+      "companyName": "Melius", "companySlug": "melius", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Create anything you imagine",
+      "alt": "Melius hero section: dark nav bar over a centered serif headline inside a curved gallery of photos and artwork, logo row at bottom",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e56c395a48",
+      "companyName": "Melius", "companySlug": "melius", "domain": null, "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "Agencies",
+      "alt": "Melius use cases section: stacked card with a golf apparel photo and serif Agencies copy, floating labeled thumbnails, persona tab bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "779e9c20b2",
+      "companyName": "Melius", "companySlug": "melius", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "oversized-type", "confidence": "medium" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "Don't miss out",
+      "alt": "Melius footer section: large gray Melius wordmark behind a dark card with email signup field, three link columns and legal row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c584939c5f",
+      "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Production that runs itself.",
+      "alt": "Antimetal hero section: pill nav, serif headline with two buttons at left, radial burst of orange, yellow and black dots at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6b648d29b2",
+      "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "You may be able to build software rapidly, but if people can't depend on it, if you can't figure out what breaks, well, people aren't going to use it.",
+      "alt": "Antimetal testimonials section: video thumbnail of a speaker at left, large serif quote from a Google VP with Google logo at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8df1dc8585",
+      "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "From the research log.",
+      "alt": "Antimetal blog & resources section: serif headline with View All button over three article cards with blue blueprint line drawings",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fc1d111851",
+      "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }],
+      "headline": "Operating production with agents",
+      "alt": "Antimetal faq section: serif headline and intro side by side above a bordered accordion of four serif questions on warm gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0e07fbcfda",
+      "companyName": "Antimetal", "companySlug": "antimetal", "domain": "antimetal.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "warm-neutral", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Antimetal footer section: five corner-bracketed boxes with serif link lists, status badge, tagline and dotted logo mark on warm gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b64b0c4e4a",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "code", "confidence": "medium" }],
+      "headline": "Supercut is how teams explain work better.",
+      "alt": "Supercut hero section: left-aligned headline with two buttons and customer logos above a recorder panel with webcam video over app UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dd1d86fd19",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Skip your next meeting send a video message.",
+      "alt": "Supercut use cases section: centered headline with Update, Report, Demo, Educate tabs above a video message player with chapter list",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8adf4b0d13",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "photography", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Capture every detail record it all smoothly.",
+      "alt": "Supercut features section: headline row with Capture button above a webcam recording frame of a smiling presenter with 4K badge",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d960de0636",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Share instantly look pro every time.",
+      "alt": "Supercut features section: headline row with Share button above a branded video player showing a Board Deck slide and chapter list",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0b5abaf016",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Polish it further look more produced.",
+      "alt": "Supercut features section: headline row above a transcript editor with struck-out filler words, Layout, Zoom, Cut tools and a presenter",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2716b5ffec",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Move work forward from view to action.",
+      "alt": "Supercut features section: headline row above a Claude Code terminal prompt and a generating-document panel over faded presenters",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "869d305ade",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Supercut value proposition section: three columns with red glowing icons, short benefit headings and copy on a dark background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "03948b0392",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Supercut has completely replaced Loom for me. It's so clean.",
+      "alt": "Supercut testimonials section: large quote and Meet our customers button at left, portrait photo at right, four logo tiles below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ca90b8ecac",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Enterprise ready. SOC2, ISO27001 & GDPR.",
+      "alt": "Supercut security section: two-tone headline at left, compliance copy at right, outlined shield icons and Trust Center buttons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2a947f6dbe",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Supercut divider section: empty near-black band with faint vertical border lines and no content",
+      "usable": false, "issues": ["mostly-blank", "not-a-section"], "duplicateOf": null
+    },
+    {
+      "id": "3a4ee7e63e",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Get started with Supercut.",
+      "alt": "Supercut call to action section: centered headline with two buttons between dimmed photos of people working, near-black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4f9fabde0b",
+      "companyName": "Supercut", "companySlug": "supercut", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Supercut footer section: logo with status indicator, four link columns, legal links and SOC2, ISO 27001, GDPR badges on dark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c05f6409ea",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Welcome to agentic revenue.",
+      "alt": "Attio hero section: announcement bar and nav over a centered headline with two buttons, above an app window with sidebar and AI chat",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1b32f775c7",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Attio logo cloud section: two rows of five customer logos in bordered grid cells, including granola, Modal, Railway and taskrabbit",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4255575a0d",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "The intelligent system that never sleeps. Picks up leads at 2am. Catches renewals before they slip. Hands you the answer before you ask.",
+      "alt": "Attio features section: two-tone headline above a vertical tab list beside a companies table with email draft and two smaller UI cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5849877526",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Live from day one. Connect your inbox and calendar. Attio learns your business and builds itself around it, before your first agent even gets to work.",
+      "alt": "Attio features section: centered two-tone headline with Start for free button above a contact record UI with highlights and activity",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3075f11ab6",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Universal Context™",
+      "alt": "Attio features section: large centered headline over a glowing horizon arc, five equal feature cells with icons below, dark background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c02e219f49",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "All of the signals, none of the noise. Ready to act on.",
+      "alt": "Attio features section: headline with See more button and an expandable list at left, white wireframe funnel line art at right, dark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e3ad01ff52",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Your whole stack, connected.",
+      "alt": "Attio integrations section: centered headline and button above a row of dark rounded app icons fading at both edges, striped dark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "296a97470d",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Run at any scale. Production-grade for your team and agents.",
+      "alt": "Attio stats section: two-tone headline and four metrics at left beside a rising blue growth curve with vertical line fill on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8a2795a585",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["logo-cloud"], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Trusted by 30,000+ customers. From first agent to enterprise scale.",
+      "alt": "Attio testimonials section: headline above a customer logo tab bar and a Granola case study with stat headline beside a street photo",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6f991f9b79",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": ["newsletter"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Better as you grow. New features every week to keep pace with you.",
+      "alt": "Attio blog & resources section: changelog headline above four dated update columns, with an email subscribe row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "219a4fda78",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Agentic revenue runs on Attio.",
+      "alt": "Attio call to action section: centered two-line headline with Talk to sales and Start for free buttons on a dark striped background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "550ab727f4",
+      "companyName": "Attio", "companySlug": "attio", "domain": "attio.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Attio footer section: logo at left, link columns for platform, company, imports, apps and resources, social icons and legal row on dark",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

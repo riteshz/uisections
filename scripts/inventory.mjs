@@ -1,11 +1,13 @@
-// Scans the original screenshots (one folder up), derives deterministic facts
-// and freezes WebP capture batches. Safe to re-run: ids are content hashes and
-// existing batch assignments are preserved.
+// Scans the original screenshots (the Sections folder and its image
+// subfolders such as new/), derives deterministic facts and freezes WebP
+// capture batches. Incremental: ids are content hashes, already-catalogued
+// screenshots are kept even if their original file has since been moved
+// (their web derivatives are cached), and only new files are analysed.
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
-import { SRC_DIR, DATA_DIR, IMAGE_EXT, readJson, writeJson, mapLimit, slugify } from './lib/common.mjs';
+import { SITE_DIR, SRC_DIR, DATA_DIR, IMAGE_EXT, readJson, writeJson, mapLimit, slugify } from './lib/common.mjs';
 
 const categories = readJson(path.join(DATA_DIR, 'vocab', 'categories.json'));
 const filenameCategory = new Map();
@@ -17,7 +19,8 @@ const WEBP_RE = /^(\d+)-(.+?)((?: copy(?: \d+)?)|(?: \(\d+\)))?\.webp$/;
 
 const BATCH_GAP_MS = 3000;
 
-function parseName(file) {
+function parseName(filePath) {
+  const file = path.basename(filePath);
   const ext = path.extname(file).toLowerCase();
   if (ext === '.jpeg' || ext === '.jpg') {
     const m = file.match(JPEG_RE);
@@ -102,26 +105,57 @@ function hamming(a, b) {
   return c;
 }
 
-const files = fs.readdirSync(SRC_DIR).filter((f) => IMAGE_EXT.test(f) && fs.statSync(path.join(SRC_DIR, f)).isFile()).sort();
-console.log(`Scanning ${files.length} images in ${SRC_DIR}`);
-const items = await mapLimit(files, 8, analyse, 'analysed');
-
-// Duplicate ids would mean byte-identical files; keep the first, record the rest.
-const byId = new Map();
-const exactDuplicates = [];
-for (const it of items) {
-  if (byId.has(it.id)) exactDuplicates.push({ id: it.id, file: it.file, sameAs: byId.get(it.id).file });
-  else byId.set(it.id, it);
+/** Image files in the Sections folder and its subfolders (never the site itself), as paths relative to SRC_DIR. */
+function listSources() {
+  const out = [];
+  for (const entry of fs.readdirSync(SRC_DIR, { withFileTypes: true })) {
+    if (entry.name.startsWith('.')) continue;
+    if (entry.isFile() && IMAGE_EXT.test(entry.name)) out.push(entry.name);
+    else if (entry.isDirectory() && path.join(SRC_DIR, entry.name) !== SITE_DIR) {
+      for (const f of fs.readdirSync(path.join(SRC_DIR, entry.name))) {
+        const rel = path.join(entry.name, f);
+        if (IMAGE_EXT.test(f) && fs.statSync(path.join(SRC_DIR, rel)).isFile()) out.push(rel);
+      }
+    }
+  }
+  return out.sort();
 }
-const unique = [...byId.values()];
 
-// Near-duplicate candidates (confirmed visually during tagging).
-for (const it of unique) it.nearDuplicates = [];
-for (let i = 0; i < unique.length; i++) for (let j = i + 1; j < unique.length; j++) {
-  const d = hamming(unique[i].dhash, unique[j].dhash);
+const previous = readJson(path.join(DATA_DIR, 'inventory.json'), { items: [], exactDuplicates: [] });
+const known = new Map(previous.items.map((it) => [it.id, it]));
+const exactDuplicates = [...(previous.exactDuplicates ?? [])];
+
+const files = listSources();
+console.log(`Scanning ${files.length} images under ${SRC_DIR} (${known.size} already catalogued)`);
+const hashed = await mapLimit(files, 8, async (file) => ({
+  file,
+  id: crypto.createHash('sha256').update(fs.readFileSync(path.join(SRC_DIR, file))).digest('hex').slice(0, 10),
+}), 'hashed');
+
+const seenNow = new Map();
+const freshFiles = [];
+for (const { file, id } of hashed) {
+  if (seenNow.has(id)) {
+    if (!exactDuplicates.some((d) => d.file === file)) exactDuplicates.push({ id, file, sameAs: seenNow.get(id) });
+    continue;
+  }
+  seenNow.set(id, file);
+  if (known.has(id)) known.get(id).file = file; // follow the file if it moved within the folder
+  else freshFiles.push(file);
+}
+const fresh = await mapLimit(freshFiles, 8, analyse, 'analysed');
+for (const it of known.values()) it.sourceMissing = !seenNow.has(it.id) || undefined;
+for (const it of fresh) it.nearDuplicates = [];
+
+const unique = [...known.values(), ...fresh];
+
+// Near-duplicate candidates for new screenshots (confirmed visually during tagging).
+for (const a of fresh) for (const b of unique) {
+  if (a === b || a.nearDuplicates.some((d) => d.id === b.id)) continue;
+  const d = hamming(a.dhash, b.dhash);
   if (d <= 4) {
-    unique[i].nearDuplicates.push({ id: unique[j].id, distance: d });
-    unique[j].nearDuplicates.push({ id: unique[i].id, distance: d });
+    a.nearDuplicates.push({ id: b.id, distance: d });
+    if (!b.nearDuplicates.some((x) => x.id === a.id)) b.nearDuplicates.push({ id: a.id, distance: d });
   }
 }
 
@@ -161,4 +195,5 @@ writeJson(path.join(DATA_DIR, 'inventory.json'), { generatedAt: new Date().toISO
 
 const kinds = unique.reduce((m, it) => ((m[it.kind] = (m[it.kind] ?? 0) + 1), m), {});
 const withNear = unique.filter((it) => it.nearDuplicates.length).length;
-console.log(`Inventory: ${unique.length} unique images`, kinds, `| exact dups ${exactDuplicates.length} | near-dup candidates ${withNear} | webp batches ${frozen.webp.length}`);
+const missing = unique.filter((it) => it.sourceMissing).length;
+console.log(`Inventory: ${unique.length} unique images (${fresh.length} new, ${missing} with originals moved elsewhere)`, kinds, `| exact dups ${exactDuplicates.length} | near-dup candidates ${withNear} | webp batches ${frozen.webp.length}`);

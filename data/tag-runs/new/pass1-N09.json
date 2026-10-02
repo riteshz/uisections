@@ -1,0 +1,96 @@
+{
+  "taskId": "N09",
+  "sites": [
+    { "batch": "w223", "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "confidence": "high", "evidence": "copy says feedback becomes a customer request linked to a Linear project or issue; Linear Customer Requests UI" },
+    { "batch": "w224", "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "confidence": "high", "evidence": "Stripe for startups button, Stripe Startups programme and Stripe Atlas cards, stories 'with Stripe'" },
+    { "batch": "w225", "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "confidence": "high", "evidence": "stripe wordmark in nav, Stripe Sessions logo, 'See the latest from Stripe' copy" }
+  ],
+  "records": [
+    {
+      "id": "d0eafad403",
+      "companyName": "Linear", "companySlug": "linear", "domain": "linear.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [
+        { "id": "dark-mode", "confidence": "high" },
+        { "id": "product-ui", "confidence": "high" },
+        { "id": "monochrome", "confidence": "high" }
+      ],
+      "headline": "Build what customers actually want",
+      "alt": "Linear features section: headline left, short copy and link right, above a wide panel of stacked dark customer request cards on near-black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d7222439dd",
+      "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["use-case"], "filenameDisagree": false,
+      "tags": [
+        { "id": "carousel", "confidence": "high" },
+        { "id": "card-grid", "confidence": "high" }
+      ],
+      "headline": "Build a foundation for your startup that enables faster growth",
+      "alt": "Stripe testimonials section: startup headline and button above a carousel of customer story cards, with two gradient promo cards below",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "52054ffebf",
+      "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [
+        { "id": "gradient", "confidence": "high" },
+        { "id": "logo-strip", "confidence": "high" }
+      ],
+      "headline": "Financial infrastructure to grow your revenue.",
+      "alt": "Stripe hero section: nav bar, left-aligned headline with gray subcopy and invite button, orange-pink gradient ribbon at right, customer logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d098269424",
+      "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [
+        { "id": "bento", "confidence": "high" },
+        { "id": "product-ui", "confidence": "high" }
+      ],
+      "headline": "Flexible solutions for every business model.",
+      "alt": "Stripe features section: left-aligned headline above a six-tile bento grid with POS terminal, checkout, billing chart, card and accounts table UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d633df1a83",
+      "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "medium", "categoryAlternates": ["blog", "cta"], "filenameDisagree": false,
+      "tags": [
+        { "id": "photography", "confidence": "high" },
+        { "id": "full-bleed-media", "confidence": "medium" }
+      ],
+      "headline": "Building the economic infrastructure for AI",
+      "alt": "Stripe divider section: rounded banner with a keynote stage photo, white headline and Watch now button at left, Stripe Sessions logo at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "87a4da594c",
+      "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [
+        { "id": "metrics", "confidence": "high" },
+        { "id": "centered", "confidence": "medium" },
+        { "id": "gradient", "confidence": "high" }
+      ],
+      "headline": "The backbone of global commerce",
+      "alt": "Stripe stats section: centered headline above a row of four large metrics, with a purple-pink radiating line artwork glowing below",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "bf442296bd",
+      "companyName": "Stripe", "companySlug": "stripe", "domain": "stripe.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [
+        { "id": "carousel", "confidence": "high" },
+        { "id": "photography", "confidence": "medium" }
+      ],
+      "headline": "What's happening",
+      "alt": "Stripe blog & resources section: news carousel with a large purple Annual letter card and arrows, above a Book of the week cover and blurb",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

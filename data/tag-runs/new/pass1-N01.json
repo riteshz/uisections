@@ -1,0 +1,425 @@
+{
+  "taskId": "N01",
+  "sites": [
+    { "batch": "w141", "companyName": "Lovable", "companySlug": "lovable", "domain": "lovable.dev", "confidence": "high", "evidence": "Lovable logo and wordmark in nav, product name in hero headline and prompt box copy, heart logo in footer" },
+    { "batch": "w142", "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "confidence": "high", "evidence": "customer.io wordmark in nav and footer, © 2026 Peaberry Software, Inc. in footer, Customer.io named in case study quotes" },
+    { "batch": "w143", "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "confidence": "high", "evidence": "customer.io wordmark in nav of pricing page" },
+    { "batch": "w144", "companyName": "Pryzm", "companySlug": "pryzm", "domain": null, "confidence": "high", "evidence": "Pryzm wordmark in nav, 'Pryzm Pro' plan and 'Get Pryzm Pro' button in pricing" },
+    { "batch": "w145", "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "confidence": "high", "evidence": "customer.io wordmark in nav, Customer.io named in hero copy and customer quote" },
+    { "batch": "w146", "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "confidence": "high", "evidence": "same case studies section as 78b49f51f1 from the Customer.io homepage capture, matching gold eyebrow label style" },
+    { "batch": "w147", "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "confidence": "medium", "evidence": "no wordmark; Customer.io design system (gold eyebrow marker, green square labels) and the same Purchase Paid Plan / Progress chart product UI as the Customer.io dashboard" },
+    { "batch": "w148", "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "confidence": "high", "evidence": "Customer.io named in two of the customer quotes" },
+    { "batch": "w149", "companyName": "Clarion", "companySlug": "clarion", "domain": null, "confidence": "high", "evidence": "Clarion logo in nav and footer, © 2026 Clarion, 'Why leading practices choose Clarion' heading" },
+    { "batch": "w150", "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "confidence": "high", "evidence": "customer.io wordmark in nav, Customer.io named in hero copy and in product UI sidebar" },
+    { "batch": "w151", "companyName": "Arrakis", "companySlug": "arrakis", "domain": null, "confidence": "high", "evidence": "arrakis logo in nav, Arrakis named in hero copy" },
+    { "batch": "w152", "companyName": "Arrakis", "companySlug": "arrakis", "domain": null, "confidence": "medium", "evidence": "no logo visible; filename continues the Arrakis hero headline, and the typeface, mono eyebrow label and capitalised 'Agents' wording match the Arrakis page" },
+    { "batch": "w153", "companyName": "Arrakis", "companySlug": "arrakis", "domain": null, "confidence": "high", "evidence": "Arrakis named in stat labels ('Countries Arrakis is live in', 'Arrakis Harness')" }
+  ],
+  "records": [
+    {
+      "id": "0a423ec916",
+      "companyName": "Lovable", "companySlug": "lovable", "domain": "lovable.dev", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "gradient", "confidence": "high" }, { "id": "form", "confidence": "high" }],
+      "headline": "Build something Lovable",
+      "alt": "Lovable hero section: centered headline and AI prompt input box over a vivid blue, pink and red gradient, with top navigation bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a375e6f55d",
+      "companyName": "Lovable", "companySlug": "lovable", "domain": "lovable.dev", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "One platform. Endless possibilities.",
+      "alt": "Lovable features section: left-aligned headline above three equal cards with prompt box, editor preview and settings menu UI mockups",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0d8614d291",
+      "companyName": "Lovable", "companySlug": "lovable", "domain": "lovable.dev", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }],
+      "headline": "For building and beyond",
+      "alt": "Lovable features section: dark split layout with headline and capability list beside a glowing browser diagram and integration icon grid",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6e75684665",
+      "companyName": "Lovable", "companySlug": "lovable", "domain": "lovable.dev", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Trusted by top brands",
+      "alt": "Lovable logo cloud section: two-column grid of brand logos like adidas, NVIDIA and asana beside a heading, copy and Learn more button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c6751240c8",
+      "companyName": "Lovable", "companySlug": "lovable", "domain": "lovable.dev", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "The proof is in production",
+      "alt": "Lovable testimonials section: centered heading above a case study carousel with a quote, three metrics, founder avatar and arrow controls",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "80422caee7",
+      "companyName": "Lovable", "companySlug": "lovable", "domain": "lovable.dev", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "form", "confidence": "high" }],
+      "headline": "Ready to bring your idea to life?",
+      "alt": "Lovable footer section: centered prompt input CTA above a cream footer card with five link columns, set on a blue, pink and orange gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8acc3ee98a",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "More impact from every email",
+      "alt": "Customer.io hero section: large left-aligned headline with two buttons above a reports dashboard screenshot set over an office photo",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c1418f614c",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "The customer engagement platform trusted by 9,000+ brands",
+      "alt": "Customer.io logo cloud section: two rows of customer logos in bordered cells divided by a trusted-by-9,000+ brands caption",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "87b7fc31ae",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "Unify your data, messaging, and AI in one platform, so every customer interaction becomes a signal you can act on to lift conversion, retention, and revenue",
+      "alt": "Customer.io value proposition section: centered statement with multicolored keywords above three icon columns of benefits",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bde827647b",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "Everything you need to engage customers",
+      "alt": "Customer.io features section: headline above a row of five tall photo panels with a dark teal overlay, each labeled with a capability",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d135005840",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Meet your AI Agent",
+      "alt": "Customer.io features section: split layout with headline and accordion list beside an AI agent chat input on a soft textured panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "13525cf09d",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Support every stage of the customer journey",
+      "alt": "Customer.io use cases section: headline above a 2x2 bordered grid of lifecycle stages, each with a green line icon and short copy",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8264286b18",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["integration", "security"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "bento", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Infrastructure built for teams and the agents that support them",
+      "alt": "Customer.io features section: dark bento grid with an integration icon tile, abstract hexagon and grid artwork, and security and support tiles",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b52c796476",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "alternating", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }, { "id": "photography", "confidence": "medium" }, { "id": "metrics", "confidence": "medium" }],
+      "headline": "Trusted to power billions of customer interactions",
+      "alt": "Customer.io testimonials section: two case study rows on peach and pale blue cards with cut-out portraits, quotes and stat pairs",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c2aa70c39f",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "pattern-background", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Optimize your messaging",
+      "alt": "Customer.io call to action section: centered headline and two buttons on a dot grid, above a row of compliance badges",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "27e8688378",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Customer.io footer section: dark teal footer with logo, link columns with New badges, social icons, copyright and system status",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5f1f201303",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": ["hero"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "Straightforward pricing that grows with you",
+      "alt": "Customer.io pricing section: nav and centered headline above three plan cards with mint-tinted headers, prices, buttons and checklists",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9df41957ca",
+      "companyName": "Pryzm", "companySlug": "pryzm", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Backgrounds nobody else has, in seconds",
+      "alt": "Pryzm hero section: black canvas of scattered colorful background sample cards with labels, headline at bottom left and buttons at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d00d85d721",
+      "companyName": "Pryzm", "companySlug": "pryzm", "domain": null, "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Free to create. Pro to export without limits.",
+      "alt": "Pryzm pricing section: black background with centered headline, monthly/yearly toggle and two plan cards with feature checklists",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ffc8cb0713",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Fuel growth with unified data",
+      "alt": "Customer.io hero section: centered headline and buttons above an integrations directory screenshot on an office photo, with a logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2a83afbe0a",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["testimonial"], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Connect, model, and activate your data your way",
+      "alt": "Customer.io features section: four feature cells around a central envelope and arrows graphic, followed by a centered customer quote",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0a6704e56f",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "From A to B faster",
+      "alt": "Customer.io integrations section: dark teal band with headline and rows of integration pills tagged Data in or Data out",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "432ac71796",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "alternating", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Everything you need to build automations that drive business outcomes",
+      "alt": "Customer.io features section: centered headline above three alternating rows pairing copy with colorful gradient panels of connector diagrams",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "715eb04f67",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "medium" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Additional features",
+      "alt": "Customer.io features section: left-aligned heading above a 4x2 grid of feature items with small gold icons, titles and descriptions",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "aac98fca4a",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Customer.io testimonials section: dark teal quote card with Goody logo, two stats at top right, large quote and author avatar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0493109531",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Do more with your data",
+      "alt": "Customer.io blog & resources section: dark teal list of three article and guide links with category labels and arrows",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ed7e5665c7",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "metrics", "confidence": "high" }],
+      "headline": "Omnichannel messaging that delivers outcomes",
+      "alt": "Customer.io testimonials section: headline above three photo case study panels for Notion, Livestorm and Klar, each with a large stat",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "78b49f51f1"
+    },
+    {
+      "id": "84c5b3c38c",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "medium",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "alternating", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Measure, test, and optimize in a single loop",
+      "alt": "Customer.io features section: centered headline above three alternating rows of Measure, Test and Monitor copy beside UI mockups",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "176b936669",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Preferred by product-led companies",
+      "alt": "Customer.io testimonials section: charcoal carousel of quote cards with avatars and company logos, plus G2 and Inc. 5000 badges and stars",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2379b73a13",
+      "companyName": "Clarion", "companySlug": "clarion", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "The front office that runs itself.",
+      "alt": "Clarion hero section: full-bleed photo of a clinic worker on the phone, centered serif headline, two buttons and a customer logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6addb95f86",
+      "companyName": "Clarion", "companySlug": "clarion", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Scale your practice",
+      "alt": "Clarion features section: centered serif headline above three cream cards for Capture, Convert and Recover with light UI mockups",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "55b188e45a",
+      "companyName": "Clarion", "companySlug": "clarion", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "One unified front office platform",
+      "alt": "Clarion features section: split card with a photo of a woman reviewing papers beside a dark brown panel with a serif tab list and button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b19f44e7c5",
+      "companyName": "Clarion", "companySlug": "clarion", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "Your front office revenue engine",
+      "alt": "Clarion features section: serif headline and four stacked metrics on the left, a 2x2 grid of icon features on the right, cream background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3ae23535b8",
+      "companyName": "Clarion", "companySlug": "clarion", "domain": null, "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["security"], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "logo-strip", "confidence": "medium" }],
+      "headline": "Built into the systems you already use",
+      "alt": "Clarion integrations section: centered serif headline above two rows of EHR and phone system logos and a dark compliance badge banner",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7fa3b7548c",
+      "companyName": "Clarion", "companySlug": "clarion", "domain": null, "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "Why leading practices choose Clarion",
+      "alt": "Clarion value proposition section: centered serif headline above four tall cream cards with soft circle shapes and a brown button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a188d4f5bd",
+      "companyName": "Clarion", "companySlug": "clarion", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Clarion footer section: light footer with logo at left, company links and social icons at right, and a copyright line",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "53016726f3",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }, { "id": "metrics", "confidence": "high" }],
+      "headline": "The platform that gets smarter every time you use it",
+      "alt": "Customer.io hero section: split layout with headline and buttons beside abstract orange and lavender square artwork, above a stats row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5ea73cca92",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "AI that’s built in, not bolted on",
+      "alt": "Customer.io value proposition section: centered headline above three icon columns describing audiences, journeys and content",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "25f6198eb9",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["cta", "other"], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Everything you need to build smarter customer engagement",
+      "alt": "Customer.io features section: large home dashboard screenshot over an office photo, with a dark teal CTA bar and two buttons below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "abbeacaa6f",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "alternating", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "AI-native tools, human-level control",
+      "alt": "Customer.io features section: centered headline, five-item tab bar and alternating rows of copy beside product UI on gradient panels",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "285d78f3b7",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Your AI tools already work here",
+      "alt": "Customer.io features section: dark teal header with headline and copy above a 2x2 grid of Agent, MCP server, APIs and CLI cells",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "78b49f51f1",
+      "companyName": "Customer.io", "companySlug": "customer-io", "domain": "customer.io", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "metrics", "confidence": "high" }],
+      "headline": "Omnichannel messaging that delivers outcomes",
+      "alt": "Customer.io testimonials section: headline and case studies link above three photo panels for Notion, Livestorm and Klar with large stats",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "260fb6c7bc",
+      "companyName": "Arrakis", "companySlug": "arrakis", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "3d", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "AI transformation for mission-critical industries",
+      "alt": "Arrakis hero section: dark split layout with headline and demo button beside a 3D wind turbine render and data cards, logo row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7ce9098f34",
+      "companyName": "Arrakis", "companySlug": "arrakis", "domain": null, "companyConfidence": "medium",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["about", "divider"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "79% of enterprises are experimenting with AI, but <10% have scaled Agents in production",
+      "alt": "Arrakis value proposition section: dark centered problem statement inside wireframe orbit lines with floating file and email cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a509e934ef",
+      "companyName": "Arrakis", "companySlug": "arrakis", "domain": null, "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "split", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "We deliver results fast",
+      "alt": "Arrakis stats section: headline at left beside a 2x3 bordered grid of large metrics on a light background, with a striped graphic",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

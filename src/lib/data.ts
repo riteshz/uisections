@@ -17,7 +17,7 @@ export interface Section {
   headline: string;
   alt: string;
   addedAt: string;
-  /** YYYY-MM-DD the screenshot first entered the library. */
+  /** When the screenshot first entered the library (ISO date or date-time). */
   firstSeen: string;
   nn: number | null;
   width: number;

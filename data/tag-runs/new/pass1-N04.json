@@ -1,0 +1,319 @@
+{
+  "taskId": "N04",
+  "sites": [
+    { "batch": "w167", "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "confidence": "high", "evidence": "intercom wordmark in nav, 'Intercom is the only helpdesk...' copy, 'Intercom blog' and 'Why choose Intercom' in footer" },
+    { "batch": "w168", "companyName": "Unkey", "companySlug": "unkey", "domain": "unkey.com", "confidence": "high", "evidence": "unkey wordmark in nav, copy 'Unkey unifies your infrastructure'" },
+    { "batch": "w169", "companyName": "Unknown", "companySlug": "unknown", "domain": null, "confidence": "low", "evidence": "no logo, wordmark or brand name visible; UI uses placeholder 'acme' repos. Dark dither style resembles Unkey (w168) but that is not confirmed by the image" },
+    { "batch": "w170", "companyName": "Concurrence", "companySlug": "concurrence", "domain": null, "confidence": "high", "evidence": "Concurrence wordmark in nav, 'Concurrence, formerly Amigo' label, testimonial quote names Concurrence" },
+    { "batch": "w171", "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "confidence": "high", "evidence": "Polar Signals logo in nav, '© 2026 Polar Signals' in footer, product named Polar Signals Cloud throughout" },
+    { "batch": "w172", "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "confidence": "high", "evidence": "exa logo in nav, 'Exa Dashboard', 'Exa Index' and 'Exa Powers All' in copy, Exa in benchmark legend" }
+  ],
+  "records": [
+    {
+      "id": "72a5917fb0",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "A complete system for human and AI customer service",
+      "alt": "Intercom hero section: centered gray and black headline with two CTA buttons, flanked by cropped photo tiles, below a nav and announcement bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "63edffb9ce",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Two products, one seamless experience",
+      "alt": "Intercom features section: two-tab switcher for helpdesk and Fin AI Agent above a large inbox screenshot on a textured beige backdrop",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4ca313e0ea",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "TRUSTED BY 30,000+ LEADING BRANDS",
+      "alt": "Intercom logo cloud section: small monospace label above a six-by-four grid of gray customer logos on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "589fb15790",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }, { "id": "tabs", "confidence": "medium" }],
+      "headline": "Intercom is a fully-featured AI-powered helpdesk",
+      "alt": "Intercom features section: headline beside an ink butterfly drawing, large inbox screenshot over a plant photo, three selectable feature columns",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bf355549e1",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "medium" }, { "id": "tabs", "confidence": "medium" }],
+      "headline": "Fin is the highest-performing AI agent",
+      "alt": "Intercom features section: headline with an ink drawing of running figures, then a Fin chat widget panel beside a three-item feature selector",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "37dbc53172",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Together, they deliver better support experiences",
+      "alt": "Intercom features section: headline with an ink kite drawing above three equal cards showing chat, recommendations and knowledge hub UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "56a80729ff",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Intercom testimonials section: tabbed customer quote card with a blue-highlighted phrase, Anthropic logo, speaker name and portrait photo",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7de06abe5e",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "Works with the tools you already use",
+      "alt": "Intercom integrations section: headline, copy and CTAs on the left, grid of bordered app logo tiles like Slack, Stripe and Shopify on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "41352bace0",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Transparent pricing",
+      "alt": "Intercom pricing section: centered beige card with $19 per seat plus $0.99 per outcome pricing and two buttons over a faint dot pattern",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "781fb369f4",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "photography", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }, { "id": "oversized-type", "confidence": "medium" }],
+      "headline": "Perfect customer experiences",
+      "alt": "Intercom call to action section: large centered headline and two buttons amid scattered photo tiles, ink sketches and a blue dot grid",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dbdaf5ec00",
+      "companyName": "Intercom", "companySlug": "intercom", "domain": "intercom.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Intercom footer section: five columns of grouped links under monospace labels with a row of legal links on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fbae02027b",
+      "companyName": "Unkey", "companySlug": "unkey", "domain": "unkey.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "The Developer Platform for Modern APIs",
+      "alt": "Unkey hero section: grainy grayscale artwork with a Deploy label above a left-aligned headline, CTAs at right and a logo row on black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "84fccd0d5a",
+      "companyName": "Unknown", "companySlug": "unknown", "domain": null, "companyConfidence": "low",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Deploy in minutes. Roll back in seconds. Ship with confidence at any scale.",
+      "alt": "Unknown features section: dark layout with a five-step tab bar and rows pairing deploy copy with Git import and container runtime UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a7b50f62ce",
+      "companyName": "Concurrence", "companySlug": "concurrence", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Every clinical workflow on one unified data foundation.",
+      "alt": "Concurrence hero section: serif headline and rust Book a Demo button beside a blurred dark portrait image, healthcare logo row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b647f80023",
+      "companyName": "Concurrence", "companySlug": "concurrence", "domain": null, "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Concurrence stats section: three large serif metrics with small labels split by thin dividers on a solid rust-red background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4cb7e48250",
+      "companyName": "Concurrence", "companySlug": "concurrence", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }, { "id": "carousel", "confidence": "medium" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Concurrence testimonials section: serif quote from a Stanford Health Care surgeon on a rust gradient card with vertical pagination dots",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "58e794ffe2",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Make code run at its best with full visibility and control",
+      "alt": "Polar Signals hero section: left headline with CTAs at right above a wide pink and blue gradient panel with a status card, logo row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ec1b98c517",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Deep, continuous GPU performance visibility and insights.",
+      "alt": "Polar Signals features section: headline above a dark GPU profiler dashboard on blue pixel bars, with three icon feature points below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "74746297f3",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "AI-powered MCP server integration for continuous profiling and automated optimization.",
+      "alt": "Polar Signals features section: large headline over three cards with glowing chat, MCP and code mockups, plus a row of LLM tool chips",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "35c2fca9ba",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "gradient", "confidence": "high" }],
+      "headline": "Run a single command to improve speed and optimize spend immediately.",
+      "alt": "Polar Signals features section: centered headline with a kubectl command block and inline platform chips over a blue and yellow radial gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fb5d692030",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Continuous profiling infrastructure for full-stack production visibility.",
+      "alt": "Polar Signals features section: dark charcoal layout with two panels, a grid of language icon tiles and a production CPU chart UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0a410e7298",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Run high-performance GPU workloads with confidence.",
+      "alt": "Polar Signals security section: headline on a lavender gradient with pixel squares and dot texture, beside NVIDIA, Google Cloud and SOC credentials",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e1040d4eec",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }, { "id": "product-ui", "confidence": "high" }, { "id": "code", "confidence": "medium" }],
+      "headline": "Your unique profiling needs, supported by a platform purpose-built for modern infrastructure.",
+      "alt": "Polar Signals features section: two-tone headline with arrow buttons above a sliding row of cards with flame graph, code filter and query UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "03bc126160",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Trusted and loved by engineers and companies worldwide",
+      "alt": "Polar Signals testimonials section: headline above four divided columns of quotes with highlighted phrases, avatar and logo pairs and names",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7b3a5f15a2",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Need help? Find what you need.",
+      "alt": "Polar Signals faq section: two-tone headline above a full-width accordion list of eleven questions with plus icons on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e9a2d414b4",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Quickly boost your apps, maximize efficiency, and lower expenses starting from day one.",
+      "alt": "Polar Signals call to action section: left headline and two buttons on a blue gradient with white vertical bars rising like a bar chart",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "36cf274e90",
+      "companyName": "Polar Signals", "companySlug": "polar-signals", "domain": "polarsignals.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Polar Signals footer section: logo, tagline and copyright at left with four link columns on a black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f5cb408e90",
+      "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "form", "confidence": "medium" }],
+      "headline": "The world's data for AI agents",
+      "alt": "Exa hero section: centered headline and API button above a search playground with query field, filter chips and results panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c8123d5503",
+      "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Join 500,000 developers building AI on top of the world's information.",
+      "alt": "Exa logo cloud section: left-aligned headline and customer stories button above a bordered six-by-two grid of customer logos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a068afbd37",
+      "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "companyConfidence": "high",
+      "category": "comparison", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "high" }],
+      "headline": "Highest quality search at every latency",
+      "alt": "Exa comparison section: dark left panel with headline and vertical tabs beside a bar chart of accuracy scores against Perplexity and Brave",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7809e22745",
+      "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "code", "confidence": "high" }],
+      "headline": "Designed to make your Agent smarter",
+      "alt": "Exa features section: centered headline over three image cards with sky visuals, a text excerpt and JSON output, plus customer callouts below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "27b5d653e7",
+      "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Enterprise-grade security and controls",
+      "alt": "Exa security section: dark background with headline and a three-by-two grid of outlined compliance icons for SOC 2, GDPR, CCPA and HIPAA",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5b576de332",
+      "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "bento", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Training retrieval models at massive scale",
+      "alt": "Exa stats section: headline, copy and research button above staggered bordered cards with large monospace figures for index size and compute",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dc2ae599f8",
+      "companyName": "Exa", "companySlug": "exa", "domain": "exa.ai", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Trusted by world-class teams to find the data they need",
+      "alt": "Exa testimonials section: bento with a cofounder video still, Cognition quote card, 2.7M stat tile and a HubSpot case study card",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

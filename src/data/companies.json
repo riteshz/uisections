@@ -119,27 +119,35 @@
     ],
     "domain": "acctual.com",
     "domainVerified": false,
-    "count": 2,
+    "count": 6,
     "hasPage": true,
-    "indexable": false,
+    "indexable": true,
     "categories": [
+      "hero",
+      "testimonial",
+      "use-case",
+      "cta",
       "feature",
       "footer"
     ],
     "topTags": [
-      "3d",
-      "card-grid",
+      "centered",
       "product-ui",
-      "bold-color",
-      "pattern-background",
-      "centered"
+      "minimal",
+      "card-grid",
+      "3d",
+      "monochrome"
     ],
     "sectionIds": [
+      "aa8209b96d",
+      "3b0b10cd59",
+      "7384a94ced",
+      "4eed1062b2",
       "f37488228a",
       "38c16982b6"
     ],
-    "cover": "f37488228a",
-    "addedAt": "2026-10-02T06:48:17.616Z"
+    "cover": "aa8209b96d",
+    "addedAt": "2026-10-02T14:18:35.892Z"
   },
   {
     "slug": "ada",
@@ -378,31 +386,39 @@
     ],
     "domain": "antimetal.com",
     "domainVerified": false,
-    "count": 4,
+    "count": 9,
     "hasPage": true,
     "indexable": true,
     "categories": [
       "hero",
-      "logo-cloud",
       "testimonial",
+      "faq",
+      "blog",
+      "footer",
+      "logo-cloud",
       "pricing"
     ],
     "topTags": [
+      "warm-neutral",
+      "serif",
       "centered",
-      "pattern-background",
-      "monochrome",
-      "product-ui",
-      "pastel",
-      "minimal"
+      "minimal",
+      "split",
+      "illustration"
     ],
     "sectionIds": [
+      "c584939c5f",
+      "6b648d29b2",
+      "fc1d111851",
+      "8df1dc8585",
+      "0e07fbcfda",
       "2bae342e81",
       "ca64172f65",
       "68eed69b19",
       "dbe65382f3"
     ],
-    "cover": "2bae342e81",
-    "addedAt": "2026-10-02T06:48:17.787Z"
+    "cover": "c584939c5f",
+    "addedAt": "2026-10-02T14:33:19.024Z"
   },
   {
     "slug": "apollo",
@@ -435,6 +451,52 @@
     ],
     "cover": "e4bff2ee84",
     "addedAt": "2026-10-02T06:48:17.803Z"
+  },
+  {
+    "slug": "arcade",
+    "name": "Arcade",
+    "industries": [
+      "sales-marketing",
+      "design-tools"
+    ],
+    "domain": "arcade.software",
+    "domainVerified": false,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "how-it-works",
+      "use-case",
+      "integration",
+      "stats",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "tabs",
+      "minimal",
+      "video",
+      "monochrome",
+      "gradient"
+    ],
+    "sectionIds": [
+      "0ad1a0d792",
+      "b95dc91acf",
+      "bc100c4b19",
+      "cd11db2875",
+      "d6d069bc3d",
+      "21b9d4ea74",
+      "aa1e6f6e87",
+      "df169b8b91",
+      "ef34bc4ad0",
+      "4fa9fc2de0"
+    ],
+    "cover": "0ad1a0d792",
+    "addedAt": "2026-10-02T14:24:26.000Z"
   },
   {
     "slug": "aria",
@@ -514,6 +576,38 @@
     ],
     "cover": "d2621dc982",
     "addedAt": "2026-10-01T04:34:42.000Z"
+  },
+  {
+    "slug": "arrakis",
+    "name": "Arrakis",
+    "industries": [
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "stats"
+    ],
+    "topTags": [
+      "dark-mode",
+      "split",
+      "3d",
+      "logo-strip",
+      "centered",
+      "gradient"
+    ],
+    "sectionIds": [
+      "260fb6c7bc",
+      "7ce9098f34",
+      "a509e934ef"
+    ],
+    "cover": "260fb6c7bc",
+    "addedAt": "2026-10-02T14:12:36.010Z"
   },
   {
     "slug": "aside",
@@ -630,31 +724,49 @@
     ],
     "domain": "attio.com",
     "domainVerified": false,
-    "count": 4,
+    "count": 16,
     "hasPage": true,
     "indexable": true,
     "categories": [
       "hero",
+      "logo-cloud",
+      "feature",
+      "integration",
+      "stats",
       "testimonial",
-      "pricing",
-      "cta"
+      "blog",
+      "cta",
+      "footer",
+      "pricing"
     ],
     "topTags": [
       "monochrome",
       "centered",
-      "tabs",
-      "serif",
+      "minimal",
+      "dark-mode",
       "product-ui",
-      "illustration"
+      "tabs"
     ],
     "sectionIds": [
+      "c05f6409ea",
+      "1b32f775c7",
+      "4255575a0d",
+      "5849877526",
+      "3075f11ab6",
+      "c02e219f49",
+      "e3ad01ff52",
+      "296a97470d",
+      "8a2795a585",
+      "6f991f9b79",
+      "219a4fda78",
+      "550ab727f4",
       "cc35902346",
       "68bb507d36",
       "39af31c361",
       "b179e349b9"
     ],
-    "cover": "cc35902346",
-    "addedAt": "2026-10-02T06:48:17.862Z"
+    "cover": "c05f6409ea",
+    "addedAt": "2026-10-02T14:34:50.000Z"
   },
   {
     "slug": "basewell",
@@ -727,6 +839,42 @@
     ],
     "cover": "cf772f50c2",
     "addedAt": "2026-09-30T10:05:54.000Z"
+  },
+  {
+    "slug": "beside",
+    "name": "Beside",
+    "industries": [
+      "ai",
+      "customer-support"
+    ],
+    "domain": "beside.com",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "how-it-works"
+    ],
+    "topTags": [
+      "monochrome",
+      "product-ui",
+      "minimal",
+      "centered",
+      "form",
+      "split"
+    ],
+    "sectionIds": [
+      "b06b50704b",
+      "2f87b4b0c5",
+      "4d190ac33e",
+      "b00e2e741d",
+      "b0abcea660"
+    ],
+    "cover": "b06b50704b",
+    "addedAt": "2026-10-02T14:20:54.000Z"
   },
   {
     "slug": "bobbin",
@@ -1205,33 +1353,129 @@
     ],
     "domain": "chatbase.co",
     "domainVerified": false,
-    "count": 5,
+    "count": 16,
     "hasPage": true,
     "indexable": true,
     "categories": [
       "hero",
+      "logo-cloud",
+      "use-case",
+      "how-it-works",
       "feature",
       "testimonial",
-      "pricing",
-      "cta"
+      "security",
+      "cta",
+      "footer",
+      "pricing"
     ],
     "topTags": [
-      "logo-strip",
-      "card-grid",
-      "split",
       "product-ui",
-      "gradient",
-      "minimal"
+      "split",
+      "bold-color",
+      "card-grid",
+      "pattern-background",
+      "monochrome"
     ],
     "sectionIds": [
+      "55ed0a8616",
+      "333d224add",
+      "241456bde9",
+      "bc874b25cd",
+      "7e48a65f4d",
+      "c3e1ef63c6",
+      "45d1527dfe",
+      "c01a9040d1",
+      "693c1e5cf7",
+      "4b0d4e8f70",
+      "bcb0aafc5c",
       "05bda736d3",
       "36dd1bdecd",
       "a65e383cda",
       "6a390f793e",
       "eafa2faa7d"
     ],
-    "cover": "05bda736d3",
-    "addedAt": "2026-10-02T06:48:18.090Z"
+    "cover": "55ed0a8616",
+    "addedAt": "2026-10-02T14:36:00.000Z"
+  },
+  {
+    "slug": "clarasight",
+    "name": "Clarasight",
+    "industries": [
+      "logistics",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "stats",
+      "testimonial",
+      "security",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "minimal",
+      "dark-mode",
+      "split",
+      "gradient",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "116115f741",
+      "040e641438",
+      "e59e2503b0",
+      "a4ee0ab66c",
+      "b5d0acbed3",
+      "2d0eb510c2",
+      "3e977b22b9"
+    ],
+    "cover": "116115f741",
+    "addedAt": "2026-10-02T14:29:17.045Z"
+  },
+  {
+    "slug": "clarion",
+    "name": "Clarion",
+    "industries": [
+      "healthcare",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "value-proposition",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "centered",
+      "warm-neutral",
+      "photography",
+      "logo-strip",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "2379b73a13",
+      "6addb95f86",
+      "55b188e45a",
+      "b19f44e7c5",
+      "3ae23535b8",
+      "7fa3b7548c",
+      "a188d4f5bd"
+    ],
+    "cover": "2379b73a13",
+    "addedAt": "2026-10-02T14:11:22.000Z"
   },
   {
     "slug": "clay",
@@ -1397,6 +1641,41 @@
     "addedAt": "2026-10-02T06:48:18.105Z"
   },
   {
+    "slug": "coderabbit",
+    "name": "CodeRabbit",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
+    "domain": "coderabbit.ai",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "stats",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "metrics",
+      "monochrome",
+      "product-ui",
+      "code",
+      "tabs"
+    ],
+    "sectionIds": [
+      "f398bc800b",
+      "eb53ed470d",
+      "f4930df702",
+      "2679dcdec3"
+    ],
+    "cover": "f398bc800b",
+    "addedAt": "2026-10-02T14:37:28.088Z"
+  },
+  {
     "slug": "coframe",
     "name": "Coframe",
     "industries": [
@@ -1507,6 +1786,50 @@
     "addedAt": "2026-10-02T06:48:18.139Z"
   },
   {
+    "slug": "composio",
+    "name": "Composio",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
+    "domain": "composio.dev",
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "how-it-works",
+      "feature",
+      "use-case",
+      "security",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "minimal",
+      "centered",
+      "product-ui",
+      "code"
+    ],
+    "sectionIds": [
+      "be962f235a",
+      "d43b36a203",
+      "ae1eebca4d",
+      "7c310fae9b",
+      "9c9d228713",
+      "81f3a65625",
+      "1dfd91aa18",
+      "6d85f0f68b",
+      "fc9ebd27ce"
+    ],
+    "cover": "be962f235a",
+    "addedAt": "2026-10-02T14:18:44.000Z"
+  },
+  {
     "slug": "concourse",
     "name": "Concourse",
     "industries": [
@@ -1560,6 +1883,39 @@
     ],
     "cover": "4f95a9d4cb",
     "addedAt": "2026-09-30T10:10:48.000Z"
+  },
+  {
+    "slug": "concurrence",
+    "name": "Concurrence",
+    "industries": [
+      "healthcare",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "stats",
+      "testimonial"
+    ],
+    "topTags": [
+      "serif",
+      "bold-color",
+      "split",
+      "logo-strip",
+      "photography",
+      "metrics"
+    ],
+    "sectionIds": [
+      "a7b50f62ce",
+      "b647f80023",
+      "4cb7e48250"
+    ],
+    "cover": "a7b50f62ce",
+    "addedAt": "2026-10-02T14:22:32.027Z"
   },
   {
     "slug": "conduit",
@@ -1847,6 +2203,70 @@
     "addedAt": "2026-10-01T04:52:00.822Z"
   },
   {
+    "slug": "customer-io",
+    "name": "Customer.io",
+    "industries": [
+      "sales-marketing"
+    ],
+    "domain": "customer.io",
+    "domainVerified": false,
+    "count": 26,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "pricing",
+      "logo-cloud",
+      "value-proposition",
+      "feature",
+      "integration",
+      "testimonial",
+      "how-it-works",
+      "use-case",
+      "blog",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "card-grid",
+      "dark-mode",
+      "photography",
+      "minimal",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "8acc3ee98a",
+      "ffc8cb0713",
+      "53016726f3",
+      "5f1f201303",
+      "c1418f614c",
+      "5ea73cca92",
+      "2a83afbe0a",
+      "87b7fc31ae",
+      "25f6198eb9",
+      "0a6704e56f",
+      "176b936669",
+      "bde827647b",
+      "432ac71796",
+      "abbeacaa6f",
+      "d135005840",
+      "715eb04f67",
+      "285d78f3b7",
+      "84c5b3c38c",
+      "13525cf09d",
+      "aac98fca4a",
+      "78b49f51f1",
+      "8264286b18",
+      "b52c796476",
+      "0493109531",
+      "c2aa70c39f",
+      "27e8688378"
+    ],
+    "cover": "8acc3ee98a",
+    "addedAt": "2026-10-02T14:11:46.000Z"
+  },
+  {
     "slug": "dan-mall",
     "name": "Dan Mall",
     "industries": [
@@ -2033,6 +2453,41 @@
     ],
     "cover": "a4d32fd5a5",
     "addedAt": "2026-09-30T10:27:20.891Z"
+  },
+  {
+    "slug": "deck",
+    "name": "Deck",
+    "industries": [
+      "ai",
+      "developer-tools"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "integration",
+      "use-case",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "product-ui",
+      "3d",
+      "card-grid",
+      "carousel",
+      "split"
+    ],
+    "sectionIds": [
+      "a3e72f9092",
+      "d9b9c37e3e",
+      "a14bc772e7",
+      "6123a66054"
+    ],
+    "cover": "a3e72f9092",
+    "addedAt": "2026-10-02T14:30:40.046Z"
   },
   {
     "slug": "delphi",
@@ -2413,6 +2868,78 @@
     "addedAt": "2026-10-02T06:48:18.472Z"
   },
   {
+    "slug": "evpin",
+    "name": "EVpin",
+    "industries": [
+      "logistics",
+      "data-analytics"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "product-ui",
+      "bold-color",
+      "gradient",
+      "split",
+      "tabs",
+      "carousel"
+    ],
+    "sectionIds": [
+      "e21b539d24",
+      "cbc6b8a913"
+    ],
+    "cover": "e21b539d24",
+    "addedAt": "2026-10-02T14:30:15.246Z"
+  },
+  {
+    "slug": "exa",
+    "name": "Exa",
+    "industries": [
+      "data-analytics",
+      "ai"
+    ],
+    "domain": "exa.ai",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "comparison",
+      "feature",
+      "security",
+      "stats",
+      "testimonial"
+    ],
+    "topTags": [
+      "monochrome",
+      "minimal",
+      "bento",
+      "centered",
+      "product-ui",
+      "form"
+    ],
+    "sectionIds": [
+      "f5cb408e90",
+      "c8123d5503",
+      "a068afbd37",
+      "7809e22745",
+      "27b5d653e7",
+      "5b576de332",
+      "dc2ae599f8"
+    ],
+    "cover": "f5cb408e90",
+    "addedAt": "2026-10-02T14:23:00.000Z"
+  },
+  {
     "slug": "exante",
     "name": "Exante",
     "industries": [
@@ -2607,6 +3134,45 @@
     ],
     "cover": "2afddb06d0",
     "addedAt": "2026-10-02T06:48:18.553Z"
+  },
+  {
+    "slug": "fillout",
+    "name": "Fillout",
+    "industries": [
+      "productivity"
+    ],
+    "domain": "fillout.com",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "integration",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "card-grid",
+      "metrics",
+      "monochrome",
+      "centered",
+      "tabs"
+    ],
+    "sectionIds": [
+      "267d63c54f",
+      "523ec3e9ca",
+      "810fa44553",
+      "d5ebe9ecd9",
+      "1961f583bd",
+      "0270d4935f",
+      "3f6a2c86c7"
+    ],
+    "cover": "267d63c54f",
+    "addedAt": "2026-10-02T14:27:02.000Z"
   },
   {
     "slug": "fin",
@@ -2907,6 +3473,38 @@
     "addedAt": "2026-10-02T06:48:18.676Z"
   },
   {
+    "slug": "fourmula",
+    "name": "Fourmula",
+    "industries": [
+      "ecommerce",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "minimal",
+      "product-ui",
+      "monochrome",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "f20eec3911",
+      "e147d658cb",
+      "3c1467f6bb"
+    ],
+    "cover": "f20eec3911",
+    "addedAt": "2026-10-02T14:28:29.927Z"
+  },
+  {
     "slug": "framer",
     "name": "Framer",
     "industries": [
@@ -3187,6 +3785,57 @@
     ],
     "cover": "d590e9a7a3",
     "addedAt": "2026-10-02T06:48:18.838Z"
+  },
+  {
+    "slug": "greptile",
+    "name": "Greptile",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
+    "domain": "greptile.com",
+    "domainVerified": false,
+    "count": 14,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "testimonial",
+      "how-it-works",
+      "feature",
+      "integration",
+      "security",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "card-grid",
+      "monochrome",
+      "centered",
+      "product-ui",
+      "pattern-background",
+      "3d"
+    ],
+    "sectionIds": [
+      "0030ebc371",
+      "01d817f666",
+      "a3907d9880",
+      "caac81753a",
+      "4565eac766",
+      "dd61d529dd",
+      "e9aeba873c",
+      "3d33101f49",
+      "bea68627ef",
+      "ac87b0accc",
+      "97d88a5ce9",
+      "824440c754",
+      "682be2b285",
+      "b003d9eeb0"
+    ],
+    "cover": "0030ebc371",
+    "addedAt": "2026-10-02T14:18:52.000Z"
   },
   {
     "slug": "griffin",
@@ -3471,6 +4120,56 @@
     "addedAt": "2026-10-02T06:48:18.914Z"
   },
   {
+    "slug": "heidi",
+    "name": "Heidi",
+    "industries": [
+      "healthcare",
+      "ai"
+    ],
+    "domain": "heidihealth.com",
+    "domainVerified": false,
+    "count": 16,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "use-case",
+      "how-it-works",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "warm-neutral",
+      "centered",
+      "product-ui",
+      "minimal",
+      "photography"
+    ],
+    "sectionIds": [
+      "4771036124",
+      "dfd5568c96",
+      "52966fd308",
+      "85ec7107ae",
+      "af3a528671",
+      "1e19650f93",
+      "a62f1fa147",
+      "410a20c7f4",
+      "41c6cd619b",
+      "18a9f377b4",
+      "cf3ea1b33d",
+      "b8534e6548",
+      "5b9e708849",
+      "111dcca606",
+      "efc69c69d5",
+      "3cc6039080"
+    ],
+    "cover": "4771036124",
+    "addedAt": "2026-10-02T14:25:38.061Z"
+  },
+  {
     "slug": "hellotime",
     "name": "Hellotime",
     "industries": [
@@ -3507,6 +4206,47 @@
     ],
     "cover": "0b2bf69445",
     "addedAt": "2026-10-02T06:48:18.938Z"
+  },
+  {
+    "slug": "heyclicky",
+    "name": "heyclicky",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "about",
+      "testimonial",
+      "pricing",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "video",
+      "card-grid",
+      "minimal",
+      "pattern-background",
+      "alternating"
+    ],
+    "sectionIds": [
+      "ce37a84a57",
+      "795aa55068",
+      "3650cafb26",
+      "0a22d25c77",
+      "a814bced04",
+      "12778a81eb",
+      "1dfd0cc454"
+    ],
+    "cover": "ce37a84a57",
+    "addedAt": "2026-10-02T14:31:36.000Z"
   },
   {
     "slug": "highnote",
@@ -3672,6 +4412,38 @@
     "addedAt": "2026-09-30T10:30:56.000Z"
   },
   {
+    "slug": "hyper-effekt",
+    "name": "Hyper Effekt",
+    "industries": [
+      "agencies",
+      "ecommerce"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "feature"
+    ],
+    "topTags": [
+      "photography",
+      "minimal",
+      "full-bleed-media",
+      "oversized-type",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "ca4078549c",
+      "7704c52e39",
+      "e9f246b7c5"
+    ],
+    "cover": "ca4078549c",
+    "addedAt": "2026-10-02T14:16:24.808Z"
+  },
+  {
     "slug": "hyperline",
     "name": "Hyperline",
     "industries": [
@@ -3773,6 +4545,52 @@
     ],
     "cover": "2e857bafa9",
     "addedAt": "2026-10-02T06:48:19.028Z"
+  },
+  {
+    "slug": "intercom",
+    "name": "Intercom",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
+    "domain": "intercom.com",
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "logo-cloud",
+      "testimonial",
+      "integration",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "tabs",
+      "centered",
+      "photography",
+      "product-ui",
+      "illustration",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "72a5917fb0",
+      "63edffb9ce",
+      "4ca313e0ea",
+      "589fb15790",
+      "bf355549e1",
+      "37dbc53172",
+      "56a80729ff",
+      "7de06abe5e",
+      "41352bace0",
+      "781fb369f4",
+      "dbdaf5ec00"
+    ],
+    "cover": "72a5917fb0",
+    "addedAt": "2026-10-02T14:21:22.000Z"
   },
   {
     "slug": "interfere",
@@ -4518,26 +5336,39 @@
     ],
     "domain": "linear.app",
     "domainVerified": false,
-    "count": 6,
+    "count": 15,
     "hasPage": true,
     "indexable": true,
     "categories": [
       "hero",
-      "logo-cloud",
+      "value-proposition",
       "feature",
+      "blog",
+      "testimonial",
+      "cta",
+      "footer",
+      "logo-cloud",
       "integration",
-      "pricing",
-      "cta"
+      "pricing"
     ],
     "topTags": [
       "dark-mode",
       "monochrome",
       "product-ui",
       "minimal",
-      "centered",
-      "carousel"
+      "carousel",
+      "centered"
     ],
     "sectionIds": [
+      "26f87e2086",
+      "1514953fc8",
+      "f0c70cf232",
+      "d0eafad403",
+      "9d31a00716",
+      "4728a06f65",
+      "f860a2d29e",
+      "7ef1abb94c",
+      "d4bde9d256",
       "8aaf705ddf",
       "62262fd10c",
       "44f4286531",
@@ -4545,8 +5376,8 @@
       "a68d20953f",
       "87ce90bf5d"
     ],
-    "cover": "8aaf705ddf",
-    "addedAt": "2026-10-02T06:48:19.486Z"
+    "cover": "26f87e2086",
+    "addedAt": "2026-10-02T14:38:32.209Z"
   },
   {
     "slug": "linearity",
@@ -4748,6 +5579,44 @@
     "addedAt": "2026-10-02T06:48:19.583Z"
   },
   {
+    "slug": "lovable",
+    "name": "Lovable",
+    "industries": [
+      "ai",
+      "developer-tools"
+    ],
+    "domain": "lovable.dev",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "logo-cloud",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "gradient",
+      "form",
+      "split",
+      "centered",
+      "card-grid",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "0a423ec916",
+      "a375e6f55d",
+      "0d8614d291",
+      "6e75684665",
+      "c6751240c8",
+      "80422caee7"
+    ],
+    "cover": "0a423ec916",
+    "addedAt": "2026-10-02T14:06:42.000Z"
+  },
+  {
     "slug": "lynq",
     "name": "Lynq",
     "industries": [
@@ -4812,6 +5681,71 @@
     ],
     "cover": "fed81cc6e5",
     "addedAt": "2026-10-02T06:48:19.622Z"
+  },
+  {
+    "slug": "medusa",
+    "name": "Medusa",
+    "industries": [
+      "ecommerce",
+      "developer-tools"
+    ],
+    "domain": "medusajs.com",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "testimonial"
+    ],
+    "topTags": [
+      "product-ui",
+      "card-grid",
+      "gradient",
+      "carousel",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "de4fddd80a",
+      "7785625088",
+      "5d1eb4d911"
+    ],
+    "cover": "de4fddd80a",
+    "addedAt": "2026-10-02T14:26:47.810Z"
+  },
+  {
+    "slug": "melius",
+    "name": "Melius",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "use-case",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "photography",
+      "centered",
+      "logo-strip",
+      "tabs",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "1977a9aacd",
+      "e56c395a48",
+      "779e9c20b2"
+    ],
+    "cover": "1977a9aacd",
+    "addedAt": "2026-10-02T14:33:04.188Z"
   },
   {
     "slug": "menkind",
@@ -5390,6 +6324,43 @@
     ],
     "cover": "67e063f1ac",
     "addedAt": "2026-10-02T06:48:19.804Z"
+  },
+  {
+    "slug": "orchestra-bio",
+    "name": "Orchestra Bio",
+    "industries": [
+      "healthcare",
+      "productivity"
+    ],
+    "domain": "orchestra.bio",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "blog",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "minimal",
+      "pattern-background",
+      "split",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "5840b14235",
+      "8932761436",
+      "714fb01d90",
+      "f8d48ceef1",
+      "151138a709",
+      "6400740679"
+    ],
+    "cover": "5840b14235",
+    "addedAt": "2026-10-02T14:18:02.000Z"
   },
   {
     "slug": "origin",
@@ -6106,6 +7077,50 @@
     "addedAt": "2026-10-01T05:09:40.000Z"
   },
   {
+    "slug": "polar-signals",
+    "name": "Polar Signals",
+    "industries": [
+      "developer-tools"
+    ],
+    "domain": "polarsignals.com",
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "security",
+      "testimonial",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "gradient",
+      "product-ui",
+      "pattern-background",
+      "code",
+      "minimal",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "58e794ffe2",
+      "ec1b98c517",
+      "74746297f3",
+      "35c2fca9ba",
+      "fb5d692030",
+      "0a410e7298",
+      "e1040d4eec",
+      "03bc126160",
+      "7b3a5f15a2",
+      "e9a2d414b4",
+      "36cf274e90"
+    ],
+    "cover": "58e794ffe2",
+    "addedAt": "2026-10-02T14:22:40.000Z"
+  },
+  {
     "slug": "port",
     "name": "Port",
     "industries": [
@@ -6349,6 +7364,88 @@
     ],
     "cover": "b00b0ee56b",
     "addedAt": "2026-10-01T04:33:04.140Z"
+  },
+  {
+    "slug": "pryzm",
+    "name": "Pryzm",
+    "industries": [
+      "design-tools"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "pricing"
+    ],
+    "topTags": [
+      "dark-mode",
+      "photography",
+      "monochrome",
+      "tabs",
+      "centered",
+      "minimal"
+    ],
+    "sectionIds": [
+      "9df41957ca",
+      "d00d85d721"
+    ],
+    "cover": "9df41957ca",
+    "addedAt": "2026-10-02T14:09:39.293Z"
+  },
+  {
+    "slug": "quartr",
+    "name": "Quartr",
+    "industries": [
+      "fintech",
+      "data-analytics"
+    ],
+    "domain": "quartr.com",
+    "domainVerified": false,
+    "count": 14,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "integration",
+      "testimonial",
+      "about",
+      "blog",
+      "stats",
+      "other",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "monochrome",
+      "minimal",
+      "split",
+      "product-ui",
+      "video"
+    ],
+    "sectionIds": [
+      "3b4272f0a6",
+      "bcba331003",
+      "df312d7e3d",
+      "96e0846a75",
+      "05a313e1cd",
+      "7cd15671f9",
+      "6f185a0fba",
+      "78931f243c",
+      "a0ee594e5a",
+      "629c6b51cc",
+      "80f7253790",
+      "ca9cb18918",
+      "773a629ea4",
+      "af367ef947"
+    ],
+    "cover": "3b4272f0a6",
+    "addedAt": "2026-10-02T14:23:08.000Z"
   },
   {
     "slug": "quicklnk",
@@ -6643,6 +7740,50 @@
     "addedAt": "2026-10-02T06:48:20.257Z"
   },
   {
+    "slug": "rezi",
+    "name": "Rezi",
+    "industries": [
+      "hr",
+      "ai"
+    ],
+    "domain": "rezi.ai",
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "feature",
+      "blog",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "monochrome",
+      "tabs",
+      "carousel",
+      "product-ui",
+      "form"
+    ],
+    "sectionIds": [
+      "a51124a391",
+      "2d51b49685",
+      "68eac5e604",
+      "1800ea6e36",
+      "59b0020e25",
+      "8d9998d8af",
+      "5214633358",
+      "6c6526dd8b",
+      "2bc9254e63"
+    ],
+    "cover": "a51124a391",
+    "addedAt": "2026-10-02T14:35:48.154Z"
+  },
+  {
     "slug": "rezolv",
     "name": "Rezolv",
     "industries": [
@@ -6726,25 +7867,37 @@
     ],
     "domain": null,
     "domainVerified": false,
-    "count": 2,
+    "count": 8,
     "hasPage": true,
-    "indexable": false,
+    "indexable": true,
     "categories": [
+      "hero",
+      "testimonial",
       "value-proposition",
+      "stats",
+      "security",
       "footer"
     ],
     "topTags": [
-      "dark-mode",
       "monochrome",
-      "metrics",
-      "oversized-type"
+      "serif",
+      "minimal",
+      "dark-mode",
+      "centered",
+      "metrics"
     ],
     "sectionIds": [
+      "433d8a1ced",
+      "e457613a63",
+      "dae0b8e6ed",
+      "893783dfee",
+      "3ba5d5c045",
+      "11d2ab649e",
       "0a83519f7b",
       "2fc641f21c"
     ],
-    "cover": "0a83519f7b",
-    "addedAt": "2026-10-02T06:48:20.263Z"
+    "cover": "433d8a1ced",
+    "addedAt": "2026-10-02T14:21:06.000Z"
   },
   {
     "slug": "routable",
@@ -6870,33 +8023,47 @@
     ],
     "domain": null,
     "domainVerified": false,
-    "count": 5,
+    "count": 15,
     "hasPage": true,
     "indexable": true,
     "categories": [
       "hero",
       "logo-cloud",
       "how-it-works",
+      "feature",
+      "integration",
       "testimonial",
+      "faq",
+      "footer",
       "cta"
     ],
     "topTags": [
+      "warm-neutral",
+      "serif",
+      "product-ui",
       "centered",
       "minimal",
-      "bold-color",
-      "carousel",
-      "photography",
-      "product-ui"
+      "carousel"
     ],
     "sectionIds": [
+      "d8ffb5ab2a",
+      "953df5b841",
+      "b04a8f9945",
+      "2289b40a19",
+      "44ead8f0d8",
+      "7e5905eebc",
+      "3e8c2b4a2f",
+      "e8895e8b35",
+      "98fb3a5ebd",
+      "d9ad7ac0ae",
       "a4de49c6c6",
       "a5a9d2f504",
       "2842dc5c09",
       "f2a2e67982",
       "cc100f6a59"
     ],
-    "cover": "a4de49c6c6",
-    "addedAt": "2026-10-02T06:48:20.334Z"
+    "cover": "d8ffb5ab2a",
+    "addedAt": "2026-10-02T14:21:12.000Z"
   },
   {
     "slug": "saki",
@@ -7075,6 +8242,41 @@
     "addedAt": "2026-10-02T06:48:20.402Z"
   },
   {
+    "slug": "semaloop",
+    "name": "Semaloop",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "cta"
+    ],
+    "topTags": [
+      "form",
+      "logo-strip",
+      "photography",
+      "split",
+      "product-ui",
+      "tabs"
+    ],
+    "sectionIds": [
+      "7795aab282",
+      "6731c24dae",
+      "48cf2bde7f",
+      "ca8e83933a"
+    ],
+    "cover": "7795aab282",
+    "addedAt": "2026-10-02T14:28:07.276Z"
+  },
+  {
     "slug": "sevalla",
     "name": "Sevalla",
     "industries": [
@@ -7176,6 +8378,51 @@
     "addedAt": "2026-10-02T06:48:20.417Z"
   },
   {
+    "slug": "slite",
+    "name": "Slite",
+    "industries": [
+      "productivity",
+      "ai"
+    ],
+    "domain": "slite.com",
+    "domainVerified": false,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "security",
+      "testimonial",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "product-ui",
+      "card-grid",
+      "minimal",
+      "centered",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "82974de6b0",
+      "c9571244db",
+      "531d595d66",
+      "d091658aee",
+      "94514dd16a",
+      "8e70ab3fbf",
+      "6c6b4aef66",
+      "79bf90b92d",
+      "474e14ec05",
+      "bbba5f299e"
+    ],
+    "cover": "82974de6b0",
+    "addedAt": "2026-10-02T14:16:38.000Z"
+  },
+  {
     "slug": "smallest-ai",
     "name": "Smallest.ai",
     "industries": [
@@ -7270,6 +8517,74 @@
     ],
     "cover": "8ff79fce3e",
     "addedAt": "2026-10-01T04:41:06.405Z"
+  },
+  {
+    "slug": "solidroad",
+    "name": "Solidroad",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "split",
+      "product-ui",
+      "full-bleed-media",
+      "photography",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "fbce5d0806",
+      "340b00a768",
+      "610f9c7b67"
+    ],
+    "cover": "fbce5d0806",
+    "addedAt": "2026-10-02T14:29:51.978Z"
+  },
+  {
+    "slug": "spade",
+    "name": "Spade",
+    "industries": [
+      "fintech",
+      "data-analytics"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "pastel",
+      "illustration",
+      "split",
+      "photography",
+      "metrics"
+    ],
+    "sectionIds": [
+      "8604678695",
+      "0ae9dfa816",
+      "900f7156a3",
+      "65d373570f"
+    ],
+    "cover": "8604678695",
+    "addedAt": "2026-10-02T14:29:40.361Z"
   },
   {
     "slug": "spara",
@@ -7383,6 +8698,91 @@
     "addedAt": "2026-10-02T06:48:20.474Z"
   },
   {
+    "slug": "strawberry",
+    "name": "Strawberry",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 12,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "use-case",
+      "how-it-works",
+      "testimonial",
+      "security",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "illustration",
+      "centered",
+      "minimal",
+      "product-ui",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "ab8e321379",
+      "5870b5d2a1",
+      "4a0fe74567",
+      "62d64d85e1",
+      "e6f107cfc0",
+      "54c5cf1379",
+      "abe5fe3a7a",
+      "c70582a936",
+      "033cd07e04",
+      "badb5d6939",
+      "d1e1e6a5be",
+      "f55b65ffc3"
+    ],
+    "cover": "ab8e321379",
+    "addedAt": "2026-10-02T14:36:48.000Z"
+  },
+  {
+    "slug": "stripe",
+    "name": "Stripe",
+    "industries": [
+      "fintech"
+    ],
+    "domain": "stripe.com",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "testimonial",
+      "blog"
+    ],
+    "topTags": [
+      "gradient",
+      "carousel",
+      "logo-strip",
+      "bento",
+      "product-ui",
+      "metrics"
+    ],
+    "sectionIds": [
+      "52054ffebf",
+      "d098269424",
+      "87a4da594c",
+      "d7222439dd",
+      "bf442296bd"
+    ],
+    "cover": "52054ffebf",
+    "addedAt": "2026-10-02T14:38:54.710Z"
+  },
+  {
     "slug": "submagic",
     "name": "Submagic",
     "industries": [
@@ -7416,6 +8816,95 @@
     ],
     "cover": "34143abb1e",
     "addedAt": "2026-10-02T06:48:20.491Z"
+  },
+  {
+    "slug": "supercut",
+    "name": "Supercut",
+    "industries": [
+      "productivity"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "use-case",
+      "feature",
+      "value-proposition",
+      "testimonial",
+      "security",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "product-ui",
+      "photography",
+      "minimal",
+      "logo-strip",
+      "code"
+    ],
+    "sectionIds": [
+      "b64b0c4e4a",
+      "dd1d86fd19",
+      "8adf4b0d13",
+      "d960de0636",
+      "0b5abaf016",
+      "2716b5ffec",
+      "869d305ade",
+      "03948b0392",
+      "ca90b8ecac",
+      "3a4ee7e63e",
+      "4f9fabde0b"
+    ],
+    "cover": "b64b0c4e4a",
+    "addedAt": "2026-10-02T14:33:38.000Z"
+  },
+  {
+    "slug": "supersonik",
+    "name": "Supersonik",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "use-case",
+      "integration",
+      "about",
+      "feature",
+      "security",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "split",
+      "dark-mode",
+      "minimal",
+      "monochrome",
+      "centered"
+    ],
+    "sectionIds": [
+      "5fcd79a550",
+      "2211ad2dc2",
+      "59da2e690d",
+      "7a21835598",
+      "f131bad950",
+      "7e5a86cc30",
+      "e8255e7836",
+      "3cd389e1ef",
+      "a5f31566e5"
+    ],
+    "cover": "5fcd79a550",
+    "addedAt": "2026-10-02T14:18:48.000Z"
   },
   {
     "slug": "synaptrix",
@@ -7561,6 +9050,38 @@
     ],
     "cover": "7fca191838",
     "addedAt": "2026-10-02T06:48:20.549Z"
+  },
+  {
+    "slug": "teak",
+    "name": "Teak",
+    "industries": [
+      "sales-marketing"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "how-it-works",
+      "cta"
+    ],
+    "topTags": [
+      "split",
+      "product-ui",
+      "logo-strip",
+      "metrics",
+      "card-grid",
+      "form"
+    ],
+    "sectionIds": [
+      "c25dc22dfb",
+      "b80f615dcb",
+      "f58d5b96db"
+    ],
+    "cover": "c25dc22dfb",
+    "addedAt": "2026-10-02T14:31:04.428Z"
   },
   {
     "slug": "teton",
@@ -7751,26 +9272,60 @@
     "addedAt": "2026-10-01T04:40:40.000Z"
   },
   {
+    "slug": "unkey",
+    "name": "Unkey",
+    "industries": [
+      "developer-tools"
+    ],
+    "domain": "unkey.com",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "logo-strip",
+      "tabs",
+      "product-ui",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "fbae02027b",
+      "84fccd0d5a"
+    ],
+    "cover": "fbae02027b",
+    "addedAt": "2026-10-02T14:22:04.093Z"
+  },
+  {
     "slug": "unknown",
     "name": "Unknown",
     "industries": [],
     "domain": null,
     "domainVerified": false,
-    "count": 1,
+    "count": 2,
     "hasPage": false,
     "indexable": false,
     "categories": [
-      "use-case"
+      "use-case",
+      "value-proposition"
     ],
     "topTags": [
+      "minimal",
       "photography",
-      "minimal"
+      "dark-mode",
+      "monochrome"
     ],
     "sectionIds": [
-      "7afc48d112"
+      "7afc48d112",
+      "a7da823621"
     ],
     "cover": "7afc48d112",
-    "addedAt": "2026-09-30T09:50:53.061Z"
+    "addedAt": "2026-10-02T14:14:38.000Z"
   },
   {
     "slug": "unlearn",
@@ -8278,6 +9833,50 @@
     "addedAt": "2026-10-01T04:35:24.000Z"
   },
   {
+    "slug": "weav",
+    "name": "Weav",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
+    "domain": "weav.com",
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "cta",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "bold-color",
+      "split",
+      "minimal",
+      "photography",
+      "pastel"
+    ],
+    "sectionIds": [
+      "309ff6af6b",
+      "32b132589a",
+      "b79603dfd6",
+      "fcfcc2ce84",
+      "57a02b2dd1",
+      "059ba63e70",
+      "1bcb77ec9f",
+      "2bcc329783",
+      "06b0f637e8",
+      "4a4d92d683",
+      "391925f140"
+    ],
+    "cover": "309ff6af6b",
+    "addedAt": "2026-10-02T14:27:32.000Z"
+  },
+  {
     "slug": "weave",
     "name": "Weave",
     "industries": [
@@ -8467,6 +10066,50 @@
     ],
     "cover": "421088ad55",
     "addedAt": "2026-10-01T04:53:40.000Z"
+  },
+  {
+    "slug": "ycode",
+    "name": "Ycode",
+    "industries": [
+      "design-tools"
+    ],
+    "domain": "ycode.com",
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "how-it-works",
+      "integration",
+      "pricing",
+      "blog",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "minimal",
+      "product-ui",
+      "tabs",
+      "bento"
+    ],
+    "sectionIds": [
+      "5c4ed6dd12",
+      "b1011fb8ff",
+      "94600f60b8",
+      "da62fb731c",
+      "a9cd4d9fe7",
+      "7e37dc3219",
+      "fd1f06a613",
+      "194fafe77b",
+      "8795cec70a"
+    ],
+    "cover": "5c4ed6dd12",
+    "addedAt": "2026-10-02T14:21:02.000Z"
   },
   {
     "slug": "zamp",

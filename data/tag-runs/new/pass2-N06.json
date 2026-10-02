@@ -1,0 +1,85 @@
+{
+  "taskId": "N06",
+  "sites": [
+    { "batch": "w183", "companyName": "Fillout", "companySlug": "fillout", "confidence": "high", "evidence": "Fillout wordmark in nav and footer; copy 'Make any form with Fillout'" },
+    { "batch": "w184", "companyName": "Weav", "companySlug": "weav", "confidence": "high", "evidence": "weav wordmark in nav and footer; '(c) 2026 Weav.com, LLC'; spelled Weav, not the known 'Weave'" },
+    { "batch": "w185", "companyName": "Semaloop", "companySlug": "semaloop", "confidence": "high", "evidence": "Semaloop wordmark in nav" },
+    { "batch": "w186", "companyName": "Semaloop", "companySlug": "semaloop", "confidence": "medium", "evidence": "no wordmark; identical design system and mobile-test-run content to the adjacent Semaloop batches (numbered '03 Debug faster' label, sage green panel)" },
+    { "batch": "w187", "companyName": "Semaloop", "companySlug": "semaloop", "confidence": "high", "evidence": "testimonial and CTA copy name Semaloop" },
+    { "batch": "w188", "companyName": "Fourmula", "companySlug": "fourmula", "confidence": "high", "evidence": "Fourmula wordmark in footer; '(c) 2026, Fourmula ltd'" },
+    { "batch": "w189", "companyName": "Clarasight", "companySlug": "clarasight", "confidence": "high", "evidence": "Clarasight wordmark in nav; 'Why Clarasight' copy" },
+    { "batch": "w190", "companyName": "Clarasight", "companySlug": "clarasight", "confidence": "high", "evidence": "footer '(c) 2026 Clarasight' and large wordmark" },
+    { "batch": "w191", "companyName": "Spade", "companySlug": "spade", "confidence": "high", "evidence": "SPADE wordmark in nav; copy 'Spade takes messy transaction data'" },
+    { "batch": "w192", "companyName": "Spade", "companySlug": "spade", "confidence": "medium", "evidence": "no wordmark; Spade design system (mono labels, clipped image corners) and 'Risk & Authorization' merchant-enrichment content matching Spade footer use cases" },
+    { "batch": "w193", "companyName": "Spade", "companySlug": "spade", "confidence": "high", "evidence": "footer '(c) Spade 2026'" },
+    { "batch": "w194", "companyName": "Spade", "companySlug": "spade", "confidence": "high", "evidence": "quote and stat copy name Spade" },
+    { "batch": "w195", "companyName": "Solidroad", "companySlug": "solidroad", "confidence": "high", "evidence": "Solidroad wordmark in nav and footer; '(c) 2026 Solidroad Inc.'" },
+    { "batch": "w196", "companyName": "Solidroad", "companySlug": "solidroad", "confidence": "medium", "evidence": "no wordmark; Solidroad serif type, lime 'Get a demo' button and agent-training simulation content" },
+    { "batch": "w197", "companyName": "EVpin", "companySlug": "evpin", "confidence": "high", "evidence": "EVpin wordmark in nav" },
+    { "batch": "w198", "companyName": "EVpin", "companySlug": "evpin", "confidence": "medium", "evidence": "no wordmark; EV charging site shareable report matches EVpin hero copy" },
+    { "batch": "w199", "companyName": "Deck", "companySlug": "deck", "confidence": "high", "evidence": "DECK wordmark in nav; 'Deck Agent' in product UI" }
+  ],
+  "records": [
+    { "id": "267d63c54f", "companyName": "Fillout", "companySlug": "fillout", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "523ec3e9ca", "companyName": "Fillout", "companySlug": "fillout", "companyConfidence": "high", "category": "logo-cloud", "categoryConfidence": "medium" },
+    { "id": "810fa44553", "companyName": "Fillout", "companySlug": "fillout", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "d5ebe9ecd9", "companyName": "Fillout", "companySlug": "fillout", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "1961f583bd", "companyName": "Fillout", "companySlug": "fillout", "companyConfidence": "high", "category": "integration", "categoryConfidence": "high" },
+    { "id": "0270d4935f", "companyName": "Fillout", "companySlug": "fillout", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "high" },
+    { "id": "3f6a2c86c7", "companyName": "Fillout", "companySlug": "fillout", "companyConfidence": "high", "category": "footer", "categoryConfidence": "high" },
+
+    { "id": "309ff6af6b", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "32b132589a", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "logo-cloud", "categoryConfidence": "high" },
+    { "id": "b79603dfd6", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "fcfcc2ce84", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "fb471f87ab", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "divider", "categoryConfidence": "medium" },
+    { "id": "57a02b2dd1", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "6f872b870a", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "divider", "categoryConfidence": "medium" },
+    { "id": "059ba63e70", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "1bcb77ec9f", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "cta", "categoryConfidence": "low" },
+    { "id": "2bcc329783", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "06b0f637e8", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "blog", "categoryConfidence": "medium" },
+    { "id": "4a4d92d683", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "feature", "categoryConfidence": "medium" },
+    { "id": "391925f140", "companyName": "Weav", "companySlug": "weav", "companyConfidence": "high", "category": "footer", "categoryConfidence": "medium" },
+
+    { "id": "7795aab282", "companyName": "Semaloop", "companySlug": "semaloop", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+
+    { "id": "6731c24dae", "companyName": "Semaloop", "companySlug": "semaloop", "companyConfidence": "medium", "category": "feature", "categoryConfidence": "high" },
+
+    { "id": "48cf2bde7f", "companyName": "Semaloop", "companySlug": "semaloop", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "high" },
+    { "id": "ca8e83933a", "companyName": "Semaloop", "companySlug": "semaloop", "companyConfidence": "high", "category": "cta", "categoryConfidence": "high" },
+
+    { "id": "f20eec3911", "companyName": "Fourmula", "companySlug": "fourmula", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "e147d658cb", "companyName": "Fourmula", "companySlug": "fourmula", "companyConfidence": "high", "category": "feature", "categoryConfidence": "high" },
+    { "id": "3c1467f6bb", "companyName": "Fourmula", "companySlug": "fourmula", "companyConfidence": "high", "category": "footer", "categoryConfidence": "high" },
+
+    { "id": "116115f741", "companyName": "Clarasight", "companySlug": "clarasight", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "040e641438", "companyName": "Clarasight", "companySlug": "clarasight", "companyConfidence": "high", "category": "value-proposition", "categoryConfidence": "medium" },
+    { "id": "a4ee0ab66c", "companyName": "Clarasight", "companySlug": "clarasight", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "high" },
+    { "id": "b5d0acbed3", "companyName": "Clarasight", "companySlug": "clarasight", "companyConfidence": "high", "category": "security", "categoryConfidence": "high" },
+    { "id": "2d0eb510c2", "companyName": "Clarasight", "companySlug": "clarasight", "companyConfidence": "high", "category": "cta", "categoryConfidence": "medium" },
+
+    { "id": "e59e2503b0", "companyName": "Clarasight", "companySlug": "clarasight", "companyConfidence": "high", "category": "stats", "categoryConfidence": "medium" },
+    { "id": "3e977b22b9", "companyName": "Clarasight", "companySlug": "clarasight", "companyConfidence": "high", "category": "footer", "categoryConfidence": "high" },
+
+    { "id": "8604678695", "companyName": "Spade", "companySlug": "spade", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+
+    { "id": "0ae9dfa816", "companyName": "Spade", "companySlug": "spade", "companyConfidence": "medium", "category": "feature", "categoryConfidence": "high" },
+
+    { "id": "65d373570f", "companyName": "Spade", "companySlug": "spade", "companyConfidence": "high", "category": "footer", "categoryConfidence": "high" },
+
+    { "id": "900f7156a3", "companyName": "Spade", "companySlug": "spade", "companyConfidence": "high", "category": "testimonial", "categoryConfidence": "medium" },
+
+    { "id": "fbce5d0806", "companyName": "Solidroad", "companySlug": "solidroad", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "610f9c7b67", "companyName": "Solidroad", "companySlug": "solidroad", "companyConfidence": "high", "category": "footer", "categoryConfidence": "high" },
+
+    { "id": "340b00a768", "companyName": "Solidroad", "companySlug": "solidroad", "companyConfidence": "medium", "category": "feature", "categoryConfidence": "high" },
+
+    { "id": "e21b539d24", "companyName": "EVpin", "companySlug": "evpin", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+
+    { "id": "cbc6b8a913", "companyName": "EVpin", "companySlug": "evpin", "companyConfidence": "medium", "category": "feature", "categoryConfidence": "high" },
+
+    { "id": "a3e72f9092", "companyName": "Deck", "companySlug": "deck", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "d9b9c37e3e", "companyName": "Deck", "companySlug": "deck", "companyConfidence": "high", "category": "integration", "categoryConfidence": "medium" }
+  ]
+}

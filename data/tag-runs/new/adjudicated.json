@@ -1,0 +1,18 @@
+{
+  "note": "Decisions for the 13 screenshots where pass 1 and pass 2 disagreed on company or category.",
+  "decisions": [
+    { "id": "84c5b3c38c", "companySlug": "customer-io", "companyName": "Customer.io", "category": "how-it-works", "companyConfidence": "medium", "categoryConfidence": "medium" },
+    { "id": "7ce9098f34", "companySlug": "arrakis", "companyName": "Arrakis", "category": "value-proposition", "companyConfidence": "medium", "categoryConfidence": "medium" },
+    { "id": "5840b14235", "companySlug": "orchestra-bio", "companyName": "Orchestra Bio", "domain": "orchestra.bio", "category": "hero", "companyConfidence": "high", "categoryConfidence": "high" },
+    { "id": "8932761436", "companySlug": "orchestra-bio", "companyName": "Orchestra Bio", "domain": "orchestra.bio", "category": "feature", "companyConfidence": "high", "categoryConfidence": "medium" },
+    { "id": "714fb01d90", "companySlug": "orchestra-bio", "companyName": "Orchestra Bio", "domain": "orchestra.bio", "category": "feature", "companyConfidence": "high", "categoryConfidence": "high" },
+    { "id": "f8d48ceef1", "companySlug": "orchestra-bio", "companyName": "Orchestra Bio", "domain": "orchestra.bio", "category": "feature", "companyConfidence": "high", "categoryConfidence": "high" },
+    { "id": "151138a709", "companySlug": "orchestra-bio", "companyName": "Orchestra Bio", "domain": "orchestra.bio", "category": "blog", "companyConfidence": "high", "categoryConfidence": "high" },
+    { "id": "6400740679", "companySlug": "orchestra-bio", "companyName": "Orchestra Bio", "domain": "orchestra.bio", "category": "cta", "companyConfidence": "high", "categoryConfidence": "medium" },
+    { "id": "b00e2e741d", "companySlug": "beside", "companyName": "Beside", "category": "how-it-works", "companyConfidence": "high", "categoryConfidence": "medium" },
+    { "id": "da62fb731c", "companySlug": "ycode", "companyName": "Ycode", "category": "integration", "companyConfidence": "high", "categoryConfidence": "medium" },
+    { "id": "e8895e8b35", "companySlug": "ruul", "companyName": "Ruul", "category": "testimonial", "companyConfidence": "high", "categoryConfidence": "medium" },
+    { "id": "84fccd0d5a", "companySlug": "unkey", "companyName": "Unkey", "domain": "unkey.com", "category": "feature", "companyConfidence": "medium", "categoryConfidence": "high" },
+    { "id": "241456bde9", "companySlug": "chatbase", "companyName": "Chatbase", "category": "use-case", "companyConfidence": "high", "categoryConfidence": "medium" }
+  ]
+}

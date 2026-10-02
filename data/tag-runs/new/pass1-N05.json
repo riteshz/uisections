@@ -1,0 +1,1464 @@
+{
+  "taskId": "N05",
+  "sites": [
+    {
+      "batch": "w173",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "confidence": "high",
+      "evidence": "QUARTR wordmark in nav, product named Quartr Pro/API in copy, giant QUARTR wordmark and (c) 2026 Quartr AB in footer"
+    },
+    {
+      "batch": "w174",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "confidence": "high",
+      "evidence": "Heidi logo in nav, 'Get Heidi free' CTAs, large Heidi wordmark and (c) 2026 Heidi in footer"
+    },
+    {
+      "batch": "w175",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "confidence": "high",
+      "evidence": "ARCADE wordmark in nav, product named Arcade throughout copy, giant ARCADE wordmark in footer"
+    },
+    {
+      "batch": "w176",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "confidence": "high",
+      "evidence": "Heidi logo in nav, 'Vanquish the paperwork with Heidi' headline, Heidi wordmark and (c) 2026 Heidi in footer"
+    },
+    {
+      "batch": "w177",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "confidence": "medium",
+      "evidence": "'Get Remote' CTA for Heidi Remote mic; Heidi serif type, plum button and cream palette"
+    },
+    {
+      "batch": "w178",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "confidence": "medium",
+      "evidence": "Heidi Remote clip-on mic product, 'Get Remote' CTA in Heidi plum/cream style"
+    },
+    {
+      "batch": "w179",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "confidence": "medium",
+      "evidence": "copy says the mic 'fits the way you already use Heidi'; Heidi Remote device and 'Get Remote' CTA"
+    },
+    {
+      "batch": "w180",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "confidence": "medium",
+      "evidence": "'Get Remote' CTA with Heidi serif type, plum button and Heidi logo-curve decoration"
+    },
+    {
+      "batch": "w181",
+      "companyName": "Medusa",
+      "companySlug": "medusa",
+      "domain": "medusajs.com",
+      "confidence": "high",
+      "evidence": "testimonial 'Medusa struck the right balance...' and Cloud/agentic development copy"
+    },
+    {
+      "batch": "w182",
+      "companyName": "Medusa",
+      "companySlug": "medusa",
+      "domain": "medusajs.com",
+      "confidence": "high",
+      "evidence": "'Medusa Cloud' eyebrow and 'Get the most out of Medusa' headline"
+    }
+  ],
+  "records": [
+    {
+      "id": "3b4272f0a6",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "hero",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        },
+        {
+          "id": "photography",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "AI infrastructure for company research",
+      "alt": "Quartr hero section: left-aligned headline with Book demo button above a research app dashboard set on a marble photo backdrop",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "bcba331003",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "logo-cloud",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "monochrome",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "high"
+        }
+      ],
+      "headline": "",
+      "alt": "Quartr logo cloud section: two rows of five black customer and partner logos on a white background",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "df312d7e3d",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "medium",
+      "categoryAlternates": [
+        "value-proposition"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "split",
+          "confidence": "medium"
+        },
+        {
+          "id": "photography",
+          "confidence": "high"
+        },
+        {
+          "id": "code",
+          "confidence": "medium"
+        },
+        {
+          "id": "glassmorphism",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Two offerings. One proprietary data engine.",
+      "alt": "Quartr features section: headline on the left beside two photo cards for Quartr Pro and Quartr API, one with a frosted JSON snippet",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "96e0846a75",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "card-grid",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "medium"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "The leading first-party data layer for institutional finance and AI",
+      "alt": "Quartr features section: four equal gray cards with small UI snippets and charts, each with a short title and description",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "05a313e1cd",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "integration",
+      "categoryConfidence": "medium",
+      "categoryAlternates": [
+        "feature"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "split",
+          "confidence": "high"
+        },
+        {
+          "id": "photography",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Quartr MCP connects your AI environment to 16K+ public companies",
+      "alt": "Quartr integrations section: headline on the left, marble staircase photo on the right with Claude, Quartr and OpenAI app icons",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "7cd15671f9",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "testimonial",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "split",
+          "confidence": "high"
+        },
+        {
+          "id": "video",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "“Quartr's AI stands out because it only pulls clean, first-party data from public companies. In investing, that's everything.”",
+      "alt": "Quartr testimonials section: large quote beside a customer video with play button, above three logo-headed quotes in columns",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "6f185a0fba",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [
+        "testimonial"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "dark-mode",
+          "confidence": "high"
+        },
+        {
+          "id": "photography",
+          "confidence": "high"
+        },
+        {
+          "id": "video",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Quartr API, the world's leading IR data layer",
+      "alt": "Quartr features section: dark layout with a wide cloud photo orbited by icons, three benefit columns and a video testimonial",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "78931f243c",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "about",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "photography",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "The intelligence layer financial AI runs on",
+      "alt": "Quartr about & mission section: headline with About link, three columns of company story text and a wide office interior photo",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "a0ee594e5a",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "blog",
+      "categoryConfidence": "medium",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "carousel",
+          "confidence": "high"
+        },
+        {
+          "id": "photography",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Trusted across finance and AI",
+      "alt": "Quartr blog & resources section: horizontal carousel of photo cards for partnership news, automations and a live session",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "629c6b51cc",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "stats",
+      "categoryConfidence": "high",
+      "categoryAlternates": [
+        "about"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "metrics",
+          "confidence": "high"
+        },
+        {
+          "id": "photography",
+          "confidence": "medium"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "medium"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "",
+      "alt": "Quartr stats section: four large monospace figures in a row above two short text columns and a dark photo of a globe by a window",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "80f7253790",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "other",
+      "categoryConfidence": "medium",
+      "categoryAlternates": [
+        "cta",
+        "feature"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "medium"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Research anytime, anywhere",
+      "alt": "Quartr other section: centered app download headline with star rating above an iPhone showing Quartr lock-screen notifications",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "ca9cb18918",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "newsletter",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "form",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "split",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Join 200k+ other business enthusiasts",
+      "alt": "Quartr newsletter section: serif headline and email subscribe field on the left, scattered Edge magazine covers on the right",
+      "usable": true,
+      "issues": [
+        "broken-image"
+      ],
+      "duplicateOf": null
+    },
+    {
+      "id": "773a629ea4",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "cta",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "dark-mode",
+          "confidence": "high"
+        },
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "high"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "high"
+        }
+      ],
+      "headline": "See what Quartr can do for your team",
+      "alt": "Quartr call to action section: centered white headline and Contact sales button on a near-black background",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "af367ef947",
+      "companyName": "Quartr",
+      "companySlug": "quartr",
+      "domain": "quartr.com",
+      "companyConfidence": "high",
+      "category": "footer",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "monochrome",
+          "confidence": "high"
+        },
+        {
+          "id": "oversized-type",
+          "confidence": "medium"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "",
+      "alt": "Quartr footer section: six link columns including Ask AI about Quartr, above an oversized black QUARTR wordmark",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "4771036124",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "hero",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "tabs",
+          "confidence": "medium"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "form",
+          "confidence": "medium"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Relief in every visit",
+      "alt": "Heidi hero section: centered serif headline with two buttons above a search prompt box and mode tabs on a blurred flower photo",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "af3a528671",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "photography",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "medium"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "From first visit to final follow-up.",
+      "alt": "Heidi features section: serif headline over rounded cards pairing text with a clinical notes UI, a clip-on mic photo and a chat answer",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "410a20c7f4",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "medium",
+      "categoryAlternates": [
+        "use-case"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "dark-mode",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Tackles every clinical task. Tailored to your workforce.",
+      "alt": "Heidi features section: dark plum background with a scrolling serif list of clinical tasks and a yellow Explore enterprise button",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "cf3ea1b33d",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "cta",
+      "categoryConfidence": "high",
+      "categoryAlternates": [
+        "testimonial"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "full-bleed-media",
+          "confidence": "medium"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Discover real relief today.",
+      "alt": "Heidi call to action section: short serif customer quote above a rounded panel with blurred sky photo, serif headline and two buttons",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "16de3ae14a",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "footer",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "full-bleed-media",
+          "confidence": "medium"
+        },
+        {
+          "id": "oversized-type",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "",
+      "alt": "Heidi footer section: five link columns on a blue sky and hills backdrop with a large yellow logo and white Heidi wordmark",
+      "usable": true,
+      "issues": [
+        "duplicate"
+      ],
+      "duplicateOf": "efc69c69d5"
+    },
+    {
+      "id": "0ad1a0d792",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "hero",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "tabs",
+          "confidence": "medium"
+        },
+        {
+          "id": "gradient",
+          "confidence": "high"
+        },
+        {
+          "id": "form",
+          "confidence": "high"
+        },
+        {
+          "id": "logo-strip",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Create On-Brand Product Videos with AI",
+      "alt": "Arcade hero section: centered headline with Video/Demo toggle and URL input on a blue gradient, customer logo row below",
+      "usable": true,
+      "issues": [
+        "cookie-banner"
+      ],
+      "duplicateOf": null
+    },
+    {
+      "id": "b95dc91acf",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "tabs",
+          "confidence": "medium"
+        },
+        {
+          "id": "video",
+          "confidence": "high"
+        },
+        {
+          "id": "gradient",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "You're the storyteller. Arcade makes every format effortless.",
+      "alt": "Arcade features section: centered headline above a tabbed video player window with a play button and soft blue glow",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "bc100c4b19",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [
+        "comparison"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "video",
+          "confidence": "high"
+        },
+        {
+          "id": "tabs",
+          "confidence": "high"
+        }
+      ],
+      "headline": "AI that knows your product. AI that knows your brand.",
+      "alt": "Arcade features section: two-line headline and copy above a lime video panel with play button and a Claude/Gemini/Arcade toggle",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "cd11db2875",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "testimonial",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "high"
+        }
+      ],
+      "headline": "\"Arcade's special sauce: the speed to create professional assets.\"",
+      "alt": "Arcade testimonials section: centered quote under a G2 five-star rating with a handwritten signature and job title",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "d6d069bc3d",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "how-it-works",
+      "categoryConfidence": "medium",
+      "categoryAlternates": [
+        "feature"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "card-grid",
+          "confidence": "medium"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        },
+        {
+          "id": "video",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "The fastest way to tell your story.",
+      "alt": "Arcade how it works section: headline beside a two-column grid of five step cards showing brand kit, prompt, editor and export UI",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "21b9d4ea74",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "use-case",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "tabs",
+          "confidence": "high"
+        },
+        {
+          "id": "split",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Empower your GTM to be better storytellers.",
+      "alt": "Arcade use cases section: centered headline over team tabs, with marketing copy and checklist beside a dashboard screenshot",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "aa1e6f6e87",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "integration",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "dark-mode",
+          "confidence": "medium"
+        },
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "carousel",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Integrated with the tools you rely on.",
+      "alt": "Arcade integrations section: dark navy panel with centered headline, Explore button and a row of app icon tiles fading at the edges",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "df169b8b91",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "stats",
+      "categoryConfidence": "medium",
+      "categoryAlternates": [
+        "testimonial"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "bento",
+          "confidence": "high"
+        },
+        {
+          "id": "metrics",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "What it's like working with Arcade",
+      "alt": "Arcade stats section: bento grid of six bordered cards, each with a customer logo and a large result metric like 9x or +70%",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "ef34bc4ad0",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "cta",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "minimal",
+          "confidence": "high"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Build AI-powered content that drives action.",
+      "alt": "Arcade call to action section: slim light gray band with a one-line headline and Sign up for free and Talk to a GTM expert buttons",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "4fa9fc2de0",
+      "companyName": "Arcade",
+      "companySlug": "arcade",
+      "domain": "arcade.software",
+      "companyConfidence": "high",
+      "category": "footer",
+      "categoryConfidence": "high",
+      "categoryAlternates": [
+        "newsletter"
+      ],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "form",
+          "confidence": "high"
+        },
+        {
+          "id": "oversized-type",
+          "confidence": "medium"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Smarter Stories, Every Month.",
+      "alt": "Arcade footer section: four link columns and an email subscribe field above a faded oversized ARCADE wordmark and logo",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "dfd5568c96",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "hero",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "medium"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Capture care in your own words",
+      "alt": "Heidi hero section: Scribe badge and centered serif headline above a transcription box with a Stop transcribing control",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "52966fd308",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "logo-cloud",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "minimal",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "",
+      "alt": "Heidi logo cloud section: single row of dark NHS trust and healthcare provider logos on a cream background",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "1e19650f93",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "split",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Vanquish the paperwork with Heidi",
+      "alt": "Heidi features section: serif headline and accordion feature list on the left, live transcript card over a blurred sky photo on the right",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "41c6cd619b",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "use-case",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "split",
+          "confidence": "high"
+        },
+        {
+          "id": "carousel",
+          "confidence": "medium"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Every clinician, every specialty, every setting.",
+      "alt": "Heidi use cases section: serif headline with a specialty list and arrows on the left, GP consultation note UI on the right",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "18a9f377b4",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "how-it-works",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Make your next shift your best shift.",
+      "alt": "Heidi how it works section: centered serif headline above a wavy timeline with before, during and after the consult steps",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "b8534e6548",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        },
+        {
+          "id": "photography",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Extend care beyond the note",
+      "alt": "Heidi features section: centered serif headline above two product cards, an Evidence answer UI and a hand holding the Remote mic",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "111dcca606",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "cta",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "bold-color",
+          "confidence": "medium"
+        },
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Start practicing with a partner",
+      "alt": "Heidi call to action section: yellow rounded panel with logo, centered serif headline and button over a large dark curved logo shape",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "efc69c69d5",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "high",
+      "category": "footer",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "full-bleed-media",
+          "confidence": "medium"
+        },
+        {
+          "id": "oversized-type",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "",
+      "alt": "Heidi footer section: five link columns on a blue sky and hills backdrop with a large yellow logo and white Heidi wordmark",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "a62f1fa147",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "medium",
+      "category": "use-case",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "card-grid",
+          "confidence": "high"
+        },
+        {
+          "id": "centered",
+          "confidence": "medium"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Remote is built for the way you work",
+      "alt": "Heidi use cases section: centered serif headline and Get Remote button above three cream cards for hospital, allied and rural care",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "85ec7107ae",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "medium",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "card-grid",
+          "confidence": "high"
+        },
+        {
+          "id": "centered",
+          "confidence": "medium"
+        },
+        {
+          "id": "photography",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Clip on. Then care.",
+      "alt": "Heidi features section: centered serif headline and button above three photo cards of the clip-on mic in clinical settings",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "5b9e708849",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "medium",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "medium"
+        },
+        {
+          "id": "3d",
+          "confidence": "medium"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Portable. Secured. Reliable.",
+      "alt": "Heidi features section: centered serif headline above a rendered side view of the clip-on mic with battery spec callouts",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "3cc6039080",
+      "companyName": "Heidi",
+      "companySlug": "heidi",
+      "domain": "heidihealth.com",
+      "companyConfidence": "medium",
+      "category": "cta",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "centered",
+          "confidence": "high"
+        },
+        {
+          "id": "serif",
+          "confidence": "high"
+        },
+        {
+          "id": "warm-neutral",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Moves with you through every session",
+      "alt": "Heidi call to action section: cream rounded band with centered serif headline, Get Remote button and faint curved line decorations",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "7785625088",
+      "companyName": "Medusa",
+      "companySlug": "medusa",
+      "domain": "medusajs.com",
+      "companyConfidence": "medium",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        },
+        {
+          "id": "gradient",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "10x your time-to-market with AI-enabled development",
+      "alt": "Medusa features section: headline with agentic tooling and MCP links above an AI site builder UI on a warm sunset gradient",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "5d1eb4d911",
+      "companyName": "Medusa",
+      "companySlug": "medusa",
+      "domain": "medusajs.com",
+      "companyConfidence": "high",
+      "category": "testimonial",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "carousel",
+          "confidence": "medium"
+        },
+        {
+          "id": "monochrome",
+          "confidence": "high"
+        },
+        {
+          "id": "minimal",
+          "confidence": "medium"
+        }
+      ],
+      "headline": "Medusa struck the right balance between open source flexibility and solid opinionated architecture.",
+      "alt": "Medusa testimonials section: large centered quote card with EightSleep logo beside collapsed Heineken and Mitsubishi Motors tabs",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "de4fddd80a",
+      "companyName": "Medusa",
+      "companySlug": "medusa",
+      "domain": "medusajs.com",
+      "companyConfidence": "high",
+      "category": "feature",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        {
+          "id": "card-grid",
+          "confidence": "high"
+        },
+        {
+          "id": "product-ui",
+          "confidence": "high"
+        }
+      ],
+      "headline": "Get the most out of Medusa with AI-enabling infrastructure",
+      "alt": "Medusa features section: headline above three cards showing an AI chat, traffic and server charts, and a billing bar chart",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    }
+  ]
+}

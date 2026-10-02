@@ -16,8 +16,14 @@ import { collectionNode, graph, organizationNode, websiteNode } from '../lib/jso
 const fmt = (n: number) => n.toLocaleString('en-US');
 const updated = new Date(totals.updated).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 
-// Newest additions first; same-day additions keep the varied curated order (stable sort).
-const latest = [...sections].sort((a, b) => b.firstSeen.localeCompare(a.firstSeen)).slice(0, 48);
+// Newest additions first, then spread so the same company never sits in neighbouring slots.
+const newest = [...sections].sort((a, b) => b.firstSeen.localeCompare(a.firstSeen)).slice(0, 48);
+const latest: Section[] = [];
+while (newest.length) {
+  const recent = new Set(latest.slice(-2).map((s) => s.company));
+  const i = newest.findIndex((s) => !recent.has(s.company));
+  latest.push(newest.splice(i < 0 ? 0 : i, 1)[0]);
+}
 
 // --- Marquee: 2 rows × 12, hero/feature first, one per company, dark and light alternating.
 // Deterministic: candidates are ordered by their content-hash id, which is stable but well mixed.
