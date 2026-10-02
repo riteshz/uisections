@@ -6,7 +6,6 @@ import HomeAbout from '../components/HomeAbout.astro';
 import Marquee from '../components/Marquee.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import TypeTiles from '../components/TypeTiles.astro';
-import CompanyCard from '../components/CompanyCard.astro';
 import FilterBar from '../components/FilterBar.astro';
 import SectionGrid from '../components/SectionGrid.astro';
 import { FACETS, categories, categoryStats, companies, pagedIndustries, pagedTags, sections, totals, type Section } from '../lib/data';
@@ -17,8 +16,8 @@ import { collectionNode, graph, organizationNode, websiteNode } from '../lib/jso
 const fmt = (n: number) => n.toLocaleString('en-US');
 const updated = new Date(totals.updated).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 
-// sections.json is sorted newest first.
-const latest = sections.slice(0, 48);
+// Newest additions first; same-day additions keep the varied curated order (stable sort).
+const latest = [...sections].sort((a, b) => b.firstSeen.localeCompare(a.firstSeen)).slice(0, 48);
 
 // --- Marquee: 2 rows × 12, hero/feature first, one per company, dark and light alternating.
 // Deterministic: candidates are ordered by their content-hash id, which is stable but well mixed.
@@ -88,12 +87,12 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
 
   <section class="block container-wide" aria-labelledby="latest-title">
     <div class="reveal">
-      <SectionHeading title="Fresh picks" id="latest-title" sub={`${latest.length} sections from across the library`} />
+      <SectionHeading title="Recently added" id="latest-title" sub={`The latest ${latest.length} sections added to the library`} />
       <div class="toolbar">
-        <FilterBar options={latestOptions} total={latest.length} attr="cat" param="section" target="latest" label="Filter fresh picks by section type" />
+        <FilterBar options={latestOptions} total={latest.length} attr="cat" param="section" target="latest" label="Filter recently added sections by type" />
       </div>
     </div>
-    <SectionGrid items={latest} id="latest" eagerCount={0} priorityCount={0} label="Fresh picks" />
+    <SectionGrid items={latest} id="latest" eagerCount={0} priorityCount={0} label="Recently added sections" />
   </section>
 
   <section class="block container-wide reveal" aria-labelledby="types-title">
@@ -115,20 +114,6 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
     </section>
   )}
 
-  {featured.length > 0 && (
-    <section class="block container-wide reveal" aria-labelledby="companies-title">
-      <SectionHeading
-        title="Featured companies"
-        id="companies-title"
-        href="/companies/"
-        linkLabel="All companies"
-        sub={`The most-collected of ${fmt(totals.companies)} companies`}
-      />
-      <div class="grid-4">
-        {featured.map((c) => <CompanyCard c={c} />)}
-      </div>
-    </section>
-  )}
 
   <section class="block container-wide reveal" aria-labelledby="about-title">
     <HomeAbout
@@ -148,9 +133,6 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
   .block { margin-top: clamp(56px, 2rem + 4vw, 120px); }
   .toolbar { margin-bottom: 28px; }
 
-  .grid-4 { display: grid; gap: 28px 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  @media (min-width: 720px) { .grid-4 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 20px; } }
-  @media (min-width: 1100px) { .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 36px 24px; } }
 
   /* Blocks below the fold rise in as they scroll into view (no JS; off without support or with reduced motion). */
   @media (prefers-reduced-motion: no-preference) {

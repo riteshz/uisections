@@ -35,6 +35,10 @@ const manifest = readJson(path.join(CACHE_DIR, 'shots', 'v1', 'manifest.json'));
 const overrides = readJson(path.join(DATA_DIR, 'overrides.json'), { sections: {}, companies: {} });
 const companyMeta = readJson(path.join(DATA_DIR, 'companies.json'), {});
 const publishedSlugs = readJson(path.join(DATA_DIR, 'published-slugs.json'), {});
+/** id → date the screenshot first entered the library (file dates are copy dates, so we record our own). */
+const addedDatesFile = path.join(DATA_DIR, 'added-dates.json');
+const addedDates = readJson(addedDatesFile, {});
+const today = new Date().toISOString().slice(0, 10);
 
 // --- AI records -----------------------------------------------------------
 const Conf = z.enum(['high', 'medium', 'low']);
@@ -141,6 +145,7 @@ for (const it of items) {
     headline: headline.trim(),
     alt: alt.trim(),
     addedAt: it.addedAt,
+    firstSeen: (addedDates[it.id] ??= today),
     nn: it.nn ?? null,
     variant: it.variant ?? null,
     width: it.width,
@@ -328,6 +333,8 @@ const searchIndex = [
 const slim = sections.map(({ kind, companyDomain, companyConfidence, variant, ...s }) => s);
 writeJson(path.join(GEN_DIR, 'sections.json'), curate(slim));
 writeJson(path.join(GEN_DIR, 'companies.json'), companyList);
+// Only ever add dates; existing entries are never changed.
+writeJson(addedDatesFile, Object.fromEntries(Object.entries(addedDates).sort(([a], [b]) => a.localeCompare(b))));
 writeJson(path.join(GEN_DIR, 'categories.json'), categoryList);
 writeJson(path.join(GEN_DIR, 'tags.json'), tagList);
 writeJson(path.join(GEN_DIR, 'industries.json'), industryList);
