@@ -5,11 +5,10 @@ import HomeStyleFacets from '../components/HomeStyleFacets.astro';
 import HomeAbout from '../components/HomeAbout.astro';
 import Marquee from '../components/Marquee.astro';
 import SectionHeading from '../components/SectionHeading.astro';
-import CategoryCard from '../components/CategoryCard.astro';
+import TypeTiles from '../components/TypeTiles.astro';
 import CompanyCard from '../components/CompanyCard.astro';
 import FilterBar from '../components/FilterBar.astro';
 import SectionGrid from '../components/SectionGrid.astro';
-import Icon from '../components/Icon.astro';
 import { FACETS, categories, categoryStats, companies, pagedTags, sections, totals, type Section } from '../lib/data';
 import { fit, list } from '../lib/seo';
 import { SITE } from '../lib/site';
@@ -84,19 +83,6 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
     </div>
   )}
 
-  <section class="block container-wide reveal" aria-labelledby="types-title">
-    <SectionHeading
-      title="Browse by section type"
-      id="types-title"
-      href="/categories/"
-      linkLabel="All section types"
-      sub={`${sectionTypes.length} section types, most examples first`}
-    />
-    <div class="grid-4">
-      {sectionTypes.map((c) => <CategoryCard href={c.path} title={c.plural} count={c.count} covers={c.covers} />)}
-    </div>
-  </section>
-
   <section class="block container-wide" aria-labelledby="latest-title">
     <div class="reveal">
       <SectionHeading title="Fresh picks" id="latest-title" sub={`${latest.length} sections from across the library`} />
@@ -105,9 +91,11 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
       </div>
     </div>
     <SectionGrid items={latest} id="latest" eagerCount={0} priorityCount={0} label="Fresh picks" />
-    <div class="after">
-      <a class="btn btn-secondary" href="/categories/">Browse all section types<Icon name="arrow-right" size={16} /></a>
-    </div>
+  </section>
+
+  <section class="block container-wide reveal" aria-labelledby="types-title">
+    <SectionHeading title="Browse by section type" id="types-title" href="/categories/" linkLabel="All section types" sub={`${sectionTypes.length} section types`} />
+    <TypeTiles items={sectionTypes} />
   </section>
 
   {styleGroups.length > 0 && (
@@ -149,7 +137,6 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
   .marquee-wrap { margin-top: clamp(48px, 2rem + 3vw, 80px); }
   .block { margin-top: clamp(80px, 3rem + 4vw, 120px); }
   .toolbar { margin-bottom: 28px; }
-  .after { display: flex; justify-content: center; margin-top: 48px; }
 
   .grid-4 { display: grid; gap: 28px 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   @media (min-width: 720px) { .grid-4 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 20px; } }
