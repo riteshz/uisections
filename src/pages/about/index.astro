@@ -16,11 +16,10 @@ const crumbs = [
 const h1 = 'About UI Sections';
 const title = 'About UI Sections — a library of real website sections';
 const description =
-  'How UI Sections collects and organises real website sections by type, style and company, and how to submit a site or request a screenshot removal.';
+  'How UI Sections collects and organises real website sections — heroes, pricing, features, footers and more — by section type, style and company.';
 const intro =
   'UI Sections is a library of real website sections — heroes, features, pricing, testimonials, footers and the rest — captured from live sites and organised so you can compare how teams design each part of a page.';
 
-const mail = (subject: string) => `mailto:${SITE.email}?subject=${encodeURIComponent(subject)}`;
 const updated = new Date(totals.updated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 const stats = [
   { n: totals.sections, label: 'sections' },
@@ -84,7 +83,6 @@ const jsonld = graph(
           <p>Every image is a screenshot of a live, public website — no mockups, templates or redesigns. Each one shows a single section of a page, captured at desktop width.</p>
           <p>Each section is then organised three ways: by <a href="/categories/">section type</a> (what the section does), by <a href="/tags/">style</a> (how it looks) and by <a href="/companies/">company</a> (every section from the same site, together).</p>
           <p>Tagging is AI-assisted. A model labels each screenshot against a written definition for every section type and style, and a person reviews the results before they’re published. A section type or style only gets its own page once there are enough examples to be useful.</p>
-          <p>Spotted a wrong tag? <a href={mail('Tag correction')}>Let us know</a>.</p>
         </div>
       </section>
 
@@ -106,31 +104,17 @@ const jsonld = graph(
         </div>
       </section>
 
-      <section class="row" id="submit" aria-labelledby="submit-title">
-        <h2 class="t-h2" id="submit-title">Submit a site</h2>
-        <div class="body">
-          <div class="well">
-            <p>Know a site with sections worth studying — yours or someone else’s? Send us the link. Every suggestion is reviewed, though not every site can be added.</p>
-            <div class="actions">
-              <a class="btn btn-primary" href={mail('Site submission')}>Email a site</a>
-              <span class="t-meta">{SITE.email}</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="row" id="removal" aria-labelledby="removal-title">
-        <h2 class="t-h2" id="removal-title">Removal requests</h2>
+      <section class="row" id="ownership" aria-labelledby="ownership-title">
+        <h2 class="t-h2" id="ownership-title">Ownership</h2>
         <div class="body">
           <p>Screenshots belong to their respective owners. They’re shown here for design reference and commentary, and UI Sections isn’t affiliated with the companies featured.</p>
-          <p>If you own a site shown here and would like a screenshot removed, email <a href={mail('Removal request')}>{SITE.email}</a> with the page links — ideally from an address at your domain — and it will be taken down.</p>
         </div>
       </section>
 
       <section class="row" aria-labelledby="colophon">
         <h2 class="t-h2" id="colophon">Colophon</h2>
         <div class="body">
-          <p>Built with <a href="https://astro.build/">Astro</a> and hosted on <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>. Type is set in Inter. Every page is static HTML, with a little JavaScript for search, filters and the image viewer.</p>
+          <p>Built with <a href="https://astro.build/">Astro</a> and hosted on <a href="https://www.cloudflare.com/">Cloudflare</a>. Type is set in Inter. Every page is static HTML, with a little JavaScript for search, filters and the image viewer.</p>
         </div>
       </section>
     </div>
@@ -170,6 +154,4 @@ const jsonld = graph(
   .way-title :global(.way-arrow) { color: var(--ink-4); }
   .way-body { font-size: 0.875rem; }
 
-  .well { display: grid; gap: 20px; padding: 28px; border-radius: var(--r-well); background: var(--wash); color: var(--ink-2); }
-  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; }
 </style>

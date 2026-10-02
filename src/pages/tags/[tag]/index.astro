@@ -7,7 +7,7 @@ import PatternsSummary from '../../../components/PatternsSummary.astro';
 import SectionHeading from '../../../components/SectionHeading.astro';
 import CategoryCard from '../../../components/CategoryCard.astro';
 import LinkChips from '../../../components/LinkChips.astro';
-import { FACETS, categoryStats, getSections, pagedTags, tagDefinitions, tagStats, topCompanies, type Tag } from '../../../lib/data';
+import { categoryStats, getSections, pagedTags, tagDefinitions, tagStats, topCompanies, type Tag } from '../../../lib/data';
 import { tagSeo } from '../../../lib/seo';
 import { getTagCopy } from '../../../lib/copy';
 import { breadcrumbNode, collectionNode, graph } from '../../../lib/jsonld';
@@ -40,7 +40,6 @@ const companiesHere = topCompanies(items, 16);
 const sameFacet = pagedTags.filter((x) => x.id !== t.id && x.facet === t.facet).sort((a, b) => b.count - a.count);
 const otherFacets = pagedTags.filter((x) => x.id !== t.id && x.facet !== t.facet).sort((a, b) => b.count - a.count);
 const related = [...sameFacet, ...otherFacets].slice(0, 4);
-const facetLabel = FACETS.find((f) => f.id === t.facet)?.label;
 
 // Factual fallback intro: count, spread and the tagging rule (first sentence of the definition).
 const rule = tagDefinitions.get(t.id)?.split(/(?<=[.!?])\s+(?=[A-Z])/)[0]?.trim();
@@ -62,7 +61,7 @@ const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: t.path, name
   jsonld={jsonld}
 >
   <div class="container-wide">
-    <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} eyebrow={facetLabel ? `${facetLabel} · ${t.count} examples` : `${t.count} examples`} />
+    <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} />
 
     {catOptions.length > 1 && (
       <div class="toolbar enter enter-4">

@@ -38,7 +38,7 @@ const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: c.path, name
 ---
 <BaseLayout title={seo.title} description={seo.description} ogImage={`/og/${c.id}-sections.jpg`} ogAlt={seo.h1} jsonld={jsonld}>
   <div class="container-wide">
-    <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} eyebrow={`${c.count} examples`} />
+    <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} />
 
     <div class="toolbar enter enter-4">
       <FilterBar options={styleOptions} total={items.length} attr="tags" param="style" target="grid" label="Filter by style" />

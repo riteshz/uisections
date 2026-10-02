@@ -23,7 +23,6 @@ export const organizationNode = () => ({
   name: SITE.name,
   url: `${SITE.url}/`,
   logo: { '@type': 'ImageObject', url: absolute('/logo-512.png'), width: 512, height: 512 },
-  email: SITE.email,
 });
 
 export const breadcrumbNode = (crumbs: Crumb[]) => ({

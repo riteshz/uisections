@@ -55,7 +55,7 @@ const jsonld = graph(breadcrumbNode(crumbs), {
 ---
 <BaseLayout title={title} description={description} path={path} ogImage="/og/categories.jpg" ogAlt={h1} jsonld={jsonld}>
   <div class="container-wide">
-    <PageIntro crumbs={crumbs} title={h1} intro={intro} eyebrow={`${n} section types · ${totals.sections.toLocaleString('en-US')} examples`} />
+    <PageIntro crumbs={crumbs} title={h1} intro={intro} />
 
     <ul class="cat-grid enter-solid enter-4" aria-label="Section types">
       {sorted.map((c, i) => (

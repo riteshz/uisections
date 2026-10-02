@@ -4,6 +4,5 @@ export const SITE = {
   tagline: 'Website section design inspiration',
   description:
     'A curated library of real website sections — heroes, pricing, features, footers and more — from the best SaaS and startup sites. Browse by section type, style and company.',
-  email: 'hello@uisections.com',
   locale: 'en_US',
 } as const;

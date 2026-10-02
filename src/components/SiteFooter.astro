@@ -1,7 +1,6 @@
 ---
 import Logo from './Logo.astro';
 import { categories, pagedTags, totals } from '../lib/data';
-import { SITE } from '../lib/site';
 
 const topCategories = [...categories].sort((a, b) => b.count - a.count).slice(0, 8);
 const topStyles = [...pagedTags].sort((a, b) => b.count - a.count).slice(0, 8);
@@ -29,8 +28,6 @@ const year = new Date(totals.updated).getFullYear();
           <li><a href="/tags/">All styles</a></li>
           <li><a href="/companies/">All companies</a></li>
           <li><a href="/about/">About</a></li>
-          <li><a href="/about/#submit">Submit a site</a></li>
-          <li><a href={`mailto:${SITE.email}`}>Contact</a></li>
         </ul>
       </div>
     </nav>

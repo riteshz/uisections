@@ -361,6 +361,15 @@ const taxonomy = {
       else close();
     });
 
+    // A page restored from the back/forward cache keeps old JS state; reset it.
+    window.addEventListener('pageshow', (e) => {
+      if (!e.persisted) return;
+      pushed = false;
+      closing = false;
+      dialog.classList.remove('is-closing');
+      if (dialog.open) dialog.close();
+    });
+
     // Deep link: /hero-sections/#s-abc123 opens that section.
     const m = location.hash.match(/^#s-([a-f0-9]+)$/);
     const initial = m && anchorById(m[1]);

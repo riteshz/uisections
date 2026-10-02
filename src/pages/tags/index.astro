@@ -62,7 +62,7 @@ const jsonld = graph(breadcrumbNode(crumbs), {
 ---
 <BaseLayout title={title} description={description} path={path} ogImage="/og/tags.jpg" ogAlt={h1} jsonld={jsonld}>
   <div class="container-wide">
-    <PageIntro crumbs={crumbs} title={h1} intro={intro} eyebrow={`${n} ${n === 1 ? 'style' : 'styles'} · ${groups.length} ${groups.length === 1 ? 'group' : 'groups'}`} />
+    <PageIntro crumbs={crumbs} title={h1} intro={intro} />
 
     <div class="facets enter-solid enter-4">
       {groups.map((g) => (

@@ -55,7 +55,7 @@ const jsonld = graph(breadcrumbNode(crumbs), {
 ---
 <BaseLayout title={title} description={description} path={path} ogImage="/og/companies.jpg" ogAlt="Website design examples by company" jsonld={jsonld}>
   <div class="container-wide">
-    <PageIntro crumbs={crumbs} title={h1} intro={intro} eyebrow={`${n} companies · ${sectionCount.toLocaleString('en-US')} sections`} />
+    <PageIntro crumbs={crumbs} title={h1} intro={intro} />
     <CompanyIndex items={listed} />
   </div>
 </BaseLayout>
