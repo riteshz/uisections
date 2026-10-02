@@ -1,5 +1,11 @@
 {
+  // Static site served by Workers Static Assets (no Worker script).
+  // _headers in dist/ applies; unknown URLs get dist/404.html with a 404 status.
   "name": "uisections",
-  "pages_build_output_dir": "./dist",
-  "compatibility_date": "2026-10-01"
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
 }
