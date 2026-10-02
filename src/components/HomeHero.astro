@@ -51,7 +51,7 @@ const others = companyTotal - 1;
 
   /* Company rotator: names share one grid cell, so the width never jumps. */
   .rot { display: inline-grid; color: var(--ink-2); font-weight: 560; }
-  .rot > span { grid-area: 1 / 1; white-space: nowrap; }
+  .rot > span { grid-area: 1 / 1; justify-self: center; white-space: nowrap; }
   .rot > span:not(:first-child) { opacity: 0; }
 
   @media (prefers-reduced-motion: no-preference) {
