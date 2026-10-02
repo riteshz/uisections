@@ -1,0 +1,66 @@
+---
+// Home "What is UI Sections?": two short paragraphs plus three library numbers.
+import Icon from './Icon.astro';
+
+interface Props {
+  titleId: string;
+  /** Category links woven into the first paragraph (most examples first). */
+  links: { href: string; label: string }[];
+  numbers: { value: number; label: string }[];
+}
+const { titleId, links, numbers } = Astro.props;
+// "Hero sections" → "hero sections", but keep acronyms like "CTA sections".
+const lc = (s: string) => (/^[A-Z][a-z]/.test(s) ? s[0].toLowerCase() + s.slice(1) : s);
+---
+<div class="about">
+  <div class="copy">
+    <h2 class="t-h2" id={titleId}>What is UI Sections?</h2>
+    <div class="body">
+      <p>
+        UI Sections is a curated library of website section design inspiration. Every screenshot is a real section
+        from a live SaaS or startup website{links.length > 0 && ': '}{links.map((l, i) => (
+          <Fragment>{i > 0 && ', '}<a href={l.href}>{lc(l.label)}</a></Fragment>
+        ))}{links.length > 0 && ' and more'}, captured as it shipped rather than recreated as a template.
+      </p>
+      <p>
+        Sections are grouped by type, visual style and company, so you can compare how different teams solve the
+        same layout problem, or see how one company builds its landing page from hero to footer. Open any screenshot
+        full size, then follow its links to similar designs.
+      </p>
+      <a class="more" href="/about/">How the library is curated<Icon name="arrow-right" size={16} /></a>
+    </div>
+  </div>
+  <dl class="numbers">
+    {numbers.map((n) => (
+      <div>
+        <dt>{n.label}</dt>
+        <dd class="tabular">{n.value.toLocaleString('en-US')}</dd>
+      </div>
+    ))}
+  </dl>
+</div>
+
+<style>
+  .about { padding: clamp(24px, 4vw, 56px); border-radius: var(--r-well); background: var(--surface); }
+  .copy { display: grid; gap: 16px; }
+  .body { display: grid; gap: 14px; justify-items: start; max-width: 64ch; }
+  .body p { color: var(--ink-3); font-size: 1.0625rem; line-height: 1.6; }
+  .body p a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line-strong); text-decoration-thickness: 1px; text-underline-offset: 3px; transition: text-decoration-color 0.15s; }
+  .body p a:hover { text-decoration-color: currentColor; }
+  .more { display: inline-flex; align-items: center; gap: 6px; margin-top: 4px; font-size: 0.9375rem; font-weight: 550; color: var(--ink-2); transition: color 0.15s, gap 0.2s var(--ease-spring); }
+  .more:hover { color: var(--ink); gap: 9px; }
+  @media (min-width: 900px) {
+    .copy { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 48px; }
+  }
+
+  .numbers { display: grid; margin-top: 32px; border-top: 1px solid var(--line-strong); }
+  .numbers > div { display: flex; align-items: baseline; gap: 12px; padding-block: 14px; border-bottom: 1px solid var(--line); }
+  .numbers > div:last-child { border-bottom: 0; padding-bottom: 0; }
+  dd { order: -1; font-size: clamp(2.5rem, 1.5rem + 3vw, 4rem); line-height: 1; font-weight: 600; letter-spacing: -0.035em; color: var(--ink); }
+  dt { font-size: 0.9375rem; font-weight: 520; color: var(--ink-4); }
+  @media (min-width: 640px) {
+    .numbers { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 48px; }
+    .numbers > div { flex-direction: column; align-items: flex-start; gap: 10px; padding: 28px 20px 0 0; border-bottom: 0; }
+    .numbers > div + div { padding-left: 24px; border-left: 1px solid var(--line); }
+  }
+</style>

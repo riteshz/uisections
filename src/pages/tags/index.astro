@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import { FACETS, pagedTags, tagDefinitions, totals, type Tag } from '../../lib/data';
+import { fit, list, withBrand } from '../../lib/seo';
+import { breadcrumbNode, graph } from '../../lib/jsonld';
+import { SITE } from '../../lib/site';
+import { absolute } from '../../lib/urls';
+
+const path = '/tags/';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Styles', path },
+];
+
+// One line per facet; facets are a fixed vocabulary, styles inside them are data-driven.
+const FACET_BLURBS: Record<string, string> = {
+  theme: 'The overall palette and background of the section.',
+  layout: 'How the content is arranged on the section.',
+  media: 'The main visual: product UI, illustration, photography, 3D or code.',
+  treatment: 'Surface effects, texture and decoration.',
+  type: 'How the headline is set.',
+};
+
+const byCount = (a: Tag, b: Tag) => b.count - a.count || a.label.localeCompare(b.label);
+const groups = FACETS.map((f) => ({ ...f, tags: pagedTags.filter((t) => t.facet === f.id).sort(byCount) })).filter((g) => g.tags.length > 0);
+const ordered = groups.flatMap((g) => g.tags);
+const eagerIds = new Set(ordered.slice(0, 4).map((t) => t.id));
+
+const firstSentence = (text?: string) => (text ? text.split(/(?<=[.!?])\s+(?=[A-Z(])/)[0] : '');
+const n = ordered.length;
+const top = [...ordered].sort(byCount).slice(0, 4).map((t) => t.label.toLowerCase());
+const phrase = n > top.length ? `${top.join(', ')} and more` : list(top);
+
+const h1 = 'Website design styles';
+const title = withBrand(`Website Design Styles (${n})`);
+const description = fit(
+  `Website sections by visual style: ${phrase}. ${n} clearly defined ${n === 1 ? 'style' : 'styles'} with real examples from ${totals.companies} companies.`,
+  160,
+);
+const intro =
+  'Styles describe how a section looks: its colours, layout, visuals and type. Each one has a written definition, so a style means the same thing on every screenshot.';
+
+const pageUrl = absolute(path);
+const jsonld = graph(breadcrumbNode(crumbs), {
+  '@type': 'CollectionPage',
+  '@id': `${pageUrl}#page`,
+  url: pageUrl,
+  name: h1,
+  description,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
+  inLanguage: 'en',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: n,
+    itemListElement: ordered.map((t, i) => ({ '@type': 'ListItem', position: i + 1, url: absolute(t.path), name: `${t.label} website design examples` })),
+  },
+});
+---
+<BaseLayout title={title} description={description} path={path} ogImage="/og/tags.jpg" ogAlt={h1} jsonld={jsonld}>
+  <div class="container-wide">
+    <PageIntro crumbs={crumbs} title={h1} intro={intro} eyebrow={`${n} ${n === 1 ? 'style' : 'styles'} · ${groups.length} ${groups.length === 1 ? 'group' : 'groups'}`} />
+
+    <div class="facets enter-solid enter-4">
+      {groups.map((g) => (
+        <section class="facet" aria-labelledby={`facet-${g.id}`}>
+          <SectionHeading title={g.label} id={`facet-${g.id}`} sub={FACET_BLURBS[g.id]} />
+          <ul class="style-grid">
+            {g.tags.map((t) => (
+              <li class:list={['item', { later: !eagerIds.has(t.id) }]}>
+                <CategoryCard href={t.path} title={t.label} count={t.count} covers={t.covers} eager={eagerIds.has(t.id)} />
+                {tagDefinitions.has(t.id) && <p class="def">{firstSentence(tagDefinitions.get(t.id))}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      {groups.length === 0 && <p class="t-meta">Styles are being reviewed. Check back soon, or browse by <a href="/categories/">section type</a>.</p>}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .facets { display: grid; gap: 96px; }
+  .style-grid {
+    display: grid;
+    gap: 36px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 248px), 1fr));
+  }
+  @media (min-width: 1100px) { .style-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 24px; } }
+  .item { display: grid; align-content: start; min-width: 0; }
+  .def { margin-top: 6px; max-width: 42ch; font-size: 0.8125rem; line-height: 1.45; color: var(--ink-4); letter-spacing: 0.01em; }
+  .facets > .t-meta a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      .item.later { animation: wall-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    }
+  }
+</style>

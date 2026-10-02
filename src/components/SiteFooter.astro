@@ -1,0 +1,72 @@
+---
+import Logo from './Logo.astro';
+import { categories, pagedTags, totals } from '../lib/data';
+import { SITE } from '../lib/site';
+
+const topCategories = [...categories].sort((a, b) => b.count - a.count).slice(0, 8);
+const topStyles = [...pagedTags].sort((a, b) => b.count - a.count).slice(0, 8);
+const year = new Date(totals.updated).getFullYear();
+---
+<footer class="site-footer" data-nosnippet>
+  <div class="container-wide inner">
+    <div class="intro">
+      <a class="brand" href="/"><Logo size={30} class="mark" /><span>UI Sections</span></a>
+      <p>{totals.sections.toLocaleString('en-US')} real website sections from {totals.companies} companies, organised by section type and style.</p>
+    </div>
+    <nav class="cols" aria-label="Footer">
+      <div>
+        <h2>Sections</h2>
+        <ul>{topCategories.map((c) => <li><a href={c.path}>{c.plural}</a></li>)}</ul>
+      </div>
+      <div>
+        <h2>Styles</h2>
+        <ul>{topStyles.map((t) => <li><a href={t.path}>{t.label}</a></li>)}</ul>
+      </div>
+      <div>
+        <h2>Browse</h2>
+        <ul>
+          <li><a href="/categories/">All section types</a></li>
+          <li><a href="/tags/">All styles</a></li>
+          <li><a href="/companies/">All companies</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/about/#submit">Submit a site</a></li>
+          <li><a href={`mailto:${SITE.email}`}>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container-wide legal">
+    <p>© {year} UI Sections. Screenshots belong to their respective owners and are shown for design reference.</p>
+    <p><a href="/sitemap-index.xml">Sitemap</a></p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    position: relative;
+    z-index: 0;
+    margin-top: -32px;
+    padding: 136px 0 40px;
+    background: var(--night);
+    color: rgb(255 255 255 / 0.62);
+    font-size: 0.875rem;
+  }
+  @media (min-width: 900px) and (min-height: 720px) {
+    /* Sticky reveal: the white sheet scrolls away to uncover the footer. */
+    .site-footer { position: sticky; bottom: 0; }
+  }
+  .inner { display: grid; gap: 48px; grid-template-columns: 1fr; }
+  @media (min-width: 900px) { .inner { grid-template-columns: minmax(240px, 1fr) 2fr; } }
+  .brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-weight: 620; font-size: 1.0625rem; letter-spacing: -0.02em; }
+  .brand :global(.mark) { color: #fff; }
+  .brand :global(.mark rect:not(:first-child)) { fill: var(--night); }
+  .intro p { margin-top: 16px; max-width: 34ch; line-height: 1.55; }
+  .cols { display: grid; gap: 32px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (min-width: 640px) { .cols { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  h2 { font-size: 0.8125rem; font-weight: 550; letter-spacing: 0.01em; color: rgb(255 255 255 / 0.6); margin-bottom: 14px; }
+  ul { display: grid; gap: 10px; }
+  a { color: rgb(255 255 255 / 0.86); transition: color 0.15s, opacity 0.15s; }
+  a:hover { color: #fff; }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 72px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / 0.08); font-size: 0.8125rem; color: rgb(255 255 255 / 0.6); }
+  .legal a { color: rgb(255 255 255 / 0.6); }
+</style>

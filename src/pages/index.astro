@@ -1,0 +1,165 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HomeHero from '../components/HomeHero.astro';
+import HomeStyleFacets from '../components/HomeStyleFacets.astro';
+import HomeAbout from '../components/HomeAbout.astro';
+import Marquee from '../components/Marquee.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import CompanyCard from '../components/CompanyCard.astro';
+import FilterBar from '../components/FilterBar.astro';
+import SectionGrid from '../components/SectionGrid.astro';
+import Icon from '../components/Icon.astro';
+import { FACETS, categories, categoryStats, companies, pagedTags, sections, totals, type Section } from '../lib/data';
+import { fit, list } from '../lib/seo';
+import { SITE } from '../lib/site';
+import { collectionNode, graph, organizationNode, websiteNode } from '../lib/jsonld';
+
+const fmt = (n: number) => n.toLocaleString('en-US');
+const updated = new Date(totals.updated).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+
+// sections.json is sorted newest first.
+const latest = sections.slice(0, 48);
+
+// --- Marquee: 2 rows × 12, hero/feature first, one per company, dark and light alternating.
+// Deterministic: candidates are ordered by their content-hash id, which is stable but well mixed.
+const PER_ROW = 12;
+const preferred = new Set(['hero', 'feature']);
+const isFrame = (s: Section) => s.thumb.h / s.thumb.w >= 0.56 && s.company !== 'unknown';
+const byId = (a: Section, b: Section) => a.id.localeCompare(b.id);
+const pool = [
+  ...sections.filter((s) => isFrame(s) && preferred.has(s.category)).sort(byId),
+  ...sections.filter((s) => isFrame(s) && !preferred.has(s.category)).sort(byId),
+];
+const usedCompanies = new Set<string>();
+const pick = (dark: boolean) => {
+  const s = pool.find((x) => x.dark === dark && !usedCompanies.has(x.company)) ?? pool.find((x) => !usedCompanies.has(x.company));
+  if (s) usedCompanies.add(s.company);
+  return s;
+};
+const marqueeRows = [0, 1]
+  .map((r) => Array.from({ length: PER_ROW }, (_, i) => pick((i + r) % 2 === 0)).filter((s): s is Section => Boolean(s)))
+  .filter((row) => row.length >= 4);
+
+// --- Browse blocks
+const sectionTypes = [...categories].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+const latestOptions = categoryStats(latest).map((x) => ({ id: x.category.id, label: x.category.label, count: x.n }));
+const featured = companies
+  .filter((c) => c.hasPage && c.slug !== 'unknown')
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  .slice(0, 12);
+const styleGroups = FACETS.map((f) => ({
+  id: f.id,
+  label: f.label,
+  items: pagedTags
+    .filter((t) => t.facet === f.id)
+    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
+    .map((t) => ({ href: t.path, label: t.label, count: t.count })),
+})).filter((g) => g.items.length > 0);
+const styleSub = `${pagedTags.length} ${pagedTags.length === 1 ? 'style' : 'styles'} across ${list(styleGroups.map((g) => g.label.toLowerCase()))}`;
+
+// --- SEO
+const h1 = 'Website section design inspiration';
+const title = `${SITE.name} — Website Section Design Inspiration`;
+const description = fit(
+  `Browse ${fmt(totals.sections)} real website sections — heroes, pricing, features, footers and more — from ${fmt(totals.companies)} SaaS and startup sites. Filter by type and style.`,
+  160,
+);
+const sub =
+  'A curated library of real sections from the best SaaS and startup websites. Browse heroes, pricing, features and footers by section type, style and company.';
+const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '/', name: h1, description, items: latest, crumbs: false }));
+---
+<BaseLayout title={title} description={description} path="/" ogImage="/og/default.jpg" ogAlt={`${SITE.name}: ${h1}`} jsonld={jsonld}>
+  <HomeHero
+    title={h1}
+    sub={sub}
+    pill={[`${fmt(totals.sections)} sections`, `${fmt(totals.companies)} companies`, `Updated ${updated}`]}
+    names={featured.slice(0, 6).map((c) => c.name)}
+    companyTotal={totals.companies}
+  />
+
+  {marqueeRows.length > 0 && (
+    <div class="marquee-wrap enter-solid enter-5">
+      <Marquee rows={marqueeRows} />
+    </div>
+  )}
+
+  <section class="block container-wide reveal" aria-labelledby="types-title">
+    <SectionHeading
+      title="Browse by section type"
+      id="types-title"
+      href="/categories/"
+      linkLabel="All section types"
+      sub={`${sectionTypes.length} section types, most examples first`}
+    />
+    <div class="grid-4">
+      {sectionTypes.map((c) => <CategoryCard href={c.path} title={c.plural} count={c.count} covers={c.covers} />)}
+    </div>
+  </section>
+
+  <section class="block container-wide" aria-labelledby="latest-title">
+    <div class="reveal">
+      <SectionHeading title="Fresh picks" id="latest-title" sub={`${latest.length} sections from across the library`} />
+      <div class="toolbar">
+        <FilterBar options={latestOptions} total={latest.length} attr="cat" param="section" target="latest" label="Filter fresh picks by section type" />
+      </div>
+    </div>
+    <SectionGrid items={latest} id="latest" eagerCount={0} priorityCount={0} label="Fresh picks" />
+    <div class="after">
+      <a class="btn btn-secondary" href="/categories/">Browse all section types<Icon name="arrow-right" size={16} /></a>
+    </div>
+  </section>
+
+  {styleGroups.length > 0 && (
+    <section class="block container-wide reveal" aria-labelledby="styles-title">
+      <SectionHeading title="Browse by style" id="styles-title" href="/tags/" linkLabel="All styles" sub={styleSub} />
+      <HomeStyleFacets groups={styleGroups} />
+    </section>
+  )}
+
+  {featured.length > 0 && (
+    <section class="block container-wide reveal" aria-labelledby="companies-title">
+      <SectionHeading
+        title="Featured companies"
+        id="companies-title"
+        href="/companies/"
+        linkLabel="All companies"
+        sub={`The most-collected of ${fmt(totals.companies)} companies`}
+      />
+      <div class="grid-4">
+        {featured.map((c) => <CompanyCard c={c} />)}
+      </div>
+    </section>
+  )}
+
+  <section class="block container-wide reveal" aria-labelledby="about-title">
+    <HomeAbout
+      titleId="about-title"
+      links={sectionTypes.slice(0, 5).map((c) => ({ href: c.path, label: c.plural }))}
+      numbers={[
+        { value: totals.sections, label: 'Website sections' },
+        { value: totals.companies, label: 'Companies' },
+        { value: totals.categories, label: 'Section types' },
+      ]}
+    />
+  </section>
+</BaseLayout>
+
+<style>
+  .marquee-wrap { margin-top: clamp(48px, 2rem + 3vw, 80px); }
+  .block { margin-top: clamp(80px, 3rem + 4vw, 120px); }
+  .toolbar { margin-bottom: 28px; }
+  .after { display: flex; justify-content: center; margin-top: 48px; }
+
+  .grid-4 { display: grid; gap: 28px 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (min-width: 720px) { .grid-4 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 20px; } }
+  @media (min-width: 1100px) { .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 36px 24px; } }
+
+  /* Blocks below the fold rise in as they scroll into view (no JS; off without support or with reduced motion). */
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      .reveal { animation: home-reveal linear both; animation-timeline: view(); animation-range: entry 0% entry 40%; }
+    }
+  }
+  @keyframes home-reveal { from { opacity: 0; transform: translateY(24px); } }
+</style>

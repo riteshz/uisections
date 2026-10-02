@@ -1,0 +1,14 @@
+---
+interface Item { href: string; label: string; count?: number | string; current?: boolean }
+interface Props { items: Item[]; label: string; wrap?: boolean }
+const { items, label, wrap = true } = Astro.props;
+---
+<ul class:list={['link-chips', { wrap }]} aria-label={label}>
+  {items.map((i) => (
+    <li><a class="chip" href={i.href} aria-current={i.current ? 'page' : undefined}>{i.label}{i.count !== undefined && <span class="count">{i.count}</span>}</a></li>
+  ))}
+</ul>
+<style>
+  .link-chips { display: flex; gap: 6px; }
+  .link-chips.wrap { flex-wrap: wrap; }
+</style>

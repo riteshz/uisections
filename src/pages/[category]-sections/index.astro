@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import SectionGrid from '../../components/SectionGrid.astro';
+import PatternsSummary from '../../components/PatternsSummary.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
+import LinkChips from '../../components/LinkChips.astro';
+import { categories, getSections, tagStats, topCompanies, type Category } from '../../lib/data';
+import { categorySeo } from '../../lib/seo';
+import { getCategoryCopy } from '../../lib/copy';
+import { breadcrumbNode, collectionNode, graph } from '../../lib/jsonld';
+import { companyUrl } from '../../lib/urls';
+
+export function getStaticPaths() {
+  return categories.map((c) => ({ params: { category: c.id }, props: { c } }));
+}
+
+const { c } = Astro.props as { c: Category };
+const items = getSections(c.sectionIds);
+const seo = categorySeo(c, items);
+const copy = getCategoryCopy(c.id);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Sections', path: '/categories/' },
+  { name: seo.name, path: c.path },
+];
+const styleOptions = tagStats(items, 30)
+  .filter((x) => x.n >= 2)
+  .map((x) => ({ id: x.tag.id, label: x.tag.label, count: x.n }));
+const companiesHere = topCompanies(items, 16);
+const related = categories.filter((x) => x.id !== c.id).sort((a, b) => b.count - a.count).slice(0, 4);
+const intro =
+  copy?.intro ??
+  `${c.count} hand-picked ${seo.keyword} examples from real product websites. Open any screenshot to see it full size, or filter by style to find the right pattern.`;
+const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: c.path, name: seo.h1, description: seo.description, items }));
+---
+<BaseLayout title={seo.title} description={seo.description} ogImage={`/og/${c.id}-sections.jpg`} ogAlt={seo.h1} jsonld={jsonld}>
+  <div class="container-wide">
+    <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} eyebrow={`${c.count} examples`} />
+
+    <div class="toolbar enter enter-4">
+      <FilterBar options={styleOptions} total={items.length} attr="tags" param="style" target="grid" label="Filter by style" />
+    </div>
+
+    <SectionGrid items={items} id="grid" showCategory={false} label={`${seo.name} examples`} />
+
+    <div class="below">
+      <PatternsSummary items={items} title={`Common patterns in ${seo.keyword}s`} />
+
+      {copy?.tips && copy.tips.length > 0 && (
+        <section class="tips" aria-labelledby="tips-title">
+          <h2 class="t-h2" id="tips-title">{copy.tipsTitle ?? `Designing a great ${seo.keyword}`}</h2>
+          <ol>
+            {copy.tips.map((t) => (
+              <li>
+                <h3>{t.title}</h3>
+                <p>{t.body}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {companiesHere.length > 0 && (
+        <section aria-labelledby="companies-title">
+          <h2 class="t-h2" id="companies-title">Companies in this collection</h2>
+          <LinkChips label="Companies" items={companiesHere.map((x) => ({ href: companyUrl(x.company.slug), label: x.company.name, count: x.n }))} />
+        </section>
+      )}
+
+      <section aria-labelledby="related-title">
+        <SectionHeading title="Explore other section types" id="related-title" href="/categories/" linkLabel="All section types" />
+        <div class="related">
+          {related.map((r) => <CategoryCard href={r.path} title={r.plural} count={r.count} covers={r.covers} />)}
+        </div>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .toolbar { position: relative; margin-bottom: 28px; }
+  .below { display: grid; gap: 88px; margin-top: 112px; }
+  .below > section:not(.tips) > .t-h2 { margin-bottom: 20px; }
+  .tips ol { display: grid; gap: 28px 40px; margin-top: 24px; counter-reset: tip; }
+  @media (min-width: 900px) { .tips ol { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .tips li { counter-increment: tip; display: grid; gap: 6px; padding-top: 18px; border-top: 1px solid var(--line); }
+  .tips li::before { content: counter(tip, decimal-leading-zero); font-size: 0.8125rem; color: var(--ink-4); font-variant-numeric: tabular-nums; }
+  .tips h3 { font-size: 1.0625rem; font-weight: 600; letter-spacing: -0.01em; }
+  .tips p { color: var(--ink-3); line-height: 1.6; }
+  .related { display: grid; gap: 28px 20px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
+</style>

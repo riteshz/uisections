@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import CompanyIndex from '../../components/CompanyIndex.astro';
+import { companies } from '../../lib/data';
+import { fit, withBrand } from '../../lib/seo';
+import { breadcrumbNode, graph } from '../../lib/jsonld';
+import { SITE } from '../../lib/site';
+import { absolute, companyUrl } from '../../lib/urls';
+
+const path = '/companies/';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Companies', path },
+];
+
+// Only companies with their own page are listed.
+// Same order as the A–Z index: letters first, names starting with a digit or symbol ("#") last.
+const startsWithLetter = (name: string) => /^[a-z]/i.test(name.normalize('NFD'));
+const listed = companies
+  .filter((c) => c.hasPage && c.slug !== 'unknown')
+  .sort(
+    (a, b) =>
+      Number(!startsWithLetter(a.name)) - Number(!startsWithLetter(b.name)) ||
+      a.name.localeCompare(b.name, 'en', { sensitivity: 'base', numeric: true }),
+  );
+const n = listed.length;
+const sectionCount = listed.reduce((sum, c) => sum + c.count, 0);
+const biggest = [...listed].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)).slice(0, 3).map((c) => c.name);
+
+const h1 = 'Companies';
+const title = withBrand(`Website Design Examples by Company (${n})`);
+const description = fit(
+  `See how ${n} SaaS and startup companies design their websites, A–Z — including ${biggest.join(', ')}. Browse their heroes, pricing, footers and more.`,
+  160,
+);
+const intro = `${sectionCount.toLocaleString('en-US')} sections from ${n} product websites, listed A–Z. Open a company to see all of its sections in one place.`;
+
+const pageUrl = absolute(path);
+const jsonld = graph(breadcrumbNode(crumbs), {
+  '@type': 'CollectionPage',
+  '@id': `${pageUrl}#page`,
+  url: pageUrl,
+  name: 'Website design examples by company',
+  description,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
+  inLanguage: 'en',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: n,
+    itemListElement: listed.slice(0, 50).map((c, i) => ({ '@type': 'ListItem', position: i + 1, url: absolute(companyUrl(c.slug)), name: `${c.name} website design` })),
+  },
+});
+---
+<BaseLayout title={title} description={description} path={path} ogImage="/og/companies.jpg" ogAlt="Website design examples by company" jsonld={jsonld}>
+  <div class="container-wide">
+    <PageIntro crumbs={crumbs} title={h1} intro={intro} eyebrow={`${n} companies · ${sectionCount.toLocaleString('en-US')} sections`} />
+    <CompanyIndex items={listed} />
+  </div>
+</BaseLayout>

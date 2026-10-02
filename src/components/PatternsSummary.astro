@@ -1,0 +1,38 @@
+---
+// Data-driven "what's common here" block: unique, factual copy per listing page.
+import type { Section } from '../lib/data';
+import { tagStats, categoryStats } from '../lib/data';
+interface Props { items: Section[]; title: string; mode?: 'tags' | 'categories'; exclude?: string }
+const { items, title, mode = 'tags', exclude } = Astro.props;
+const rows =
+  mode === 'tags'
+    ? tagStats(items, 9).filter((r) => r.tag.id !== exclude).slice(0, 7).map((r) => ({ label: r.tag.label, href: r.tag.hasPage ? r.tag.path : '', n: r.n, share: r.share }))
+    : categoryStats(items).filter((r) => r.category.id !== exclude).slice(0, 7).map((r) => ({ label: r.category.plural, href: r.category.hasPage ? r.category.path : '', n: r.n, share: r.n / items.length }));
+const pct = (x: number) => `${Math.round(x * 100)}%`;
+---
+{rows.length > 2 && (
+  <section class="patterns" aria-labelledby="patterns-title">
+    <h2 class="t-h2" id="patterns-title">{title}</h2>
+    <ul>
+      {rows.map((r) => (
+        <li>
+          {r.href ? <a href={r.href}>{r.label}</a> : <span>{r.label}</span>}
+          <span class="bar" aria-hidden="true"><span style={`width:${pct(r.share)}`}></span></span>
+          <span class="t-meta tabular">{pct(r.share)} <span class="n">· {r.n}</span></span>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
+<style>
+  .patterns { display: grid; gap: 20px; }
+  ul { display: grid; gap: 12px; }
+  li { display: grid; grid-template-columns: minmax(120px, 200px) 1fr 84px; align-items: center; gap: 16px; }
+  li a, li > span:first-child { font-weight: 540; font-size: 0.9375rem; }
+  li a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .bar { height: 8px; border-radius: 999px; background: var(--wash); overflow: hidden; }
+  .bar span { display: block; height: 100%; border-radius: inherit; background: var(--ink); }
+  .t-meta { text-align: right; }
+  .n { color: var(--ink-4); }
+  @media (max-width: 560px) { li { grid-template-columns: 1fr 64px; } .bar { grid-column: 1 / -1; grid-row: 2; } }
+</style>

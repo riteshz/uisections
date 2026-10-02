@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
+import { allCategories, categories, categoryDefinitions, totals, type Category } from '../../lib/data';
+import { fit, list, withBrand } from '../../lib/seo';
+import { breadcrumbNode, graph } from '../../lib/jsonld';
+import { SITE } from '../../lib/site';
+import { absolute } from '../../lib/urls';
+
+const path = '/categories/';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Sections', path },
+];
+
+const byCount = (a: Category, b: Category) => b.count - a.count || a.label.localeCompare(b.label);
+const sorted = [...categories].sort(byCount);
+// Text glossary: every category that has items, linked when it has a page.
+const glossary = allCategories.filter((c) => c.count > 0).sort(byCount);
+
+// Lower-case a label for running text, but keep acronyms ("FAQ", "CTA").
+const lc = (s: string) => (/^[A-Z]{2,}/.test(s) ? s : s.charAt(0).toLowerCase() + s.slice(1));
+const firstSentence = (text?: string) => (text ? text.split(/(?<=[.!?])\s+(?=[A-Z(])/)[0] : '');
+
+const n = sorted.length;
+const top = sorted.slice(0, 4).map((c) => lc(c.label));
+const phrase = n > top.length ? `${top.join(', ')} and more` : list(top);
+
+const h1 = 'Website section types';
+const title = withBrand(`Website Section Examples by Type (${n})`);
+const description = fit(
+  `Browse ${totals.sections.toLocaleString('en-US')} real website sections by type — ${phrase} — from ${totals.companies} SaaS and startup websites.`,
+  160,
+);
+const intro =
+  'Every screenshot is filed under the job its section does on the page. Pick a type to compare how different companies design it, side by side.';
+
+const pageUrl = absolute(path);
+const jsonld = graph(breadcrumbNode(crumbs), {
+  '@type': 'CollectionPage',
+  '@id': `${pageUrl}#page`,
+  url: pageUrl,
+  name: h1,
+  description,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
+  inLanguage: 'en',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: n,
+    itemListElement: sorted.map((c, i) => ({ '@type': 'ListItem', position: i + 1, url: absolute(c.path), name: c.plural })),
+  },
+});
+---
+<BaseLayout title={title} description={description} path={path} ogImage="/og/categories.jpg" ogAlt={h1} jsonld={jsonld}>
+  <div class="container-wide">
+    <PageIntro crumbs={crumbs} title={h1} intro={intro} eyebrow={`${n} section types · ${totals.sections.toLocaleString('en-US')} examples`} />
+
+    <ul class="cat-grid enter-solid enter-4" aria-label="Section types">
+      {sorted.map((c, i) => (
+        <li class:list={['item', { later: i >= 4 }]}>
+          <CategoryCard href={c.path} title={c.plural} count={c.count} covers={c.covers} eager={i < 4} />
+        </li>
+      ))}
+    </ul>
+
+    <section class="glossary" aria-labelledby="glossary-title">
+      <div class="glossary-head">
+        <h2 class="t-h2" id="glossary-title">Every section type, defined</h2>
+        <p class="t-meta">What each label means, with the number of examples in the library.</p>
+      </div>
+      <ul>
+        {glossary.map((c) => (
+          <li>
+            <div class="term">
+              <h3>{c.hasPage ? <a href={c.path}>{c.plural}</a> : c.plural}</h3>
+              <span class="t-meta tabular">{c.count.toLocaleString('en-US')}</span>
+            </div>
+            {categoryDefinitions.has(c.id) && <p class="t-meta">{firstSentence(categoryDefinitions.get(c.id))}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .cat-grid {
+    display: grid;
+    gap: 36px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 248px), 1fr));
+  }
+  @media (min-width: 1100px) { .cat-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 24px; } }
+
+  .glossary { margin-top: 120px; }
+  .glossary-head { display: grid; gap: 6px; margin-bottom: 28px; }
+  .glossary ul { display: grid; column-gap: 48px; }
+  @media (min-width: 900px) { .glossary ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .glossary li { display: grid; gap: 4px; padding-block: 16px 18px; border-top: 1px solid var(--line); }
+  .term { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+  .term h3 { font-size: 1rem; font-weight: 580; letter-spacing: -0.005em; color: var(--ink-3); }
+  .term a { color: var(--ink); text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; transition: text-decoration-color 0.15s; }
+  .term a:hover { text-decoration-color: currentColor; }
+  .glossary p { max-width: 60ch; }
+
+  /* Cards below the first row rise as they scroll into view (bencho wall-rise). */
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      .item.later { animation: wall-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    }
+  }
+</style>

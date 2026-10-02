@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import LinkChips from '../components/LinkChips.astro';
+import { categories } from '../lib/data';
+import { SITE } from '../lib/site';
+
+const largest = [...categories].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)).slice(0, 6);
+const title = `Page not found · ${SITE.name}`;
+const description =
+  'This page doesn’t exist or has moved. Search UI Sections or browse real website sections by section type, style and company.';
+---
+<BaseLayout title={title} description={description} noindex canonical={false}>
+  <div class="container nf">
+    <p class="t-eyebrow tabular enter enter-1">Error 404</p>
+    <h1 class="t-h1 enter-solid enter-2">Page not found</h1>
+    <p class="t-feature enter enter-3">The page you’re looking for doesn’t exist or has moved. Try a search, or start from one of the most popular section types.</p>
+
+    <button type="button" class="nf-search enter enter-3" data-open-palette aria-label="Search sections, styles and companies" aria-keyshortcuts="/ Meta+K Control+K">
+      <Icon name="search" size={16} />
+      <span class="label">Search sections, styles, companies…</span>
+      <kbd class="kbd">/</kbd>
+    </button>
+
+    <nav class="popular enter enter-4" aria-labelledby="nf-popular">
+      <h2 class="t-eyebrow" id="nf-popular">Popular section types</h2>
+      <LinkChips label="Popular section types" items={largest.map((c) => ({ href: c.path, label: c.plural, count: c.count }))} />
+    </nav>
+
+    <a class="btn btn-secondary enter enter-5" href="/"><Icon name="arrow-left" size={16} />Back to home</a>
+  </div>
+</BaseLayout>
+
+<style>
+  .nf { display: grid; justify-items: center; gap: 16px; padding-top: 72px; text-align: center; }
+  @media (min-width: 900px) { .nf { padding-top: 120px; } }
+  .nf .t-feature { max-width: 520px; }
+  .nf-search {
+    display: flex; align-items: center; gap: 10px; width: min(420px, 100%); height: 48px; margin-top: 16px; padding: 0 10px 0 18px;
+    border-radius: 999px; background: var(--wash); color: var(--ink-4); font-size: 0.9375rem; cursor: pointer;
+    transition: background-color 0.16s, color 0.16s, scale 0.2s var(--ease-spring);
+  }
+  .nf-search:hover { background: var(--wash-hover); color: var(--ink-3); }
+  .nf-search:active { scale: 0.98; transition-duration: 90ms; }
+  .nf-search .label { flex: 1; min-width: 0; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .popular { display: grid; justify-items: center; gap: 12px; margin-top: 32px; }
+  .popular :global(.link-chips) { justify-content: center; }
+  .btn { margin-top: 24px; }
+</style>

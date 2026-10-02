@@ -1,0 +1,37 @@
+---
+// Mobbin-style card: a gray well holding two offset screenshots.
+import { getSections } from '../lib/data';
+import { shotUrl } from '../lib/urls';
+interface Props { href: string; title: string; count: number; covers: string[]; eager?: boolean; noun?: string }
+const { href, title, count, covers, eager = false, noun = 'sections' } = Astro.props;
+const [a, b] = getSections(covers);
+---
+<a class="cat-card" href={href}>
+  <span class="well" aria-hidden="true">
+    {b && <img class="back" src={shotUrl(b.files['480'])} srcset={`${shotUrl(b.files['480'])} 480w, ${shotUrl(b.files['960'])} 960w`} sizes="(min-width: 1100px) 240px, 70vw" width={b.thumb.w} height={b.thumb.h} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" />}
+    {a && <img class="front" src={shotUrl(a.files['480'])} srcset={`${shotUrl(a.files['480'])} 480w, ${shotUrl(a.files['960'])} 960w`} sizes="(min-width: 1100px) 240px, 70vw" width={a.thumb.w} height={a.thumb.h} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" />}
+  </span>
+  <span class="label">{title}</span>
+  <span class="t-meta tabular">{count.toLocaleString('en-US')} {noun}</span>
+</a>
+<style>
+  .cat-card { display: grid; gap: 2px; min-width: 0; }
+  .well {
+    position: relative; display: block; aspect-ratio: 364 / 248; margin-bottom: 14px; overflow: hidden;
+    border-radius: var(--r-well); background: var(--wash); transition: background-color 0.3s var(--ease-out);
+  }
+  .well img {
+    position: absolute; width: 74%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top;
+    border-radius: 10px; background: #fff; box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1), 0 6px 20px -8px rgb(0 0 0 / 0.18);
+    transition: translate 0.3s var(--ease-out);
+  }
+  .well .back { left: 30%; top: 12%; }
+  .well .front { left: 9%; top: 28%; }
+  .label { font-weight: 580; font-size: 1rem; letter-spacing: -0.005em; color: var(--ink); }
+  @media (hover: hover) {
+    .cat-card:hover .well { background: var(--wash-hover); }
+    .cat-card:hover .front { translate: 0 -4px; }
+    .cat-card:hover .back { translate: 0 -6px; }
+  }
+  .cat-card:active .well { scale: 0.99; }
+</style>

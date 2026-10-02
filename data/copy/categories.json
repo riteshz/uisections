@@ -1,0 +1,486 @@
+{
+  "hero": {
+    "intro": "The hero is the first thing a visitor reads and often the only thing. In a few seconds it has to say what the product does, show it, and offer one clear next step. Vague slogans, abstract art in place of the product, and a row of competing buttons all waste that moment. Each hero section example here takes its own approach to headline length, product visuals, and button placement.",
+    "tipsTitle": "How to design a hero section",
+    "tips": [
+      {
+        "title": "Lead with a specific headline",
+        "body": "Name what the product is and the outcome it delivers, ideally in under ten words. Put the detail in a one- or two-line subhead. If a visitor cannot repeat what you sell after reading both, rewrite the copy before you touch the layout."
+      },
+      {
+        "title": "Give one action clear priority",
+        "body": "Make the main action a filled button with strong contrast and a verb-led label such as \"Start free trial.\" If you need a second option, style it as an outline button or text link so the two never compete for the same glance."
+      },
+      {
+        "title": "Show the real product",
+        "body": "A screenshot or short loop of the actual interface builds more trust than generic illustration. Crop to the part that matters, keep any text in it legible at laptop width, and add a subtle frame or shadow to separate it from the background."
+      },
+      {
+        "title": "Load the hero image fast",
+        "body": "The hero image is often the largest element on first paint. Compress it, serve a modern format, skip lazy loading on it, and set explicit width and height to prevent layout shift. Avoid autoplaying heavy video above the fold, and let the headline render before any decorative animation."
+      }
+    ]
+  },
+  "feature": {
+    "intro": "A feature section shows what the product actually does, so the hard part is choosing what to leave out. Buyers care about a few capabilities, and those deserve the most space, a clear visual, and a heading a skimmer can absorb. Giving every feature the same card and a vague icon hides what matters. This collection of feature section examples covers grids, bento layouts, alternating rows, and product walkthroughs.",
+    "tipsTitle": "How to structure a feature section",
+    "tips": [
+      {
+        "title": "Rank features before laying them out",
+        "body": "Decide which two or three capabilities matter most to buyers and give them the most space. Supporting features can sit in a compact grid below. Equal-sized cards for everything tell the reader nothing about what is important."
+      },
+      {
+        "title": "Write headings that state the benefit",
+        "body": "Each heading should say what the user gets, not the internal name of the module. \"Find any file in seconds\" beats \"Smart Search.\" Keep body copy to two short sentences and cut adjectives that add no information."
+      },
+      {
+        "title": "Crop screenshots to the point",
+        "body": "Show the specific part of the product the text describes, not the whole dashboard. Zoom in on the relevant panel, annotate it if needed, and keep visuals at one aspect ratio so rows and tiles line up cleanly."
+      },
+      {
+        "title": "Match the layout to the depth",
+        "body": "Use a compact grid for many small capabilities, alternating rows for a few that need explanation, and a stepped or tabbed walkthrough when features build on each other. Choosing the layout after you know how much each feature needs to say keeps the section from feeling padded or cramped."
+      }
+    ]
+  },
+  "value-proposition": {
+    "intro": "Why this product, and why now? A value proposition section answers that with one specific claim and a few concrete outcomes, and very little product detail. Its usual failure is a claim any competitor could make, or a slow slide into a feature list. Study these value proposition examples to see how much a short, confident statement can carry on its own.",
+    "tipsTitle": "How to write a value proposition section",
+    "tips": [
+      {
+        "title": "Make one claim, not five",
+        "body": "Pick the outcome your best customers mention most and build the headline around it. Supporting points should reinforce that claim, not introduce new ones. If the headline needs \"and\" twice, split it or cut it."
+      },
+      {
+        "title": "Back benefits with tangible outcomes",
+        "body": "Replace adjectives with results the reader can picture: hours saved each week, fewer handoffs, faster approvals. A short list of benefit points, each with a bold lead phrase and one supporting sentence, reads faster than a paragraph."
+      },
+      {
+        "title": "Surround the claim with space",
+        "body": "This section works best with generous whitespace and large type. Use a narrow text column, a clear size jump between headline and supporting points, and no decorative clutter. The space signals confidence and keeps the eye on the claim."
+      },
+      {
+        "title": "Leave product screenshots out",
+        "body": "If the section starts filling with screenshots and capability lists, it has become a features block. Use simple icons, one abstract visual, or nothing at all, and let the feature section below carry the proof of how the product works."
+      }
+    ]
+  },
+  "how-it-works": {
+    "intro": "Setup effort is a quiet reason people leave a page. A how it works section answers it by turning the product into a short sequence anyone can follow: sign up, connect your data, see results. The format breaks down when steps stay vague or skip the hard part. These how it works section examples use numbered steps, timelines, and workflow diagrams to make getting started feel manageable.",
+    "tipsTitle": "How to lay out a how it works section",
+    "tips": [
+      {
+        "title": "Cut the process to a few steps",
+        "body": "Three or four steps are easier to scan and remember than seven. Merge minor actions into one step and start each step title with a verb. If the real process is long, show the path to first value rather than the full onboarding."
+      },
+      {
+        "title": "Number the steps and show direction",
+        "body": "Use large step numbers, a connecting line, or arrows so the order is obvious at a glance. A horizontal row works on desktop. On mobile, switch to a vertical stack so the sequence still reads top to bottom without sideways scrolling."
+      },
+      {
+        "title": "Illustrate every step consistently",
+        "body": "Show the screen, file, or result the user sees at each stage. Keep visuals the same size and style so they read as one set. A small cropped screenshot is usually clearer than a custom illustration of the same idea."
+      },
+      {
+        "title": "End on the result and next action",
+        "body": "Make the last step show the payoff, such as a finished report or a live page, then place a call to action right after it. Readers who just followed the process are ready to try it, so do not push the button further down the page."
+      }
+    ]
+  },
+  "use-case": {
+    "intro": "Generic copy makes every reader translate it into their own situation. A use case section does that work for them, splitting the message by role, team, or industry. The test is whether a sales lead and an engineer each find tasks they recognize, in words they use. Browse these use case section examples for tab, card, and segmented layouts that route each visitor to the pitch meant for them.",
+    "tipsTitle": "How to organize a use case section",
+    "tips": [
+      {
+        "title": "Name audiences the way they talk",
+        "body": "Use labels visitors would pick for themselves, such as \"Finance teams,\" \"Agencies,\" or \"Healthcare,\" not internal segment names. Keep each label short enough to fit on one line in a tab or card header, and order them by how much business each brings."
+      },
+      {
+        "title": "Tailor copy to each audience",
+        "body": "Each panel should mention a task, metric, or pain point unique to that group. If you could swap two panels' copy without anyone noticing, the section is not doing its job. One concrete scenario per audience beats a generic list of benefits."
+      },
+      {
+        "title": "Decide between tabs and cards",
+        "body": "Tabs suit a handful of audiences whose panels share the same structure, since visitors compare them in place. Cards that link out work better when audiences need very different content or there are many of them. Either way, show the most common audience first."
+      },
+      {
+        "title": "Link each audience to a deeper page",
+        "body": "End every card or tab with a link to a dedicated solution page or a relevant case study. The section then works as navigation for qualified readers, giving each audience a next step without crowding the homepage with detail."
+      }
+    ]
+  },
+  "testimonial": {
+    "intro": "A customer saying it beats you saying it, but only when the quote sounds real. That comes down to details: a full name, a role, a photo, and a sentence about a specific result. Generic praise reads as filler and can make the whole page feel staged. Featured quotes, card grids, review walls, and case-study cards all appear in this set of testimonial section examples.",
+    "tipsTitle": "How to make testimonials credible",
+    "tips": [
+      {
+        "title": "Choose quotes with specific outcomes",
+        "body": "Pick quotes that mention a result, a before-and-after, or a named problem solved. Trim each to the one or two sentences that carry the point, and bold the key phrase so skimmers catch it without reading the whole card."
+      },
+      {
+        "title": "Show exactly who said it",
+        "body": "Include a full name, role, and real headshot with every quote. Anonymous or initials-only quotes look invented. Keep attribution consistent across cards, with the name in a heavier weight and the role in a muted color beneath it."
+      },
+      {
+        "title": "Feature one quote above the rest",
+        "body": "A single large testimonial with a portrait creates a focal point, and a grid of smaller cards below adds volume. Without that hierarchy, a wall of identical cards turns into texture that readers scroll past instead of evidence they read."
+      },
+      {
+        "title": "Place quotes beside the claims they support",
+        "body": "A quote about fast setup works hardest next to the onboarding steps, and one about security belongs near the compliance details. Spreading a few targeted quotes through the page often persuades more than collecting every testimonial in one block that readers skim past."
+      }
+    ]
+  },
+  "logo-cloud": {
+    "intro": "A logo cloud borrows credibility from the companies that already use, fund, or partner with a product. It usually sits just below the hero, and its job is quick reassurance rather than persuasion. That calls for tidy, recognizable, evenly weighted marks, not a jumble of colors and sizes. The logo cloud examples collected here show rows, grids, and marquees that stay out of the way.",
+    "tipsTitle": "How to design a logo cloud",
+    "tips": [
+      {
+        "title": "Balance logos by visual weight",
+        "body": "Logos vary widely in shape, so matching their widths or heights rarely looks even. Adjust each one by eye until they feel equally heavy, and place them in fixed-size containers so the row keeps a steady rhythm."
+      },
+      {
+        "title": "Use a single muted color",
+        "body": "Convert every logo to one grayscale or neutral tone and lower the opacity slightly. This stops the strip from competing with the main call to action and hides clashing brand colors. Check that the logos keep enough contrast in dark mode too."
+      },
+      {
+        "title": "Caption the row honestly",
+        "body": "A line like \"Used by product teams at\" gives a row of logos context. Keep it small and aligned with the logos. An inflated claim above a modest row does more harm than no label at all."
+      },
+      {
+        "title": "Handle logo marquees with care",
+        "body": "A scrolling row adds motion near the top of the page. Keep the speed slow, pause on hover, and show a static grid when the visitor has reduced motion turned on. Duplicate the set cleanly so the loop has no visible jump."
+      }
+    ]
+  },
+  "stats": {
+    "intro": "Numbers persuade only when they are specific and believable. A stats section compresses a track record into a few figures a visitor can take in at a glance, such as time saved or uptime. Vanity totals and unlabeled figures do the opposite and invite doubt. Look at how these stats section examples use type scale, spacing, and short labels to turn numbers into proof.",
+    "tipsTitle": "How to present numbers in a stats section",
+    "tips": [
+      {
+        "title": "Pick metrics the buyer cares about",
+        "body": "Choose numbers tied to outcomes the reader wants, such as hours saved, error rates, or response times. Total signups or page views say little to a prospect. A few strong figures do more than a long row of weak ones."
+      },
+      {
+        "title": "Let the figure dominate the label",
+        "body": "Set each figure in large, heavy type and its label in a much smaller muted style beneath it. Align numbers on a shared baseline, and use tabular numerals so digits do not shift width if the value animates."
+      },
+      {
+        "title": "Define each figure in its label",
+        "body": "A label like \"Average reduction in support tickets\" tells the reader what the figure means. Single words like \"Customers\" or \"Growth\" do not. Add a footnote or source link when a number might invite skepticism."
+      },
+      {
+        "title": "Run count-up animations once",
+        "body": "Trigger any counter a single time, quickly, when the section scrolls into view, and show the final value immediately for visitors who prefer reduced motion. Make sure screen readers announce only the final number, not every intermediate value along the way."
+      }
+    ]
+  },
+  "integration": {
+    "intro": "Before buying, most teams ask a practical question: will this work with the tools we already use? An integration section should answer it quickly, with familiar apps up front, sensible groups, and a hint of how data moves between systems. A crowded wall of unlabeled icons answers nothing. Compare how these integration section examples handle the job with icon grids, orbit diagrams, and connector flows.",
+    "tipsTitle": "How to show integrations clearly",
+    "tips": [
+      {
+        "title": "Put the most requested tools first",
+        "body": "Place the integrations your buyers ask about most first and largest. A visitor scanning for their CRM or chat app should spot it within a second. Less common connectors can sit behind a \"See all integrations\" link."
+      },
+      {
+        "title": "Label icons with app names",
+        "body": "Many app icons are hard to recognize at small sizes. Add a short text label under each one, or show the name on hover and focus. Labels also help screen reader users and make the page searchable with find-in-page."
+      },
+      {
+        "title": "Group integrations by category",
+        "body": "Sort connectors into clear groups such as data sources, messaging, and storage. Grouping lets buyers check coverage for each part of their stack and keeps a large catalog from looking like noise. Use small headings so groups scan quickly."
+      },
+      {
+        "title": "Explain what each connection does",
+        "body": "An icon alone does not tell a buyer whether data syncs both ways or imports once. Add a one-line description for key integrations, or a simple diagram showing direction, so technical evaluators can judge depth without leaving the page."
+      }
+    ]
+  },
+  "security": {
+    "intro": "For larger companies and regulated industries, security is a gate rather than a feature. IT and procurement teams read this section to decide whether a product meets their bar, and they want concrete certifications, named controls, and links to documentation. Phrases like \"bank-grade security\" with nothing behind them slow that review down. You will find compliance badges, encryption details, and data handling presented calmly and credibly in these security section examples.",
+    "tipsTitle": "How to build trust in a security section",
+    "tips": [
+      {
+        "title": "List only standards you actually meet",
+        "body": "Put the frameworks you comply with, such as SOC 2 Type II, ISO 27001, HIPAA, or GDPR, near the top of the section. Use official marks only where the issuing body allows them. If an audit is still underway, say so in text instead of showing a badge early."
+      },
+      {
+        "title": "Describe controls in plain language",
+        "body": "Explain encryption at rest and in transit, access controls, SSO, and data residency in short, scannable rows. Skip jargon walls. A security reviewer should be able to answer most checklist questions from this section in about a minute."
+      },
+      {
+        "title": "Link to deeper documentation",
+        "body": "Point every claim somewhere specific: a trust page, a security overview, or a form to request audit reports. This keeps the landing page short while giving evaluators the detail they need to approve a purchase."
+      },
+      {
+        "title": "Choose calm visuals over padlocks",
+        "body": "Neutral colors, simple icons, and an orderly layout read as more credible than dramatic shields and glowing padlocks. Keep badges a consistent size, check their contrast in light and dark themes, and give each one alt text naming the standard."
+      }
+    ]
+  },
+  "pricing": {
+    "intro": "Pricing is where interest turns into a decision, so clarity beats cleverness. Visitors should see which plan fits, what it costs, and what changes between tiers without doing math. People stall when they have to hunt for the price, decode footnotes about limits, or choose between too many options. The pricing section examples below range from simple tier cards to monthly and yearly toggles and detailed plan comparison tables.",
+    "tipsTitle": "How to design a pricing section",
+    "tips": [
+      {
+        "title": "Highlight the plan most people need",
+        "body": "Give the recommended tier a subtle border, badge, or tinted background so it stands out without shouting. Place it in the middle on desktop. On mobile, list it first or make sure it is not buried below the other cards."
+      },
+      {
+        "title": "Align prices for easy comparison",
+        "body": "Put price, billing period, and the main button at the same height across every card. Use one currency format and show units like \"per user / month\" right beside the number so visitors never have to calculate."
+      },
+      {
+        "title": "List what each tier adds",
+        "body": "Start higher plans with \"Everything in the previous plan, plus\" and list only the additions. This keeps cards short and makes the upgrade path obvious. Move the exhaustive feature list into an expandable comparison table below the cards."
+      },
+      {
+        "title": "State yearly savings plainly",
+        "body": "Default the monthly and yearly switch to the period most customers choose, and state the yearly saving as a clear amount or percentage. Show the billed total, not just the per-month equivalent, so the yearly price holds no surprise at checkout."
+      }
+    ]
+  },
+  "comparison": {
+    "intro": "Someone already weighing options wants a direct answer. A comparison section puts the product beside a competitor, a category of tools, or the old manual way of working, and shows the differences at a glance. Fairness is what makes it persuasive. Stack the deck too obviously and readers stop trusting every row. Explore these comparison section examples, from us-versus-them tables to before-and-after splits and check-and-cross grids.",
+    "tipsTitle": "How to build a fair comparison section",
+    "tips": [
+      {
+        "title": "Compare on real decision criteria",
+        "body": "Choose rows that reflect what buyers actually weigh, such as setup time, pricing model, and support, rather than features only you offer. Fewer, sharper rows keep the comparison readable and make each advantage feel earned instead of padded."
+      },
+      {
+        "title": "Highlight your column without hiding others",
+        "body": "Tint your product's column or add a header badge, but keep competitor columns fully legible. Use the same type size and contrast in every column so the comparison reads as honest rather than rigged."
+      },
+      {
+        "title": "Allow for partial answers",
+        "body": "Real comparisons are rarely all checks and crosses. Use short notes such as \"Add-on,\" \"Limited,\" or \"Via API\" where the honest answer is partial, and give every icon a text equivalent so color-blind readers and screen reader users get the same verdict."
+      },
+      {
+        "title": "Try a before-and-after layout",
+        "body": "If buyers compare you to spreadsheets or manual work rather than a rival, a before-and-after split often lands better than a grid. Show the old process and the new one side by side with matching structure so the differences stand out."
+      }
+    ]
+  },
+  "faq": {
+    "intro": "A handful of questions stop people from signing up, buying, or booking a call. An FAQ section answers them before they turn into support tickets or lost deals. The useful ones draw on real objections and stay easy to scan, with no softball questions padding the list. Scroll through these FAQ section examples for different ways to group questions, style accordions, and handle long answers.",
+    "tipsTitle": "How to design an FAQ section",
+    "tips": [
+      {
+        "title": "Source questions from real conversations",
+        "body": "Pull questions from support tickets, sales calls, and onboarding emails, not from what marketing wishes people asked. Lead with pricing, cancellation, data handling, and setup time. If a question only exists to repeat a feature claim, cut it, because readers notice filler."
+      },
+      {
+        "title": "Turn each question into a button",
+        "body": "Render every question as a full-width button with a plus or chevron that changes when open, and give each row a hit area at least 44 pixels tall. Use real button elements with aria-expanded so keyboard and screen reader users can open answers too."
+      },
+      {
+        "title": "Answer in the first sentence",
+        "body": "Put the direct answer up front, then add detail. Two to four sentences is usually enough, with a link to docs for anything longer. Write answers in the same voice as the rest of the page, not like legal disclaimers."
+      },
+      {
+        "title": "Group long lists and offer a way out",
+        "body": "When the list grows, split questions under short labels such as billing, security, and setup. On wide screens, a two-column layout works well, with the heading and a contact link on the left and questions on the right. Always end with a path to a human."
+      }
+    ]
+  },
+  "cta": {
+    "intro": "By the time someone reaches the bottom of a page, they have seen the pitch. The closing call to action gives them one specific line and one button that says exactly what happens on click. A generic slogan stacked above several equal buttons gives them nothing to act on. In these CTA section examples, full-width bands and contained cards each end the page with a single, clear ask.",
+    "tipsTitle": "How to design a closing CTA section",
+    "tips": [
+      {
+        "title": "Write a headline that names the outcome",
+        "body": "Skip lines like \"Ready to get started?\" Say what the reader gets or does next, in under ten words, such as starting a trial or seeing the product on their own data. Add one short line that removes the last objection, like no credit card required."
+      },
+      {
+        "title": "Commit to one primary action",
+        "body": "Give the main button the strongest color on the page and demote any second option to a text link or outline button. Two equal buttons split attention. Match the label to the hero's main action so the page makes one consistent ask from top to bottom."
+      },
+      {
+        "title": "Set the band apart visually",
+        "body": "Use a contrasting background, a contained card with rounded corners, or extra vertical padding so the closing band reads as its own moment. Then check that button text still meets 4.5:1 contrast, since tinted and gradient backgrounds often fail once brand colors are layered."
+      },
+      {
+        "title": "Ask for an email and nothing else",
+        "body": "If the closing band collects an email instead of linking to a signup page, ask for the address only and move everything else to the next step. A single field is a lighter commitment than a form, so it suits trials and waitlists better than sales calls."
+      }
+    ]
+  },
+  "newsletter": {
+    "intro": "Asking for an email address is easy. Giving people a reason to hand it over is the real work of a newsletter section. \"Subscribe to our newsletter\" rarely earns a signup. A line that says what arrives, how often, and why it is worth opening usually does. Use these newsletter section examples to compare layouts, form treatments, and the copy that sits around the field.",
+    "tipsTitle": "How to design a newsletter signup section",
+    "tips": [
+      {
+        "title": "Say exactly what subscribers get",
+        "body": "Describe the content and cadence in the headline or subhead: weekly product teardowns, a monthly changelog, one practical tactic every Tuesday. Specific promises beat generic ones. If you have a public archive or sample issue, link to it so people can judge the quality first."
+      },
+      {
+        "title": "Attach the button to the field",
+        "body": "Place the email input and submit button on one line at desktop widths, then stack them at full width on narrow screens. Set the input type and autocomplete to email so phones show the right keyboard and browsers can fill in the address."
+      },
+      {
+        "title": "Reassure people under the field",
+        "body": "A short note below the input handles the usual hesitation: no spam, unsubscribe anytime, and how the address will be used. Keep it muted but readable, no smaller than 14 pixels, and link to the privacy policy where consent wording is required."
+      },
+      {
+        "title": "Design the success and error states",
+        "body": "Decide what happens after submit before you ship. Replace the form with a confirmation message in place instead of redirecting away, and show errors inline in plain language. Announce both states in an aria-live region so screen reader users know whether it worked."
+      }
+    ]
+  },
+  "blog": {
+    "intro": "Articles, guides, and product updates need a home that people can browse. A blog or resources section gives each piece a card, and readers should be able to judge it at a glance from the title, category, read time, and an image that adds information. Identical cards and titles cut off mid-phrase make that impossible. Card structure, grid density, and filtering vary widely across these blog section examples.",
+    "tipsTitle": "How to design a blog and resources section",
+    "tips": [
+      {
+        "title": "Lead each card with its title",
+        "body": "Make the post title the most prominent element after the image, in a size and weight that holds up at a glance. Allow two or three lines before truncating. Set category, author, and read time smaller and muted so they support the title."
+      },
+      {
+        "title": "Lock thumbnails to one aspect ratio",
+        "body": "Crop every image to the same ratio, such as 16:9 or 3:2, because mixed ratios break the grid and push titles out of line. Lazy-load images below the fold and serve properly sized versions so a long list of cards stays fast."
+      },
+      {
+        "title": "Feature one post, then list the rest",
+        "body": "Give the newest or most important piece a larger card that spans more columns, then show the rest in an even grid. That creates a clear entry point. Use it sparingly, because when every card is featured, none of them stands out."
+      },
+      {
+        "title": "Filter by type and link the archive",
+        "body": "Add category tabs or chips when content spans types like guides, news, and changelog entries. Make the whole card one link instead of separate links on the image and title, and finish with a visible \"View all\" link to the full archive."
+      }
+    ]
+  },
+  "team": {
+    "intro": "Few sections build trust as directly as a team section, because it puts faces and names behind the product. Consistent photos, clear roles, and a line on why each person matters to customers make it work. Mismatched headshots with no context make it look like an afterthought. Match the format to your stage with these team section examples, from founder spotlights to full staff grids and investor rows.",
+    "tipsTitle": "How to design a team section",
+    "tips": [
+      {
+        "title": "Unify portrait crops and lighting",
+        "body": "Use one crop, one aspect ratio, and similar lighting for every portrait. Square or 4:5 crops suit most grids. If photos come from different sources, a shared treatment such as grayscale or a tinted backdrop makes them read as a set. Include each person's name in the alt text."
+      },
+      {
+        "title": "Show names and roles without hover",
+        "body": "Set the name in a stronger weight than the role and place both directly under the photo. Do not hide roles behind hover effects, since touch users never see them. Add a one-line bio only when it tells visitors something useful."
+      },
+      {
+        "title": "Scale the layout to the team",
+        "body": "A small founding team works best as large cards with short bios. A bigger team needs a tighter grid with smaller photos and no bios. Give investors and advisors their own row with smaller cards or logos so the groups stay distinct."
+      },
+      {
+        "title": "Link profiles only when they help",
+        "body": "Include social or profile links when the people are part of the pitch, such as founders or a research team. Give each icon link an accessible name that includes the person and the platform, and keep icons small so they do not compete with faces."
+      }
+    ]
+  },
+  "careers": {
+    "intro": "Recruiting pages have two jobs: help the right people find an open role fast, and give them a reason to apply here rather than elsewhere. A clean, filterable job list handles the first. Specifics on pay, benefits, and how the team works handle the second, far better than stock photos and vague talk about culture. For role lists, benefit grids, and hiring layouts, start with these careers section examples.",
+    "tipsTitle": "How to design a careers section",
+    "tips": [
+      {
+        "title": "List roles in scannable rows",
+        "body": "Show each open role as a row with title, team, location, and work type, aligned in columns on desktop. Make the whole row a link, and group roles under department headings so candidates can jump straight to their area."
+      },
+      {
+        "title": "Add filters when roles span teams",
+        "body": "Once listings cover several departments or locations, add filters for team, location, and remote status. Keep them visible as chips or dropdowns above the list, not in a hidden drawer, and show a general application link when nothing matches."
+      },
+      {
+        "title": "Spell out benefits in concrete terms",
+        "body": "Replace vague perks with real details: salary ranges, parental leave length, equipment budget, and remote policy. Lay them out in a compact grid with a short label and one line each. These answer the questions candidates actually ask."
+      },
+      {
+        "title": "Introduce the team and the process",
+        "body": "Use candid photos of the actual team instead of stock imagery, with short quotes about the work itself. Outline the hiring steps and typical timeline so candidates know what to expect, and end with a next step even when no current role fits."
+      }
+    ]
+  },
+  "contact": {
+    "intro": "Contact and demo request sections turn interest into a conversation with your team. Every extra field and every paragraph above the form costs submissions, so the good ones ask for little, explain what happens after submit, and offer email or phone for people who avoid forms. Pay attention to form length, layout, and the trust details beside the fields as you go through these contact section examples.",
+    "tipsTitle": "How to design a contact or demo request form",
+    "tips": [
+      {
+        "title": "Ask only for what you need",
+        "body": "Start with name, work email, and one message box, then add company size or role only if it changes how you route the request. Mark optional fields as optional instead of starring required ones, and skip the phone number unless you will actually call."
+      },
+      {
+        "title": "Pair the form with context",
+        "body": "On desktop, put the form on one side and context on the other: what the call covers, who will reply, and how quickly. A short customer quote helps here. On mobile, keep that context brief so the first field stays near the top."
+      },
+      {
+        "title": "Label every field and error",
+        "body": "Use visible labels above inputs, not placeholder text that disappears while typing. Show errors inline beside the field, in plain words that explain the fix, and set input types and autocomplete attributes so browsers can fill name, email, and company."
+      },
+      {
+        "title": "Offer a direct alternative",
+        "body": "Some people will never fill in a form. List a sales email, phone number, or office address in a quieter style beside it. For demo requests, showing a scheduling calendar right after submit saves a round of back-and-forth email."
+      }
+    ]
+  },
+  "about": {
+    "intro": "Every company says it values innovation and integrity, which is why those words carry no weight. An about or mission section earns attention with specifics: a real origin story, the problem the founders kept running into, and values that change how the team actually works. Read through these about section examples for layouts that give a company story room without slowing the page down.",
+    "tipsTitle": "How to design an about and mission section",
+    "tips": [
+      {
+        "title": "Open with one clear statement",
+        "body": "Set a single mission line large, in plain words a customer could repeat. Avoid stacking a tagline, a mission, and a vision on top of each other. The supporting copy below should explain that line, not restate it with more adjectives."
+      },
+      {
+        "title": "Tell the origin story in specifics",
+        "body": "Name the problem the founders ran into, where it happened, and what they tried first. Concrete details make a story believable. Break long copy into short paragraphs at roughly 60 to 75 characters per line, and use a pull quote to mark the turning point."
+      },
+      {
+        "title": "Tie each value to behavior",
+        "body": "Pair each value's short label with one sentence on how it shapes decisions, such as shipping small changes often or publishing prices openly. A simple grid or list is enough. If a value has no real example behind it, cut it."
+      },
+      {
+        "title": "Photograph the real team and work",
+        "body": "Use pictures of the people, workspace, early sketches, or product history instead of abstract illustration, with captions where an image needs context. Compress large photos and size them to their containers, since image-heavy about pages often load slowly on mobile."
+      }
+    ]
+  },
+  "footer": {
+    "intro": "People scroll to the footer when they cannot find something elsewhere, so it has to work as a map. It holds the full sitemap, legal links, social profiles, and often a final signup field. Clear columns with short labels make it useful, while one undivided block of links or tiny gray text makes it a chore. Minimal single rows sit alongside multi-column sitemaps and oversized wordmarks in these footer examples.",
+    "tipsTitle": "How to design a website footer",
+    "tips": [
+      {
+        "title": "Group links into labeled columns",
+        "body": "Sort links by what visitors look for, such as product, resources, company, and legal. Give each column a short heading and keep labels to one or two words. Put the most visited links, like pricing, docs, and contact, near the top of their columns."
+      },
+      {
+        "title": "Keep small links legible",
+        "body": "Footers tend to drift into tiny, low-contrast gray text. Keep links at 14 pixels or larger with 4.5:1 contrast against the background, including on dark footers, and leave enough spacing between links that each one is easy to tap on a phone."
+      },
+      {
+        "title": "Collapse columns carefully on mobile",
+        "body": "On narrow screens, arrange columns two across or turn them into accordions under each heading. Keep the logo, key links, and legal row visible without expanding anything, and test at small widths, since long link lists push the copyright row far down."
+      },
+      {
+        "title": "Separate the legal row",
+        "body": "Place copyright, privacy, terms, and cookie settings in a slim bottom row, set apart by a rule or extra spacing. Keep social icons small and give each an accessible name. A newsletter field needs its own block so it does not crowd the link columns."
+      }
+    ]
+  },
+  "navbar": {
+    "intro": "Visitors come back to the navigation bar again and again as they move around a site. In one glance it should show where they can go: a logo, a handful of top-level links, and one clear action. Predictability matters more than personality here. Cramming in every page or adding a second bright button only buries the links people need. This page gathers navigation bar examples, from simple headers to fully open mega menus.",
+    "tipsTitle": "How to design a navbar and mega menu",
+    "tips": [
+      {
+        "title": "Limit the top-level links",
+        "body": "Keep the main row to the pages people visit most, usually product, pricing, resources, and company, and move the rest into dropdowns or the footer. Short, plain labels beat clever ones. If a link needs explaining, put it in a menu with a one-line description."
+      },
+      {
+        "title": "Separate sign in from the main action",
+        "body": "Show sign in as a text link and the primary action, such as a free trial or demo booking, as a solid button at the far right. Keep only one filled button in the bar, so returning users find login quickly and new visitors see one next step."
+      },
+      {
+        "title": "Structure mega menus with descriptions",
+        "body": "When a dropdown holds many items, group them under headings and add a short description to each link. Open menus on click or after a brief hover delay, close them with Escape, and return focus to the trigger when they close."
+      },
+      {
+        "title": "Plan mobile and sticky states",
+        "body": "On small screens, collapse links behind a labeled menu button that opens a full-height panel, and keep the primary action visible outside it if space allows. A sticky bar should stay short, and it often works best hidden on scroll down and shown on scroll up."
+      }
+    ]
+  }
+}

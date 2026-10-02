@@ -1,0 +1,317 @@
+{
+  "operate": {
+    "name": "Operate",
+    "domain": "operate.so"
+  },
+  "bobbin": {
+    "name": "Bobbin"
+  },
+  "plasma": {
+    "name": "Plasma",
+    "domain": "plasma.org"
+  },
+  "duna": {
+    "name": "DUNA"
+  },
+  "menkind": {
+    "name": "Menkind"
+  },
+  "twin": {
+    "name": "Twin",
+    "domain": "twin.so"
+  },
+  "flect": {
+    "name": "Flect"
+  },
+  "vestris": {
+    "name": "Vestris"
+  },
+  "rezolv": {
+    "name": "Rezolv"
+  },
+  "nominal": {
+    "name": "Nominal",
+    "domain": "nominal.so"
+  },
+  "voiceflow": {
+    "name": "Voiceflow",
+    "domain": "voiceflow.com"
+  },
+  "podium-automation": {
+    "name": "Podium Automation",
+    "domain": "podiumautomation.com"
+  },
+  "cluster": {
+    "name": "Cluster"
+  },
+  "mintlify": {
+    "name": "Mintlify",
+    "domain": "mintlify.com"
+  },
+  "near": {
+    "name": "NEAR",
+    "domain": "near.com"
+  },
+  "bayshore": {
+    "name": "Bayshore",
+    "domain": "bayshore.ai"
+  },
+  "agiloft": {
+    "name": "Agiloft",
+    "domain": "agiloft.com"
+  },
+  "pleo": {
+    "name": "Pleo",
+    "domain": "pleo.io"
+  },
+  "concourse": {
+    "name": "Concourse",
+    "domain": "concourse.co"
+  },
+  "calendly": {
+    "name": "Calendly",
+    "domain": "calendly.com"
+  },
+  "vizcom": {
+    "name": "Vizcom",
+    "domain": "vizcom.com"
+  },
+  "saki": {
+    "name": "Saki",
+    "domain": "sakiproducts.com"
+  },
+  "snackish": {
+    "name": "Snackish"
+  },
+  "weave": {
+    "name": "Weave"
+  },
+  "decimals": {
+    "name": "Decimals"
+  },
+  "privy": {
+    "name": "Privy",
+    "domain": "privy.io"
+  },
+  "hunar": {
+    "name": "Hunar",
+    "domain": "hunar.ai"
+  },
+  "flitedeck": {
+    "name": "Flitedeck"
+  },
+  "nickai": {
+    "name": "NickAI"
+  },
+  "21oaks": {
+    "name": "21Oaks"
+  },
+  "howseen-ai": {
+    "name": "Howseen AI"
+  },
+  "conduit": {
+    "name": "Conduit",
+    "domain": "conduit.ai"
+  },
+  "walrus": {
+    "name": "Walrus",
+    "domain": "walrus.xyz"
+  },
+  "shelby": {
+    "name": "Shelby",
+    "domain": "shelby.xyz"
+  },
+  "proto": {
+    "name": "Proto"
+  },
+  "leedlime": {
+    "name": "Leedlime"
+  },
+  "arke": {
+    "name": "Arke"
+  },
+  "wavelength": {
+    "name": "Wavelength",
+    "domain": "wavelength.cx"
+  },
+  "cardinal": {
+    "name": "Cardinal"
+  },
+  "unsiloed": {
+    "name": "Unsiloed"
+  },
+  "atomic-tessellator": {
+    "name": "Atomic Tessellator"
+  },
+  "cotool": {
+    "name": "Cotool",
+    "domain": "cotool.ai"
+  },
+  "synaptrix": {
+    "name": "Synaptrix",
+    "domain": "synaptrixlabs.com"
+  },
+  "watts": {
+    "name": "Watts"
+  },
+  "united-carriers": {
+    "name": "United Carriers",
+    "domain": "unitedcarriers.com"
+  },
+  "atlassian": {
+    "name": "Atlassian",
+    "domain": "atlassian.com"
+  },
+  "sofia-khegai": {
+    "name": "Sofia Khegai"
+  },
+  "echofi": {
+    "name": "EchoFi",
+    "domain": "echofi.ai"
+  },
+  "goodside": {
+    "name": "Goodside",
+    "domain": "goodside.studio"
+  },
+  "modulify": {
+    "name": "Modulify",
+    "domain": "modulify.ai"
+  },
+  "brikken-co": {
+    "name": "Brikken+Co"
+  },
+  "visionai": {
+    "name": "VisionAI"
+  },
+  "aside": {
+    "name": "Aside",
+    "domain": "aside.com"
+  },
+  "ploy": {
+    "name": "Ploy"
+  },
+  "localcan": {
+    "name": "LocalCan",
+    "domain": "localcan.com"
+  },
+  "robin-humphreys": {
+    "name": "Robin Humphreys"
+  },
+  "linearity": {
+    "name": "Linearity",
+    "domain": "linearity.io"
+  },
+  "cronicle": {
+    "name": "Cronicle"
+  },
+  "relume": {
+    "name": "Relume",
+    "domain": "relume.io"
+  },
+  "fernand": {
+    "name": "Fernand",
+    "domain": "getfernand.com"
+  },
+  "workos": {
+    "name": "WorkOS",
+    "domain": "workos.com"
+  },
+  "gumloop": {
+    "name": "Gumloop",
+    "domain": "gumloop.com"
+  },
+  "dan-mall": {
+    "name": "Dan Mall",
+    "domain": "danmall.com"
+  },
+  "clay": {
+    "name": "Clay",
+    "domain": "clay.com"
+  },
+  "daniel-sun": {
+    "name": "Daniel Sun",
+    "domain": "danielsun.space"
+  },
+  "daybridge": {
+    "name": "Daybridge",
+    "domain": "daybridge.com"
+  },
+  "legora": {
+    "name": "Legora",
+    "domain": "legora.com"
+  },
+  "zamp": {
+    "name": "Zamp",
+    "domain": "zamp.com"
+  },
+  "zamp-ai": {
+    "name": "Zamp AI",
+    "domain": "zamp.ai"
+  },
+  "pogo": {
+    "name": "Pogo",
+    "domain": "joinpogo.com"
+  },
+  "interfere": {
+    "name": "Interfere",
+    "domain": "interfere.com"
+  },
+  "harvey": {
+    "name": "Harvey",
+    "domain": "harvey.ai"
+  },
+  "cohere": {
+    "name": "Cohere",
+    "domain": "cohere.com"
+  },
+  "chargetrip": {
+    "name": "Chargetrip",
+    "domain": "chargetrip.com"
+  },
+  "laravel-cloud": {
+    "name": "Laravel Cloud",
+    "domain": "cloud.laravel.com"
+  },
+  "laravel": {
+    "name": "Laravel",
+    "domain": "laravel.com"
+  },
+  "laravel-nightwatch": {
+    "name": "Laravel Nightwatch",
+    "domain": "nightwatch.laravel.com"
+  },
+  "laravel-forge": {
+    "name": "Laravel Forge",
+    "domain": "forge.laravel.com"
+  },
+  "canopy": {
+    "name": "Canopy",
+    "domain": "canopyservicing.com"
+  },
+  "griffin": {
+    "name": "Griffin",
+    "domain": "griffin.com"
+  },
+  "rulebase": {
+    "name": "Rulebase",
+    "domain": "rulebase.co"
+  },
+  "synthio-labs": {
+    "name": "Synthio Labs",
+    "domain": "synthiolabs.com"
+  },
+  "smallest-ai": {
+    "name": "Smallest.ai",
+    "domain": "smallest.ai"
+  },
+  "palette": {
+    "name": "Palette"
+  },
+  "raneo": {
+    "name": "Raneo"
+  },
+  "time-fyi": {
+    "name": "time.fyi",
+    "domain": "time.fyi"
+  }
+}

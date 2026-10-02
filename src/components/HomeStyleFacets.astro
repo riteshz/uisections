@@ -1,0 +1,29 @@
+---
+// Home "Browse by style": paged style tags grouped by facet, as link chips with counts.
+import LinkChips from './LinkChips.astro';
+
+interface FacetGroup {
+  id: string;
+  label: string;
+  items: { href: string; label: string; count: number }[];
+}
+interface Props { groups: FacetGroup[] }
+const { groups } = Astro.props;
+---
+<div class="facets">
+  {groups.map((g) => (
+    <div class="facet">
+      <h3 class="t-eyebrow">{g.label}</h3>
+      <LinkChips label={`${g.label} styles`} items={g.items} />
+    </div>
+  ))}
+</div>
+
+<style>
+  .facets { border-top: 1px solid var(--line); }
+  .facet { display: grid; gap: 12px; padding-block: 20px; border-bottom: 1px solid var(--line); }
+  @media (min-width: 900px) {
+    .facet { grid-template-columns: 220px minmax(0, 1fr); gap: 24px; align-items: start; padding-block: 22px; }
+    .facet h3 { padding-top: 8px; }
+  }
+</style>

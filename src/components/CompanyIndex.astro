@@ -1,0 +1,225 @@
+---
+// Companies A–Z: a client-side name filter, a sticky letter jump bar and
+// letter groups of compact entries (small 16:10 cover, name, section count).
+import Icon from './Icon.astro';
+import type { Company } from '../lib/data';
+import { getSection } from '../lib/data';
+import { companyUrl, shotUrl } from '../lib/urls';
+
+interface Props {
+  items: Company[];
+  /** Entries that load their thumbnail eagerly (first viewport). */
+  eagerCount?: number;
+}
+const { items, eagerCount = 8 } = Astro.props;
+
+const LETTERS = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '#'];
+const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const letterOf = (name: string) => {
+  const ch = norm(name.trim()).charAt(0).toUpperCase();
+  return /[A-Z]/.test(ch) ? ch : '#';
+};
+const anchor = (l: string) => `letter-${l === '#' ? 'num' : l.toLowerCase()}`;
+
+const sorted = [...items].sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base', numeric: true }));
+const byLetter = new Map<string, Company[]>();
+for (const c of sorted) {
+  const l = letterOf(c.name);
+  byLetter.set(l, [...(byLetter.get(l) ?? []), c]);
+}
+const groups = LETTERS.filter((l) => byLetter.has(l)).map((l) => ({ letter: l, id: anchor(l), items: byLetter.get(l)! }));
+const order = new Map(groups.flatMap((g) => g.items).map((c, i) => [c.slug, i]));
+const total = sorted.length;
+const plural = (n: number, one: string, many: string) => `${n.toLocaleString('en-US')} ${n === 1 ? one : many}`;
+---
+<div class="company-index" data-company-index data-total={total}>
+  <div class="ci-search enter enter-4">
+    <label class="ci-field">
+      <Icon name="search" size={16} />
+      <span class="sr-only">Filter companies by name</span>
+      <input type="search" placeholder="Filter companies…" autocomplete="off" spellcheck="false" enterkeyhint="search" data-ci-input />
+    </label>
+    <p class="t-meta tabular" data-ci-status aria-live="polite">{plural(total, 'company', 'companies')}</p>
+  </div>
+
+  <nav class="ci-letters enter enter-4" aria-label="Jump to letter">
+    <ul class="chip-row" data-ci-row>
+      {LETTERS.map((l) =>
+        byLetter.has(l) ? (
+          <li><a href={`#${anchor(l)}`} data-ci-letter={l} aria-label={l === '#' ? 'Numbers' : undefined}>{l}</a></li>
+        ) : (
+          <li aria-hidden="true"><span>{l}</span></li>
+        ),
+      )}
+    </ul>
+  </nav>
+
+  <div class="ci-groups">
+    {groups.map((g) => (
+      <section class="ci-group" id={g.id} data-ci-group={g.letter} aria-labelledby={`${g.id}-h`}>
+        <h2 class="ci-letter" id={`${g.id}-h`}>
+          {g.letter === '#' ? (<><span aria-hidden="true">#</span><span class="sr-only">Numbers</span></>) : g.letter}
+        </h2>
+        <ul class="ci-list">
+          {g.items.map((c) => {
+            const s = c.cover ? getSection(c.cover) : undefined;
+            const eager = (order.get(c.slug) ?? 0) < eagerCount;
+            return (
+              <li data-name={norm(`${c.name} ${c.slug}`)}>
+                <a class="ci-item" href={companyUrl(c.slug)}>
+                  <span class="ci-thumb shot">
+                    {s && (
+                      <img
+                        class:list={[{ contain: s.thumb.h / s.thumb.w < 0.56 }]}
+                        src={shotUrl(s.files['480'])}
+                        width={s.thumb.w}
+                        height={s.thumb.h}
+                        alt=""
+                        loading={eager ? 'eager' : 'lazy'}
+                        decoding="async"
+                      />
+                    )}
+                  </span>
+                  <span class="ci-text">
+                    <span class="ci-name">{c.name}</span>
+                    <span class="t-meta tabular">{plural(c.count, 'section', 'sections')}</span>
+                  </span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    ))}
+  </div>
+
+  <div class="ci-empty" data-ci-empty hidden>
+    <p>No companies match “<span data-ci-query></span>”.</p>
+    <button type="button" class="btn btn-secondary btn-sm" data-ci-clear>Clear filter</button>
+  </div>
+</div>
+
+<style>
+  .ci-search { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .ci-field {
+    position: relative; display: flex; align-items: center; gap: 10px; flex: 0 1 340px; min-width: 0; height: 44px; padding: 0 16px;
+    border-radius: 999px; background: var(--wash); color: var(--ink-4); transition: background-color 0.16s, box-shadow 0.16s;
+  }
+  .ci-field:hover { background: var(--wash-hover); }
+  .ci-field:focus-within { background: #fff; box-shadow: inset 0 0 0 1px var(--line-strong), var(--focus); }
+  .ci-field input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: transparent; font: inherit; font-size: 0.9375rem; color: var(--ink); }
+  .ci-field input::placeholder { color: var(--ink-4); }
+  .ci-field input:focus-visible { box-shadow: none; }
+  @media (max-width: 560px) { .ci-field { flex-basis: 100%; } }
+
+  /* Sticky glass letter bar under the header. */
+  .ci-letters {
+    position: sticky; top: calc(var(--header-h) + 4px); z-index: 5;
+    width: max-content; max-width: 100%; margin: 20px 0 40px; padding: 4px; border-radius: 999px;
+    background: var(--glass); -webkit-backdrop-filter: blur(10px) saturate(150%); backdrop-filter: blur(10px) saturate(150%);
+    box-shadow: var(--shadow-float);
+  }
+  .ci-letters ul { gap: 2px; padding: 0; }
+  .ci-letters a, .ci-letters span {
+    flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 999px;
+    font-size: 0.8125rem; font-weight: 560; font-variant-numeric: tabular-nums;
+  }
+  .ci-letters a { color: var(--ink-2); transition: background-color 0.15s, color 0.15s, scale 0.2s var(--ease-spring); }
+  .ci-letters a:hover { background: var(--wash-hover); color: var(--ink); }
+  .ci-letters a:active { scale: 0.92; transition-duration: 90ms; }
+  .ci-letters a[aria-disabled='true'] { color: var(--sub); pointer-events: none; }
+  .ci-letters span { color: var(--sub); }
+  @media (max-width: 720px) { .ci-letters a, .ci-letters span { width: 30px; } }
+
+  .ci-groups { display: grid; gap: 8px; }
+  .ci-group {
+    display: grid; gap: 12px; padding-top: 20px; border-top: 1px solid var(--line);
+    scroll-margin-top: calc(var(--header-h) + 64px);
+  }
+  @media (min-width: 900px) { .ci-group { grid-template-columns: 80px minmax(0, 1fr); gap: 24px; padding-top: 24px; } }
+  .ci-group[hidden], .ci-list li[hidden], .ci-empty[hidden] { display: none; }
+  .ci-letter { font-size: 1.5rem; line-height: 1.25; font-weight: 600; color: var(--ink-5); padding-top: 8px; }
+
+  .ci-list { display: grid; gap: 4px 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 248px), 1fr)); padding-bottom: 20px; }
+  .ci-item {
+    display: flex; align-items: center; gap: 14px; min-width: 0; padding: 8px; margin-inline: -8px; border-radius: 16px;
+    transition: background-color 0.2s var(--ease-out);
+  }
+  .ci-thumb { flex: none; display: block; width: 96px; aspect-ratio: 16 / 10; border-radius: 8px; transition: translate 0.3s var(--ease-out); }
+  .ci-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+  .ci-thumb img.contain { object-fit: contain; object-position: center; }
+  .ci-text { display: grid; min-width: 0; }
+  .ci-name { font-weight: 570; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  @media (hover: hover) {
+    .ci-item:hover { background: var(--wash); }
+    .ci-item:hover .ci-thumb { translate: 0 -2px; }
+  }
+  .ci-item:active { scale: 0.99; }
+
+  .ci-empty { display: grid; justify-items: start; gap: 14px; padding: 32px 0; color: var(--ink-3); }
+</style>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-company-index]');
+  if (root) {
+    const input = root.querySelector<HTMLInputElement>('[data-ci-input]')!;
+    const status = root.querySelector<HTMLElement>('[data-ci-status]')!;
+    const empty = root.querySelector<HTMLElement>('[data-ci-empty]')!;
+    const query = root.querySelector<HTMLElement>('[data-ci-query]')!;
+    const row = root.querySelector<HTMLElement>('[data-ci-row]');
+    const total = Number(root.dataset.total);
+    const letters = new Map([...root.querySelectorAll<HTMLAnchorElement>('[data-ci-letter]')].map((a) => [a.dataset.ciLetter!, a]));
+    const groups = [...root.querySelectorAll<HTMLElement>('[data-ci-group]')].map((g) => ({ g, rows: [...g.querySelectorAll<HTMLElement>('li[data-name]')] }));
+    const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+    const noun = (n: number) => (n === 1 ? 'company' : 'companies');
+
+    const apply = () => {
+      const q = norm(input.value);
+      let shown = 0;
+      for (const { g, rows } of groups) {
+        let n = 0;
+        for (const r of rows) {
+          const match = !q || r.dataset.name!.includes(q);
+          r.hidden = !match;
+          if (match) n++;
+        }
+        g.hidden = n === 0;
+        shown += n;
+        const link = letters.get(g.dataset.ciGroup!);
+        if (link) {
+          if (n) { link.removeAttribute('aria-disabled'); link.removeAttribute('tabindex'); }
+          else { link.setAttribute('aria-disabled', 'true'); link.tabIndex = -1; }
+        }
+      }
+      empty.hidden = shown > 0;
+      query.textContent = input.value.trim();
+      status.textContent = q ? `${shown} of ${total} ${noun(total)}` : `${total} ${noun(total)}`;
+    };
+
+    input.addEventListener('input', apply);
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && input.value) { e.preventDefault(); input.value = ''; apply(); }
+      if (e.key === 'Enter') {
+        // A single match opens straight away.
+        const visible = groups.flatMap(({ rows }) => rows.filter((r) => !r.hidden));
+        const a = visible.length === 1 ? visible[0].querySelector('a') : null;
+        if (a) location.href = a.href;
+      }
+    });
+    root.querySelector('[data-ci-clear]')?.addEventListener('click', () => { input.value = ''; apply(); input.focus(); });
+    // Browsers may restore the field value on back/forward navigation.
+    if (input.value) apply();
+    window.addEventListener('pageshow', () => { if (input.value) apply(); });
+
+    // Edge fades on the letter bar when it scrolls (narrow screens).
+    if (row) {
+      const update = () => {
+        const max = row.scrollWidth - row.clientWidth;
+        const x = row.scrollLeft;
+        row.dataset.over = max <= 2 ? '' : x <= 2 ? 'end' : x >= max - 2 ? 'start' : 'both';
+      };
+      row.addEventListener('scroll', () => requestAnimationFrame(update), { passive: true });
+      new ResizeObserver(update).observe(row);
+    }
+  }
+</script>

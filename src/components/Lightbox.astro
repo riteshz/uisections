@@ -1,0 +1,372 @@
+---
+import Icon from './Icon.astro';
+import { allCategories, tags } from '../lib/data';
+
+// Labels + URLs the viewer needs to render chips for any card on the page.
+const taxonomy = {
+  c: Object.fromEntries(allCategories.map((c) => [c.id, [c.label, c.hasPage ? c.path : '']])),
+  t: Object.fromEntries(tags.map((t) => [t.id, [t.label, t.hasPage ? t.path : '']])),
+};
+---
+<dialog class="lb" data-lb aria-labelledby="lb-title">
+  <div class="lb-panel" data-lb-panel>
+    <div class="lb-bar">
+      <div class="lb-id">
+        <span class="lb-avatar" data-lb-avatar aria-hidden="true">U</span>
+        <div class="lb-names">
+          <h2 id="lb-title" class="lb-title" data-lb-title>Section preview</h2>
+          <p class="lb-sub" data-lb-sub>Website section</p>
+        </div>
+      </div>
+      <div class="lb-bar-actions">
+        <a class="btn btn-secondary btn-sm lb-visit" href="/" data-lb-visit target="_blank" rel="nofollow noopener" hidden>
+          <span>Visit site</span><Icon name="arrow-up-right" size={15} />
+        </a>
+        <button type="button" class="icon-btn" data-lb-close aria-label="Close preview" aria-keyshortcuts="Escape"><Icon name="x" size={20} /></button>
+      </div>
+    </div>
+
+    <div class="lb-stage" data-lb-stage tabindex="-1">
+      <img class="lb-img" data-lb-img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1" height="1" alt="" decoding="async" />
+    </div>
+
+    <div class="lb-foot">
+      <ul class="lb-tags" data-lb-tags aria-label="Section type and styles"></ul>
+      <div class="lb-nav">
+        <a class="lb-more" href="/companies/" data-lb-company hidden><span data-lb-more-label>More from this company</span><Icon name="arrow-right" size={15} /></a>
+        <div class="lb-pager">
+          <button type="button" class="icon-btn" data-lb-prev aria-label="Previous section" aria-keyshortcuts="ArrowLeft"><Icon name="arrow-left" size={18} /></button>
+          <span class="lb-pos tabular" data-lb-pos aria-live="polite"></span>
+          <button type="button" class="icon-btn" data-lb-next aria-label="Next section" aria-keyshortcuts="ArrowRight"><Icon name="arrow-right" size={18} /></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="lb-arrow prev" data-lb-prev aria-label="Previous section" tabindex="-1"><Icon name="arrow-left" size={20} /></button>
+  <button type="button" class="lb-arrow next" data-lb-next aria-label="Next section" tabindex="-1"><Icon name="arrow-right" size={20} /></button>
+</dialog>
+<script type="application/json" id="ui-taxonomy" set:html={JSON.stringify(taxonomy)} />
+
+<style is:global>
+  html:has(dialog[open]) { overflow: hidden; }
+
+  .lb {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 24px 88px;
+    border: 0;
+    background: transparent;
+    color: var(--ink);
+    overflow: hidden;
+  }
+  .lb[open] { display: grid; place-items: center; }
+  .lb::backdrop {
+    background: rgb(12 12 14 / 0.62);
+    -webkit-backdrop-filter: blur(10px) saturate(120%);
+    backdrop-filter: blur(10px) saturate(120%);
+  }
+  .lb[open]::backdrop { animation: lb-fade 0.28s var(--ease-out) both; }
+  .lb.is-closing::backdrop { animation: lb-fade-out 0.2s var(--ease-out) both; }
+
+  .lb-panel {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    width: min(1180px, 100%);
+    height: 100%;
+    border-radius: 24px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 0.06), 0 32px 80px -24px rgb(0 0 0 / 0.5);
+  }
+  .lb[open] .lb-panel { animation: lb-in 0.42s var(--ease-out-expo) both; }
+  .lb.is-closing .lb-panel { animation: lb-out 0.2s var(--ease-out) both; }
+
+  /* Header */
+  .lb-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 14px 14px 14px 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  .lb-id { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .lb-avatar {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: var(--ink);
+    color: #fff;
+    font-size: 0.9375rem;
+    font-weight: 620;
+  }
+  .lb-names { min-width: 0; }
+  .lb-title { font-size: 1rem; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lb-sub { font-size: 0.8125rem; line-height: 1.35; color: var(--ink-4); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lb-bar-actions { display: flex; align-items: center; gap: 6px; flex: none; }
+  .lb-visit[hidden] { display: none; }
+
+  /* Stage */
+  .lb-stage {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 28px;
+    background: var(--surface);
+    outline: none;
+    scrollbar-width: thin;
+  }
+  .lb-img {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin-inline: auto;
+    border-radius: 12px;
+    background-color: var(--wash);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1), 0 16px 40px -20px rgb(0 0 0 / 0.25);
+  }
+  .lb-img.is-swapping { animation: lb-swap 0.32s var(--ease-out-expo) both; }
+  .lb-img.from-left { --dx: -14px; }
+  .lb-img.from-right { --dx: 14px; }
+
+  /* Footer */
+  .lb-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 14px 12px 20px;
+    border-top: 1px solid var(--line);
+  }
+  .lb-tags { display: flex; gap: 6px; min-width: 0; overflow-x: auto; scrollbar-width: none; mask-image: linear-gradient(90deg, #000 calc(100% - 24px), transparent); }
+  .lb-tags::-webkit-scrollbar { display: none; }
+  .lb-tags li { flex: none; }
+  .lb-tags .tag.is-category { background: var(--ink); color: #fff; }
+  .lb-nav { display: flex; align-items: center; gap: 14px; flex: none; }
+  .lb-more { display: inline-flex; align-items: center; gap: 6px; font-size: 0.875rem; font-weight: 550; color: var(--ink-2); transition: color 0.15s, gap 0.2s var(--ease-spring); white-space: nowrap; }
+  .lb-more:hover { color: var(--ink); gap: 9px; }
+  .lb-more[hidden] { display: none; }
+  .lb-pager { display: flex; align-items: center; gap: 2px; padding-left: 14px; border-left: 1px solid var(--line); }
+  .lb-pos { min-width: 64px; text-align: center; font-size: 0.8125rem; color: var(--ink-4); }
+
+  /* Floating arrows (desktop) */
+  .lb-arrow {
+    position: absolute;
+    top: 50%;
+    display: grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    margin-top: -26px;
+    border-radius: 999px;
+    background: rgb(255 255 255 / 0.14);
+    color: #fff;
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.18);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    cursor: pointer;
+    transition: background-color 0.18s, scale 0.26s var(--ease-soft);
+  }
+  .lb-arrow:hover { background: rgb(255 255 255 / 0.26); scale: 1.06; }
+  .lb-arrow:active { scale: 0.94; transition-duration: 90ms; }
+  .lb-arrow.prev { left: 20px; }
+  .lb-arrow.next { right: 20px; }
+  .lb[open] .lb-arrow { animation: lb-fade 0.3s var(--ease-out) 0.12s both; }
+
+  @keyframes lb-fade { from { opacity: 0; } }
+  @keyframes lb-fade-out { to { opacity: 0; } }
+  @keyframes lb-in { from { opacity: 0; transform: translateY(18px) scale(0.985); } }
+  @keyframes lb-out { to { opacity: 0; transform: translateY(8px) scale(0.99); } }
+  @keyframes lb-up { from { transform: translateY(100%); } }
+  @keyframes lb-down { to { transform: translateY(100%); } }
+  @keyframes lb-swap { from { opacity: 0.35; transform: translateX(var(--dx, 0)); } }
+
+  @media (max-width: 1100px) {
+    .lb { padding: 20px; }
+    .lb-arrow { display: none; }
+  }
+  @media (max-width: 720px) {
+    .lb { padding: 0; }
+    .lb[open] { place-items: end stretch; }
+    .lb-panel { width: 100%; height: calc(100dvh - 12px); border-radius: 20px 20px 0 0; }
+    .lb[open] .lb-panel { animation: lb-up 0.44s var(--ease-out-expo) both; }
+    .lb.is-closing .lb-panel { animation: lb-down 0.24s var(--ease-out) both; }
+    .lb-bar { padding: 10px 8px 10px 14px; }
+    .lb-visit span { display: none; }
+    .lb-visit { width: 36px; padding: 0; }
+    .lb-stage { padding: 12px; display: flex; flex-direction: column; justify-content: safe center; }
+    .lb-foot { flex-direction: column; align-items: stretch; gap: 10px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); }
+    .lb-nav { justify-content: space-between; }
+    .lb-pager { border-left: 0; padding-left: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lb-img.is-swapping { animation: none; }
+  }
+</style>
+
+<script>
+  type Taxonomy = { c: Record<string, [string, string]>; t: Record<string, [string, string]> };
+  const dialog = document.querySelector<HTMLDialogElement>('dialog[data-lb]')!;
+  const taxonomy: Taxonomy = JSON.parse(document.getElementById('ui-taxonomy')?.textContent || '{"c":{},"t":{}}');
+
+  if (dialog) {
+    const $ = <T extends HTMLElement>(sel: string) => dialog.querySelector<T>(sel)!;
+    const stage = $<HTMLElement>('[data-lb-stage]');
+    const img = $<HTMLImageElement>('[data-lb-img]');
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+    let current: HTMLElement | null = null;
+    let pushed = false;
+    let closing = false;
+
+    const anchors = () => [...document.querySelectorAll<HTMLAnchorElement>('li.card:not([hidden]) a[data-lightbox]')];
+    const cardOf = (a: HTMLAnchorElement) => a.closest<HTMLElement>('[data-id]')!;
+    const anchorById = (id: string) => document.querySelector<HTMLAnchorElement>(`[data-id="${CSS.escape(id)}"] a[data-lightbox]`);
+    const srcFor = (a: HTMLAnchorElement) => (a.dataset.md && innerWidth < 900 ? a.dataset.md : a.href);
+
+    function chip(label: string, href: string, isCategory = false) {
+      const li = document.createElement('li');
+      const el = document.createElement(href ? 'a' : 'span');
+      el.className = isCategory ? 'tag is-category' : 'tag';
+      el.textContent = label;
+      if (href) (el as HTMLAnchorElement).href = href;
+      li.append(el);
+      return li;
+    }
+
+    function fill(a: HTMLAnchorElement, dir = 0) {
+      const card = cardOf(a);
+      const [catLabel, catHref] = taxonomy.c[card.dataset.cat ?? ''] ?? ['Website', ''];
+      const companyLink = card.querySelector<HTMLAnchorElement>('a.co');
+      const name = card.dataset.companyName || card.querySelector('.co')?.textContent || 'Website';
+      $('[data-lb-avatar]').textContent = name.replace(/[^\p{L}\p{N}]/gu, '').charAt(0).toUpperCase() || '•';
+      $('[data-lb-title]').textContent = name;
+      $('[data-lb-sub]').textContent = a.dataset.headline ? `${catLabel} section · “${a.dataset.headline}”` : `${catLabel} section`;
+      $('[data-lb-tags]').replaceChildren(
+        chip(catLabel, catHref, true),
+        ...(card.dataset.tags ?? '').split(' ').filter(Boolean).map((t) => chip(...(taxonomy.t[t] ?? [t, '']))),
+      );
+
+      const more = $<HTMLAnchorElement>('[data-lb-company]');
+      const samePage = companyLink && location.pathname === new URL(companyLink.href).pathname;
+      more.hidden = !companyLink || Boolean(samePage);
+      if (companyLink) more.href = companyLink.href;
+      $('[data-lb-more-label]').textContent = `More from ${name}`;
+      const visit = $<HTMLAnchorElement>('[data-lb-visit]');
+      visit.hidden = !card.dataset.domain;
+      if (card.dataset.domain) {
+        visit.href = `https://${card.dataset.domain}/?ref=uisections.com`;
+        visit.setAttribute('aria-label', `Visit ${card.dataset.domain} (opens in a new tab)`);
+      }
+
+      img.width = Number(a.dataset.w);
+      img.height = Number(a.dataset.h);
+      img.style.backgroundImage = a.dataset.thumb ? `url("${a.dataset.thumb}")` : '';
+      img.alt = card.querySelector('img')?.alt ?? '';
+      img.src = srcFor(a);
+      if (dir && !reduce.matches) {
+        img.classList.remove('is-swapping', 'from-left', 'from-right');
+        void img.offsetWidth;
+        img.classList.add('is-swapping', dir > 0 ? 'from-right' : 'from-left');
+      }
+
+      const list = anchors();
+      const i = list.indexOf(a);
+      $('[data-lb-pos]').textContent = i >= 0 ? `${i + 1} / ${list.length}` : '';
+      for (const n of [list[i - 1], list[i + 1]]) if (n) new Image().src = srcFor(n);
+      current = card;
+    }
+
+    function open(a: HTMLAnchorElement, { push = true, dir = 0 } = {}) {
+      fill(a, dir);
+      stage.scrollTop = 0;
+      if (!dialog.open) {
+        closing = false;
+        dialog.classList.remove('is-closing');
+        dialog.showModal();
+        stage.focus({ preventScroll: true });
+      }
+      const hash = `#s-${cardOf(a).dataset.id}`;
+      if (push && !pushed) { history.pushState({ lb: true }, '', hash); pushed = true; }
+      else history.replaceState(history.state, '', hash);
+    }
+
+    function close() {
+      if (!dialog.open || closing) return;
+      const card = current;
+      const finish = () => {
+        closing = false;
+        dialog.classList.remove('is-closing');
+        dialog.close();
+        // Return focus to the card that opened the viewer.
+        card?.querySelector<HTMLElement>('a[data-lightbox]')?.focus({ preventScroll: true });
+      };
+      if (reduce.matches) return finish();
+      closing = true;
+      dialog.classList.add('is-closing');
+      setTimeout(finish, 200);
+    }
+
+    function closeUI() {
+      if (pushed && history.state?.lb) history.back();
+      else {
+        close();
+        history.replaceState(history.state, '', location.pathname + location.search);
+      }
+    }
+
+    function step(dir: number) {
+      const list = anchors();
+      const i = list.findIndex((a) => cardOf(a) === current);
+      const next = list[(i + dir + list.length) % list.length];
+      if (next) {
+        open(next, { push: false, dir });
+        cardOf(next).scrollIntoView({ block: 'nearest' });
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[data-lightbox]');
+      if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      open(a);
+    });
+    // Clicks on the dark scrim (outside the panel and arrows) close the viewer.
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) closeUI(); });
+    $('[data-lb-close]').addEventListener('click', closeUI);
+    dialog.querySelectorAll('[data-lb-prev]').forEach((b) => b.addEventListener('click', () => step(-1)));
+    dialog.querySelectorAll('[data-lb-next]').forEach((b) => b.addEventListener('click', () => step(1)));
+    dialog.addEventListener('cancel', (e) => { e.preventDefault(); closeUI(); });
+    dialog.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
+    });
+
+    window.addEventListener('popstate', () => {
+      const m = location.hash.match(/^#s-([a-f0-9]+)$/);
+      const a = m && anchorById(m[1]);
+      pushed = false;
+      if (a) open(a, { push: false });
+      else close();
+    });
+
+    // Deep link: /hero-sections/#s-abc123 opens that section.
+    const m = location.hash.match(/^#s-([a-f0-9]+)$/);
+    const initial = m && anchorById(m[1]);
+    if (initial) {
+      cardOf(initial).scrollIntoView({ block: 'center' });
+      requestAnimationFrame(() => open(initial, { push: false }));
+    }
+  }
+</script>

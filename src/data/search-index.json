@@ -1,0 +1,1490 @@
+[
+  {
+    "type": "category",
+    "label": "Hero sections",
+    "url": "/hero-sections/",
+    "count": 230
+  },
+  {
+    "type": "category",
+    "label": "Feature sections",
+    "url": "/feature-sections/",
+    "count": 295
+  },
+  {
+    "type": "category",
+    "label": "Value proposition sections",
+    "url": "/value-proposition-sections/",
+    "count": 47
+  },
+  {
+    "type": "category",
+    "label": "How it works sections",
+    "url": "/how-it-works-sections/",
+    "count": 35
+  },
+  {
+    "type": "category",
+    "label": "Use case sections",
+    "url": "/use-case-sections/",
+    "count": 25
+  },
+  {
+    "type": "category",
+    "label": "Testimonial sections",
+    "url": "/testimonial-sections/",
+    "count": 131
+  },
+  {
+    "type": "category",
+    "label": "Logo cloud sections",
+    "url": "/logo-cloud-sections/",
+    "count": 57
+  },
+  {
+    "type": "category",
+    "label": "Stats sections",
+    "url": "/stats-sections/",
+    "count": 22
+  },
+  {
+    "type": "category",
+    "label": "Integration sections",
+    "url": "/integration-sections/",
+    "count": 42
+  },
+  {
+    "type": "category",
+    "label": "Security sections",
+    "url": "/security-sections/",
+    "count": 25
+  },
+  {
+    "type": "category",
+    "label": "Pricing sections",
+    "url": "/pricing-sections/",
+    "count": 85
+  },
+  {
+    "type": "category",
+    "label": "Comparison sections",
+    "url": "/comparison-sections/",
+    "count": 19
+  },
+  {
+    "type": "category",
+    "label": "FAQ sections",
+    "url": "/faq-sections/",
+    "count": 47
+  },
+  {
+    "type": "category",
+    "label": "CTA sections",
+    "url": "/cta-sections/",
+    "count": 120
+  },
+  {
+    "type": "category",
+    "label": "Blog & resources sections",
+    "url": "/blog-sections/",
+    "count": 37
+  },
+  {
+    "type": "category",
+    "label": "Team sections",
+    "url": "/team-sections/",
+    "count": 17
+  },
+  {
+    "type": "category",
+    "label": "Contact sections",
+    "url": "/contact-sections/",
+    "count": 14
+  },
+  {
+    "type": "category",
+    "label": "About & mission sections",
+    "url": "/about-sections/",
+    "count": 28
+  },
+  {
+    "type": "category",
+    "label": "Footer sections",
+    "url": "/footer-sections/",
+    "count": 129
+  },
+  {
+    "type": "style",
+    "label": "Dark mode",
+    "url": "/tags/dark-mode/",
+    "count": 388
+  },
+  {
+    "type": "style",
+    "label": "Gradient",
+    "url": "/tags/gradient/",
+    "count": 93
+  },
+  {
+    "type": "style",
+    "label": "Bold color",
+    "url": "/tags/bold-color/",
+    "count": 79
+  },
+  {
+    "type": "style",
+    "label": "Pastel",
+    "url": "/tags/pastel/",
+    "count": 60
+  },
+  {
+    "type": "style",
+    "label": "Warm neutral",
+    "url": "/tags/warm-neutral/",
+    "count": 129
+  },
+  {
+    "type": "style",
+    "label": "Monochrome",
+    "url": "/tags/monochrome/",
+    "count": 364
+  },
+  {
+    "type": "style",
+    "label": "Bento grid",
+    "url": "/tags/bento/",
+    "count": 66
+  },
+  {
+    "type": "style",
+    "label": "Alternating rows",
+    "url": "/tags/alternating/",
+    "count": 11
+  },
+  {
+    "type": "style",
+    "label": "Tabs",
+    "url": "/tags/tabs/",
+    "count": 142
+  },
+  {
+    "type": "style",
+    "label": "Carousel",
+    "url": "/tags/carousel/",
+    "count": 114
+  },
+  {
+    "type": "style",
+    "label": "Table",
+    "url": "/tags/table/",
+    "count": 22
+  },
+  {
+    "type": "style",
+    "label": "Full-bleed media",
+    "url": "/tags/full-bleed-media/",
+    "count": 37
+  },
+  {
+    "type": "style",
+    "label": "Illustration",
+    "url": "/tags/illustration/",
+    "count": 93
+  },
+  {
+    "type": "style",
+    "label": "3D",
+    "url": "/tags/3d/",
+    "count": 79
+  },
+  {
+    "type": "style",
+    "label": "Photography",
+    "url": "/tags/photography/",
+    "count": 197
+  },
+  {
+    "type": "style",
+    "label": "Code",
+    "url": "/tags/code/",
+    "count": 37
+  },
+  {
+    "type": "style",
+    "label": "Pattern background",
+    "url": "/tags/pattern-background/",
+    "count": 135
+  },
+  {
+    "type": "style",
+    "label": "Minimal",
+    "url": "/tags/minimal/",
+    "count": 390
+  },
+  {
+    "type": "style",
+    "label": "Serif type",
+    "url": "/tags/serif/",
+    "count": 225
+  },
+  {
+    "type": "style",
+    "label": "Oversized type",
+    "url": "/tags/oversized-type/",
+    "count": 73
+  },
+  {
+    "type": "style",
+    "label": "Gradient text",
+    "url": "/tags/gradient-text/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "11x",
+    "url": "/companies/11x/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "21Oaks",
+    "url": "/companies/21oaks/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "8returns",
+    "url": "/companies/8returns/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Acctual",
+    "url": "/companies/acctual/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Ada",
+    "url": "/companies/ada/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Adora",
+    "url": "/companies/adora/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Agiloft",
+    "url": "/companies/agiloft/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Airbook",
+    "url": "/companies/airbook/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Amini",
+    "url": "/companies/amini/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Amplemarket",
+    "url": "/companies/amplemarket/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Antimetal",
+    "url": "/companies/antimetal/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Apollo",
+    "url": "/companies/apollo/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Aria",
+    "url": "/companies/aria/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Arke",
+    "url": "/companies/arke/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Aside",
+    "url": "/companies/aside/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Atlassian",
+    "url": "/companies/atlassian/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Attio",
+    "url": "/companies/attio/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Bayshore",
+    "url": "/companies/bayshore/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Bobbin",
+    "url": "/companies/bobbin/",
+    "count": 13
+  },
+  {
+    "type": "company",
+    "label": "Bounti",
+    "url": "/companies/bounti/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Brikken+Co",
+    "url": "/companies/brikken-co/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Bucket",
+    "url": "/companies/bucket/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Cal.com",
+    "url": "/companies/cal-com/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Calendly",
+    "url": "/companies/calendly/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Canopy",
+    "url": "/companies/canopy/",
+    "count": 29
+  },
+  {
+    "type": "company",
+    "label": "Cap",
+    "url": "/companies/cap/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Cartesia",
+    "url": "/companies/cartesia/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Chargetrip",
+    "url": "/companies/chargetrip/",
+    "count": 12
+  },
+  {
+    "type": "company",
+    "label": "Chatbase",
+    "url": "/companies/chatbase/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Clay",
+    "url": "/companies/clay/",
+    "count": 29
+  },
+  {
+    "type": "company",
+    "label": "Cloudflare Agents",
+    "url": "/companies/cloudflare-agents/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Cluster",
+    "url": "/companies/cluster/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Coframe",
+    "url": "/companies/coframe/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Cohere",
+    "url": "/companies/cohere/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Concourse",
+    "url": "/companies/concourse/",
+    "count": 17
+  },
+  {
+    "type": "company",
+    "label": "Conduit",
+    "url": "/companies/conduit/",
+    "count": 12
+  },
+  {
+    "type": "company",
+    "label": "Contentsquare",
+    "url": "/companies/content-square/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Cortex",
+    "url": "/companies/cortex/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Cotool",
+    "url": "/companies/cotool/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Cowlendar",
+    "url": "/companies/cowlendar/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Crescent Cares",
+    "url": "/companies/crescent-cares/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Crisp",
+    "url": "/companies/crisp/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Dan Mall",
+    "url": "/companies/dan-mall/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Daniel Sun",
+    "url": "/companies/daniel-sun/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Dash0",
+    "url": "/companies/dash0/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Daybridge",
+    "url": "/companies/daybridge/",
+    "count": 12
+  },
+  {
+    "type": "company",
+    "label": "Decimals",
+    "url": "/companies/decimals/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Delphi",
+    "url": "/companies/delphi/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "DevRev",
+    "url": "/companies/devrev/",
+    "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Ditto",
+    "url": "/companies/ditto/",
+    "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Dovetail",
+    "url": "/companies/dovetail/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "DUNA",
+    "url": "/companies/duna/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "EchoFi",
+    "url": "/companies/echofi/",
+    "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Endex",
+    "url": "/companies/endex/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Equals",
+    "url": "/companies/equals/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Evervault",
+    "url": "/companies/evervault/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Exante",
+    "url": "/companies/exante/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Fellow",
+    "url": "/companies/fellow/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Fernand",
+    "url": "/companies/fernand/",
+    "count": 15
+  },
+  {
+    "type": "company",
+    "label": "Ferndesk",
+    "url": "/companies/ferndesk/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Figr",
+    "url": "/companies/figr/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Fin",
+    "url": "/companies/fin/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Finsepa",
+    "url": "/companies/finsepa/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Finta",
+    "url": "/companies/finta/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Firecrawl",
+    "url": "/companies/firecrawl/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Flank",
+    "url": "/companies/flank/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Flect",
+    "url": "/companies/flect/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Flitedeck",
+    "url": "/companies/flitedeck/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "folk",
+    "url": "/companies/folk/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Framer",
+    "url": "/companies/framer/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Frankli",
+    "url": "/companies/frankli/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Gocertify",
+    "url": "/companies/gocertify/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Godmode",
+    "url": "/companies/godmode/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Goodside",
+    "url": "/companies/goodside/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Gradient Labs",
+    "url": "/companies/gradient-labs/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Greenhouse",
+    "url": "/companies/greenhouse/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Griffin",
+    "url": "/companies/griffin/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "groundcover",
+    "url": "/companies/groundcover/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Gumloop",
+    "url": "/companies/gumloop/",
+    "count": 12
+  },
+  {
+    "type": "company",
+    "label": "Harmonic",
+    "url": "/companies/harmonic/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Harvest",
+    "url": "/companies/getharvest/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Harvey",
+    "url": "/companies/harvey/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Headroom",
+    "url": "/companies/headroom/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Hellotime",
+    "url": "/companies/hellotime/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Highnote",
+    "url": "/companies/highnote/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Howseen AI",
+    "url": "/companies/howseen-ai/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Humblytics",
+    "url": "/companies/humblytics/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Hunar",
+    "url": "/companies/hunar/",
+    "count": 19
+  },
+  {
+    "type": "company",
+    "label": "Hyperline",
+    "url": "/companies/hyperline/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "incident.io",
+    "url": "/companies/incident/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Interfere",
+    "url": "/companies/interfere/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Invertase",
+    "url": "/companies/invertase/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Jasper",
+    "url": "/companies/jasper/",
+    "count": 20
+  },
+  {
+    "type": "company",
+    "label": "Jitter",
+    "url": "/companies/jitter/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Koyeb",
+    "url": "/companies/koyeb/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Laravel",
+    "url": "/companies/laravel/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Laravel Cloud",
+    "url": "/companies/laravel-cloud/",
+    "count": 18
+  },
+  {
+    "type": "company",
+    "label": "Laravel Forge",
+    "url": "/companies/laravel-forge/",
+    "count": 13
+  },
+  {
+    "type": "company",
+    "label": "Laravel Nightwatch",
+    "url": "/companies/laravel-nightwatch/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Latitude.sh",
+    "url": "/companies/latitude/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Lattice",
+    "url": "/companies/lattice/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Leedlime",
+    "url": "/companies/leedlime/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Legora",
+    "url": "/companies/legora/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Lightdash",
+    "url": "/companies/lightdash/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Lightning Proxies",
+    "url": "/companies/lightning-proxies/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Lindy",
+    "url": "/companies/lindy/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Linear",
+    "url": "/companies/linear/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Linearity",
+    "url": "/companies/linearity/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Liveblocks",
+    "url": "/companies/liveblocks/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "LocalCan",
+    "url": "/companies/localcan/",
+    "count": 12
+  },
+  {
+    "type": "company",
+    "label": "Localyzer",
+    "url": "/companies/localyzer/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Loop",
+    "url": "/companies/loop/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Lynq",
+    "url": "/companies/lynq/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Maybe",
+    "url": "/companies/maybe/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Menkind",
+    "url": "/companies/menkind/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Mintlify",
+    "url": "/companies/mintlify/",
+    "count": 16
+  },
+  {
+    "type": "company",
+    "label": "Missive",
+    "url": "/companies/missive/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Miter",
+    "url": "/companies/miter/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Modulify",
+    "url": "/companies/modulify/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Monica",
+    "url": "/companies/monica/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "n8n",
+    "url": "/companies/n8n/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "NEAR",
+    "url": "/companies/near/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Neon",
+    "url": "/companies/neon/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "NickAI",
+    "url": "/companies/nickai/",
+    "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Nominal",
+    "url": "/companies/nominal/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Nory",
+    "url": "/companies/nory/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Noxus",
+    "url": "/companies/noxus/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Orbi",
+    "url": "/companies/orbi/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Orchestra",
+    "url": "/companies/orchestra/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Origin",
+    "url": "/companies/origin/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Orshot",
+    "url": "/companies/orshot/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Outerbase",
+    "url": "/companies/outerbase/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Outseta",
+    "url": "/companies/outseta/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Outtake",
+    "url": "/companies/outtake/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Palette",
+    "url": "/companies/palette/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Pallet",
+    "url": "/companies/pallet/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Paraform",
+    "url": "/companies/paraform/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Parker",
+    "url": "/companies/parker/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Phidata",
+    "url": "/companies/phidata/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Plaid",
+    "url": "/companies/plaid/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Plain",
+    "url": "/companies/plain/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Plasma",
+    "url": "/companies/plasma/",
+    "count": 36
+  },
+  {
+    "type": "company",
+    "label": "Pleo",
+    "url": "/companies/pleo/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Ploy",
+    "url": "/companies/ploy/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Plumb",
+    "url": "/companies/plumb/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Podium Automation",
+    "url": "/companies/podium-automation/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Pogo",
+    "url": "/companies/pogo/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Port",
+    "url": "/companies/port/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Portal",
+    "url": "/companies/portal/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Primer",
+    "url": "/companies/primer/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Privy",
+    "url": "/companies/privy/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Profound",
+    "url": "/companies/profound/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Promptwatch",
+    "url": "/companies/promptwatch/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "QuickLnk",
+    "url": "/companies/quicklnk/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Rally",
+    "url": "/companies/rally/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Raneo",
+    "url": "/companies/raneo/",
+    "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Raycast",
+    "url": "/companies/raycast/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Rayon",
+    "url": "/companies/rayon/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Realm",
+    "url": "/companies/realm/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Relume",
+    "url": "/companies/relume/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Response",
+    "url": "/companies/response/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Rezolv",
+    "url": "/companies/rezolv/",
+    "count": 12
+  },
+  {
+    "type": "company",
+    "label": "Robin Humphreys",
+    "url": "/companies/robin-humphreys/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Rogo",
+    "url": "/companies/rogo/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Routable",
+    "url": "/companies/routable/",
+    "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Rubus",
+    "url": "/companies/rubus/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Rulebase",
+    "url": "/companies/rulebase/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Ruul",
+    "url": "/companies/ruul/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Saki",
+    "url": "/companies/saki/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Sandbar",
+    "url": "/companies/sandbar/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Sanity",
+    "url": "/companies/sanity/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Seamless.AI",
+    "url": "/companies/seamless/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Secoda",
+    "url": "/companies/secoda/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Sevalla",
+    "url": "/companies/sevalla/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Shelby",
+    "url": "/companies/shelby/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Smallest.ai",
+    "url": "/companies/smallest-ai/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Snackish",
+    "url": "/companies/snackish/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Spara",
+    "url": "/companies/spara/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Spellbook",
+    "url": "/companies/spellbook/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Steel",
+    "url": "/companies/steel-dev/",
+    "count": 6
+  },
+  {
+    "type": "company",
+    "label": "Submagic",
+    "url": "/companies/submagic/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Synaptrix",
+    "url": "/companies/synaptrix/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Synthesia",
+    "url": "/companies/synthesia/",
+    "count": 13
+  },
+  {
+    "type": "company",
+    "label": "Tabs",
+    "url": "/companies/tabs/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Teton",
+    "url": "/companies/teton/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "time.fyi",
+    "url": "/companies/time-fyi/",
+    "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Twin",
+    "url": "/companies/twin/",
+    "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Typebot",
+    "url": "/companies/typebot/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "United Carriers",
+    "url": "/companies/united-carriers/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Unsiloed",
+    "url": "/companies/unsiloed/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Valley",
+    "url": "/companies/valley/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Vapi",
+    "url": "/companies/vapi/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Vectara",
+    "url": "/companies/vectara/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Vercel",
+    "url": "/companies/vercel/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Vestris",
+    "url": "/companies/vestris/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "VisionAI",
+    "url": "/companies/visionai/",
+    "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Vizcom",
+    "url": "/companies/vizcom/",
+    "count": 3
+  },
+  {
+    "type": "company",
+    "label": "Voiceflow",
+    "url": "/companies/voiceflow/",
+    "count": 17
+  },
+  {
+    "type": "company",
+    "label": "Walrus",
+    "url": "/companies/walrus/",
+    "count": 10
+  },
+  {
+    "type": "company",
+    "label": "Watts",
+    "url": "/companies/watts/",
+    "count": 8
+  },
+  {
+    "type": "company",
+    "label": "Wavelength",
+    "url": "/companies/wavelength/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Weave",
+    "url": "/companies/weave/",
+    "count": 9
+  },
+  {
+    "type": "company",
+    "label": "Whalesync",
+    "url": "/companies/whalesync/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Wiz",
+    "url": "/companies/wiz/",
+    "count": 2
+  },
+  {
+    "type": "company",
+    "label": "Wiza",
+    "url": "/companies/wiza/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "WorkOS",
+    "url": "/companies/workos/",
+    "count": 7
+  },
+  {
+    "type": "company",
+    "label": "Zamp",
+    "url": "/companies/zamp/",
+    "count": 16
+  },
+  {
+    "type": "company",
+    "label": "Zamp AI",
+    "url": "/companies/zamp-ai/",
+    "count": 5
+  }
+]

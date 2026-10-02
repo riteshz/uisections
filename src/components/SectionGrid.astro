@@ -1,0 +1,100 @@
+---
+import SectionCard from './SectionCard.astro';
+import type { Section } from '../lib/data';
+
+interface Props {
+  items: Section[];
+  id?: string;
+  /** How many cards render eagerly (first rows). */
+  eagerCount?: number;
+  /** Cards that get fetchpriority=high (0 when the grid is below the fold). */
+  priorityCount?: number;
+  showCompany?: boolean;
+  showCategory?: boolean;
+  label?: string;
+}
+
+const { items, id, eagerCount = 6, priorityCount = 2, showCompany = true, showCategory = true, label } = Astro.props;
+---
+<ol class="section-grid" id={id} data-grid role="list" aria-label={label}>
+  {items.map((s, i) => (
+    <SectionCard s={s} index={i} eager={i < eagerCount} priority={i < priorityCount} showCompany={showCompany} showCategory={showCategory} />
+  ))}
+</ol>
+<p class="grid-empty t-meta" data-grid-empty hidden>No sections match this filter yet.</p>
+
+<style is:global>
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 36px 20px;
+  }
+  @media (min-width: 1100px) { .section-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 24px; } }
+
+  .card { position: relative; min-width: 0; }
+  .card:not(.eager) { content-visibility: auto; contain-intrinsic-size: auto 320px; }
+  .card[hidden] { display: none; }
+
+  .card .thumb {
+    display: block;
+    aspect-ratio: 16 / 10;
+    border-radius: 14px;
+    background: var(--shot-bg, var(--wash));
+    transition: box-shadow 0.3s var(--ease-out), translate 0.3s var(--ease-out);
+  }
+  .card .thumb img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: translate 0.3s var(--ease-out);
+  }
+  .card .thumb img.cover { object-fit: cover; object-position: top center; }
+  .card .thumb img.contain { object-fit: contain; object-position: center; }
+
+  .card .veil {
+    position: absolute;
+    inset: auto 12px 12px 12px;
+    display: flex;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s, transform 0.26s var(--ease-spring);
+    pointer-events: none;
+  }
+  .card .pill {
+    max-width: 100%;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    border-radius: 999px;
+    background: var(--glass);
+    -webkit-backdrop-filter: blur(10px) saturate(150%);
+    backdrop-filter: blur(10px) saturate(150%);
+    box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.08), 0 4px 14px rgb(0 0 0 / 0.08);
+    font-size: 0.8125rem;
+    font-weight: 550;
+    color: var(--ink);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @media (hover: hover) {
+    .card .thumb:hover { box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.06), 0 14px 32px -12px rgb(var(--ink-rgb) / 0.22); translate: 0 -4px; }
+    .card .thumb:hover .veil { opacity: 1; transform: none; }
+  }
+  .card .thumb:active { translate: 0 -2px; scale: 0.995; }
+
+  .card .meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; min-height: 24px; }
+  .card .co { min-width: 0; font-size: 0.9375rem; font-weight: 560; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card a.co:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+  /* Entrances: first rows settle in (transform only, never invisible); the rest rise as they scroll in. */
+  @media (prefers-reduced-motion: no-preference) {
+    .card.eager { animation: rise-solid 0.7s var(--ease-out-expo) both; animation-delay: calc(0.12s + var(--i) * 60ms); }
+    @supports (animation-timeline: view()) {
+      .card:not(.eager) { animation: wall-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    }
+  }
+  @keyframes rise-solid { from { transform: translateY(14px); } }
+  @keyframes wall-rise { from { opacity: 0; transform: translateY(18px); } }
+</style>

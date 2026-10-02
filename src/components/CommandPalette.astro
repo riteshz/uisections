@@ -1,0 +1,310 @@
+---
+import Icon from './Icon.astro';
+---
+<dialog class="pal" data-palette aria-label="Search UI Sections">
+  <div class="pal-box">
+    <div class="pal-input">
+      <Icon name="search" size={20} />
+      <input
+        type="search"
+        placeholder="Search section types, styles, companies…"
+        autocomplete="off"
+        spellcheck="false"
+        data-pal-input
+        role="combobox"
+        aria-label="Search"
+        aria-controls="pal-results"
+        aria-autocomplete="list"
+        aria-expanded="true"
+      />
+      <button type="button" class="pal-esc" data-pal-close aria-label="Close search">Esc</button>
+    </div>
+    <div class="pal-scroll">
+      <ul class="pal-results" id="pal-results" role="listbox" aria-label="Results" data-pal-results></ul>
+    </div>
+    <div class="pal-foot">
+      <span class="hints"><kbd class="kbd">↑</kbd><kbd class="kbd">↓</kbd> Navigate <kbd class="kbd">↵</kbd> Open</span>
+      <span class="t-caption tabular" data-pal-count aria-live="polite"></span>
+    </div>
+  </div>
+  <template data-pal-icons>
+    <span data-icon="category"><Icon name="grid" size={16} /></span>
+    <span data-icon="style"><Icon name="sparkle" size={16} /></span>
+    <span data-icon="company"><Icon name="building" size={16} /></span>
+  </template>
+</dialog>
+
+<style is:global>
+  .pal {
+    width: min(660px, calc(100vw - 24px));
+    max-height: min(580px, calc(100dvh - 96px));
+    margin: max(72px, 12vh) auto auto;
+    padding: 0;
+    border: 0;
+    border-radius: 22px;
+    background: #fff;
+    color: var(--ink);
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 0.06), 0 32px 80px -24px rgb(0 0 0 / 0.45);
+    overflow: hidden;
+  }
+  .pal::backdrop {
+    background: rgb(12 12 14 / 0.5);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+  }
+  .pal[open] { animation: pal-in 0.22s var(--ease-out-expo) both; }
+  .pal[open]::backdrop { animation: pal-fade 0.22s var(--ease-out) both; }
+  @keyframes pal-in { from { opacity: 0; transform: translateY(-8px) scale(0.97); } }
+  @keyframes pal-fade { from { opacity: 0; } }
+
+  .pal-box { display: flex; flex-direction: column; max-height: inherit; }
+  .pal-input {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 64px;
+    padding: 0 14px 0 20px;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-4);
+  }
+  .pal-input input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font: inherit;
+    font-size: 1.0625rem;
+    letter-spacing: -0.005em;
+    color: var(--ink);
+  }
+  .pal-input input::placeholder { color: var(--ink-4); }
+  .pal-input input:focus-visible { box-shadow: none; }
+  .pal-input input::-webkit-search-cancel-button { display: none; }
+  .pal-esc {
+    height: 26px;
+    padding: 0 8px;
+    border-radius: 7px;
+    background: var(--wash);
+    font-size: 0.75rem;
+    font-weight: 550;
+    color: var(--ink-3);
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .pal-esc:hover { background: var(--wash-hover); }
+
+  .pal-scroll { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; }
+  .pal-results { padding: 6px 8px 10px; }
+  .pal-group {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 12px 12px 6px;
+    background: #fff;
+    font-size: 0.75rem;
+    font-weight: 560;
+    letter-spacing: 0.02em;
+    color: var(--ink-4);
+  }
+  .pal-item a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 12px 0 8px;
+    border-radius: 12px;
+    color: var(--ink-2);
+  }
+  .pal-ico {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+    background: var(--wash);
+    color: var(--ink-3);
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .pal-label { flex: 1; min-width: 0; font-size: 0.9375rem; font-weight: 530; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pal-label mark { background: none; color: var(--ink); font-weight: 650; }
+  .pal-count { font-size: 0.8125rem; color: var(--ink-4); font-variant-numeric: tabular-nums; }
+  .pal-item .pal-enter { display: none; }
+  .pal-item[aria-selected='true'] a { background: var(--wash); color: var(--ink); }
+  .pal-item[aria-selected='true'] .pal-ico { background: var(--ink); color: #fff; }
+  .pal-item[aria-selected='true'] .pal-enter { display: inline-grid; }
+
+  .pal-empty { display: grid; justify-items: center; gap: 6px; padding: 40px 16px 44px; text-align: center; }
+  .pal-empty strong { font-size: 0.9375rem; font-weight: 600; }
+  .pal-empty span { font-size: 0.875rem; color: var(--ink-4); }
+
+  .pal-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 16px;
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink-4);
+    font-size: 0.75rem;
+  }
+  .pal-foot .hints { display: inline-flex; align-items: center; gap: 4px; }
+  .pal-foot .hints .kbd:nth-of-type(3) { margin-left: 10px; }
+
+  @media (max-width: 640px) {
+    .pal { width: 100vw; max-width: none; max-height: 100dvh; height: 100dvh; margin: 0; border-radius: 0; }
+    .pal[open] { animation-name: pal-fade; }
+    .pal-foot .hints { display: none; }
+  }
+</style>
+
+<script>
+  type Entry = { type: 'category' | 'style' | 'company'; label: string; url: string; count: number };
+  const dialog = document.querySelector<HTMLDialogElement>('dialog[data-palette]')!;
+  if (dialog) {
+    const input = dialog.querySelector<HTMLInputElement>('[data-pal-input]')!;
+    const results = dialog.querySelector<HTMLUListElement>('[data-pal-results]')!;
+    const countEl = dialog.querySelector<HTMLElement>('[data-pal-count]')!;
+    const icons = dialog.querySelector<HTMLTemplateElement>('[data-pal-icons]')!.content;
+    let index: Entry[] | null = null;
+    let active = 0;
+    const GROUPS: [Entry['type'], string, number][] = [
+      ['category', 'Section types', 8],
+      ['style', 'Styles', 6],
+      ['company', 'Companies', 5],
+    ];
+    const NOUN: Record<Entry['type'], string> = { category: 'sections', style: 'sections', company: 'sections' };
+
+    const load = async () => (index ??= (await import('../data/search-index.json')).default as Entry[]);
+
+    const score = (label: string, q: string) => {
+      const l = label.toLowerCase();
+      if (!q) return 1;
+      if (l === q) return 100;
+      if (l.startsWith(q)) return 60;
+      if (l.split(/[\s&.-]+/).some((w) => w.startsWith(q))) return 40;
+      return l.includes(q) ? 20 : 0;
+    };
+
+    /** Label with the matched substring wrapped in <mark>, built without innerHTML. */
+    const labelEl = (label: string, q: string) => {
+      const span = document.createElement('span');
+      span.className = 'pal-label';
+      const i = q ? label.toLowerCase().indexOf(q) : -1;
+      if (i < 0) span.textContent = label;
+      else {
+        const mark = document.createElement('mark');
+        mark.textContent = label.slice(i, i + q.length);
+        span.append(label.slice(0, i), mark, label.slice(i + q.length));
+      }
+      return span;
+    };
+
+    const render = () => {
+      const q = input.value.trim().toLowerCase();
+      const list = index ?? [];
+      results.replaceChildren();
+      let n = 0;
+      const groups = GROUPS.map(([type, title, limit]) => ({
+        title,
+        hits: list
+          .filter((e) => e.type === type)
+          .map((e) => ({ e, s: score(e.label, q) }))
+          .filter((x) => x.s > 0)
+          .sort((a, b) => b.s - a.s || b.e.count - a.e.count)
+          .slice(0, q ? 8 : limit),
+      }));
+      // With a query, the group holding the best match comes first.
+      if (q) groups.sort((a, b) => (b.hits[0]?.s ?? 0) - (a.hits[0]?.s ?? 0));
+      for (const { title, hits } of groups) {
+        if (!hits.length) continue;
+        const head = document.createElement('li');
+        head.className = 'pal-group';
+        head.setAttribute('role', 'presentation');
+        head.textContent = q ? title : `Popular ${title.toLowerCase()}`;
+        results.append(head);
+        for (const { e } of hits) {
+          const li = document.createElement('li');
+          li.className = 'pal-item';
+          li.id = `pal-${n}`;
+          li.setAttribute('role', 'option');
+          li.dataset.n = String(n++);
+          const a = document.createElement('a');
+          a.href = e.url;
+          a.tabIndex = -1;
+          const ico = document.createElement('span');
+          ico.className = 'pal-ico';
+          ico.append(icons.querySelector(`[data-icon="${e.type}"]`)!.firstElementChild!.cloneNode(true));
+          const count = document.createElement('span');
+          count.className = 'pal-count';
+          count.textContent = `${e.count} ${NOUN[e.type]}`;
+          const enter = document.createElement('kbd');
+          enter.className = 'kbd pal-enter';
+          enter.textContent = '↵';
+          a.append(ico, labelEl(e.label, q), count, enter);
+          li.append(a);
+          results.append(li);
+        }
+      }
+      if (!n) {
+        const li = document.createElement('li');
+        li.className = 'pal-empty';
+        const strong = document.createElement('strong');
+        strong.textContent = `No results for “${input.value.trim()}”`;
+        const hint = document.createElement('span');
+        hint.textContent = 'Try a section type like “pricing”, a style like “bento”, or a company name.';
+        li.append(strong, hint);
+        results.append(li);
+      }
+      countEl.textContent = q ? `${n} ${n === 1 ? 'result' : 'results'}` : `${list.length} pages to search`;
+      active = 0;
+      highlight();
+    };
+
+    const items = () => [...results.querySelectorAll<HTMLElement>('.pal-item')];
+    const highlight = () => {
+      items().forEach((el, i) => el.setAttribute('aria-selected', String(i === active)));
+      const el = items()[active];
+      input.setAttribute('aria-activedescendant', el?.id ?? '');
+      el?.scrollIntoView({ block: 'nearest' });
+    };
+
+    const openPalette = async () => {
+      if (dialog.open) return;
+      dialog.showModal();
+      input.value = '';
+      await load();
+      render();
+      input.focus();
+    };
+
+    input.addEventListener('input', render);
+    input.addEventListener('keydown', (e) => {
+      const list = items();
+      if (e.key === 'ArrowDown') { e.preventDefault(); active = Math.min(list.length - 1, active + 1); highlight(); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); active = Math.max(0, active - 1); highlight(); }
+      else if (e.key === 'Enter') { const a = list[active]?.querySelector('a'); if (a) { e.preventDefault(); location.href = a.href; } }
+    });
+    results.addEventListener('mousemove', (e) => {
+      const li = (e.target as HTMLElement).closest<HTMLElement>('.pal-item');
+      if (li && Number(li.dataset.n) !== active) { active = Number(li.dataset.n); highlight(); }
+    });
+    dialog.querySelector('[data-pal-close]')!.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+
+    document.addEventListener('click', (e) => {
+      if ((e.target as HTMLElement).closest('[data-open-palette]')) { e.preventDefault(); openPalette(); }
+    });
+    document.addEventListener('keydown', (e) => {
+      const typing = (e.target as HTMLElement).closest('input, textarea, [contenteditable]');
+      if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !typing && !document.querySelector('dialog[open]'))) {
+        e.preventDefault();
+        if (dialog.open) dialog.close();
+        else openPalette();
+      }
+    });
+  }
+</script>

@@ -1,0 +1,93 @@
+---
+/**
+ * Client-side filter chips for a SectionGrid. State lives in a query param
+ * (replaceState), so the canonical URL never changes.
+ */
+interface Option { id: string; label: string; count: number }
+interface Props {
+  options: Option[];
+  total: number;
+  /** Which card data attribute to match: tags (space separated) or cat. */
+  attr: 'tags' | 'cat';
+  param: string;
+  target: string;
+  noun?: string;
+  label: string;
+}
+const { options, total, attr, param, target, noun = 'sections', label } = Astro.props;
+---
+<div class="filter-bar" data-filter data-attr={attr} data-param={param} data-target={target} data-noun={noun}>
+  <div class="chip-row" role="group" aria-label={label} data-chip-row>
+    <button type="button" class="chip" data-value="" aria-pressed="true">All <span class="count">{total}</span></button>
+    {options.map((o) => (
+      <button type="button" class="chip" data-value={o.id} aria-pressed="false">{o.label} <span class="count">{o.count}</span></button>
+    ))}
+  </div>
+  <p class="status t-meta tabular" data-status aria-live="polite">{total} {noun}</p>
+</div>
+
+<style>
+  .filter-bar { display: flex; align-items: center; gap: 16px; justify-content: space-between; }
+  .chip-row { flex: 1; min-width: 0; }
+  .status { flex: none; white-space: nowrap; }
+  @media (max-width: 640px) {
+    .filter-bar { flex-direction: column; align-items: stretch; gap: 10px; }
+    .status { order: -1; }
+  }
+</style>
+
+<script>
+  function setupChipRow(row: HTMLElement) {
+    const update = () => {
+      const max = row.scrollWidth - row.clientWidth;
+      const x = row.scrollLeft;
+      row.dataset.over = max <= 2 ? '' : x <= 2 ? 'end' : x >= max - 2 ? 'start' : 'both';
+    };
+    row.addEventListener('scroll', () => requestAnimationFrame(update), { passive: true });
+    new ResizeObserver(update).observe(row);
+    update();
+  }
+
+  for (const bar of document.querySelectorAll<HTMLElement>('[data-filter]')) {
+    const grid = document.getElementById(bar.dataset.target!);
+    if (!grid) continue;
+    const attr = bar.dataset.attr === 'cat' ? 'cat' : 'tags';
+    const param = bar.dataset.param!;
+    const noun = bar.dataset.noun ?? 'sections';
+    const status = bar.querySelector<HTMLElement>('[data-status]')!;
+    const chips = [...bar.querySelectorAll<HTMLButtonElement>('button[data-value]')];
+    const cards = [...grid.querySelectorAll<HTMLElement>(':scope > li')];
+    const empty = grid.nextElementSibling?.matches('[data-grid-empty]') ? (grid.nextElementSibling as HTMLElement) : null;
+    const row = bar.querySelector<HTMLElement>('[data-chip-row]');
+    if (row) setupChipRow(row);
+
+    const apply = (value: string, push = true) => {
+      let shown = 0;
+      for (const card of cards) {
+        const match = !value || (attr === 'cat' ? card.dataset.cat === value : (card.dataset.tags ?? '').split(' ').includes(value));
+        card.hidden = !match;
+        if (match) shown++;
+      }
+      for (const chip of chips) chip.setAttribute('aria-pressed', String(chip.dataset.value === value));
+      status.textContent = `${shown} ${noun}`;
+      if (empty) empty.hidden = shown > 0;
+      if (push) {
+        const url = new URL(location.href);
+        if (value) url.searchParams.set(param, value);
+        else url.searchParams.delete(param);
+        history.replaceState(history.state, '', url);
+      }
+      grid.dispatchEvent(new CustomEvent('grid:filtered', { bubbles: true }));
+    };
+
+    bar.addEventListener('click', (e) => {
+      const chip = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-value]');
+      if (!chip) return;
+      apply(chip.dataset.value!);
+      chip.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
+    });
+
+    const initial = new URL(location.href).searchParams.get(param);
+    if (initial && chips.some((c) => c.dataset.value === initial)) apply(initial, false);
+  }
+</script>

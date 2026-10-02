@@ -1,0 +1,22 @@
+---
+import type { Company } from '../lib/data';
+import { getSection } from '../lib/data';
+import { companyUrl, shotUrl } from '../lib/urls';
+interface Props { c: Company; eager?: boolean }
+const { c, eager = false } = Astro.props;
+const s = getSection(c.cover);
+---
+<a class="co-card" href={companyUrl(c.slug)}>
+  <span class="thumb shot" style={`--shot-bg:${s.bg}`}>
+    <img src={shotUrl(s.files['480'])} srcset={`${shotUrl(s.files['480'])} ${s.thumb.w}w, ${shotUrl(s.files['960'])} ${s.thumb2x.w}w`} sizes="(min-width: 1100px) 300px, (min-width: 640px) 45vw, 90vw" width={s.thumb.w} height={s.thumb.h} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  </span>
+  <span class="row"><span class="name">{c.name}</span><span class="t-meta tabular">{c.count} {c.count === 1 ? 'section' : 'sections'}</span></span>
+</a>
+<style>
+  .co-card { display: grid; gap: 12px; min-width: 0; }
+  .thumb { display: block; aspect-ratio: 16 / 10; border-radius: 14px; background: var(--shot-bg); transition: translate 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out); }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .row { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .name { font-weight: 570; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  @media (hover: hover) { .co-card:hover .thumb { translate: 0 -4px; box-shadow: 0 14px 32px -12px rgb(var(--ink-rgb) / 0.22); } }
+</style>

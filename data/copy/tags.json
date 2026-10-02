@@ -1,0 +1,486 @@
+{
+  "dark-mode": {
+    "intro": "Product screenshots glow against a dark field, which is much of the appeal of dark mode website design. Near-black, charcoal, or deep navy backgrounds suit developer tools and interface-heavy products, and accent colors read louder on them. Small mistakes show more, though. Muted gray text turns murky, shadows disappear, and long paragraphs of light-on-dark copy tire the eye quickly.",
+    "tipsTitle": "How to design a dark mode section",
+    "tips": [
+      {
+        "title": "Skip pure black backgrounds",
+        "body": "Use a near-black such as #0B0B0F or a deep navy instead of #000. Pure black makes white text bloom and leaves no room for depth. A slightly lifted base lets you layer cards one or two steps lighter to show hierarchy."
+      },
+      {
+        "title": "Test contrast on every text level",
+        "body": "Body copy needs at least 4.5:1 against the background, and muted captions often fall short. Check secondary text, placeholders, and disabled states, not just headlines. Drop the weight slightly for white text, since light type on dark looks heavier than it is."
+      },
+      {
+        "title": "Separate surfaces with borders, not shadows",
+        "body": "Shadows barely register on dark backgrounds. Define cards and panels with a 1px border in low-opacity white, or a fill a few shades lighter than the page. Use the same treatment across the section so the grid reads as one system."
+      },
+      {
+        "title": "Desaturate accents for dark backgrounds",
+        "body": "Saturated colors vibrate against near-black and look harsher than they do on white. Lighten and slightly desaturate brand accents for the dark theme, and stick to one or two of them. Test links and focus rings too, since a dark blue that works on white often disappears here."
+      }
+    ]
+  },
+  "gradient": {
+    "intro": "Color blends, meshes, auroras, and soft glows can fill a section background with mood and depth without commissioned photography. That makes gradient website design a common choice for launch pages and product openers. Generic results come easily. Versions that hold up tie the colors to the brand, keep text on calm areas, and let the gradient sit behind the content.",
+    "tipsTitle": "How to use gradient backgrounds well",
+    "tips": [
+      {
+        "title": "Place text where the blend is calm",
+        "body": "Put headlines and body copy where the gradient is lightest or most uniform. If the blend passes through mid-tones behind text, add a subtle scrim or reduce saturation in that zone. Check contrast at the worst point the text crosses, not the average."
+      },
+      {
+        "title": "Build palettes from brand colors",
+        "body": "Start from two or three colors already in your brand and blend between hues that sit near each other on the color wheel. Complementary pairs pass through a muddy gray in the middle, so add an intermediate stop or interpolate in OKLCH to keep the transition clean."
+      },
+      {
+        "title": "Add grain to prevent banding",
+        "body": "Smooth gradients often show visible steps on large screens and in compressed screenshots. A light noise overlay at two to four percent opacity hides banding and adds texture. Use a small tiled image or an SVG filter so it does not bloat page weight."
+      },
+      {
+        "title": "Render with CSS, not huge images",
+        "body": "Use layered radial and linear gradients in CSS instead of full-width PNGs. They scale to any viewport, cost almost nothing to load, and are easy to tweak. If you animate the glow, keep the motion slow and respect reduced-motion preferences."
+      }
+    ]
+  },
+  "bold-color": {
+    "intro": "Bright blue, orange, lime, or deep green filling a whole panel is hard to ignore, and that is the point. Saturated, clearly non-neutral backgrounds define bold color website design. They make a brand recognizable and give a section presence on a long page. It takes planning. Strong color can overpower product imagery, strain readability, and clash with neighboring sections unless the palette is set page-wide.",
+    "tipsTitle": "How to design with bold color backgrounds",
+    "tips": [
+      {
+        "title": "Pick text colors by contrast, not habit",
+        "body": "White text is not always right on saturated backgrounds. Lime, yellow, and orange usually need near-black type to pass 4.5:1. Test every pairing, including buttons and links, and nudge the background darker or lighter if needed to keep both readability and the brand feel."
+      },
+      {
+        "title": "Pace color across the page",
+        "body": "Use bold sections as punctuation, not wallpaper. Alternate them with neutral sections so each one marks a shift, such as a key feature or the final call to action. Two saturated sections back to back usually blur together and lose their impact."
+      },
+      {
+        "title": "Invert buttons on colored panels",
+        "body": "A button in the same hue as the background disappears. Use an inverted button with a white or black fill, or a secondary brand color with clear contrast. Make sure hover and focus states are visible against the colored panel, not just on white."
+      },
+      {
+        "title": "Tone down imagery inside colored panels",
+        "body": "Colorful screenshots and photos can clash with a saturated background. Frame them in a neutral card or border, or use duotone and grayscale treatments that pick up the panel color. This keeps the section feeling like one composition instead of competing blocks."
+      }
+    ]
+  },
+  "pastel": {
+    "intro": "Soft tints change how a product feels before anyone reads a word. In pastel website design, light mint, lavender, peach, baby blue, or pale yellow backgrounds and cards set a friendly tone for consumer apps, wellness products, and learning tools. Contrast is the weak spot. Pale fills beside pale text wash out quickly, and a page with too many tints stops looking calm and starts looking unfocused.",
+    "tipsTitle": "How to build a pastel color palette",
+    "tips": [
+      {
+        "title": "Use dark text, not mid-tones",
+        "body": "Pastel backgrounds need near-black or deeply tinted text to stay legible. Avoid matching text to the tint, such as purple type on lavender, unless it is dark enough to pass 4.5:1. Save mid-tone color for icons and decorative details."
+      },
+      {
+        "title": "Assign each tint a meaning",
+        "body": "If cards use different pastel colors, tie each color to a category, feature, or product area and keep it consistent across the page. Random tints look playful at first but give people nothing to learn. Three or four tints is usually plenty."
+      },
+      {
+        "title": "Anchor actions with one stronger color",
+        "body": "An all-pastel palette lacks a clear focal point. Introduce one more saturated color for primary buttons and key links so actions stand out. Keep it in the same hue family as one of your tints so the palette still feels related."
+      },
+      {
+        "title": "Define edges on light backgrounds",
+        "body": "Pastel cards on white can vanish on washed-out screens. Give fills enough saturation to read as distinct shapes, or add a subtle border one shade darker than the fill. Check the section on a dim laptop screen and in bright daylight."
+      }
+    ]
+  },
+  "warm-neutral": {
+    "intro": "Pure white reads as a screen. Cream, beige, sand, or a warm off-white reads more like paper, and that shift gives warm neutral website design its softer, editorial feel. It fits brands that want to seem thoughtful and human rather than technical. The catch is the rest of the palette. Cool gray text and borders look dirty on a warm background, so every neutral needs a warm tint.",
+    "tipsTitle": "How to design with warm neutral backgrounds",
+    "tips": [
+      {
+        "title": "Warm up every gray in the palette",
+        "body": "Shift text, borders, and dividers toward brown or olive so they sit naturally on cream. A cool blue-gray on beige reads as a mistake. Build a full neutral scale from the background hue, from the lightest card fill to the darkest heading color."
+      },
+      {
+        "title": "Use off-black for headlines",
+        "body": "Pure black on cream feels harsh. A warm off-black, such as a deep brown-charcoal, keeps contrast high while matching the paper tone. Recheck body copy against 4.5:1, since a tinted background is slightly darker than white and mid-gray text can slip below the threshold."
+      },
+      {
+        "title": "Frame screenshots against the background",
+        "body": "UI screenshots usually have white or cool-gray backgrounds that look stark on cream. Place them in a card with a subtle border and soft shadow, or pad them with a slightly lighter warm tone, so the screenshot sits on the page instead of fighting it."
+      },
+      {
+        "title": "Pick earthy accent colors",
+        "body": "Terracotta, olive, deep green, and muted orange pair well with sand and cream, while neon blues and purples can feel disconnected. Choose one accent and test it against the background at button size to confirm it still stands out."
+      }
+    ]
+  },
+  "monochrome": {
+    "intro": "Take color away and everything else has to work harder. With a palette of black, white, and gray and almost no accent, monochrome website design moves attention to typography, layout, and detail. Developer tools, design software, and premium brands use it to look precise. Hierarchy then depends entirely on size, weight, and spacing, and a section that gets those wrong looks flat or unfinished.",
+    "tipsTitle": "How to design a monochrome section",
+    "tips": [
+      {
+        "title": "Build hierarchy with a gray scale",
+        "body": "Define five to seven gray steps and give each a job: headlines, body, secondary text, borders, and surfaces. Use them consistently so the system is learnable. Avoid grays only a few percent apart, because they look like mistakes rather than intent."
+      },
+      {
+        "title": "Make the primary action unmistakable",
+        "body": "Without a brand color, the main button has to stand out through contrast and shape. Use a solid black button on white, or white on black, and give secondary actions an outline. Keep focus rings clearly visible, since a gray outline can blend into the layout."
+      },
+      {
+        "title": "Let typography carry the personality",
+        "body": "In a black-and-white palette, the typeface is the brand. Choose a distinctive font for headlines and use weight and size contrast deliberately. Pair a large, tight headline with smaller, airy body text so the section has rhythm instead of a uniform gray texture."
+      },
+      {
+        "title": "Convert supporting visuals to grayscale",
+        "body": "A full-color photo pulls focus and breaks the effect. Use grayscale photos, line illustrations, and outline icons. For product shots, show the interface in its own dark or light theme so it matches the palette instead of fighting it."
+      }
+    ]
+  },
+  "bento": {
+    "intro": "Borrowed from the compartments of a lunch box, a bento grid packs several tiles of different sizes into one tight layout. Any section with many small ideas to show at once can use bento grid website design, from features to integrations, testimonials, and stats. Balance decides whether it works. When tile content is uneven or nothing marks where to start, the grid turns into clutter.",
+    "tipsTitle": "How to design a bento grid layout",
+    "tips": [
+      {
+        "title": "Size tiles by importance",
+        "body": "Put the most important point in the biggest tile, usually top left or spanning two columns. It sets the entry point and tells people where to start. Smaller tiles then support it with secondary details, integrations, or proof points."
+      },
+      {
+        "title": "Hold each tile to one idea",
+        "body": "Each tile should carry a short headline, one line of copy, and one visual. If a tile needs a paragraph, it deserves its own section. Consistent inner padding and title placement make the grid feel ordered even when tile sizes vary."
+      },
+      {
+        "title": "Set the mobile tile order",
+        "body": "A bento grid that works on desktop often collapses into a long, unbalanced list on phones. Set the stacking order deliberately, keep the largest tile first, and consider a two-column mini grid for small tiles. Check that visuals still read at narrow widths."
+      },
+      {
+        "title": "Standardize gaps and corner radius",
+        "body": "Keep the same gutter between all tiles, typically 12 to 24px, and one corner radius across the grid. Mixed gaps make the layout look accidental. If tiles use different background colors, limit them to two or three fills so the grid stays calm."
+      }
+    ]
+  },
+  "alternating": {
+    "intro": "Text on the left, image on the right, then the reverse. The zig-zag of alternating rows ranks among the most dependable patterns in website design, walking readers through a sequence one row at a time, whether that is a feature tour, a process, or a company story. It goes wrong in two familiar ways: rows that all look identical, and phone layouts that scramble the order of text and visuals.",
+    "tipsTitle": "How to design alternating rows",
+    "tips": [
+      {
+        "title": "Stack every row the same way",
+        "body": "On phones, every row should stack in the same order, usually headline and copy above the media. Keep that source order in every row and flip the desktop zig-zag with CSS, such as row-reverse, so screen readers and small screens both get a predictable sequence."
+      },
+      {
+        "title": "Vary the media between rows",
+        "body": "If every row shows a similar screenshot at the same size, the section blurs together. Mix interface shots, close-up crops, diagrams, and short loops. Adjust media scale or add a background panel on some rows to give the eye a reason to keep moving."
+      },
+      {
+        "title": "Center text blocks against the media",
+        "body": "Vertically center each text block against its visual so the row feels balanced, and keep lines to roughly 45 to 70 characters. A narrower text column beside a larger visual usually reads better than two equal halves competing for attention."
+      },
+      {
+        "title": "Cap the number of rows",
+        "body": "Three or four rows is usually the limit before attention drops. Move minor points into a compact grid below. A short eyebrow label or step number on each row helps readers scan the sequence and know where they are."
+      }
+    ]
+  },
+  "tabs": {
+    "intro": "Tabs let one section hold several views without growing taller. A tab bar, segmented control, or toggle switches the content in place, whether that is code in different languages, product areas, platforms, or billing periods. Tabs in website design have one big weakness: hidden content. Many visitors never click past the first tab, so the default view has to carry the message by itself.",
+    "tipsTitle": "How to design tabbed content",
+    "tips": [
+      {
+        "title": "Put the strongest view first",
+        "body": "Because many visitors never switch tabs, the default should show your most common case or most convincing content. Order the remaining tabs by relevance, and name them so a visitor can tell what each one holds before clicking."
+      },
+      {
+        "title": "Mark the selected tab clearly",
+        "body": "Use a filled background, underline, or weight change that clearly marks the active tab. Faint gray differences are easy to miss. Make sure the selected state works without relying on color alone, so it stays clear for people with color vision deficiencies."
+      },
+      {
+        "title": "Stop panels from jumping",
+        "body": "When tab content changes height, the page jumps and people lose their place. Set a consistent minimum height for panels, or keep media at a fixed aspect ratio. Short crossfades help, but avoid long animations that delay the content someone asked for."
+      },
+      {
+        "title": "Follow the ARIA tabs pattern",
+        "body": "Use the tablist, tab, and tabpanel roles, with aria-selected and arrow-key navigation between tabs. Keep labels to one to three words. On mobile, let the tab bar scroll horizontally or switch to a select menu when labels no longer fit."
+      }
+    ]
+  },
+  "carousel": {
+    "intro": "A carousel saves vertical space by moving content sideways. Arrows, pagination dots, or cards cut off at the edge signal that more sits to the side, and carousels in website design often hold testimonials, case studies, or product cards when there are more items than room. Most visitors see only the first slide or two, so later items are easy to miss, and autoplay makes reading harder still.",
+    "tipsTitle": "How to design a usable carousel",
+    "tips": [
+      {
+        "title": "Let the next card peek in",
+        "body": "Show 10 to 20 percent of the next card at the edge. It signals that the row scrolls and invites a swipe on touch devices. Slides hidden entirely behind small arrows get far less attention and are easy to miss."
+      },
+      {
+        "title": "Avoid autoplay for readable content",
+        "body": "Text that moves before people finish reading is frustrating, and accessibility guidelines require a way to pause content that advances on its own. If you must autoplay, keep each slide up for at least five seconds, pause on hover and focus, and show a visible pause button."
+      },
+      {
+        "title": "Enlarge arrows and tap targets",
+        "body": "Make arrow buttons at least 44px targets with clear contrast against the background. Dots are usually too small to tap, so treat them as position indicators and rely on swipe and arrows for navigation. Give every control an accessible label."
+      },
+      {
+        "title": "Order slides by importance",
+        "body": "Engagement drops sharply after the first slide, so lead with your strongest item. If something is essential to the decision, such as a key proof point, do not put it in a carousel at all. Give it a fixed place on the page."
+      }
+    ]
+  },
+  "table": {
+    "intro": "Some content only makes sense in rows and columns. A table lines up data, specs, prices, or check and cross marks so readers can compare across a row or down a column. Beyond plan pages, tables show up in website design as feature matrices, spec sheets, API references, and usage limits. They fail when every row looks the same and the grid breaks on a phone.",
+    "tipsTitle": "How to design readable tables",
+    "tips": [
+      {
+        "title": "Align columns by data type",
+        "body": "Left-align text, right-align numbers, and center icons such as checks and crosses. Use tabular figures so digits line up down a column, and put units in the header instead of repeating them in every cell. Readers can then compare values without hunting."
+      },
+      {
+        "title": "Break long tables into labeled groups",
+        "body": "Split long tables with short heading rows, such as limits, permissions, or performance. Readers can skip to what they need, and you can collapse less important groups by default. Put the rows where values actually differ ahead of the rows where every column matches."
+      },
+      {
+        "title": "Pin headers and the first column",
+        "body": "On long tables, make the header row sticky so readers never lose track of which column is which. On narrow screens, pin the first column and let the rest scroll sideways, or turn each row into a stacked card when there are only a few columns."
+      },
+      {
+        "title": "Build with semantic table markup",
+        "body": "Use table, th, and scope attributes rather than a grid of divs, so screen readers can announce the headers for each cell. Give icons a text equivalent such as \"Included,\" add a caption, and keep row lines or zebra striping light enough to guide without adding noise."
+      }
+    ]
+  },
+  "full-bleed-media": {
+    "intro": "When a photo, video frame, or artwork fills the entire section background, the image sets the mood before anyone reads the headline. Full-bleed media in website design works hardest for brand stories, physical products, and places, where atmosphere does part of the selling. Keeping text readable takes work, because busy images compete with headlines, crops shift across screen sizes, and large video files slow the page.",
+    "tipsTitle": "How to design full-bleed media sections",
+    "tips": [
+      {
+        "title": "Add a scrim behind the text",
+        "body": "Place a gradient overlay or soft dark layer where the text sits rather than darkening the whole image. Check contrast against the brightest part of the image under the copy, and keep text in a defined zone so the rest of the image stays vivid."
+      },
+      {
+        "title": "Set focal points for every breakpoint",
+        "body": "A wide crop that works on desktop can cut off the subject on mobile. Use object-position or art-directed image sources to keep the key subject visible at each size, and leave a calm area in the image for the headline at every breakpoint."
+      },
+      {
+        "title": "Compress video and set a poster",
+        "body": "Background videos should be short, muted loops in WebM or MP4, as small as the quality allows. Always set a poster image so the section looks finished before playback starts, and show that still frame instead when reduced motion is on."
+      },
+      {
+        "title": "Keep overlaid copy brief",
+        "body": "Text over imagery is harder to read than text on a flat background. Limit it to a headline, one supporting line, and a button. Longer content belongs in the next section, where it can sit on a plain surface and be read comfortably."
+      }
+    ]
+  },
+  "illustration": {
+    "intro": "Drawn artwork gives abstract products a concrete face. In website design, illustration means a distinct, one-off drawing as the focal visual: a character, an editorial scene, a hand-drawn sketch, or pixel art. It brings personality that stock imagery lacks and suits explainers and brands aiming for warmth. The usual trap is library art that could sit on any site and says nothing about the product.",
+    "tipsTitle": "How to use illustration well",
+    "tips": [
+      {
+        "title": "Commit to one illustration style",
+        "body": "Define line weight, color palette, shading, and character proportions before commissioning or drawing anything. Every illustration on the page should follow the same rules. Mixing flat vector art with textured sketches makes the brand feel assembled from different sources."
+      },
+      {
+        "title": "Draw what words cannot explain",
+        "body": "The best illustrations show a concept, workflow, or outcome that would be hard to photograph. Before adding one, write down what it should communicate. If it is purely decorative, it competes with your copy for attention without adding meaning."
+      },
+      {
+        "title": "Balance artwork against the headline",
+        "body": "Give the artwork enough space to read, but keep the headline as the first thing people see. In split layouts, illustrations often sit well at around half the width. Leave generous padding so detailed drawings do not feel cramped."
+      },
+      {
+        "title": "Export as optimized SVG when possible",
+        "body": "Vector illustrations stay sharp at every screen density and are usually much smaller than PNGs. Simplify paths and remove hidden layers before export. For textured or painterly work, use compressed WebP or AVIF, and add descriptive alt text when the image carries meaning."
+      }
+    ]
+  },
+  "3d": {
+    "intro": "Rendered objects, scenes, and isometric models give a page depth and a tactile quality. 3D website design can make abstract products such as infrastructure, security, or finance feel tangible and premium. It is also expensive to produce and easy to overdo. Heavy renders slow pages down. Shapes with no link to the product are worse, because they add weight and explain nothing.",
+    "tipsTitle": "How to work with 3D renders",
+    "tips": [
+      {
+        "title": "Light every render the same way",
+        "body": "Use one light direction, color temperature, and material style across all 3D assets on the page. Inconsistent lighting makes objects look pasted in. Match shadow direction to any interface shadows so renders and UI elements appear to share the same space."
+      },
+      {
+        "title": "Tie objects to product concepts",
+        "body": "Abstract blobs and floating spheres look nice but say little. Model objects that stand for real ideas, such as stacked layers for data, a lock for security, or the device itself for hardware. People should be able to guess the topic from the object alone."
+      },
+      {
+        "title": "Ship static images before real-time 3D",
+        "body": "Pre-rendered images in WebP or AVIF load fast and look the same everywhere. Use real-time WebGL only when interaction adds real value, load it lazily after the main content, and keep a static fallback for low-power devices and reduced-motion settings."
+      },
+      {
+        "title": "Leave room around the object",
+        "body": "3D renders need negative space to read as objects rather than clutter. Give them generous padding and avoid overlapping them with text. Use a soft ground shadow or reflection to anchor the render so it does not appear to float at random."
+      }
+    ]
+  },
+  "photography": {
+    "intro": "Real photos of people, places, and physical products build trust faster than most other visuals. Hardware, hospitality, retail, and service businesses lean on photography in website design most, because their customers want to see the real thing. Shortcuts show immediately, though. A generic stock image or a slow, oversized file undoes the credibility that good photos are supposed to create.",
+    "tipsTitle": "How to choose and prepare photos",
+    "tips": [
+      {
+        "title": "Shoot original photos where possible",
+        "body": "Photos of your actual team, customers, product, or location are more convincing than polished stock. Even simple, well-lit shots beat generic handshakes and laptops. If you must use stock, choose images that feel specific to your context and avoid widely used ones."
+      },
+      {
+        "title": "Apply one consistent color grade",
+        "body": "Photos from different shoots often vary in warmth, saturation, and contrast. Grade them to a shared look so the page feels cohesive. Subtle adjustments, like matching white balance and black levels, make a bigger difference than heavy filters or presets."
+      },
+      {
+        "title": "Crop for the layout, not the camera",
+        "body": "Choose aspect ratios that fit your grid, such as 4:5 for cards or 16:9 for wide panels, and crop every photo to match. Keep subjects away from edges that get trimmed at smaller breakpoints. Faces should look into the page, toward the copy."
+      },
+      {
+        "title": "Serve responsive, compressed images",
+        "body": "Large photos are often the heaviest assets on a page. Use srcset with several widths, modern formats like AVIF or WebP, and lazy loading below the fold. Write alt text that describes what matters in the photo, not the file name."
+      }
+    ]
+  },
+  "code": {
+    "intro": "For developer products, a few lines of real code often say more than a headline. A code block, terminal window, or API snippet placed in the section shows visitors how integration actually works, which is why code is a fixture of website design for APIs, SDKs, and infrastructure tools. The snippet has to be short, legible, and on brand, or the section ends up harder to trust than plain copy.",
+    "tipsTitle": "How to design code snippets on a website",
+    "tips": [
+      {
+        "title": "Start with the shortest working example",
+        "body": "Pick a snippet that does one useful thing in about ten to fifteen lines, such as installing a package and making a first call. Trim boilerplate that adds no meaning. Real, runnable code earns more trust than a stylized fake that would not compile."
+      },
+      {
+        "title": "Match syntax colors to the brand",
+        "body": "Default editor themes rarely fit your palette. Build a syntax theme from your brand colors with enough contrast for each token type. Keep comments and punctuation muted so keywords, strings, and values carry the visual weight and the logic is easy to follow."
+      },
+      {
+        "title": "Size code for comfortable reading",
+        "body": "Use a monospaced font at 14 to 16px with a line height around 1.5 to 1.6. Do not shrink snippets to fit a fixed frame. Let them scroll horizontally on small screens rather than wrapping in confusing places, and give the block generous inner padding."
+      },
+      {
+        "title": "Add language tabs and a copy button",
+        "body": "If you support several languages or SDKs, offer tabs so developers see code in their own stack. Include a labeled copy button with a confirmation state, and render the snippet as real text, not an image, so it stays selectable and searchable."
+      }
+    ]
+  },
+  "glassmorphism": {
+    "intro": "Frosted, translucent panels with visible blur behind them are the signature of glassmorphism. The style needs something behind it for the blur to reveal, such as a gradient, a photo, or colorful artwork; on a flat background, glassmorphism website design just looks gray. The effect has real costs too. Contrast shifts across each panel, and heavy blur can make scrolling stutter on modest phones.",
+    "tipsTitle": "How to design glassmorphism panels",
+    "tips": [
+      {
+        "title": "Place glass over a rich background",
+        "body": "The effect only works when there is color or shape behind the panel to blur. Put glass cards over gradients, photos, or soft blobs of color. Without that, the translucency is invisible and the panel reads as a dull gray box."
+      },
+      {
+        "title": "Edge each panel with light",
+        "body": "A 1px semi-transparent white border and a subtle top highlight make glass panels read as physical surfaces. They also separate each panel from a busy background. Keep shadows soft and wide rather than dark and tight, so the panel feels light."
+      },
+      {
+        "title": "Increase panel opacity behind text",
+        "body": "Text on glass sits over a changing background, so contrast varies across the panel. Raise the fill opacity behind body copy until it passes 4.5:1 at the busiest point. Provide a solid fallback for browsers without backdrop-filter and for people who prefer reduced transparency."
+      },
+      {
+        "title": "Limit how many layers use blur",
+        "body": "The backdrop-filter property is costly to render, especially on large areas and older phones. Apply it to a few key panels rather than every card. Avoid stacking blurred layers on top of each other, and check scrolling smoothness on a mid-range device."
+      }
+    ]
+  },
+  "pattern-background": {
+    "intro": "A faint repeating texture behind the content can make a plain section feel engineered or handmade. Pattern background website design uses grid lines, dot grids, stripes, dither fields, noise, or grain to add depth without imagery, and the technical versions are especially common on developer and infrastructure sites. The texture has to stay quiet, since a dense or high-contrast pattern competes with the text and makes the section feel busy.",
+    "tipsTitle": "How to design subtle pattern backgrounds",
+    "tips": [
+      {
+        "title": "Keep pattern contrast very low",
+        "body": "A background pattern should be felt more than seen. Start with lines or dots at three to eight percent opacity against the background, then adjust on real screens. If you notice the pattern before the headline, it is too strong and needs to come down."
+      },
+      {
+        "title": "Fade the pattern behind content",
+        "body": "Use a radial or linear mask so the pattern fades out where text sits and stays visible toward the edges. This keeps copy clean while the texture frames the section. CSS mask-image with a gradient handles this without any extra assets."
+      },
+      {
+        "title": "Snap grid cells to the layout",
+        "body": "If you use a grid-line pattern, set its cell size to your layout columns or spacing scale. When cards and text line up with the pattern, the section feels engineered. Misaligned grids look accidental and draw attention to small offsets."
+      },
+      {
+        "title": "Draw patterns in CSS or SVG",
+        "body": "Repeating gradients and small tiled SVGs scale cleanly to any screen and weigh almost nothing. Avoid large raster textures that blur on high-density displays. For grain, use a small noise tile at low opacity rather than a full-screen image."
+      }
+    ]
+  },
+  "minimal": {
+    "intro": "Minimal is not the same as empty. Minimal website design strips a section to its content, with no more than two colors beyond neutrals, a lot of open space, and no decoration for its own sake. It signals confidence and suits products where clarity is the selling point. Without strong type, careful spacing, and sharp copy, the result reads as a placeholder rather than a decision.",
+    "tipsTitle": "How to design a minimal section",
+    "tips": [
+      {
+        "title": "Sharpen the copy first",
+        "body": "With no visuals to lean on, the headline does all the work. Make it specific about the outcome, and keep supporting text to one or two short sentences. Cut every word that does not change the meaning, then read it aloud to check the rhythm."
+      },
+      {
+        "title": "Space everything on one scale",
+        "body": "Whitespace only looks intentional when it is consistent. Pick a scale, such as 8, 16, 24, 48, and 96px, and use it for every gap. Give the section more vertical padding than feels comfortable at first, because sparse layouts need room around each element."
+      },
+      {
+        "title": "Create contrast through type size",
+        "body": "When color and decoration are removed, hierarchy comes from scale and weight. Pair a large headline with much smaller body text, and keep a clear gap between them. Two or three type sizes per section is usually enough to guide the eye."
+      },
+      {
+        "title": "Reserve accent color for actions",
+        "body": "If you use an accent color, spend it on the primary button and key links only. That makes the next step obvious in an otherwise quiet layout. Using the accent on decorative dividers or icons weakens its signal and adds visual noise."
+      }
+    ]
+  },
+  "serif": {
+    "intro": "A serif headline is one of the quickest ways to step away from the geometric sans that so many software sites share. Used in website design, serif type brings an editorial, literary, or premium tone, and it is usually paired with a clean sans-serif for body text and interface elements. That pairing needs care. The wrong serif at the wrong size looks dated or hard to read.",
+    "tipsTitle": "How to pair serif headlines with UI text",
+    "tips": [
+      {
+        "title": "Choose a serif built for display",
+        "body": "Display serifs have refined details that shine at large sizes, while text serifs are sturdier when small. Use a display cut for headlines and check that thin hairlines survive on low-resolution screens. Variable fonts with optical sizing handle both cases well."
+      },
+      {
+        "title": "Pair it with a neutral sans",
+        "body": "Let the serif carry the personality and keep body copy, buttons, and navigation in a simple sans-serif. Match x-heights roughly so the two families feel related. Avoid pairing two expressive typefaces, which makes the section feel noisy and unsure of itself."
+      },
+      {
+        "title": "Fit the serif's character to the brand",
+        "body": "Serifs carry different associations. Old-style faces feel literary and warm, high-contrast Didone styles suggest fashion and luxury, and slab serifs feel sturdy and practical. Pick the one that fits what the product promises, and test it on the real headline, not a pangram."
+      },
+      {
+        "title": "Save italics for one key word",
+        "body": "A single italic word in a serif headline adds rhythm and draws the eye. Use it on the word that holds the main point. Italicizing whole phrases or mixing several styles in one headline dilutes the effect and slows reading."
+      }
+    ]
+  },
+  "oversized-type": {
+    "intro": "Huge display text can carry a section on its own. Oversized type website design sets headlines so large they dominate the section or run edge to edge, with no imagery needed to make an impression. Brand statements, launches, and portfolios use it well. What it gives up is flexibility: long headlines wrap awkwardly, and scaling huge type across screen sizes is harder than it looks.",
+    "tipsTitle": "How to design with oversized typography",
+    "tips": [
+      {
+        "title": "Cut the headline to a few words",
+        "body": "Huge type only works with a few words. Aim for a short phrase that can stand alone as a statement. Put supporting detail in a smaller subhead instead of shrinking the headline to fit a longer sentence, which defeats the purpose of the style."
+      },
+      {
+        "title": "Scale type fluidly with clamp()",
+        "body": "Use CSS clamp() with viewport units so the headline grows and shrinks smoothly between breakpoints. Set a sensible minimum for phones and a maximum for wide screens. Test across widths, since a single extra character can force an awkward line break."
+      },
+      {
+        "title": "Tighten leading and letter spacing",
+        "body": "Large display type needs a line height near 0.9 to 1.05 and slightly negative letter spacing. Default text settings leave big gaps that weaken the shape of the headline. Adjust kerning on specific letter pairs where the font allows it."
+      },
+      {
+        "title": "Ship headlines as live text",
+        "body": "Do not export oversized headlines as images. Real text stays selectable, translatable, and readable by search engines and screen readers. Use a proper heading element, and make sure the visual size does not replace a correct heading hierarchy on the page."
+      }
+    ]
+  },
+  "gradient-text": {
+    "intro": "Filling a few headline words with a color blend pulls the eye straight to them. AI and developer products have made gradient text a familiar move in website design, and it can add energy to an otherwise plain layout. Used everywhere, it looks generic. Pale stops cause a quieter problem by dropping part of a word below readable contrast.",
+    "tipsTitle": "How to style gradient headline text",
+    "tips": [
+      {
+        "title": "Apply it to a few words",
+        "body": "Highlight the phrase that carries the main idea, not the whole headline. A short gradient span contrasts with the solid text around it and directs attention. If every word has a gradient, the emphasis disappears and the effect turns into noise."
+      },
+      {
+        "title": "Check contrast at every stop",
+        "body": "Every stop in the gradient must pass contrast against the background, not just the middle. Light stops like pale yellow or cyan often fail on white. Darken or shift the lightest stop until the entire word stays readable."
+      },
+      {
+        "title": "Provide a solid color fallback",
+        "body": "Gradient text depends on background-clip: text and a transparent fill. Set a solid text color first and apply the gradient inside an @supports check, so the headline stays readable wherever the effect fails. Keep it as real, selectable text rather than an image."
+      },
+      {
+        "title": "Size the gradient to the text",
+        "body": "A gradient stretched across a full-width container can leave short words showing only one color. Use inline or inline-block display so the gradient spans the text itself. Keep the angle and stops consistent across every gradient headline on the site."
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "4283ad2ab2": {
+      "category": "stats",
+      "note": "filename said otherwise (ada-value-proposition-section.jpeg); AI + review agreed on stats"
+    },
+    "8f3abe3a30": {
+      "category": "about",
+      "note": "filename said otherwise (amini-value-proposition-section.jpeg); AI + review agreed on about",
+      "removeTags": [
+        "oversized-type"
+      ]
+    },
+    "0981b28556": {
+      "category": "use-case",
+      "note": "filename said otherwise (bounti-features-section.jpeg); AI + review agreed on use-case"
+    },
+    "a64eecf068": {
+      "category": "security",
+      "note": "filename said otherwise (delphi-features-section.jpeg); AI + review agreed on security"
+    },
+    "4fb6e898ef": {
+      "category": "use-case",
+      "note": "filename said otherwise (devrev-features-section-3.jpeg); AI + review agreed on use-case"
+    },
+    "37328fad6d": {
+      "category": "use-case",
+      "note": "filename said otherwise (dovetail-features-section-2.jpeg); AI + review agreed on use-case"
+    },
+    "5e81e8ac0a": {
+      "category": "about",
+      "note": "filename said otherwise (dovetail-value-proposition-section.jpeg); AI + review agreed on about"
+    },
+    "4492d528fb": {
+      "category": "testimonial",
+      "note": "filename said otherwise (getharvest-footer-section.jpeg); AI + review agreed on testimonial"
+    },
+    "01e110849b": {
+      "category": "use-case",
+      "note": "filename said otherwise (hyperline-features-section.jpeg); AI + review agreed on use-case"
+    },
+    "2cdb9befae": {
+      "category": "blog",
+      "note": "filename said otherwise (jasper-contact-section.jpeg); AI + review agreed on blog"
+    },
+    "1767e6513b": {
+      "category": "stats",
+      "note": "filename said otherwise (jasper-value-proposition-section.jpeg); AI + review agreed on stats"
+    },
+    "42219279a8": {
+      "category": "use-case",
+      "note": "filename said otherwise (jitter-features-section.jpeg); AI + review agreed on use-case"
+    },
+    "12587901ce": {
+      "category": "stats",
+      "note": "filename said otherwise (koyeb-value-proposition-section.jpeg); AI + review agreed on stats"
+    },
+    "c8d628ce19": {
+      "category": "integration",
+      "note": "filename said otherwise (loop-features-section.jpeg); AI + review agreed on integration"
+    },
+    "9424648c7c": {
+      "category": "feature",
+      "note": "filename said otherwise (orchestra-value-proposition-section.jpeg); AI + review agreed on feature"
+    },
+    "66660e21c2": {
+      "category": "integration",
+      "note": "filename said otherwise (outerbase-features-section-2.jpeg); AI + review agreed on integration"
+    },
+    "c8c0502e2c": {
+      "category": "stats",
+      "note": "filename said otherwise (routable-value-proposition-section.jpeg); AI + review agreed on stats"
+    },
+    "ceb8b00722": {
+      "category": "stats",
+      "note": "filename said otherwise (steel-dev-value-proposition-section.jpeg); AI + review agreed on stats"
+    },
+    "6cd31cc7e2": {
+      "category": "careers",
+      "note": "filename said otherwise (synthesia-cta-section-2.jpeg); AI + review agreed on careers"
+    },
+    "559595272d": {
+      "category": "use-case",
+      "note": "filename said otherwise (typebot-features-section.jpeg); AI + review agreed on use-case"
+    },
+    "a967aa2c59": {
+      "category": "integration",
+      "note": "filename said otherwise (vercel-logos-section.jpeg); AI + review agreed on integration"
+    },
+    "ff403d2320": {
+      "removeTags": [
+        "gradient"
+      ],
+      "note": "tag audit: White background; only two gradient-filled ribbon shapes on the right covering roughly 10-15% of the section, below the 25% background thres"
+    },
+    "572a222630": {
+      "addTags": [
+        "bold-color"
+      ],
+      "note": "tag audit: Saturated bright-blue background fills more than half the section around the white card"
+    },
+    "1b86630a79": {
+      "addTags": [
+        "table"
+      ],
+      "note": "tag audit: Pricing card contains a rows x columns grid of instances, vRAM and hourly prices"
+    },
+    "b29aac50e6": {
+      "removeTags": [
+        "illustration"
+      ],
+      "note": "tag audit: Divider is flat stepped rectangles, a simple geometric shape rather than a drawn artwork"
+    },
+    "081b25751b": {
+      "removeTags": [
+        "3d"
+      ],
+      "note": "tag audit: Scattered cubes/prisms are flat-filled, outlined 2D vector shapes, not rendered 3D objects or 3D renders."
+    },
+    "e4b585846d": {
+      "addTags": [
+        "bold-color"
+      ],
+      "note": "tag audit: Saturated bright-blue background covers well over 30% of the section (in addition to the gradient)."
+    },
+    "d7b152a3b1": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "tag audit: Centered 3-line headline with cap height ~4% of section height, spanning ~half the width; the network diagram is the dominant visual."
+    },
+    "0b527b62ef": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "tag audit: Large statement paragraph with cap height ~3% of section height, spanning ~56% of the width. Not huge display type and not full-width."
+    },
+    "d5de2d1e64": {
+      "addTags": [
+        "tabs"
+      ],
+      "note": "tag audit: Visible 'Tracking / Returns' segmented control switches the hero demo content."
+    },
+    "5b2c900caf": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "oversized-type recheck: cap \u22489% of height (~42px), normal left-aligned hero H1 spanning ~55% width with subtitle/CTA below; large but not oversized"
+    },
+    "8f93f1d4ce": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "oversized-type recheck: cap \u22488% only because the crop is short (~34px), normal centered hero H1 spanning ~47% width"
+    },
+    "b33a9177ae": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "oversized-type recheck: cap \u22488% (at threshold), light-weight centered H1 spanning ~40% width; equalizer graphic dominates"
+    },
+    "0ab70d4369": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "oversized-type recheck: cap \u22489% of a short banner (~33px), normal CTA heading inside circle spanning ~24% width"
+    },
+    "f18238a4c8": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "oversized-type recheck: cap \u22484% of a tall section, spans ~68% width; flower imagery dominates"
+    },
+    "bd38a678c1": {
+      "removeTags": [
+        "oversized-type"
+      ],
+      "note": "oversized-type recheck: cap \u22487% of height, spans ~34% width; normal left-column hero H1"
+    }
+  },
+  "companies": {}
+}

@@ -1,0 +1,7759 @@
+[
+  {
+    "slug": "11x",
+    "name": "11x",
+    "domain": "11x.ai",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial"
+    ],
+    "topTags": [
+      "full-bleed-media",
+      "photography",
+      "oversized-type",
+      "logo-strip",
+      "centered",
+      "carousel"
+    ],
+    "sectionIds": [
+      "cc58585d8f",
+      "71e829ee2e",
+      "51d5b803ad"
+    ],
+    "cover": "cc58585d8f",
+    "addedAt": "2026-10-02T06:48:17.578Z"
+  },
+  {
+    "slug": "21oaks",
+    "name": "21Oaks",
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "how-it-works",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "photography",
+      "full-bleed-media",
+      "carousel",
+      "minimal",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "71624e0d38",
+      "47bcf5095d",
+      "e4086d62f1",
+      "f7bc3834c8",
+      "70486a45e0",
+      "215bec1061",
+      "9cc09d7bfd"
+    ],
+    "cover": "71624e0d38",
+    "addedAt": "2026-09-30T10:34:38.000Z"
+  },
+  {
+    "slug": "8returns",
+    "name": "8returns",
+    "domain": "8returns.com",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "how-it-works",
+      "testimonial",
+      "pricing",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "tabs",
+      "card-grid",
+      "photography",
+      "product-ui",
+      "dark-mode",
+      "carousel"
+    ],
+    "sectionIds": [
+      "746df5493c",
+      "3da47bb335",
+      "02f8183d43",
+      "17615b734b",
+      "bba51e84c8",
+      "eb1bcb6138"
+    ],
+    "cover": "746df5493c",
+    "addedAt": "2026-10-02T06:48:17.606Z"
+  },
+  {
+    "slug": "acctual",
+    "name": "Acctual",
+    "domain": "acctual.com",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "3d",
+      "card-grid",
+      "product-ui",
+      "bold-color",
+      "pattern-background",
+      "centered"
+    ],
+    "sectionIds": [
+      "f37488228a",
+      "38c16982b6"
+    ],
+    "cover": "f37488228a",
+    "addedAt": "2026-10-02T06:48:17.616Z"
+  },
+  {
+    "slug": "ada",
+    "name": "Ada",
+    "domain": "ada.cx",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "stats",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "bold-color",
+      "split",
+      "illustration",
+      "logo-strip",
+      "metrics",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "0fa8ddfbe7",
+      "4283ad2ab2",
+      "44159eceba",
+      "b04389406d"
+    ],
+    "cover": "0fa8ddfbe7",
+    "addedAt": "2026-10-02T06:48:17.634Z"
+  },
+  {
+    "slug": "adora",
+    "name": "Adora",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "contact",
+      "footer"
+    ],
+    "topTags": [
+      "split",
+      "photography",
+      "warm-neutral",
+      "minimal",
+      "centered",
+      "tabs"
+    ],
+    "sectionIds": [
+      "947f362813",
+      "0d7876e258",
+      "ade20296ac",
+      "fb8a976d86",
+      "5e837278ce"
+    ],
+    "cover": "947f362813",
+    "addedAt": "2026-10-02T06:48:17.660Z"
+  },
+  {
+    "slug": "agiloft",
+    "name": "Agiloft",
+    "domain": "agiloft.com",
+    "domainVerified": true,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "integration",
+      "value-proposition",
+      "use-case",
+      "blog",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "dark-mode",
+      "centered",
+      "tabs",
+      "product-ui",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "57df15443c",
+      "fb7506d091",
+      "d5541bb752",
+      "fb6089d2c4",
+      "e9b13ed79a",
+      "bfe9295303",
+      "9a1b10c84a",
+      "e87ae75deb",
+      "7cd2b9e97d"
+    ],
+    "cover": "57df15443c",
+    "addedAt": "2026-09-30T10:06:52.000Z"
+  },
+  {
+    "slug": "airbook",
+    "name": "Airbook",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "value-proposition",
+      "integration",
+      "cta"
+    ],
+    "topTags": [
+      "monochrome",
+      "illustration",
+      "centered",
+      "card-grid",
+      "oversized-type",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "373f9a0994",
+      "34c3ac0b2d",
+      "8e0d81455a"
+    ],
+    "cover": "373f9a0994",
+    "addedAt": "2026-10-02T06:48:17.675Z"
+  },
+  {
+    "slug": "amini",
+    "name": "Amini",
+    "domain": "amini.ai",
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "team",
+      "about",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "dark-mode",
+      "minimal",
+      "split",
+      "pattern-background",
+      "centered"
+    ],
+    "sectionIds": [
+      "0fdf76d87d",
+      "3d662b005f",
+      "cd9b1aaf51",
+      "165d3143e4",
+      "eddffded30",
+      "d66f6322cd",
+      "38468c5aed",
+      "8f3abe3a30",
+      "07ae46159e"
+    ],
+    "cover": "0fdf76d87d",
+    "addedAt": "2026-10-02T06:48:17.735Z"
+  },
+  {
+    "slug": "amplemarket",
+    "name": "Amplemarket",
+    "domain": "amplemarket.com",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "form",
+      "product-ui",
+      "illustration",
+      "video",
+      "split",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "9ab6478f7c",
+      "e528afe5df",
+      "130a01117c",
+      "66c897548d",
+      "466d798501",
+      "c51b15fc71",
+      "a7e2b4ad0c"
+    ],
+    "cover": "9ab6478f7c",
+    "addedAt": "2026-10-02T06:48:17.771Z"
+  },
+  {
+    "slug": "antimetal",
+    "name": "Antimetal",
+    "domain": "antimetal.com",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "testimonial",
+      "pricing"
+    ],
+    "topTags": [
+      "centered",
+      "pattern-background",
+      "monochrome",
+      "product-ui",
+      "pastel",
+      "minimal"
+    ],
+    "sectionIds": [
+      "2bae342e81",
+      "ca64172f65",
+      "68eed69b19",
+      "dbe65382f3"
+    ],
+    "cover": "2bae342e81",
+    "addedAt": "2026-10-02T06:48:17.787Z"
+  },
+  {
+    "slug": "apollo",
+    "name": "Apollo",
+    "domain": "apollo.io",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "cta"
+    ],
+    "topTags": [
+      "full-bleed-media",
+      "photography",
+      "product-ui",
+      "card-grid",
+      "metrics",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "e4bff2ee84",
+      "3e5ba70ad2",
+      "e4c11f6364"
+    ],
+    "cover": "e4bff2ee84",
+    "addedAt": "2026-10-02T06:48:17.803Z"
+  },
+  {
+    "slug": "aria",
+    "name": "Aria",
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "oversized-type",
+      "dark-mode",
+      "logo-strip",
+      "carousel",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "8f22bc1b6c",
+      "ff403d2320",
+      "9c81d16b6c",
+      "e74c3ac525",
+      "f4f2c78c09",
+      "4cc5dc9a83",
+      "f9637d0496"
+    ],
+    "cover": "8f22bc1b6c",
+    "addedAt": "2026-10-02T06:48:17.842Z"
+  },
+  {
+    "slug": "arke",
+    "name": "Arke",
+    "domain": null,
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "serif",
+      "centered",
+      "product-ui",
+      "card-grid",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "d2621dc982",
+      "6a3d265c36",
+      "c4225e3239",
+      "98d2eb9a49",
+      "5ac4660135",
+      "12bf9a1dae",
+      "1d24623e9b",
+      "8c29b377df"
+    ],
+    "cover": "d2621dc982",
+    "addedAt": "2026-10-01T04:34:42.000Z"
+  },
+  {
+    "slug": "aside",
+    "name": "Aside",
+    "domain": "aside.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "feature",
+      "security",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "monochrome",
+      "pastel",
+      "minimal",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "1d57f433ac",
+      "731fe291f4",
+      "626dc1611c",
+      "ec32d9bc6a",
+      "592e989450",
+      "84071d4bfc",
+      "fc7522a4ae"
+    ],
+    "cover": "1d57f433ac",
+    "addedAt": "2026-10-01T04:47:28.000Z"
+  },
+  {
+    "slug": "atlassian",
+    "name": "Atlassian",
+    "domain": "atlassian.com",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "integration",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "pattern-background",
+      "monochrome",
+      "split",
+      "metrics"
+    ],
+    "sectionIds": [
+      "f7a2c5bff6",
+      "81e51e6161",
+      "60f127ba0a",
+      "ea0077a5cd",
+      "f89ebff8db",
+      "845d616b09",
+      "dda4077524",
+      "f0c5fdf67d"
+    ],
+    "cover": "f7a2c5bff6",
+    "addedAt": "2026-10-01T04:40:58.000Z"
+  },
+  {
+    "slug": "atomic-tessellator",
+    "name": "Atomic Tessellator",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "serif",
+      "illustration"
+    ],
+    "sectionIds": [
+      "c9c9d11433"
+    ],
+    "cover": "c9c9d11433",
+    "addedAt": "2026-10-01T04:36:16.291Z"
+  },
+  {
+    "slug": "attio",
+    "name": "Attio",
+    "domain": "attio.com",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "monochrome",
+      "centered",
+      "tabs",
+      "serif",
+      "product-ui",
+      "illustration"
+    ],
+    "sectionIds": [
+      "cc35902346",
+      "68bb507d36",
+      "39af31c361",
+      "b179e349b9"
+    ],
+    "cover": "cc35902346",
+    "addedAt": "2026-10-02T06:48:17.862Z"
+  },
+  {
+    "slug": "basewell",
+    "name": "Basewell",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "feature"
+    ],
+    "topTags": [
+      "bento",
+      "product-ui",
+      "minimal"
+    ],
+    "sectionIds": [
+      "7980ff2ae9"
+    ],
+    "cover": "7980ff2ae9",
+    "addedAt": "2026-10-02T06:48:17.867Z"
+  },
+  {
+    "slug": "bayshore",
+    "name": "Bayshore",
+    "domain": "bayshore.ai",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "value-proposition",
+      "comparison",
+      "use-case",
+      "team",
+      "security",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "3d",
+      "minimal",
+      "split",
+      "gradient",
+      "photography"
+    ],
+    "sectionIds": [
+      "cf772f50c2",
+      "e4e4701c3b",
+      "a48032c049",
+      "2d79ebd7c7",
+      "423cc499af",
+      "3ca40f2a99",
+      "73b92a6895",
+      "bf60630f49",
+      "0d52006c0b",
+      "7d5fbde225"
+    ],
+    "cover": "cf772f50c2",
+    "addedAt": "2026-09-30T10:05:54.000Z"
+  },
+  {
+    "slug": "bobbin",
+    "name": "Bobbin",
+    "domain": null,
+    "domainVerified": false,
+    "count": 13,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "value-proposition",
+      "how-it-works",
+      "cta",
+      "security",
+      "testimonial",
+      "comparison",
+      "pricing",
+      "faq",
+      "about"
+    ],
+    "topTags": [
+      "serif",
+      "warm-neutral",
+      "photography",
+      "card-grid",
+      "split",
+      "centered"
+    ],
+    "sectionIds": [
+      "0a0fc844c2",
+      "42133286c1",
+      "434b7e8f27",
+      "bed6c9b71f",
+      "5faf313288",
+      "dc5bf203fc",
+      "67f52a9f17",
+      "74a9d58688",
+      "ffabcd0c74",
+      "d138747517",
+      "2ee62a16c2",
+      "8bd26e3f8b",
+      "fc46bed8fa"
+    ],
+    "cover": "0a0fc844c2",
+    "addedAt": "2026-09-30T09:15:30.000Z"
+  },
+  {
+    "slug": "bounti",
+    "name": "Bounti",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "use-case",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "product-ui",
+      "logo-strip",
+      "dark-mode",
+      "bento",
+      "metrics"
+    ],
+    "sectionIds": [
+      "cded318675",
+      "2b94c4e458",
+      "0981b28556",
+      "645f0f9479",
+      "90cae1d918"
+    ],
+    "cover": "cded318675",
+    "addedAt": "2026-10-02T06:48:17.893Z"
+  },
+  {
+    "slug": "brikken-co",
+    "name": "Brikken+Co",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "other",
+      "value-proposition",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "oversized-type",
+      "warm-neutral",
+      "pattern-background",
+      "3d",
+      "minimal",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "81745b342a",
+      "888d983690",
+      "3d49790801",
+      "fb8c88449f",
+      "07dcb1a4b7"
+    ],
+    "cover": "81745b342a",
+    "addedAt": "2026-10-01T04:44:10.000Z"
+  },
+  {
+    "slug": "bucket",
+    "name": "Bucket",
+    "domain": "bucket.co",
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "testimonial",
+      "comparison",
+      "pricing",
+      "faq"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "product-ui",
+      "card-grid",
+      "logo-strip",
+      "table"
+    ],
+    "sectionIds": [
+      "dc51801f49",
+      "3447e4e03d",
+      "a7ae9d9640",
+      "de52a953f0",
+      "dcd1f4795b",
+      "a86ab9e152",
+      "f7f7c179ed",
+      "c9156e7e15"
+    ],
+    "cover": "dc51801f49",
+    "addedAt": "2026-10-02T06:48:17.928Z"
+  },
+  {
+    "slug": "cal-com",
+    "name": "Cal.com",
+    "domain": "cal.com",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "pricing",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "split",
+      "product-ui",
+      "code",
+      "card-grid",
+      "illustration"
+    ],
+    "sectionIds": [
+      "257bd40fde",
+      "3f6c4c7003",
+      "723e19554c"
+    ],
+    "cover": "257bd40fde",
+    "addedAt": "2026-10-02T06:48:17.941Z"
+  },
+  {
+    "slug": "calendly",
+    "name": "Calendly",
+    "domain": "calendly.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "pricing",
+      "feature",
+      "testimonial",
+      "integration",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "gradient",
+      "card-grid",
+      "tabs",
+      "table",
+      "serif"
+    ],
+    "sectionIds": [
+      "8364c112ac",
+      "9ade7018c1",
+      "3d458c2374",
+      "e8bd325521",
+      "9844714783",
+      "6f7382256d",
+      "636b528cd6"
+    ],
+    "cover": "8364c112ac",
+    "addedAt": "2026-09-30T10:19:49.403Z"
+  },
+  {
+    "slug": "campsite",
+    "name": "Campsite",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "8716d35ebe"
+    ],
+    "cover": "8716d35ebe",
+    "addedAt": "2026-10-02T06:48:17.946Z"
+  },
+  {
+    "slug": "canopy",
+    "name": "Canopy",
+    "domain": "canopyservicing.com",
+    "domainVerified": true,
+    "count": 29,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "testimonial",
+      "value-proposition",
+      "integration",
+      "cta",
+      "team",
+      "blog",
+      "contact",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "minimal",
+      "centered",
+      "product-ui",
+      "pattern-background",
+      "photography"
+    ],
+    "sectionIds": [
+      "571f96f6d0",
+      "8b3cc8abce",
+      "903278d6e4",
+      "058b112753",
+      "889f0eef69",
+      "c9f54f6c61",
+      "fbc7048b97",
+      "49c1d486e8",
+      "1cde3426bb",
+      "97b4f9fd2a",
+      "5d7b51dc19",
+      "57c1744187",
+      "ae194ee9ee",
+      "3360f719de",
+      "3bf44eb76f",
+      "4634a54282",
+      "977dc8525f",
+      "b33b1c50a3",
+      "dba355ce64",
+      "f5d50442d1",
+      "26e42b5b6f",
+      "6cdd99a13d",
+      "8a30e4991d",
+      "062121d702",
+      "7978882416",
+      "4d0f8420f7",
+      "a04bdde00c",
+      "25f887ed2f",
+      "27ad564375"
+    ],
+    "cover": "571f96f6d0",
+    "addedAt": "2026-10-02T06:48:17.998Z"
+  },
+  {
+    "slug": "cap",
+    "name": "Cap",
+    "domain": "cap.so",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing"
+    ],
+    "topTags": [
+      "centered",
+      "full-bleed-media",
+      "pastel",
+      "code",
+      "card-grid",
+      "photography"
+    ],
+    "sectionIds": [
+      "59815eb02a",
+      "592fcd7cde",
+      "67ef629610"
+    ],
+    "cover": "59815eb02a",
+    "addedAt": "2026-10-02T06:48:18.009Z"
+  },
+  {
+    "slug": "cardinal",
+    "name": "Cardinal",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "serif",
+      "centered",
+      "warm-neutral",
+      "illustration",
+      "logo-strip",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "8d1390040a"
+    ],
+    "cover": "8d1390040a",
+    "addedAt": "2026-10-01T04:35:32.031Z"
+  },
+  {
+    "slug": "cartesia",
+    "name": "Cartesia",
+    "domain": "cartesia.ai",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "pricing",
+      "blog"
+    ],
+    "topTags": [
+      "dark-mode",
+      "card-grid",
+      "centered",
+      "logo-strip",
+      "product-ui",
+      "carousel"
+    ],
+    "sectionIds": [
+      "bce8b1f1f3",
+      "847f28bbd1",
+      "be460a716f",
+      "fed7062012"
+    ],
+    "cover": "bce8b1f1f3",
+    "addedAt": "2026-10-02T06:48:18.055Z"
+  },
+  {
+    "slug": "chargetrip",
+    "name": "Chargetrip",
+    "domain": "chargetrip.com",
+    "domainVerified": true,
+    "count": 12,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "blog",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "product-ui",
+      "warm-neutral",
+      "centered",
+      "photography",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "70b7343336",
+      "336d2c2136",
+      "4df73b0c3f",
+      "9be9808541",
+      "5bc141fc79",
+      "dc0dd6fef0",
+      "3fc981cd08",
+      "42933cfd17",
+      "f35791c783",
+      "55cf362a53",
+      "314a98b7a1",
+      "271d1df53c"
+    ],
+    "cover": "70b7343336",
+    "addedAt": "2026-10-02T06:48:18.068Z"
+  },
+  {
+    "slug": "chatbase",
+    "name": "Chatbase",
+    "domain": "chatbase.co",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "logo-strip",
+      "card-grid",
+      "split",
+      "product-ui",
+      "gradient",
+      "minimal"
+    ],
+    "sectionIds": [
+      "05bda736d3",
+      "36dd1bdecd",
+      "a65e383cda",
+      "6a390f793e",
+      "eafa2faa7d"
+    ],
+    "cover": "05bda736d3",
+    "addedAt": "2026-10-02T06:48:18.090Z"
+  },
+  {
+    "slug": "clay",
+    "name": "Clay",
+    "domain": "clay.com",
+    "domainVerified": true,
+    "count": 29,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "pricing",
+      "feature",
+      "how-it-works",
+      "use-case",
+      "stats",
+      "testimonial",
+      "security",
+      "value-proposition",
+      "about",
+      "logo-cloud",
+      "blog",
+      "footer",
+      "other"
+    ],
+    "topTags": [
+      "3d",
+      "centered",
+      "product-ui",
+      "bold-color",
+      "pastel",
+      "photography"
+    ],
+    "sectionIds": [
+      "32873d5c36",
+      "0fde7af739",
+      "10726792ee",
+      "5751b1e19d",
+      "2c5a9edd01",
+      "bdbe52e8e3",
+      "1487b9caee",
+      "0b9e65a119",
+      "3ff9d46b66",
+      "e4b585846d",
+      "2f81633f7c",
+      "335a972cab",
+      "a5c279cf4c",
+      "9cbd111680",
+      "458f619cfe",
+      "b870f69123",
+      "a0d9578b99",
+      "7eb5b0c67a",
+      "db6f20ae83",
+      "38e01631e5",
+      "fed2a1ceb5",
+      "b7cf6c2172",
+      "c36ad2174a",
+      "985e07d603",
+      "875155518d",
+      "69e1f5c0a0",
+      "224d58568a",
+      "0402123961",
+      "1953295f3c"
+    ],
+    "cover": "32873d5c36",
+    "addedAt": "2026-10-01T05:07:36.000Z"
+  },
+  {
+    "slug": "cloudflare-agents",
+    "name": "Cloudflare Agents",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "pattern-background",
+      "alternating",
+      "illustration"
+    ],
+    "sectionIds": [
+      "538759b276",
+      "a4d852f1d1"
+    ],
+    "cover": "538759b276",
+    "addedAt": "2026-10-02T06:48:18.101Z"
+  },
+  {
+    "slug": "cluster",
+    "name": "Cluster",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "cta",
+      "testimonial",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "dark-mode",
+      "monochrome",
+      "centered",
+      "warm-neutral",
+      "minimal"
+    ],
+    "sectionIds": [
+      "0d44b669a5",
+      "7808618df7",
+      "61252149c9",
+      "74fb8d009d",
+      "88990bd2b5",
+      "4cabc040fa"
+    ],
+    "cover": "0d44b669a5",
+    "addedAt": "2026-09-30T10:00:34.000Z"
+  },
+  {
+    "slug": "clutch-security",
+    "name": "Clutch Security",
+    "domain": "clutch.security",
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "feature"
+    ],
+    "topTags": [
+      "centered",
+      "3d",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "b484661267"
+    ],
+    "cover": "b484661267",
+    "addedAt": "2026-10-02T06:48:18.105Z"
+  },
+  {
+    "slug": "coframe",
+    "name": "Coframe",
+    "domain": "coframe.com",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "blog",
+      "contact",
+      "cta"
+    ],
+    "topTags": [
+      "pattern-background",
+      "split",
+      "bold-color",
+      "3d",
+      "centered",
+      "minimal"
+    ],
+    "sectionIds": [
+      "146576d6cd",
+      "95eca1255d",
+      "ab23210572",
+      "2756bd5f79",
+      "d7134e5e9e",
+      "a2a2680a08"
+    ],
+    "cover": "146576d6cd",
+    "addedAt": "2026-10-02T06:48:18.135Z"
+  },
+  {
+    "slug": "cohere",
+    "name": "Cohere",
+    "domain": "cohere.com",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "use-case",
+      "testimonial",
+      "blog",
+      "security",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "centered",
+      "product-ui",
+      "monochrome",
+      "split",
+      "warm-neutral"
+    ],
+    "sectionIds": [
+      "a0d740d9ea",
+      "a88fbbc50b",
+      "8de669238b",
+      "aace3de47d",
+      "7889f2fa7f",
+      "7985e76a8f",
+      "99dd6070ac",
+      "0f547482a0",
+      "576f36a041",
+      "244e10a0d1"
+    ],
+    "cover": "a0d740d9ea",
+    "addedAt": "2026-10-01T05:12:02.000Z"
+  },
+  {
+    "slug": "coherance",
+    "name": "Coherence",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "minimal",
+      "warm-neutral",
+      "video"
+    ],
+    "sectionIds": [
+      "5b2c900caf"
+    ],
+    "cover": "5b2c900caf",
+    "addedAt": "2026-10-02T06:48:18.139Z"
+  },
+  {
+    "slug": "concourse",
+    "name": "Concourse",
+    "domain": "concourse.co",
+    "domainVerified": true,
+    "count": 17,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "value-proposition",
+      "security",
+      "use-case",
+      "testimonial",
+      "how-it-works",
+      "stats",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "dark-mode",
+      "monochrome",
+      "minimal",
+      "card-grid",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "4f95a9d4cb",
+      "ecf92b0066",
+      "3b16dc96df",
+      "46e33a7cc8",
+      "3c0321bea7",
+      "c0b1b28eff",
+      "c3fbdc9683",
+      "567a181038",
+      "5a32ccd8ad",
+      "e3a016f6b3",
+      "9d4041b10d",
+      "8adef53d37",
+      "15824e5f8b",
+      "9d31dde93c",
+      "839997be26",
+      "134944cb6b",
+      "86014e3e03"
+    ],
+    "cover": "4f95a9d4cb",
+    "addedAt": "2026-09-30T10:10:48.000Z"
+  },
+  {
+    "slug": "conduit",
+    "name": "Conduit",
+    "domain": "conduit.ai",
+    "domainVerified": true,
+    "count": 12,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "faq",
+      "security",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "monochrome",
+      "centered",
+      "product-ui",
+      "minimal",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "b857d20467",
+      "3aeb33e4f4",
+      "ac6372e355",
+      "e860f0321f",
+      "1fd2587bd0",
+      "8c9c1b31fa",
+      "6cb901b2eb",
+      "c8b0c50b5c",
+      "5f059dc96d",
+      "56bf086e76",
+      "d158b3ef3a",
+      "96592f4b2e"
+    ],
+    "cover": "b857d20467",
+    "addedAt": "2026-10-01T04:30:00.000Z"
+  },
+  {
+    "slug": "content-square",
+    "name": "Contentsquare",
+    "domain": "contentsquare.com",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "bold-color",
+      "dark-mode",
+      "split",
+      "product-ui",
+      "logo-strip",
+      "minimal"
+    ],
+    "sectionIds": [
+      "364ffaf5e7",
+      "3e9b9f154d",
+      "b348249ff2"
+    ],
+    "cover": "364ffaf5e7",
+    "addedAt": "2026-10-02T06:48:18.152Z"
+  },
+  {
+    "slug": "cortex",
+    "name": "Cortex",
+    "domain": "cortex.io",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "how-it-works",
+      "blog",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "product-ui",
+      "logo-strip",
+      "metrics",
+      "bento"
+    ],
+    "sectionIds": [
+      "113f9ef996",
+      "1e9369a843",
+      "29feb15d31",
+      "b937b8bc6f",
+      "4863286f24"
+    ],
+    "cover": "113f9ef996",
+    "addedAt": "2026-10-02T06:48:18.174Z"
+  },
+  {
+    "slug": "cotool",
+    "name": "Cotool",
+    "domain": "cotool.ai",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "feature",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "monochrome",
+      "minimal",
+      "bold-color",
+      "centered",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "a54d16c133",
+      "220a989d47",
+      "32e9708565",
+      "3457a0ab14",
+      "ff445c4659",
+      "f49004eee0",
+      "22ea3e53a8",
+      "5a6b120455"
+    ],
+    "cover": "a54d16c133",
+    "addedAt": "2026-10-01T04:36:46.000Z"
+  },
+  {
+    "slug": "cowlendar",
+    "name": "Cowlendar",
+    "domain": "cowlendar.com",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "minimal",
+      "product-ui",
+      "card-grid",
+      "monochrome",
+      "tabs"
+    ],
+    "sectionIds": [
+      "2fec237d96",
+      "7075526f48",
+      "5c3f5de98b",
+      "9ad90af841",
+      "3ab4fe7d68",
+      "41bc2e4890"
+    ],
+    "cover": "2fec237d96",
+    "addedAt": "2026-10-02T06:48:18.205Z"
+  },
+  {
+    "slug": "crescent-cares",
+    "name": "Crescent Cares",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "product-ui",
+      "logo-strip",
+      "pattern-background",
+      "bento",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "f0f72a54e1",
+      "5fdb855ffe"
+    ],
+    "cover": "f0f72a54e1",
+    "addedAt": "2026-10-02T06:48:18.218Z"
+  },
+  {
+    "slug": "crisp",
+    "name": "Crisp",
+    "domain": "crisp.chat",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "pastel",
+      "illustration",
+      "tabs",
+      "3d"
+    ],
+    "sectionIds": [
+      "72128d090d",
+      "f604808f09",
+      "5c2b740e4e",
+      "5ee4a6e71d"
+    ],
+    "cover": "72128d090d",
+    "addedAt": "2026-10-02T06:48:18.237Z"
+  },
+  {
+    "slug": "cronicle",
+    "name": "Cronicle",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "oversized-type",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "ba18c5bbf7"
+    ],
+    "cover": "ba18c5bbf7",
+    "addedAt": "2026-10-01T04:52:00.822Z"
+  },
+  {
+    "slug": "dan-mall",
+    "name": "Dan Mall",
+    "domain": "danmall.com",
+    "domainVerified": true,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "logo-cloud",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "oversized-type",
+      "dark-mode",
+      "centered",
+      "card-grid",
+      "full-bleed-media"
+    ],
+    "sectionIds": [
+      "816849fbea",
+      "f18238a4c8",
+      "4c55a0fb8e",
+      "fb494016dd",
+      "ae18bec9bd",
+      "2fe1accdde"
+    ],
+    "cover": "816849fbea",
+    "addedAt": "2026-10-01T04:54:08.000Z"
+  },
+  {
+    "slug": "daniel-sun",
+    "name": "Daniel Sun",
+    "domain": "danielsun.space",
+    "domainVerified": true,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "other",
+      "logo-cloud",
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "pattern-background",
+      "serif",
+      "illustration",
+      "monochrome",
+      "gradient",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "b43774de37",
+      "a7ead3a308",
+      "af54612c4d",
+      "8102bcb10d",
+      "43eb3b7167",
+      "3878f124e7"
+    ],
+    "cover": "b43774de37",
+    "addedAt": "2026-10-01T04:55:14.000Z"
+  },
+  {
+    "slug": "dash0",
+    "name": "Dash0",
+    "domain": "dash0.com",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing",
+      "team",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "split",
+      "product-ui",
+      "minimal",
+      "video",
+      "tabs"
+    ],
+    "sectionIds": [
+      "c80c771f69",
+      "c2767832cc",
+      "d87504506f",
+      "5221e27e3c",
+      "844e36a3f9",
+      "7cb958db39"
+    ],
+    "cover": "c80c771f69",
+    "addedAt": "2026-10-02T06:48:18.260Z"
+  },
+  {
+    "slug": "daybridge",
+    "name": "Daybridge",
+    "domain": "daybridge.com",
+    "domainVerified": true,
+    "count": 12,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "minimal",
+      "centered",
+      "pastel",
+      "pattern-background",
+      "split"
+    ],
+    "sectionIds": [
+      "a7b81fc346",
+      "d0d14056b7",
+      "cd2fea6c99",
+      "bbee6f04d0",
+      "0fd0b804dc",
+      "1ecb8777b3",
+      "fe663e97e9",
+      "0f6fcb5cae",
+      "4bc974ad76",
+      "07e877f9c9",
+      "e5c7130d01",
+      "1d5da51791"
+    ],
+    "cover": "a7b81fc346",
+    "addedAt": "2026-10-01T04:55:32.000Z"
+  },
+  {
+    "slug": "decimals",
+    "name": "Decimals",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "value-proposition"
+    ],
+    "topTags": [
+      "serif",
+      "warm-neutral",
+      "photography",
+      "centered",
+      "logo-strip",
+      "split"
+    ],
+    "sectionIds": [
+      "a4d32fd5a5",
+      "433e0c08cf",
+      "31e441787f"
+    ],
+    "cover": "a4d32fd5a5",
+    "addedAt": "2026-09-30T10:27:20.891Z"
+  },
+  {
+    "slug": "delphi",
+    "name": "Delphi",
+    "domain": "delphi.ai",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "security",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "warm-neutral",
+      "centered",
+      "photography",
+      "carousel",
+      "bento"
+    ],
+    "sectionIds": [
+      "153f14c9ad",
+      "a64eecf068",
+      "b7450cd4b4",
+      "3d02b22f29"
+    ],
+    "cover": "153f14c9ad",
+    "addedAt": "2026-10-02T06:48:18.276Z"
+  },
+  {
+    "slug": "devrev",
+    "name": "DevRev",
+    "domain": "devrev.ai",
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "use-case",
+      "integration",
+      "testimonial",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "minimal",
+      "card-grid",
+      "product-ui",
+      "centered",
+      "dark-mode",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "427cda8c01",
+      "ab01f5bfe6",
+      "d739307925",
+      "12f6e2d37c",
+      "ddc488c0e2",
+      "596593e9e8",
+      "4fb6e898ef",
+      "4d0e5d0dc3",
+      "ad029bfd8e",
+      "203ea1a0ba",
+      "b745fe40cd"
+    ],
+    "cover": "427cda8c01",
+    "addedAt": "2026-10-02T06:48:18.321Z"
+  },
+  {
+    "slug": "ditto",
+    "name": "Ditto",
+    "domain": "ditto.live",
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing",
+      "contact",
+      "cta"
+    ],
+    "topTags": [
+      "minimal",
+      "pattern-background",
+      "split",
+      "centered",
+      "monochrome",
+      "photography"
+    ],
+    "sectionIds": [
+      "e0b96b4f22",
+      "6a5e8b345b",
+      "b0065d5322",
+      "b98385f208",
+      "d7b152a3b1",
+      "fd207241af",
+      "04e61770c3",
+      "330afb28c9",
+      "a6430a9782",
+      "618044e804",
+      "10256721a1"
+    ],
+    "cover": "e0b96b4f22",
+    "addedAt": "2026-10-02T06:48:18.362Z"
+  },
+  {
+    "slug": "dovetail",
+    "name": "Dovetail",
+    "domain": "dovetail.com",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "use-case",
+      "integration",
+      "pricing",
+      "about",
+      "contact",
+      "cta"
+    ],
+    "topTags": [
+      "split",
+      "bold-color",
+      "tabs",
+      "product-ui",
+      "illustration",
+      "minimal"
+    ],
+    "sectionIds": [
+      "81fe078e62",
+      "37328fad6d",
+      "6a1912fed6",
+      "71c2b0a316",
+      "5e81e8ac0a",
+      "5f0ba5101a",
+      "c821dc6214"
+    ],
+    "cover": "81fe078e62",
+    "addedAt": "2026-10-02T06:48:18.397Z"
+  },
+  {
+    "slug": "duna",
+    "name": "DUNA",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "footer"
+    ],
+    "topTags": [
+      "split",
+      "photography",
+      "logo-strip",
+      "serif",
+      "dark-mode",
+      "metrics"
+    ],
+    "sectionIds": [
+      "9819b10215",
+      "0b527b62ef",
+      "1af2f8b1a5",
+      "8b202d0b97"
+    ],
+    "cover": "9819b10215",
+    "addedAt": "2026-09-30T09:25:32.000Z"
+  },
+  {
+    "slug": "echofi",
+    "name": "EchoFi",
+    "domain": "echofi.ai",
+    "domainVerified": true,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "how-it-works",
+      "cta",
+      "feature",
+      "other",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "monochrome",
+      "3d",
+      "minimal",
+      "gradient"
+    ],
+    "sectionIds": [
+      "3ed1818679",
+      "024907e4e1",
+      "136053087f",
+      "12721a6eec",
+      "59d8a06aa5",
+      "4be63ae4e1",
+      "d368286e83",
+      "14e28c9ff7",
+      "e4f9705ef2",
+      "d6ba604402",
+      "d6d17873f6"
+    ],
+    "cover": "3ed1818679",
+    "addedAt": "2026-10-01T04:42:08.000Z"
+  },
+  {
+    "slug": "eigenpal",
+    "name": "EigenPal",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "comparison"
+    ],
+    "topTags": [
+      "centered",
+      "carousel"
+    ],
+    "sectionIds": [
+      "323c37f300"
+    ],
+    "cover": "323c37f300",
+    "addedAt": "2026-10-02T06:48:18.401Z"
+  },
+  {
+    "slug": "endex",
+    "name": "Endex",
+    "domain": "endex.ai",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "dark-mode",
+      "centered",
+      "product-ui",
+      "gradient",
+      "minimal"
+    ],
+    "sectionIds": [
+      "06d808c384",
+      "65e1b834d0",
+      "912232e6fc"
+    ],
+    "cover": "06d808c384",
+    "addedAt": "2026-10-02T06:48:18.413Z"
+  },
+  {
+    "slug": "equals",
+    "name": "Equals",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "about",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "illustration",
+      "minimal",
+      "split",
+      "product-ui",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "63a6c952ca",
+      "45d4bb212d",
+      "ea2911fd61",
+      "57c957b829",
+      "7428405556",
+      "1bc9c60d2a"
+    ],
+    "cover": "63a6c952ca",
+    "addedAt": "2026-10-02T06:48:18.435Z"
+  },
+  {
+    "slug": "evervault",
+    "name": "Evervault",
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "contact",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "gradient",
+      "centered",
+      "monochrome",
+      "minimal",
+      "split"
+    ],
+    "sectionIds": [
+      "370a98c779",
+      "8e9a410248",
+      "cbbfe23863",
+      "facbbd39cf",
+      "97d83faf77",
+      "604c218985",
+      "a229faf351"
+    ],
+    "cover": "370a98c779",
+    "addedAt": "2026-10-02T06:48:18.472Z"
+  },
+  {
+    "slug": "exante",
+    "name": "Exante",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "blog",
+      "faq",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "photography",
+      "pattern-background",
+      "minimal",
+      "monochrome",
+      "gradient-text"
+    ],
+    "sectionIds": [
+      "d12ddda02b",
+      "1fb28b4219",
+      "49d7908efd",
+      "1b94e8e4ef",
+      "4fa6eba29a"
+    ],
+    "cover": "d12ddda02b",
+    "addedAt": "2026-10-02T06:48:18.490Z"
+  },
+  {
+    "slug": "fellow",
+    "name": "Fellow",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "testimonial",
+      "cta"
+    ],
+    "topTags": [
+      "product-ui",
+      "gradient",
+      "gradient-text",
+      "split",
+      "pastel",
+      "centered"
+    ],
+    "sectionIds": [
+      "99c3e72437",
+      "f767f68a50",
+      "47c2e2d8d0",
+      "0a8f1afcb8",
+      "379c436301"
+    ],
+    "cover": "99c3e72437",
+    "addedAt": "2026-10-02T06:48:18.509Z"
+  },
+  {
+    "slug": "fernand",
+    "name": "Fernand",
+    "domain": "getfernand.com",
+    "domainVerified": true,
+    "count": 15,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "about",
+      "testimonial",
+      "integration",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "monochrome",
+      "photography",
+      "card-grid",
+      "minimal"
+    ],
+    "sectionIds": [
+      "92bd97ea9d",
+      "1bd0d994b9",
+      "05ed8e5c71",
+      "b8695e005c",
+      "07a528b77e",
+      "627e2819c1",
+      "727615cb63",
+      "172b0f4b29",
+      "c662522e72",
+      "fd163c155a",
+      "6c4e5d7fc8",
+      "7a923baf47",
+      "ed8912927c",
+      "cf57120efb",
+      "a033fb8f27"
+    ],
+    "cover": "92bd97ea9d",
+    "addedAt": "2026-10-01T04:53:28.000Z"
+  },
+  {
+    "slug": "ferndesk",
+    "name": "Ferndesk",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "testimonial"
+    ],
+    "topTags": [
+      "serif",
+      "illustration",
+      "product-ui",
+      "pattern-background",
+      "split",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "5425a441dd",
+      "88ae33bbe5",
+      "0b8d12a1a7",
+      "5d70638881"
+    ],
+    "cover": "5425a441dd",
+    "addedAt": "2026-10-02T06:48:18.528Z"
+  },
+  {
+    "slug": "figr",
+    "name": "Figr",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "pricing",
+      "faq"
+    ],
+    "topTags": [
+      "serif",
+      "illustration",
+      "centered",
+      "monochrome",
+      "pattern-background",
+      "minimal"
+    ],
+    "sectionIds": [
+      "2afddb06d0",
+      "da3f5a4595",
+      "21ac9d2aea",
+      "b59a80704c",
+      "2f936da4a7",
+      "aa3661e409"
+    ],
+    "cover": "2afddb06d0",
+    "addedAt": "2026-10-02T06:48:18.553Z"
+  },
+  {
+    "slug": "fin",
+    "name": "Fin",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "gradient",
+      "dark-mode",
+      "centered",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "ec607ed893",
+      "6ec4828ccd"
+    ],
+    "cover": "ec607ed893",
+    "addedAt": "2026-10-02T06:48:18.566Z"
+  },
+  {
+    "slug": "finsepa",
+    "name": "Finsepa",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "dark-mode",
+      "form",
+      "tabs",
+      "gradient"
+    ],
+    "sectionIds": [
+      "3da515b8ff",
+      "1169ea7c2b",
+      "9d47edca44"
+    ],
+    "cover": "3da515b8ff",
+    "addedAt": "2026-10-02T06:48:18.580Z"
+  },
+  {
+    "slug": "finta",
+    "name": "Finta",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing"
+    ],
+    "topTags": [
+      "minimal",
+      "monochrome",
+      "centered",
+      "product-ui",
+      "logo-strip",
+      "gradient"
+    ],
+    "sectionIds": [
+      "7f3781a1bf",
+      "b53b333b7e",
+      "7e26154d56",
+      "d986ac7553",
+      "bfc35dfa5f"
+    ],
+    "cover": "7f3781a1bf",
+    "addedAt": "2026-10-02T06:48:18.600Z"
+  },
+  {
+    "slug": "firecrawl",
+    "name": "Firecrawl",
+    "domain": "firecrawl.dev",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "pattern-background",
+      "tabs",
+      "code",
+      "card-grid",
+      "minimal",
+      "centered"
+    ],
+    "sectionIds": [
+      "9e8b72cb69",
+      "1d2a6a49ca",
+      "382ccd905f",
+      "395b6397c9",
+      "0a8a553681"
+    ],
+    "cover": "9e8b72cb69",
+    "addedAt": "2026-10-02T06:48:18.620Z"
+  },
+  {
+    "slug": "firstwork",
+    "name": "Firstwork",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "footer"
+    ],
+    "topTags": [
+      "bold-color",
+      "centered"
+    ],
+    "sectionIds": [
+      "ace530f909"
+    ],
+    "cover": "ace530f909",
+    "addedAt": "2026-10-02T06:48:18.624Z"
+  },
+  {
+    "slug": "flank",
+    "name": "Flank",
+    "domain": "flank.ai",
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "how-it-works",
+      "testimonial",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "3d",
+      "split",
+      "minimal",
+      "monochrome",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "1e0c063f38",
+      "48b2d79c2e",
+      "1de78805f4",
+      "39080cd589",
+      "76af528a30",
+      "1da00789af",
+      "bf04076cc2",
+      "def0a0179e"
+    ],
+    "cover": "1e0c063f38",
+    "addedAt": "2026-10-02T06:48:18.652Z"
+  },
+  {
+    "slug": "flect",
+    "name": "Flect",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "form",
+      "photography",
+      "product-ui",
+      "gradient",
+      "oversized-type"
+    ],
+    "sectionIds": [
+      "b747104c16",
+      "6cf6688a47"
+    ],
+    "cover": "b747104c16",
+    "addedAt": "2026-09-30T09:33:21.793Z"
+  },
+  {
+    "slug": "flitedeck",
+    "name": "Flitedeck",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "other",
+      "feature",
+      "faq"
+    ],
+    "topTags": [
+      "photography",
+      "monochrome",
+      "split",
+      "logo-strip",
+      "carousel",
+      "centered"
+    ],
+    "sectionIds": [
+      "7f7c9c826e",
+      "a41280e69c",
+      "8048d15fed",
+      "2646968b2c"
+    ],
+    "cover": "7f7c9c826e",
+    "addedAt": "2026-09-30T10:33:08.000Z"
+  },
+  {
+    "slug": "folk",
+    "name": "folk",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "pricing",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "monochrome",
+      "centered",
+      "product-ui",
+      "warm-neutral",
+      "bento"
+    ],
+    "sectionIds": [
+      "0166a7d38a",
+      "1dde55d43d",
+      "64dcff5a91",
+      "008f075343"
+    ],
+    "cover": "0166a7d38a",
+    "addedAt": "2026-10-02T06:48:18.676Z"
+  },
+  {
+    "slug": "framer",
+    "name": "Framer",
+    "domain": "framer.com",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "product-ui",
+      "gradient",
+      "split",
+      "logo-strip",
+      "tabs"
+    ],
+    "sectionIds": [
+      "17faf99067",
+      "7cff4fa04c",
+      "8b695ada11",
+      "6355e3b9cb",
+      "688b880dc5",
+      "1d92dbfab5"
+    ],
+    "cover": "17faf99067",
+    "addedAt": "2026-10-02T06:48:18.699Z"
+  },
+  {
+    "slug": "frankli",
+    "name": "Frankli",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "testimonial",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "dark-mode",
+      "illustration",
+      "centered",
+      "card-grid",
+      "bold-color"
+    ],
+    "sectionIds": [
+      "f15c4c35bc",
+      "89598591b2",
+      "2c6fab7133",
+      "0e6eeaeec0",
+      "e30ebfa1d0"
+    ],
+    "cover": "f15c4c35bc",
+    "addedAt": "2026-10-02T06:48:18.719Z"
+  },
+  {
+    "slug": "futern",
+    "name": "Futern",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "warm-neutral"
+    ],
+    "sectionIds": [
+      "a4e9f15360"
+    ],
+    "cover": "a4e9f15360",
+    "addedAt": "2026-10-02T06:48:18.723Z"
+  },
+  {
+    "slug": "gocertify",
+    "name": "Gocertify",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "comparison"
+    ],
+    "topTags": [
+      "logo-strip",
+      "centered",
+      "minimal",
+      "carousel",
+      "photography",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "da7492879d",
+      "011cd5d7c2",
+      "32dec51055"
+    ],
+    "cover": "da7492879d",
+    "addedAt": "2026-10-02T06:48:18.759Z"
+  },
+  {
+    "slug": "godmode",
+    "name": "Godmode",
+    "domain": null,
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "pricing",
+      "blog",
+      "faq",
+      "cta"
+    ],
+    "topTags": [
+      "monochrome",
+      "product-ui",
+      "minimal",
+      "centered",
+      "bento",
+      "form"
+    ],
+    "sectionIds": [
+      "9f35ce00ff",
+      "b7ed96f78b",
+      "1f21bcdb57",
+      "c1703badfd",
+      "e7de0e5154",
+      "cf95f0d400",
+      "8ad4ac943f",
+      "f84a9b4023",
+      "c24a1c9f3a"
+    ],
+    "cover": "9f35ce00ff",
+    "addedAt": "2026-10-02T06:48:18.801Z"
+  },
+  {
+    "slug": "goodside",
+    "name": "Goodside",
+    "domain": "goodside.studio",
+    "domainVerified": true,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "about",
+      "other",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "photography",
+      "minimal",
+      "monochrome",
+      "oversized-type",
+      "centered"
+    ],
+    "sectionIds": [
+      "199efd1c73",
+      "2eca9ffb29",
+      "15ce53e027",
+      "f9c9c230b9"
+    ],
+    "cover": "199efd1c73",
+    "addedAt": "2026-10-01T04:42:28.000Z"
+  },
+  {
+    "slug": "gradient-labs",
+    "name": "Gradient Labs",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "blog",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "warm-neutral",
+      "split",
+      "form",
+      "product-ui",
+      "centered"
+    ],
+    "sectionIds": [
+      "16e0dbf47f",
+      "41512f9a5f",
+      "41a51d2916",
+      "050203bf24",
+      "3bdbe8e8de"
+    ],
+    "cover": "16e0dbf47f",
+    "addedAt": "2026-10-02T06:48:18.823Z"
+  },
+  {
+    "slug": "greenhouse",
+    "name": "Greenhouse",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "dark-mode",
+      "centered",
+      "product-ui",
+      "card-grid",
+      "photography"
+    ],
+    "sectionIds": [
+      "d590e9a7a3",
+      "5c8cf96a37",
+      "75c64b4d04",
+      "ba284e012f"
+    ],
+    "cover": "d590e9a7a3",
+    "addedAt": "2026-10-02T06:48:18.838Z"
+  },
+  {
+    "slug": "griffin",
+    "name": "Griffin",
+    "domain": "griffin.com",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "use-case",
+      "feature",
+      "testimonial",
+      "value-proposition",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "serif",
+      "monochrome",
+      "photography",
+      "minimal",
+      "split"
+    ],
+    "sectionIds": [
+      "bd38a678c1",
+      "37e354f482",
+      "1b66d8c321",
+      "28af2a1552",
+      "42c96bb24a",
+      "823fdbcea9",
+      "e5e1f69db4",
+      "6e94f4b38e"
+    ],
+    "cover": "bd38a678c1",
+    "addedAt": "2026-10-01T05:17:48.000Z"
+  },
+  {
+    "slug": "groundcover",
+    "name": "groundcover",
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "integration",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "centered",
+      "split",
+      "product-ui",
+      "illustration",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "17d581052d",
+      "877f588608",
+      "80f6b46d5b",
+      "8f1c002f1f",
+      "bed7aea5a4",
+      "a4fbcf8793",
+      "081b25751b"
+    ],
+    "cover": "17d581052d",
+    "addedAt": "2026-10-02T06:48:18.866Z"
+  },
+  {
+    "slug": "gumloop",
+    "name": "Gumloop",
+    "domain": "gumloop.com",
+    "domainVerified": true,
+    "count": 12,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "security",
+      "testimonial",
+      "blog",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "product-ui",
+      "monochrome",
+      "split",
+      "card-grid",
+      "metrics"
+    ],
+    "sectionIds": [
+      "717c7429a5",
+      "4465da064a",
+      "96438fe641",
+      "1be596667d",
+      "a4f2bd404d",
+      "0341928cd8",
+      "d1cc7b7ba7",
+      "dfb5c4d7b7",
+      "11307b5d20",
+      "661b382074",
+      "62a7624455",
+      "25f9316b0a"
+    ],
+    "cover": "717c7429a5",
+    "addedAt": "2026-10-01T04:53:44.000Z"
+  },
+  {
+    "slug": "harmonic",
+    "name": "Harmonic",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing",
+      "team",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "form",
+      "card-grid",
+      "bento",
+      "carousel",
+      "tabs"
+    ],
+    "sectionIds": [
+      "113b5c2a93",
+      "5e999d8567",
+      "4214d1a701",
+      "ef0ae5c9e1",
+      "6c1cc14759",
+      "621b22a974"
+    ],
+    "cover": "113b5c2a93",
+    "addedAt": "2026-10-02T06:48:18.900Z"
+  },
+  {
+    "slug": "getharvest",
+    "name": "Harvest",
+    "domain": "getharvest.com",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "product-ui",
+      "split",
+      "warm-neutral",
+      "carousel",
+      "minimal"
+    ],
+    "sectionIds": [
+      "316d3681a8",
+      "1bce29660b",
+      "264e6ce72b",
+      "ded762d601",
+      "4492d528fb",
+      "13e0da6813",
+      "f0340af5d5"
+    ],
+    "cover": "316d3681a8",
+    "addedAt": "2026-10-02T06:48:18.749Z"
+  },
+  {
+    "slug": "harvey",
+    "name": "Harvey",
+    "domain": "harvey.ai",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "use-case",
+      "feature",
+      "testimonial",
+      "stats",
+      "security",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "serif",
+      "minimal",
+      "product-ui",
+      "split",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "a3981a71f9",
+      "2ad730c766",
+      "f598108596",
+      "468adca761",
+      "4cc2338566",
+      "e913bea8c2",
+      "53068be83b",
+      "5116ae84d0"
+    ],
+    "cover": "a3981a71f9",
+    "addedAt": "2026-10-01T05:10:14.000Z"
+  },
+  {
+    "slug": "headroom",
+    "name": "Headroom",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "illustration",
+      "oversized-type",
+      "centered",
+      "form",
+      "product-ui",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "fac4fc64a0",
+      "6d0fde45a5",
+      "d58208e798"
+    ],
+    "cover": "fac4fc64a0",
+    "addedAt": "2026-10-02T06:48:18.914Z"
+  },
+  {
+    "slug": "hellotime",
+    "name": "Hellotime",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "monochrome",
+      "minimal",
+      "product-ui",
+      "illustration",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "0b2bf69445",
+      "c34b1caf84",
+      "18625878c9",
+      "5c2c4add43",
+      "88ccbeb575",
+      "40fee300ec"
+    ],
+    "cover": "0b2bf69445",
+    "addedAt": "2026-10-02T06:48:18.938Z"
+  },
+  {
+    "slug": "highnote",
+    "name": "Highnote",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "gradient",
+      "product-ui",
+      "centered",
+      "card-grid",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "48904efacc",
+      "0617303784",
+      "e6f9142424",
+      "291779a378"
+    ],
+    "cover": "48904efacc",
+    "addedAt": "2026-10-02T06:48:18.954Z"
+  },
+  {
+    "slug": "howseen-ai",
+    "name": "Howseen AI",
+    "domain": null,
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "about",
+      "cta",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "minimal",
+      "monochrome",
+      "tabs",
+      "form"
+    ],
+    "sectionIds": [
+      "77152af7c6",
+      "087577964a",
+      "8505effb21",
+      "8c7db3999e",
+      "7d18f174b4",
+      "b5bc331fa0",
+      "7ea458d680",
+      "4423a5d7cf",
+      "dd032326c8"
+    ],
+    "cover": "77152af7c6",
+    "addedAt": "2026-09-30T10:36:24.000Z"
+  },
+  {
+    "slug": "humblytics",
+    "name": "Humblytics",
+    "domain": "humblytics.com",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "pricing"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "logo-strip",
+      "tabs",
+      "card-grid",
+      "minimal"
+    ],
+    "sectionIds": [
+      "2ec81463be",
+      "b7730ed1a2"
+    ],
+    "cover": "2ec81463be",
+    "addedAt": "2026-10-02T06:48:18.967Z"
+  },
+  {
+    "slug": "hunar",
+    "name": "Hunar",
+    "domain": "hunar.ai",
+    "domainVerified": true,
+    "count": 19,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "comparison",
+      "use-case",
+      "how-it-works",
+      "security",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "card-grid",
+      "product-ui",
+      "split",
+      "dark-mode",
+      "photography",
+      "gradient"
+    ],
+    "sectionIds": [
+      "8828ae1802",
+      "930f29972b",
+      "9f5720471a",
+      "572a222630",
+      "b4bb511bcb",
+      "b7c29e08bc",
+      "8272f1c3e3",
+      "9a3f5fad5b",
+      "f9eeec1ce3",
+      "559d17e2f0",
+      "d8718b8d4a",
+      "5d2d5b4249",
+      "c1d8a68d99",
+      "2c55489ccc",
+      "682bacfd46",
+      "a8692edd08",
+      "54f0d94cf4",
+      "6dd09df1ac",
+      "82c812e5ba"
+    ],
+    "cover": "8828ae1802",
+    "addedAt": "2026-09-30T10:30:56.000Z"
+  },
+  {
+    "slug": "hyperline",
+    "name": "Hyperline",
+    "domain": "hyperline.co",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "use-case",
+      "integration",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "photography",
+      "card-grid",
+      "dark-mode",
+      "pattern-background",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "1dd8c54e1b",
+      "01e110849b",
+      "3bf7e09630",
+      "cac96cc1bb",
+      "e878aae038"
+    ],
+    "cover": "1dd8c54e1b",
+    "addedAt": "2026-10-02T06:48:18.989Z"
+  },
+  {
+    "slug": "incident",
+    "name": "incident.io",
+    "domain": "incident.io",
+    "domainVerified": false,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "feature",
+      "testimonial",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "serif",
+      "minimal",
+      "dark-mode",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "c79323bdad",
+      "54698fb8c5",
+      "33990caa0c",
+      "8c8208002d",
+      "f539fc8a58",
+      "e5dd87f215",
+      "65462460af",
+      "267791aed8",
+      "cb0686e1f0",
+      "a2f514f3b6"
+    ],
+    "cover": "c79323bdad",
+    "addedAt": "2026-10-02T06:48:19.025Z"
+  },
+  {
+    "slug": "inertia-js",
+    "name": "Inertia.js",
+    "domain": "inertiajs.com",
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "3d"
+    ],
+    "sectionIds": [
+      "2e857bafa9"
+    ],
+    "cover": "2e857bafa9",
+    "addedAt": "2026-10-02T06:48:19.028Z"
+  },
+  {
+    "slug": "interfere",
+    "name": "Interfere",
+    "domain": "interfere.com",
+    "domainVerified": true,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "how-it-works",
+      "testimonial",
+      "feature",
+      "security",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "product-ui",
+      "code",
+      "split",
+      "monochrome",
+      "gradient"
+    ],
+    "sectionIds": [
+      "4899ecae9b",
+      "c56468bada",
+      "e3b5a99d68",
+      "c0f0f68fb6",
+      "741b93cbc9",
+      "f4eb925cda",
+      "65ee5c9ce2",
+      "c5430430ea",
+      "a6dd4441d8"
+    ],
+    "cover": "4899ecae9b",
+    "addedAt": "2026-10-01T05:09:58.000Z"
+  },
+  {
+    "slug": "invertase",
+    "name": "Invertase",
+    "domain": "invertase.io",
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "blog",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "pattern-background",
+      "3d",
+      "centered",
+      "product-ui",
+      "carousel"
+    ],
+    "sectionIds": [
+      "59b6f366b0",
+      "48902fe8c5",
+      "b4b0205455",
+      "c07c48230c",
+      "348e28dcd8",
+      "79e4132fbb",
+      "0e81818b08",
+      "5ef5816d8e"
+    ],
+    "cover": "59b6f366b0",
+    "addedAt": "2026-10-02T06:48:19.060Z"
+  },
+  {
+    "slug": "jace",
+    "name": "Jace",
+    "domain": "jace.ai",
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "comparison"
+    ],
+    "topTags": [
+      "serif",
+      "centered",
+      "pastel"
+    ],
+    "sectionIds": [
+      "9d9da178b4"
+    ],
+    "cover": "9d9da178b4",
+    "addedAt": "2026-10-02T06:48:19.064Z"
+  },
+  {
+    "slug": "jasper",
+    "name": "Jasper",
+    "domain": "jasper.ai",
+    "domainVerified": false,
+    "count": 20,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "integration",
+      "testimonial",
+      "pricing",
+      "team",
+      "blog",
+      "faq",
+      "contact",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "card-grid",
+      "minimal",
+      "pattern-background",
+      "pastel",
+      "split"
+    ],
+    "sectionIds": [
+      "ca5f85fc2e",
+      "91dcb57555",
+      "e7fabb27e1",
+      "9f7b4946f9",
+      "259b58b5aa",
+      "29690ad859",
+      "1767e6513b",
+      "3e9f88b90c",
+      "ac4bdb476d",
+      "e19219f44c",
+      "e69bfbd072",
+      "4807727a20",
+      "8adf141ad6",
+      "2cdb9befae",
+      "8821a5e965",
+      "5d5a2e175f",
+      "39cb4a2463",
+      "7a458e5c6e",
+      "e714459518",
+      "4d915ba9b6"
+    ],
+    "cover": "ca5f85fc2e",
+    "addedAt": "2026-10-02T06:48:19.161Z"
+  },
+  {
+    "slug": "jitter",
+    "name": "Jitter",
+    "domain": "jitter.video",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "use-case",
+      "testimonial",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "logo-strip",
+      "tabs",
+      "centered",
+      "oversized-type",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "470c3ad0ba",
+      "42219279a8",
+      "829361dacb",
+      "04e9d3ba3c",
+      "4a9cc9a057",
+      "980672e4f0"
+    ],
+    "cover": "470c3ad0ba",
+    "addedAt": "2026-10-02T06:48:19.183Z"
+  },
+  {
+    "slug": "koyeb",
+    "name": "Koyeb",
+    "domain": "koyeb.com",
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "testimonial",
+      "pricing",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "pattern-background",
+      "logo-strip",
+      "warm-neutral",
+      "card-grid",
+      "centered",
+      "code"
+    ],
+    "sectionIds": [
+      "34fa7132ba",
+      "89f128b01c",
+      "12587901ce",
+      "fb76eb48b9",
+      "1b86630a79",
+      "c50ab83634",
+      "470f245dd4",
+      "b8b4425916"
+    ],
+    "cover": "34fa7132ba",
+    "addedAt": "2026-10-02T06:48:19.224Z"
+  },
+  {
+    "slug": "laravel",
+    "name": "Laravel",
+    "domain": "laravel.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "cta",
+      "testimonial",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "bento",
+      "split",
+      "3d",
+      "monochrome",
+      "tabs"
+    ],
+    "sectionIds": [
+      "ae72dd2c4c",
+      "5efd5041da",
+      "d9c17793e8",
+      "3573170b8c",
+      "da20c7dc99",
+      "9ff3ae5499",
+      "3f2aaa4bf4"
+    ],
+    "cover": "ae72dd2c4c",
+    "addedAt": "2026-10-01T05:14:38.000Z"
+  },
+  {
+    "slug": "laravel-cloud",
+    "name": "Laravel Cloud",
+    "domain": "cloud.laravel.com",
+    "domainVerified": true,
+    "count": 18,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "security",
+      "pricing",
+      "testimonial",
+      "faq",
+      "cta",
+      "footer",
+      "contact"
+    ],
+    "topTags": [
+      "minimal",
+      "product-ui",
+      "card-grid",
+      "gradient",
+      "bento",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "3f5ae861e0",
+      "6d9515c78a",
+      "eb70c28f24",
+      "f36dcb33bd",
+      "e97781e58a",
+      "59956be00e",
+      "0da51a1a01",
+      "3b2d4a1677",
+      "a028fe839d",
+      "3c374138ef",
+      "f6a3a90a5a",
+      "4ca5efada2",
+      "f074e5939b",
+      "43a44c7517",
+      "efaaf6cd4a",
+      "8ebc3c44ee",
+      "877bed4fdc",
+      "9f07e02eaa"
+    ],
+    "cover": "3f5ae861e0",
+    "addedAt": "2026-10-02T06:48:19.283Z"
+  },
+  {
+    "slug": "laravel-forge",
+    "name": "Laravel Forge",
+    "domain": "forge.laravel.com",
+    "domainVerified": true,
+    "count": 13,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "value-proposition",
+      "testimonial",
+      "stats",
+      "cta",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "product-ui",
+      "minimal",
+      "card-grid",
+      "dark-mode",
+      "centered"
+    ],
+    "sectionIds": [
+      "adccc75549",
+      "a8c570b0a2",
+      "684ec1b234",
+      "9b970d2f41",
+      "61e28e8a7d",
+      "cddf65dcd9",
+      "4a619c9d1d",
+      "b0295fc12c",
+      "fb724514a9",
+      "fedcf8f9fa",
+      "7cfc90d40c",
+      "5a6fcb0e22",
+      "868306af03"
+    ],
+    "cover": "adccc75549",
+    "addedAt": "2026-10-01T05:15:04.000Z"
+  },
+  {
+    "slug": "laravel-nightwatch",
+    "name": "Laravel Nightwatch",
+    "domain": "nightwatch.laravel.com",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "product-ui",
+      "centered",
+      "monochrome",
+      "video",
+      "bento"
+    ],
+    "sectionIds": [
+      "e61d588701",
+      "ceb5168a3f",
+      "39056b111d",
+      "d5c7b083db",
+      "86f40e5c49",
+      "f2ff8c6292",
+      "2431b6ec02",
+      "bf569fc61e"
+    ],
+    "cover": "e61d588701",
+    "addedAt": "2026-10-01T05:14:58.000Z"
+  },
+  {
+    "slug": "latitude",
+    "name": "Latitude.sh",
+    "domain": "latitude.sh",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "minimal",
+      "centered",
+      "product-ui",
+      "card-grid",
+      "split"
+    ],
+    "sectionIds": [
+      "d58086e641",
+      "b34b873281",
+      "0b5fa37815",
+      "aeb159e2a0"
+    ],
+    "cover": "d58086e641",
+    "addedAt": "2026-10-02T06:48:19.298Z"
+  },
+  {
+    "slug": "lattice",
+    "name": "Lattice",
+    "domain": "lattice.com",
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "testimonial",
+      "pricing",
+      "about",
+      "faq",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "warm-neutral",
+      "product-ui",
+      "gradient",
+      "pastel",
+      "minimal"
+    ],
+    "sectionIds": [
+      "a85116a348",
+      "9a1e5ed18a",
+      "c048b9cc47",
+      "a129d364d5",
+      "76f8170cdf",
+      "0ea643bb17",
+      "f061c69966",
+      "0e92762957"
+    ],
+    "cover": "a85116a348",
+    "addedAt": "2026-10-02T06:48:19.345Z"
+  },
+  {
+    "slug": "leedlime",
+    "name": "Leedlime",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "illustration",
+      "split",
+      "product-ui",
+      "dark-mode",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "7e2c534a06",
+      "9c317e27d4",
+      "858451caff",
+      "42db94f3b3"
+    ],
+    "cover": "7e2c534a06",
+    "addedAt": "2026-10-01T04:34:34.000Z"
+  },
+  {
+    "slug": "legora",
+    "name": "Legora",
+    "domain": "legora.com",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "use-case",
+      "blog",
+      "stats",
+      "about",
+      "security",
+      "cta"
+    ],
+    "topTags": [
+      "photography",
+      "centered",
+      "full-bleed-media",
+      "card-grid",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "526408ab95",
+      "acf8161352",
+      "3f7898c62e",
+      "66c1f4fe0b",
+      "6e4c089b05",
+      "58b3ea3e76",
+      "2e907da388",
+      "e5fb45fe2f"
+    ],
+    "cover": "526408ab95",
+    "addedAt": "2026-10-01T04:55:54.000Z"
+  },
+  {
+    "slug": "lemni",
+    "name": "Lemni",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "pricing"
+    ],
+    "topTags": [
+      "centered",
+      "3d"
+    ],
+    "sectionIds": [
+      "ddd21be4f9"
+    ],
+    "cover": "ddd21be4f9",
+    "addedAt": "2026-10-02T06:48:19.350Z"
+  },
+  {
+    "slug": "lightdash",
+    "name": "Lightdash",
+    "domain": "lightdash.com",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "how-it-works",
+      "comparison"
+    ],
+    "topTags": [
+      "card-grid",
+      "product-ui",
+      "code",
+      "table",
+      "minimal"
+    ],
+    "sectionIds": [
+      "1e442fbf6c",
+      "6dbc04829e"
+    ],
+    "cover": "1e442fbf6c",
+    "addedAt": "2026-10-02T06:48:19.360Z"
+  },
+  {
+    "slug": "lightning-proxies",
+    "name": "Lightning Proxies",
+    "domain": "lightningproxies.net",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "tabs",
+      "split",
+      "product-ui",
+      "logo-strip",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "4d7576cba2",
+      "412b34c724",
+      "147561fd6e",
+      "a0cb5249a1",
+      "c1016d86a4"
+    ],
+    "cover": "4d7576cba2",
+    "addedAt": "2026-10-02T06:48:19.393Z"
+  },
+  {
+    "slug": "lightyear",
+    "name": "Lightyear",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "about"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "5fc4e99310"
+    ],
+    "cover": "5fc4e99310",
+    "addedAt": "2026-10-02T06:48:19.399Z"
+  },
+  {
+    "slug": "lindy",
+    "name": "Lindy",
+    "domain": "lindy.ai",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "integration",
+      "testimonial",
+      "about",
+      "cta"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "product-ui",
+      "card-grid",
+      "centered",
+      "minimal",
+      "gradient"
+    ],
+    "sectionIds": [
+      "10f8117a79",
+      "56a7f4128d",
+      "22dfd952d1",
+      "56f8e07c80",
+      "af77daefa5",
+      "c58f632d3e",
+      "1007dbd762"
+    ],
+    "cover": "10f8117a79",
+    "addedAt": "2026-10-02T06:48:19.428Z"
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "domain": "linear.app",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "integration",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "product-ui",
+      "minimal",
+      "centered",
+      "carousel"
+    ],
+    "sectionIds": [
+      "8aaf705ddf",
+      "62262fd10c",
+      "44f4286531",
+      "fcb8c91d65",
+      "a68d20953f",
+      "87ce90bf5d"
+    ],
+    "cover": "8aaf705ddf",
+    "addedAt": "2026-10-02T06:48:19.486Z"
+  },
+  {
+    "slug": "linearity",
+    "name": "Linearity",
+    "domain": "linearity.io",
+    "domainVerified": true,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "comparison",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "form",
+      "logo-strip",
+      "product-ui",
+      "tabs"
+    ],
+    "sectionIds": [
+      "c757d372f0",
+      "ad2b316962",
+      "7c7f57633c",
+      "001217a659",
+      "1c61294085"
+    ],
+    "cover": "c757d372f0",
+    "addedAt": "2026-10-01T04:49:43.926Z"
+  },
+  {
+    "slug": "liveblocks",
+    "name": "Liveblocks",
+    "domain": "liveblocks.io",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "centered",
+      "product-ui",
+      "gradient",
+      "bento"
+    ],
+    "sectionIds": [
+      "8f93f1d4ce",
+      "6a523058dc",
+      "3509e97e3f",
+      "3f12e69656",
+      "0c1197c7b1",
+      "b5345e7c31"
+    ],
+    "cover": "8f93f1d4ce",
+    "addedAt": "2026-10-02T06:48:19.515Z"
+  },
+  {
+    "slug": "localcan",
+    "name": "LocalCan",
+    "domain": "localcan.com",
+    "domainVerified": true,
+    "count": 12,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "feature",
+      "how-it-works",
+      "integration",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "dark-mode",
+      "split",
+      "code",
+      "pattern-background",
+      "minimal"
+    ],
+    "sectionIds": [
+      "d1a024d7bb",
+      "11c747e72e",
+      "0756f1bac1",
+      "74f5b8120a",
+      "804a169d1f",
+      "ab0ca6191f",
+      "5ec4e4597c",
+      "a1c8ca48a1",
+      "f31269c33e",
+      "570498ca99",
+      "8707e5d1ed",
+      "95a26dad4f"
+    ],
+    "cover": "d1a024d7bb",
+    "addedAt": "2026-10-01T04:48:58.000Z"
+  },
+  {
+    "slug": "localyzer",
+    "name": "Localyzer",
+    "domain": null,
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "testimonial",
+      "team",
+      "contact",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "centered",
+      "card-grid",
+      "dark-mode",
+      "product-ui",
+      "minimal"
+    ],
+    "sectionIds": [
+      "d399f6ff89",
+      "74cb5d0382",
+      "68c03b8585",
+      "248f7ee97e",
+      "723df97cdd",
+      "5605fd292e",
+      "a2ae704220",
+      "844b8465a9",
+      "e07abf3905"
+    ],
+    "cover": "d399f6ff89",
+    "addedAt": "2026-10-02T06:48:19.563Z"
+  },
+  {
+    "slug": "loop",
+    "name": "Loop",
+    "domain": "loopreturns.com",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "integration",
+      "testimonial",
+      "pricing"
+    ],
+    "topTags": [
+      "tabs",
+      "bold-color",
+      "split",
+      "product-ui",
+      "glassmorphism",
+      "bento"
+    ],
+    "sectionIds": [
+      "d5de2d1e64",
+      "763ba1292b",
+      "c8d628ce19",
+      "ac5d6f530b",
+      "d55cb0e9dc"
+    ],
+    "cover": "d5de2d1e64",
+    "addedAt": "2026-10-02T06:48:19.583Z"
+  },
+  {
+    "slug": "lynq",
+    "name": "Lynq",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "serif",
+      "warm-neutral",
+      "product-ui",
+      "centered",
+      "gradient",
+      "alternating"
+    ],
+    "sectionIds": [
+      "760176837d",
+      "589438a673"
+    ],
+    "cover": "760176837d",
+    "addedAt": "2026-10-02T06:48:19.591Z"
+  },
+  {
+    "slug": "maybe",
+    "name": "Maybe",
+    "domain": "maybe.co",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "minimal",
+      "card-grid",
+      "pattern-background",
+      "tabs"
+    ],
+    "sectionIds": [
+      "fed81cc6e5",
+      "1c34d573ea",
+      "48b59122c4",
+      "a8f7ac46a9",
+      "0e17653fbd"
+    ],
+    "cover": "fed81cc6e5",
+    "addedAt": "2026-10-02T06:48:19.622Z"
+  },
+  {
+    "slug": "menkind",
+    "name": "Menkind",
+    "domain": null,
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "testimonial",
+      "team",
+      "blog",
+      "cta",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "warm-neutral",
+      "photography",
+      "carousel",
+      "split",
+      "full-bleed-media"
+    ],
+    "sectionIds": [
+      "3c7d871ee3",
+      "1aa5e25a25",
+      "177cccc85a",
+      "8d32803c4b",
+      "4faa3fe4ef",
+      "64d765e567",
+      "ac3f52eae0",
+      "42e6ec8c7f"
+    ],
+    "cover": "3c7d871ee3",
+    "addedAt": "2026-09-30T09:32:16.000Z"
+  },
+  {
+    "slug": "mintlify",
+    "name": "Mintlify",
+    "domain": "mintlify.com",
+    "domainVerified": true,
+    "count": 16,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "stats",
+      "blog",
+      "footer",
+      "pricing"
+    ],
+    "topTags": [
+      "minimal",
+      "monochrome",
+      "dark-mode",
+      "card-grid",
+      "split",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "1867b618d1",
+      "4c3b14677a",
+      "cc00c1e629",
+      "43c0efc349",
+      "6e0dfeb020",
+      "ef5d6e580f",
+      "cb51729e3b",
+      "1c5171454f",
+      "01ee83829d",
+      "a73ee17bec",
+      "34b37ef311",
+      "4366474498",
+      "0c867dc588",
+      "dcb3e8d8bc",
+      "3d720c9d57",
+      "607cde3aca"
+    ],
+    "cover": "1867b618d1",
+    "addedAt": "2026-10-02T06:48:19.648Z"
+  },
+  {
+    "slug": "missive",
+    "name": "Missive",
+    "domain": "missiveapp.com",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "centered",
+      "minimal",
+      "carousel",
+      "product-ui",
+      "tabs"
+    ],
+    "sectionIds": [
+      "4c98ec8403",
+      "3a0c7631f7",
+      "7d48083d05",
+      "92255fff92"
+    ],
+    "cover": "4c98ec8403",
+    "addedAt": "2026-10-02T06:48:19.669Z"
+  },
+  {
+    "slug": "miter",
+    "name": "Miter",
+    "domain": "miter.com",
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "integration",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "tabs",
+      "pattern-background",
+      "warm-neutral",
+      "split",
+      "form"
+    ],
+    "sectionIds": [
+      "bcb65e8ded",
+      "31084bfad6",
+      "b423f20c5f",
+      "477ce0096c",
+      "85cef59c86",
+      "9792085c4e",
+      "f421a83383",
+      "50c857abea"
+    ],
+    "cover": "bcb65e8ded",
+    "addedAt": "2026-10-02T06:48:19.700Z"
+  },
+  {
+    "slug": "modulify",
+    "name": "Modulify",
+    "domain": "modulify.ai",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "gradient",
+      "centered",
+      "product-ui",
+      "minimal",
+      "form",
+      "tabs"
+    ],
+    "sectionIds": [
+      "d883225b7e",
+      "3672cc6d14",
+      "c91f43498e",
+      "bd39657ea8",
+      "467a424a78",
+      "5c25184284",
+      "5293dcfa7d",
+      "aecd2dbab3"
+    ],
+    "cover": "d883225b7e",
+    "addedAt": "2026-10-01T04:42:42.000Z"
+  },
+  {
+    "slug": "monica",
+    "name": "Monica",
+    "domain": "monica.im",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "testimonial"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "gradient",
+      "metrics"
+    ],
+    "sectionIds": [
+      "4a497ad99c",
+      "9eaabc3172"
+    ],
+    "cover": "4a497ad99c",
+    "addedAt": "2026-10-02T06:48:19.714Z"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "domain": "n8n.io",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "3d",
+      "product-ui",
+      "tabs",
+      "gradient-text",
+      "centered"
+    ],
+    "sectionIds": [
+      "8fc6d2dcb8",
+      "91f4f9ec4d"
+    ],
+    "cover": "8fc6d2dcb8",
+    "addedAt": "2026-10-02T06:48:19.721Z"
+  },
+  {
+    "slug": "near",
+    "name": "NEAR",
+    "domain": "near.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "security",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "gradient",
+      "dark-mode",
+      "product-ui",
+      "card-grid",
+      "minimal",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "aab37183f8",
+      "61fa76ce52",
+      "6bf6482076",
+      "c13df58e54",
+      "8d71864b61",
+      "cf2abfcb02",
+      "2f084eb303"
+    ],
+    "cover": "aab37183f8",
+    "addedAt": "2026-09-30T10:04:48.000Z"
+  },
+  {
+    "slug": "neon",
+    "name": "Neon",
+    "domain": "neon.com",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "pattern-background",
+      "centered",
+      "3d",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "5edd54a398",
+      "1bef91fe4d",
+      "a0b39b19bc",
+      "a8b97f7ce3",
+      "2245a76eab"
+    ],
+    "cover": "5edd54a398",
+    "addedAt": "2026-10-02T06:48:19.740Z"
+  },
+  {
+    "slug": "nickai",
+    "name": "NickAI",
+    "domain": null,
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "cta",
+      "feature",
+      "integration",
+      "security",
+      "pricing",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "minimal",
+      "card-grid",
+      "monochrome",
+      "3d",
+      "centered"
+    ],
+    "sectionIds": [
+      "faf374cac4",
+      "bf3c89974d",
+      "8dc87707ef",
+      "27ad7bcf43",
+      "4130d61e65",
+      "c678237a1c",
+      "430a829dc3",
+      "81df22e5da",
+      "86a121db1e",
+      "69f0737600",
+      "fd8a1b1e39"
+    ],
+    "cover": "faf374cac4",
+    "addedAt": "2026-09-30T10:33:54.000Z"
+  },
+  {
+    "slug": "nominal",
+    "name": "Nominal",
+    "domain": "nominal.so",
+    "domainVerified": true,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "card-grid",
+      "minimal",
+      "centered",
+      "product-ui",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "8bef5c4410",
+      "42630a54b1",
+      "91b5837547",
+      "89153c249d",
+      "1695316c1f"
+    ],
+    "cover": "8bef5c4410",
+    "addedAt": "2026-09-30T09:52:36.000Z"
+  },
+  {
+    "slug": "nory",
+    "name": "Nory",
+    "domain": "nory.ai",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "photography",
+      "warm-neutral",
+      "product-ui",
+      "centered",
+      "carousel"
+    ],
+    "sectionIds": [
+      "0068492ffa",
+      "26dfae82ab",
+      "4a6f1a59a2",
+      "bca09a350e",
+      "a4d5fb85ca",
+      "26ef1e77b8"
+    ],
+    "cover": "0068492ffa",
+    "addedAt": "2026-10-02T06:48:19.764Z"
+  },
+  {
+    "slug": "noxus",
+    "name": "Noxus",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "split",
+      "product-ui",
+      "minimal",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "5196790bc1",
+      "b094092377"
+    ],
+    "cover": "5196790bc1",
+    "addedAt": "2026-10-02T06:48:19.775Z"
+  },
+  {
+    "slug": "operate",
+    "name": "Operate",
+    "domain": "operate.so",
+    "domainVerified": true,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "product-ui",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "1297acf318"
+    ],
+    "cover": "1297acf318",
+    "addedAt": "2026-10-01T03:26:55.959Z"
+  },
+  {
+    "slug": "orbi",
+    "name": "Orbi",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "value-proposition"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "gradient",
+      "form",
+      "product-ui",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "8dcd608a6a",
+      "ca8304f6f5"
+    ],
+    "cover": "8dcd608a6a",
+    "addedAt": "2026-10-02T06:48:19.783Z"
+  },
+  {
+    "slug": "orchestra",
+    "name": "Orchestra",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "comparison",
+      "pricing"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "product-ui",
+      "centered",
+      "logo-strip",
+      "minimal"
+    ],
+    "sectionIds": [
+      "67e063f1ac",
+      "9424648c7c",
+      "323f4515ab",
+      "22f8b5ae64"
+    ],
+    "cover": "67e063f1ac",
+    "addedAt": "2026-10-02T06:48:19.804Z"
+  },
+  {
+    "slug": "origin",
+    "name": "Origin",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "how-it-works",
+      "testimonial",
+      "team",
+      "about",
+      "contact"
+    ],
+    "topTags": [
+      "serif",
+      "bold-color",
+      "logo-strip",
+      "photography",
+      "carousel",
+      "centered"
+    ],
+    "sectionIds": [
+      "079ed3b338",
+      "84717eb5b7",
+      "ebaee1cb4d",
+      "151b6304a8",
+      "2eb2df5a79",
+      "89bcc52f72"
+    ],
+    "cover": "079ed3b338",
+    "addedAt": "2026-10-02T06:48:19.829Z"
+  },
+  {
+    "slug": "orshot",
+    "name": "Orshot",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "pattern-background",
+      "bento",
+      "minimal"
+    ],
+    "sectionIds": [
+      "1a2333e4b1",
+      "086a8ef448"
+    ],
+    "cover": "1a2333e4b1",
+    "addedAt": "2026-10-02T06:48:19.837Z"
+  },
+  {
+    "slug": "outerbase",
+    "name": "Outerbase",
+    "domain": null,
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "illustration",
+      "full-bleed-media",
+      "product-ui",
+      "tabs",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "153c180548",
+      "9d65c9b35c",
+      "e55832761e",
+      "66660e21c2",
+      "f42662e73c",
+      "abbdf2499c",
+      "cb498d72b4",
+      "e4cd1a1f8e"
+    ],
+    "cover": "153c180548",
+    "addedAt": "2026-10-02T06:48:19.868Z"
+  },
+  {
+    "slug": "outseta",
+    "name": "Outseta",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "comparison",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "split",
+      "gradient",
+      "video",
+      "bento"
+    ],
+    "sectionIds": [
+      "847ca76384",
+      "030c181d60",
+      "4020c5cdda",
+      "9b847be745",
+      "d3a9fdb399",
+      "405103380d"
+    ],
+    "cover": "847ca76384",
+    "addedAt": "2026-10-02T06:48:19.889Z"
+  },
+  {
+    "slug": "outtake",
+    "name": "Outtake",
+    "domain": "outtake.ai",
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "split",
+      "illustration",
+      "warm-neutral",
+      "minimal",
+      "dark-mode",
+      "tabs"
+    ],
+    "sectionIds": [
+      "de003499cb",
+      "155d83fdbe",
+      "b22e2e393b",
+      "a1cf532929",
+      "a503108002",
+      "333093363e"
+    ],
+    "cover": "de003499cb",
+    "addedAt": "2026-10-02T06:48:19.927Z"
+  },
+  {
+    "slug": "pace",
+    "name": "Pace",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "comparison"
+    ],
+    "topTags": [
+      "table",
+      "serif",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "cbd8b86991"
+    ],
+    "cover": "cbd8b86991",
+    "addedAt": "2026-10-02T06:48:19.930Z"
+  },
+  {
+    "slug": "palette",
+    "name": "Palette",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "minimal",
+      "carousel",
+      "photography",
+      "3d"
+    ],
+    "sectionIds": [
+      "9e033a2f79",
+      "1b05d130a2",
+      "dcbbd79e6d",
+      "0504839fda",
+      "777b856d86"
+    ],
+    "cover": "9e033a2f79",
+    "addedAt": "2026-10-01T12:22:46.000Z"
+  },
+  {
+    "slug": "pallet",
+    "name": "Pallet",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "product-ui",
+      "illustration",
+      "tabs",
+      "monochrome",
+      "form"
+    ],
+    "sectionIds": [
+      "23b346fad6",
+      "4c177401f1",
+      "0c94e32f4b"
+    ],
+    "cover": "23b346fad6",
+    "addedAt": "2026-10-02T06:48:19.941Z"
+  },
+  {
+    "slug": "paraform",
+    "name": "Paraform",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "photography",
+      "product-ui",
+      "centered",
+      "serif",
+      "logo-strip",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "b753bf7fae",
+      "ecfe5c9442"
+    ],
+    "cover": "b753bf7fae",
+    "addedAt": "2026-10-02T06:48:19.950Z"
+  },
+  {
+    "slug": "parker",
+    "name": "Parker",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature"
+    ],
+    "topTags": [
+      "serif",
+      "product-ui",
+      "warm-neutral",
+      "gradient",
+      "centered",
+      "form"
+    ],
+    "sectionIds": [
+      "b33e4b4ea8",
+      "2ccf10d3e0",
+      "87a8f3aa62"
+    ],
+    "cover": "b33e4b4ea8",
+    "addedAt": "2026-10-02T06:48:19.962Z"
+  },
+  {
+    "slug": "phidata",
+    "name": "Phidata",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "dark-mode",
+      "minimal",
+      "bento",
+      "carousel"
+    ],
+    "sectionIds": [
+      "6be3524c82",
+      "0f7ce1e8e9",
+      "05b1ccebef",
+      "7438055b35",
+      "ecf5359892"
+    ],
+    "cover": "6be3524c82",
+    "addedAt": "2026-10-02T06:48:19.986Z"
+  },
+  {
+    "slug": "plaid",
+    "name": "Plaid",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "blog",
+      "cta"
+    ],
+    "topTags": [
+      "split",
+      "illustration",
+      "logo-strip",
+      "card-grid",
+      "product-ui",
+      "photography"
+    ],
+    "sectionIds": [
+      "b1f8c36044",
+      "6311054b4d",
+      "1905c98f6f"
+    ],
+    "cover": "b1f8c36044",
+    "addedAt": "2026-10-02T06:48:20.000Z"
+  },
+  {
+    "slug": "plain",
+    "name": "Plain",
+    "domain": null,
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "pricing",
+      "team",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "product-ui",
+      "card-grid",
+      "minimal",
+      "centered",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "6154b1916f",
+      "b8dba0c653",
+      "b595c46f29",
+      "eac7e9f9b3",
+      "1882135087",
+      "dc88b652ee",
+      "f31b354b8b",
+      "c0386ac1d8"
+    ],
+    "cover": "6154b1916f",
+    "addedAt": "2026-10-02T06:48:20.039Z"
+  },
+  {
+    "slug": "plasma",
+    "name": "Plasma",
+    "domain": "plasma.org",
+    "domainVerified": true,
+    "count": 36,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "stats",
+      "logo-cloud",
+      "use-case",
+      "testimonial",
+      "pricing",
+      "how-it-works",
+      "cta",
+      "footer",
+      "security",
+      "faq"
+    ],
+    "topTags": [
+      "centered",
+      "minimal",
+      "monochrome",
+      "dark-mode",
+      "product-ui",
+      "3d"
+    ],
+    "sectionIds": [
+      "21a5a40625",
+      "ca60e6c8c5",
+      "4a5f28d32c",
+      "1c19ebb46b",
+      "a91bf97c09",
+      "6c787fddb4",
+      "5e781d0aab",
+      "ae4b8159f5",
+      "f86bc20da7",
+      "2d0e505b8e",
+      "dbc6f63a72",
+      "e743f693e5",
+      "c21c2a1e3a",
+      "72dbbedee6",
+      "b5491308f5",
+      "0e4e863ec3",
+      "8c7fc787f5",
+      "1d47c2744f",
+      "ea95292e9f",
+      "23e2626db8",
+      "6ab359f28b",
+      "71d091d7d0",
+      "36d18f6329",
+      "0b2d443109",
+      "a291305dcb",
+      "6caf921ad7",
+      "1e54ce9096",
+      "7b62e706c5",
+      "412a7e43fb",
+      "156c4cb13b",
+      "344886ec63",
+      "e34d848d3f",
+      "a80698e61b",
+      "199bbf889e",
+      "a77d9872b2",
+      "38823878d1"
+    ],
+    "cover": "21a5a40625",
+    "addedAt": "2026-09-30T09:23:40.000Z"
+  },
+  {
+    "slug": "pleo",
+    "name": "Pleo",
+    "domain": "pleo.io",
+    "domainVerified": true,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "footer"
+    ],
+    "topTags": [
+      "full-bleed-media",
+      "photography",
+      "tabs",
+      "logo-strip",
+      "dark-mode",
+      "oversized-type"
+    ],
+    "sectionIds": [
+      "d7b18096f5",
+      "93ac5ca283"
+    ],
+    "cover": "d7b18096f5",
+    "addedAt": "2026-09-30T10:10:17.859Z"
+  },
+  {
+    "slug": "ploy",
+    "name": "Ploy",
+    "domain": null,
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "use-case",
+      "cta"
+    ],
+    "topTags": [
+      "oversized-type",
+      "centered",
+      "minimal",
+      "monochrome",
+      "card-grid",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "44bea3ad28",
+      "31ec630612",
+      "2aa872afc1",
+      "b274eee5bd",
+      "17a25350d8",
+      "7976570b86",
+      "67764d878c",
+      "f0552a1b5b"
+    ],
+    "cover": "44bea3ad28",
+    "addedAt": "2026-10-01T04:48:28.000Z"
+  },
+  {
+    "slug": "plumb",
+    "name": "Plumb",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "logo-cloud"
+    ],
+    "topTags": [
+      "centered",
+      "serif",
+      "product-ui",
+      "carousel"
+    ],
+    "sectionIds": [
+      "ccc00c349c",
+      "b30459780f"
+    ],
+    "cover": "ccc00c349c",
+    "addedAt": "2026-10-02T06:48:20.047Z"
+  },
+  {
+    "slug": "podium-automation",
+    "name": "Podium Automation",
+    "domain": "podiumautomation.com",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "how-it-works",
+      "testimonial",
+      "faq"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "split",
+      "illustration",
+      "photography",
+      "minimal",
+      "dark-mode"
+    ],
+    "sectionIds": [
+      "fbc2a65d0c",
+      "68be07eadd",
+      "25ebbb0209",
+      "6227f710e3",
+      "e8eab736d3",
+      "e20ad54f23",
+      "13c334f2b9",
+      "1f8a85d96f"
+    ],
+    "cover": "fbc2a65d0c",
+    "addedAt": "2026-09-30T09:58:12.000Z"
+  },
+  {
+    "slug": "pogo",
+    "name": "Pogo",
+    "domain": "joinpogo.com",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "stats",
+      "how-it-works",
+      "testimonial",
+      "feature",
+      "use-case",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "card-grid",
+      "pastel",
+      "product-ui",
+      "photography",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "cb3b946d95",
+      "ad340cea7d",
+      "ceb377654f",
+      "7db9e506a7",
+      "ffbbd032c7",
+      "a8cfff27a3",
+      "c0291ceb31",
+      "53707381fe",
+      "5679bbbb46",
+      "cfb2c74ae9"
+    ],
+    "cover": "cb3b946d95",
+    "addedAt": "2026-10-01T05:09:40.000Z"
+  },
+  {
+    "slug": "port",
+    "name": "Port",
+    "domain": "getport.io",
+    "domainVerified": false,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "integration",
+      "testimonial",
+      "pricing",
+      "blog",
+      "contact",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "monochrome",
+      "pattern-background",
+      "product-ui",
+      "card-grid",
+      "centered"
+    ],
+    "sectionIds": [
+      "01641b7bd9",
+      "9e39dc1934",
+      "715ac69cd2",
+      "d74e66b7cf",
+      "9d2dc0170b",
+      "eb7e02f92c",
+      "b732c64521",
+      "93b66b120c",
+      "ebadcdf8ec",
+      "4ab8f380b8"
+    ],
+    "cover": "01641b7bd9",
+    "addedAt": "2026-10-02T06:48:20.082Z"
+  },
+  {
+    "slug": "portal",
+    "name": "Portal",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "how-it-works",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "illustration",
+      "centered",
+      "gradient",
+      "product-ui",
+      "minimal"
+    ],
+    "sectionIds": [
+      "6f87c451d2",
+      "7af8678e86",
+      "e3b924b62a"
+    ],
+    "cover": "6f87c451d2",
+    "addedAt": "2026-10-02T06:48:20.095Z"
+  },
+  {
+    "slug": "primer",
+    "name": "Primer",
+    "domain": "primer.io",
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "logo-cloud",
+      "testimonial",
+      "contact",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "photography",
+      "form",
+      "logo-strip",
+      "minimal",
+      "carousel"
+    ],
+    "sectionIds": [
+      "428e6e76f1",
+      "0702ef7929",
+      "0d682768b2",
+      "241e250a6c",
+      "74fb79b684"
+    ],
+    "cover": "428e6e76f1",
+    "addedAt": "2026-10-02T06:48:20.115Z"
+  },
+  {
+    "slug": "privy",
+    "name": "Privy",
+    "domain": "privy.io",
+    "domainVerified": true,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "value-proposition",
+      "footer"
+    ],
+    "topTags": [
+      "split",
+      "product-ui",
+      "3d",
+      "minimal",
+      "bold-color",
+      "bento"
+    ],
+    "sectionIds": [
+      "b1374fb395",
+      "186caa618a",
+      "997f6f803d",
+      "952490b072",
+      "3b57e8189a"
+    ],
+    "cover": "b1374fb395",
+    "addedAt": "2026-09-30T10:29:46.092Z"
+  },
+  {
+    "slug": "profound",
+    "name": "Profound",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "centered",
+      "pattern-background",
+      "product-ui",
+      "split"
+    ],
+    "sectionIds": [
+      "abc3b88b6e",
+      "8730540d32",
+      "e252fb52e1",
+      "7271e0cfa2"
+    ],
+    "cover": "abc3b88b6e",
+    "addedAt": "2026-10-02T06:48:20.132Z"
+  },
+  {
+    "slug": "promptwatch",
+    "name": "Promptwatch",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "logo-strip",
+      "gradient",
+      "metrics",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "9e1d861f38",
+      "0e0266933b",
+      "96b6aadfb9"
+    ],
+    "cover": "9e1d861f38",
+    "addedAt": "2026-10-02T06:48:20.143Z"
+  },
+  {
+    "slug": "proto",
+    "name": "Proto",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "form",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "b00b0ee56b"
+    ],
+    "cover": "b00b0ee56b",
+    "addedAt": "2026-10-01T04:33:04.140Z"
+  },
+  {
+    "slug": "quicklnk",
+    "name": "QuickLnk",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "how-it-works",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "product-ui",
+      "bold-color",
+      "photography",
+      "bento",
+      "card-grid",
+      "tabs"
+    ],
+    "sectionIds": [
+      "be5c41cf83",
+      "0e8e634b07",
+      "c2bb7af2c2",
+      "6861a00f0b",
+      "5f192b5b1d"
+    ],
+    "cover": "be5c41cf83",
+    "addedAt": "2026-10-02T06:48:20.162Z"
+  },
+  {
+    "slug": "rally",
+    "name": "Rally",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "comparison"
+    ],
+    "topTags": [
+      "minimal",
+      "product-ui",
+      "table"
+    ],
+    "sectionIds": [
+      "e89193ed9c",
+      "57b7477a15"
+    ],
+    "cover": "e89193ed9c",
+    "addedAt": "2026-10-02T06:48:20.171Z"
+  },
+  {
+    "slug": "raneo",
+    "name": "Raneo",
+    "domain": null,
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "feature",
+      "value-proposition",
+      "about",
+      "use-case",
+      "blog",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "tabs",
+      "centered",
+      "monochrome",
+      "dark-mode",
+      "split"
+    ],
+    "sectionIds": [
+      "d2b649bd69",
+      "3546a36e2f",
+      "57020e9125",
+      "e6ff5f27bc",
+      "28485ac367",
+      "3257e5de3e",
+      "a1c9260c0f",
+      "c31aefaef9",
+      "6036eddbda",
+      "992004b0b7",
+      "d1798a6e6d"
+    ],
+    "cover": "d2b649bd69",
+    "addedAt": "2026-10-01T12:22:52.000Z"
+  },
+  {
+    "slug": "raycast",
+    "name": "Raycast",
+    "domain": "raycast.com",
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "pricing",
+      "faq"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "card-grid",
+      "tabs",
+      "table",
+      "centered"
+    ],
+    "sectionIds": [
+      "7dd762b6c9",
+      "a8c1b78f78",
+      "9b11ce4f72"
+    ],
+    "cover": "7dd762b6c9",
+    "addedAt": "2026-10-02T06:48:20.184Z"
+  },
+  {
+    "slug": "rayon",
+    "name": "Rayon",
+    "domain": null,
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "pricing",
+      "team",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "pattern-background",
+      "card-grid",
+      "product-ui",
+      "video",
+      "photography"
+    ],
+    "sectionIds": [
+      "6512536101",
+      "c6fe1bb785",
+      "824a74ef80",
+      "9b2e2ffa3e",
+      "f3a31b0764",
+      "bd269ce8c6",
+      "0d6947a699",
+      "3e837a3c3b"
+    ],
+    "cover": "6512536101",
+    "addedAt": "2026-10-02T06:48:20.225Z"
+  },
+  {
+    "slug": "realm",
+    "name": "Realm",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "integration",
+      "testimonial"
+    ],
+    "topTags": [
+      "pastel",
+      "product-ui",
+      "card-grid",
+      "centered",
+      "split",
+      "form"
+    ],
+    "sectionIds": [
+      "999455933b",
+      "1440ebf18b",
+      "46bb8b7ef9",
+      "9846f57b4e",
+      "fef9598864",
+      "523df673db"
+    ],
+    "cover": "999455933b",
+    "addedAt": "2026-10-02T06:48:20.247Z"
+  },
+  {
+    "slug": "relume",
+    "name": "Relume",
+    "domain": "relume.io",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "other",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "form",
+      "3d",
+      "minimal",
+      "pattern-background"
+    ],
+    "sectionIds": [
+      "3a11098725",
+      "7fa58d9a1c",
+      "61e18c6582",
+      "727c8f7c9f",
+      "7b3159b4a9",
+      "60f830fed3",
+      "6f8815bbcc",
+      "5bdd264e46"
+    ],
+    "cover": "3a11098725",
+    "addedAt": "2026-10-01T04:52:38.000Z"
+  },
+  {
+    "slug": "response",
+    "name": "Response",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "footer"
+    ],
+    "topTags": [
+      "illustration",
+      "centered",
+      "form",
+      "logo-strip",
+      "product-ui",
+      "bold-color"
+    ],
+    "sectionIds": [
+      "b9a00ba330",
+      "e389cd8053"
+    ],
+    "cover": "b9a00ba330",
+    "addedAt": "2026-10-02T06:48:20.257Z"
+  },
+  {
+    "slug": "rezolv",
+    "name": "Rezolv",
+    "domain": null,
+    "domainVerified": false,
+    "count": 12,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "feature",
+      "security",
+      "about",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "warm-neutral",
+      "carousel",
+      "photography",
+      "split"
+    ],
+    "sectionIds": [
+      "0deb343b67",
+      "9f0c1a70f4",
+      "b6bed64f4c",
+      "56092f832e",
+      "136c5d375f",
+      "a9b49d9a59",
+      "d70aec286c",
+      "e9f2da477b",
+      "98181393c5",
+      "2e6b96bab4",
+      "c8a4c8a909",
+      "84a6e9106a"
+    ],
+    "cover": "0deb343b67",
+    "addedAt": "2026-09-30T09:36:08.000Z"
+  },
+  {
+    "slug": "robin-humphreys",
+    "name": "Robin Humphreys",
+    "domain": "robin.cv",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "minimal",
+      "monochrome",
+      "3d"
+    ],
+    "sectionIds": [
+      "a603cc25ad",
+      "3e8d7b72af"
+    ],
+    "cover": "a603cc25ad",
+    "addedAt": "2026-10-01T04:49:15.372Z"
+  },
+  {
+    "slug": "rogo",
+    "name": "Rogo",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "value-proposition",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "metrics",
+      "oversized-type"
+    ],
+    "sectionIds": [
+      "0a83519f7b",
+      "2fc641f21c"
+    ],
+    "cover": "0a83519f7b",
+    "addedAt": "2026-10-02T06:48:20.263Z"
+  },
+  {
+    "slug": "routable",
+    "name": "Routable",
+    "domain": null,
+    "domainVerified": false,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "integration",
+      "testimonial",
+      "pricing",
+      "blog",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "monochrome",
+      "dark-mode",
+      "product-ui",
+      "tabs",
+      "metrics"
+    ],
+    "sectionIds": [
+      "60f694fdaf",
+      "e7a273840e",
+      "1c9a52614f",
+      "c8c0502e2c",
+      "e1c1f2077c",
+      "c361ba7bf7",
+      "afd747bc0b",
+      "ae12b0efd5",
+      "3535be9eb2",
+      "f559d298cd",
+      "f40743d73e"
+    ],
+    "cover": "60f694fdaf",
+    "addedAt": "2026-10-02T06:48:20.307Z"
+  },
+  {
+    "slug": "rubus",
+    "name": "Rubus",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "pastel",
+      "product-ui",
+      "centered",
+      "logo-strip",
+      "bento"
+    ],
+    "sectionIds": [
+      "c63a307a1b",
+      "c030936256"
+    ],
+    "cover": "c63a307a1b",
+    "addedAt": "2026-10-02T06:48:20.316Z"
+  },
+  {
+    "slug": "rulebase",
+    "name": "Rulebase",
+    "domain": "rulebase.co",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "security",
+      "integration",
+      "footer"
+    ],
+    "topTags": [
+      "card-grid",
+      "monochrome",
+      "product-ui",
+      "tabs",
+      "centered",
+      "minimal"
+    ],
+    "sectionIds": [
+      "c7966dd73b",
+      "0f6047eba8",
+      "9a9ebeae14",
+      "0feb392b67",
+      "aaf7087bc5",
+      "e6460d7a17",
+      "71e25afd73",
+      "fc845ed49b"
+    ],
+    "cover": "c7966dd73b",
+    "addedAt": "2026-10-01T05:17:52.000Z"
+  },
+  {
+    "slug": "ruul",
+    "name": "Ruul",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "how-it-works",
+      "testimonial",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "minimal",
+      "bold-color",
+      "carousel",
+      "photography",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "a4de49c6c6",
+      "a5a9d2f504",
+      "2842dc5c09",
+      "f2a2e67982",
+      "cc100f6a59"
+    ],
+    "cover": "a4de49c6c6",
+    "addedAt": "2026-10-02T06:48:20.334Z"
+  },
+  {
+    "slug": "saki",
+    "name": "Saki",
+    "domain": "sakiproducts.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "about",
+      "feature",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "monochrome",
+      "dark-mode",
+      "split",
+      "centered",
+      "minimal"
+    ],
+    "sectionIds": [
+      "9f9cca7866",
+      "6e9b7a21bf",
+      "ffc7c039ae",
+      "63ead66b20",
+      "ac0e81377c",
+      "d4b9b98e60",
+      "e3dde9ec5c"
+    ],
+    "cover": "9f9cca7866",
+    "addedAt": "2026-09-30T10:23:33.975Z"
+  },
+  {
+    "slug": "sandbar",
+    "name": "Sandbar",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "blog"
+    ],
+    "topTags": [
+      "dark-mode",
+      "product-ui",
+      "minimal",
+      "split",
+      "centered",
+      "form"
+    ],
+    "sectionIds": [
+      "cca19a8dc6",
+      "c83afe6d44",
+      "6b458abc9c",
+      "0f325db37a"
+    ],
+    "cover": "cca19a8dc6",
+    "addedAt": "2026-10-02T06:48:20.351Z"
+  },
+  {
+    "slug": "sanity",
+    "name": "Sanity",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "photography",
+      "split",
+      "product-ui",
+      "logo-strip",
+      "code"
+    ],
+    "sectionIds": [
+      "4a92be6e7e",
+      "8dd3a3ae36",
+      "210890ab0e",
+      "97028ed0d0"
+    ],
+    "cover": "4a92be6e7e",
+    "addedAt": "2026-10-02T06:48:20.366Z"
+  },
+  {
+    "slug": "seamless",
+    "name": "Seamless.AI",
+    "domain": null,
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "testimonial",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "centered",
+      "gradient",
+      "card-grid",
+      "form",
+      "photography"
+    ],
+    "sectionIds": [
+      "e7712f2476",
+      "a8ab7437c3",
+      "495b2dfe2a",
+      "96c871a9bb",
+      "be424b112a",
+      "0bdb1e3263",
+      "c101339172"
+    ],
+    "cover": "e7712f2476",
+    "addedAt": "2026-10-02T06:48:20.392Z"
+  },
+  {
+    "slug": "secoda",
+    "name": "Secoda",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration"
+    ],
+    "topTags": [
+      "split",
+      "product-ui",
+      "form",
+      "logo-strip",
+      "card-grid",
+      "centered"
+    ],
+    "sectionIds": [
+      "8822ab81a0",
+      "83b025d080",
+      "21227ab150"
+    ],
+    "cover": "8822ab81a0",
+    "addedAt": "2026-10-02T06:48:20.402Z"
+  },
+  {
+    "slug": "sevalla",
+    "name": "Sevalla",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing"
+    ],
+    "topTags": [
+      "dark-mode",
+      "serif",
+      "centered",
+      "product-ui",
+      "code",
+      "minimal"
+    ],
+    "sectionIds": [
+      "d9869787a8",
+      "3e72d594ec",
+      "f8e46f31d1"
+    ],
+    "cover": "d9869787a8",
+    "addedAt": "2026-10-02T06:48:20.413Z"
+  },
+  {
+    "slug": "shelby",
+    "name": "Shelby",
+    "domain": "shelby.xyz",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "value-proposition",
+      "use-case",
+      "about",
+      "blog",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "minimal",
+      "split",
+      "monochrome",
+      "dark-mode",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "555eb24b8d",
+      "1ff8e31d17",
+      "731c80dc2d",
+      "d4afc392a1",
+      "c55272c488",
+      "2f8e29fc9c",
+      "9891c104d3",
+      "237cd466f6",
+      "ca32678016",
+      "aaf7e128f5"
+    ],
+    "cover": "555eb24b8d",
+    "addedAt": "2026-10-01T04:32:26.000Z"
+  },
+  {
+    "slug": "siterails",
+    "name": "Siterails",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "pricing"
+    ],
+    "topTags": [
+      "card-grid",
+      "tabs"
+    ],
+    "sectionIds": [
+      "e2fc3c0079"
+    ],
+    "cover": "e2fc3c0079",
+    "addedAt": "2026-10-02T06:48:20.417Z"
+  },
+  {
+    "slug": "smallest-ai",
+    "name": "Smallest.ai",
+    "domain": "smallest.ai",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "about",
+      "feature",
+      "security",
+      "footer"
+    ],
+    "topTags": [
+      "minimal",
+      "monochrome",
+      "product-ui",
+      "split",
+      "tabs",
+      "bento"
+    ],
+    "sectionIds": [
+      "653a9cd670",
+      "23a8ee57ca",
+      "948364fd2d",
+      "4e169abd67",
+      "96c7fd7427",
+      "5b314c770e",
+      "0ee7c6ea25",
+      "9e358447ff"
+    ],
+    "cover": "653a9cd670",
+    "addedAt": "2026-10-01T05:20:06.000Z"
+  },
+  {
+    "slug": "snackish",
+    "name": "Snackish",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "about",
+      "footer"
+    ],
+    "topTags": [
+      "split",
+      "photography",
+      "pastel",
+      "illustration",
+      "bold-color",
+      "oversized-type"
+    ],
+    "sectionIds": [
+      "b2938842dc",
+      "aefb877251",
+      "49d8cc822c"
+    ],
+    "cover": "b2938842dc",
+    "addedAt": "2026-09-30T10:25:04.737Z"
+  },
+  {
+    "slug": "sofia-khegai",
+    "name": "Sofia Khegai",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "dark-mode",
+      "oversized-type"
+    ],
+    "sectionIds": [
+      "8ff79fce3e"
+    ],
+    "cover": "8ff79fce3e",
+    "addedAt": "2026-10-01T04:41:06.405Z"
+  },
+  {
+    "slug": "spara",
+    "name": "Spara",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "testimonial"
+    ],
+    "topTags": [
+      "gradient",
+      "tabs",
+      "centered",
+      "form",
+      "logo-strip",
+      "bento"
+    ],
+    "sectionIds": [
+      "6f8c95b1f7",
+      "3cf11218c0",
+      "88ceb1e690",
+      "4123191676"
+    ],
+    "cover": "6f8c95b1f7",
+    "addedAt": "2026-10-02T06:48:20.431Z"
+  },
+  {
+    "slug": "spellbook",
+    "name": "Spellbook",
+    "domain": null,
+    "domainVerified": false,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "serif",
+      "centered",
+      "card-grid",
+      "form",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "d3c5c8c0aa",
+      "6e4aa9310a",
+      "840f4aef05",
+      "c40c1a659b",
+      "bd676a21d6"
+    ],
+    "cover": "d3c5c8c0aa",
+    "addedAt": "2026-10-02T06:48:20.450Z"
+  },
+  {
+    "slug": "steel-dev",
+    "name": "Steel",
+    "domain": null,
+    "domainVerified": false,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "stats",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "card-grid",
+      "split",
+      "code",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "b1e550c433",
+      "7b2003194d",
+      "ceb8b00722",
+      "6df2a4c575",
+      "23b696e705",
+      "d375606b60"
+    ],
+    "cover": "b1e550c433",
+    "addedAt": "2026-10-02T06:48:20.474Z"
+  },
+  {
+    "slug": "submagic",
+    "name": "Submagic",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "testimonial",
+      "pricing",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "card-grid",
+      "video",
+      "photography",
+      "bento",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "34143abb1e",
+      "8dbdcc43c6",
+      "b014a38a88",
+      "ee623cb429"
+    ],
+    "cover": "34143abb1e",
+    "addedAt": "2026-10-02T06:48:20.491Z"
+  },
+  {
+    "slug": "synaptrix",
+    "name": "Synaptrix",
+    "domain": "synaptrixlabs.com",
+    "domainVerified": true,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "other",
+      "about",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "monochrome",
+      "minimal",
+      "tabs",
+      "carousel"
+    ],
+    "sectionIds": [
+      "31927317ae",
+      "7093aea05b",
+      "ae195227d7",
+      "7f502cf4a4",
+      "4c0531cbad"
+    ],
+    "cover": "31927317ae",
+    "addedAt": "2026-10-01T04:37:28.000Z"
+  },
+  {
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "domain": null,
+    "domainVerified": false,
+    "count": 13,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "how-it-works",
+      "testimonial",
+      "pricing",
+      "team",
+      "about",
+      "faq",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "gradient",
+      "card-grid",
+      "product-ui",
+      "photography",
+      "minimal"
+    ],
+    "sectionIds": [
+      "0cba28ed39",
+      "a8a559021a",
+      "2c3d9deacd",
+      "340beca9ee",
+      "231b66136d",
+      "d611a32ddd",
+      "a1ed4d79f6",
+      "68363303a4",
+      "861a8c48cc",
+      "6cd31cc7e2",
+      "b0aba3fd93",
+      "ee910e40ad",
+      "b092039a92"
+    ],
+    "cover": "0cba28ed39",
+    "addedAt": "2026-10-02T06:48:20.538Z"
+  },
+  {
+    "slug": "synthio-labs",
+    "name": "Synthio Labs",
+    "domain": "synthiolabs.com",
+    "domainVerified": true,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "hero"
+    ],
+    "topTags": [
+      "split",
+      "3d",
+      "pastel"
+    ],
+    "sectionIds": [
+      "e31a2bf468"
+    ],
+    "cover": "e31a2bf468",
+    "addedAt": "2026-10-01T05:18:36.018Z"
+  },
+  {
+    "slug": "tabs",
+    "name": "Tabs",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "product-ui",
+      "logo-strip",
+      "bold-color",
+      "full-bleed-media",
+      "photography"
+    ],
+    "sectionIds": [
+      "7fca191838",
+      "80044cf576",
+      "addd8d242a"
+    ],
+    "cover": "7fca191838",
+    "addedAt": "2026-10-02T06:48:20.549Z"
+  },
+  {
+    "slug": "teton",
+    "name": "Teton",
+    "domain": null,
+    "domainVerified": false,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "logo-cloud",
+      "how-it-works",
+      "testimonial"
+    ],
+    "topTags": [
+      "carousel",
+      "photography",
+      "monochrome",
+      "minimal",
+      "card-grid",
+      "3d"
+    ],
+    "sectionIds": [
+      "906de4cdc5",
+      "834e245132",
+      "e5e7697a47"
+    ],
+    "cover": "906de4cdc5",
+    "addedAt": "2026-10-02T06:48:20.563Z"
+  },
+  {
+    "slug": "time-fyi",
+    "name": "time.fyi",
+    "domain": "time.fyi",
+    "domainVerified": true,
+    "count": 11,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "pastel",
+      "tabs",
+      "split",
+      "minimal",
+      "illustration"
+    ],
+    "sectionIds": [
+      "853ea57f85",
+      "b1ce9b651a",
+      "c1faebc496",
+      "7e4cae1298",
+      "c2309b65c9",
+      "bd8fc8ea97",
+      "da12a7661d",
+      "e8614b0588",
+      "cdb793c863",
+      "24de98790b",
+      "8d8ff8d933"
+    ],
+    "cover": "853ea57f85",
+    "addedAt": "2026-10-01T12:23:44.000Z"
+  },
+  {
+    "slug": "twin",
+    "name": "Twin",
+    "domain": "twin.so",
+    "domainVerified": true,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "use-case",
+      "pricing",
+      "comparison",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "centered",
+      "warm-neutral",
+      "card-grid",
+      "dark-mode",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "5b07967655",
+      "898e35bf8f",
+      "1c20e31f35",
+      "e6f01418ca",
+      "afcbd3ad7d"
+    ],
+    "cover": "5b07967655",
+    "addedAt": "2026-09-30T09:33:00.866Z"
+  },
+  {
+    "slug": "typebot",
+    "name": "Typebot",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "how-it-works",
+      "use-case",
+      "pricing"
+    ],
+    "topTags": [
+      "card-grid",
+      "dark-mode",
+      "monochrome",
+      "centered",
+      "minimal",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "5eaedbf68b",
+      "068fd78703",
+      "559595272d",
+      "1f0c4fe934"
+    ],
+    "cover": "5eaedbf68b",
+    "addedAt": "2026-10-02T06:48:20.586Z"
+  },
+  {
+    "slug": "united-carriers",
+    "name": "United Carriers",
+    "domain": "unitedcarriers.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "stats",
+      "logo-cloud",
+      "blog",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "dark-mode",
+      "gradient",
+      "minimal",
+      "metrics",
+      "photography"
+    ],
+    "sectionIds": [
+      "2b7eef1a1b",
+      "9f2b9e9591",
+      "56d3b7e961",
+      "c3c4159859",
+      "14528dccc6",
+      "0ab70d4369",
+      "ea89720d17"
+    ],
+    "cover": "2b7eef1a1b",
+    "addedAt": "2026-10-01T04:40:40.000Z"
+  },
+  {
+    "slug": "unknown",
+    "name": "Unknown",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "use-case"
+    ],
+    "topTags": [
+      "photography",
+      "minimal"
+    ],
+    "sectionIds": [
+      "7afc48d112"
+    ],
+    "cover": "7afc48d112",
+    "addedAt": "2026-09-30T09:50:53.061Z"
+  },
+  {
+    "slug": "unlearn",
+    "name": "Unlearn",
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "serif",
+      "minimal"
+    ],
+    "sectionIds": [
+      "6cf9dd691e"
+    ],
+    "cover": "6cf9dd691e",
+    "addedAt": "2026-10-02T06:48:20.590Z"
+  },
+  {
+    "slug": "unsiloed",
+    "name": "Unsiloed",
+    "domain": null,
+    "domainVerified": false,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "stats",
+      "feature",
+      "comparison",
+      "how-it-works",
+      "faq",
+      "contact",
+      "footer"
+    ],
+    "topTags": [
+      "split",
+      "monochrome",
+      "minimal",
+      "illustration",
+      "pattern-background",
+      "centered"
+    ],
+    "sectionIds": [
+      "4e2898cd40",
+      "feca6b8364",
+      "ece1c429bf",
+      "03c3b67ad3",
+      "a8ab50d76e",
+      "d295336e1f",
+      "caf4a80751",
+      "5b0f5cca9c",
+      "bdad5b2bc4",
+      "74c84de53d"
+    ],
+    "cover": "4e2898cd40",
+    "addedAt": "2026-10-01T04:35:50.000Z"
+  },
+  {
+    "slug": "valley",
+    "name": "Valley",
+    "domain": "joinvalley.co",
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "how-it-works",
+      "comparison",
+      "pricing",
+      "contact",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "monochrome",
+      "product-ui",
+      "tabs",
+      "gradient",
+      "bold-color"
+    ],
+    "sectionIds": [
+      "5a9785655d",
+      "6152b7179f",
+      "6109874395",
+      "9c97088e28",
+      "07fa7fead2",
+      "dbe376472c",
+      "f6d955794f",
+      "ea5500f074",
+      "4ca92f3d13"
+    ],
+    "cover": "5a9785655d",
+    "addedAt": "2026-10-02T06:48:20.625Z"
+  },
+  {
+    "slug": "vapi",
+    "name": "Vapi",
+    "domain": "vapi.ai",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "how-it-works",
+      "team",
+      "cta"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "pattern-background",
+      "logo-strip",
+      "card-grid",
+      "illustration"
+    ],
+    "sectionIds": [
+      "b33a9177ae",
+      "4d5616b134",
+      "b59ba0c6f9",
+      "e5b99be134"
+    ],
+    "cover": "b33a9177ae",
+    "addedAt": "2026-10-02T06:48:20.645Z"
+  },
+  {
+    "slug": "vectara",
+    "name": "Vectara",
+    "domain": "vectara.com",
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "monochrome",
+      "minimal",
+      "dark-mode",
+      "card-grid",
+      "centered",
+      "split"
+    ],
+    "sectionIds": [
+      "fe3a499184",
+      "e0107096dd",
+      "c9f2bdeaea",
+      "982242c265",
+      "c8b180213e",
+      "238b1b30ba",
+      "77ecd15d2a",
+      "45b2b71863"
+    ],
+    "cover": "fe3a499184",
+    "addedAt": "2026-10-02T06:48:20.677Z"
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "domain": "vercel.com",
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "integration",
+      "cta"
+    ],
+    "topTags": [
+      "pattern-background",
+      "monochrome",
+      "minimal",
+      "centered",
+      "gradient",
+      "illustration"
+    ],
+    "sectionIds": [
+      "f0d234f1aa",
+      "3ab48b4566",
+      "a967aa2c59",
+      "cdb4dabac9"
+    ],
+    "cover": "f0d234f1aa",
+    "addedAt": "2026-10-02T06:48:20.692Z"
+  },
+  {
+    "slug": "vestris",
+    "name": "Vestris",
+    "domain": null,
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "cta"
+    ],
+    "topTags": [
+      "centered",
+      "serif",
+      "illustration",
+      "product-ui",
+      "warm-neutral",
+      "full-bleed-media"
+    ],
+    "sectionIds": [
+      "e66862469e",
+      "458707aabc"
+    ],
+    "cover": "e66862469e",
+    "addedAt": "2026-09-30T09:34:26.323Z"
+  },
+  {
+    "slug": "visionai",
+    "name": "VisionAI",
+    "domain": null,
+    "domainVerified": false,
+    "count": 4,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "feature",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "product-ui",
+      "centered",
+      "dark-mode",
+      "video",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "7fceadd956",
+      "d83cea00f6",
+      "7fe43d9207",
+      "23b48bf630"
+    ],
+    "cover": "7fceadd956",
+    "addedAt": "2026-10-01T04:44:24.728Z"
+  },
+  {
+    "slug": "vizcom",
+    "name": "Vizcom",
+    "domain": "vizcom.com",
+    "domainVerified": true,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "testimonial",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "photography",
+      "carousel",
+      "minimal",
+      "monochrome",
+      "bold-color"
+    ],
+    "sectionIds": [
+      "32c7c77d53",
+      "bb6f4bee72",
+      "f469e33d47"
+    ],
+    "cover": "32c7c77d53",
+    "addedAt": "2026-09-30T10:21:45.733Z"
+  },
+  {
+    "slug": "voiceflow",
+    "name": "Voiceflow",
+    "domain": "voiceflow.com",
+    "domainVerified": true,
+    "count": 17,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "feature",
+      "use-case",
+      "security",
+      "blog",
+      "footer",
+      "logo-cloud",
+      "how-it-works",
+      "integration",
+      "cta"
+    ],
+    "topTags": [
+      "serif",
+      "centered",
+      "product-ui",
+      "dark-mode",
+      "logo-strip",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "7a936f5c11",
+      "954d1e3f4f",
+      "25bc2c1465",
+      "4394bac63a",
+      "db5ee2490b",
+      "5dc7465598",
+      "54d9c6be4a",
+      "aa18e310d6",
+      "c4f16faa56",
+      "67928cde8b",
+      "9c12c13af2",
+      "743d95e4b6",
+      "86bde507d9",
+      "4a20c636bb",
+      "9f75506a79",
+      "45bb3342cc",
+      "cd446eb7a5"
+    ],
+    "cover": "7a936f5c11",
+    "addedAt": "2026-10-02T06:48:20.724Z"
+  },
+  {
+    "slug": "walrus",
+    "name": "Walrus",
+    "domain": "walrus.xyz",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "value-proposition",
+      "logo-cloud",
+      "use-case",
+      "integration",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "3d",
+      "monochrome",
+      "oversized-type",
+      "gradient"
+    ],
+    "sectionIds": [
+      "02edccede9",
+      "ec460befb2",
+      "608f3fdf6f",
+      "26d19a836b",
+      "c1bda784fe",
+      "dd58e1ae16",
+      "e3e2da178a",
+      "edc86f5064",
+      "4056594843",
+      "fdf6878796"
+    ],
+    "cover": "02edccede9",
+    "addedAt": "2026-10-01T04:31:34.000Z"
+  },
+  {
+    "slug": "watts",
+    "name": "Watts",
+    "domain": null,
+    "domainVerified": false,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "value-proposition",
+      "how-it-works",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "photography",
+      "oversized-type",
+      "bold-color",
+      "centered",
+      "carousel",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "d28c80328f",
+      "0cad900524",
+      "0aeea0f7f0",
+      "23b570c6ac",
+      "19606d579d",
+      "794e7e031a",
+      "46bef90484",
+      "dc22ee7cc3"
+    ],
+    "cover": "d28c80328f",
+    "addedAt": "2026-10-01T04:40:02.000Z"
+  },
+  {
+    "slug": "wavelength",
+    "name": "Wavelength",
+    "domain": "wavelength.cx",
+    "domainVerified": true,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "value-proposition",
+      "testimonial",
+      "integration",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "pattern-background",
+      "product-ui",
+      "centered",
+      "monochrome",
+      "minimal"
+    ],
+    "sectionIds": [
+      "cec878a490",
+      "0db67fa532",
+      "3c0d7cffb8",
+      "0311848976",
+      "8ad561e377",
+      "2696dc031a",
+      "c3f57a8205",
+      "0d0eee108a",
+      "2f6891412d"
+    ],
+    "cover": "cec878a490",
+    "addedAt": "2026-10-01T04:35:24.000Z"
+  },
+  {
+    "slug": "weave",
+    "name": "Weave",
+    "domain": null,
+    "domainVerified": false,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "how-it-works",
+      "testimonial",
+      "security",
+      "footer"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "split",
+      "metrics",
+      "minimal",
+      "centered",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "a64abcaa19",
+      "ff653f2717",
+      "c9ac7910c5",
+      "5e0136b89d",
+      "7c649843c6",
+      "699c5f1662",
+      "2657b4b7c3",
+      "4c133428c1",
+      "ff8bc1085e"
+    ],
+    "cover": "a64abcaa19",
+    "addedAt": "2026-09-30T10:26:31.098Z"
+  },
+  {
+    "slug": "whalesync",
+    "name": "Whalesync",
+    "domain": "whalesync.com",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "integration",
+      "comparison",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "dark-mode",
+      "product-ui",
+      "pattern-background",
+      "minimal",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "5d79872ffb",
+      "241c7aaee5",
+      "045c9f09ef",
+      "8878505861",
+      "5e086b686d",
+      "9b07d0dd3b",
+      "a24a54c6de"
+    ],
+    "cover": "5d79872ffb",
+    "addedAt": "2026-10-02T06:48:20.750Z"
+  },
+  {
+    "slug": "wiz",
+    "name": "Wiz",
+    "domain": "wiz.io",
+    "domainVerified": false,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "testimonial"
+    ],
+    "topTags": [
+      "split",
+      "illustration",
+      "logo-strip",
+      "centered",
+      "carousel",
+      "pastel"
+    ],
+    "sectionIds": [
+      "7b06396a48",
+      "e9091f3a16"
+    ],
+    "cover": "7b06396a48",
+    "addedAt": "2026-10-02T06:48:20.757Z"
+  },
+  {
+    "slug": "wiza",
+    "name": "Wiza",
+    "domain": "wiza.co",
+    "domainVerified": false,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "testimonial",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "gradient",
+      "pastel",
+      "product-ui",
+      "minimal",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "e1313e088e",
+      "e005f3fb01",
+      "395d085920",
+      "e925301817",
+      "2033afbb9c",
+      "f573ace9db",
+      "7238500d0c"
+    ],
+    "cover": "e1313e088e",
+    "addedAt": "2026-10-02T06:48:20.785Z"
+  },
+  {
+    "slug": "workos",
+    "name": "WorkOS",
+    "domain": "workos.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "integration",
+      "feature",
+      "security",
+      "how-it-works"
+    ],
+    "topTags": [
+      "centered",
+      "3d",
+      "product-ui",
+      "split",
+      "carousel",
+      "tabs"
+    ],
+    "sectionIds": [
+      "421088ad55",
+      "31b471f74f",
+      "bc79a27d2f",
+      "e7bf7561a6",
+      "2b08d745a9",
+      "112c72cbe3",
+      "465be1c2a2"
+    ],
+    "cover": "421088ad55",
+    "addedAt": "2026-10-01T04:53:40.000Z"
+  },
+  {
+    "slug": "zamp",
+    "name": "Zamp",
+    "domain": "zamp.com",
+    "domainVerified": true,
+    "count": 16,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "testimonial",
+      "feature",
+      "stats",
+      "integration",
+      "faq",
+      "footer"
+    ],
+    "topTags": [
+      "split",
+      "monochrome",
+      "product-ui",
+      "form",
+      "centered",
+      "minimal"
+    ],
+    "sectionIds": [
+      "e8ab4302ca",
+      "231cf3f622",
+      "bc365733d1",
+      "75231e626e",
+      "cc7432c689",
+      "e39cc445b3",
+      "93d333f218",
+      "ee28e0abfa",
+      "13d33fecdf",
+      "2079226797",
+      "880e55b3c1",
+      "107c89ff67",
+      "fc3f39cbe3",
+      "0e1d20ff69",
+      "6e88cdcc0e",
+      "9a62be3b1d"
+    ],
+    "cover": "e8ab4302ca",
+    "addedAt": "2026-10-01T05:00:45.021Z"
+  },
+  {
+    "slug": "zamp-ai",
+    "name": "Zamp AI",
+    "domain": "zamp.ai",
+    "domainVerified": true,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "logo-cloud",
+      "security",
+      "footer"
+    ],
+    "topTags": [
+      "oversized-type",
+      "illustration",
+      "bento",
+      "logo-strip",
+      "photography",
+      "monochrome"
+    ],
+    "sectionIds": [
+      "b27ff96f3a",
+      "6dfdfcb259",
+      "553b9f6d2d",
+      "bc227ba3ac",
+      "e9ab851385"
+    ],
+    "cover": "b27ff96f3a",
+    "addedAt": "2026-10-01T04:57:26.000Z"
+  }
+]

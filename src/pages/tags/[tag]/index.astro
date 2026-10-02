@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import FilterBar from '../../../components/FilterBar.astro';
+import SectionGrid from '../../../components/SectionGrid.astro';
+import PatternsSummary from '../../../components/PatternsSummary.astro';
+import SectionHeading from '../../../components/SectionHeading.astro';
+import CategoryCard from '../../../components/CategoryCard.astro';
+import LinkChips from '../../../components/LinkChips.astro';
+import { FACETS, categoryStats, getSections, pagedTags, tagDefinitions, tagStats, topCompanies, type Tag } from '../../../lib/data';
+import { tagSeo } from '../../../lib/seo';
+import { getTagCopy } from '../../../lib/copy';
+import { breadcrumbNode, collectionNode, graph } from '../../../lib/jsonld';
+import { companyUrl } from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return pagedTags.map((t) => ({ params: { tag: t.id }, props: { t } }));
+}
+
+const { t } = Astro.props as { t: Tag };
+const items = getSections(t.sectionIds);
+const seo = tagSeo(t, items);
+const copy = getTagCopy(t.id);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Styles', path: '/tags/' },
+  { name: t.label, path: t.path },
+];
+
+// Lowercase ordinary words but keep acronyms ("Product UI" → "product UI", "3D" stays).
+const lower = (s: string) => s.split(' ').map((w) => (/^[A-Z][a-z]/.test(w) ? w.toLowerCase() : w)).join(' ');
+const name = lower(t.label);
+const pct = (x: number) => `${Math.max(1, Math.round(x * 100))}%`;
+
+const catOptions = categoryStats(items).map((x) => ({ id: x.category.id, label: x.category.label, count: x.n }));
+const paired = tagStats(items, 64)
+  .filter((x) => x.tag.id !== t.id && x.tag.hasPage && x.n >= 2)
+  .slice(0, 10);
+const companiesHere = topCompanies(items, 16);
+const sameFacet = pagedTags.filter((x) => x.id !== t.id && x.facet === t.facet).sort((a, b) => b.count - a.count);
+const otherFacets = pagedTags.filter((x) => x.id !== t.id && x.facet !== t.facet).sort((a, b) => b.count - a.count);
+const related = [...sameFacet, ...otherFacets].slice(0, 4);
+const facetLabel = FACETS.find((f) => f.id === t.facet)?.label;
+
+// Factual fallback intro: count, spread and the tagging rule (first sentence of the definition).
+const rule = tagDefinitions.get(t.id)?.split(/(?<=[.!?])\s+(?=[A-Z])/)[0]?.trim();
+const companyCount = new Set(items.map((s) => s.company)).size;
+const intro =
+  copy?.intro ??
+  `${t.count} real website sections tagged ${name}, from ${companyCount} ${companyCount === 1 ? 'company' : 'companies'}.` +
+    (rule ? ` What qualifies: ${rule.charAt(0).toLowerCase()}${rule.slice(1)}` : '');
+
+const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: t.path, name: seo.h1, description: seo.description, items }));
+---
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  path={t.path}
+  ogImage={`/og/tags-${t.id}.jpg`}
+  ogAlt={seo.h1}
+  noindex={!t.indexable}
+  jsonld={jsonld}
+>
+  <div class="container-wide">
+    <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} eyebrow={facetLabel ? `${facetLabel} · ${t.count} examples` : `${t.count} examples`} />
+
+    {catOptions.length > 1 && (
+      <div class="toolbar enter enter-4">
+        <FilterBar options={catOptions} total={items.length} attr="cat" param="section" target="grid" label="Filter by section type" />
+      </div>
+    )}
+
+    <SectionGrid items={items} id="grid" label={`${t.label} website sections`} />
+
+    <div class="below">
+      <PatternsSummary items={items} mode="categories" title={`Where ${name} shows up`} />
+
+      {paired.length > 0 && (
+        <section aria-labelledby="paired-title">
+          <SectionHeading title="Often paired with" id="paired-title" sub={`Share of ${name} sections that also use each style`} />
+          <ul class="pairs" aria-label={`Styles often paired with ${name}`}>
+            {paired.map((p) => (
+              <li><a class="chip" href={p.tag.path}>{p.tag.label} <span class="count">{pct(p.share)}</span></a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {copy?.tips && copy.tips.length > 0 && (
+        <section class="tips" aria-labelledby="tips-title">
+          <h2 class="t-h2" id="tips-title">{copy.tipsTitle ?? `Designing with ${name}`}</h2>
+          <ol>
+            {copy.tips.map((tip) => (
+              <li>
+                <h3>{tip.title}</h3>
+                <p>{tip.body}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {companiesHere.length > 0 && (
+        <section aria-labelledby="companies-title">
+          <h2 class="t-h2" id="companies-title">Companies using {name}</h2>
+          <LinkChips label="Companies" items={companiesHere.map((x) => ({ href: companyUrl(x.company.slug), label: x.company.name, count: x.n }))} />
+        </section>
+      )}
+
+      {related.length > 0 && (
+        <section aria-labelledby="related-title">
+          <SectionHeading title="Related styles" id="related-title" href="/tags/" linkLabel="All styles" />
+          <div class="related">
+            {related.map((r) => <CategoryCard href={r.path} title={r.label} count={r.count} covers={r.covers} />)}
+          </div>
+        </section>
+      )}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .toolbar { position: relative; margin-bottom: 28px; }
+  .below { display: grid; gap: 88px; margin-top: 112px; }
+  .below > section:not(.tips) > .t-h2 { margin-bottom: 20px; }
+  .pairs { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tips ol { display: grid; gap: 28px 40px; margin-top: 24px; counter-reset: tip; }
+  @media (min-width: 900px) { .tips ol { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .tips li { counter-increment: tip; display: grid; gap: 6px; padding-top: 18px; border-top: 1px solid var(--line); }
+  .tips li::before { content: counter(tip, decimal-leading-zero); font-size: 0.8125rem; color: var(--ink-4); font-variant-numeric: tabular-nums; }
+  .tips h3 { font-size: 1.0625rem; font-weight: 600; letter-spacing: -0.01em; }
+  .tips p { color: var(--ink-3); line-height: 1.6; }
+  .related { display: grid; gap: 28px 20px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
+</style>

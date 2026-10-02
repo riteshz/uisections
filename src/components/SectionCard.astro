@@ -1,0 +1,73 @@
+---
+import type { Section } from '../lib/data';
+import { getCategory, getCompany } from '../lib/data';
+import { categoryUrl, companyUrl, shotUrl } from '../lib/urls';
+
+interface Props {
+  s: Section;
+  index: number;
+  /** Above-the-fold cards load eagerly and never start invisible (LCP). */
+  eager?: boolean;
+  priority?: boolean;
+  showCompany?: boolean;
+  showCategory?: boolean;
+  sizes?: string;
+}
+
+const {
+  s,
+  index,
+  eager = false,
+  priority = false,
+  showCompany = true,
+  showCategory = true,
+  sizes = '(min-width: 1504px) 456px, (min-width: 1100px) calc((100vw - 128px) / 3), (min-width: 680px) calc((100vw - 72px) / 2), calc(100vw - 40px)',
+} = Astro.props;
+const category = getCategory(s.category)!;
+const company = getCompany(s.company);
+// Wide strips are letterboxed on their own background colour instead of cropped.
+const fit = s.thumb.h / s.thumb.w < 0.56 ? 'contain' : 'cover';
+---
+<li
+  class:list={['card', { eager }]}
+  id={`s-${s.id}`}
+  data-id={s.id}
+  data-cat={s.category}
+  data-tags={s.tags.join(' ')}
+  data-company={s.company}
+  data-company-name={s.companyName}
+  data-domain={company?.domain ?? undefined}
+  style={`--i:${Math.min(index, 9)};--shot-bg:${s.bg}`}
+>
+  <a
+    class="thumb shot"
+    href={shotUrl(s.files.lg)}
+    data-lightbox
+    data-w={s.large.w}
+    data-h={s.large.h}
+    data-thumb={shotUrl(s.files['960'])}
+    data-md={shotUrl(s.files.md)}
+    data-headline={s.headline || undefined}
+    aria-label={`Open ${s.companyName} ${category.label.toLowerCase()} section`}
+  >
+    <img
+      class={fit}
+      src={shotUrl(s.files['480'])}
+      srcset={`${shotUrl(s.files['480'])} ${s.thumb.w}w, ${shotUrl(s.files['960'])} ${s.thumb2x.w}w`}
+      sizes={sizes}
+      width={s.thumb.w}
+      height={s.thumb.h}
+      alt={s.alt}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding={eager ? 'auto' : 'async'}
+      fetchpriority={priority ? 'high' : undefined}
+    />
+    <span class="veil" aria-hidden="true"><span class="pill">{s.companyName} · {category.label}</span></span>
+  </a>
+  {(showCompany || showCategory) && (
+    <div class="meta">
+      {showCompany && (company?.hasPage ? <a class="co" href={companyUrl(s.company)}>{s.companyName}</a> : <span class="co">{s.companyName}</span>)}
+      {showCategory && (category.hasPage ? <a class="tag" href={categoryUrl(s.category)}>{category.label}</a> : <span class="tag">{category.label}</span>)}
+    </div>
+  )}
+</li>

@@ -1,0 +1,534 @@
+[
+  {
+    "site": "https://bencho.dev (\"Bencho - UI interactive blocks\"). It is a Vite + React SPA hosted on Vercel, styled with Tailwind preflight plus hand-written CSS custom properties. Framer Motion is used inside the blocks and the hero pill. All site-level motion is plain CSS. I inspected 3 pages: / (Blocks), /finds (a curated masonry wall of media tiles, the closest match to our directory) and /finds/<slug> (the detail overlay). After several curl requests Vercel started returning a 403 bot challenge, so the JS values were read in the built-in browser.",
+    "colors": [
+      {
+        "name": "--bg (light)",
+        "value": "#ffffff",
+        "usage": "Page background"
+      },
+      {
+        "name": "--ink (light)",
+        "value": "#17181a (rgb 23,24,26)",
+        "usage": "Primary text, solid pill buttons (Join for free), active chip/slab background, logo hex"
+      },
+      {
+        "name": "--ink-2 (light)",
+        "value": "#3c3b37",
+        "usage": "Secondary text, chip text, card name label"
+      },
+      {
+        "name": "--ink-3 (light)",
+        "value": "#5c5b56",
+        "usage": "Nav links at rest, icon buttons, sort button, notes"
+      },
+      {
+        "name": "--ink-4 (light)",
+        "value": "#6f6e68",
+        "usage": "Placeholder text, counts, meta"
+      },
+      {
+        "name": "--ink-5 (light)",
+        "value": "#85847e",
+        "usage": "Faint captions, micro labels, timestamps"
+      },
+      {
+        "name": "hero-sub (light)",
+        "value": "#a3a29c",
+        "usage": "Hero and lede subtitle (warm light grey)"
+      },
+      {
+        "name": "--wash (light)",
+        "value": "rgba(23,24,26,0.06), roughly #f0f0f0 on white",
+        "usage": "Card backgrounds, filter chip background, search pill background. A translucent ink overlay, not a fixed grey, so it adapts to the theme"
+      },
+      {
+        "name": "--surface / --card (light)",
+        "value": "#f7f7f6",
+        "usage": "Soft surfaces, canvas background"
+      },
+      {
+        "name": "--surface-2 (light)",
+        "value": "#f1f1f0",
+        "usage": "Finds media tile placeholder background"
+      },
+      {
+        "name": "--surface-3 (light)",
+        "value": "#ecebe7",
+        "usage": "Deeper surface"
+      },
+      {
+        "name": "--paper / --paper-2",
+        "value": "#dcd9cf / #e9e7df",
+        "usage": "Warm paper canvas (block stages)"
+      },
+      {
+        "name": "--solid / --solid-ink (light)",
+        "value": "#0e0f11 / #f4f3f1",
+        "usage": "Dark-toned cards (data-tone=dark) and their text"
+      },
+      {
+        "name": "--lock (light)",
+        "value": "#adaca6",
+        "usage": "Disabled and locked glyphs"
+      },
+      {
+        "name": "--rule",
+        "value": "#17181a29 (ink at 16%)",
+        "usage": "Hairlines"
+      },
+      {
+        "name": "--ok (light)",
+        "value": "#15803d",
+        "usage": "Live pulsing dot, success states"
+      },
+      {
+        "name": "--signal",
+        "value": "#2231dd",
+        "usage": "Focus outline on menus and sort items, indigo accent"
+      },
+      {
+        "name": "--pick",
+        "value": "#0d99ff (dark #3aa9ff)",
+        "usage": "Selection accent inside blocks"
+      },
+      {
+        "name": "--guide",
+        "value": "#ff3b6b (dark #ff5c84)",
+        "usage": "Guide and highlight accent"
+      },
+      {
+        "name": "--ember",
+        "value": "#b8431c",
+        "usage": "Warm accent (rare)"
+      },
+      {
+        "name": "tag New (light)",
+        "value": "bg #ffffff, text #17181a",
+        "usage": "'New' pill on cards (top-left)"
+      },
+      {
+        "name": "tag Sponsored",
+        "value": "#17181ab8 + backdrop blur(6px), text #fff",
+        "usage": "Overlay tag on sponsored tile"
+      },
+      {
+        "name": "glass pill",
+        "value": "rgba(255,255,255,0.72) + blur(10px) saturate(150%)",
+        "usage": "Card name label shown on hover. Scrolled search pill uses rgba(255,255,255,0.74) + blur(8px) saturate(160%)"
+      },
+      {
+        "name": "--bg (dark)",
+        "value": "#000000",
+        "usage": "Dark page background (true black)"
+      },
+      {
+        "name": "--ink (dark)",
+        "value": "#ffffff",
+        "usage": "Dark primary text. Primary button inverts to a white bg with black text"
+      },
+      {
+        "name": "--ink-2..5 (dark)",
+        "value": "#b4b4b4 / #9a9a9a / #828282 / #6b6b6b",
+        "usage": "Dark secondary-to-faint text ramp (pure neutral, not warm). The hero sub uses #6b6b6b in dark"
+      },
+      {
+        "name": "--wash (dark)",
+        "value": "rgba(255,255,255,0.09)",
+        "usage": "Dark card and chip backgrounds"
+      },
+      {
+        "name": "--surface / -2 / -3 (dark)",
+        "value": "#0f0f0f / #181818 / #202020",
+        "usage": "Dark surfaces"
+      },
+      {
+        "name": "--board / --card (dark)",
+        "value": "#1a1a1a / #0a0a0a",
+        "usage": "Dark elevated boards and cards. --slab-dark is #262626"
+      },
+      {
+        "name": "--ok (dark)",
+        "value": "#34d17a",
+        "usage": "Dark live dot and success"
+      },
+      {
+        "name": "tag New (dark)",
+        "value": "bg #ffffff24, text #fff",
+        "usage": "Dark 'New' pill"
+      },
+      {
+        "name": "decorative 'field' canvas",
+        "value": "#0b0c0f base with radial blobs #1d4ed8, #be185d, #0891b2, #ca8a04",
+        "usage": "Animated gradient background in some block stages (30s drift)"
+      },
+      {
+        "name": "favicon",
+        "value": "hex #17181a, glyph #fbfbfa (dark tab: #3a3b40)",
+        "usage": "Logo mark colours"
+      }
+    ],
+    "animations": [
+      {
+        "name": "hero-rise (hero entrance stagger)",
+        "description": "Hero pill, H1, sub and CTA rise in one after another. The filter row follows at 380ms. On the /finds lede the h1 is at 60ms and the sub at 140ms.",
+        "css": "@keyframes hero-rise{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}} .hero[data-in] .hero-pill,.hero-head,.hero-sub,.hero-join{animation:.62s cubic-bezier(.22,1,.36,1) both hero-rise} delays: pill 60ms, head .14s, sub .22s, join .3s; .bench-rowbar[data-in]{animation:.62s cubic-bezier(.22,1,.36,1) .38s both hero-rise}"
+      },
+      {
+        "name": "wall-rise (card grid stagger)",
+        "description": "Masonry cards fade up 16px with a 70ms stagger. The stagger stops growing after 9 cards, so cards further down appear with the 9th. Each card gets an inline --i index in DOM order.",
+        "css": "@keyframes wall-rise{0%{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}} .bench-wall[data-in] .bench-card{animation:.7s cubic-bezier(.22,1,.36,1) both wall-rise;animation-delay:calc(.44s + min(var(--i), 9) * 70ms)} first landing: calc(.32s + min(var(--i),9)*70ms)"
+      },
+      {
+        "name": "Finds diagonal wave stagger",
+        "description": "Tiles on the /finds masonry enter row by row with a small per-column offset, giving a diagonal wave. The Sounds grid uses a linear 45ms stagger.",
+        "css": ".bench-pane[data-landing] .fnd-col>*{animation:.7s cubic-bezier(.22,1,.36,1) both wall-rise;animation-delay:calc(.32s + var(--row,3) * .18s + var(--col,0) * 60ms)} rows 0-2 set explicitly, later rows default to 3; .sfx-wall>*{animation-delay:calc(.32s + var(--k,10) * 45ms)}"
+      },
+      {
+        "name": "Rotating hero pill (Framer Motion)",
+        "description": "The pill above the H1 cycles every 3s through '3,481 members', '67 signed up today' and 'Daily updates'. Its width animates to a hidden sizer's width. The new text slides up from below and the old text disappears instantly (AnimatePresence popLayout). It is disabled under reduced motion.",
+        "css": "pill width: duration .34s ease [.33,.55,.2,1]; text: initial y:'170%' -> 0, duration .42s ease [.3,.9,.3,1]; exit opacity 0 duration 0; setInterval 3000ms"
+      },
+      {
+        "name": "Card hover reveal",
+        "description": "The card itself does not lift or scale. On hover (only on hover-capable devices) a glassy name pill and hint slide up 4px with a slight overshoot, and the bookmark button fades in.",
+        "css": ".bench-veil{opacity:0;transform:translateY(4px);transition:opacity .2s,transform .26s cubic-bezier(.28,1.3,.36,1)} .bench-card:hover .bench-veil{opacity:1;transform:translateY(0)} @media (hover:hover){.bench-round{opacity:0;transition:opacity .18s,color .16s} .bench-card:hover .bench-round{opacity:1}}"
+      },
+      {
+        "name": "Icon button springy hover",
+        "description": "Round 36px icon buttons (theme, social, close, bookmark). A circular rgba(ink,.08) background fades in and springs from 86% to 100% scale. The icon scales to 1.04 on hover and to 0.96 on press.",
+        "css": ".btn:before{background:rgba(var(--ink-rgb),.08);opacity:0;scale:.86;transition:opacity .15s,scale .26s cubic-bezier(.3,1.12,.4,1)} .btn:hover:before{opacity:1;scale:1} .btn>svg{transition:scale .26s cubic-bezier(.3,1.12,.4,1)} :hover>svg{scale:1.04} :active>svg{transition-duration:90ms;scale:.96}"
+      },
+      {
+        "name": "Primary pill button press",
+        "description": "Join for free and similar solid pills. The hero CTA scales down on hover and further on press, with an overshoot curve. The header version dims on hover instead.",
+        "css": ".hero-join{transition:opacity .14s,scale .2s cubic-bezier(.28,1.4,.36,1)} .hero-join:hover{scale:.98} :active{scale:.95}; .bench-join:hover{opacity:.86} :active{scale:.96}; .fnd-go-site/.dtl-put:hover{opacity:.88} :active{scale:.985}"
+      },
+      {
+        "name": "Nav link and chip transitions",
+        "description": "Plain colour fades. Nav links go from ink-3 to ink and get a tiny press scale. Chips fade background and colour.",
+        "css": ".bench-navlink{transition:color .16s,scale .12s} :active{scale:.985}; .bench-chip (pill){transition:background-color .16s,color .16s} hover bg rgba(ink,.1); active bg var(--slab) color var(--on-slab)"
+      },
+      {
+        "name": "Hide-on-scroll header with floating glass search",
+        "description": "After 6px of scroll the centred search pill turns into frosted glass with a hairline ring and soft shadow. Past 140px while scrolling down, the logo, nav and right-hand tools fade and lift 6px out of view, leaving only the floating search pill. They return on scroll up. Scroll handling is rAF-throttled.",
+        "css": ".bench-side[data-scroll=moved] .bench-find{background:rgba(var(--elev-rgb),.74);backdrop-filter:blur(8px) saturate(160%);box-shadow:0 0 0 1px rgba(var(--ink-rgb),.06),0 2px 10px rgba(var(--shadow-rgb),.06);padding:0 20px} .bench-find{transition:background .16s,height .24s cubic-bezier(.33,.55,.2,1),padding .24s cubic-bezier(.33,.55,.2,1)} [data-bare=true] .bench-lead,.bench-tools{opacity:0;translate:0 -6px;visibility:hidden;transition:opacity .2s,translate .26s cubic-bezier(.33,.55,.2,1),visibility 0s linear .26s}"
+      },
+      {
+        "name": "Card-to-detail shared-element morph (page-like transition)",
+        "description": "Clicking a card or tile animates a block from the tile's exact rect into a centred overlay. The URL changes to /finds/<slug> via history, while modifier-clicks follow the real <a href>. The scrim fades in with a heavy blur. The info side panel slides in from the right after a delay, and contents fade in after 40% of the morph. There is no View Transitions API, GSAP or Lenis; the CSS transitions are driven by React.",
+        "css": ".dtl{--ease:cubic-bezier(.33,.55,.2,1);--morph:380ms (open) / 300ms (close)} .dtl-block{transition:left var(--morph) var(--ease),top ..,width ..,height ..,border-radius var(--morph) var(--ease);border-radius:28px} .dtl-scrim{background:color-mix(in srgb,var(--bg) 78%,transparent) (Finds 55%);backdrop-filter:blur(22px) saturate(130%);opacity:0;transition:opacity .26s} .fnd-dtl .dtl-side{transform:translateX(calc(100% + 16px));transition:opacity .16s ease,transform .235s var(--ease)} [data-on=true] .dtl-side{transition-delay:.15s;transform:none} contents: transition:opacity .18s ease calc(var(--morph)*.4)"
+      },
+      {
+        "name": "Dropdown, menu and tooltip pop",
+        "description": "Small scale-and-fade pops anchored at their origin. The sort menu grows from its top-right corner. Tooltips wait 420ms before appearing.",
+        "css": "@keyframes bench-sort-in{0%{opacity:0;translate:0 -4px;scale:.94}} .bench-sort-menu{animation:.18s cubic-bezier(.22,1,.36,1) both bench-sort-in;transform-origin:100% 0;border-radius:14px;padding:5px} @keyframes menu-in{0%{opacity:0;scale:.96}} .13s cubic-bezier(.22,1,.36,1); .bench-tip{opacity:0;translate:-50% -4px;transition:opacity .12s 40ms,translate .2s cubic-bezier(.22,1,.36,1) 40ms} :hover .bench-tip{opacity:1;transition-delay:.42s}"
+      },
+      {
+        "name": "Live pulse dot",
+        "description": "A 6px green dot next to the live online count. It emits an expanding, fading ring.",
+        "css": "@keyframes bench-live-beat{0%{opacity:.5;scale:1}70%{opacity:0;scale:2.8}to{opacity:0;scale:2.8}} .bench-live-dot:after{animation:2.6s cubic-bezier(.22,.61,.36,1) infinite bench-live-beat}"
+      },
+      {
+        "name": "Skeleton shimmer",
+        "description": "Loading placeholders, sized to each card's expected height, run a single sweep.",
+        "css": ".skel{background:linear-gradient(100deg,rgba(ink,.04) 0%,rgba(ink,.04) 30%,rgba(ink,.09) 50%,rgba(ink,.04) 70%,rgba(ink,.04) 100%) rgba(ink,.04);background-size:300% 100%;background-position:100% 0;border-radius:14px;animation:.7s cubic-bezier(.4,0,.2,1) forwards skel-sweep} @keyframes skel-sweep{to{background-position:0 0}}"
+      },
+      {
+        "name": "Chip row edge fade",
+        "description": "The horizontally scrolling filter chips get mask-gradient fades on whichever edge has more content. A rAF scroll listener sets data-over to start, end or both.",
+        "css": ".bench-chips[data-over=end]{mask-image:linear-gradient(90deg,#000 calc(100% - 64px),#0000)} [data-over=start]{mask-image:linear-gradient(90deg,#0000,#000 40px)} [data-over=both]{mask-image:linear-gradient(90deg,#0000,#000 40px calc(100% - 64px),#0000)}; transition:mask-image .18s"
+      },
+      {
+        "name": "Viewport-band video playback (Finds)",
+        "description": "A tile mounts its <video> (muted, loop, playsInline, preload=metadata) only when within 50% of the viewport. It plays only in the central band (rootMargin -25% top and bottom) and pauses otherwise. Before that it shows a lazy poster <img>.",
+        "css": "IntersectionObserver rootMargin '50% 0px 50% 0px' (near => mount) and '-25% 0px -25% 0px' (band => play/pause)"
+      },
+      {
+        "name": "Mascot logo spring",
+        "description": "The goat SVG logo's parts stretch and spring back with a strong overshoot. It is draggable.",
+        "css": ".cabra-front,.cabra-torso,.cabra-rear{transition:transform .64s cubic-bezier(.22,1.7,.36,1)}"
+      },
+      {
+        "name": "Scroll-linked lede fade",
+        "description": "The lede block fades, scales down 8% and lifts 10px as a --gone variable goes from 0 to 1 on scroll.",
+        "css": ".bench-lede{--gone:0;opacity:calc(1 - var(--gone));scale:calc(1 - var(--gone)*.08);translate:0 calc(var(--gone)*-10px);transform-origin:50% 0}"
+      },
+      {
+        "name": "Easing token frequency (whole CSS)",
+        "description": "Most-used curves across 86 keyframes and many transitions. Framer Motion springs inside the blocks are mostly stiffness 300-660, damping 17-34, mass 0.6-1 (e.g. 500/25, 420/30, 380/18).",
+        "css": "cubic-bezier(.22,1,.36,1) x64 = primary expo-out for entrances and menus; (.24,1.34,.38,1) x25 springy overshoot for layout moves; (.3,.9,.4,1) x20 quick ease-out for small scales; (.3,1.12,.4,1) x14 gentle overshoot for icon hovers; (.28,1.3,.36,1) x12 and (.28,1.4,.36,1) x11 button and veil overshoot; (.33,.55,.2,1) x9 as --ease for morph and header; Tailwind defaults (.4,0,.2,1). Durations: 90ms press, 120-160ms colour, 180-260ms UI, 340-420ms morph/pill, 620-700ms entrances"
+      },
+      {
+        "name": "Reduced motion",
+        "description": "Every entrance animation is set to 'animation:none' under prefers-reduced-motion, and hover transitions are cut to 1ms. The JS hero pill rotation also checks matchMedia and stops.",
+        "css": "@media (prefers-reduced-motion:reduce){.hero[data-in] ...{animation:none} .bench-round,.bench-veil{transition-duration:1ms} .bench-live-dot:after{animation:none}}"
+      }
+    ],
+    "typography": "Fonts load from Google Fonts with preconnect to fonts.googleapis.com and fonts.gstatic.com (crossorigin): Google Sans wght 400..700, Instrument Sans 400/500/600 and Inter 300..700, display=swap. There is also a self-hosted 'Inter Head' (Inter-Medium.woff2, weight 500, font-display swap).\nFont stacks:\n- --font-ui: \"Inter\", \"Maison Neue\", \"MaisonNeue-Book\", \"Instrument Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif.\n- --font-head: \"Google Sans\", \"Inter Head\", var(--font-ui).\n- --font-code: ui-monospace, \"SF Mono\", SFMono-Regular, Menlo, Consolas, monospace.\n- Body uses antialiased smoothing and text-rendering: optimizeLegibility. Base size is 16px/1.5 and the app shell is 13px/19.5px.\n\nSizes and styles:\n- **Hero H1** (.hero-head.hero-head-one): Inter 500, 40px at \u2265761px (38px/1.05 on mobile), letter-spacing -0.022em (-0.88px), line-height 1.06, single line (nowrap), colour ink. The base .hero-head variant is Google Sans 500 46px/1.06 with -0.02em, max-width 17ch (31px and -0.012em on mobile).\n- **Hero sub**: 15px/1.5, #a3a29c (dark #6b6b6b), max-width 48ch, 20px top margin.\n- **Hero pill**: 14px/1.2, weight 500, padding 12px 18px, pill radius, inset 1px ring rgba(ink,.12). The H1 sits 26px below it.\n- **Hero CTA**: 15px 500, 40px tall, 0 20px padding, 24px top margin, letter-spacing -0.09px.\n- **Nav links**: 14px/19.5px, weight 500, ink-3, turning ink on hover or active. Gap 24px; 32px between the logo and the nav.\n- **Filter chips**: 14px 500, 32px tall pills, 0 14px padding, gap 6px. On mobile they grow to 38px tall with 15px text.\n- **Sort button** ('Newest'): 14px 500, ink-3.\n- **/finds lede**: H1 is a quiet 15px/1.5 weight 500 in ink, with a muted 15px sub in #a3a29c using text-wrap: balance. The alternate .fnd-h1 style is Google Sans 30px/1.2 500 with +0.004em.\n- **Card label pill** (.bench-name): 12.5px, -0.01em, 38px tall.\n- **'New' tag**: 11px 500 with +0.01em, 24px tall pill, 0 10px padding.\n- **Mono and micro labels**: 11px uppercase with .06em tracking and tabular-nums; micro stats use 8.5px uppercase with .07em tracking.\n- **Detail panel**: title 17px/1.25 500 with -0.02em; kind 13px ink-4; note 13px/1.62 ink-3; age 11.5px ink-5; tags 13px 500 in 34px pills; CTAs 13px 500 in 40px pills.\n- **Footer**: 13px, with the pitch in 500 ink-2 and the year in ink-4.\n- **Empty-state line**: 26px/1.2 Google Sans 500, text-wrap: balance, max-width 18ch.",
+    "signatureDetails": [
+      "Borderless, shadowless 'wash' cards: the background is a translucent ink overlay (rgba(23,24,26,.06) in light, rgba(255,255,255,.09) in dark) rather than a fixed grey. Large 28px radius, and the live demo sits centred inside each card.",
+      "Warm stone-tinted ink ramp in light mode (#17181a, #3c3b37, #5c5b56, #6f6e68, #85847e, plus #a3a29c for subs) paired with pure neutral greys and true black (#000) in dark mode. Colour is used almost nowhere else.",
+      "Everything is a pill (999px radius): chips, search, buttons, tags and name labels. The solid ink pill is the only strong call to action.",
+      "One signature curve, cubic-bezier(.22,1,.36,1), at 620-700ms for entrances. Text rises 10px and cards 16px, with a 70ms stagger that stops growing after 9 cards so long grids don't drag.",
+      "Micro-interactions spring slightly past their target, e.g. cubic-bezier(.3,1.12,.4,1) and (.28,1.4,.36,1). Icon-button hover circles grow from 0.86 to 1 scale; presses shrink to 0.95-0.985 with 90ms durations.",
+      "The header hides on scroll and leaves only a centred frosted-glass search pill with a \u2318K hint. It returns on scroll-up.",
+      "Shared-element morph from a grid tile into a detail overlay: 380ms with cubic-bezier(.33,.55,.2,1), a scrim with blur(22px) saturate(130%), and a side panel that slides in from the right after 150ms. The URL becomes a real /finds/<slug> path.",
+      "Rotating social-proof pill above the H1 (members, signups today, 'Daily updates'), with a width tween and text sliding up every 3s.",
+      "Live online count with a pulsing green dot (2.6s ring expanding to 2.8x).",
+      "Hover reveals a glassy name pill (white 72% + blur 10px) at the bottom of each card, with a 4px overshoot slide. A bookmark fades in top-right; neither shows on touch devices.",
+      "Masonry walls balanced by JS. Blocks: up to 3 columns with a 348px minimum column and 12px gap. Finds: up to 4 columns, using floor((w+14)/274), with a 14px gap and aspect-ratio taken from each media item's own dimensions.",
+      "Horizontal chip rows fade at their edges with mask-image gradients (40px start, 64px end) depending on scroll position.",
+      "Videos are lazy: a poster <img> first, a <video> mounted near the viewport, playing only in the central 50% band of the screen.",
+      "Double-ring focus style: box-shadow 0 0 0 2px var(--bg), 0 0 0 4px rgba(ink,.35).",
+      "Quiet footer: a large faint mascot mark (ink at 16% opacity, 48px) centred above a 3-column row of 13px text.",
+      "Thorough prefers-reduced-motion support: entrances off, transitions cut to 1ms, the JS rotation stops."
+    ],
+    "darkMode": "The theme is set by the `data-theme=\"light|dark\"` attribute on <html>, and CSS variables are redefined under `[data-theme=dark]`, which also sets `color-scheme: dark`.\n\nHow the initial theme is chosen (from the JS):\n- First it reads `localStorage['cabra-theme']` ('light' or 'dark').\n- If nothing is stored, it uses `matchMedia('(prefers-color-scheme: dark)')`.\n- While no choice is stored, it keeps listening for changes to the system setting.\n- The toggle is a 36px round icon button in the header tools / menu, labelled 'Switch to dark' or 'Switch to light'. It writes to localStorage.\n- Switching is an instant variable swap; I saw no crossfade or view transition.\n- Components that need to react watch the attribute through a MutationObserver.\n- The favicon is an inline SVG with its own prefers-color-scheme rule (hex #17181a, switching to #3a3b40 on dark browser chrome).\n\nDark tokens:\n- Backgrounds and surfaces: --bg #000, --surface #0f0f0f, --surface-2 #181818, --surface-3 #202020, --board #1a1a1a, --card #0a0a0a, --solid #000.\n- Text: --ink #fff, --ink-2 #b4b4b4, --ink-3 #9a9a9a, --ink-4 #828282, --ink-5 #6b6b6b, --lock #525252, --on-ink #000.\n- Accents: --ok #34d17a, --pick #3aa9ff, --guide #ff5c84.\n- --wash goes from .06 to .09, so cards and chips become rgba(255,255,255,.09).\n- Glass alpha drops from .35 to .16.\n\nComponent inversions in dark:\n- The primary pill turns white with black text.\n- The 'New' tag becomes #ffffff24 with white text.\n- The card name pill becomes rgba(255,255,255,.05) with #ffffffc7 text.\n- Finds frame rings drop to rgba(255,255,255,.05).\n- Detail panel lift shadows deepen: 0 2px 5px #00000038, 0 10px 24px #0000004d, plus a 1px ring rgba(255,255,255,.07).",
+    "layoutPatterns": "**Header (.bench-side)**\n- 72px tall, padding 4px 20px, position absolute over the page at \u2265761px.\n- Left: a 35px goat logo, then nav links Blocks / Sounds / Finds / Bench (14px 500, gap 24px).\n- Centre: an absolutely centred search pill, 48px tall and 228px wide, with a magnifier, 'Search blocks' / 'Search finds' placeholder and a \u2318K kbd chip. It grows to 56px when open.\n- Right: live count with a pulsing dot, a sponsor logo in a circle, a '+' circle button, and a split pill 'Join for free | chevron' (36px tall).\n- \u2264760px: the header becomes a fixed grid (logo / search / menu button). The fullscreen menu uses 26px nav links and 52px rows with 12px radius.\n\n**Home hero**\n- Centred, padding 60px top and 78px bottom.\n- Stack: social-proof pill, H1, muted sub, solid CTA.\n\n**Filter row**\n- 18px below the hero, gap 20px.\n- Left: horizontally scrolling pill chips (Hover, Press, Drag, Slide, Swipe, Type, Select) with edge mask fades.\n- Right: a 'Newest' sort pill opening a 160px menu (radius 14px, padding 5px, 34px items with radius 9px).\n\n**Grid**\n- Masonry built as flex columns, each `.bench-col` with flex 1 and gap 12px. The column count comes from a ResizeObserver.\n- Body padding is 20px on the sides and 64px at the bottom.\n- Card heights vary (about 300-424px at a 479px column width).\n- A sponsored card sits inside the grid with a dark blurred 'Sponsored' tag at top-left 14px.\n- The 'New' tag sits top-left (16px), the bookmark round button top-right (10px), and the hover veil with the name pill bottom-left (14px).\n\n**Finds page**\n- Small centred lede: a 15px h1 'The good side of the internet.' and a muted 2-line sub, 40px top and 56px bottom margin.\n- Wide category chip row: Hover, Press, Drag, Slide, Swipe, Scroll, Type, Select, Magnetic, Morph, Parallax, Elastic, Reveal and more.\n- A 3-4 column masonry of <figure class=fnd-tile>. Each wraps an <a class=fnd-frame href=/finds/slug> with radius 28px, surface-2 background, a 1px inset ring at 7% ink, inline aspect-ratio from the media, and press scale .988.\n- A 26px creator avatar sits bottom-left; a 30px white bookmark circle appears bottom-right on hover.\n\n**Detail overlay**\n- Max 1000x640, inset 24px.\n- Media block (radius 28px) on the left; a 300px side panel on the right (radius 28px, padding 18-20px, elevated white, floating 16px from the edges).\n- Panel contents: tags, title, credit with avatar, note, age, then Share (outline pill) and 'See original' (solid pill) pinned at the bottom.\n- On mobile the layout splits 46/54 vertically with a sticky footer.\n\n**Empty state**\n- Centred faint 96px mascot with a 14px ink-4 line.\n\n**Footer**\n- 72px top padding.\n- A large faint mark (48px at 16% ink) with 64px space below it.\n- A 1fr / auto / 1fr grid: 'Built by \u2026' left, \u00a9 year centre, Privacy / Licence plus social icons right.\n\n**Hover states** are colour fades and subtle background washes (wash .06, rising to .1 on hover). There are no card lifts or shadows on hover.",
+    "radiiSpacingShadows": "**Radii**\n- Cards, Finds frames, detail block and side panel: 28px.\n- Board bodies and block demo cards: 20px.\n- Menus and skeletons: 14px (bench skeleton 18px).\n- Tooltips: 8-10px.\n- Small square buttons: 7-12px.\n- Pills (chips, buttons, search, tags, name labels): 999px.\n- Logo mark: 6px.\n\n**Spacing**\n- Page gutter 20px (12px on mobile).\n- Grid gap 12px (Blocks) or 14px (Finds).\n- Header 72px.\n- Hero padding 60/78px.\n- Filter row bottom margin 18px.\n- Lede margin 40px top and 56px bottom (20/34px on mobile).\n- Footer padding-top 72px.\n- Chip padding 0 14px; button padding 0 15-20px.\n- Detail side panel padding 18-20px.\n- Tag gap 10px.\n\n**Heights**\n- Search 48px.\n- Chips 32-34px.\n- Header buttons 36px; hero CTA 40px; detail CTAs 40px.\n- Icon buttons 36px; tags 24px; card name pill 38px.\n\n**Shadows (deliberately minimal)**\n- Cards: none.\n- Scrolled search: 0 0 0 1px rgba(ink,.06), 0 2px 10px rgba(ink,.06).\n- Open search: 0 6px 24px rgba(ink,.1).\n- Menus: 0 0 0 1px rgba(ink,.06), 0 12px 32px #17181a24.\n- Canvas menu: 0 10px 34px #17181a29.\n- Finds detail lift: 0 2px 5px #0000000f, 0 10px 24px #00000012, 0 0 0 1px #00000008.\n- Board: 0 1px 2px rgba(ink,.05), 0 0 0 1px rgba(ink,.05).\n- Active segmented item: 0 1px 2px rgba(ink,.08).\n- Hero pill: inset 0 0 0 1px rgba(ink,.12).\n- Play button: 0 6px 24px #00000059.\n\n**Glass and blur**\n- Search: blur(8px) saturate(160%) on 74% white.\n- Name pill: blur(10px) saturate(150%) on 72% white.\n- Detail side panel: blur(14px) saturate(150%) on 86% white.\n- Scrim: blur(22px) saturate(130%).\n- Sponsored tag: blur(6px).",
+    "seoObservations": "**Rendering.** This is a client-rendered SPA. To make up for that it ships a `<noscript><main class=\"seo-shell\">` containing a real h1 ('The best interactive blocks.'), an intro paragraph, a <ul> of all 40+ items with their interaction type, and a nav of plain <a href> links to /, /sounds, /finds and /bench. A static Astro build gets this for free.\n\n**Titles and descriptions**\n- Titles put the name first and stay under 60 characters: 'Bencho - UI interactive blocks', 'Finds \u2014 UI interactions worth studying \u00b7 Bencho'.\n- Meta descriptions stay under 160 characters and include counts, e.g. 'A curated wall of 137 interface interactions \u2026 each one a short clip, credited, with a link to the maker.'\n\n**Canonical and social tags**\n- Each route has a canonical URL.\n- og:type website, og:url, og:title, og:description and og:site_name are set.\n- og:image is an ABSOLUTE 1200x630 URL, given a new filename whenever the image changes so cached link previews refresh.\n- twitter:card is summary_large_image, with twitter:title, description and image repeated explicitly.\n- HTML comments in the source document why there is exactly one og:description.\n\n**Structured data (JSON-LD)**\n- WebSite {name, url}.\n- CollectionPage {name, url, numberOfItems}.\n- On /finds, mainEntity is an ItemList of ListItem \u2192 VideoObject (name, description, and so on).\n\n**URLs and links**\n- Clean per-item URLs (/finds/<creator>-<slug>, e.g. /finds/yashachaarya-cardboard-tear).\n- Tiles are real <a href> elements, so they are crawlable. A plain click is intercepted to open the morph overlay and push the URL; modifier-clicks open the page normally.\n- Alt text on every image, aria-labels like 'Open <title>', lazy loading with decoding=async on images, and preload=metadata on videos.\n\n**Headings**\n- One h1 per page. On Finds it is visually small (15px), used as a lede rather than a big headline.\n- Hidden headings use a visually-hidden clip-path: inset(50%) pattern (.fnd-h1-off, .dtl-group-name).\n\n**Icons**\n- favicon.ico at 48x48, a favicon-192.png and an inline base64 SVG (listed last so it wins in the tab).\n- apple-touch-icon.\n\n**Performance hints**\n- Preconnect to both Google Fonts hosts, with crossorigin on gstatic.\n\n**Do NOT copy**\n- The viewport meta sets maximum-scale=1, user-scalable=no (pinch-zoom disabled). This is an accessibility anti-pattern.\n- Body touch-action: pan-x pan-y.",
+    "sources": [
+      "https://bencho.dev/ (raw HTML via curl: meta tags, noscript SEO shell, font links, bundle names)",
+      "https://bencho.dev/assets/index-B4192YGe.css (308KB stylesheet: :root and [data-theme=dark] tokens, 86 @keyframes, transitions, cubic-bezier frequency count)",
+      "https://bencho.dev/assets/index-B8ULXKfm.js (read in the in-browser tab: theme init via localStorage 'cabra-theme' plus prefers-color-scheme, masonry column math, hero pill Framer Motion params, --morph 380/300ms, scroll thresholds 6px/140px, video IntersectionObserver margins, spring configs)",
+      "Built-in browser on https://bencho.dev/ at a 1024px viewport: getComputedStyle on hero, nav, chips, cards and footer; screenshots at rest and scrolled; card hover; dark theme toggled through the site's own button and then reverted, with localStorage key removed",
+      "https://bencho.dev/finds (masonry of media tiles, per-route meta and JSON-LD ItemList/VideoObject, tile hover)",
+      "https://bencho.dev/finds/yashachaarya-cardboard-tear (detail overlay opened by clicking a tile: scrim, morph block and side panel computed styles)",
+      "Note: curl started getting a Vercel bot challenge (HTTP 403) after several asset requests; I did not try to bypass it and continued in the browser. The scrolled-header and hover screenshots are approximate visual confirmation; all numeric values come from the CSS and JS. Before the read-only plan-mode instruction appeared, I saved one scratch copy of the homepage HTML to the task scratchpad (research/bencho/index.html); nothing was written to the project folder."
+    ]
+  },
+  {
+    "site": "https://mobbin.com. It has two stacks. The marketing homepage (/) is built in Framer (published Sep 25 2026). The public browse pages (/explore/web, /explore/sites, /explore/sites/sections, /explore/sites/sections/hero-section) are a Next.js app using Tailwind v4, motion (framer-motion) and next-themes. Fetching with curl worked for every page. The built-in browser loaded the homepage, but /discover/* returned a Vercel \"403 Forbidden\" bot block, so those values come from the SSR HTML and CSS bundles. The /explore/sites/sections page is almost the exact product the user wants to build: a directory of website section designs. It is the most relevant reference.",
+    "colors": [
+      {
+        "name": "background-primary / neutral-0",
+        "value": "#FFFFFF",
+        "usage": "Page background, modal background, white active pill in the segmented control, testimonial card fill"
+      },
+      {
+        "name": "text-primary / background-inverse / neutral-100",
+        "value": "#141414 (hsl 0 0% 8%)",
+        "usage": "All headings and body text, primary pill button fill ('Join for free'), dark footer background, sticky-reveal footer"
+      },
+      {
+        "name": "background-inverse-hover / neutral-90",
+        "value": "#262626 (hsl 0 0% 15%)",
+        "usage": "Primary button hover (bg-background-inverse-hover)"
+      },
+      {
+        "name": "text-secondary (app) / neutral-60",
+        "value": "#707070 (the Framer homepage uses #717171)",
+        "usage": "Subheads such as 'Featuring over 1,000 iOS & Web apps', meta lines like '247 Sections', author names, breadcrumb parents, 'Trusted by design teams at'"
+      },
+      {
+        "name": "text-tertiary / neutral-50",
+        "value": "#878787 (hsl 0 0% 53%)",
+        "usage": "Unchecked items in the segmented control (app)"
+      },
+      {
+        "name": "neutral-40",
+        "value": "#ADADAD (hsl 0 0% 68%)",
+        "usage": "Inactive tab text on the homepage segmented tabs; secondary text in dark mode and in the dark footer"
+      },
+      {
+        "name": "background-secondary / divider (opacity-black-6)",
+        "value": "rgba(64,64,64,0.06)  = #4040400F",
+        "usage": "Fill behind every card and thumbnail: category cards, collection cards, homepage feature 'cover' cards, the full-bleed product-cover band, image placeholders/skeletons. Also the divider color. Framer uses the same value for borders on testimonial cards"
+      },
+      {
+        "name": "background-secondary-hover (opacity-black-10)",
+        "value": "rgba(64,64,64,0.10)",
+        "usage": "Card fill on hover (group-hover:bg-background-secondary-hover, 300ms ease-out)"
+      },
+      {
+        "name": "background-tertiary (opacity-black-8)",
+        "value": "rgba(64,64,64,0.08)",
+        "usage": "Tag chips, 'New' badges, segmented-control track, avatar placeholders"
+      },
+      {
+        "name": "background-tertiary-hover (opacity-black-12)",
+        "value": "rgba(64,64,64,0.12)",
+        "usage": "Tag chip hover"
+      },
+      {
+        "name": "border-secondary / border-secondary-hover",
+        "value": "rgba(64,64,64,0.08) \u2192 rgba(64,64,64,0.16)",
+        "usage": "1px border on the 'Browse by category' link cards (rounded-16), darkening on hover"
+      },
+      {
+        "name": "border-tertiary",
+        "value": "rgba(64,64,64,0.16) (Framer: rgba(65,65,65,0.16))",
+        "usage": "1px outline on secondary pill buttons ('See our plans', 'Continue with Google'). Hover goes to rgba(64,64,64,0.24)"
+      },
+      {
+        "name": "background-primary-hover (opacity-black-6)",
+        "value": "rgba(64,64,64,0.06)",
+        "usage": "Hover fill on ghost and outline buttons"
+      },
+      {
+        "name": "image inset hairline",
+        "value": "inset 0 0 0 .5px rgba(0,0,0,0.10)  (dark: rgba(255,255,255,0.16))",
+        "usage": "0.5px inner border drawn with ::after on every screenshot and logo. This is how images get their edge. Real borders are not used"
+      },
+      {
+        "name": "glass nav (marketing menu)",
+        "value": "rgba(237,237,237,0.64) on Framer; hsl(0 0% 93% / 72%) in the app",
+        "usage": "Floating pill navbar background, combined with backdrop blur (48px Framer, 24px app)"
+      },
+      {
+        "name": "card hover overlay",
+        "value": "rgba(0,0,0,0.64)",
+        "usage": "Dark scrim over a screenshot card on hover, with white 'Open' label and Save/Copy buttons"
+      },
+      {
+        "name": "brand / link blue (blue-70)",
+        "value": "#0066FF (hsl 216 100% 50%; Framer token #0065FF)",
+        "usage": "Links (text-link-primary), background-brand, border-brand. Used very sparingly; the UI is otherwise fully monochrome"
+      },
+      {
+        "name": "blue-60 (focus ring)",
+        "value": "#0077FF at 50% alpha: hsl(212 100% 50% / 50%)",
+        "usage": "Every focus-visible state: ring-4 (4px) in this color"
+      },
+      {
+        "name": "blue-80 (brand hover)",
+        "value": "#0048F0 (Framer token #0047F0)",
+        "usage": "Brand hover"
+      },
+      {
+        "name": "negative red-60 / red-70",
+        "value": "#E04300 / #CE2B04",
+        "usage": "Error and negative states only"
+      },
+      {
+        "name": "positive green-60 / green-70",
+        "value": "#3BA213 / #217F08",
+        "usage": "Success states only"
+      },
+      {
+        "name": "warning yellow-60 / yellow-70",
+        "value": "#A86500 / #8B4E00",
+        "usage": "Warning states only"
+      },
+      {
+        "name": "full neutral ramp",
+        "value": "5 #F5F5F5, 10 #EDEDED, 20 #DBDBDB, 30 #C2C2C2, 40 #ADADAD, 50 #878787, 60 #707070, 70 #5C5C5C, 80 #404040, 90 #262626, 95 #1F1F1F, 100 #141414",
+        "usage": "Source scale behind every gray. Tokens are stored as bare HSL triplets (e.g. --neutral-100: 0 0% 8%) and used as hsl(var(--x))"
+      },
+      {
+        "name": "dark-theme surfaces",
+        "value": "bg #141414, modal #1F1F1F, secondary bg rgba(255,255,255,0.06), tertiary rgba(255,255,255,0.08), border-secondary rgba(255,255,255,0.08), overlay rgba(0,0,0,0.80), dropdown shadow 0 8px 24px rgba(0,0,0,0.48)",
+        "usage": "The .dark theme. On public pages it appears only in the footer and inside hover-overlay button groups"
+      }
+    ],
+    "animations": [
+      {
+        "name": "Card hover: lift thumbnails + darken tile",
+        "description": "Section category cards on /explore/sites/sections are 364x260 tiles with rounded-24 corners and a 6%-gray fill. Each holds two overlapping, offset screenshot thumbnails at aspect 1.6016 with 16px radius. On hover the tile fill steps from 6% to 10% gray-black and both thumbnails rise 4px. Both changes run at 300ms ease-out. The thumbnail lift applies only at \u2265720px.",
+        "css": "tile: transition: background-color 300ms cubic-bezier(0,0,.2,1); .group:hover tile{background: rgba(64,64,64,.10)} thumbs: transition: transform 300ms cubic-bezier(0,0,.2,1); .group:hover thumb{transform: translateY(-4px)}"
+      },
+      {
+        "name": "Screenshot card hover overlay + slide-up actions",
+        "description": "On a screenshot card, hover fades in a dark scrim with a centered white 'Open' label (default 150ms ease-out). At the same time a two-column row of white pill buttons (Save / Copy) slides up from 16px below into place over 300ms ease-out. The row sits 16px from the left, right and bottom edges.",
+        "css": "overlay{background:rgba(0,0,0,.64);opacity:0;transition:opacity 150ms cubic-bezier(0,0,.2,1)} .group:hover overlay{opacity:1} actions{transform:translateY(16px);transition:transform 300ms cubic-bezier(0,0,.2,1)} .group:hover actions{transform:translateY(0)}"
+      },
+      {
+        "name": "Default micro-interaction timing",
+        "description": "Tailwind v4 defaults are used everywhere: buttons and chips use transition-colors, links use transition-opacity (hover:opacity-80), app names fade an underline in on hover (decoration-transparent \u2192 currentColor). Framer buttons use color/background 0.2s ease.",
+        "css": "--default-transition-duration:150ms; --default-transition-timing-function:cubic-bezier(.4,0,.2,1); --ease-out:cubic-bezier(0,0,.2,1); --ease-in:cubic-bezier(.4,0,1,1); --ease-in-out:cubic-bezier(.4,0,.2,1); Framer buttons: transition: color .2s ease, background .2s ease"
+      },
+      {
+        "name": "Hero entrance (Framer appear)",
+        "description": "Content fades up 20px on load. All entrance animations are critically damped springs (bounce 0), which behave like a smooth ease-out with no overshoot.",
+        "css": "headline/sub/CTAs: from {opacity:0; transform:translateY(20px)} to {opacity:1; transform:none} \u2014 spring bounce 0, duration 0.8s, delay 0.3s (some blocks 0.4s). Nav/header: from translateY(-12px), opacity 0 \u2014 spring 0.2s, delay 0. Product image: from scale(1.1), opacity 0 \u2014 spring 1.2s, delay 0.5s. CSS approximation: 800ms cubic-bezier(.22,1,.36,1)"
+      },
+      {
+        "name": "Primary CTA shine sweep",
+        "description": "A 116x116 white square rotated 45\u00b0, at opacity 0.1 with mix-blend-mode: hard-light, sits inside the black 'Join for free' pill (overflow clip). It sweeps from x:-320px to 0 once after load.",
+        "css": "transform: translateX(-320px) rotate(45deg) \u2192 translateX(0) rotate(45deg); spring bounce 0, 1.2s, delay .4s; opacity .1; mix-blend-mode: hard-light"
+      },
+      {
+        "name": "Hero app-icon stack cycler",
+        "description": "An 88px app icon (24px radius, 80px on mobile) sits on two blurred placeholder cards stacked behind it. Front card is 72px with 20px radius in rgba(0,0,0,.12); back card is 56px with 16px radius in rgba(0,0,0,.05); both use backdrop blur 32px. The icon swaps every 2000ms after a 1500ms initial delay. The old icon fades out over 250ms ease-in and the new one fades in over 800ms on a spring.",
+        "css": "interval 2000ms; initialDelay 1500ms; out: opacity 1\u21920 250ms ease-in; in: opacity 0\u21921 800ms spring"
+      },
+      {
+        "name": "Trusted-by logo rotator (blur crossfade)",
+        "description": "5 logo slots (3 on mobile), each 28px tall with a 24px gap. Every 3500ms each slot swaps its logo, staggered by 0.14s per slot. The incoming logo rises in from below while unblurring; the outgoing one rises out while blurring (AnimatePresence popLayout).",
+        "css": "enter: {opacity:0, y:8px, filter:blur(4px)} \u2192 {opacity:1, y:0, filter:blur(0)}; exit \u2192 {opacity:0, y:-8px, filter:blur(4px)}; duration .6s; ease cubic-bezier(.25,.46,.45,.94); delay = .14s \u00d7 slotIndex; interval 3500ms; initialDelay 200ms"
+      },
+      {
+        "name": "Screenshot marquee (tickers)",
+        "description": "Horizontal infinite tickers of phone screens on the homepage. Cards are 268x610 at aspect 0.4397 with 24px radius and a 0.5px rgba(0,0,0,.1) hairline. Each card has a centered label above it, separated by 20px. They move very slowly, start-aligned with a 20px gap, and do NOT slow on hover (hover modifier 100%). Rows of app icons (64px icon + name, 16px gap) run in alternating directions: 30px/s, 30px/s reversed, 20px/s, with 80px gaps (40px under 1200px). No edge fade mask was observed.",
+        "css": "@keyframes marquee{from{transform:translateX(0)} to{transform:translateX(-50%)}} \u2014 linear infinite; speed \u2248 30px/s (duration = trackWidth/30 s); 2nd row animation-direction: reverse; 3rd row 20px/s"
+      },
+      {
+        "name": "Segmented tabs (Mobile / Web / Sites; Screens / UI Elements / Flows)",
+        "description": "A pill track holds the tabs; the active tab gets a white sliding pill. The color change runs on a CSS variable duration of 200ms.",
+        "css": "track{background:rgba(64,64,64,.08);border-radius:9999px;padding:4px;height:44px (app) / 42px (Framer);gap:2px} item{padding:0 12px (app) / 6px 16px (Framer);font:600 16px/22px;color:#878787 (app) or #ADADAD (Framer); transition: color 200ms} active{color:#141414;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.04)}"
+      },
+      {
+        "name": "Skeleton pulse + text shimmer",
+        "description": "Image placeholders pulse; a text-shimmer utility sweeps a gradient across text.",
+        "css": "@keyframes pulse{50%{opacity:.5}} .loading-skeleton{background:hsl(var(--background-secondary));animation:pulse 1.5s ease-in-out infinite} @keyframes shimmer{0%{background-position:150%}to{background-position:-50%}} .text-shimmer{background-image:linear-gradient(45deg,#707070 40%,#141414 50%,#707070 60%);background-size:200%;-webkit-background-clip:text;color:transparent;animation:shimmer 2.5s ease-in-out infinite}"
+      },
+      {
+        "name": "Popover / menu enter-exit",
+        "description": "tailwindcss-animate style enter and exit keyframes (opacity, translate, scale driven by CSS variables). The drawer easing used is the iOS-like curve listed below.",
+        "css": "@keyframes enter{0%{opacity:var(--tw-enter-opacity,1);translate:var(--tw-enter-translate-x,0) var(--tw-enter-translate-y,0);scale:var(--tw-enter-scale,1)}} animation: enter var(--tw-in-duration,.1s) var(--tw-in-easing,ease-out); drawer easing cubic-bezier(.32,.72,0,1); also ease-[cubic-bezier(.87,0,.13,1)] (expo in-out)"
+      },
+      {
+        "name": "Mobile nav expand",
+        "description": "The mobile pill nav (52px tall, radius 28) springs open to auto height. Menu items cascade in, each fading and dropping from 10px above.",
+        "css": "nav height: 52px \u2192 auto, spring {duration:.3, bounce:.1}; ul variants open {opacity:1, staggerChildren:.03, delayChildren:.05}; li initial {opacity:0, y:-10px} \u2192 {opacity:1, y:0}"
+      },
+      {
+        "name": "Misc motion values from the app bundle",
+        "description": "Small spring and tween values reused across the UI.",
+        "css": "{type:'spring',duration:.15,bounce:0}; {type:'spring',duration:.1,bounce:0}; {duration:.2}; hover-card text {opacity:0,y:8}\u2192{opacity:1,y:0} spring stiffness 320 damping 24; logo stack items {opacity:0,x:12}\u2192{opacity:1,x:0} .25s easeOut; layout transitions .45s cubic-bezier(.4,0,.1,1); scroll-to-top FAB fades in (200ms ease-out) once scrollY > 3000"
+      },
+      {
+        "name": "Sticky reveal footer",
+        "description": "The last content block (main / CTA) has 32px bottom corners and a white background, layered above a dark #141414 footer. On Framer the footer is position: sticky; bottom: 0; on the app it is z -10 with -mt-32. Scrolling to the end makes the footer appear behind the rounded corners.",
+        "css": "main{background:#fff;border-radius:0 0 32px 32px;position:relative;z-index:1} footer{background:#141414;position:sticky;bottom:0;margin-top:-32px;padding-top:160px}"
+      },
+      {
+        "name": "Reduced motion",
+        "description": "The app CSS includes a prefers-reduced-motion block (motion-reduce:transition-none, motion-reduce:hidden). Components also pass a reducedMotion flag to motion. The Framer homepage has no explicit handling."
+      }
+    ],
+    "typography": "FAMILY: 'M Saans' is Mobbin's custom cut of Saans (Displaay). The app ships one variable WOFF2 (MSaansVF, weights 100\u2013900) as font-family: saans with a metric-matched Arial fallback ('saans Fallback': ascent 95.72%, descent 22.67%, size-adjust 99.25%). Global features: font-feature-settings \"dlig\" on, \"ss07\" on, \"calt\" off. The Framer homepage loads static cuts named by weight: M Saans 652 (headings), M Saans 600 (buttons/nav), M Saans 456, M Saans Regular 380, M Saans Variable Light 300. Inter is loaded only as a Framer fallback. Saans is not free; for a free substitute use a neutral grotesk with variable weights (e.g. Inter/Inter Tight variable, Geist, or Onest). Headings should use about 650 weight with slightly negative tracking, body about 450, labels 600. APP TYPE SCALE (exact Tailwind utilities): showcase 80/80px, weight 652, tracking -0.6px (H1 \u22651280px); spotlight 56/56, 652, -0.6px (H1 default); title-1 44/48, 652, -0.4px; title-2 32/36, 652, 0; title-3 24/30, 652, 0 (section H2s like 'Browse by category', 'What's trending'); feature 20/26, 440, 0 (intro paragraphs under H1, secondary color, max-width 666px, centered); feature-bold 20/26, 600; body 16/22, 456, +0.2px; body-bold 16/22, 600, +0.2px (nav links, buttons, card titles); compact 14/20, 456, +0.2px (meta, author, counts); compact-bold 14/20, 600 (breadcrumbs); caption 12/16, 456, +0.2px; caption-bold 12/16, 600, +0.2px (tag chips, badges). Blog: title-1 128/116, 456, -5px; title-2 62/66, 456, -1px; regular 18/26, 440. FRAMER HOMEPAGE: H1 64/64, 652, -0.6px, #141414 ('Discover real-world design inspiration.'); big stat lines 64/64 652; H2 44/44, 652, -0.6px ('Find design patterns in seconds.'); card titles 24/30 or 32/36, 652; subtitle 20/26, weight 300 light, secondary color; small label 14/20, 300, +0.2px, #717171; nav and buttons 16/22, 600, +0.2px. Root line-height is 1.5. Headlines are center-aligned on marketing and explore pages, wrapped at max-w 905px. Tracking: positive +0.2px on small text, negative -0.4 to -0.6px on large display text.",
+    "signatureDetails": [
+      "Near-total monochrome: white #FFF, ink #141414, and grays built as translucent near-black (rgba(64,64,64, .06/.08/.10/.12/.16)) instead of solid grays, so fills and borders blend naturally on any surface. Blue #0066FF appears only for links and focus rings.",
+      "Images never get real borders. Every screenshot and logo has a 0.5px inset hairline via ::after (inset 0 0 0 .5px rgba(0,0,0,.1)), which keeps edges crisp on white screenshots.",
+      "A soft 6%-gray 'well' (rgba(64,64,64,.06)) with 24px radius sits behind thumbnails. Section category cards place two offset, overlapping, clipped desktop screenshots (aspect 1.6016, 16px radius) inside that well, so one card previews two examples.",
+      "Floating glass pill navbar: 520px (app) / 620px (Framer) wide, 60px tall, fully rounded, rgba(237,237,237,.64\u2013.72) with 24\u201348px backdrop blur, centered 24px from the top. It holds the logo left, text links (16px/600) right, and a black 'Join for free' pill.",
+      "Pill buttons everywhere: 44px tall, 16px horizontal padding, 9999px radius, 16px/600 text. Primary is #141414 with white text (hover #262626); secondary is transparent with a 1px rgba(64,64,64,.16) inset outline. Tag chips are the exception: 8px radius, 6\u20138% gray fill, 12px/600 text, 4px\u00d78px padding.",
+      "Hover is calm and physical. Cards darken their gray well by 4% and lift thumbnails 4px over 300ms ease-out. Screenshot cards get a 64% black scrim with 'Open' plus pill actions sliding up 16px. No scale-ups and no colored glows.",
+      "The rounded-bottom main (32px radius) reveals a sticky dark #141414 footer behind it, which gives a 'sheet over a dark base' depth effect.",
+      "Motion is restrained and spring-based with zero bounce. Entrances use a 20px fade-up over 0.8s with about a 0.3s delay. Logos crossfade with a 4px blur and an 8px vertical drift. Screenshot marquees creep at about 30px/s.",
+      "Very generous vertical rhythm: section top padding 156\u2013180px, 120px between major blocks, 80\u201396px between header and content. Centered headers with max-width 905px and a subhead capped at 666px.",
+      "Two-column screenshot grid on detail pages (24px column gap, 32px row gap, 1 column under 900px container width). Each card has image, then a horizontally scrollable chip row with fade-gradient edges and arrow buttons, then a 28px app logo (30% radius) with the app name underlined on hover.",
+      "Small brand-level touches: custom type features (dlig, ss07, calt off), a size-adjusted fallback font to avoid layout shift, skeleton pulse at 1.5s on all image placeholders, and a scroll-to-top glass FAB after 3000px of scroll."
+    ],
+    "darkMode": "The app has a full token-based light/dark system. Semantic tokens (--text-primary, --background-secondary, --border-secondary, --shadow-image-inset-value, etc.) are redefined under the .light and .dark classes as HSL triplets referencing a neutral ramp and opacity ramps. Light: bg #FFFFFF, text #141414 / #707070 / #878787, translucent fills rgba(64,64,64,.06\u2013.16), image hairline rgba(0,0,0,.10), dropdown shadow 0 8px 24px rgba(0,0,0,.12). Dark: bg #141414, modal #1F1F1F, text #FFFFFF / #ADADAD / #878787, fills rgba(255,255,255,.06\u2013.16), image hairline rgba(255,255,255,.16), overlay rgba(0,0,0,.80), dropdown shadow 0 8px 24px rgba(0,0,0,.48), link blue-50 (#0F8FFF approx). Switching uses next-themes with attribute 'class', storageKey 'mobbin:theme', defaultTheme 'system' (prefers-color-scheme) and color-scheme enabled. However, the public /explore pages pass forcedTheme 'light', so they always render light. The .dark class is applied only locally: on the footer (dark bg-background-primary, giving #141414 with white text) and on hover-overlay button groups so their pills invert to white-on-black. The Framer marketing homepage is light-only, with a #141414 footer. Recommendation for the new site: ship the same token pairs under [data-theme] / prefers-color-scheme.",
+    "layoutPatterns": "NAV: fixed or sticky header holding a centered floating glass pill (desktop 520\u2013620px wide, 60px tall, top 24px, px 24, gap 24; mobile full width minus 48px, 52px tall, radius 28, expands as a sheet). Left: logo. Right: Pricing / MCP / Log in links (16/600) and a black pill CTA. CONTAINER: max content width 1280px on explore pages (1920px in the app), horizontal padding 20px \u2192 24px (\u2265720) \u2192 32px (\u22651280) \u2192 80px (\u22651536). Breakpoints used: 550, 720, 768, 840, 1024, 1200, 1280, 1440, 1536, 1920; container queries at 752, 900, 1140px. EXPLORE HUB (/explore/sites): centered H1 ('Explore site designs') with feature-size gray subhead, then a segmented control (Mobile | Web | Sites, h-44 pill). Below that, 'Browse by category' as 4 link cards: 208px wide, 16px radius, 1px 8% border, 8px padding (16px right), a 44px rounded-12 gray icon well, label 16/600; hover darkens the border. Then 'Popular Collections' as a grid of 442px columns (auto-fill; 3 columns at \u22651536), 24px column gap, 32px row gap. Each collection card has a 320px-tall (242px mobile) rounded-24 gray well with screenshots, then an avatar plus title (16/600) and author (14 gray). Then 'What's trending' as a 2-column screenshot grid. SECTIONS INDEX (/explore/sites/sections): visible breadcrumb (Explore \u203a Sites \u203a Sections, 14/600, parents gray, current ink, hover underline), H1 'Explore Sections', subhead, then H2 'Sections' over a grid of category cards (1 \u2192 2 cols at 752px container \u2192 3 cols at 1140px, gap 24). Each card is a 364x260 rounded-24 gray well with two offset screenshots, then the title (16/600, 16px top padding) and count ('247 Sections', 14 gray). SECTION DETAIL (/explore/sites/sections/hero-section): breadcrumb, H1 'Hero Section Design for Websites', SEO-rich intro paragraph, then a 2-column grid (column gap 12/24px, row gap 40/32px). Each card has a screenshot at aspect 1.6016 with 8px radius and hairline (some cards are muted looping videos with a poster); a chip row (section, category, styles such as 'Hero Section', 'Finance', 'Black & White', 'Minimal', each linking to its own taxonomy page); and the source site logo (28px, 30% radius) with name. Taxonomy has three axes: sections (hero, features, pricing, faq, footer, cta, testimonials, \u2026), styles (minimal, black-white, glass, light, 3d, illustration, scroll-effects, ui-animations), and categories (finance, technology, business, health). HOMEPAGE (Framer): hero (pt 156px) with the icon stack, H1, subhead, two pill CTAs and a logo rotator; full-bleed 6%-gray product screenshot band (80px top/left padding); stats block ('1,428 apps / 621,500+ screens / 323,900 flows' at 64px); tabbed screenshot ticker; two 475px feature cards (16px radius, gray well, phone video with 20px radius and 0 8px 40px rgba(0,0,0,.04) shadow); feature rows; testimonial masonry (white cards, 24px radius, 24px padding, 1px rgba(64,64,64,.06) border, 44px round avatars); final CTA with three icon marquee rows; dark sticky footer. FOOTER: #141414 grid of 16 columns (8 at 768px, 6 on mobile), pt 160px, column headings 14px gray ('Products', 'Resources'), links 16px white with hover opacity .8, 'New' pill badges. A pre-footer login CTA has 10 scattered 44px app icons (rounded-12, rotated \u00b115\u201330\u00b0) fading out with 240px top/bottom gradients.",
+    "radiiSpacingShadows": "RADII: 8px is the web screenshot (--border-radius:8px; .web-screen-border-radius) and also the tag chips. Mobile screenshots use an elliptical 12.22% / 5.65% (device-corner mimic); homepage phone screens use 24px. 12px: icon wells and small logos (44px). 16px: feature 'cover' cards, nested thumbnails inside category cards, category link cards, Framer cards. 20px: phone video frames. 24px: main card wells (collections, section categories), testimonial cards, CTA hit areas. 28px: mobile nav. 30px: Framer desktop nav pill. 32px: bottom corners of main above the footer. 9999px: buttons, segmented controls, badges, avatars. 30%: app logos (squircle-ish). SPACING (4px base, Tailwind numbers = px): section rhythm 120px between blocks, 96px between hero header and category nav, 80px top padding before grids (64px on mobile), page top padding 108px (mobile), 156px (\u2265720), 180px (\u22651280), bottom 120px. Grid gaps 24px, with 32\u201340px row gaps. Card meta: 12\u201316px below the image, 8px between avatar and text, 4px between chips. Buttons 44px tall, 16px x-padding, 8px icon gap; small buttons 36px. Hover action row inset 16px. SHADOWS (deliberately minimal): image hairline inset 0 0 0 .5px rgba(0,0,0,.10); generic .shadow 0 12px 80px rgba(0,0,0,.16); dropdown 0 8px 24px rgba(0,0,0,.12) (.48 in dark); phone video 0 8px 40px rgba(0,0,0,.04); segmented active pill 0 1px 2px rgba(0,0,0,.04); outline buttons use inset 0 0 0 1px rgba(64,64,64,.16) instead of a border. Focus: 4px ring hsl(212 100% 50% / .5). BLUR: glass blur 24px (app) / 48px (Framer nav) / 40px (Framer buttons); placeholder stack blur 32px.",
+    "seoObservations": "Per-page title and description are tuned to search intent. Example: 'Hero Section Design | Top Hero Section Design Inspirations' with description 'Discover the best website designs for Hero sections. Get inspired by the best sites in the world.' The index page is 'Explore the best website section designs on Mobbin'. Every page has a self-referencing <link rel=\"canonical\">. Open Graph tags: og:title, og:description, og:url, og:site_name, og:image (a single shared og_image.png?v=4.0), og:type website. Twitter: summary_large_image with @mobbin. JSON-LD BreadcrumbList (id='breadcrumbs') appears on every explore page (Explore \u203a Sites \u203a Sections \u203a Hero Section), matching a visible breadcrumb nav. Heading structure: exactly one H1 per page with the keyword phrasing ('Hero Section Design for Websites'), followed by a keyword-rich intro paragraph ('Explore the best hero section design examples for websites. Hundreds of thousands of designers already browse curated hero section design inspirations\u2026'). H2 is used per block ('Sections', 'Popular Collections', 'What's trending'), with H3 card titles wrapping an <a> to the slug page. URLs are clean and hierarchical with kebab-case slugs: /explore/sites, /explore/sites/sections, /explore/sites/sections/{slug} (about 150 slugs, many of them long-tail keyword variants such as 'pricing-page', 'saas-pricing-examples', 'testimonial-examples', 'website-sections'), /explore/sites/styles/{slug}, /explore/sites/categories/{slug}, and item pages at /explore/sections/{uuid}. Lists use semantic <ol role=\"list\">, <article>, <nav>, <header>, <section>, <footer>. Images have descriptive alt text ('Mindtrip Web screen'), the first images load eagerly and the rest lazily, and Next/Image sets width and height. Signup and modal links use rel=\"nofollow\", and data-nosnippet hides overlay and footer chrome from search snippets. robots.txt allows everything to all bots but restricts GPTBot to /llms.txt, /llms-full.txt and *.md pages; there is a sitemap.xml with lastmod, changefreq daily and priority. The Framer homepage has title, description, OG and Twitter tags, plus separate light and dark favicons via media prefers-color-scheme and an apple-touch-icon.",
+    "sources": [
+      "https://mobbin.com/ (Framer homepage HTML via curl; live DOM computed styles via the built-in browser, tab-2; one hero screenshot at a 1024x768 viewport)",
+      "https://mobbin.com/explore/web (SSR HTML via curl)",
+      "https://mobbin.com/explore/sites (SSR HTML via curl)",
+      "https://mobbin.com/explore/sites/sections (SSR HTML via curl; the most relevant reference page)",
+      "https://mobbin.com/explore/sites/sections/hero-section (SSR HTML + JSON-LD via curl)",
+      "https://mobbin.com/discover/apps/web/latest (curl 200 with an empty main; the browser got a 403 Vercel bot block, which was not bypassed)",
+      "https://mobbin.com/_next/static/immutable/chunks/0kr0-zljkw482.css (main Tailwind v4 CSS: tokens, type scale, keyframes, radii)",
+      "https://mobbin.com/_next/static/immutable/chunks/1_i7tf5-yq4y8.css, 1jjkkqmtdyvrw.css, 22h4quswfgipz.css, 3ohl-pjhox78t.css (font-face, saved/spinner animations)",
+      "Next.js JS chunks referenced by /explore/sites/sections (motion transition configs: MobileNavBar, HorizontalAppLogoStack, etc.)",
+      "https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/*.mjs (ticker velocities, logo rotator, icon stack and floating icon cloud component props)",
+      "https://mobbin.com/robots.txt, https://mobbin.com/sitemap.xml",
+      "Scratch copy of the homepage HTML: /private/tmp/claude-501/-Users-ritesh-Downloads-Sections/e92a2e49-3e60-4cee-9626-7836254bbbbb/scratchpad/research/mobbin/home.html"
+    ]
+  }
+]

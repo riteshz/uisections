@@ -1,0 +1,46 @@
+---
+// Decorative, slowly drifting rows of screenshots (Mobbin ticker, ~30px/s).
+import type { Section } from '../lib/data';
+import { shotUrl } from '../lib/urls';
+interface Props { rows: Section[][] }
+const { rows } = Astro.props;
+const CARD = 300, GAP = 16, SPEED = 30;
+---
+<div class="marquee" aria-hidden="true" data-marquee>
+  {rows.map((row, r) => (
+    <div class:list={['track', { reverse: r % 2 === 1 }]} style={`--dur:${Math.round((row.length * (CARD + GAP)) / SPEED)}s`}>
+      {[...row, ...row].map((s, i) => (
+        <img
+          class="m-shot"
+          src={shotUrl(s.files['480'])}
+          width={s.thumb.w}
+          height={s.thumb.h}
+          alt=""
+          loading={i < 6 ? 'eager' : 'lazy'}
+          decoding="async"
+          style={`--shot-bg:${s.bg}`}
+        />
+      ))}
+    </div>
+  ))}
+</div>
+<style>
+  .marquee { display: grid; gap: 16px; overflow: hidden; padding-block: 8px; mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+  .track { display: flex; gap: 16px; width: max-content; }
+  .m-shot {
+    width: 300px; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; flex: none;
+    border-radius: 14px; background: var(--shot-bg, var(--wash)); box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1);
+  }
+  @media (max-width: 640px) { .m-shot { width: 220px; } }
+  @media (prefers-reduced-motion: no-preference) {
+    .track { animation: marquee var(--dur) linear infinite; }
+    .track.reverse { animation-direction: reverse; }
+    .marquee.paused .track { animation-play-state: paused; }
+  }
+  @keyframes marquee { to { transform: translateX(-50%); } }
+</style>
+<script>
+  for (const el of document.querySelectorAll<HTMLElement>('[data-marquee]')) {
+    new IntersectionObserver(([e]) => el.classList.toggle('paused', !e.isIntersecting)).observe(el);
+  }
+</script>

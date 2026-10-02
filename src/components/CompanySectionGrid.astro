@@ -1,0 +1,114 @@
+---
+// Company page: small 16:10 thumbnails in page order. Each opens the lightbox.
+import type { Section } from '../lib/data';
+import { getCategory, getCompany } from '../lib/data';
+import { shotUrl } from '../lib/urls';
+
+interface Props { items: Section[] }
+const { items } = Astro.props;
+---
+<ol class="mini-grid">
+  {items.map((s, i) => {
+    const cat = getCategory(s.category)!;
+    const company = getCompany(s.company);
+    const fit = s.thumb.h / s.thumb.w < 0.56 ? 'contain' : 'cover';
+    return (
+      <li
+        class="card mini"
+        id={`s-${s.id}`}
+        data-id={s.id}
+        data-cat={s.category}
+        data-tags={s.tags.join(' ')}
+        data-company-name={s.companyName}
+        data-domain={company?.domain ?? undefined}
+        style={`--shot-bg:${s.bg}`}
+      >
+        <a
+          class="mini-thumb"
+          href={shotUrl(s.files.lg)}
+          data-lightbox
+          data-w={s.large.w}
+          data-h={s.large.h}
+          data-thumb={shotUrl(s.files['960'])}
+          data-md={shotUrl(s.files.md)}
+          data-headline={s.headline || undefined}
+          aria-label={`Open section ${i + 1}: ${cat.label.toLowerCase()}`}
+        >
+          <img
+            class={fit}
+            src={shotUrl(s.files['480'])}
+            srcset={`${shotUrl(s.files['480'])} ${s.thumb.w}w, ${shotUrl(s.files['960'])} ${s.thumb2x.w}w`}
+            sizes="(min-width: 1280px) 236px, (min-width: 900px) 22vw, (min-width: 640px) 30vw, 46vw"
+            width={s.thumb.w}
+            height={s.thumb.h}
+            alt={s.alt}
+            loading={i < 10 ? 'eager' : 'lazy'}
+            decoding="async"
+          />
+        </a>
+        <div class="mini-meta">
+          <span class="num tabular">{String(i + 1).padStart(2, '0')}</span>
+          {cat.hasPage ? <a href={cat.path}>{cat.label}</a> : <span>{cat.label}</span>}
+        </div>
+        {s.headline && <p class="mini-headline">{s.headline}</p>}
+      </li>
+    );
+  })}
+</ol>
+
+<style>
+  .mini-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 12px;
+  }
+  @media (min-width: 640px) { .mini-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 16px; } }
+  @media (min-width: 900px) { .mini-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  @media (min-width: 1200px) { .mini-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 32px 20px; } }
+
+  .mini { min-width: 0; }
+  .mini-thumb {
+    position: relative;
+    display: block;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--shot-bg, var(--wash));
+    box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1);
+    transition: translate 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+  }
+  .mini-thumb img { display: block; width: 100%; height: 100%; }
+  .mini-thumb img.cover { object-fit: cover; object-position: top center; }
+  .mini-thumb img.contain { object-fit: contain; object-position: center; }
+  @media (hover: hover) {
+    .mini-thumb:hover { translate: 0 -3px; box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1), 0 12px 28px -12px rgb(var(--ink-rgb) / 0.28); }
+  }
+  .mini-thumb:active { scale: 0.99; }
+
+  .mini-meta { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 0.8125rem; font-weight: 560; }
+  .mini-meta .num { color: var(--ink-4); font-weight: 500; }
+  .mini-meta a { color: var(--ink); }
+  .mini-meta a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .mini-headline {
+    margin-top: 2px;
+    font-size: 0.8125rem;
+    line-height: 1.4;
+    color: var(--ink-4);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .mini { animation: mini-rise 0.6s var(--ease-out-expo) both; }
+    .mini:nth-child(1) { animation-delay: 0.12s; }
+    .mini:nth-child(2) { animation-delay: 0.16s; }
+    .mini:nth-child(3) { animation-delay: 0.2s; }
+    .mini:nth-child(4) { animation-delay: 0.24s; }
+    .mini:nth-child(5) { animation-delay: 0.28s; }
+    .mini:nth-child(n + 6) { animation-delay: 0.32s; }
+  }
+  /* Transform only: the first thumbnails may be the LCP element. */
+  @keyframes mini-rise { from { transform: translateY(12px); } }
+</style>

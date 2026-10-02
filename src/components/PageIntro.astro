@@ -1,0 +1,20 @@
+---
+import Breadcrumbs from './Breadcrumbs.astro';
+import type { Crumb } from '../lib/jsonld';
+interface Props { crumbs?: Crumb[]; eyebrow?: string; title: string; intro?: string; center?: boolean }
+const { crumbs, eyebrow, title, intro, center = false } = Astro.props;
+---
+<header class:list={['page-intro', { center }]}>
+  {crumbs && <div class="enter enter-1"><Breadcrumbs crumbs={crumbs} /></div>}
+  {eyebrow && <p class="t-eyebrow tabular enter enter-1">{eyebrow}</p>}
+  <h1 class="t-h1 enter-solid enter-2">{title}</h1>
+  {intro && <p class="t-feature enter enter-3">{intro}</p>}
+  <slot />
+</header>
+<style>
+  .page-intro { display: grid; gap: 14px; padding-top: 40px; padding-bottom: 40px; max-width: 820px; }
+  .page-intro h1 { margin-top: 4px; }
+  .page-intro .t-feature { max-width: 666px; }
+  .center { margin-inline: auto; text-align: center; justify-items: center; }
+  @media (min-width: 900px) { .page-intro { padding-top: 56px; padding-bottom: 48px; } }
+</style>

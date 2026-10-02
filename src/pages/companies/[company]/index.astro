@@ -1,0 +1,169 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import CompanySectionGrid from '../../../components/CompanySectionGrid.astro';
+import SectionHeading from '../../../components/SectionHeading.astro';
+import CompanyCard from '../../../components/CompanyCard.astro';
+import Icon from '../../../components/Icon.astro';
+import { companies, getCategory, getSections, getTag, similarCompanies, type Category, type Company, type Tag } from '../../../lib/data';
+import { CATEGORY_SEO, companySeo, lower } from '../../../lib/seo';
+import { breadcrumbNode, collectionNode, graph } from '../../../lib/jsonld';
+import { companyUrl } from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return companies.filter((c) => c.hasPage).map((c) => ({ params: { company: c.slug }, props: { c } }));
+}
+
+const { c } = Astro.props as { c: Company };
+const path = companyUrl(c.slug);
+const items = getSections(c.sectionIds);
+const categories = c.categories.map((id) => getCategory(id)).filter((x): x is Category => Boolean(x));
+const labels = categories.map((x) => x.label);
+const seo = companySeo(c, labels);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Companies', path: '/companies/' },
+  { name: c.name, path },
+];
+
+const sectionName = (id: string | undefined) => (id ? lower(CATEGORY_SEO[id]?.name ?? getCategory(id)?.label ?? 'section') : '');
+const first = sectionName(items[0]?.category);
+const last = sectionName(items.at(-1)?.category);
+const intro =
+  `Every section we captured from the ${c.name} website, in page order` +
+  (first && last && first !== last ? `, from the ${first} down to the ${last}.` : '.') +
+  ' Open any thumbnail to see it full size.';
+
+// Section-type counts in page order of first appearance.
+const typeCounts = new Map<string, number>();
+for (const s of items) typeCounts.set(s.category, (typeCounts.get(s.category) ?? 0) + 1);
+const styleTags = c.topTags.map((id) => getTag(id)).filter((t): t is Tag => Boolean(t?.hasPage));
+const darkShare = Math.round((items.filter((s) => s.tags.includes('dark-mode')).length / items.length) * 100);
+const visit = c.domain ? `https://${c.domain}/?ref=uisections.com` : null;
+const similar = similarCompanies(c, 4);
+
+const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path, name: seo.h1, description: seo.description, items }));
+---
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  path={path}
+  ogImage={`/og/companies-${c.slug}.jpg`}
+  ogAlt={seo.h1}
+  noindex={!c.indexable}
+  jsonld={jsonld}
+>
+  <div class="container-wide">
+    <div class="co-head">
+      <PageIntro crumbs={crumbs} title={seo.h1} intro={intro}>
+        {visit && (
+          <div class="actions enter enter-4">
+            <a class="btn btn-primary btn-sm" href={visit} target="_blank" rel="nofollow noopener">
+              Visit {c.domain}<Icon name="arrow-up-right" size={16} /><span class="sr-only"> (opens in a new tab)</span>
+            </a>
+          </div>
+        )}
+      </PageIntro>
+
+      <aside class="facts enter enter-3" aria-label={`${c.name} at a glance`}>
+        <dl>
+          <div class="fact-row">
+            <dt>Sections</dt>
+            <dd class="big tabular">{c.count}</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Theme</dt>
+            <dd>{darkShare >= 60 ? 'Mostly dark' : darkShare >= 25 ? 'Mixed light & dark' : 'Mostly light'}</dd>
+          </div>
+          {c.domain && (
+            <div class="fact-row">
+              <dt>Website</dt>
+              <dd><a href={visit!} target="_blank" rel="nofollow noopener">{c.domain}<span class="sr-only"> (opens in a new tab)</span></a></dd>
+            </div>
+          )}
+          <div class="fact-block">
+            <dt>Section types</dt>
+            <dd>
+              <ul class="chips">
+                {[...typeCounts].map(([id, n]) => {
+                  const cat = getCategory(id)!;
+                  return <li>{cat.hasPage ? <a class="tag" href={cat.path}>{cat.label}{n > 1 && <span class="n">×{n}</span>}</a> : <span class="tag">{cat.label}</span>}</li>;
+                })}
+              </ul>
+            </dd>
+          </div>
+          {styleTags.length > 0 && (
+            <div class="fact-block">
+              <dt>Styles</dt>
+              <dd>
+                <ul class="chips">
+                  {styleTags.map((t) => <li><a class="tag" href={t.path}>{t.label}</a></li>)}
+                </ul>
+              </dd>
+            </div>
+          )}
+        </dl>
+      </aside>
+    </div>
+
+    <section class="sections" aria-labelledby="sections-title">
+      <div class="sections-head">
+        <h2 class="t-h2" id="sections-title">Sections <span class="count tabular">{c.count}</span></h2>
+        <p class="t-meta">In page order, top to bottom</p>
+      </div>
+      <CompanySectionGrid items={items} />
+    </section>
+
+    {similar.length > 0 && (
+      <section class="below" aria-labelledby="similar-title">
+        <SectionHeading title="Similar companies" id="similar-title" href="/companies/" linkLabel="All companies" />
+        <div class="similar">
+          {similar.map((x) => <CompanyCard c={x} />)}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .co-head {
+    display: grid;
+    gap: 8px 48px;
+    align-items: start;
+    padding-bottom: 48px;
+  }
+  @media (min-width: 1000px) {
+    .co-head { grid-template-columns: minmax(0, 1fr) 380px; padding-bottom: 56px; }
+    .facts { margin-top: 56px; }
+    .co-head :global(.page-intro) { padding-bottom: 0; }
+  }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+  .actions .btn :global(svg) { margin-left: -2px; }
+
+  .facts {
+    padding: 20px 22px;
+    border-radius: var(--r-well);
+    background: var(--surface);
+    box-shadow: inset 0 0 0 1px var(--line);
+  }
+  .facts dl { display: grid; gap: 0; }
+  .fact-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .fact-block { display: grid; gap: 10px; padding: 14px 0 4px; }
+  .fact-block + .fact-block { border-top: 1px solid var(--line); margin-top: 10px; }
+  dt { font-size: 0.8125rem; font-weight: 520; color: var(--ink-4); }
+  dd { font-size: 0.9375rem; font-weight: 560; color: var(--ink); min-width: 0; text-align: right; }
+  .fact-block dd { text-align: left; }
+  dd a:not(.tag) { text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  dd a:not(.tag):hover { text-decoration-color: currentColor; }
+  .big { font-size: 1.5rem; line-height: 1; letter-spacing: -0.02em; font-weight: 620; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag .n { margin-left: 4px; color: var(--ink-3); font-weight: 500; }
+
+  .sections { padding-top: 32px; border-top: 1px solid var(--line); }
+  .sections-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+  .sections-head .count { margin-left: 6px; font-size: 1rem; font-weight: 500; color: var(--ink-4); letter-spacing: 0; }
+
+  .below { margin-top: 112px; }
+  .similar { display: grid; gap: 28px 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (min-width: 900px) { .similar { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px 20px; } }
+</style>

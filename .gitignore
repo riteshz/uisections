@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+.cache/
+.wrangler/
+.lighthouseci/
+.DS_Store
+
+# Scratch manifests and raw AI-run dumps (contain local paths; regenerable)
+data/agent-batches/
+data/tag-runs/w*.json

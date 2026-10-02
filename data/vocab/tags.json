@@ -1,0 +1,266 @@
+[
+  {
+    "id": "dark-mode",
+    "label": "Dark mode",
+    "facet": "theme",
+    "page": true,
+    "definition": "At least 60% of the section's area is a very dark background (near-black, charcoal, deep navy). Judge the background, not the screenshots inside it.",
+    "excludes": [
+      "pastel",
+      "warm-neutral"
+    ]
+  },
+  {
+    "id": "gradient",
+    "label": "Gradient",
+    "facet": "theme",
+    "page": true,
+    "definition": "A visible colour gradient, mesh, aurora or glow covers at least 25% of the section background. Gradient buttons or gradient headline text alone do NOT count.",
+    "excludes": [
+      "monochrome"
+    ]
+  },
+  {
+    "id": "bold-color",
+    "label": "Bold color",
+    "facet": "theme",
+    "page": true,
+    "definition": "A saturated, clearly non-neutral colour (bright blue, orange, lime, purple, deep green\u2026) fills at least ~30% of the area as background or large panels. Near-black, charcoal or navy dark backgrounds are dark-mode, not bold-color. Coloured buttons, logos, small accents or colourful product screenshots do NOT count.",
+    "excludes": [
+      "monochrome"
+    ]
+  },
+  {
+    "id": "pastel",
+    "label": "Pastel",
+    "facet": "theme",
+    "page": true,
+    "definition": "Soft, light tinted backgrounds or cards (mint, lavender, peach, baby blue, pale yellow) dominate the look.",
+    "excludes": [
+      "dark-mode",
+      "monochrome"
+    ]
+  },
+  {
+    "id": "warm-neutral",
+    "label": "Warm neutral",
+    "facet": "theme",
+    "page": true,
+    "definition": "The page background is cream, beige, sand or warm off-white rather than pure white or cool gray.",
+    "excludes": [
+      "dark-mode"
+    ]
+  },
+  {
+    "id": "monochrome",
+    "label": "Monochrome",
+    "facet": "theme",
+    "page": true,
+    "definition": "The whole palette is black, white and gray (light or dark); any accent colour covers less than ~5% of the area. A prominent colourful product screenshot or photo means NOT monochrome. Can be combined with dark-mode.",
+    "excludes": [
+      "bold-color",
+      "pastel",
+      "gradient"
+    ]
+  },
+  {
+    "id": "bento",
+    "label": "Bento grid",
+    "facet": "layout",
+    "page": true,
+    "definition": "At least 4 tiles/cards arranged in a grid using at least 2 different tile sizes (spanning cells), like a bento box.",
+    "excludes": [
+      "card-grid"
+    ]
+  },
+  {
+    "id": "card-grid",
+    "label": "Card grid",
+    "facet": "layout",
+    "page": false,
+    "definition": "At least 3 equal-size cards in a regular row or grid.",
+    "excludes": [
+      "bento"
+    ]
+  },
+  {
+    "id": "split",
+    "label": "Split layout",
+    "facet": "layout",
+    "page": false,
+    "definition": "The main composition is two columns: a text block on one side and a visual (image, product UI, form, cards) on the other. A headline on the left with only buttons on the right is NOT split.",
+    "excludes": [
+      "centered"
+    ]
+  },
+  {
+    "id": "centered",
+    "label": "Centered",
+    "facet": "layout",
+    "page": false,
+    "definition": "A single centred column: headline, copy and CTA are centre-aligned.",
+    "excludes": [
+      "split"
+    ]
+  },
+  {
+    "id": "alternating",
+    "label": "Alternating rows",
+    "facet": "layout",
+    "page": true,
+    "definition": "Two or more rows where text and media switch sides (zig-zag).",
+    "excludes": []
+  },
+  {
+    "id": "tabs",
+    "label": "Tabs",
+    "facet": "layout",
+    "page": true,
+    "definition": "A visible tab bar, segmented control or toggle that switches the displayed content (incl. monthly/yearly toggles).",
+    "excludes": []
+  },
+  {
+    "id": "carousel",
+    "label": "Carousel",
+    "facet": "layout",
+    "page": true,
+    "definition": "A slider: prev/next arrows, dots/pagination, or cards cut off at the edge implying horizontal scrolling.",
+    "excludes": []
+  },
+  {
+    "id": "table",
+    "label": "Table",
+    "facet": "layout",
+    "page": true,
+    "definition": "A rows \u00d7 columns grid of data, prices or check/cross marks.",
+    "excludes": []
+  },
+  {
+    "id": "full-bleed-media",
+    "label": "Full-bleed media",
+    "facet": "layout",
+    "page": true,
+    "definition": "A photo, video frame or artwork fills the whole section background behind the text.",
+    "excludes": []
+  },
+  {
+    "id": "product-ui",
+    "label": "Product UI",
+    "facet": "media",
+    "page": false,
+    "definition": "Shows the actual product interface: app/dashboard screenshots or detailed UI mockups.",
+    "excludes": []
+  },
+  {
+    "id": "illustration",
+    "label": "Illustration",
+    "facet": "media",
+    "page": true,
+    "definition": "A distinct, non-repeating drawn artwork is a focal visual: 2D illustrations, characters, hand-drawn or pixel-art figures, editorial drawings. Simple icons do NOT count, and repeating textures (dot grids, dither fields, line patterns) are pattern-background instead.",
+    "excludes": []
+  },
+  {
+    "id": "3d",
+    "label": "3D",
+    "facet": "media",
+    "page": true,
+    "definition": "Rendered 3D objects, scenes or isometric 3D renders are a prominent visual.",
+    "excludes": []
+  },
+  {
+    "id": "photography",
+    "label": "Photography",
+    "facet": "media",
+    "page": true,
+    "definition": "Real-world photos (people, places, physical products) are a prominent visual. Small avatar headshots, logos or UI screenshots do NOT count.",
+    "excludes": []
+  },
+  {
+    "id": "video",
+    "label": "Video",
+    "facet": "media",
+    "page": false,
+    "definition": "A video player, play button or video thumbnail is prominent.",
+    "excludes": []
+  },
+  {
+    "id": "code",
+    "label": "Code",
+    "facet": "media",
+    "page": true,
+    "definition": "A code block, terminal window or API snippet is visible.",
+    "excludes": []
+  },
+  {
+    "id": "form",
+    "label": "Form",
+    "facet": "media",
+    "page": false,
+    "definition": "A visible input control (text field, email field, select, textarea) is a prominent element. Buttons alone do NOT count.",
+    "excludes": []
+  },
+  {
+    "id": "metrics",
+    "label": "Metrics",
+    "facet": "media",
+    "page": false,
+    "definition": "Two or more large numbers with labels (stats).",
+    "excludes": []
+  },
+  {
+    "id": "logo-strip",
+    "label": "Logo strip",
+    "facet": "media",
+    "page": false,
+    "definition": "A row of customer/partner logos inside a section that is not itself a logo cloud.",
+    "excludes": []
+  },
+  {
+    "id": "glassmorphism",
+    "label": "Glassmorphism",
+    "facet": "treatment",
+    "page": true,
+    "definition": "Frosted, translucent panels with visible background blur.",
+    "excludes": []
+  },
+  {
+    "id": "pattern-background",
+    "label": "Pattern background",
+    "facet": "treatment",
+    "page": true,
+    "definition": "A repeating texture sits behind the content: grid lines, dot grids, stripes, dither fields, noise or grain. Single focal artworks are illustration instead; plain gradients are gradient.",
+    "excludes": []
+  },
+  {
+    "id": "minimal",
+    "label": "Minimal",
+    "facet": "treatment",
+    "page": true,
+    "definition": "At most 2 colours besides neutrals, at least ~50% empty space, no decoration beyond the content itself.",
+    "excludes": []
+  },
+  {
+    "id": "serif",
+    "label": "Serif type",
+    "facet": "type",
+    "page": true,
+    "definition": "The main headline is set in a serif typeface.",
+    "excludes": []
+  },
+  {
+    "id": "oversized-type",
+    "label": "Oversized type",
+    "facet": "type",
+    "page": true,
+    "definition": "The headline is a dominant visual element: huge display text whose cap height is at least ~8% of the section height, or text spanning the full width.",
+    "excludes": []
+  },
+  {
+    "id": "gradient-text",
+    "label": "Gradient text",
+    "facet": "type",
+    "page": true,
+    "definition": "Headline words are filled with a colour gradient.",
+    "excludes": []
+  }
+]

@@ -1,0 +1,11 @@
+{"checked":84,"remove":[
+{"id":"8f3abe3a30","reason":"cap ≈9% of a short section (~37px) but a standard light section heading in the left column, spans ~25% width; values list dominates"},
+{"id":"5b2c900caf","reason":"cap ≈9% of height (~42px), normal left-aligned hero H1 spanning ~55% width with subtitle/CTA below; large but not oversized"},
+{"id":"d7b152a3b1","reason":"cap ≈3.5% of height, spans ~53% width; diagram dominates"},
+{"id":"8f93f1d4ce","reason":"cap ≈8% only because the crop is short (~34px), normal centered hero H1 spanning ~47% width"},
+{"id":"b33a9177ae","reason":"cap ≈8% (at threshold), light-weight centered H1 spanning ~40% width; equalizer graphic dominates"},
+{"id":"0b527b62ef","reason":"cap ≈3% of height, paragraph-style intro text in right column spanning ~57% width"},
+{"id":"0ab70d4369","reason":"cap ≈9% of a short banner (~33px), normal CTA heading inside circle spanning ~24% width"},
+{"id":"f18238a4c8","reason":"cap ≈4% of a tall section, spans ~68% width; flower imagery dominates"},
+{"id":"bd38a678c1","reason":"cap ≈7% of height, spans ~34% width; normal left-column hero H1"}
+]}
