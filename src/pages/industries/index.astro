@@ -1,0 +1,106 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import CategoryCard from '../../components/CategoryCard.astro';
+import { industryDefinitions, pagedIndustries, type Industry } from '../../lib/data';
+import { fit, list, withBrand } from '../../lib/seo';
+import { breadcrumbNode, graph } from '../../lib/jsonld';
+import { SITE } from '../../lib/site';
+import { absolute } from '../../lib/urls';
+
+const path = '/industries/';
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Industries', path },
+];
+
+const byCount = (a: Industry, b: Industry) => b.companyCount - a.companyCount || b.count - a.count || a.label.localeCompare(b.label);
+const sorted = [...pagedIndustries].sort(byCount);
+const n = sorted.length;
+const firstSentence = (text?: string) => (text ? text.split(/(?<=[.!?])\s+(?=[A-Z(])/)[0] : '');
+const lc = (s: string) => (/^[A-Z]{2,}/.test(s) ? s : s.charAt(0).toLowerCase() + s.slice(1));
+
+const h1 = 'Website design by industry';
+const title = withBrand(`Website Design Examples by Industry (${n})`);
+const description = fit(
+  `See how ${list(sorted.slice(0, 4).map((i) => lc(i.label)))} and other industries design their websites — real sections from ${sorted.reduce((t, i) => t + i.companyCount, 0)} company sites, grouped by market.`,
+  160,
+);
+const intro =
+  'Fintech sites have to earn trust, developer tools have to show the product, agencies sell their taste. Browse real sections grouped by the market each company serves.';
+
+const pageUrl = absolute(path);
+const jsonld = graph(breadcrumbNode(crumbs), {
+  '@type': 'CollectionPage',
+  '@id': `${pageUrl}#page`,
+  url: pageUrl,
+  name: h1,
+  description,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
+  inLanguage: 'en',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: n,
+    itemListElement: sorted.map((ind, i) => ({ '@type': 'ListItem', position: i + 1, url: absolute(ind.path), name: `${ind.seoName} website design` })),
+  },
+});
+---
+<BaseLayout title={title} description={description} path={path} ogImage="/og/industries.jpg" ogAlt={h1} jsonld={jsonld}>
+  <div class="container-wide">
+    <PageIntro crumbs={crumbs} title={h1} intro={intro} />
+
+    <ul class="ind-grid enter-solid enter-4" aria-label="Industries">
+      {sorted.map((ind, i) => (
+        <li class:list={['item', { later: i >= 4 }]}>
+          <CategoryCard href={ind.path} title={ind.label} count={ind.companyCount} noun={ind.companyCount === 1 ? 'company' : 'companies'} covers={ind.covers} eager={i < 4} />
+        </li>
+      ))}
+    </ul>
+
+    <section class="glossary" aria-labelledby="glossary-title">
+      <div class="glossary-head">
+        <h2 class="t-h2" id="glossary-title">What each industry covers</h2>
+        <p class="t-meta">Companies are grouped by the market they sell into; some belong to two.</p>
+      </div>
+      <ul>
+        {sorted.map((ind) => (
+          <li>
+            <div class="term">
+              <h3><a href={ind.path}>{ind.label}</a></h3>
+              <span class="t-meta tabular">{ind.companyCount} companies · {ind.count.toLocaleString('en-US')} sections</span>
+            </div>
+            {industryDefinitions.has(ind.id) && <p class="t-meta">{firstSentence(industryDefinitions.get(ind.id))}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .ind-grid {
+    display: grid;
+    gap: 28px 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @media (min-width: 720px) { .ind-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 20px; } }
+  @media (min-width: 1100px) { .ind-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 24px; } }
+
+  .glossary { margin-top: clamp(64px, 3rem + 4vw, 120px); }
+  .glossary-head { display: grid; gap: 6px; margin-bottom: 28px; }
+  .glossary ul { display: grid; column-gap: 48px; }
+  @media (min-width: 900px) { .glossary ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .glossary li { display: grid; gap: 4px; padding-block: 16px 18px; border-top: 1px solid var(--line); }
+  .term { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+  .term h3 { font-size: 1rem; font-weight: 580; letter-spacing: -0.005em; }
+  .term a { color: var(--ink); text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; transition: text-decoration-color 0.15s; }
+  .term a:hover { text-decoration-color: currentColor; }
+  .glossary p { max-width: 60ch; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      .item.later { animation: wall-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    }
+  }
+</style>

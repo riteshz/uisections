@@ -2,6 +2,10 @@
   {
     "slug": "11x",
     "name": "11x",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "11x.ai",
     "domainVerified": false,
     "count": 3,
@@ -31,6 +35,9 @@
   {
     "slug": "21oaks",
     "name": "21Oaks",
+    "industries": [
+      "other"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 7,
@@ -68,6 +75,9 @@
   {
     "slug": "8returns",
     "name": "8returns",
+    "industries": [
+      "ecommerce"
+    ],
     "domain": "8returns.com",
     "domainVerified": false,
     "count": 6,
@@ -103,6 +113,10 @@
   {
     "slug": "acctual",
     "name": "Acctual",
+    "industries": [
+      "fintech",
+      "crypto"
+    ],
     "domain": "acctual.com",
     "domainVerified": false,
     "count": 2,
@@ -130,6 +144,10 @@
   {
     "slug": "ada",
     "name": "Ada",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": "ada.cx",
     "domainVerified": false,
     "count": 4,
@@ -161,6 +179,9 @@
   {
     "slug": "adora",
     "name": "Adora",
+    "industries": [
+      "data-analytics"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -194,6 +215,10 @@
   {
     "slug": "agiloft",
     "name": "Agiloft",
+    "industries": [
+      "legal",
+      "ai"
+    ],
     "domain": "agiloft.com",
     "domainVerified": true,
     "count": 9,
@@ -234,6 +259,9 @@
   {
     "slug": "airbook",
     "name": "Airbook",
+    "industries": [
+      "data-analytics"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -263,6 +291,10 @@
   {
     "slug": "amini",
     "name": "Amini",
+    "industries": [
+      "ai",
+      "data-analytics"
+    ],
     "domain": "amini.ai",
     "domainVerified": false,
     "count": 9,
@@ -302,6 +334,10 @@
   {
     "slug": "amplemarket",
     "name": "Amplemarket",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "amplemarket.com",
     "domainVerified": false,
     "count": 7,
@@ -337,6 +373,9 @@
   {
     "slug": "antimetal",
     "name": "Antimetal",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "antimetal.com",
     "domainVerified": false,
     "count": 4,
@@ -368,6 +407,9 @@
   {
     "slug": "apollo",
     "name": "Apollo",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": "apollo.io",
     "domainVerified": false,
     "count": 3,
@@ -397,6 +439,9 @@
   {
     "slug": "aria",
     "name": "Aria",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 7,
@@ -433,6 +478,10 @@
   {
     "slug": "arke",
     "name": "Arke",
+    "industries": [
+      "productivity",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 8,
@@ -469,6 +518,10 @@
   {
     "slug": "aside",
     "name": "Aside",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": "aside.com",
     "domainVerified": true,
     "count": 7,
@@ -505,6 +558,9 @@
   {
     "slug": "atlassian",
     "name": "Atlassian",
+    "industries": [
+      "productivity"
+    ],
     "domain": "atlassian.com",
     "domainVerified": true,
     "count": 8,
@@ -541,6 +597,10 @@
   {
     "slug": "atomic-tessellator",
     "name": "Atomic Tessellator",
+    "industries": [
+      "other",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -564,6 +624,10 @@
   {
     "slug": "attio",
     "name": "Attio",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "attio.com",
     "domainVerified": false,
     "count": 4,
@@ -595,6 +659,10 @@
   {
     "slug": "basewell",
     "name": "Basewell",
+    "industries": [
+      "education",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -617,6 +685,10 @@
   {
     "slug": "bayshore",
     "name": "Bayshore",
+    "industries": [
+      "legal",
+      "ai"
+    ],
     "domain": "bayshore.ai",
     "domainVerified": true,
     "count": 10,
@@ -659,6 +731,10 @@
   {
     "slug": "bobbin",
     "name": "Bobbin",
+    "industries": [
+      "education",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 13,
@@ -707,6 +783,10 @@
   {
     "slug": "bounti",
     "name": "Bounti",
+    "industries": [
+      "hr",
+      "education"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -740,6 +820,9 @@
   {
     "slug": "brikken-co",
     "name": "Brikken+Co",
+    "industries": [
+      "agencies"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -773,6 +856,9 @@
   {
     "slug": "bucket",
     "name": "Bucket",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "bucket.co",
     "domainVerified": false,
     "count": 8,
@@ -811,6 +897,10 @@
   {
     "slug": "cal-com",
     "name": "Cal.com",
+    "industries": [
+      "productivity",
+      "developer-tools"
+    ],
     "domain": "cal.com",
     "domainVerified": false,
     "count": 3,
@@ -840,6 +930,9 @@
   {
     "slug": "calendly",
     "name": "Calendly",
+    "industries": [
+      "productivity"
+    ],
     "domain": "calendly.com",
     "domainVerified": true,
     "count": 7,
@@ -876,6 +969,9 @@
   {
     "slug": "campsite",
     "name": "Campsite",
+    "industries": [
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -898,6 +994,9 @@
   {
     "slug": "canopy",
     "name": "Canopy",
+    "industries": [
+      "fintech"
+    ],
     "domain": "canopyservicing.com",
     "domainVerified": true,
     "count": 29,
@@ -961,6 +1060,9 @@
   {
     "slug": "cap",
     "name": "Cap",
+    "industries": [
+      "productivity"
+    ],
     "domain": "cap.so",
     "domainVerified": false,
     "count": 3,
@@ -990,6 +1092,10 @@
   {
     "slug": "cardinal",
     "name": "Cardinal",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -1015,6 +1121,9 @@
   {
     "slug": "cartesia",
     "name": "Cartesia",
+    "industries": [
+      "ai"
+    ],
     "domain": "cartesia.ai",
     "domainVerified": false,
     "count": 4,
@@ -1046,6 +1155,9 @@
   {
     "slug": "chargetrip",
     "name": "Chargetrip",
+    "industries": [
+      "logistics"
+    ],
     "domain": "chargetrip.com",
     "domainVerified": true,
     "count": 12,
@@ -1087,6 +1199,10 @@
   {
     "slug": "chatbase",
     "name": "Chatbase",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": "chatbase.co",
     "domainVerified": false,
     "count": 5,
@@ -1120,6 +1236,10 @@
   {
     "slug": "clay",
     "name": "Clay",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "clay.com",
     "domainVerified": true,
     "count": 29,
@@ -1186,6 +1306,10 @@
   {
     "slug": "cloudflare-agents",
     "name": "Cloudflare Agents",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -1210,6 +1334,10 @@
   {
     "slug": "cluster",
     "name": "Cluster",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -1245,6 +1373,9 @@
   {
     "slug": "clutch-security",
     "name": "Clutch Security",
+    "industries": [
+      "cybersecurity"
+    ],
     "domain": "clutch.security",
     "domainVerified": false,
     "count": 1,
@@ -1268,6 +1399,10 @@
   {
     "slug": "coframe",
     "name": "Coframe",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "coframe.com",
     "domainVerified": false,
     "count": 6,
@@ -1303,6 +1438,9 @@
   {
     "slug": "cohere",
     "name": "Cohere",
+    "industries": [
+      "ai"
+    ],
     "domain": "cohere.com",
     "domainVerified": true,
     "count": 10,
@@ -1345,6 +1483,10 @@
   {
     "slug": "coherance",
     "name": "Coherence",
+    "industries": [
+      "ai",
+      "developer-tools"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -1367,6 +1509,10 @@
   {
     "slug": "concourse",
     "name": "Concourse",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": "concourse.co",
     "domainVerified": true,
     "count": 17,
@@ -1418,6 +1564,10 @@
   {
     "slug": "conduit",
     "name": "Conduit",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": "conduit.ai",
     "domainVerified": true,
     "count": 12,
@@ -1461,6 +1611,9 @@
   {
     "slug": "content-square",
     "name": "Contentsquare",
+    "industries": [
+      "data-analytics"
+    ],
     "domain": "contentsquare.com",
     "domainVerified": false,
     "count": 3,
@@ -1490,6 +1643,9 @@
   {
     "slug": "cortex",
     "name": "Cortex",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "cortex.io",
     "domainVerified": false,
     "count": 5,
@@ -1523,6 +1679,10 @@
   {
     "slug": "cotool",
     "name": "Cotool",
+    "industries": [
+      "cybersecurity",
+      "ai"
+    ],
     "domain": "cotool.ai",
     "domainVerified": true,
     "count": 8,
@@ -1561,6 +1721,10 @@
   {
     "slug": "cowlendar",
     "name": "Cowlendar",
+    "industries": [
+      "ecommerce",
+      "productivity"
+    ],
     "domain": "cowlendar.com",
     "domainVerified": false,
     "count": 6,
@@ -1596,6 +1760,9 @@
   {
     "slug": "crescent-cares",
     "name": "Crescent Cares",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -1622,6 +1789,9 @@
   {
     "slug": "crisp",
     "name": "Crisp",
+    "industries": [
+      "customer-support"
+    ],
     "domain": "crisp.chat",
     "domainVerified": false,
     "count": 4,
@@ -1653,6 +1823,9 @@
   {
     "slug": "cronicle",
     "name": "Cronicle",
+    "industries": [
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -1676,6 +1849,9 @@
   {
     "slug": "dan-mall",
     "name": "Dan Mall",
+    "industries": [
+      "agencies"
+    ],
     "domain": "danmall.com",
     "domainVerified": true,
     "count": 6,
@@ -1710,6 +1886,9 @@
   {
     "slug": "daniel-sun",
     "name": "Daniel Sun",
+    "industries": [
+      "agencies"
+    ],
     "domain": "danielsun.space",
     "domainVerified": true,
     "count": 6,
@@ -1744,6 +1923,9 @@
   {
     "slug": "dash0",
     "name": "Dash0",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "dash0.com",
     "domainVerified": false,
     "count": 6,
@@ -1779,6 +1961,9 @@
   {
     "slug": "daybridge",
     "name": "Daybridge",
+    "industries": [
+      "productivity"
+    ],
     "domain": "daybridge.com",
     "domainVerified": true,
     "count": 12,
@@ -1820,6 +2005,9 @@
   {
     "slug": "decimals",
     "name": "Decimals",
+    "industries": [
+      "hr"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -1849,6 +2037,9 @@
   {
     "slug": "delphi",
     "name": "Delphi",
+    "industries": [
+      "ai"
+    ],
     "domain": "delphi.ai",
     "domainVerified": false,
     "count": 4,
@@ -1880,6 +2071,10 @@
   {
     "slug": "devrev",
     "name": "DevRev",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": "devrev.ai",
     "domainVerified": false,
     "count": 11,
@@ -1922,6 +2117,9 @@
   {
     "slug": "ditto",
     "name": "Ditto",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "ditto.live",
     "domainVerified": false,
     "count": 11,
@@ -1962,6 +2160,10 @@
   {
     "slug": "dovetail",
     "name": "Dovetail",
+    "industries": [
+      "data-analytics",
+      "ai"
+    ],
     "domain": "dovetail.com",
     "domainVerified": false,
     "count": 7,
@@ -1999,6 +2201,9 @@
   {
     "slug": "duna",
     "name": "DUNA",
+    "industries": [
+      "agencies"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -2029,6 +2234,9 @@
   {
     "slug": "echofi",
     "name": "EchoFi",
+    "industries": [
+      "crypto"
+    ],
     "domain": "echofi.ai",
     "domainVerified": true,
     "count": 11,
@@ -2071,6 +2279,10 @@
   {
     "slug": "eigenpal",
     "name": "EigenPal",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -2092,6 +2304,10 @@
   {
     "slug": "endex",
     "name": "Endex",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": "endex.ai",
     "domainVerified": false,
     "count": 3,
@@ -2121,6 +2337,9 @@
   {
     "slug": "equals",
     "name": "Equals",
+    "industries": [
+      "data-analytics"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -2156,6 +2375,10 @@
   {
     "slug": "evervault",
     "name": "Evervault",
+    "industries": [
+      "cybersecurity",
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 7,
@@ -2192,6 +2415,10 @@
   {
     "slug": "exante",
     "name": "Exante",
+    "industries": [
+      "legal",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -2225,6 +2452,10 @@
   {
     "slug": "fellow",
     "name": "Fellow",
+    "industries": [
+      "productivity",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -2258,6 +2489,9 @@
   {
     "slug": "fernand",
     "name": "Fernand",
+    "industries": [
+      "customer-support"
+    ],
     "domain": "getfernand.com",
     "domainVerified": true,
     "count": 15,
@@ -2303,6 +2537,10 @@
   {
     "slug": "ferndesk",
     "name": "Ferndesk",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -2334,6 +2572,10 @@
   {
     "slug": "figr",
     "name": "Figr",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -2369,6 +2611,10 @@
   {
     "slug": "fin",
     "name": "Fin",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -2395,6 +2641,9 @@
   {
     "slug": "finsepa",
     "name": "Finsepa",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -2423,6 +2672,9 @@
   {
     "slug": "finta",
     "name": "Finta",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -2455,6 +2707,10 @@
   {
     "slug": "firecrawl",
     "name": "Firecrawl",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
     "domain": "firecrawl.dev",
     "domainVerified": false,
     "count": 5,
@@ -2488,6 +2744,9 @@
   {
     "slug": "firstwork",
     "name": "Firstwork",
+    "industries": [
+      "hr"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -2509,6 +2768,10 @@
   {
     "slug": "flank",
     "name": "Flank",
+    "industries": [
+      "legal",
+      "ai"
+    ],
     "domain": "flank.ai",
     "domainVerified": false,
     "count": 8,
@@ -2548,6 +2811,9 @@
   {
     "slug": "flect",
     "name": "Flect",
+    "industries": [
+      "healthcare"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -2575,6 +2841,9 @@
   {
     "slug": "flitedeck",
     "name": "Flitedeck",
+    "industries": [
+      "ecommerce"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -2606,6 +2875,9 @@
   {
     "slug": "folk",
     "name": "folk",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -2637,6 +2909,9 @@
   {
     "slug": "framer",
     "name": "Framer",
+    "industries": [
+      "design-tools"
+    ],
     "domain": "framer.com",
     "domainVerified": false,
     "count": 6,
@@ -2672,6 +2947,9 @@
   {
     "slug": "frankli",
     "name": "Frankli",
+    "industries": [
+      "hr"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -2705,6 +2983,10 @@
   {
     "slug": "futern",
     "name": "Futern",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -2727,6 +3009,10 @@
   {
     "slug": "gocertify",
     "name": "Gocertify",
+    "industries": [
+      "ecommerce",
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -2756,6 +3042,10 @@
   {
     "slug": "godmode",
     "name": "Godmode",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 9,
@@ -2796,6 +3086,9 @@
   {
     "slug": "goodside",
     "name": "Goodside",
+    "industries": [
+      "agencies"
+    ],
     "domain": "goodside.studio",
     "domainVerified": true,
     "count": 4,
@@ -2827,6 +3120,10 @@
   {
     "slug": "gradient-labs",
     "name": "Gradient Labs",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -2860,6 +3157,9 @@
   {
     "slug": "greenhouse",
     "name": "Greenhouse",
+    "industries": [
+      "hr"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -2891,6 +3191,9 @@
   {
     "slug": "griffin",
     "name": "Griffin",
+    "industries": [
+      "fintech"
+    ],
     "domain": "griffin.com",
     "domainVerified": true,
     "count": 8,
@@ -2929,6 +3232,9 @@
   {
     "slug": "groundcover",
     "name": "groundcover",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 7,
@@ -2965,6 +3271,10 @@
   {
     "slug": "gumloop",
     "name": "Gumloop",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": "gumloop.com",
     "domainVerified": true,
     "count": 12,
@@ -3008,6 +3318,10 @@
   {
     "slug": "harmonic",
     "name": "Harmonic",
+    "industries": [
+      "data-analytics",
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -3043,6 +3357,10 @@
   {
     "slug": "getharvest",
     "name": "Harvest",
+    "industries": [
+      "productivity",
+      "fintech"
+    ],
     "domain": "getharvest.com",
     "domainVerified": false,
     "count": 7,
@@ -3079,6 +3397,10 @@
   {
     "slug": "harvey",
     "name": "Harvey",
+    "industries": [
+      "legal",
+      "ai"
+    ],
     "domain": "harvey.ai",
     "domainVerified": true,
     "count": 8,
@@ -3118,6 +3440,10 @@
   {
     "slug": "headroom",
     "name": "Headroom",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -3147,6 +3473,9 @@
   {
     "slug": "hellotime",
     "name": "Hellotime",
+    "industries": [
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -3182,6 +3511,9 @@
   {
     "slug": "highnote",
     "name": "Highnote",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -3213,6 +3545,10 @@
   {
     "slug": "howseen-ai",
     "name": "Howseen AI",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 9,
@@ -3252,6 +3588,10 @@
   {
     "slug": "humblytics",
     "name": "Humblytics",
+    "industries": [
+      "data-analytics",
+      "sales-marketing"
+    ],
     "domain": "humblytics.com",
     "domainVerified": false,
     "count": 2,
@@ -3279,6 +3619,10 @@
   {
     "slug": "hunar",
     "name": "Hunar",
+    "industries": [
+      "hr",
+      "ai"
+    ],
     "domain": "hunar.ai",
     "domainVerified": true,
     "count": 19,
@@ -3330,6 +3674,9 @@
   {
     "slug": "hyperline",
     "name": "Hyperline",
+    "industries": [
+      "fintech"
+    ],
     "domain": "hyperline.co",
     "domainVerified": false,
     "count": 5,
@@ -3363,6 +3710,9 @@
   {
     "slug": "incident",
     "name": "incident.io",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "incident.io",
     "domainVerified": false,
     "count": 10,
@@ -3403,6 +3753,9 @@
   {
     "slug": "inertia-js",
     "name": "Inertia.js",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "inertiajs.com",
     "domainVerified": false,
     "count": 1,
@@ -3424,6 +3777,10 @@
   {
     "slug": "interfere",
     "name": "Interfere",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
     "domain": "interfere.com",
     "domainVerified": true,
     "count": 9,
@@ -3463,6 +3820,10 @@
   {
     "slug": "invertase",
     "name": "Invertase",
+    "industries": [
+      "developer-tools",
+      "agencies"
+    ],
     "domain": "invertase.io",
     "domainVerified": false,
     "count": 8,
@@ -3500,6 +3861,10 @@
   {
     "slug": "jace",
     "name": "Jace",
+    "industries": [
+      "productivity",
+      "ai"
+    ],
     "domain": "jace.ai",
     "domainVerified": false,
     "count": 1,
@@ -3522,6 +3887,10 @@
   {
     "slug": "jasper",
     "name": "Jasper",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "jasper.ai",
     "domainVerified": false,
     "count": 20,
@@ -3577,6 +3946,9 @@
   {
     "slug": "jitter",
     "name": "Jitter",
+    "industries": [
+      "design-tools"
+    ],
     "domain": "jitter.video",
     "domainVerified": false,
     "count": 6,
@@ -3612,6 +3984,9 @@
   {
     "slug": "koyeb",
     "name": "Koyeb",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "koyeb.com",
     "domainVerified": false,
     "count": 8,
@@ -3650,6 +4025,9 @@
   {
     "slug": "laravel",
     "name": "Laravel",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "laravel.com",
     "domainVerified": true,
     "count": 7,
@@ -3687,6 +4065,9 @@
   {
     "slug": "laravel-cloud",
     "name": "Laravel Cloud",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "cloud.laravel.com",
     "domainVerified": true,
     "count": 18,
@@ -3737,6 +4118,9 @@
   {
     "slug": "laravel-forge",
     "name": "Laravel Forge",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "forge.laravel.com",
     "domainVerified": true,
     "count": 13,
@@ -3782,6 +4166,9 @@
   {
     "slug": "laravel-nightwatch",
     "name": "Laravel Nightwatch",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "nightwatch.laravel.com",
     "domainVerified": true,
     "count": 8,
@@ -3818,6 +4205,9 @@
   {
     "slug": "latitude",
     "name": "Latitude.sh",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "latitude.sh",
     "domainVerified": false,
     "count": 4,
@@ -3849,6 +4239,9 @@
   {
     "slug": "lattice",
     "name": "Lattice",
+    "industries": [
+      "hr"
+    ],
     "domain": "lattice.com",
     "domainVerified": false,
     "count": 8,
@@ -3888,6 +4281,9 @@
   {
     "slug": "leedlime",
     "name": "Leedlime",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -3918,6 +4314,10 @@
   {
     "slug": "legora",
     "name": "Legora",
+    "industries": [
+      "legal",
+      "ai"
+    ],
     "domain": "legora.com",
     "domainVerified": true,
     "count": 8,
@@ -3957,6 +4357,10 @@
   {
     "slug": "lemni",
     "name": "Lemni",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -3978,6 +4382,10 @@
   {
     "slug": "lightdash",
     "name": "Lightdash",
+    "industries": [
+      "data-analytics",
+      "ai"
+    ],
     "domain": "lightdash.com",
     "domainVerified": false,
     "count": 2,
@@ -4004,6 +4412,9 @@
   {
     "slug": "lightning-proxies",
     "name": "Lightning Proxies",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "lightningproxies.net",
     "domainVerified": false,
     "count": 5,
@@ -4035,6 +4446,9 @@
   {
     "slug": "lightyear",
     "name": "Lightyear",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -4057,6 +4471,10 @@
   {
     "slug": "lindy",
     "name": "Lindy",
+    "industries": [
+      "ai",
+      "sales-marketing"
+    ],
     "domain": "lindy.ai",
     "domainVerified": false,
     "count": 7,
@@ -4094,6 +4512,10 @@
   {
     "slug": "linear",
     "name": "Linear",
+    "industries": [
+      "productivity",
+      "developer-tools"
+    ],
     "domain": "linear.app",
     "domainVerified": false,
     "count": 6,
@@ -4129,6 +4551,10 @@
   {
     "slug": "linearity",
     "name": "Linearity",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
     "domain": "linearity.io",
     "domainVerified": true,
     "count": 5,
@@ -4162,6 +4588,9 @@
   {
     "slug": "liveblocks",
     "name": "Liveblocks",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "liveblocks.io",
     "domainVerified": false,
     "count": 6,
@@ -4196,6 +4625,9 @@
   {
     "slug": "localcan",
     "name": "LocalCan",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "localcan.com",
     "domainVerified": true,
     "count": 12,
@@ -4240,6 +4672,9 @@
   {
     "slug": "localyzer",
     "name": "Localyzer",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 9,
@@ -4279,6 +4714,9 @@
   {
     "slug": "loop",
     "name": "Loop",
+    "industries": [
+      "ecommerce"
+    ],
     "domain": "loopreturns.com",
     "domainVerified": false,
     "count": 5,
@@ -4312,6 +4750,10 @@
   {
     "slug": "lynq",
     "name": "Lynq",
+    "industries": [
+      "productivity",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -4339,6 +4781,9 @@
   {
     "slug": "maybe",
     "name": "Maybe",
+    "industries": [
+      "fintech"
+    ],
     "domain": "maybe.co",
     "domainVerified": false,
     "count": 5,
@@ -4371,6 +4816,9 @@
   {
     "slug": "menkind",
     "name": "Menkind",
+    "industries": [
+      "healthcare"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 8,
@@ -4409,6 +4857,9 @@
   {
     "slug": "mintlify",
     "name": "Mintlify",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "mintlify.com",
     "domainVerified": true,
     "count": 16,
@@ -4456,6 +4907,9 @@
   {
     "slug": "missive",
     "name": "Missive",
+    "industries": [
+      "productivity"
+    ],
     "domain": "missiveapp.com",
     "domainVerified": false,
     "count": 4,
@@ -4487,6 +4941,9 @@
   {
     "slug": "miter",
     "name": "Miter",
+    "industries": [
+      "hr"
+    ],
     "domain": "miter.com",
     "domainVerified": false,
     "count": 8,
@@ -4524,6 +4981,10 @@
   {
     "slug": "modulify",
     "name": "Modulify",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
     "domain": "modulify.ai",
     "domainVerified": true,
     "count": 8,
@@ -4559,6 +5020,10 @@
   {
     "slug": "monica",
     "name": "Monica",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": "monica.im",
     "domainVerified": false,
     "count": 2,
@@ -4584,6 +5049,10 @@
   {
     "slug": "n8n",
     "name": "n8n",
+    "industries": [
+      "productivity",
+      "ai"
+    ],
     "domain": "n8n.io",
     "domainVerified": false,
     "count": 2,
@@ -4611,6 +5080,10 @@
   {
     "slug": "near",
     "name": "NEAR",
+    "industries": [
+      "crypto",
+      "fintech"
+    ],
     "domain": "near.com",
     "domainVerified": true,
     "count": 7,
@@ -4647,6 +5120,9 @@
   {
     "slug": "neon",
     "name": "Neon",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "neon.com",
     "domainVerified": false,
     "count": 5,
@@ -4680,6 +5156,10 @@
   {
     "slug": "nickai",
     "name": "NickAI",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 11,
@@ -4721,6 +5201,10 @@
   {
     "slug": "nominal",
     "name": "Nominal",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": "nominal.so",
     "domainVerified": true,
     "count": 5,
@@ -4754,6 +5238,9 @@
   {
     "slug": "nory",
     "name": "Nory",
+    "industries": [
+      "ecommerce"
+    ],
     "domain": "nory.ai",
     "domainVerified": false,
     "count": 6,
@@ -4789,6 +5276,10 @@
   {
     "slug": "noxus",
     "name": "Noxus",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -4814,6 +5305,10 @@
   {
     "slug": "operate",
     "name": "Operate",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "operate.so",
     "domainVerified": true,
     "count": 1,
@@ -4835,6 +5330,9 @@
   {
     "slug": "orbi",
     "name": "Orbi",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -4862,6 +5360,9 @@
   {
     "slug": "orchestra",
     "name": "Orchestra",
+    "industries": [
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -4893,6 +5394,9 @@
   {
     "slug": "origin",
     "name": "Origin",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -4928,6 +5432,10 @@
   {
     "slug": "orshot",
     "name": "Orshot",
+    "industries": [
+      "design-tools",
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -4954,6 +5462,10 @@
   {
     "slug": "outerbase",
     "name": "Outerbase",
+    "industries": [
+      "developer-tools",
+      "data-analytics"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 8,
@@ -4992,6 +5504,10 @@
   {
     "slug": "outseta",
     "name": "Outseta",
+    "industries": [
+      "fintech",
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -5026,6 +5542,10 @@
   {
     "slug": "outtake",
     "name": "Outtake",
+    "industries": [
+      "cybersecurity",
+      "ai"
+    ],
     "domain": "outtake.ai",
     "domainVerified": false,
     "count": 6,
@@ -5061,6 +5581,10 @@
   {
     "slug": "pace",
     "name": "Pace",
+    "industries": [
+      "ai",
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -5084,6 +5608,9 @@
   {
     "slug": "palette",
     "name": "Palette",
+    "industries": [
+      "agencies"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -5117,6 +5644,10 @@
   {
     "slug": "pallet",
     "name": "Pallet",
+    "industries": [
+      "logistics",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -5146,6 +5677,9 @@
   {
     "slug": "paraform",
     "name": "Paraform",
+    "industries": [
+      "hr"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -5173,6 +5707,10 @@
   {
     "slug": "parker",
     "name": "Parker",
+    "industries": [
+      "fintech",
+      "ecommerce"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -5202,6 +5740,10 @@
   {
     "slug": "phidata",
     "name": "Phidata",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -5235,6 +5777,9 @@
   {
     "slug": "plaid",
     "name": "Plaid",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -5264,6 +5809,9 @@
   {
     "slug": "plain",
     "name": "Plain",
+    "industries": [
+      "customer-support"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 8,
@@ -5301,6 +5849,10 @@
   {
     "slug": "plasma",
     "name": "Plasma",
+    "industries": [
+      "crypto",
+      "fintech"
+    ],
     "domain": "plasma.org",
     "domainVerified": true,
     "count": 36,
@@ -5373,6 +5925,9 @@
   {
     "slug": "pleo",
     "name": "Pleo",
+    "industries": [
+      "fintech"
+    ],
     "domain": "pleo.io",
     "domainVerified": true,
     "count": 2,
@@ -5400,6 +5955,10 @@
   {
     "slug": "ploy",
     "name": "Ploy",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 8,
@@ -5436,6 +5995,10 @@
   {
     "slug": "plumb",
     "name": "Plumb",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -5461,6 +6024,9 @@
   {
     "slug": "podium-automation",
     "name": "Podium Automation",
+    "industries": [
+      "other"
+    ],
     "domain": "podiumautomation.com",
     "domainVerified": true,
     "count": 8,
@@ -5497,6 +6063,9 @@
   {
     "slug": "pogo",
     "name": "Pogo",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": "joinpogo.com",
     "domainVerified": true,
     "count": 10,
@@ -5539,6 +6108,9 @@
   {
     "slug": "port",
     "name": "Port",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "getport.io",
     "domainVerified": false,
     "count": 10,
@@ -5581,6 +6153,10 @@
   {
     "slug": "portal",
     "name": "Portal",
+    "industries": [
+      "productivity",
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -5610,6 +6186,9 @@
   {
     "slug": "primer",
     "name": "Primer",
+    "industries": [
+      "fintech"
+    ],
     "domain": "primer.io",
     "domainVerified": false,
     "count": 5,
@@ -5643,6 +6222,10 @@
   {
     "slug": "privy",
     "name": "Privy",
+    "industries": [
+      "crypto",
+      "developer-tools"
+    ],
     "domain": "privy.io",
     "domainVerified": true,
     "count": 5,
@@ -5676,6 +6259,10 @@
   {
     "slug": "profound",
     "name": "Profound",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -5707,6 +6294,10 @@
   {
     "slug": "promptwatch",
     "name": "Promptwatch",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -5736,6 +6327,9 @@
   {
     "slug": "proto",
     "name": "Proto",
+    "industries": [
+      "crypto"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -5759,6 +6353,9 @@
   {
     "slug": "quicklnk",
     "name": "QuickLnk",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -5791,6 +6388,10 @@
   {
     "slug": "rally",
     "name": "Rally",
+    "industries": [
+      "fintech",
+      "logistics"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -5814,6 +6415,9 @@
   {
     "slug": "raneo",
     "name": "Raneo",
+    "industries": [
+      "agencies"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 11,
@@ -5858,6 +6462,9 @@
   {
     "slug": "raycast",
     "name": "Raycast",
+    "industries": [
+      "productivity"
+    ],
     "domain": "raycast.com",
     "domainVerified": false,
     "count": 3,
@@ -5886,6 +6493,9 @@
   {
     "slug": "rayon",
     "name": "Rayon",
+    "industries": [
+      "design-tools"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 8,
@@ -5925,6 +6535,10 @@
   {
     "slug": "realm",
     "name": "Realm",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -5959,6 +6573,10 @@
   {
     "slug": "relume",
     "name": "Relume",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
     "domain": "relume.io",
     "domainVerified": true,
     "count": 8,
@@ -5997,6 +6615,9 @@
   {
     "slug": "response",
     "name": "Response",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -6024,6 +6645,10 @@
   {
     "slug": "rezolv",
     "name": "Rezolv",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 12,
@@ -6067,6 +6692,9 @@
   {
     "slug": "robin-humphreys",
     "name": "Robin Humphreys",
+    "industries": [
+      "agencies"
+    ],
     "domain": "robin.cv",
     "domainVerified": false,
     "count": 2,
@@ -6092,6 +6720,10 @@
   {
     "slug": "rogo",
     "name": "Rogo",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -6117,6 +6749,9 @@
   {
     "slug": "routable",
     "name": "Routable",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 11,
@@ -6160,6 +6795,9 @@
   {
     "slug": "rubus",
     "name": "Rubus",
+    "industries": [
+      "other"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -6186,6 +6824,10 @@
   {
     "slug": "rulebase",
     "name": "Rulebase",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": "rulebase.co",
     "domainVerified": true,
     "count": 8,
@@ -6223,6 +6865,9 @@
   {
     "slug": "ruul",
     "name": "Ruul",
+    "industries": [
+      "fintech"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -6256,6 +6901,9 @@
   {
     "slug": "saki",
     "name": "Saki",
+    "industries": [
+      "ecommerce"
+    ],
     "domain": "sakiproducts.com",
     "domainVerified": true,
     "count": 7,
@@ -6289,6 +6937,10 @@
   {
     "slug": "sandbar",
     "name": "Sandbar",
+    "industries": [
+      "fintech",
+      "cybersecurity"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -6319,6 +6971,9 @@
   {
     "slug": "sanity",
     "name": "Sanity",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -6350,6 +7005,9 @@
   {
     "slug": "seamless",
     "name": "Seamless.AI",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 7,
@@ -6386,6 +7044,10 @@
   {
     "slug": "secoda",
     "name": "Secoda",
+    "industries": [
+      "data-analytics",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -6415,6 +7077,9 @@
   {
     "slug": "sevalla",
     "name": "Sevalla",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -6444,6 +7109,9 @@
   {
     "slug": "shelby",
     "name": "Shelby",
+    "industries": [
+      "crypto"
+    ],
     "domain": "shelby.xyz",
     "domainVerified": true,
     "count": 10,
@@ -6486,6 +7154,9 @@
   {
     "slug": "siterails",
     "name": "Siterails",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -6507,6 +7178,9 @@
   {
     "slug": "smallest-ai",
     "name": "Smallest.ai",
+    "industries": [
+      "ai"
+    ],
     "domain": "smallest.ai",
     "domainVerified": true,
     "count": 8,
@@ -6544,6 +7218,9 @@
   {
     "slug": "snackish",
     "name": "Snackish",
+    "industries": [
+      "ecommerce"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -6573,6 +7250,9 @@
   {
     "slug": "sofia-khegai",
     "name": "Sofia Khegai",
+    "industries": [
+      "agencies"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -6594,6 +7274,10 @@
   {
     "slug": "spara",
     "name": "Spara",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -6625,6 +7309,10 @@
   {
     "slug": "spellbook",
     "name": "Spellbook",
+    "industries": [
+      "legal",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 5,
@@ -6658,6 +7346,10 @@
   {
     "slug": "steel-dev",
     "name": "Steel",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 6,
@@ -6693,6 +7385,10 @@
   {
     "slug": "submagic",
     "name": "Submagic",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -6724,6 +7420,9 @@
   {
     "slug": "synaptrix",
     "name": "Synaptrix",
+    "industries": [
+      "healthcare"
+    ],
     "domain": "synaptrixlabs.com",
     "domainVerified": true,
     "count": 5,
@@ -6757,6 +7456,10 @@
   {
     "slug": "synthesia",
     "name": "Synthesia",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 13,
@@ -6803,6 +7506,10 @@
   {
     "slug": "synthio-labs",
     "name": "Synthio Labs",
+    "industries": [
+      "healthcare",
+      "ai"
+    ],
     "domain": "synthiolabs.com",
     "domainVerified": true,
     "count": 1,
@@ -6825,6 +7532,10 @@
   {
     "slug": "tabs",
     "name": "Tabs",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -6854,6 +7565,10 @@
   {
     "slug": "teton",
     "name": "Teton",
+    "industries": [
+      "healthcare",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 3,
@@ -6883,6 +7598,9 @@
   {
     "slug": "time-fyi",
     "name": "time.fyi",
+    "industries": [
+      "productivity"
+    ],
     "domain": "time.fyi",
     "domainVerified": true,
     "count": 11,
@@ -6924,6 +7642,10 @@
   {
     "slug": "twin",
     "name": "Twin",
+    "industries": [
+      "ai",
+      "productivity"
+    ],
     "domain": "twin.so",
     "domainVerified": true,
     "count": 5,
@@ -6957,6 +7679,9 @@
   {
     "slug": "typebot",
     "name": "Typebot",
+    "industries": [
+      "customer-support"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -6988,6 +7713,9 @@
   {
     "slug": "united-carriers",
     "name": "United Carriers",
+    "industries": [
+      "logistics"
+    ],
     "domain": "unitedcarriers.com",
     "domainVerified": true,
     "count": 7,
@@ -7025,6 +7753,7 @@
   {
     "slug": "unknown",
     "name": "Unknown",
+    "industries": [],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -7046,6 +7775,10 @@
   {
     "slug": "unlearn",
     "name": "Unlearn",
+    "industries": [
+      "healthcare",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 1,
@@ -7068,6 +7801,10 @@
   {
     "slug": "unsiloed",
     "name": "Unsiloed",
+    "industries": [
+      "ai",
+      "data-analytics"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 10,
@@ -7109,6 +7846,10 @@
   {
     "slug": "valley",
     "name": "Valley",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
     "domain": "joinvalley.co",
     "domainVerified": false,
     "count": 9,
@@ -7149,6 +7890,10 @@
   {
     "slug": "vapi",
     "name": "Vapi",
+    "industries": [
+      "ai",
+      "developer-tools"
+    ],
     "domain": "vapi.ai",
     "domainVerified": false,
     "count": 4,
@@ -7180,6 +7925,9 @@
   {
     "slug": "vectara",
     "name": "Vectara",
+    "industries": [
+      "ai"
+    ],
     "domain": "vectara.com",
     "domainVerified": false,
     "count": 8,
@@ -7217,6 +7965,9 @@
   {
     "slug": "vercel",
     "name": "Vercel",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": "vercel.com",
     "domainVerified": false,
     "count": 4,
@@ -7248,6 +7999,10 @@
   {
     "slug": "vestris",
     "name": "Vestris",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 2,
@@ -7275,6 +8030,10 @@
   {
     "slug": "visionai",
     "name": "VisionAI",
+    "industries": [
+      "ecommerce",
+      "ai"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 4,
@@ -7305,6 +8064,10 @@
   {
     "slug": "vizcom",
     "name": "Vizcom",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
     "domain": "vizcom.com",
     "domainVerified": true,
     "count": 3,
@@ -7334,6 +8097,10 @@
   {
     "slug": "voiceflow",
     "name": "Voiceflow",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": "voiceflow.com",
     "domainVerified": true,
     "count": 17,
@@ -7385,6 +8152,9 @@
   {
     "slug": "walrus",
     "name": "Walrus",
+    "industries": [
+      "crypto"
+    ],
     "domain": "walrus.xyz",
     "domainVerified": true,
     "count": 10,
@@ -7426,6 +8196,9 @@
   {
     "slug": "watts",
     "name": "Watts",
+    "industries": [
+      "ecommerce"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 8,
@@ -7463,6 +8236,10 @@
   {
     "slug": "wavelength",
     "name": "Wavelength",
+    "industries": [
+      "customer-support",
+      "ai"
+    ],
     "domain": "wavelength.cx",
     "domainVerified": true,
     "count": 9,
@@ -7503,6 +8280,9 @@
   {
     "slug": "weave",
     "name": "Weave",
+    "industries": [
+      "developer-tools"
+    ],
     "domain": null,
     "domainVerified": false,
     "count": 9,
@@ -7542,6 +8322,9 @@
   {
     "slug": "whalesync",
     "name": "Whalesync",
+    "industries": [
+      "productivity"
+    ],
     "domain": "whalesync.com",
     "domainVerified": false,
     "count": 7,
@@ -7579,6 +8362,9 @@
   {
     "slug": "wiz",
     "name": "Wiz",
+    "industries": [
+      "cybersecurity"
+    ],
     "domain": "wiz.io",
     "domainVerified": false,
     "count": 2,
@@ -7606,6 +8392,9 @@
   {
     "slug": "wiza",
     "name": "Wiza",
+    "industries": [
+      "sales-marketing"
+    ],
     "domain": "wiza.co",
     "domainVerified": false,
     "count": 7,
@@ -7643,6 +8432,10 @@
   {
     "slug": "workos",
     "name": "WorkOS",
+    "industries": [
+      "developer-tools",
+      "ai"
+    ],
     "domain": "workos.com",
     "domainVerified": true,
     "count": 7,
@@ -7678,6 +8471,9 @@
   {
     "slug": "zamp",
     "name": "Zamp",
+    "industries": [
+      "fintech"
+    ],
     "domain": "zamp.com",
     "domainVerified": true,
     "count": 16,
@@ -7726,6 +8522,10 @@
   {
     "slug": "zamp-ai",
     "name": "Zamp AI",
+    "industries": [
+      "fintech",
+      "ai"
+    ],
     "domain": "zamp.ai",
     "domainVerified": true,
     "count": 5,

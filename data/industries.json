@@ -1,0 +1,801 @@
+{
+  "11x": [
+    "sales-marketing",
+    "ai"
+  ],
+  "21oaks": [
+    "other"
+  ],
+  "8returns": [
+    "ecommerce"
+  ],
+  "acctual": [
+    "fintech",
+    "crypto"
+  ],
+  "ada": [
+    "customer-support",
+    "ai"
+  ],
+  "adora": [
+    "data-analytics"
+  ],
+  "agiloft": [
+    "legal",
+    "ai"
+  ],
+  "airbook": [
+    "data-analytics"
+  ],
+  "amini": [
+    "ai",
+    "data-analytics"
+  ],
+  "amplemarket": [
+    "sales-marketing",
+    "ai"
+  ],
+  "antimetal": [
+    "developer-tools"
+  ],
+  "apollo": [
+    "sales-marketing"
+  ],
+  "aria": [
+    "fintech"
+  ],
+  "arke": [
+    "productivity",
+    "ai"
+  ],
+  "aside": [
+    "ai",
+    "productivity"
+  ],
+  "atlassian": [
+    "productivity"
+  ],
+  "atomic-tessellator": [
+    "other",
+    "ai"
+  ],
+  "attio": [
+    "sales-marketing",
+    "ai"
+  ],
+  "basewell": [
+    "education",
+    "ai"
+  ],
+  "bayshore": [
+    "legal",
+    "ai"
+  ],
+  "bobbin": [
+    "education",
+    "ai"
+  ],
+  "bounti": [
+    "hr",
+    "education"
+  ],
+  "brikken-co": [
+    "agencies"
+  ],
+  "bucket": [
+    "developer-tools"
+  ],
+  "cal-com": [
+    "productivity",
+    "developer-tools"
+  ],
+  "calendly": [
+    "productivity"
+  ],
+  "campsite": [
+    "productivity"
+  ],
+  "canopy": [
+    "fintech"
+  ],
+  "cap": [
+    "productivity"
+  ],
+  "cardinal": [
+    "sales-marketing",
+    "ai"
+  ],
+  "cartesia": [
+    "ai"
+  ],
+  "chargetrip": [
+    "logistics"
+  ],
+  "chatbase": [
+    "customer-support",
+    "ai"
+  ],
+  "clay": [
+    "sales-marketing",
+    "ai"
+  ],
+  "cloudflare-agents": [
+    "developer-tools",
+    "ai"
+  ],
+  "cluster": [
+    "sales-marketing",
+    "ai"
+  ],
+  "clutch-security": [
+    "cybersecurity"
+  ],
+  "coframe": [
+    "sales-marketing",
+    "ai"
+  ],
+  "cohere": [
+    "ai"
+  ],
+  "coherance": [
+    "ai",
+    "developer-tools"
+  ],
+  "concourse": [
+    "fintech",
+    "ai"
+  ],
+  "conduit": [
+    "customer-support",
+    "ai"
+  ],
+  "content-square": [
+    "data-analytics"
+  ],
+  "cortex": [
+    "developer-tools"
+  ],
+  "cotool": [
+    "cybersecurity",
+    "ai"
+  ],
+  "cowlendar": [
+    "ecommerce",
+    "productivity"
+  ],
+  "crescent-cares": [
+    "fintech"
+  ],
+  "crisp": [
+    "customer-support"
+  ],
+  "cronicle": [
+    "productivity"
+  ],
+  "dan-mall": [
+    "agencies"
+  ],
+  "daniel-sun": [
+    "agencies"
+  ],
+  "dash0": [
+    "developer-tools"
+  ],
+  "daybridge": [
+    "productivity"
+  ],
+  "decimals": [
+    "hr"
+  ],
+  "delphi": [
+    "ai"
+  ],
+  "devrev": [
+    "customer-support",
+    "ai"
+  ],
+  "ditto": [
+    "developer-tools"
+  ],
+  "dovetail": [
+    "data-analytics",
+    "ai"
+  ],
+  "duna": [
+    "agencies"
+  ],
+  "echofi": [
+    "crypto"
+  ],
+  "eigenpal": [
+    "ai",
+    "productivity"
+  ],
+  "endex": [
+    "fintech",
+    "ai"
+  ],
+  "equals": [
+    "data-analytics"
+  ],
+  "evervault": [
+    "cybersecurity",
+    "fintech"
+  ],
+  "exante": [
+    "legal",
+    "ai"
+  ],
+  "fellow": [
+    "productivity",
+    "ai"
+  ],
+  "fernand": [
+    "customer-support"
+  ],
+  "ferndesk": [
+    "customer-support",
+    "ai"
+  ],
+  "figr": [
+    "design-tools",
+    "ai"
+  ],
+  "fin": [
+    "customer-support",
+    "ai"
+  ],
+  "finsepa": [
+    "fintech"
+  ],
+  "finta": [
+    "fintech"
+  ],
+  "firecrawl": [
+    "developer-tools",
+    "ai"
+  ],
+  "firstwork": [
+    "hr"
+  ],
+  "flank": [
+    "legal",
+    "ai"
+  ],
+  "flect": [
+    "healthcare"
+  ],
+  "flitedeck": [
+    "ecommerce"
+  ],
+  "folk": [
+    "sales-marketing"
+  ],
+  "framer": [
+    "design-tools"
+  ],
+  "frankli": [
+    "hr"
+  ],
+  "futern": [
+    "sales-marketing",
+    "ai"
+  ],
+  "gocertify": [
+    "ecommerce",
+    "sales-marketing"
+  ],
+  "godmode": [
+    "sales-marketing",
+    "ai"
+  ],
+  "goodside": [
+    "agencies"
+  ],
+  "gradient-labs": [
+    "customer-support",
+    "ai"
+  ],
+  "greenhouse": [
+    "hr"
+  ],
+  "griffin": [
+    "fintech"
+  ],
+  "groundcover": [
+    "developer-tools"
+  ],
+  "gumloop": [
+    "ai",
+    "productivity"
+  ],
+  "harmonic": [
+    "data-analytics",
+    "fintech"
+  ],
+  "getharvest": [
+    "productivity",
+    "fintech"
+  ],
+  "harvey": [
+    "legal",
+    "ai"
+  ],
+  "headroom": [
+    "ai",
+    "productivity"
+  ],
+  "hellotime": [
+    "productivity"
+  ],
+  "highnote": [
+    "fintech"
+  ],
+  "howseen-ai": [
+    "sales-marketing",
+    "ai"
+  ],
+  "humblytics": [
+    "data-analytics",
+    "sales-marketing"
+  ],
+  "hunar": [
+    "hr",
+    "ai"
+  ],
+  "hyperline": [
+    "fintech"
+  ],
+  "incident": [
+    "developer-tools"
+  ],
+  "inertia-js": [
+    "developer-tools"
+  ],
+  "interfere": [
+    "developer-tools",
+    "ai"
+  ],
+  "invertase": [
+    "developer-tools",
+    "agencies"
+  ],
+  "jace": [
+    "productivity",
+    "ai"
+  ],
+  "jasper": [
+    "sales-marketing",
+    "ai"
+  ],
+  "jitter": [
+    "design-tools"
+  ],
+  "koyeb": [
+    "developer-tools"
+  ],
+  "laravel": [
+    "developer-tools"
+  ],
+  "laravel-cloud": [
+    "developer-tools"
+  ],
+  "laravel-forge": [
+    "developer-tools"
+  ],
+  "laravel-nightwatch": [
+    "developer-tools"
+  ],
+  "latitude": [
+    "developer-tools"
+  ],
+  "lattice": [
+    "hr"
+  ],
+  "leedlime": [
+    "sales-marketing"
+  ],
+  "legora": [
+    "legal",
+    "ai"
+  ],
+  "lemni": [
+    "customer-support",
+    "ai"
+  ],
+  "lightdash": [
+    "data-analytics",
+    "ai"
+  ],
+  "lightning-proxies": [
+    "developer-tools"
+  ],
+  "lightyear": [
+    "developer-tools"
+  ],
+  "lindy": [
+    "ai",
+    "sales-marketing"
+  ],
+  "linear": [
+    "productivity",
+    "developer-tools"
+  ],
+  "linearity": [
+    "design-tools",
+    "ai"
+  ],
+  "liveblocks": [
+    "developer-tools"
+  ],
+  "localcan": [
+    "developer-tools"
+  ],
+  "localyzer": [
+    "sales-marketing"
+  ],
+  "loop": [
+    "ecommerce"
+  ],
+  "lynq": [
+    "productivity",
+    "ai"
+  ],
+  "maybe": [
+    "fintech"
+  ],
+  "menkind": [
+    "healthcare"
+  ],
+  "mintlify": [
+    "developer-tools"
+  ],
+  "missive": [
+    "productivity"
+  ],
+  "miter": [
+    "hr"
+  ],
+  "modulify": [
+    "design-tools",
+    "ai"
+  ],
+  "monica": [
+    "ai",
+    "productivity"
+  ],
+  "n8n": [
+    "productivity",
+    "ai"
+  ],
+  "near": [
+    "crypto",
+    "fintech"
+  ],
+  "neon": [
+    "developer-tools"
+  ],
+  "nickai": [
+    "fintech",
+    "ai"
+  ],
+  "nominal": [
+    "fintech",
+    "ai"
+  ],
+  "nory": [
+    "ecommerce"
+  ],
+  "noxus": [
+    "ai",
+    "productivity"
+  ],
+  "operate": [
+    "sales-marketing",
+    "ai"
+  ],
+  "orbi": [
+    "sales-marketing"
+  ],
+  "orchestra": [
+    "productivity"
+  ],
+  "origin": [
+    "fintech"
+  ],
+  "orshot": [
+    "design-tools",
+    "sales-marketing"
+  ],
+  "outerbase": [
+    "developer-tools",
+    "data-analytics"
+  ],
+  "outseta": [
+    "fintech",
+    "sales-marketing"
+  ],
+  "outtake": [
+    "cybersecurity",
+    "ai"
+  ],
+  "pace": [
+    "ai",
+    "fintech"
+  ],
+  "palette": [
+    "agencies"
+  ],
+  "pallet": [
+    "logistics",
+    "ai"
+  ],
+  "paraform": [
+    "hr"
+  ],
+  "parker": [
+    "fintech",
+    "ecommerce"
+  ],
+  "phidata": [
+    "developer-tools",
+    "ai"
+  ],
+  "plaid": [
+    "fintech"
+  ],
+  "plain": [
+    "customer-support"
+  ],
+  "plasma": [
+    "crypto",
+    "fintech"
+  ],
+  "pleo": [
+    "fintech"
+  ],
+  "ploy": [
+    "sales-marketing",
+    "ai"
+  ],
+  "plumb": [
+    "ai",
+    "productivity"
+  ],
+  "podium-automation": [
+    "other"
+  ],
+  "pogo": [
+    "sales-marketing"
+  ],
+  "port": [
+    "developer-tools"
+  ],
+  "portal": [
+    "productivity",
+    "fintech"
+  ],
+  "primer": [
+    "fintech"
+  ],
+  "privy": [
+    "crypto",
+    "developer-tools"
+  ],
+  "profound": [
+    "sales-marketing",
+    "ai"
+  ],
+  "promptwatch": [
+    "sales-marketing",
+    "ai"
+  ],
+  "proto": [
+    "crypto"
+  ],
+  "quicklnk": [
+    "sales-marketing"
+  ],
+  "rally": [
+    "fintech",
+    "logistics"
+  ],
+  "raneo": [
+    "agencies"
+  ],
+  "raycast": [
+    "productivity"
+  ],
+  "rayon": [
+    "design-tools"
+  ],
+  "realm": [
+    "sales-marketing",
+    "ai"
+  ],
+  "relume": [
+    "design-tools",
+    "ai"
+  ],
+  "response": [
+    "fintech"
+  ],
+  "rezolv": [
+    "fintech",
+    "ai"
+  ],
+  "robin-humphreys": [
+    "agencies"
+  ],
+  "rogo": [
+    "fintech",
+    "ai"
+  ],
+  "routable": [
+    "fintech"
+  ],
+  "rubus": [
+    "other"
+  ],
+  "rulebase": [
+    "customer-support",
+    "ai"
+  ],
+  "ruul": [
+    "fintech"
+  ],
+  "saki": [
+    "ecommerce"
+  ],
+  "sandbar": [
+    "fintech",
+    "cybersecurity"
+  ],
+  "sanity": [
+    "developer-tools"
+  ],
+  "seamless": [
+    "sales-marketing"
+  ],
+  "secoda": [
+    "data-analytics",
+    "ai"
+  ],
+  "sevalla": [
+    "developer-tools"
+  ],
+  "shelby": [
+    "crypto"
+  ],
+  "siterails": [
+    "sales-marketing"
+  ],
+  "smallest-ai": [
+    "ai"
+  ],
+  "snackish": [
+    "ecommerce"
+  ],
+  "sofia-khegai": [
+    "agencies"
+  ],
+  "spara": [
+    "sales-marketing",
+    "ai"
+  ],
+  "spellbook": [
+    "legal",
+    "ai"
+  ],
+  "steel-dev": [
+    "developer-tools",
+    "ai"
+  ],
+  "submagic": [
+    "design-tools",
+    "ai"
+  ],
+  "synaptrix": [
+    "healthcare"
+  ],
+  "synthesia": [
+    "design-tools",
+    "ai"
+  ],
+  "synthio-labs": [
+    "healthcare",
+    "ai"
+  ],
+  "tabs": [
+    "fintech",
+    "ai"
+  ],
+  "teton": [
+    "healthcare",
+    "ai"
+  ],
+  "time-fyi": [
+    "productivity"
+  ],
+  "twin": [
+    "ai",
+    "productivity"
+  ],
+  "typebot": [
+    "customer-support"
+  ],
+  "united-carriers": [
+    "logistics"
+  ],
+  "unlearn": [
+    "healthcare",
+    "ai"
+  ],
+  "unsiloed": [
+    "ai",
+    "data-analytics"
+  ],
+  "valley": [
+    "sales-marketing",
+    "ai"
+  ],
+  "vapi": [
+    "ai",
+    "developer-tools"
+  ],
+  "vectara": [
+    "ai"
+  ],
+  "vercel": [
+    "developer-tools"
+  ],
+  "vestris": [
+    "fintech",
+    "ai"
+  ],
+  "visionai": [
+    "ecommerce",
+    "ai"
+  ],
+  "vizcom": [
+    "design-tools",
+    "ai"
+  ],
+  "voiceflow": [
+    "customer-support",
+    "ai"
+  ],
+  "walrus": [
+    "crypto"
+  ],
+  "watts": [
+    "ecommerce"
+  ],
+  "wavelength": [
+    "customer-support",
+    "ai"
+  ],
+  "weave": [
+    "developer-tools"
+  ],
+  "whalesync": [
+    "productivity"
+  ],
+  "wiz": [
+    "cybersecurity"
+  ],
+  "wiza": [
+    "sales-marketing"
+  ],
+  "workos": [
+    "developer-tools",
+    "ai"
+  ],
+  "zamp": [
+    "fintech"
+  ],
+  "zamp-ai": [
+    "fintech",
+    "ai"
+  ]
+}

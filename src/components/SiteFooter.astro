@@ -1,9 +1,10 @@
 ---
 import Logo from './Logo.astro';
-import { categories, pagedTags, totals } from '../lib/data';
+import { categories, pagedIndustries, pagedTags, totals } from '../lib/data';
 
 const topCategories = [...categories].sort((a, b) => b.count - a.count).slice(0, 8);
 const topStyles = [...pagedTags].sort((a, b) => b.count - a.count).slice(0, 8);
+const topIndustries = [...pagedIndustries].sort((a, b) => b.companyCount - a.companyCount).slice(0, 8);
 const year = new Date(totals.updated).getFullYear();
 ---
 <footer class="site-footer" data-nosnippet>
@@ -21,11 +22,18 @@ const year = new Date(totals.updated).getFullYear();
         <h2>Styles</h2>
         <ul>{topStyles.map((t) => <li><a href={t.path}>{t.label}</a></li>)}</ul>
       </div>
+      {topIndustries.length > 0 && (
+        <div>
+          <h2>Industries</h2>
+          <ul>{topIndustries.map((i) => <li><a href={i.path}>{i.label}</a></li>)}</ul>
+        </div>
+      )}
       <div>
         <h2>Browse</h2>
         <ul>
           <li><a href="/categories/">All section types</a></li>
           <li><a href="/tags/">All styles</a></li>
+          <li><a href="/industries/">All industries</a></li>
           <li><a href="/companies/">All companies</a></li>
           <li><a href="/about/">About</a></li>
         </ul>
@@ -59,7 +67,7 @@ const year = new Date(totals.updated).getFullYear();
   .brand :global(.mark rect:not(:first-child)) { fill: var(--night); }
   .intro p { margin-top: 16px; max-width: 34ch; line-height: 1.55; }
   .cols { display: grid; gap: 32px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  @media (min-width: 640px) { .cols { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (min-width: 640px) { .cols { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
   h2 { font-size: 0.8125rem; font-weight: 550; letter-spacing: 0.01em; color: rgb(255 255 255 / 0.6); margin-bottom: 14px; }
   ul { display: grid; gap: 2px; }
   li a { display: inline-block; padding-block: 5px; }

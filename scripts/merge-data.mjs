@@ -11,15 +11,21 @@ const CATEGORY_MIN = 8; // smaller categories are folded into their parent
 const TAG_PAGE_MIN = 8;
 const TAG_INDEX_MIN = 12;
 const COMPANY_PAGE_MIN = 2;
+const INDUSTRY_MIN_COMPANIES = 3; // an industry page needs at least this many companies…
+const INDUSTRY_PAGE_MIN = 10;     // …and this many sections (indexed from TAG_INDEX_MIN)
 const COMPANY_INDEX_MIN = 3;
-// A 397-card listing measured Lighthouse mobile performance 96 (CLS 0, TBT 0).
-const LISTING_WARN = 450;
+// Measured on mobile Lighthouse: 397 cards → performance 96, 592 cards → 95 (CLS 0, TBT 0).
+const LISTING_WARN = 650;
 // Section types left out of the site entirely (with their screenshots).
 const EXCLUDED_CATEGORIES = new Set(['divider']);
 const FOLD = { careers: 'team', 'value-proposition': 'feature', stats: 'feature', newsletter: 'cta', security: 'feature', 'use-case': 'feature', navbar: 'hero', comparison: 'pricing' };
 
 const categoriesVocab = readJson(path.join(DATA_DIR, 'vocab', 'categories.json'));
 const tagsVocab = readJson(path.join(DATA_DIR, 'vocab', 'tags.json'));
+const industriesVocab = readJson(path.join(DATA_DIR, 'vocab', 'industries.json'));
+const INDUSTRY_IDS = new Set(industriesVocab.map((i) => i.id));
+/** company slug → industry ids (primary first), from scripts/import-industries.mjs */
+const companyIndustries = readJson(path.join(DATA_DIR, 'industries.json'), {});
 const CAT_IDS = categoriesVocab.map((c) => c.id);
 const TAG_IDS = tagsVocab.map((t) => t.id);
 const tagById = new Map(tagsVocab.map((t) => [t.id, t]));
@@ -180,9 +186,11 @@ for (const c of companies.values()) {
   c.sections.sort((a, b) => (a.nn ?? 999) - (b.nn ?? 999) || PAGE_ORDER.indexOf(a.category) - PAGE_ORDER.indexOf(b.category) || (a.variant ?? '').localeCompare(b.variant ?? ''));
   const tagFreq = new Map();
   for (const s of c.sections) for (const t of s.tags) tagFreq.set(t, (tagFreq.get(t) ?? 0) + 1);
+  const industries = (meta.industries ?? companyIndustries[c.slug] ?? []).filter((id) => INDUSTRY_IDS.has(id));
   companyList.push({
     slug: c.slug,
     name,
+    industries,
     domain: meta.domain ?? (meta.verified === false ? null : top(c.domains) ?? null),
     domainVerified: Boolean(meta.domain),
     count,
@@ -266,7 +274,32 @@ for (let i = 0; i < paged.length; i++) for (let j = i + 1; j < paged.length; j++
   }
 }
 
-for (const list of [...categoryList.filter((c) => c.hasPage), ...tagList.filter((t) => t.hasPage)]) {
+// --- Industries (company-level) ---------------------------------------------------
+const industryList = industriesVocab
+  .filter((ind) => ind.id !== 'other')
+  .map((ind) => {
+    const members = companyList.filter((c) => c.slug !== 'unknown' && c.industries.includes(ind.id));
+    const memberSet = new Set(members.map((c) => c.slug));
+    const list = curate(sections.filter((s) => memberSet.has(s.company)));
+    const heroes = list.filter((s) => s.category === 'hero');
+    const hasPage = members.length >= INDUSTRY_MIN_COMPANIES && list.length >= INDUSTRY_PAGE_MIN;
+    return {
+      id: ind.id,
+      label: ind.label,
+      seoName: ind.seoName,
+      path: `/industries/${ind.id}/`,
+      count: list.length,
+      companyCount: members.length,
+      hasPage,
+      indexable: hasPage && list.length >= TAG_INDEX_MIN,
+      covers: [...heroes, ...list].slice(0, 2).map((s) => s.id),
+      companySlugs: members.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)).map((c) => c.slug),
+      sectionIds: list.map((s) => s.id),
+    };
+  })
+  .filter((ind) => ind.count > 0);
+
+for (const list of [...categoryList.filter((c) => c.hasPage), ...tagList.filter((t) => t.hasPage), ...industryList.filter((i) => i.hasPage)]) {
   if (list.count > LISTING_WARN) console.warn(`  WARNING: ${list.path} has ${list.count} items (> ${LISTING_WARN}); consider paginate()`);
 }
 
@@ -280,11 +313,14 @@ sitemapMeta[`${SITE_URL}/`] = { lastmod: lastmod(allIds), images: curate(section
 for (const p of ['/categories/', '/tags/', '/companies/', '/about/']) sitemapMeta[`${SITE_URL}${p}`] = { lastmod: lastmod(allIds), images: [], indexable: true };
 for (const c of categoryList.filter((c) => c.hasPage)) sitemapMeta[`${SITE_URL}${c.path}`] = { lastmod: lastmod(c.sectionIds), images: c.sectionIds.map(largeUrl), indexable: true };
 for (const t of tagList.filter((t) => t.hasPage)) sitemapMeta[`${SITE_URL}${t.path}`] = { lastmod: lastmod(t.sectionIds), images: t.indexable ? t.sectionIds.map(largeUrl) : [], indexable: t.indexable };
+sitemapMeta[`${SITE_URL}/industries/`] = { lastmod: lastmod(allIds), images: [], indexable: true };
+for (const ind of industryList.filter((i) => i.hasPage)) sitemapMeta[`${SITE_URL}${ind.path}`] = { lastmod: lastmod(ind.sectionIds), images: ind.indexable ? ind.sectionIds.map(largeUrl) : [], indexable: ind.indexable };
 for (const c of companyList.filter((c) => c.hasPage)) sitemapMeta[`${SITE_URL}/companies/${c.slug}/`] = { lastmod: lastmod(c.sectionIds), images: c.indexable ? c.sectionIds.map(largeUrl) : [], indexable: c.indexable };
 
 const searchIndex = [
   ...categoryList.filter((c) => c.hasPage).map((c) => ({ type: 'category', label: c.plural, url: c.path, count: c.count })),
   ...tagList.filter((t) => t.hasPage).map((t) => ({ type: 'style', label: t.label, url: t.path, count: t.count })),
+  ...industryList.filter((i) => i.hasPage).map((i) => ({ type: 'industry', label: i.label, url: i.path, count: i.count })),
   ...companyList.filter((c) => c.hasPage).map((c) => ({ type: 'company', label: c.name, url: `/companies/${c.slug}/`, count: c.count })),
 ];
 
@@ -294,6 +330,7 @@ writeJson(path.join(GEN_DIR, 'sections.json'), curate(slim));
 writeJson(path.join(GEN_DIR, 'companies.json'), companyList);
 writeJson(path.join(GEN_DIR, 'categories.json'), categoryList);
 writeJson(path.join(GEN_DIR, 'tags.json'), tagList);
+writeJson(path.join(GEN_DIR, 'industries.json'), industryList);
 writeJson(path.join(GEN_DIR, 'search-index.json'), searchIndex);
 writeJson(path.join(GEN_DIR, 'sitemap-meta.json'), sitemapMeta);
 
@@ -304,4 +341,5 @@ fs.writeFileSync(path.join(DATA_DIR, 'review.csv'), rows.map((r) => r.map(csvEsc
 console.log(`Sections ${sections.length} (AI-tagged ${[...ai.keys()].filter((id) => byId.has(id)).length}) | excluded ${dropped.length} | review rows ${review.length}`);
 console.log(`Companies ${companyList.length} (pages ${companyList.filter((c) => c.hasPage).length}, indexable ${companyList.filter((c) => c.indexable).length})`);
 console.log(`Category pages ${categoryList.filter((c) => c.hasPage).length}: ${categoryList.filter((c) => c.hasPage).map((c) => `${c.id}:${c.count}`).join(' ')}`);
+console.log(`Industry pages ${industryList.filter((i) => i.hasPage).length}: ${industryList.map((i) => `${i.id}:${i.companyCount}co/${i.count}${i.hasPage ? '' : '(no page)'}`).join(' ')}`);
 console.log(`Tag pages ${tagList.filter((t) => t.hasPage).length} (indexable ${tagList.filter((t) => t.indexable).length}): ${tagList.filter((t) => t.hasPage).map((t) => `${t.id}:${t.count}`).join(' ')}`);

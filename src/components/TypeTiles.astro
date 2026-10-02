@@ -1,12 +1,12 @@
 ---
 // Compact section-type index: small thumbnail, name and count per tile.
 import Icon from './Icon.astro';
-import type { Category } from '../lib/data';
 import { getSection } from '../lib/data';
 import { shotUrl } from '../lib/urls';
 
-interface Props { items: Category[] }
-const { items } = Astro.props;
+interface Tile { path: string; label: string; count: number; covers: string[] }
+interface Props { items: Tile[]; noun?: string }
+const { items, noun = 'sections' } = Astro.props;
 ---
 <ul class="type-tiles">
   {items.map((c) => {
@@ -19,7 +19,7 @@ const { items } = Astro.props;
           </span>
           <span class="text">
             <span class="name">{c.label}</span>
-            <span class="count tabular">{c.count.toLocaleString('en-US')} sections</span>
+            <span class="count tabular">{c.count.toLocaleString('en-US')} {noun}</span>
           </span>
           <Icon name="arrow-right" size={16} class="arrow" />
         </a>

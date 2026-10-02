@@ -1,5 +1,5 @@
 import { SITE } from './site';
-import type { Category, Company, Section, Tag } from './data';
+import type { Category, Company, Industry, Section, Tag } from './data';
 import { topCompanies } from './data';
 
 /** Search-intent names per section type (used in titles, H1s and copy). */
@@ -57,6 +57,18 @@ export function tagSeo(t: Tag, items: Section[]) {
     title: withBrand(`${titleCase(t.label)} Website Sections (${t.count})`),
     description: fit(
       `${t.count} website sections with a ${lower(t.label)} look — heroes, features, pricing and more from ${list(names)}. Curated real-world examples.`,
+      160,
+    ),
+  };
+}
+
+export function industrySeo(ind: Industry, items: Section[]) {
+  const names = topCompanies(items, 3).map((x) => x.company.name);
+  return {
+    h1: `${ind.seoName} Website Design Examples`,
+    title: withBrand(`${ind.seoName} Website Design Examples (${ind.count})`),
+    description: fit(
+      `${ind.count} real website sections from ${ind.companyCount} ${lower(ind.label)} companies like ${list(names)} — heroes, features, pricing and more. Get inspired.`,
       160,
     ),
   };

@@ -30,6 +30,7 @@ import Icon from './Icon.astro';
   <template data-pal-icons>
     <span data-icon="category"><Icon name="grid" size={16} /></span>
     <span data-icon="style"><Icon name="sparkle" size={16} /></span>
+    <span data-icon="industry"><Icon name="briefcase" size={16} /></span>
     <span data-icon="company"><Icon name="building" size={16} /></span>
   </template>
 </dialog>
@@ -162,7 +163,7 @@ import Icon from './Icon.astro';
 </style>
 
 <script>
-  type Entry = { type: 'category' | 'style' | 'company'; label: string; url: string; count: number };
+  type Entry = { type: 'category' | 'style' | 'industry' | 'company'; label: string; url: string; count: number };
   const dialog = document.querySelector<HTMLDialogElement>('dialog[data-palette]')!;
   if (dialog) {
     const input = dialog.querySelector<HTMLInputElement>('[data-pal-input]')!;
@@ -174,9 +175,10 @@ import Icon from './Icon.astro';
     const GROUPS: [Entry['type'], string, number][] = [
       ['category', 'Section types', 8],
       ['style', 'Styles', 6],
+      ['industry', 'Industries', 5],
       ['company', 'Companies', 5],
     ];
-    const NOUN: Record<Entry['type'], string> = { category: 'sections', style: 'sections', company: 'sections' };
+    const NOUN: Record<Entry['type'], string> = { category: 'sections', style: 'sections', industry: 'sections', company: 'sections' };
 
     const load = async () => (index ??= (await import('../data/search-index.json')).default as Entry[]);
 

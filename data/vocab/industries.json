@@ -1,0 +1,20 @@
+[
+  { "id": "ai", "label": "AI", "seoName": "AI", "definition": "The core product is artificial intelligence: AI agents and assistants, LLM and model platforms, generative AI, voice AI, AI copilots." },
+  { "id": "developer-tools", "label": "Developer tools", "seoName": "Developer Tools", "definition": "Built for software engineers: APIs and SDKs, hosting and cloud infrastructure, databases, observability, CI/CD, internal developer platforms, browser automation." },
+  { "id": "fintech", "label": "Fintech", "seoName": "Fintech", "definition": "Money and finance: payments, banking, cards, lending, accounting, billing, invoicing, spend management, financial close, trading, tax." },
+  { "id": "crypto", "label": "Crypto & Web3", "seoName": "Crypto", "definition": "Blockchain and web3: stablecoins, wallets, tokens, decentralized storage, chains, DeFi." },
+  { "id": "sales-marketing", "label": "Sales & marketing", "seoName": "Sales & Marketing", "definition": "Revenue teams: CRM, sales engagement, lead data, go-to-market tools, marketing automation, content and SEO tools, ads, conversion optimization." },
+  { "id": "productivity", "label": "Productivity", "seoName": "Productivity", "definition": "Getting work done: docs and notes, calendars and scheduling, meetings, project and task management, team communication, email, time tracking, workflow automation." },
+  { "id": "data-analytics", "label": "Data & analytics", "seoName": "Data & Analytics", "definition": "Working with data: BI and dashboards, data platforms and warehouses, product and web analytics, data catalogs, search and retrieval infrastructure." },
+  { "id": "cybersecurity", "label": "Security", "seoName": "Cybersecurity", "definition": "Protecting systems and data: cybersecurity, identity and access, compliance automation, fraud and brand protection, threat detection." },
+  { "id": "hr", "label": "HR & recruiting", "seoName": "HR & Recruiting", "definition": "People teams: recruiting and hiring, performance and engagement, payroll, workforce management, freelancer platforms." },
+  { "id": "customer-support", "label": "Customer support", "seoName": "Customer Support", "definition": "Serving customers: help desks, support AI agents, live chat, knowledge bases, customer experience platforms." },
+  { "id": "ecommerce", "label": "E-commerce & retail", "seoName": "E-commerce", "definition": "Selling to consumers: online stores, returns and post-purchase, retail and restaurant operations, consumer products and D2C brands." },
+  { "id": "design-tools", "label": "Design & creative", "seoName": "Design Tools", "definition": "Making things look good: design and prototyping tools, website builders, video and motion tools, image generation, creative software." },
+  { "id": "legal", "label": "Legal", "seoName": "Legal Tech", "definition": "Legal work: contract review and management, legal research, AI for law firms and in-house legal teams." },
+  { "id": "healthcare", "label": "Healthcare", "seoName": "Healthcare", "definition": "Health and life sciences: clinics and care, health and wellness products, medical devices, biotech, clinical research." },
+  { "id": "agencies", "label": "Agencies & portfolios", "seoName": "Agency & Portfolio", "definition": "Selling services or showcasing work: design and development agencies, studios, consultancies, personal portfolios." },
+  { "id": "logistics", "label": "Logistics & mobility", "seoName": "Logistics", "definition": "Moving people and goods: shipping and freight, fleet and transport, EV charging, travel and mobility." },
+  { "id": "education", "label": "Education", "seoName": "Education", "definition": "Learning and teaching: edtech, tutoring, courses, training and upskilling platforms." },
+  { "id": "other", "label": "Other", "seoName": "Other", "definition": "Fits none of the industries above. Never published as its own page." }
+]

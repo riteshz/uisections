@@ -9,7 +9,7 @@ import TypeTiles from '../components/TypeTiles.astro';
 import CompanyCard from '../components/CompanyCard.astro';
 import FilterBar from '../components/FilterBar.astro';
 import SectionGrid from '../components/SectionGrid.astro';
-import { FACETS, categories, categoryStats, companies, pagedTags, sections, totals, type Section } from '../lib/data';
+import { FACETS, categories, categoryStats, companies, pagedIndustries, pagedTags, sections, totals, type Section } from '../lib/data';
 import { fit, list } from '../lib/seo';
 import { SITE } from '../lib/site';
 import { collectionNode, graph, organizationNode, websiteNode } from '../lib/jsonld';
@@ -55,6 +55,9 @@ const styleGroups = FACETS.map((f) => ({
     .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
     .map((t) => ({ href: t.path, label: t.label, count: t.count })),
 })).filter((g) => g.items.length > 0);
+const industryTiles = [...pagedIndustries]
+  .sort((a, b) => b.companyCount - a.companyCount || a.label.localeCompare(b.label))
+  .map((i) => ({ path: i.path, label: i.label, count: i.companyCount, covers: i.covers }));
 const styleSub = `${pagedTags.length} ${pagedTags.length === 1 ? 'style' : 'styles'} across ${list(styleGroups.map((g) => g.label.toLowerCase()))}`;
 
 // --- SEO
@@ -65,7 +68,7 @@ const description = fit(
   160,
 );
 const sub =
-  'A curated library of real sections from the best SaaS and startup websites. Browse heroes, pricing, features and footers by section type, style and company.';
+  'A curated library of real sections from the best SaaS and startup websites. Browse heroes, pricing, features and footers by section type, style, industry and company.';
 const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '/', name: h1, description, items: latest, crumbs: false }));
 ---
 <BaseLayout title={title} description={description} path="/" ogImage="/og/default.jpg" ogAlt={`${SITE.name}: ${h1}`} jsonld={jsonld}>
@@ -102,6 +105,13 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
     <section class="block container-wide reveal" aria-labelledby="styles-title">
       <SectionHeading title="Browse by style" id="styles-title" href="/tags/" linkLabel="All styles" sub={styleSub} />
       <HomeStyleFacets groups={styleGroups} />
+    </section>
+  )}
+
+  {industryTiles.length > 0 && (
+    <section class="block container-wide reveal" aria-labelledby="industries-title">
+      <SectionHeading title="Browse by industry" id="industries-title" href="/industries/" linkLabel="All industries" sub={`${industryTiles.length} industries, from fintech to developer tools`} />
+      <TypeTiles items={industryTiles} noun="companies" />
     </section>
   )}
 

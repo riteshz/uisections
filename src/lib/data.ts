@@ -2,6 +2,8 @@ import sectionsJson from '../data/sections.json';
 import companiesJson from '../data/companies.json';
 import categoriesJson from '../data/categories.json';
 import tagsJson from '../data/tags.json';
+import industriesJson from '../data/industries.json';
+import vocabIndustries from '../../data/vocab/industries.json';
 import vocabTags from '../../data/vocab/tags.json';
 import vocabCategories from '../../data/vocab/categories.json';
 
@@ -31,6 +33,8 @@ export interface Section {
 export interface Company {
   slug: string;
   name: string;
+  /** Industry ids, primary first. */
+  industries: string[];
   domain: string | null;
   domainVerified: boolean;
   count: number;
@@ -64,12 +68,30 @@ export interface Tag {
   sectionIds: string[];
 }
 
+export interface Industry {
+  id: string;
+  label: string;
+  seoName: string;
+  path: string;
+  /** Sections from companies in this industry. */
+  count: number;
+  companyCount: number;
+  hasPage: boolean;
+  indexable: boolean;
+  covers: string[];
+  companySlugs: string[];
+  sectionIds: string[];
+}
+
 export const sections = sectionsJson as Section[];
 export const companies = companiesJson as Company[];
 export const categories = (categoriesJson as Category[]).filter((c) => c.hasPage);
 export const allCategories = categoriesJson as Category[];
 export const tags = tagsJson as Tag[];
 export const pagedTags = tags.filter((t) => t.hasPage);
+export const industries = industriesJson as Industry[];
+export const pagedIndustries = industries.filter((i) => i.hasPage);
+export const industryDefinitions = new Map(vocabIndustries.map((i) => [i.id, i.definition]));
 
 export const tagDefinitions = new Map(vocabTags.map((t) => [t.id, t.definition]));
 export const categoryDefinitions = new Map(vocabCategories.map((c) => [c.id, c.definition]));
@@ -78,12 +100,14 @@ const sectionById = new Map(sections.map((s) => [s.id, s]));
 const companyBySlug = new Map(companies.map((c) => [c.slug, c]));
 const categoryById = new Map(allCategories.map((c) => [c.id, c]));
 const tagById = new Map(tags.map((t) => [t.id, t]));
+const industryById = new Map(industries.map((i) => [i.id, i]));
 
 export const getSection = (id: string) => sectionById.get(id)!;
 export const getSections = (ids: string[]) => ids.map((id) => sectionById.get(id)!).filter(Boolean);
 export const getCompany = (slug: string) => companyBySlug.get(slug);
 export const getCategory = (id: string) => categoryById.get(id);
 export const getTag = (id: string) => tagById.get(id);
+export const getIndustry = (id: string) => industryById.get(id);
 
 export const FACETS: { id: Tag['facet']; label: string }[] = [
   { id: 'theme', label: 'Color & theme' },
@@ -139,5 +163,6 @@ export const totals = {
   companies: companies.filter((c) => c.slug !== 'unknown').length,
   categories: categories.length,
   styles: pagedTags.length,
+  industries: pagedIndustries.length,
   updated: sections.map((s) => s.addedAt).sort().at(-1)!,
 };

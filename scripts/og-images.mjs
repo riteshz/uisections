@@ -60,6 +60,7 @@ const sections = readJson(path.join(GEN_DIR, 'sections.json'));
 const companies = readJson(path.join(GEN_DIR, 'companies.json'));
 const categories = readJson(path.join(GEN_DIR, 'categories.json'));
 const tags = readJson(path.join(GEN_DIR, 'tags.json'));
+const industries = readJson(path.join(GEN_DIR, 'industries.json'), []);
 const byId = new Map(sections.map((s) => [s.id, s]));
 const fmt = (n) => n.toLocaleString('en-US');
 
@@ -74,9 +75,11 @@ pages.push({ file: 'default.jpg', title: 'Website section design inspiration', s
 pages.push({ file: 'categories.jpg', title: 'Website section types', sub: `${categories.filter((c) => c.hasPage).length} section types · ${fmt(sections.length)} examples`, covers: categories[0]?.covers ?? latestHeroes });
 pages.push({ file: 'tags.jpg', title: 'Website design styles', sub: `${tags.filter((t) => t.hasPage).length} styles · dark mode, bento, gradient and more`, covers: tags.find((t) => t.id === 'dark-mode')?.covers ?? latestHeroes });
 pages.push({ file: 'companies.jpg', title: 'Website designs by company', sub: `${realCompanies} companies · ${fmt(sections.length)} sections`, covers: latestHeroes.slice().reverse() });
+pages.push({ file: 'industries.jpg', title: 'Website design by industry', sub: `${industries.filter((i) => i.hasPage).length} industries · fintech, AI, developer tools and more`, covers: industries.find((i) => i.hasPage)?.covers ?? latestHeroes });
 pages.push({ file: 'about.jpg', title: 'About UI Sections', sub: 'A curated library of real website sections', covers: latestHeroes });
 for (const c of categories.filter((c) => c.hasPage)) pages.push({ file: `${c.id}-sections.jpg`, title: `${SEO_NAMES[c.id] ?? c.label + ' Section'} Examples`, sub: `${fmt(c.count)} examples · UI Sections`, covers: c.covers });
 for (const t of tags.filter((t) => t.hasPage)) pages.push({ file: `tags-${t.id}.jpg`, title: `${t.label} website sections`, sub: `${fmt(t.count)} examples · UI Sections`, covers: t.covers });
+for (const i of industries.filter((i) => i.hasPage)) pages.push({ file: `industries-${i.id}.jpg`, title: `${i.seoName} website design`, sub: `${i.companyCount} companies · ${fmt(i.count)} sections`, covers: i.covers });
 for (const c of companies.filter((c) => c.hasPage)) pages.push({ file: `companies-${c.slug}.jpg`, title: `${c.name} website design`, sub: `${c.count} sections · UI Sections`, covers: c.sectionIds.slice(0, 2) });
 
 const rounded = (w, h, r) => Buffer.from(`<svg width="${w}" height="${h}"><rect width="${w}" height="${h}" rx="${r}" ry="${r}"/></svg>`);

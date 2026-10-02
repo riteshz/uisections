@@ -16,7 +16,7 @@ const crumbs = [
 const h1 = 'About UI Sections';
 const title = 'About UI Sections — a library of real website sections';
 const description =
-  'How UI Sections collects and organises real website sections — heroes, pricing, features, footers and more — by section type, style and company.';
+  'How UI Sections collects and organises real website sections — heroes, pricing, features, footers and more — by section type, style, industry and company.';
 const intro =
   'UI Sections is a library of real website sections — heroes, features, pricing, testimonials, footers and the rest — captured from live sites and organised so you can compare how teams design each part of a page.';
 
@@ -30,6 +30,7 @@ const stats = [
 const ways = [
   { href: '/categories/', icon: 'layers', title: 'By section type', body: 'Designing a pricing table or a footer? Compare every example of that section side by side.' },
   { href: '/tags/', icon: 'sparkle', title: 'By style', body: 'Have a look in mind? Browse styles, or filter any section type by style.' },
+  { href: '/industries/', icon: 'briefcase', title: 'By industry', body: 'Compare how fintech, AI, developer tools and other markets present themselves.' },
   { href: '/companies/', icon: 'building', title: 'By company', body: 'See how one company designs its whole site, section by section.' },
 ] as const;
 
@@ -81,7 +82,7 @@ const jsonld = graph(
         <h2 class="t-h2" id="how-collected">How sections are collected</h2>
         <div class="body">
           <p>Every image is a screenshot of a live, public website — no mockups, templates or redesigns. Each one shows a single section of a page, captured at desktop width.</p>
-          <p>Each section is then organised three ways: by <a href="/categories/">section type</a> (what the section does), by <a href="/tags/">style</a> (how it looks) and by <a href="/companies/">company</a> (every section from the same site, together).</p>
+          <p>Each section is then organised four ways: by <a href="/categories/">section type</a> (what the section does), by <a href="/tags/">style</a> (how it looks), by <a href="/industries/">industry</a> (the market the company serves) and by <a href="/companies/">company</a> (every section from the same site, together).</p>
           <p>Tagging is AI-assisted. A model labels each screenshot against a written definition for every section type and style, and a person reviews the results before they’re published. A section type or style only gets its own page once there are enough examples to be useful.</p>
         </div>
       </section>
@@ -141,7 +142,7 @@ const jsonld = graph(
   .body .kbd { vertical-align: 1px; }
 
   .ways { display: grid; gap: 12px; margin-bottom: 8px; }
-  @media (min-width: 640px) { .ways { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (min-width: 640px) { .ways { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   .way {
     display: grid; gap: 6px; align-content: start; height: 100%; padding: 18px; border-radius: 20px;
     background: var(--wash); color: var(--ink-3); line-height: 1.45; transition: background-color 0.3s var(--ease-out);

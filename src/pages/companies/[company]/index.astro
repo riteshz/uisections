@@ -5,7 +5,7 @@ import CompanySectionGrid from '../../../components/CompanySectionGrid.astro';
 import SectionHeading from '../../../components/SectionHeading.astro';
 import CompanyCard from '../../../components/CompanyCard.astro';
 import Icon from '../../../components/Icon.astro';
-import { companies, getCategory, getSections, getTag, similarCompanies, type Category, type Company, type Tag } from '../../../lib/data';
+import { companies, getCategory, getIndustry, getSections, getTag, similarCompanies, type Category, type Company, type Industry, type Tag } from '../../../lib/data';
 import { CATEGORY_SEO, companySeo, lower } from '../../../lib/seo';
 import { breadcrumbNode, collectionNode, graph } from '../../../lib/jsonld';
 import { companyUrl } from '../../../lib/urls';
@@ -40,6 +40,7 @@ for (const s of items) typeCounts.set(s.category, (typeCounts.get(s.category) ??
 const styleTags = c.topTags.map((id) => getTag(id)).filter((t): t is Tag => Boolean(t?.hasPage));
 const darkShare = Math.round((items.filter((s) => s.tags.includes('dark-mode')).length / items.length) * 100);
 const visit = c.domain ? `https://${c.domain}/?ref=uisections.com` : null;
+const companyIndustries = c.industries.map((id) => getIndustry(id)).filter((i): i is Industry => Boolean(i));
 const similar = similarCompanies(c, 4);
 
 const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path, name: seo.h1, description: seo.description, items }));
@@ -75,6 +76,16 @@ const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path, name: seo.h1
             <dt>Theme</dt>
             <dd>{darkShare >= 60 ? 'Mostly dark' : darkShare >= 25 ? 'Mixed light & dark' : 'Mostly light'}</dd>
           </div>
+          {companyIndustries.length > 0 && (
+            <div class="fact-row">
+              <dt>{companyIndustries.length > 1 ? 'Industries' : 'Industry'}</dt>
+              <dd class="inds">
+                {companyIndustries.map((i, k) => (
+                  <>{k > 0 && <span aria-hidden="true">, </span>}{i.hasPage ? <a href={i.path}>{i.label}</a> : <span>{i.label}</span>}</>
+                ))}
+              </dd>
+            </div>
+          )}
           {c.domain && (
             <div class="fact-row">
               <dt>Website</dt>

@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import FilterBar from '../../../components/FilterBar.astro';
+import SectionGrid from '../../../components/SectionGrid.astro';
+import PatternsSummary from '../../../components/PatternsSummary.astro';
+import SectionHeading from '../../../components/SectionHeading.astro';
+import CategoryCard from '../../../components/CategoryCard.astro';
+import CompanyCard from '../../../components/CompanyCard.astro';
+import { categoryStats, getCompany, getSections, industryDefinitions, pagedIndustries, type Company, type Industry } from '../../../lib/data';
+import { industrySeo, lower } from '../../../lib/seo';
+import { getIndustryCopy } from '../../../lib/copy';
+import { breadcrumbNode, collectionNode, graph } from '../../../lib/jsonld';
+
+export function getStaticPaths() {
+  return pagedIndustries.map((ind) => ({ params: { industry: ind.id }, props: { ind } }));
+}
+
+const { ind } = Astro.props as { ind: Industry };
+const items = getSections(ind.sectionIds);
+const seo = industrySeo(ind, items);
+const copy = getIndustryCopy(ind.id);
+const name = lower(ind.label);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Industries', path: '/industries/' },
+  { name: ind.label, path: ind.path },
+];
+
+const catOptions = categoryStats(items).map((x) => ({ id: x.category.id, label: x.category.label, count: x.n }));
+const members = ind.companySlugs.map((s) => getCompany(s)).filter((c): c is Company => Boolean(c?.hasPage));
+// Related: industries sharing the most companies, then the largest.
+const memberSet = new Set(ind.companySlugs);
+const related = pagedIndustries
+  .filter((x) => x.id !== ind.id)
+  .map((x) => ({ x, shared: x.companySlugs.filter((s) => memberSet.has(s)).length }))
+  .sort((a, b) => b.shared - a.shared || b.x.companyCount - a.x.companyCount)
+  .slice(0, 4)
+  .map((r) => r.x);
+
+const rule = industryDefinitions.get(ind.id)?.split(/(?<=[.!?:])\s+/)[0]?.replace(/:$/, '');
+const intro =
+  copy?.intro ??
+  `${ind.count} real website sections from ${ind.companyCount} ${name} companies.` + (rule ? ` ${rule}.` : '');
+
+const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: ind.path, name: seo.h1, description: seo.description, items }));
+---
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  path={ind.path}
+  ogImage={`/og/industries-${ind.id}.jpg`}
+  ogAlt={seo.h1}
+  noindex={!ind.indexable}
+  jsonld={jsonld}
+>
+  <div class="container-wide">
+    <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} />
+
+    {catOptions.length > 1 && (
+      <div class="toolbar enter enter-4">
+        <FilterBar options={catOptions} total={items.length} attr="cat" param="section" target="grid" label="Filter by section type" />
+      </div>
+    )}
+
+    <SectionGrid items={items} id="grid" label={`${ind.seoName} website sections`} />
+
+    <div class="below">
+      {members.length > 0 && (
+        <section aria-labelledby="members-title">
+          <SectionHeading title={`${ind.label} companies`} id="members-title" sub={`${ind.companyCount} companies in this collection`} href="/companies/" linkLabel="All companies" />
+          <div class="members">
+            {members.slice(0, 12).map((c) => <CompanyCard c={c} />)}
+          </div>
+        </section>
+      )}
+
+      <PatternsSummary items={items} title={`Common styles in ${name} websites`} />
+
+      {copy?.tips && copy.tips.length > 0 && (
+        <section class="tips" aria-labelledby="tips-title">
+          <h2 class="t-h2" id="tips-title">{copy.tipsTitle ?? `Designing a ${name} website`}</h2>
+          <ol>
+            {copy.tips.map((tip) => (
+              <li>
+                <h3>{tip.title}</h3>
+                <p>{tip.body}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {related.length > 0 && (
+        <section aria-labelledby="related-title">
+          <SectionHeading title="Related industries" id="related-title" href="/industries/" linkLabel="All industries" />
+          <div class="related">
+            {related.map((r) => <CategoryCard href={r.path} title={r.label} count={r.companyCount} noun="companies" covers={r.covers} />)}
+          </div>
+        </section>
+      )}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .toolbar { position: relative; margin-bottom: 28px; }
+  .below { display: grid; gap: clamp(56px, 2.5rem + 3vw, 88px); margin-top: clamp(64px, 3rem + 4vw, 112px); }
+  .members { display: grid; gap: 28px 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (min-width: 720px) { .members { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 20px; } }
+  @media (min-width: 1100px) { .members { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 36px 24px; } }
+  .tips ol { display: grid; gap: 28px 40px; margin-top: 24px; counter-reset: tip; }
+  @media (min-width: 900px) { .tips ol { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .tips li { counter-increment: tip; display: grid; gap: 6px; padding-top: 18px; border-top: 1px solid var(--line); }
+  .tips li::before { content: counter(tip, decimal-leading-zero); font-size: 0.8125rem; color: var(--ink-4); font-variant-numeric: tabular-nums; }
+  .tips h3 { font-size: 1.0625rem; font-weight: 600; letter-spacing: -0.01em; }
+  .tips p { color: var(--ink-3); line-height: 1.6; }
+  .related { display: grid; gap: 28px 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (min-width: 900px) { .related { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px 20px; } }
+</style>

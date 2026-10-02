@@ -240,6 +240,108 @@
     "count": 9
   },
   {
+    "type": "industry",
+    "label": "AI",
+    "url": "/industries/ai/",
+    "count": 592
+  },
+  {
+    "type": "industry",
+    "label": "Developer tools",
+    "url": "/industries/developer-tools/",
+    "count": 254
+  },
+  {
+    "type": "industry",
+    "label": "Fintech",
+    "url": "/industries/fintech/",
+    "count": 262
+  },
+  {
+    "type": "industry",
+    "label": "Crypto & Web3",
+    "url": "/industries/crypto/",
+    "count": 82
+  },
+  {
+    "type": "industry",
+    "label": "Sales & marketing",
+    "url": "/industries/sales-marketing/",
+    "count": 202
+  },
+  {
+    "type": "industry",
+    "label": "Productivity",
+    "url": "/industries/productivity/",
+    "count": 144
+  },
+  {
+    "type": "industry",
+    "label": "Data & analytics",
+    "url": "/industries/data-analytics/",
+    "count": 64
+  },
+  {
+    "type": "industry",
+    "label": "Security",
+    "url": "/industries/cybersecurity/",
+    "count": 28
+  },
+  {
+    "type": "industry",
+    "label": "HR & recruiting",
+    "url": "/industries/hr/",
+    "count": 55
+  },
+  {
+    "type": "industry",
+    "label": "Customer support",
+    "url": "/industries/customer-support/",
+    "count": 109
+  },
+  {
+    "type": "industry",
+    "label": "E-commerce & retail",
+    "url": "/industries/ecommerce/",
+    "count": 55
+  },
+  {
+    "type": "industry",
+    "label": "Design & creative",
+    "url": "/industries/design-tools/",
+    "count": 69
+  },
+  {
+    "type": "industry",
+    "label": "Legal",
+    "url": "/industries/legal/",
+    "count": 53
+  },
+  {
+    "type": "industry",
+    "label": "Healthcare",
+    "url": "/industries/healthcare/",
+    "count": 20
+  },
+  {
+    "type": "industry",
+    "label": "Agencies & portfolios",
+    "url": "/industries/agencies/",
+    "count": 52
+  },
+  {
+    "type": "industry",
+    "label": "Logistics & mobility",
+    "url": "/industries/logistics/",
+    "count": 24
+  },
+  {
+    "type": "industry",
+    "label": "Education",
+    "url": "/industries/education/",
+    "count": 19
+  },
+  {
     "type": "company",
     "label": "11x",
     "url": "/companies/11x/",

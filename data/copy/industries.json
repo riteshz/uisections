@@ -1,0 +1,376 @@
+{
+  "ai": {
+    "intro": "Most AI products promise the same thing, so the page has to show what this one does differently. Visitors want to see real inputs and outputs, know where the model runs and what happens to their data, and understand what the product cannot do. Good AI website design replaces glowing gradients and vague claims with live demos, concrete use cases, and plain answers about accuracy, privacy, and cost.",
+    "tipsTitle": "How to design an AI website",
+    "tips": [
+      {
+        "title": "Show a real input and output",
+        "body": "Pair an actual prompt, file, or call recording with the result the product returned. Keep it unedited and readable at laptop width. A believable example of typical output does more than a cherry-picked one, because buyers will test the product themselves within minutes of signing up."
+      },
+      {
+        "title": "Name the job, not the model",
+        "body": "Buyers rarely care which model sits underneath until they trust the outcome. Lead with the task the product handles, such as drafting replies or reviewing contracts. Move model names, context limits, and benchmarks into a technical section for the people who ask."
+      },
+      {
+        "title": "Answer data questions before they come up",
+        "body": "Say where data is processed, whether it trains any model, and how long it is kept. Put a short summary near the signup button and link to the full policy. Enterprise buyers stop at this question, and a clear answer saves a sales call."
+      },
+      {
+        "title": "Translate usage pricing into real work",
+        "body": "Credits, tokens, and minutes mean little on their own. Show how many documents, calls, or images a plan actually covers. Add a simple calculator or a worked example so buyers can estimate a monthly bill without contacting sales or running a trial first."
+      }
+    ]
+  },
+  "developer-tools": {
+    "intro": "Engineers judge a product by its docs, its code, and how fast they can try it. Marketing language gets skimmed, and anything that hides the API behind a sales form loses trust. Strong developer tools website design puts a working code sample near the top, shows the install command, and links to docs, pricing, and status without friction. It reads like it was written by someone who ships software.",
+    "tipsTitle": "How to design a developer tools website",
+    "tips": [
+      {
+        "title": "Put working code near the top",
+        "body": "Show a short, copyable snippet in the language most of your users write, with tabs for the others. Use real method names and realistic values, not foo and bar. Make sure it actually runs, because developers will paste it into a terminal before reading anything else."
+      },
+      {
+        "title": "Link to docs from everywhere",
+        "body": "For engineers, the docs are the real product page. Keep a docs link in the main navigation, beside each feature block, and in the footer. Deep-link to the exact guide a section describes, so a reader can go from a claim to the implementation in one click."
+      },
+      {
+        "title": "Publish limits, uptime, and regions",
+        "body": "Engineers plan around constraints. List rate limits, supported regions, SLAs, and a link to a public status page. Numbers they can bring to an architecture review build more confidence than any adjective, and leaving them out makes buyers assume the worst."
+      },
+      {
+        "title": "Let people start without a sales call",
+        "body": "Offer a free tier, a sandbox, or a CLI install that works in minutes. If enterprise deals need a conversation, keep that path separate from self-serve signup. A developer who can't try the product today will go evaluate a competitor who lets them."
+      }
+    ]
+  },
+  "fintech": {
+    "intro": "Software that touches money has to earn more trust than almost anything else a company buys. Visitors want to know who holds the funds, which licenses and partner banks stand behind the product, and what happens when something goes wrong. Good fintech website design pairs clear product visuals with plain explanations of fees, security, and compliance. Calm layouts, precise numbers, and restrained color read as more credible than bold promises.",
+    "tipsTitle": "How to design a fintech website",
+    "tips": [
+      {
+        "title": "State who holds the money",
+        "body": "Name the regulated entity, partner bank, or license behind each product, usually in a footnote or footer block. Buyers and their finance teams look for this before they read about features. Phrases like \"bank-grade security\" invite doubt, while one specific line of legal text settles it."
+      },
+      {
+        "title": "Show fees as real numbers",
+        "body": "List rates, FX margins, and per-transaction costs in a table, with an example calculation for a typical payment. Hidden or \"custom\" pricing for basic services makes finance buyers suspicious. If enterprise rates differ, say so, but publish the standard ones."
+      },
+      {
+        "title": "Make screenshots financially plausible",
+        "body": "Fake balances, round totals, and mismatched currencies stand out to anyone who works in finance. Use realistic amounts, correct currency formatting, and transaction lists that add up. Small errors in a screenshot make a reader wonder about errors in the ledger."
+      },
+      {
+        "title": "Speak to the CFO and the operator",
+        "body": "The person who signs and the person who uses the product want different things. Give the finance lead controls, audit trails, and accounting integrations. Give the operator speed and fewer manual steps. Separate sections or role-based tabs keep both arguments clear."
+      }
+    ]
+  },
+  "crypto": {
+    "intro": "Crypto audiences have seen plenty of polished sites behind failed projects, so they look for substance first. A credible page explains what the protocol or product actually does, who has audited it, and where custody sits. Strong crypto website design keeps the visual energy the space expects while making room for the details that matter: fees, supported chains, security reviews, and usage data people can verify.",
+    "tipsTitle": "How to design a crypto website",
+    "tips": [
+      {
+        "title": "Explain the product before the protocol",
+        "body": "Open with what a user can do, such as send dollars abroad or earn yield on idle funds, before naming the chain or token standard. Then offer a technical layer for people who want it. Newcomers and experienced users can both follow a page built this way."
+      },
+      {
+        "title": "Link audits and contracts directly",
+        "body": "List security audits with each report linked, plus contract addresses and a bug bounty page. Experienced users check these before they connect a wallet. A security section that only says \"audited\" without a link reads as a warning sign, not a reassurance."
+      },
+      {
+        "title": "Show on-chain data people can verify",
+        "body": "If you cite total value locked, volume, or active wallets, link to the explorer or dashboard where the figure comes from. Live numbers pulled from the chain carry more weight than static claims, and they keep the page accurate without manual updates."
+      },
+      {
+        "title": "Write risk disclosures people will read",
+        "body": "Regulators and careful users both expect clear notes on volatility, custody, and regional availability. Write them in plain sentences, place them near the claim they qualify, and avoid burying them in light gray microcopy. Honest risk language makes the rest of the page more believable."
+      }
+    ]
+  },
+  "sales-marketing": {
+    "intro": "Marketers and sales leaders spot weak copy faster than most buyers, because writing it is part of their job. The page has to prove that the product moves a number they already report on: pipeline, reply rates, conversion, or cost per lead. Effective sales & marketing website design leads with outcomes, shows the workflow inside the tools the team already uses, and makes integrations easy to scan.",
+    "tipsTitle": "How to design a sales and marketing website",
+    "tips": [
+      {
+        "title": "Tie every claim to a metric",
+        "body": "Name the number the product changes, whether that is meetings booked, open rates, or cost per acquisition, and explain how it is measured. Customer results with a clear before and after convince more than percentages without context. Skip metrics your buyer doesn't track."
+      },
+      {
+        "title": "Show the integrations buyers depend on",
+        "body": "Revenue teams live in their CRM, inbox, and ad platforms. Put the integrations that matter most near the top, with a link to the full directory. Say whether data syncs both ways, because a one-way sync is a dealbreaker for many ops teams."
+      },
+      {
+        "title": "Write for the rep and the manager",
+        "body": "Reps want fewer clicks and better leads. Managers want visibility and accurate forecasts. Split the page by role, or use tabs, so each reader finds their argument quickly. A single generic message tends to satisfy neither of them."
+      },
+      {
+        "title": "Follow the advice you sell",
+        "body": "Visitors will judge the product by your own page. If you sell form optimization, keep your demo form short. If you sell personalization, personalize something on the page. A site that ignores its own advice undercuts the pitch faster than any competitor can."
+      }
+    ]
+  },
+  "productivity": {
+    "intro": "Productivity tools compete with habits as much as with other products. People already have a way to take notes, plan work, or run meetings, so the page has to show why switching is worth the effort. Good productivity website design places the product inside a realistic workday, keeps the interface front and center, and makes moving over from old tools sound easy rather than risky.",
+    "tipsTitle": "How to design a productivity website",
+    "tips": [
+      {
+        "title": "Fill screenshots with a believable workday",
+        "body": "Use tasks, meetings, and documents that match your target team. A calendar with a standup, a lunch, and a Friday deadline is more relatable than placeholder text or a perfectly empty week. Readers should recognize their own work inside the product."
+      },
+      {
+        "title": "Make switching feel low risk",
+        "body": "Explain how to import from the tools people already use, what transfers and what doesn't, and how long it takes. Offer templates for common setups. Switching cost is often the real objection, and a clear migration path answers it before anyone has to ask."
+      },
+      {
+        "title": "Show speed instead of claiming it",
+        "body": "Speed is hard to describe and easy to show. Short loops of keyboard shortcuts, quick capture, or instant search convey responsiveness better than any adjective. Keep them brief, show real keystrokes on screen, and let them loop quietly without sound."
+      },
+      {
+        "title": "Explain what changes when a team joins",
+        "body": "Many productivity tools spread from one person to a whole team. Show what the product does for a single user, then what a team adds: shared spaces, permissions, and admin controls. This serves both the early adopter and the person who approves the rollout."
+      }
+    ]
+  },
+  "data-analytics": {
+    "intro": "Data products are hard to show because their value lives in the questions they answer. Buyers want to see the dashboards, queries, or pipelines they would actually build, and they want to know how the tool fits their existing stack. Clear data & analytics website design uses charts with believable data, explains where data flows, and speaks to both the analysts who use the tool and the engineers who run it.",
+    "tipsTitle": "How to design a data and analytics website",
+    "tips": [
+      {
+        "title": "Use charts with believable data",
+        "body": "Screenshots full of perfect upward curves look fake to analysts. Use realistic datasets with seasonality, noise, and proper axis labels. Pick examples from the buyer's world, such as retention cohorts or revenue by region, so readers can picture their own reports."
+      },
+      {
+        "title": "Draw where the product fits",
+        "body": "Show the product between sources, warehouse, and end users in one simple diagram. Label the connectors and the direction data moves. Data engineers decide quickly whether a tool fits their stack, and a clear diagram answers that faster than several paragraphs."
+      },
+      {
+        "title": "Back performance claims with conditions",
+        "body": "State the query speeds, data volumes, and refresh intervals the product handles, along with the setup behind them. Analysts and engineers distrust \"fast\" without context. A benchmark with its method linked persuades far more than a bare claim on a hero banner."
+      },
+      {
+        "title": "Explain governance and access controls",
+        "body": "Larger teams care about who can see which data. Explain row-level permissions, lineage, and audit logs in plain terms, with a screenshot of the controls. These features rarely win over the first user, but they often decide whether the company approves the purchase."
+      }
+    ]
+  },
+  "cybersecurity": {
+    "intro": "Security buyers are skeptical by profession. They have heard every claim about stopping all threats, so they look for specifics: what the product detects, how it fits their stack, and how much noise it adds to the team's day. Credible cybersecurity website design avoids hooded hackers and glowing padlocks. It shows real alerts, clear coverage, and the certifications the company holds itself.",
+    "tipsTitle": "How to design a cybersecurity website",
+    "tips": [
+      {
+        "title": "Replace fear with specifics",
+        "body": "Scary statistics and dark imagery are everywhere in this category and convince no one. Describe the exact threats or gaps the product covers, the environments it supports, and how quickly it responds. Specific scope reads as expertise. Dramatic language reads as marketing."
+      },
+      {
+        "title": "Show what the analyst sees",
+        "body": "Security teams care about the daily experience: how alerts are prioritized, how much context comes with each one, and how fast they can act. A screenshot of a triaged alert or an investigation view is more convincing than abstract network graphics."
+      },
+      {
+        "title": "Publish your own security posture",
+        "body": "A security vendor without a trust page is a red flag. List certifications such as SOC 2 or ISO 27001, link to a trust center, and describe how you handle customer data. Buyers check this before they evaluate a single feature."
+      },
+      {
+        "title": "Map features to compliance frameworks",
+        "body": "Compliance and security leads think in frameworks and controls. Show which requirements the product helps meet and how evidence is collected. A simple table that maps features to specific controls helps buyers justify the purchase internally and speeds up procurement."
+      }
+    ]
+  },
+  "hr": {
+    "intro": "People software has two audiences: the HR or talent team that buys it and the employees or candidates who use it. Both care about fairness, privacy, and time saved. Effective HR & recruiting website design shows the product from each side, uses warm but realistic imagery of actual workplaces, and handles compliance topics like payroll accuracy and data protection in calm, specific language.",
+    "tipsTitle": "How to design an HR and recruiting website",
+    "tips": [
+      {
+        "title": "Show both sides of the product",
+        "body": "Put the admin view next to the employee or candidate view. HR buyers need to know their people will actually use the tool, and a clean mobile screen for the end user often matters as much as the reporting dashboard."
+      },
+      {
+        "title": "Skip the generic stock smiles",
+        "body": "Polished stock photos of people in meetings make every HR site look the same. Use candid photos of real customers, screenshots with realistic names and roles, or simple illustration. Diverse, believable people matter more here than in most categories."
+      },
+      {
+        "title": "Be precise about compliance and regions",
+        "body": "Payroll, hiring, and benefits rules vary by country and state. List the regions you support, the filings you handle, and your data residency options. If the product helps with fair hiring or pay transparency, explain the method rather than just claiming the result."
+      },
+      {
+        "title": "Quantify the admin work removed",
+        "body": "HR teams are often small and stretched. Show the hours or steps a process loses when the product takes over, such as screening, onboarding, or running payroll. A before and after view of the workflow makes the case more clearly than a list of features."
+      }
+    ]
+  },
+  "customer-support": {
+    "intro": "Support software is judged on two outcomes: faster answers for customers and less strain on the team. Buyers want to see the agent workspace, how automation hands off to people, and what happens to quality as volume grows. Clear customer support website design shows real conversations, makes resolution and satisfaction metrics concrete, and is honest about where AI helps and where a human still steps in.",
+    "tipsTitle": "How to design a customer support website",
+    "tips": [
+      {
+        "title": "Show a conversation from start to finish",
+        "body": "Display a customer message, the suggested or automated reply, and the agent's final response in one sequence. A realistic tone and an imperfect question make the demo believable. Buyers want proof that the product handles messy requests, not only tidy ones."
+      },
+      {
+        "title": "Be honest about automation limits",
+        "body": "Every support leader worries about bots frustrating customers. Explain how the product decides when to hand off to a person, what context the agent receives, and how quality is reviewed. Clear escalation rules build more trust than a high automation percentage."
+      },
+      {
+        "title": "Use the metrics support leaders report",
+        "body": "Speak the language of the job: first response time, resolution rate, CSAT, and cost per ticket. Show how each one improves and how it is measured. Vanity numbers like messages sent mean little to someone reporting to the head of customer experience."
+      },
+      {
+        "title": "Show every channel in one view",
+        "body": "Support happens across email, chat, phone, and social. Show which channels the product covers and how agents see them in one place. Include the knowledge base, since buyers want to know where answers come from and how easily the team can keep them current."
+      }
+    ]
+  },
+  "ecommerce": {
+    "intro": "Selling online means making products feel real through a screen. That applies to consumer brands and to the tools merchants use to run their stores. Brands need photography, clear pricing, and easy returns. Merchant tools need to prove they lift conversion or order value and work with the platform already in place. Strong e-commerce website design treats the shopping experience itself as the main proof.",
+    "tipsTitle": "How to design an e-commerce website",
+    "tips": [
+      {
+        "title": "Pair the storefront with the admin",
+        "body": "For merchant tools, show the shopper-facing result next to the dashboard that controls it. Merchants want to picture what their customers will see and how much work setup takes. Showing only one side leaves half the question unanswered."
+      },
+      {
+        "title": "Invest in consistent product photography",
+        "body": "For brands, photos do most of the selling. Shoot products in use, at true scale, and from several angles, with consistent lighting across the catalog. A coherent image system makes a small brand look established, while mismatched shots make it look like a side project."
+      },
+      {
+        "title": "Lead with revenue impact",
+        "body": "Merchants measure tools by conversion rate, average order value, and return rate. Show the expected lift with a customer example and explain how it was measured. Tie each feature to the metric it moves instead of describing it in isolation."
+      },
+      {
+        "title": "Keep shipping and return policies visible",
+        "body": "Delivery times, return windows, and guarantees answer the last objections before checkout. Keep them near prices and in the footer, not hidden in a help center. Clear policies lower hesitation for first-time buyers who don't know the brand yet."
+      }
+    ]
+  },
+  "design-tools": {
+    "intro": "A design tool's own website is its first demo. Designers judge it the way they judge a portfolio, so craft, typography, and motion all count. Visitors also want to see the canvas in use, what gets exported, and how the tool fits into a team's handoff. Good website design for a design tool shows real work made with the product and lets interaction carry the message wherever copy would slow it down.",
+    "tipsTitle": "How to design a website for a design tool",
+    "tips": [
+      {
+        "title": "Treat the site as a product demo",
+        "body": "Every detail on the page reflects the quality of the tool. Use deliberate typography, careful spacing, and polished motion. If your product makes animation, the site should animate well. If it builds websites, consider building the marketing site with it and saying so."
+      },
+      {
+        "title": "Show work made by real users",
+        "body": "A gallery of projects created with the product proves range better than any feature description. Credit the creators, show varied styles, and link to the original work. Designers want to see that the tool supports their own taste, not only a house style."
+      },
+      {
+        "title": "Let the canvas move",
+        "body": "Static screenshots undersell interactive tools. Use short screen recordings of real edits, such as dragging a component, adjusting a curve, or generating a variant. Keep the cursor visible and the pace natural so viewers can follow each step."
+      },
+      {
+        "title": "Explain handoff and file compatibility",
+        "body": "Teams care about what happens after the design is done. Show export formats, developer handoff, version history, and imports from the tools designers already use. Professional buyers often choose the tool that fits their pipeline over the one with the longest feature list."
+      }
+    ]
+  },
+  "legal": {
+    "intro": "Lawyers read carefully and distrust overstatement, and that shapes everything on the page. Buyers want to know exactly what the software does to a contract or a research question, how accurate it is, and who is responsible for the result. Effective legal tech website design uses precise language, shows real clauses and redlines, and treats confidentiality and privilege as main topics rather than footnotes.",
+    "tipsTitle": "How to design a legal tech website",
+    "tips": [
+      {
+        "title": "Show actual clauses and redlines",
+        "body": "Lawyers trust what they can read. Display a real contract excerpt with the product's suggested edits, comments, or risk flags. Use plausible legal language rather than placeholder text, because anyone in the field will spot fake clauses immediately."
+      },
+      {
+        "title": "Address confidentiality up front",
+        "body": "Client data, privilege, and model training are the first questions any firm will ask. State where documents are stored, who can access them, and whether they are ever used to train models. Put this near the top of the page, not only on a separate security page."
+      },
+      {
+        "title": "Write with precision, not hype",
+        "body": "Avoid claims like \"replace your associates\" or \"perfect accuracy.\" Lawyers respond to measured statements about time saved, error rates, and review steps. Copy that sounds careful signals that the product was built by people who understand legal risk."
+      },
+      {
+        "title": "Separate law firms from in-house teams",
+        "body": "Firms care about efficiency on billable work and client service. In-house teams care about turnaround, cost control, and keeping the business moving. Give each audience its own page or section, with workflows and examples that match how they actually handle matters."
+      }
+    ]
+  },
+  "healthcare": {
+    "intro": "Healthcare websites speak to patients, clinicians, and administrators at once, and each group needs a different kind of reassurance. Patients want clarity and warmth. Clinicians want evidence. Buyers want compliance and proof that the product fits existing systems. Good healthcare website design separates these paths, uses accessible type and color, and backs each health claim with sources, clearances, or study results instead of vague promises.",
+    "tipsTitle": "How to design a healthcare website",
+    "tips": [
+      {
+        "title": "Split paths for patients and providers",
+        "body": "A patient booking care and a hospital evaluating software need different pages. Make the split obvious in the navigation and the hero, with distinct language for each. Mixing clinical detail with consumer messaging confuses both groups and weakens trust."
+      },
+      {
+        "title": "Cite evidence for every health claim",
+        "body": "Link outcome claims to published studies, trial results, or regulatory clearances, and describe the study setting where it helps. Clinicians discount unsupported numbers, and regulators may treat them as advertising problems. Precise sourcing protects both credibility and the company."
+      },
+      {
+        "title": "Design for accessibility from the start",
+        "body": "Many visitors are older, unwell, or reading on a phone in a waiting room. Use large body text, strong contrast, clear labels, and simple navigation. Meeting accessibility standards here is about reaching the real audience, not just passing an audit."
+      },
+      {
+        "title": "Make compliance and integrations visible",
+        "body": "Health systems ask about HIPAA, data handling, and EHR integration early in any evaluation. Name the standards you meet, the records systems you connect to, and how patient data is protected. A short, specific compliance block keeps deals from stalling."
+      }
+    ]
+  },
+  "agencies": {
+    "intro": "For an agency or a freelancer, the website is the work sample, so its design carries more weight than its copy. Prospective clients want to see projects like their own, understand the process and who they would work with, and get a sense of cost before reaching out. Strong agency & portfolio website design lets case studies lead, shows results next to visuals, and makes the next step simple.",
+    "tipsTitle": "How to design an agency or portfolio website",
+    "tips": [
+      {
+        "title": "Lead with selected case studies",
+        "body": "Show your best and most relevant projects first, not everything you have done. Each case study should state the client's problem, your role, and the result, supported by strong visuals. A focused selection tells prospects exactly what you are good at."
+      },
+      {
+        "title": "Show the people behind the work",
+        "body": "Clients hire people, not logos. Introduce the team with real photos, roles, and short bios, and make clear who would lead a project. For a solo portfolio, a short personal note about how you like to work builds the same kind of trust."
+      },
+      {
+        "title": "Explain your process and engagement model",
+        "body": "Describe how a project runs from first call to launch, how long typical engagements take, and whether you work on fixed scope or retainer. Prospects use this to judge fit before they contact you, which leads to better first conversations."
+      },
+      {
+        "title": "Qualify leads in the inquiry form",
+        "body": "Ask about budget range, timeline, and project type when someone gets in touch. It saves both sides time and shows that you take projects seriously. Keep the form short, but include the questions that tell you whether a lead is a good fit."
+      }
+    ]
+  },
+  "logistics": {
+    "intro": "Delays cost real money in logistics, so buyers want reliability shown, not promised. A useful page explains the network, coverage, and visibility the product provides, and how it connects to the systems a shipper, fleet operator, or traveler already relies on. Clear logistics website design uses maps, tracking views, and operational metrics to make a business full of moving parts easy to understand at a glance.",
+    "tipsTitle": "How to design a logistics website",
+    "tips": [
+      {
+        "title": "Show coverage on a map",
+        "body": "Lanes, regions, charging locations, and service areas are spatial information. A clear map communicates reach faster than a list of countries or cities. Keep it accurate, make it searchable where possible, and update it whenever coverage changes."
+      },
+      {
+        "title": "Make tracking and exceptions concrete",
+        "body": "Operators want to know where things are and when they will arrive. Show a realistic tracking view with statuses, exceptions, and estimated times. Highlight how the product flags problems early, since exception handling is where most of the cost sits."
+      },
+      {
+        "title": "Use the metrics operations leaders report",
+        "body": "Speak in on-time rate, cost per shipment, utilization, and dwell time. Customer results framed in these terms read as credible to operations leaders. Avoid vague efficiency claims that cannot be tied to a line on a monthly report."
+      },
+      {
+        "title": "Explain integrations and onboarding time",
+        "body": "Shippers and fleets run on ERPs, warehouse systems, and telematics. Name the systems you connect to, how data moves between them, and how long onboarding takes. A heavy implementation is a common objection, and specifics make it smaller."
+      }
+    ]
+  },
+  "education": {
+    "intro": "Learning products serve students, teachers, and often a separate buyer such as a school, an employer, or a parent. Each wants proof that learning actually happens. Good education website design shows the learning experience itself, from lessons to progress tracking, presents outcomes in concrete terms, and keeps the tone encouraging without talking down to anyone. Clear pricing and course structure matter as much as any illustration.",
+    "tipsTitle": "How to design an education website",
+    "tips": [
+      {
+        "title": "Show a lesson, not just a catalog",
+        "body": "Let visitors see what learning looks like inside the product: a sample lesson, an exercise, or a moment of feedback. A short preview or free module answers the question of quality better than course titles and instructor photos alone."
+      },
+      {
+        "title": "Report outcomes learners care about",
+        "body": "Completion, skills gained, certifications earned, and career results are what learners and employers want to see. Present them with context, such as who was measured and over what period. Unsupported promises about salaries or jobs damage trust quickly."
+      },
+      {
+        "title": "Give institutional buyers their own path",
+        "body": "A learner, a teacher, a parent, and a training manager all decide differently. Give buyers a separate section with admin features, reporting, and group pricing. Keep the learner-facing pages focused on motivation and the experience of studying."
+      },
+      {
+        "title": "Make the time commitment clear",
+        "body": "Learners want to know how long a course takes, how many hours a week it needs, and what they will be able to do at the end. Show the syllabus, format, and pace up front. Uncertainty about commitment is a common reason people put off signing up."
+      }
+    ]
+  }
+}

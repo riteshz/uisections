@@ -11,6 +11,8 @@ export interface PageCopy {
 const pick = (name: string) => Object.entries(files).find(([p]) => p.endsWith(`/${name}.json`))?.[1].default ?? {};
 const categoryCopy = pick('categories');
 const tagCopy = pick('tags');
+const industryCopy = pick('industries');
 
 export const getCategoryCopy = (id: string): PageCopy | undefined => categoryCopy[id];
 export const getTagCopy = (id: string): PageCopy | undefined => tagCopy[id];
+export const getIndustryCopy = (id: string): PageCopy | undefined => industryCopy[id];
