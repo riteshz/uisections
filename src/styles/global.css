@@ -66,10 +66,20 @@
 
 @view-transition { navigation: auto; }
 
+/* Page-to-page: a quick crossfade; the header and footer stay put. */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+  ::view-transition-old(root) { animation: vt-out 0.16s var(--ease-out) both; }
+  ::view-transition-new(root) { animation: vt-in 0.3s var(--ease-out) both; }
+}
+@keyframes vt-out { to { opacity: 0; } }
+@keyframes vt-in { from { opacity: 0; } }
+
 /* --- Base ------------------------------------------------------------------ */
 html {
   background: var(--bg);
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
   scroll-padding-top: calc(var(--header-h) + 16px);
 }
 body {
@@ -102,7 +112,7 @@ p { text-wrap: pretty; }
   background: var(--bg);
   border-radius: 0 0 32px 32px;
   min-height: 70vh;
-  padding-bottom: 120px;
+  padding-bottom: clamp(72px, 3rem + 4vw, 120px);
 }
 
 /* --- Type scale ------------------------------------------------------------- */
@@ -125,9 +135,7 @@ p { text-wrap: pretty; }
 }
 .btn:active { scale: 0.95; transition-duration: 90ms; }
 .btn-primary { background: var(--ink); color: #fff; }
-.btn-primary:hover { background: #2a2b2e; scale: 0.98; }
 .btn-secondary { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--line-strong); }
-.btn-secondary:hover { background: var(--wash); box-shadow: inset 0 0 0 1px rgb(var(--ink-rgb) / 0.22); }
 .btn-sm { height: 36px; padding: 0 14px; font-size: 0.875rem; }
 
 .chip {
@@ -138,7 +146,6 @@ p { text-wrap: pretty; }
   transition: background-color 0.16s var(--ease-out), color 0.16s, scale 0.12s;
   cursor: pointer;
 }
-.chip:hover { background: var(--wash-hover); color: var(--ink); }
 .chip:active { scale: 0.97; }
 .chip[aria-pressed="true"], .chip[aria-current="page"] { background: var(--ink); color: #fff; }
 .chip .count { color: var(--ink-4); font-variant-numeric: tabular-nums; font-weight: 450; }
@@ -149,7 +156,6 @@ p { text-wrap: pretty; }
   background: var(--wash-2); color: var(--ink-3); font-size: 0.75rem; font-weight: 550; letter-spacing: 0.015em; white-space: nowrap;
   transition: background-color 0.15s, color 0.15s;
 }
-a.tag:hover { background: rgb(var(--ink-rgb) / 0.12); color: var(--ink); }
 
 /* Icon button: a wash circle springs in on hover (bencho). */
 .icon-btn {
@@ -160,11 +166,27 @@ a.tag:hover { background: rgb(var(--ink-rgb) / 0.12); color: var(--ink); }
   content: ""; position: absolute; inset: 0; border-radius: inherit; background: rgb(var(--ink-rgb) / 0.08);
   opacity: 0; scale: 0.86; transition: opacity 0.15s, scale 0.26s var(--ease-soft);
 }
-.icon-btn:hover { color: var(--ink); }
-.icon-btn:hover::before { opacity: 1; scale: 1; }
 .icon-btn > svg { position: relative; transition: scale 0.26s var(--ease-soft); }
-.icon-btn:hover > svg { scale: 1.04; }
+.icon-btn:active::before { opacity: 1; scale: 1; }
 .icon-btn:active > svg { scale: 0.96; transition-duration: 90ms; }
+
+/* Hover effects only where a pointer can hover, so taps never leave stuck states. */
+@media (hover: hover) {
+  .btn-primary:hover { background: #2a2b2e; scale: 0.98; }
+  .btn-secondary:hover { background: var(--wash); box-shadow: inset 0 0 0 1px rgb(var(--ink-rgb) / 0.22); }
+  .chip:hover { background: var(--wash-hover); color: var(--ink); }
+  .chip[aria-pressed="true"]:hover, .chip[aria-current="page"]:hover { background: var(--ink); color: #fff; }
+  a.tag:hover { background: rgb(var(--ink-rgb) / 0.12); color: var(--ink); }
+  .icon-btn:hover { color: var(--ink); }
+  .icon-btn:hover::before { opacity: 1; scale: 1; }
+  .icon-btn:hover > svg { scale: 1.04; }
+}
+
+/* Comfortable touch targets on phones. */
+@media (max-width: 640px) {
+  .chip { height: 40px; padding: 0 15px; }
+  .icon-btn { width: 44px; height: 44px; }
+}
 
 kbd.kbd {
   display: inline-grid; place-items: center; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 6px;

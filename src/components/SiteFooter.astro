@@ -43,7 +43,7 @@ const year = new Date(totals.updated).getFullYear();
     position: relative;
     z-index: 0;
     margin-top: -32px;
-    padding: 136px 0 40px;
+    padding: clamp(96px, 4rem + 5vw, 136px) 0 calc(32px + env(safe-area-inset-bottom));
     background: var(--night);
     color: rgb(255 255 255 / 0.62);
     font-size: 0.875rem;
@@ -61,9 +61,10 @@ const year = new Date(totals.updated).getFullYear();
   .cols { display: grid; gap: 32px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   @media (min-width: 640px) { .cols { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   h2 { font-size: 0.8125rem; font-weight: 550; letter-spacing: 0.01em; color: rgb(255 255 255 / 0.6); margin-bottom: 14px; }
-  ul { display: grid; gap: 10px; }
+  ul { display: grid; gap: 2px; }
+  li a { display: inline-block; padding-block: 5px; }
   a { color: rgb(255 255 255 / 0.86); transition: color 0.15s, opacity 0.15s; }
   a:hover { color: #fff; }
-  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 72px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / 0.08); font-size: 0.8125rem; color: rgb(255 255 255 / 0.6); }
-  .legal a { color: rgb(255 255 255 / 0.6); }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: clamp(48px, 2rem + 3vw, 72px); padding-top: 24px; border-top: 1px solid rgb(255 255 255 / 0.08); font-size: 0.8125rem; color: rgb(255 255 255 / 0.6); }
+  .legal a { display: inline-block; padding-block: 6px; color: rgb(255 255 255 / 0.6); }
 </style>

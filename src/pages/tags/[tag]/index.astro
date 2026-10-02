@@ -120,7 +120,7 @@ const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: t.path, name
 
 <style>
   .toolbar { position: relative; margin-bottom: 28px; }
-  .below { display: grid; gap: 88px; margin-top: 112px; }
+  .below { display: grid; gap: clamp(56px, 2.5rem + 3vw, 88px); margin-top: clamp(64px, 3rem + 4vw, 112px); }
   .below > section:not(.tips) > .t-h2 { margin-bottom: 20px; }
   .pairs { display: flex; flex-wrap: wrap; gap: 6px; }
   .tips ol { display: grid; gap: 28px 40px; margin-top: 24px; counter-reset: tip; }

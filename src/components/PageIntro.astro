@@ -12,7 +12,8 @@ const { crumbs, eyebrow, title, intro, center = false } = Astro.props;
   <slot />
 </header>
 <style>
-  .page-intro { display: grid; gap: 14px; padding-top: 40px; padding-bottom: 40px; max-width: 820px; }
+  .page-intro { display: grid; gap: 14px; padding-top: 28px; padding-bottom: 32px; max-width: 820px; }
+  @media (min-width: 640px) { .page-intro { padding-top: 40px; padding-bottom: 40px; } }
   .page-intro h1 { margin-top: 4px; }
   .page-intro .t-feature { max-width: 666px; }
   .center { margin-inline: auto; text-align: center; justify-items: center; }

@@ -82,7 +82,7 @@ const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: c.path, name
 
 <style>
   .toolbar { position: relative; margin-bottom: 28px; }
-  .below { display: grid; gap: 88px; margin-top: 112px; }
+  .below { display: grid; gap: clamp(56px, 2.5rem + 3vw, 88px); margin-top: clamp(64px, 3rem + 4vw, 112px); }
   .below > section:not(.tips) > .t-h2 { margin-bottom: 20px; }
   .tips ol { display: grid; gap: 28px 40px; margin-top: 24px; counter-reset: tip; }
   @media (min-width: 900px) { .tips ol { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

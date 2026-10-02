@@ -93,7 +93,7 @@ const jsonld = graph(breadcrumbNode(crumbs), {
   }
   @media (min-width: 1100px) { .cat-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 24px; } }
 
-  .glossary { margin-top: 120px; }
+  .glossary { margin-top: clamp(64px, 3rem + 4vw, 120px); }
   .glossary-head { display: grid; gap: 6px; margin-bottom: 28px; }
   .glossary ul { display: grid; column-gap: 48px; }
   @media (min-width: 900px) { .glossary ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

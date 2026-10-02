@@ -48,6 +48,8 @@ const { options, total, attr, param, target, noun = 'sections', label } = Astro.
     update();
   }
 
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+
   for (const bar of document.querySelectorAll<HTMLElement>('[data-filter]')) {
     const grid = document.getElementById(bar.dataset.target!);
     if (!grid) continue;
@@ -71,6 +73,18 @@ const { options, total, attr, param, target, noun = 'sections', label } = Astro.
       for (const chip of chips) chip.setAttribute('aria-pressed', String(chip.dataset.value === value));
       status.textContent = `${shown} ${noun}`;
       if (empty) empty.hidden = shown > 0;
+      // Let the first matching cards settle in instead of popping.
+      if (push && !reduceMotion.matches) {
+        let k = 0;
+        for (const card of cards) {
+          if (card.hidden) continue;
+          card.animate(
+            [{ opacity: 0, transform: 'translateY(8px)' }, { opacity: 1, transform: 'none' }],
+            { duration: 340, delay: k * 28, easing: 'cubic-bezier(.22,1,.36,1)', fill: 'backwards' },
+          );
+          if (++k >= 12) break;
+        }
+      }
       if (push) {
         const url = new URL(location.href);
         if (value) url.searchParams.set(param, value);

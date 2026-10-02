@@ -17,7 +17,7 @@ const { crumbs } = Astro.props;
 <style>
   .crumbs ol { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
   .crumbs li { display: inline-flex; align-items: center; gap: 4px; }
-  .crumbs a { color: var(--ink-4); font-weight: 520; transition: color 0.15s; }
+  .crumbs a { display: inline-block; padding-block: 4px; color: var(--ink-4); font-weight: 520; transition: color 0.15s; }
   .crumbs a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
   .crumbs [aria-current] { color: var(--ink-2); font-weight: 550; }
   .crumbs :global(.sep) { color: var(--ink-5); }

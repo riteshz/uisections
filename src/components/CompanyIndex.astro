@@ -120,6 +120,11 @@ const plural = (n: number, one: string, many: string) => `${n.toLocaleString('en
     box-shadow: var(--shadow-float);
   }
   .ci-letters ul { gap: 2px; padding: 0; }
+  /* On phones the header slides away; follow it up so no gap opens above the bar. */
+  @media (max-width: 900px) {
+    .ci-letters { transition: translate 0.32s var(--ease-morph); }
+    :global(html:has(.site-header[data-bare])) .ci-letters { translate: 0 calc(-1 * var(--header-h)); }
+  }
   .ci-letters a, .ci-letters span {
     flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 999px;
     font-size: 0.8125rem; font-weight: 560; font-variant-numeric: tabular-nums;
@@ -146,6 +151,11 @@ const plural = (n: number, one: string, many: string) => `${n.toLocaleString('en
     transition: background-color 0.2s var(--ease-out);
   }
   .ci-thumb { flex: none; display: block; width: 96px; aspect-ratio: 16 / 10; border-radius: 8px; transition: translate 0.3s var(--ease-out); }
+  @media (max-width: 560px) {
+    .ci-list { gap: 0; padding-bottom: 12px; }
+    .ci-item { gap: 12px; padding: 6px 8px; }
+    .ci-thumb { width: 64px; border-radius: 6px; }
+  }
   .ci-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
   .ci-thumb img.contain { object-fit: contain; object-position: center; }
   .ci-text { display: grid; min-width: 0; }

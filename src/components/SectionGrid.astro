@@ -24,15 +24,20 @@ const { items, id, eagerCount = 6, priorityCount = 2, showCompany = true, showCa
 <p class="grid-empty t-meta" data-grid-empty hidden>No sections match this filter yet.</p>
 
 <style is:global>
+  /* Two columns from phones up, three on wide screens. */
   .section-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
-    gap: 36px 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 10px;
   }
+  @media (min-width: 640px) { .section-grid { gap: 36px 20px; } }
   @media (min-width: 1100px) { .section-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 24px; } }
 
   .card { position: relative; min-width: 0; }
-  .card:not(.eager) { content-visibility: auto; contain-intrinsic-size: auto 320px; }
+  /* Placeholder heights close to real card heights keep scrolling steady. */
+  .card:not(.eager) { content-visibility: auto; contain-intrinsic-size: auto 150px; }
+  @media (min-width: 640px) { .card:not(.eager) { contain-intrinsic-size: auto 260px; } }
+  @media (min-width: 1100px) { .card:not(.eager) { contain-intrinsic-size: auto 320px; } }
   .card[hidden] { display: none; }
 
   .card .thumb {
@@ -40,7 +45,7 @@ const { items, id, eagerCount = 6, priorityCount = 2, showCompany = true, showCa
     aspect-ratio: 16 / 10;
     border-radius: 14px;
     background: var(--shot-bg, var(--wash));
-    transition: box-shadow 0.3s var(--ease-out), translate 0.3s var(--ease-out);
+    transition: box-shadow 0.3s var(--ease-out), translate 0.3s var(--ease-out), scale 0.2s var(--ease-spring);
   }
   .card .thumb img {
     display: block;
@@ -82,11 +87,17 @@ const { items, id, eagerCount = 6, priorityCount = 2, showCompany = true, showCa
     .card .thumb:hover { box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.06), 0 14px 32px -12px rgb(var(--ink-rgb) / 0.22); translate: 0 -4px; }
     .card .thumb:hover .veil { opacity: 1; transform: none; }
   }
-  .card .thumb:active { translate: 0 -2px; scale: 0.995; }
+  .card .thumb:active { scale: 0.98; transition-duration: 90ms; }
 
   .card .meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; min-height: 24px; }
   .card .co { min-width: 0; font-size: 0.9375rem; font-weight: 560; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .card a.co:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  @media (max-width: 639px) {
+    .card .thumb { border-radius: 10px; }
+    .card .meta { margin-top: 8px; min-height: 20px; }
+    .card .meta .tag { display: none; }
+    .card .co { font-size: 0.8125rem; }
+  }
 
   /* Entrances: first rows settle in (transform only, never invisible); the rest rise as they scroll in. */
   @media (prefers-reduced-motion: no-preference) {
@@ -96,5 +107,5 @@ const { items, id, eagerCount = 6, priorityCount = 2, showCompany = true, showCa
     }
   }
   @keyframes rise-solid { from { transform: translateY(14px); } }
-  @keyframes wall-rise { from { opacity: 0; transform: translateY(18px); } }
+  @keyframes wall-rise { from { opacity: 0; transform: translateY(14px); } }
 </style>

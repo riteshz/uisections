@@ -199,6 +199,10 @@ const taxonomy = {
   }
   @media (max-width: 720px) {
     .lb { padding: 0; }
+    /* Full-screen blur is costly on phones; a darker plain scrim reads the same. */
+    .lb::backdrop { background: rgb(12 12 14 / 0.72); -webkit-backdrop-filter: none; backdrop-filter: none; }
+    .lb-bar .icon-btn, .lb-pager .icon-btn { width: 44px; height: 44px; }
+    .lb-stage { touch-action: pan-y; }
     .lb[open] { place-items: end stretch; }
     .lb-panel { width: 100%; height: calc(100dvh - 12px); border-radius: 20px 20px 0 0; }
     .lb[open] .lb-panel { animation: lb-up 0.44s var(--ease-out-expo) both; }
@@ -332,7 +336,7 @@ const taxonomy = {
       const next = list[(i + dir + list.length) % list.length];
       if (next) {
         open(next, { push: false, dir });
-        cardOf(next).scrollIntoView({ block: 'nearest' });
+        cardOf(next).scrollIntoView({ block: 'nearest', behavior: 'instant' });
       }
     }
 
@@ -352,6 +356,18 @@ const taxonomy = {
       if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
       if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
     });
+
+    // Touch: swipe left/right on the screenshot to move between sections.
+    let touchX = 0, touchY = 0, touchT = 0;
+    stage.addEventListener('touchstart', (e) => {
+      const t = e.touches[0];
+      touchX = t.clientX; touchY = t.clientY; touchT = Date.now();
+    }, { passive: true });
+    stage.addEventListener('touchend', (e) => {
+      const t = e.changedTouches[0];
+      const dx = t.clientX - touchX, dy = t.clientY - touchY;
+      if (Date.now() - touchT < 600 && Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) step(dx < 0 ? 1 : -1);
+    }, { passive: true });
 
     window.addEventListener('popstate', () => {
       const m = location.hash.match(/^#s-([a-f0-9]+)$/);
@@ -374,7 +390,7 @@ const taxonomy = {
     const m = location.hash.match(/^#s-([a-f0-9]+)$/);
     const initial = m && anchorById(m[1]);
     if (initial) {
-      cardOf(initial).scrollIntoView({ block: 'center' });
+      cardOf(initial).scrollIntoView({ block: 'center', behavior: 'instant' });
       requestAnimationFrame(() => open(initial, { push: false }));
     }
   }
