@@ -1,0 +1,101 @@
+{
+  "taskId": "D2",
+  "companies": [
+    {
+      "slug": "finsepa",
+      "domain": "finsepa.com",
+      "confidence": "high",
+      "evidence": "Live homepage (redirects to www.finsepa.com) contains headline 'Advanced data tools' and 'All-in-one portfolio tracking and research platform' (screenshot: 'All-in-one investment management platform'); investment research/stock screener product"
+    },
+    {
+      "slug": "firstwork",
+      "domain": "firstwork.com",
+      "confidence": "high",
+      "evidence": "Wayback snapshot of firstwork.com (Aug 2025) contains 'HR tech that works as hard as you'; same YC frontline-workforce HR company, live site now repositioned as 'AI Agents for Frontline Workforces'"
+    },
+    {
+      "slug": "flect",
+      "domain": "getflect.app",
+      "confidence": "high",
+      "evidence": "getflect.app (redirects to www.getflect.app), title 'Flect — Build your happiness', hero 'Happiness isn't something you chase. It's something you build.' with beta signup; none of the hinted domains matched"
+    },
+    {
+      "slug": "flitedeck",
+      "domain": "flite.bike",
+      "confidence": "high",
+      "evidence": "flite.bike (FLITE, maker of FLITEDECK smart bike cockpit, linked from DC Rainmaker coverage) contains 'The Smart Cockpit That Redefines Your Ride' and 'The World's First Fully Integrated and Connected Cockpit'"
+    },
+    {
+      "slug": "futern",
+      "domain": "futern.com",
+      "confidence": "high",
+      "evidence": "Live futern.com (AI sales agent for B2B prospecting) contains 'Describe your ideal customer' copy matching the hero 'Simply describe Your Ideal Customer...'; hero headline has since changed to 'One prompt. More pipeline. Less effort.'"
+    },
+    {
+      "slug": "gradient-labs",
+      "domain": "gradient-labs.ai",
+      "confidence": "high",
+      "evidence": "Wayback snapshot of gradient-labs.ai (Jan 2025) has title 'The best customer support hire you'll ever make', 'Introducing Otto — a procedural AI agent' and 'from the blog'; live site is the same company (AI customer ops for financial services)"
+    },
+    {
+      "slug": "groundcover",
+      "domain": "groundcover.com",
+      "confidence": "high",
+      "evidence": "Wayback snapshot of www.groundcover.com (Aug 2024) contains 'Observability, for the Cloud', 'Integrate with any data source' and 'predictable price'; eBPF/inCloud observability platform, live site now 'The full-stack observability platform for engineers & agents'"
+    },
+    {
+      "slug": "headroom",
+      "domain": "headroom.com",
+      "confidence": "high",
+      "evidence": "headroom.com ('The Small Business Operating System For AI') JS bundle has the uppercase hero 'EVERYTHING YOU NEED TO RUN YOUR BUSINESS ON AUTOPILOT', an AI assistant component named Max and email/project UI; headroom.dev serves the same site. Other hints are unrelated (useheadroom.com is an engineering dashboard, getheadroom.com is Irish household budgeting)"
+    },
+    {
+      "slug": "hellotime",
+      "domain": "hellotime.io",
+      "confidence": "high",
+      "evidence": "Wayback snapshot of hellotime.io (Dec 2025, title 'Resource Planning Software | Hellotime') contains 'The smarter way to schedule teams', 'innovative agencies worldwide' and 'big fans of Hellotime.'; live site is behind a Cloudflare challenge. Hint hellotime.ai is a different time-tracking product"
+    },
+    {
+      "slug": "heyclicky",
+      "domain": "heyclicky.com",
+      "confidence": "high",
+      "evidence": "heyclicky.com (redirects to www.heyclicky.com), 'an ai buddy on your mac', contains 'they use it everyday' and 'heyclicky, your way'; hint heyclicky.ai is a domain-for-sale page"
+    },
+    {
+      "slug": "highnote",
+      "domain": "highnote.com",
+      "confidence": "high",
+      "evidence": "Wayback snapshot of highnote.com (Mar 2025) has title 'Highnote | The New Standard for Payments' and 'A Purpose Built Payments Platform'; same embedded payments platform live today"
+    },
+    {
+      "slug": "howseen-ai",
+      "domain": "howseen.ai",
+      "confidence": "high",
+      "evidence": "Live howseen.ai (AI visibility / GEO tracker) contains 'Your buyers ask AI what to buy. Is it naming you?' and 'how you're seen'"
+    },
+    {
+      "slug": "lemni",
+      "domain": "lemni.com",
+      "confidence": "high",
+      "evidence": "lemni.com/pricing (redirects to www.lemni.com) meta and heading: 'Expect more and pay less. We offer our core product at cost...'; AI customer support with per-interaction pricing. Hint lemni.co is an unrelated crypto investing app"
+    },
+    {
+      "slug": "lightyear",
+      "domain": "lightyear.dev",
+      "confidence": "medium",
+      "evidence": "Screenshot mission copy describes a SaaS integrations platform with a bi-directional sync engine 'defined in code'; Lightyear Labs at lightyear.dev (Wayback 2025-2026: 'A developer-first sync platform designed for SaaS companies', 'Our robust sync engine...') matches, but the exact mission text wasn't found. NOTE: lightyear.dev currently does not resolve (DNS refused, last archived June 2026). Hints are other companies (lightyear.com is an investing app, joinlightyear.com a residency, lightyear.xyz for sale)"
+    },
+    {
+      "slug": "lynq",
+      "domain": "lynq.ai",
+      "confidence": "high",
+      "evidence": "Wayback snapshot of lynq.ai (May 2025) contains 'Drafted replies that match your voice.' and 'Email Handled' / 'Save 6+ hours a week'. NOTE: product has since pivoted (Jan 2026 lynq.ai = 'Lynq - AI Agents for SMB's' AI receptionist); now https://lynq.ai refuses connections and http forwards to generalemployee.com (AI receptionist, rebrand not confirmed). Hint domains are unrelated companies"
+    },
+    {
+      "slug": "melius",
+      "domain": "melius.com",
+      "confidence": "high",
+      "evidence": "melius.com (redirects to www.melius.com), 'the AI-native operating system for creatives', contains 'Create anything you imagine', 'Don't miss out' and an 'Agencies' persona tab"
+    }
+  ]
+}
