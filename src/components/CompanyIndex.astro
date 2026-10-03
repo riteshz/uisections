@@ -103,7 +103,7 @@ const plural = (n: number, one: string, many: string) => `${n.toLocaleString('en
   .ci-search { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .ci-field {
     position: relative; display: flex; align-items: center; gap: 10px; flex: 0 1 340px; min-width: 0; height: 44px; padding: 0 16px;
-    border-radius: 999px; background: var(--wash); color: var(--ink-4); transition: background-color 0.16s, box-shadow 0.16s;
+    border-radius: var(--r-btn); corner-shape: squircle; background: var(--wash); color: var(--ink-4); transition: background-color 0.16s, box-shadow 0.16s;
   }
   .ci-field:hover { background: var(--wash-hover); }
   .ci-field:focus-within { background: #fff; box-shadow: inset 0 0 0 1px var(--line-strong), var(--focus); }
@@ -115,7 +115,7 @@ const plural = (n: number, one: string, many: string) => `${n.toLocaleString('en
   /* Sticky glass letter bar under the header. */
   .ci-letters {
     position: sticky; top: calc(var(--header-h) + 4px); z-index: 5;
-    width: max-content; max-width: 100%; margin: 20px 0 40px; padding: 4px; border-radius: 999px;
+    width: max-content; max-width: 100%; margin: 20px 0 40px; padding: 4px; border-radius: calc(var(--r-btn-sm) + 4px); corner-shape: squircle;
     background: var(--glass); -webkit-backdrop-filter: blur(10px) saturate(150%); backdrop-filter: blur(10px) saturate(150%);
     box-shadow: var(--shadow-float);
   }
@@ -126,7 +126,7 @@ const plural = (n: number, one: string, many: string) => `${n.toLocaleString('en
     :global(html:has(.site-header[data-bare])) .ci-letters { translate: 0 calc(-1 * var(--header-h)); }
   }
   .ci-letters a, .ci-letters span {
-    flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 999px;
+    flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: var(--r-btn-sm); corner-shape: squircle;
     font-size: 0.8125rem; font-weight: 560; font-variant-numeric: tabular-nums;
   }
   .ci-letters a { color: var(--ink-2); transition: background-color 0.15s, color 0.15s, scale 0.2s var(--ease-spring); }

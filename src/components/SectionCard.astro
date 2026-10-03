@@ -62,7 +62,6 @@ const fit = s.thumb.h / s.thumb.w < 0.56 ? 'contain' : 'cover';
       decoding={eager ? 'auto' : 'async'}
       fetchpriority={priority ? 'high' : undefined}
     />
-    <span class="veil" aria-hidden="true"><span class="pill">{s.companyName} · {category.label}</span></span>
   </a>
   {(showCompany || showCategory) && (
     <div class="meta">

@@ -86,7 +86,8 @@ import Icon from './Icon.astro';
   .pal-esc {
     height: 26px;
     padding: 0 8px;
-    border-radius: 7px;
+    border-radius: 8px;
+    corner-shape: squircle;
     background: var(--wash);
     font-size: 0.75rem;
     font-weight: 550;
@@ -115,7 +116,8 @@ import Icon from './Icon.astro';
     gap: 12px;
     height: 48px;
     padding: 0 12px 0 8px;
-    border-radius: 12px;
+    border-radius: var(--r-btn);
+    corner-shape: squircle;
     color: var(--ink-2);
   }
   .pal-ico {
@@ -124,7 +126,8 @@ import Icon from './Icon.astro';
     place-items: center;
     width: 32px;
     height: 32px;
-    border-radius: 9px;
+    border-radius: var(--r-btn-sm);
+    corner-shape: squircle;
     background: var(--wash);
     color: var(--ink-3);
     transition: background-color 0.15s, color 0.15s;

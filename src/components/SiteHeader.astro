@@ -103,7 +103,8 @@ const isCurrent = (href: string) =>
     width: min(320px, 30vw);
     height: 44px;
     padding: 0 8px 0 16px;
-    border-radius: 999px;
+    border-radius: var(--r-btn);
+    corner-shape: squircle;
     background: var(--wash);
     color: var(--ink-4);
     font-size: 0.875rem;
@@ -138,7 +139,7 @@ const isCurrent = (href: string) =>
     transform-origin: 100% 0;
   }
   .menu[open] .menu-panel { animation: pop 0.18s var(--ease-out-expo) both; }
-  .menu-panel a:not(.btn) { display: flex; align-items: center; height: 44px; padding: 0 12px; border-radius: 10px; font-weight: 520; color: var(--ink-2); }
+  .menu-panel a:not(.btn) { display: flex; align-items: center; height: 44px; padding: 0 12px; border-radius: var(--r-btn-sm); corner-shape: squircle; font-weight: 520; color: var(--ink-2); }
   .menu-panel a:not(.btn):active, .menu-panel a[aria-current='page'] { background: var(--wash); color: var(--ink); }
   @media (hover: hover) { .menu-panel a:not(.btn):hover { background: var(--wash); color: var(--ink); } }
   @keyframes pop { from { opacity: 0; scale: 0.94; translate: 0 -4px; } }

@@ -2,10 +2,11 @@
 import Icon from './Icon.astro';
 import { allCategories, tags } from '../lib/data';
 
-// Labels + URLs the viewer needs to render chips for any card on the page.
+// Labels + URLs the viewer needs to render chips for any card on the page
+// (tags also carry their facet, which groups them in "Copy as prompt").
 const taxonomy = {
   c: Object.fromEntries(allCategories.map((c) => [c.id, [c.label, c.hasPage ? c.path : '']])),
-  t: Object.fromEntries(tags.map((t) => [t.id, [t.label, t.hasPage ? t.path : '']])),
+  t: Object.fromEntries(tags.map((t) => [t.id, [t.label, t.hasPage ? t.path : '', t.facet]])),
 };
 ---
 <dialog class="lb" data-lb aria-labelledby="lb-title">
@@ -19,12 +20,32 @@ const taxonomy = {
         </div>
       </div>
       <div class="lb-bar-actions">
-        <a class="btn btn-secondary btn-sm lb-visit" href="/" data-lb-visit target="_blank" rel="nofollow noopener" hidden>
-          <span>Visit site</span><Icon name="arrow-up-right" size={15} />
-        </a>
+        <div class="lb-copy" data-lb-copy>
+          <button type="button" class="lb-copy-main" data-lb-copy-main aria-label="Copy image">
+            <span class="lb-copy-ic" aria-hidden="true"><Icon name="copy" size={16} /><Icon name="check" size={16} /></span>
+            <span class="lb-copy-label" data-label>Copy</span>
+          </button>
+          <button type="button" class="lb-copy-toggle" data-lb-copy-toggle aria-label="More copy options" aria-haspopup="menu" aria-expanded="false" aria-controls="lb-copy-menu">
+            <Icon name="chevron-down" size={16} />
+          </button>
+          <div class="lb-menu" id="lb-copy-menu" role="menu" aria-label="Copy options" data-lb-menu hidden>
+            <button type="button" role="menuitem" tabindex="-1" data-lb-act="image">
+              <Icon name="image" size={18} /><span><b>Copy image</b><small>Full-size PNG</small></span>
+            </button>
+            <button type="button" role="menuitem" tabindex="-1" data-lb-act="download">
+              <Icon name="download" size={18} /><span><b>Download image</b><small>Full-size WebP</small></span>
+            </button>
+          </div>
+        </div>
+        <button type="button" class="btn btn-secondary btn-sm lb-prompt" data-lb-prompt aria-label="Copy as prompt" title="Copy a prompt for v0, Lovable, Cursor or Claude">
+          <span class="lb-copy-ic" aria-hidden="true"><Icon name="terminal" size={16} /><Icon name="check" size={16} /></span>
+          <span class="lb-prompt-label" data-label>Copy as prompt</span>
+        </button>
         <button type="button" class="icon-btn" data-lb-close aria-label="Close preview" aria-keyshortcuts="Escape"><Icon name="x" size={20} /></button>
       </div>
     </div>
+
+    <p class="lb-toast" data-lb-toast role="status" aria-live="polite"></p>
 
     <div class="lb-stage" data-lb-stage tabindex="-1">
       <img class="lb-img" data-lb-img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1" height="1" alt="" decoding="async" />
@@ -116,7 +137,98 @@ const taxonomy = {
   .lb-title { font-size: 1rem; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .lb-sub { font-size: 0.8125rem; line-height: 1.35; color: var(--ink-4); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .lb-bar-actions { display: flex; align-items: center; gap: 6px; flex: none; }
-  .lb-visit[hidden] { display: none; }
+
+  /* Copy split button: the main half copies the image, the chevron opens more options. */
+  .lb-copy { position: relative; display: flex; }
+  .lb-copy-main,
+  .lb-copy-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    background: var(--ink);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.15s var(--ease-out), scale 0.2s var(--ease-spring);
+  }
+  .lb-copy { border-radius: var(--r-btn-sm); }
+  .lb-copy-main, .lb-copy-toggle { corner-shape: squircle; }
+  .lb-copy-main { gap: 7px; padding: 0 12px 0 13px; border-radius: var(--r-btn-sm) 0 0 var(--r-btn-sm); font-size: 0.875rem; font-weight: 550; white-space: nowrap; }
+  .lb-copy-toggle { width: 32px; padding-right: 2px; border-radius: 0 var(--r-btn-sm) var(--r-btn-sm) 0; box-shadow: inset 1px 0 0 rgb(255 255 255 / 0.16); }
+  .lb-copy-toggle svg { transition: rotate 0.28s var(--ease-soft); }
+  .lb-copy-toggle[aria-expanded="true"] svg { rotate: 180deg; }
+  .lb-copy-main:active, .lb-copy-toggle:active { scale: 0.96; transition-duration: 90ms; }
+  .lb .is-busy { cursor: progress; }
+  .lb .is-busy .lb-copy-ic { animation: lb-pulse 0.9s ease-in-out infinite alternate; }
+  .lb-copy-ic { display: grid; }
+  .lb-copy-ic > svg { grid-area: 1 / 1; transition: opacity 0.16s, scale 0.3s var(--ease-spring); }
+  .lb-copy-ic > svg:last-child { opacity: 0; scale: 0.5; }
+  .lb .is-done .lb-copy-ic > svg:first-child { opacity: 0; scale: 0.5; }
+  .lb .is-done .lb-copy-ic > svg:last-child { opacity: 1; scale: 1; }
+  .lb-prompt { gap: 7px; padding: 0 14px 0 12px; }
+  @media (hover: hover) {
+    .lb-copy-main:hover, .lb-copy-toggle:hover, .lb-copy-toggle[aria-expanded="true"] { background: #2e2f33; }
+  }
+
+  .lb-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 5;
+    width: 264px;
+    padding: 6px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 0.07), 0 18px 44px -14px rgb(0 0 0 / 0.3), 0 4px 10px -4px rgb(0 0 0 / 0.08);
+    transform-origin: top right;
+    animation: lb-menu-in 0.24s var(--ease-out-expo) both;
+  }
+  .lb-menu[hidden] { display: none; }
+  .lb-menu button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: var(--r-btn-sm);
+    corner-shape: squircle;
+    text-align: left;
+    color: var(--ink);
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.12s;
+  }
+  .lb-menu button > svg { flex: none; color: var(--ink-4); transition: color 0.12s; }
+  .lb-menu button:hover, .lb-menu button:focus-visible { background: var(--wash); }
+  .lb-menu button:hover > svg, .lb-menu button:focus-visible > svg { color: var(--ink); }
+  .lb-menu b { display: block; font-size: 0.9375rem; line-height: 1.3; font-weight: 550; }
+  .lb-menu small { display: block; font-size: 0.75rem; line-height: 1.35; color: var(--ink-4); }
+
+  /* Confirmation toast, just under the header. */
+  .lb-panel { position: relative; }
+  .lb-toast {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    width: max-content;
+    max-width: calc(100% - 32px);
+    margin-inline: auto;
+    padding: 9px 16px;
+    border-radius: 999px;
+    background: var(--ink);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 520;
+    text-align: center;
+    box-shadow: 0 12px 32px -12px rgb(0 0 0 / 0.45);
+    pointer-events: none;
+    opacity: 0;
+    translate: 0 -8px;
+    transition: opacity 0.2s var(--ease-out), translate 0.36s var(--ease-out-expo);
+  }
+  .lb-toast.is-on { opacity: 1; translate: 0 0; }
 
   /* Stage */
   .lb-stage {
@@ -178,7 +290,8 @@ const taxonomy = {
     width: 52px;
     height: 52px;
     margin-top: -26px;
-    border-radius: 999px;
+    border-radius: calc(var(--r-btn) + 2px);
+    corner-shape: squircle;
     background: rgb(255 255 255 / 0.14);
     color: #fff;
     box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.18);
@@ -200,6 +313,8 @@ const taxonomy = {
   @keyframes lb-up { from { transform: translateY(100%); } }
   @keyframes lb-down { to { transform: translateY(100%); } }
   @keyframes lb-swap { from { opacity: 0.35; transform: translateX(var(--dx, 0)); } }
+  @keyframes lb-menu-in { from { opacity: 0; transform: translateY(-6px) scale(0.96); } }
+  @keyframes lb-pulse { to { opacity: 0.4; } }
 
   @media (max-width: 1100px) {
     .lb { padding: 20px; }
@@ -216,20 +331,25 @@ const taxonomy = {
     .lb[open] .lb-panel { animation: lb-up 0.44s var(--ease-out-expo) both; }
     .lb.is-closing .lb-panel { animation: lb-down 0.24s var(--ease-out) both; }
     .lb-bar { padding: 10px 8px 10px 14px; }
-    .lb-visit span { display: none; }
-    .lb-visit { width: 36px; padding: 0; }
+    .lb-copy-label, .lb-prompt-label { display: none; }
+    .lb-prompt { width: 40px; height: 40px; padding: 0; }
+    .lb-copy-main, .lb-copy-toggle { height: 40px; }
+    .lb-copy-main { padding: 0 10px 0 14px; }
+    .lb-copy-toggle { width: 34px; }
+    .lb-menu button { padding: 10px 12px; }
     .lb-stage { padding: 12px; }
     .lb-foot { flex-direction: column; align-items: stretch; gap: 10px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); }
     .lb-nav { justify-content: space-between; }
     .lb-pager { border-left: 0; padding-left: 0; }
   }
   @media (prefers-reduced-motion: reduce) {
-    .lb-img.is-swapping { animation: none; }
+    .lb-img.is-swapping, .lb-menu, .lb .is-busy .lb-copy-ic { animation: none; }
+    .lb-toast { transition: opacity 0.2s; translate: 0 0; }
   }
 </style>
 
 <script>
-  type Taxonomy = { c: Record<string, [string, string]>; t: Record<string, [string, string]> };
+  type Taxonomy = { c: Record<string, [string, string]>; t: Record<string, [string, string, string?]> };
   const dialog = document.querySelector<HTMLDialogElement>('dialog[data-lb]')!;
   const taxonomy: Taxonomy = JSON.parse(document.getElementById('ui-taxonomy')?.textContent || '{"c":{},"t":{}}');
 
@@ -239,6 +359,7 @@ const taxonomy = {
     const img = $<HTMLImageElement>('[data-lb-img]');
     const reduce = matchMedia('(prefers-reduced-motion: reduce)');
     let current: HTMLElement | null = null;
+    let currentA: HTMLAnchorElement | null = null;
     let pushed = false;
     let closing = false;
 
@@ -267,7 +388,10 @@ const taxonomy = {
       $('[data-lb-sub]').textContent = a.dataset.headline ? `${catLabel} section · “${a.dataset.headline}”` : `${catLabel} section`;
       $('[data-lb-tags]').replaceChildren(
         chip(catLabel, catHref, true),
-        ...(card.dataset.tags ?? '').split(' ').filter(Boolean).map((t) => chip(...(taxonomy.t[t] ?? [t, '']))),
+        ...(card.dataset.tags ?? '').split(' ').filter(Boolean).map((t) => {
+          const [label, href] = taxonomy.t[t] ?? [t, ''];
+          return chip(label, href);
+        }),
       );
 
       const more = $<HTMLAnchorElement>('[data-lb-company]');
@@ -275,12 +399,6 @@ const taxonomy = {
       more.hidden = !companyLink || Boolean(samePage);
       if (companyLink) more.href = companyLink.href;
       $('[data-lb-more-label]').textContent = `More from ${name}`;
-      const visit = $<HTMLAnchorElement>('[data-lb-visit]');
-      visit.hidden = !card.dataset.domain;
-      if (card.dataset.domain) {
-        visit.href = `https://${card.dataset.domain}/?ref=uisections.com`;
-        visit.setAttribute('aria-label', `Visit ${card.dataset.domain} (opens in a new tab)`);
-      }
 
       img.width = Number(a.dataset.w);
       img.height = Number(a.dataset.h);
@@ -298,6 +416,9 @@ const taxonomy = {
       $('[data-lb-pos]').textContent = i >= 0 ? `${i + 1} / ${list.length}` : '';
       for (const n of [list[i - 1], list[i + 1]]) if (n) new Image().src = srcFor(n);
       current = card;
+      currentA = a;
+      setMenu(false);
+      resetCopy();
     }
 
     function open(a: HTMLAnchorElement, { push = true, dir = 0 } = {}) {
@@ -316,6 +437,7 @@ const taxonomy = {
 
     function close() {
       if (!dialog.open || closing) return;
+      setMenu(false);
       const card = current;
       const finish = () => {
         closing = false;
@@ -348,19 +470,255 @@ const taxonomy = {
       }
     }
 
+    // --- Copy: image (split button + menu with download) and prompt ----------------
+    const copyWrap = $<HTMLElement>('[data-lb-copy]');
+    const copyMain = $<HTMLButtonElement>('[data-lb-copy-main]');
+    const promptBtn = $<HTMLButtonElement>('[data-lb-prompt]');
+    const idleLabels = new Map([[copyMain, 'Copy'], [promptBtn, 'Copy as prompt']]);
+    const toggle = $<HTMLButtonElement>('[data-lb-copy-toggle]');
+    const menu = $<HTMLElement>('[data-lb-menu]');
+    const toast = $<HTMLElement>('[data-lb-toast]');
+    const items = () => [...menu.querySelectorAll<HTMLButtonElement>('[role="menuitem"]')];
+    const menuOpen = () => !menu.hidden;
+    let toastTimer = 0;
+    let doneTimer = 0;
+
+    function setMenu(open: boolean, focus?: 'first' | 'last') {
+      menu.hidden = !open;
+      toggle.setAttribute('aria-expanded', String(open));
+      if (open && focus) items()[focus === 'first' ? 0 : items().length - 1]?.focus();
+    }
+
+    function resetCopy() {
+      clearTimeout(doneTimer);
+      for (const [btn, label] of idleLabels) {
+        btn.classList.remove('is-done', 'is-busy');
+        btn.querySelector('[data-label]')!.textContent = label;
+      }
+    }
+
+    /** Shows a short confirmation; `done` also flips that button to a check. */
+    function notify(message: string, done?: HTMLButtonElement) {
+      clearTimeout(toastTimer);
+      resetCopy();
+      toast.textContent = message;
+      toast.classList.add('is-on');
+      toastTimer = window.setTimeout(() => toast.classList.remove('is-on'), 2600);
+      if (done) {
+        done.classList.add('is-done');
+        done.querySelector('[data-label]')!.textContent = 'Copied';
+        doneTimer = window.setTimeout(resetCopy, 1800);
+      }
+    }
+
+    // Clipboards accept images only as PNG, so the WebP is re-encoded first.
+    async function pngOf(url: string): Promise<Blob> {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const bitmap = await createImageBitmap(await res.blob());
+      const canvas = document.createElement('canvas');
+      canvas.width = bitmap.width;
+      canvas.height = bitmap.height;
+      canvas.getContext('2d')!.drawImage(bitmap, 0, 0);
+      bitmap.close();
+      return new Promise((resolve, reject) => canvas.toBlob((b) => (b ? resolve(b) : reject(new Error('PNG encode failed'))), 'image/png'));
+    }
+
+    async function copyImage() {
+      if (!currentA) return;
+      if (typeof ClipboardItem === 'undefined' || !navigator.clipboard?.write) {
+        notify('This browser can’t copy images. Use Download image instead.');
+        return;
+      }
+      copyMain.classList.add('is-busy');
+      try {
+        // The item is created inside the click (Safari requires that) with the PNG still pending.
+        await navigator.clipboard.write([new ClipboardItem({ 'image/png': pngOf(currentA.href) })]);
+        notify('Image copied to clipboard', copyMain);
+      } catch {
+        notify('Couldn’t copy the image. Try Download image instead.');
+      }
+    }
+
+    /**
+     * The section's palette, most common first: neutrals need a 1.5% share, saturated
+     * accents (buttons, highlights) only 0.3%. Same 4-bit buckets as scripts/inventory.mjs.
+     */
+    function palette(): { hex: string; accent: boolean }[] {
+      const source = [img, current?.querySelector('img')].find((el): el is HTMLImageElement => Boolean(el?.complete && el.naturalWidth > 1));
+      const bg = current?.style.getPropertyValue('--shot-bg').trim();
+      const fallback = bg ? [{ hex: bg, accent: false }] : [];
+      if (!source) return fallback;
+      try {
+        const w = 96;
+        const h = Math.max(1, Math.min(240, Math.round((w * source.naturalHeight) / source.naturalWidth)));
+        const canvas = document.createElement('canvas');
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext('2d', { willReadFrequently: true })!;
+        ctx.drawImage(source, 0, 0, w, h);
+        const px = ctx.getImageData(0, 0, w, h).data;
+        const buckets = new Map<number, { n: number; r: number; g: number; b: number }>();
+        for (let i = 0; i < px.length; i += 4) {
+          const r = px[i], g = px[i + 1], b = px[i + 2];
+          const key = ((r >> 4) << 8) | ((g >> 4) << 4) | (b >> 4);
+          const e = buckets.get(key) ?? { n: 0, r: 0, g: 0, b: 0 };
+          e.n++; e.r += r; e.g += g; e.b += b;
+          buckets.set(key, e);
+        }
+        const total = w * h;
+        const picked: { rgb: number[]; accent: boolean }[] = [];
+        for (const e of [...buckets.values()].sort((x, y) => y.n - x.n)) {
+          const rgb = [e.r / e.n, e.g / e.n, e.b / e.n];
+          const accent = Math.max(...rgb) - Math.min(...rgb) > 60;
+          if (e.n / total < (accent ? 0.003 : 0.015)) continue;
+          if (picked.some((p) => Math.hypot(p.rgb[0] - rgb[0], p.rgb[1] - rgb[1], p.rgb[2] - rgb[2]) < 56)) continue;
+          picked.push({ rgb, accent });
+          if (picked.length === 5) break;
+        }
+        return picked.map((p) => ({ hex: `#${p.rgb.map((v) => Math.round(v).toString(16).padStart(2, '0')).join('')}`, accent: p.accent }));
+      } catch {
+        return fallback;
+      }
+    }
+
+    const FACETS: [string, string][] = [['theme', 'Theme'], ['layout', 'Layout'], ['media', 'Media'], ['treatment', 'Details'], ['type', 'Typography']];
+
+    /** A ready-to-paste brief for AI design and coding tools. */
+    function promptFor(a: HTMLAnchorElement, card: HTMLElement) {
+      const [catLabel] = taxonomy.c[card.dataset.cat ?? ''] ?? ['Website'];
+      const noun = card.dataset.cat === 'faq' ? 'FAQ' : catLabel.toLowerCase();
+      const name = card.dataset.companyName ?? '';
+      const brand = name && name !== 'Unknown' ? name : '';
+      const alt = card.querySelector('img')?.alt ?? '';
+      const what = alt.slice(alt.indexOf(': ') + 1).trim(); // drop the "Company category section:" lead-in
+      const sentence = what && `${what.charAt(0).toUpperCase()}${what.slice(1)}${/[.!?]$/.test(what) ? '' : '.'}`;
+      const byFacet = new Map<string, string[]>();
+      for (const id of (card.dataset.tags ?? '').split(' ').filter(Boolean)) {
+        const [label, , facet = 'other'] = taxonomy.t[id] ?? [id, ''];
+        byFacet.set(facet, [...(byFacet.get(facet) ?? []), label]);
+      }
+      const style = FACETS.filter(([f]) => byFacet.has(f)).map(([f, title]) => `- ${title}: ${byFacet.get(f)!.join(', ')}`);
+      const colours = palette();
+      if (colours.length) {
+        const label = (c: { hex: string; accent: boolean }, i: number) => (i === 0 ? `${c.hex} (background)` : c.accent ? `${c.hex} (accent)` : c.hex);
+        style.push(`- Colours: ${colours.map(label).join(', ')}`);
+      }
+      const source = brand ? `${brand}’s ${noun} section${card.dataset.domain ? ` (${card.dataset.domain})` : ''}` : 'the reference screenshot';
+      return [
+        `Build a ${noun} section for a modern website, inspired by ${source}.`,
+        '',
+        `Reference screenshot: ${a.href}`,
+        '',
+        'What the reference shows:',
+        ...(sentence ? [sentence] : []),
+        ...(a.dataset.headline ? [`Headline: “${a.dataset.headline}”`] : []),
+        ...(style.length ? ['', 'Visual style:', ...style] : []),
+        '',
+        'Requirements:',
+        '- Match the layout, spacing, visual hierarchy and overall feel of the reference.',
+        '- Fully responsive and mobile first, with semantic HTML, accessible colour contrast and visible focus states.',
+        '- Use React and Tailwind CSS unless the project already uses another stack.',
+        `- Write original copy and use placeholder imagery; don’t reuse ${brand ? `${brand}’s` : 'the reference’s'} logo, brand assets or text.`,
+      ].join('\n');
+    }
+
+    async function copyText(text: string) {
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch {
+        // Older browsers: copy from a hidden textarea (inside the dialog, which is the only interactive layer).
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.className = 'sr-only';
+        dialog.append(ta);
+        ta.select();
+        const ok = document.execCommand('copy');
+        ta.remove();
+        if (!ok) throw new Error('copy failed');
+      }
+    }
+
+    async function copyPrompt() {
+      if (!currentA || !current) return;
+      try {
+        await copyText(promptFor(currentA, current));
+        notify('Prompt copied. Paste it with the image', promptBtn);
+      } catch {
+        notify('Couldn’t copy the prompt');
+      }
+    }
+
+    function download() {
+      if (!currentA) return;
+      const link = document.createElement('a');
+      link.href = currentA.href;
+      link.download = (currentA.pathname.split('/').pop() || 'section.webp').replace(/-lg\.webp$/, '.webp');
+      dialog.append(link);
+      link.click();
+      link.remove();
+      notify('Download started');
+    }
+
+    copyMain.addEventListener('click', () => { setMenu(false); copyImage(); });
+    promptBtn.addEventListener('click', () => { setMenu(false); copyPrompt(); });
+    toggle.addEventListener('click', () => (menuOpen() ? setMenu(false) : setMenu(true, 'first')));
+    toggle.addEventListener('keydown', (e) => {
+      if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+      e.preventDefault();
+      setMenu(true, e.key === 'ArrowDown' ? 'first' : 'last');
+    });
+    copyWrap.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menuOpen()) {
+        // Handled here so Esc closes only the menu, not the whole viewer.
+        e.preventDefault();
+        e.stopPropagation();
+        setMenu(false);
+        toggle.focus();
+      }
+    });
+    menu.addEventListener('keydown', (e) => {
+      const list = items();
+      const i = list.indexOf(document.activeElement as HTMLButtonElement);
+      if (e.key === 'ArrowDown') list[(i + 1) % list.length].focus();
+      else if (e.key === 'ArrowUp') list[(i - 1 + list.length) % list.length].focus();
+      else if (e.key === 'Home') list[0].focus();
+      else if (e.key === 'End') list[list.length - 1].focus();
+      else if (e.key === 'Tab') return setMenu(false);
+      else return;
+      e.preventDefault();
+    });
+    menu.addEventListener('click', (e) => {
+      const act = (e.target as HTMLElement).closest<HTMLElement>('[data-lb-act]')?.dataset.lbAct;
+      if (!act) return;
+      setMenu(false);
+      toggle.focus({ preventScroll: true });
+      if (act === 'image') copyImage();
+      else download();
+    });
+
     document.addEventListener('click', (e) => {
       const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[data-lightbox]');
       if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
       e.preventDefault();
       open(a);
     });
-    // Clicks on the dark scrim (outside the panel and arrows) close the viewer.
-    dialog.addEventListener('click', (e) => { if (e.target === dialog) closeUI(); });
+    // Clicks outside the copy menu close it; clicks on the dark scrim close the viewer.
+    dialog.addEventListener('click', (e) => {
+      if (menuOpen() && !copyWrap.contains(e.target as Node)) setMenu(false);
+      if (e.target === dialog) closeUI();
+    });
     $('[data-lb-close]').addEventListener('click', closeUI);
     dialog.querySelectorAll('[data-lb-prev]').forEach((b) => b.addEventListener('click', () => step(-1)));
     dialog.querySelectorAll('[data-lb-next]').forEach((b) => b.addEventListener('click', () => step(1)));
-    dialog.addEventListener('cancel', (e) => { e.preventDefault(); closeUI(); });
+    dialog.addEventListener('cancel', (e) => {
+      e.preventDefault();
+      if (menuOpen()) { setMenu(false); toggle.focus(); }
+      else closeUI();
+    });
     dialog.addEventListener('keydown', (e) => {
+      if (menuOpen()) return;
       if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
       if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
     });

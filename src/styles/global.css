@@ -47,6 +47,10 @@
   --r-well: 24px;
   --r-shot: 12px;
   --r-chip: 8px;
+  /* Buttons are squircles: superellipse corners where corner-shape is supported (below),
+     a slightly tighter round corner elsewhere, since the squircle curve reads smaller. */
+  --r-btn: 12px;    /* 40–48 px controls */
+  --r-btn-sm: 10px; /* 24–36 px controls */
 
   --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-spring: cubic-bezier(0.28, 1.3, 0.36, 1);
@@ -129,10 +133,14 @@ p { text-wrap: pretty; }
 .t-eyebrow { font-size: 0.8125rem; line-height: 1.3; font-weight: 550; color: var(--ink-3); letter-spacing: 0.01em; }
 .tabular { font-variant-numeric: tabular-nums; }
 
+@supports (corner-shape: squircle) {
+  :root { --r-btn: 16px; --r-btn-sm: 13px; --r-chip: 10px; }
+}
+
 /* --- Buttons & chips --------------------------------------------------------- */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  height: 44px; padding: 0 20px; border-radius: 999px;
+  height: 44px; padding: 0 20px; border-radius: var(--r-btn); corner-shape: squircle;
   font-size: 0.9375rem; font-weight: 550; letter-spacing: 0.005em; white-space: nowrap;
   transition: background-color 0.15s var(--ease-out), color 0.15s, box-shadow 0.15s, scale 0.2s var(--ease-spring);
   cursor: pointer; user-select: none;
@@ -140,11 +148,11 @@ p { text-wrap: pretty; }
 .btn:active { scale: 0.95; transition-duration: 90ms; }
 .btn-primary { background: var(--ink); color: #fff; }
 .btn-secondary { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--line-strong); }
-.btn-sm { height: 36px; padding: 0 14px; font-size: 0.875rem; }
+.btn-sm { height: 36px; padding: 0 14px; font-size: 0.875rem; border-radius: var(--r-btn-sm); }
 
 .chip {
   display: inline-flex; align-items: center; gap: 6px;
-  height: 34px; padding: 0 14px; border-radius: 999px;
+  height: 34px; padding: 0 14px; border-radius: var(--r-btn-sm); corner-shape: squircle;
   background: var(--wash); color: var(--ink-2);
   font-size: 0.875rem; font-weight: 520; white-space: nowrap;
   transition: background-color 0.16s var(--ease-out), color 0.16s, scale 0.12s;
@@ -156,18 +164,18 @@ p { text-wrap: pretty; }
 .chip[aria-pressed="true"] .count, .chip[aria-current="page"] .count { color: rgb(255 255 255 / 0.66); }
 
 .tag {
-  display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border-radius: var(--r-chip);
+  display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border-radius: var(--r-chip); corner-shape: squircle;
   background: var(--wash-2); color: var(--ink-3); font-size: 0.75rem; font-weight: 550; letter-spacing: 0.015em; white-space: nowrap;
   transition: background-color 0.15s, color 0.15s;
 }
 
 /* Icon button: a wash circle springs in on hover (bencho). */
 .icon-btn {
-  position: relative; display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: 999px; color: var(--ink-3);
+  position: relative; display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: var(--r-btn-sm); corner-shape: squircle; color: var(--ink-3);
   cursor: pointer; transition: color 0.15s;
 }
 .icon-btn::before {
-  content: ""; position: absolute; inset: 0; border-radius: inherit; background: rgb(var(--ink-rgb) / 0.08);
+  content: ""; position: absolute; inset: 0; border-radius: inherit; corner-shape: inherit; background: rgb(var(--ink-rgb) / 0.08);
   opacity: 0; scale: 0.86; transition: opacity 0.15s, scale 0.26s var(--ease-soft);
 }
 .icon-btn > svg { position: relative; transition: scale 0.26s var(--ease-soft); }
