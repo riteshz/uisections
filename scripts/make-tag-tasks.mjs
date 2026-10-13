@@ -22,7 +22,7 @@ const toImage = (it) => ({
   kind: it.kind,
   batch: it.batch,
   visionFiles: vision[it.id],
-  ...(it.kind === 'jpeg' ? { filenameCompany: it.company, filenameCategory: it.category, filenameCategoryRaw: it.fileCategory } : {}),
+  ...(it.kind === 'jpeg' || it.kind === 'named' ? { filenameCompany: it.company, filenameCategory: it.category, filenameCategoryRaw: it.fileCategory } : {}),
   ...(it.kind === 'webp' ? { nn: it.nn, headlineSlug: it.headlineSlug, isCopy: it.isCopy } : {}),
   ...(it.kind === 'png' ? { companyHint: it.companyHint } : {}),
   measured: { darkFraction: it.darkFraction, luminance: it.luminance, colorfulness: it.colorfulness, ratio: it.ratio },
@@ -33,7 +33,8 @@ const toImage = (it) => ({
 const units = new Map();
 for (const it of items) {
   const key = it.batch;
-  if (!units.has(key)) units.set(key, { key, kind: it.kind === 'jpeg' ? 'jpeg' : 'webp', images: [] });
+  // JPEGs and hand-named WebPs are grouped by company (filename), WebP captures by batch.
+  if (!units.has(key)) units.set(key, { key, kind: it.kind === 'jpeg' || it.kind === 'named' ? 'jpeg' : 'webp', images: [] });
   units.get(key).images.push(toImage(it));
 }
 for (const u of units.values()) u.images.sort((a, b) => (a.nn ?? 0) - (b.nn ?? 0) || a.file.localeCompare(b.file));
@@ -43,7 +44,7 @@ function pack(list, prefix) {
   let cur = null;
   for (const u of list) {
     if (!cur || cur.images.length + u.images.length > TARGET) {
-      cur = { taskId: `${prefix}${String(tasks.length + 1).padStart(2, '0')}`, kind: prefix === 'J' ? 'jpeg' : 'webp', batches: [], images: [] };
+      cur = { taskId: `${prefix}${String(tasks.length + 1).padStart(2, '0')}`, kind: prefix.endsWith('J') ? 'jpeg' : 'webp', batches: [], images: [] };
       tasks.push(cur);
     }
     cur.batches.push(u.key);
@@ -55,7 +56,9 @@ function pack(list, prefix) {
 const jpegUnits = [...units.values()].filter((u) => u.kind === 'jpeg').sort((a, b) => a.key.localeCompare(b.key));
 // WebP batches stay in capture order so neighbouring singletons share a task.
 const webpUnits = [...units.values()].filter((u) => u.kind === 'webp').sort((a, b) => a.key.localeCompare(b.key));
-const tasks = ONLY_UNTAGGED ? [...pack(jpegUnits, 'NJ'), ...pack(webpUnits, 'N')] : [...pack(jpegUnits, 'J'), ...pack(webpUnits, 'W')];
+// TASK_PREFIX names a run of new-screenshot tasks (N, then P, …) so earlier runs' files stay intact.
+const P = process.env.TASK_PREFIX ?? 'N';
+const tasks = ONLY_UNTAGGED ? [...pack(jpegUnits, `${P}J`), ...pack(webpUnits, P)] : [...pack(jpegUnits, 'J'), ...pack(webpUnits, 'W')];
 
 for (const t of tasks) writeJson(path.join(OUT, 'tasks', `${t.taskId}.json`), t);
 

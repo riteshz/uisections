@@ -3,6 +3,9 @@
 // category check). Agreements are accepted; disagreements go to
 // data/agent-batches/new-disputes.json until decided in
 // data/tag-runs/new/adjudicated.json. Writes data/tags/records-new.json.
+// Usage: node scripts/import-new-tags.mjs [prefix] — a run other than N (e.g. P) reads its
+// own P…/PJ… tasks and writes data/tags/records-new-p.json. Company-grouped tasks (JPEGs
+// and hand-named WebPs) take company and section type from the filename, so they need no pass 2.
 import fs from 'node:fs';
 import path from 'node:path';
 import { DATA_DIR, GEN_DIR, readJson, writeJson, slugify } from './lib/common.mjs';
@@ -24,7 +27,9 @@ function canonical(slug, name) {
   return hit ? { slug: hit.slug, name: hit.name } : { slug: s, name: s === 'unknown' ? 'Unknown' : name };
 }
 
-const taskIds = fs.readdirSync(TASKS).filter((f) => /^N\d+\.json$/.test(f)).map((f) => f.replace('.json', '')).sort();
+const PREFIX = process.argv[2] ?? 'N';
+const taskRe = PREFIX === 'N' ? /^N\d+\.json$/ : new RegExp(`^${PREFIX}J?\\d+\\.json$`);
+const taskIds = fs.readdirSync(TASKS).filter((f) => taskRe.test(f)).map((f) => f.replace('.json', '')).sort();
 const decided = new Map((readJson(path.join(RUNS, 'adjudicated.json'), { decisions: [] }).decisions ?? []).map((d) => [d.id, d]));
 const records = [];
 const disputes = [];
@@ -35,8 +40,10 @@ for (const task of taskIds) {
   const ids = new Set(manifest.images.map((i) => i.id));
   const p1 = readJson(path.join(RUNS, `pass1-${task}.json`), null);
   const p2 = readJson(path.join(RUNS, `pass2-${task}.json`), null);
-  if (!p1 || !p2) { problems.push(`${task}: missing ${!p1 ? 'pass1' : ''} ${!p2 ? 'pass2' : ''}`.trim()); continue; }
-  const second = new Map(p2.records.map((r) => [r.id, r]));
+  const named = manifest.images.every((i) => i.filenameCompany);
+  if (!p1 || (!p2 && !named)) { problems.push(`${task}: missing ${!p1 ? 'pass1' : ''} ${!p2 && !named ? 'pass2' : ''}`.trim()); continue; }
+  const second = new Map((p2?.records ?? []).map((r) => [r.id, r]));
+  const byId = new Map(manifest.images.map((i) => [i.id, i]));
   const seen = new Set();
   for (const r0 of p1.records) {
     if (!ids.has(r0.id)) { problems.push(`${task}: unknown id ${r0.id}`); continue; }
@@ -48,7 +55,11 @@ for (const task of taskIds) {
     const b = second.get(r.id);
     const c2 = b ? canonical(b.companySlug, b.companyName) : null;
     const d = decided.get(r.id);
-    if (d) {
+    const fileCompany = byId.get(r.id)?.filenameCompany;
+    if (fileCompany) {
+      // The filename fixes the slug; the tagger supplies the brand's display name.
+      Object.assign(r, { companySlug: fileCompany, companyName: c1.slug === fileCompany ? c1.name : r.companyName, companyConfidence: 'high' });
+    } else if (d) {
       const c = canonical(d.companySlug, d.companyName);
       Object.assign(r, { companySlug: c.slug, companyName: c.name, category: d.category, companyConfidence: d.companyConfidence ?? 'medium', categoryConfidence: d.categoryConfidence ?? 'medium', domain: d.domain ?? r.domain ?? null });
     } else if (b && (c1.slug !== c2.slug || r.category !== b.category)) {
@@ -62,12 +73,13 @@ for (const task of taskIds) {
   for (const id of ids) if (!seen.has(id)) problems.push(`${task}: no record for ${id}`);
 }
 
-writeJson(path.join(DATA_DIR, 'agent-batches', 'new-disputes.json'), disputes);
+const suffix = PREFIX === 'N' ? '' : `-${PREFIX.toLowerCase()}`;
+writeJson(path.join(DATA_DIR, 'agent-batches', `new-disputes${suffix}.json`), disputes);
 if (problems.length) console.warn(`Problems:\n  ${problems.join('\n  ')}`);
 if (disputes.length) {
-  console.log(`${records.length} records read; ${disputes.length} disputes need a decision (data/agent-batches/new-disputes.json). Nothing written.`);
+  console.log(`${records.length} records read; ${disputes.length} disputes need a decision (data/agent-batches/new-disputes${suffix}.json). Nothing written.`);
   process.exit(2);
 }
-writeJson(path.join(DATA_DIR, 'tags', 'records-new.json'), records);
+writeJson(path.join(DATA_DIR, 'tags', `records-new${suffix}.json`), records);
 const newCompanies = [...new Set(records.map((r) => r.companySlug))].filter((s) => s !== 'unknown' && !bySlug.has(s));
-console.log(`Wrote ${records.length} records to data/tags/records-new.json | existing companies matched: ${new Set(records.map((r) => r.companySlug).filter((s) => bySlug.has(s))).size} | new companies: ${newCompanies.length}`);
+console.log(`Wrote ${records.length} records to data/tags/records-new${suffix}.json | existing companies matched: ${new Set(records.map((r) => r.companySlug).filter((s) => bySlug.has(s))).size} | new companies: ${newCompanies.length}`);

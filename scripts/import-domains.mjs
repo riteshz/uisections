@@ -12,7 +12,7 @@ const DRY = process.argv.includes('--dry');
 // Probe matches that rested on a generic headline ("Frequently asked questions"); research decides these.
 const SUSPECT = new Set(['exante', 'melius', 'finsepa']);
 // Research results reviewed and rejected: evidence too thin (proto.xyz matched only a generic footer).
-const REJECT = new Set(['proto']);
+const REJECT = new Set(['proto', 'numa']); // numa: a design studio's concept page (numa.uprock.pro), not a company
 const metaFile = path.join(DATA_DIR, 'companies.json');
 const meta = readJson(metaFile, {});
 const resolver = new Resolver({ timeout: 3000, tries: 2 });

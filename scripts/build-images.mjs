@@ -44,7 +44,7 @@ async function encode(it) {
 
   // Large (lightbox): full height. Small WebP originals are already web-ready.
   if (!has('lg', 'lg')) {
-    if (it.kind === 'webp' && it.width <= LARGE_WIDTH) {
+    if (/\.webp$/i.test(it.file) && it.width <= LARGE_WIDTH) {
       fs.copyFileSync(src, out('lg'));
       entry.lg = { w: it.width, h: it.height, bytes: it.bytes };
     } else {

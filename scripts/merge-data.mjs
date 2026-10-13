@@ -99,18 +99,21 @@ for (const it of items) {
   const ov = overrides.sections[it.id] ?? {};
   if (ov.exclude) { dropped.push({ id: it.id, file: it.file, reason: ov.exclude }); continue; }
 
-  if (!rec && it.kind !== 'jpeg') { dropped.push({ id: it.id, file: it.file, reason: 'untagged-webp' }); continue; }
+  // JPEGs and hand-named WebPs carry company and section type in the filename.
+  const fromName = it.kind === 'jpeg' || it.kind === 'named';
+  if (!rec && !fromName) { dropped.push({ id: it.id, file: it.file, reason: 'untagged-webp' }); continue; }
 
-  let company = it.kind === 'jpeg' ? it.company : slugify(rec.companySlug || 'unknown') || 'unknown';
-  let category = it.kind === 'jpeg' ? it.category : rec.category;
+  let company = fromName ? it.company : slugify(rec.companySlug || 'unknown') || 'unknown';
+  let category = fromName ? it.category : rec.category;
   let tags = rec ? rec.tags.map((t) => t.id) : heuristicTags(it);
   let headline = rec?.headline ?? it.headlineSlug?.replace(/-/g, ' ') ?? '';
-  let alt = rec?.alt ?? '';
+  // Alt texts lowercase the section label ("Acme faq section:"); keep the acronym upper-case.
+  let alt = (rec?.alt ?? '').replace(/\bfaq section:/i, 'FAQ section:');
 
   if (rec) {
     if (!rec.usable) { dropped.push({ id: it.id, file: it.file, reason: `unusable: ${rec.issues.join(', ')}` }); continue; }
     if (rec.duplicateOf && rec.duplicateOf !== it.id) { dropped.push({ id: it.id, file: it.file, reason: `duplicate of ${rec.duplicateOf}` }); continue; }
-    if (it.kind !== 'jpeg' && (rec.companyConfidence === 'low' || company === 'unknown')) flag(it, 'company-low-confidence', rec.companyName);
+    if (!fromName && (rec.companyConfidence === 'low' || company === 'unknown')) flag(it, 'company-low-confidence', rec.companyName);
     if (rec.categoryConfidence === 'low') flag(it, 'category-low-confidence', rec.category);
     if (rec.filenameDisagree) flag(it, 'filename-category-disagree', `${it.category} → ${rec.categoryAlternates[0] ?? '?'}`);
     const saysDark = tags.includes('dark-mode');
@@ -140,7 +143,7 @@ for (const it of items) {
     company,
     companyName: rec?.companyName,
     companyDomain: rec?.domain ?? null,
-    companyConfidence: it.kind === 'jpeg' ? 'high' : rec?.companyConfidence,
+    companyConfidence: fromName ? 'high' : rec?.companyConfidence,
     category,
     tags,
     headline: headline.trim(),

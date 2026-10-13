@@ -16,6 +16,10 @@ for (const c of categories) for (const f of c.fromFilename) filenameCategory.set
 const fileCats = [...filenameCategory.keys()].sort((a, b) => b.length - a.length);
 const JPEG_RE = new RegExp(`^(.+)-(${fileCats.join('|')})-section(?:-(\\d+|[0-9a-f]{5}))?\\.jpe?g$`);
 const WEBP_RE = /^(\d+)-(.+?)((?: copy(?: \d+)?)|(?: \(\d+\)))?\.webp$/;
+// Named WebPs: {company}-{category}[-N][ copy N| (N)].webp — category ids and filename aliases.
+const namedCategory = new Map([...categories.map((c) => [c.id, c.id]), ...filenameCategory]);
+const namedCats = [...namedCategory.keys()].sort((a, b) => b.length - a.length);
+const NAMED_RE = new RegExp(`^(.+?)-(${namedCats.join('|')})(?:-(\\d+))?((?: copy(?: \\d+)?)|(?: \\(\\d+\\)))?\\.webp$`);
 
 const BATCH_GAP_MS = 3000;
 
@@ -35,8 +39,11 @@ function parseName(filePath) {
   }
   if (ext === '.webp') {
     const m = file.match(WEBP_RE);
-    if (!m) throw new Error(`Unparseable WebP name: ${file}`);
-    return { kind: 'webp', nn: Number(m[1]), headlineSlug: m[2], isCopy: Boolean(m[3]) };
+    if (m) return { kind: 'webp', nn: Number(m[1]), headlineSlug: m[2], isCopy: Boolean(m[3]) };
+    // Named by hand, like the JPEGs: the filename gives company and section type.
+    const n = file.match(NAMED_RE);
+    if (!n) throw new Error(`Unparseable WebP name: ${file}`);
+    return { kind: 'named', company: slugify(n[1]), fileCategory: n[2], category: namedCategory.get(n[2]), variant: n[3] ?? null, isCopy: Boolean(n[4]) };
   }
   // Single PNG (operate.so_.png): the filename is the only hint.
   return { kind: 'png', companyHint: file.replace(/_?\.png$/i, '') };
@@ -186,7 +193,7 @@ writeJson(batchesFile, frozen);
 
 for (const it of unique) {
   if (it.kind === 'webp') it.batch = assigned.get(it.id);
-  else if (it.kind === 'jpeg') it.batch = `co-${it.company}`;
+  else if (it.kind === 'jpeg' || it.kind === 'named') it.batch = `co-${it.company}`;
   else it.batch = `png-${slugify(it.companyHint)}`;
 }
 
