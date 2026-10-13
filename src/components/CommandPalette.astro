@@ -59,6 +59,8 @@ import Icon from './Icon.astro';
   @keyframes pal-fade { from { opacity: 0; } }
 
   .pal-box { display: flex; flex-direction: column; max-height: inherit; }
+  /* Only the results scroll and shrink; the search row and footer keep their size. */
+  .pal-input, .pal-foot { flex: none; }
   .pal-input {
     display: flex;
     align-items: center;
