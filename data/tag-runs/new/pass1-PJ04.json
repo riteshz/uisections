@@ -1,0 +1,416 @@
+{
+  "taskId": "PJ04",
+  "sites": [
+    { "batch": "co-semrush", "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "confidence": "high", "evidence": "hand-named files; SEMRUSH wordmark in nav, © 2026 Semrush Holdings in footer" },
+    { "batch": "co-sendr", "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "confidence": "high", "evidence": "hand-named files; Sendr wordmark in nav, © 2026 Sendr.ai in footer" },
+    { "batch": "co-thebrightapp", "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "confidence": "high", "evidence": "hand-named files; bright logo in nav and footer wordmark, copy says 'people who trust Bright'" },
+    { "batch": "co-therealhotels", "companyName": "The Real Hotels", "companySlug": "therealhotels", "domain": null, "confidence": "high", "evidence": "hand-named files; giant 'The Real Hotels' serif wordmark in hero" }
+  ],
+  "records": [
+    {
+      "id": "7f664e3d01",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }],
+      "headline": "STAY AHEAD OF WHAT’S NEXT",
+      "alt": "Semrush blog & resources section: uppercase headline and arrow buttons above a carousel of news, playbook and event cards with thumbnails",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e9c7e9407e",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }],
+      "headline": "LATEST RESOURCES",
+      "alt": "Semrush blog & resources section: headline with View all and arrow buttons above a carousel of webinar and whitepaper cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "579b24b630",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": ["divider"], "filenameDisagree": true,
+      "tags": [{ "id": "pastel", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Semrush logo cloud section: single row of black customer logos incl. Shopify, Samsung, FedEx and Amazon on a pale lavender band",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1bf1aea06d",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "GET SEEN. GET CITED. BE THE ANSWER.",
+      "alt": "Semrush features section: uppercase headline above a carousel of mint solution cards, each with a chart-based product UI mockup",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9a0e02fd1d",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Be found and chosen everywhere search happens",
+      "alt": "Semrush hero section: nav with promo bar, centered headline and a website URL input with Get insights button on pale mint",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "889a80f057",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Get found in search and AI answers.",
+      "alt": "Semrush features section: large purple card with a keyword overlap product UI beside a gray card about Semrush data in AI chat",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ece7447c98",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Bigger scale. Bigger advantage.",
+      "alt": "Semrush features section: dark enterprise banner with headline and Book a demo button left, stylized product panel and neon stripes right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9e3beebaa2",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "medium" }, { "id": "centered", "confidence": "high" }, { "id": "table", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "AI VISIBILITY INDEX",
+      "alt": "Semrush features section: centered AI Visibility Index heading and button on dark above a white bar-chart table of brand mentions",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e250d8c204",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Scale your brand visibility, everywhere search happens",
+      "alt": "Semrush hero section: dark enterprise page with nav, centered headline and Book a demo button above an AIO Overview dashboard",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8f7621b037",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "GET STARTED WITH SEMRUSH TODAY",
+      "alt": "Semrush footer section: uppercase signup headline with purple trial button beside four link columns, social icons and copyright row",
+      "usable": true, "issues": ["mostly-blank"], "duplicateOf": null
+    },
+    {
+      "id": "c7bc05f9e7",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": ["hero"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "tabs", "confidence": "high" }],
+      "headline": "Plans & Pricing",
+      "alt": "Semrush pricing section: nav, Plans & Pricing title, monthly/annual toggle and four plan cards with checklists above a free plan bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cf23a57cf0",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "alternating", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "UNIFY YOUR MARKETING STACK. ECLIPSE THE COMPETITION.",
+      "alt": "Semrush features section: dark tabbed solutions block with a product screenshot beside a checklist, then a product module orbit diagram",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c59b21903c",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "THE DATA YOU NEED TO OUTRANK THE COMPETITION",
+      "alt": "Semrush stats section: uppercase headline above a stacked list of huge gray numbers with arrow tiles, one highlighted 43T backlinks row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b2d692540c",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": true,
+      "tags": [{ "id": "video", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "OUTPERFORM FROM DAY ONE",
+      "alt": "Semrush testimonials section: case study video of a product manager with a play button beside three sage metric cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5f967d61e8",
+      "companyName": "Semrush", "companySlug": "semrush", "domain": "semrush.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "HOW WE HELP MARKETERS WIN",
+      "alt": "Semrush testimonials section: uppercase headline above a dark ZoomInfo quote card with avatar beside a light +373% stat card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fcdbed7e8e",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Create once. Personalise every page.",
+      "alt": "Sendr features section: Personalised Pages copy and button left, stacked browser mockups of a personalised video landing page right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bfd3e4cb58",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Ask AI about Sendr",
+      "alt": "Sendr call to action section: dark rounded card with warm glow, headline left, prefilled AI prompt with Ask ChatGPT, Claude, Perplexity buttons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "970829989c",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Manage every outbound reply in one focused inbox",
+      "alt": "Sendr features section: Unibox inbox UI with a conversation thread on the left, headline, copy and Learn Unibox button on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "825741f4e1",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Everything you need to run outbound — without the chaos",
+      "alt": "Sendr features section: left-aligned headline above a 2x2 grid of feature cells with small purple icons and dotted accents",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "041d74f77f",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "The GIF gets the click The message books the meeting",
+      "alt": "Sendr features section: Drive Engagement copy and button left, Mail app mockup with a personalised video GIF preview right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e0a95244d1",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "Send personalised pages on the fly",
+      "alt": "Sendr features section: Chrome Extension headline and install button above a LinkedIn profile mockup with a video recording toolbar",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "c1628de57e"
+    },
+    {
+      "id": "c1628de57e",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "Send personalised pages on the fly",
+      "alt": "Sendr features section: Chrome Extension headline and install button above a LinkedIn profile mockup with a video recording toolbar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4f6a8c7860",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Built for how modern teams grow",
+      "alt": "Sendr use cases section: headline and Explore button above expanding photo cards, the Sales card open showing a rep at a laptop",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "b1e6ba1906"
+    },
+    {
+      "id": "b1e6ba1906",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Built for how modern teams grow",
+      "alt": "Sendr use cases section: headline and Explore button above expanding photo cards, the Marketing card open showing a whiteboard",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "18a382eba5",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "dark-mode", "confidence": "medium" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "From Idea to Campaign in 90 Seconds",
+      "alt": "Sendr features section: dark section with headline above a Copilot chat panel overlapping a sequencer workflow UI, warm glow below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "521a36a48b",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Outbound that feels human and actually works",
+      "alt": "Sendr footer section: dark footer with CTA strip, logo, G2 badge, product, resources, comparison and legal columns and a purple glow",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0576e471ef",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Personalised outreach, powered by signals",
+      "alt": "Sendr hero section: nav, left-aligned headline with Try free and Book a demo buttons, logo row and a sequencer workflow UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "155bca4b26",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Manage every outbound reply in one focused inbox",
+      "alt": "Sendr hero section: nav, centered Unibox headline and trial button above a full inbox product UI and a customer logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e6631b608c",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["integration", "stats"], "filenameDisagree": true,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "Outbound is broken when tools don’t work together",
+      "alt": "Sendr value proposition section: dark card linking Apollo, Clay, Zapier and other tool chips to a glass Sendr icon, four stats below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3346d2509c",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Quick answers",
+      "alt": "Sendr faq section: Quick answers title on the left beside a five-question collapsed accordion list on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1e7a5226ab",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "logo-strip", "confidence": "medium" }],
+      "headline": "Start small, and scale easily once tested",
+      "alt": "Sendr pricing section: headline, logos and serif customer quote left, single $79 plan card with monthly/annual toggle right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f4e1776d66",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": true,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Sendr testimonials section: mostly blank light area with only a Financial Times logo, small avatar and name attribution visible",
+      "usable": false, "issues": ["mostly-blank"], "duplicateOf": null
+    },
+    {
+      "id": "836f637482",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "The complete outbound engine",
+      "alt": "Sendr features section: headline and buttons above a 2x2 card grid of lead finder UI, live video, app icon grid and sequencer flow",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "3f6315f001"
+    },
+    {
+      "id": "3f6315f001",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "The complete outbound engine",
+      "alt": "Sendr features section: headline and buttons above a 2x2 card grid of lead finder UI, live video, app icon grid and sequencer flow",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "85194a200f",
+      "companyName": "Sendr", "companySlug": "sendr", "domain": "sendr.ai", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "A single workflow for every outbound motion",
+      "alt": "Sendr how it works section: headline above three columns for Find contacts, Enrich data and Send outreach with UI snippets",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a1d16df106",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "photography", "confidence": "medium" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Your super app for health.",
+      "alt": "Bright features section: hand holding a phone with the health app on a lavender-peach gradient panel beside a list of feature pills",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "de31c81738",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "photography", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }, { "id": "glassmorphism", "confidence": "medium" }],
+      "headline": "Join the 200,000+ people who trust Bright.",
+      "alt": "Bright testimonials section: centered headline above a bento grid of App Store rating, Product Hunt awards, press logo and a review card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "840daf212b",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "3d", "confidence": "high" }],
+      "headline": "Bright provides the full picture of your health.",
+      "alt": "Bright features section: headline with View all link above a carousel of white cards with 3D renders for logging and activity",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "21cf545247",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Bright footer section: huge white bright wordmark on black beside three short columns of links, with a © 2026 line",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "13ee25fe9c",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "3d", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Your activity data all in one place.",
+      "alt": "Bright hero section: logo nav, a row of glossy 3D health icons around a black app icon, centered headline and subcopy below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7865a98c2d",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "Health for every body.",
+      "alt": "Bright hero section: headline and Download button left, phone app screenshot center and V5 video thumbnail right on periwinkle gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9bd5e844e4",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "3d", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Energy Tracking",
+      "alt": "Bright hero section: logo nav above a carousel of glossy 3D icons with a green battery centered, Energy Tracking label and button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "36fb0a559a",
+      "companyName": "Bright", "companySlug": "thebrightapp", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Your super app for health is waiting.",
+      "alt": "Bright call to action section: centered headline on black above a hand holding a phone with the dark app UI and a Download button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dc5ce977cc",
+      "companyName": "The Real Hotels", "companySlug": "therealhotels", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "centered", "confidence": "high" }],
+      "headline": "Villa Bibbiani",
+      "alt": "The Real Hotels features section: full-bleed aerial photo of a Tuscan villa with centered serif title, episode note and Learn more button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1a662f34c6",
+      "companyName": "The Real Hotels", "companySlug": "therealhotels", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "Money can’t buy you class, but it can buy you a vacation.",
+      "alt": "The Real Hotels hero section: scattered hotel photos on black around a centered serif tagline, huge serif wordmark across the bottom",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

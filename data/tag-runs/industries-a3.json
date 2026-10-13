@@ -1,0 +1,19 @@
+{"companies":[
+{"slug":"flynnys","primary":"ecommerce","secondary":null,"confidence":"high","note":"D2C razor brand selling blades with subscribe-and-save"},
+{"slug":"numa","primary":"healthcare","secondary":null,"confidence":"high","note":"Insulin delivery medical device available for pre-order"},
+{"slug":"a-lign","primary":"agencies","secondary":null,"confidence":"high","note":"Website design studio (a-lign.studio), not the A-LIGN compliance firm"},
+{"slug":"agentid","primary":"cybersecurity","secondary":"ai","confidence":"medium","note":"Identity and sign-in (OIDC) for AI agents so they log into apps as themselves"},
+{"slug":"cofactr","primary":"logistics","secondary":null,"confidence":"medium","note":"Electronics supply chain platform: component procurement, warehousing, kitting and delivery for hardware teams"},
+{"slug":"dial","primary":"productivity","secondary":null,"confidence":"high","note":"Automatic time-tracking app for macOS"},
+{"slug":"happyrobot","primary":"ai","secondary":"logistics","confidence":"medium","note":"Enterprise AI agent platform, deployed heavily in logistics (DHL, Kuehne+Nagel)"},
+{"slug":"ideogram","primary":"design-tools","secondary":"ai","confidence":"medium","note":"Generative AI image creation platform and models"},
+{"slug":"piqo","primary":"data-analytics","secondary":null,"confidence":"high","note":"Simple web analytics tied to revenue, from first visit to payment"},
+{"slug":"remote","primary":"hr","secondary":null,"confidence":"high","note":"Global employment (EOR), contractor management and payroll platform"},
+{"slug":"schematik","primary":"ai","secondary":"developer-tools","confidence":"medium","note":"AI copilot that turns plain-language ideas into hardware code, wiring diagrams and parts lists"},
+{"slug":"semrush","primary":"sales-marketing","secondary":null,"confidence":"high","note":"SEO and online visibility platform, including AI search visibility"},
+{"slug":"sendr","primary":"sales-marketing","secondary":null,"confidence":"high","note":"Outbound sales platform with personalised pages, video GIFs and a reply inbox"},
+{"slug":"thebrightapp","primary":"healthcare","secondary":null,"confidence":"high","note":"Consumer health super app tracking activity, energy and wellness data"},
+{"slug":"therealhotels","primary":"logistics","secondary":null,"confidence":"low","note":"Hotel and villa travel brand/series showcasing vacation stays; fits travel loosely"},
+{"slug":"tribe","primary":"agencies","secondary":"ai","confidence":"medium","note":"AI consultancy embedding forward-deployed engineers to build production AI"},
+{"slug":"visual","primary":"design-tools","secondary":"ai","confidence":"medium","note":"AI design agents that generate on-brand slide decks for revenue teams"}
+]}

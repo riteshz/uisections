@@ -1,0 +1,327 @@
+{
+  "taskId": "PJ01",
+  "sites": [
+    { "batch": "co-a-lign", "companyName": "A-LIGN", "companySlug": "a-lign", "domain": "a-lign.studio", "confidence": "high", "evidence": "hand-named files; hello@a-lign.studio and striped a-lign wordmark in footer, Get Aligned buttons" },
+    { "batch": "co-agentid", "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "confidence": "high", "evidence": "hand-named files; AgentID logo in nav and footer, agentid.com URL in developer prompt" },
+    { "batch": "co-cofactr", "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "confidence": "high", "evidence": "hand-named files; cofactr logo in nav, cofactr wordmark and © Cofactr in footer" },
+    { "batch": "co-dial", "companyName": "Dial", "companySlug": "dial", "domain": null, "confidence": "high", "evidence": "hand-named files; 'Why Dial' eyebrow pill in features section" },
+    { "batch": "co-flynnys", "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "confidence": "high", "evidence": "hand-named files; FLYNNY'S wordmark in nav and footer, flynnys.com on billboard, © 2026 Flynny's" }
+  ],
+  "records": [
+    {
+      "id": "f7f2b05555",
+      "companyName": "A-LIGN", "companySlug": "a-lign", "domain": "a-lign.studio", "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }],
+      "headline": "About",
+      "alt": "A-LIGN about & mission section: giant striped About wordmark over a coral duotone photo of two founders, short studio intro and button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "08edb0c49e",
+      "companyName": "A-LIGN", "companySlug": "a-lign", "domain": "a-lign.studio", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Starting, rebuilding, or leveling up — it starts with a conversation.",
+      "alt": "A-LIGN call to action section: centered two-part headline in a dashed frame around a small orange Get Aligned button on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "98d9f316c6",
+      "companyName": "A-LIGN", "companySlug": "a-lign", "domain": "a-lign.studio", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "oversized-type", "confidence": "medium" }],
+      "headline": "",
+      "alt": "A-LIGN footer section: link list, email pill and social links above a faint full-width striped a-lign wordmark on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a01ee2b09e",
+      "companyName": "A-LIGN", "companySlug": "a-lign", "domain": "a-lign.studio", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Websites that make sense",
+      "alt": "A-LIGN hero section: centered headline, subline and orange button surrounded by four dashed-frame photos of the team and a project",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9fa60a8765",
+      "companyName": "A-LIGN", "companySlug": "a-lign", "domain": "a-lign.studio", "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "medium", "categoryAlternates": ["divider"], "filenameDisagree": true,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "People deserve better. Better process. Better collaboration. Better results. Without needing a bigger team to get there.",
+      "alt": "A-LIGN about & mission section: justified light gray manifesto quote with orange quote marks between stepped bar shapes on a pale background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2830c9e125",
+      "companyName": "A-LIGN", "companySlug": "a-lign", "domain": "a-lign.studio", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Kind words from the good people",
+      "alt": "A-LIGN testimonials section: centered headline, avatar row and a quote card carousel with arrows above a pixel-style orange heart",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0c63519147",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Give your agent an identity of its own.",
+      "alt": "AgentID call to action section: light panel on black with a dark prompt code card left and headline, copy and two buttons right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4a344129ce",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Questions, answered.",
+      "alt": "AgentID faq section: dark two-column grid of monospace accordion questions beside an orange pixel-dot smiley artwork",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c7fdfe3e96",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }],
+      "headline": "Where your AgentID works.",
+      "alt": "AgentID integrations section: dark six-card grid of partner apps like Firecrawl and Turso with icons, category labels and view links",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fb69154ac0",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": ["testimonial"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }],
+      "headline": "Partner stories",
+      "alt": "AgentID blog & resources section: dark three-card row of partner story posts with co-branded logo thumbnails and excerpts",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dccd1a47a9",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition", "comparison"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Your agent shouldn’t need your login.",
+      "alt": "AgentID features section: dark problem and solution rows pairing chat UI mockups with headlines, beside radiating lines of green @ symbols",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6029e05576",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "form", "confidence": "medium" }],
+      "headline": "",
+      "alt": "AgentID footer section: dark layout with logo, newsletter email field, monospace navigation columns, social icons and legal row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e24aa8ac24",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works", "security"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "A verified agent identity.",
+      "alt": "AgentID features section: dark panel with three light cards listing the sign-in identity, data apps receive and data they never receive",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c54318524a",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Sign in with Google, built for agents.",
+      "alt": "AgentID how it works section: dark row of four staggered step cards with orange icons, from Get AgentID to Stay connected",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cde9368d46",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["integration", "logo-cloud"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Let agents sign in to your app.",
+      "alt": "AgentID features section: dark developer panel with headline, prompt code block and orange wireframe globe above a row of auth provider logos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5e161f3fc2",
+      "companyName": "AgentID", "companySlug": "agentid", "domain": "agentid.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Let AI agents sign in.",
+      "alt": "AgentID hero section: dark nav, headline and two buttons left, a sign-in form mockup on an orange card right, customer logo strip below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0715b292bf",
+      "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "The world’s most innovative hardware teams trust Cofactr to keep building without delays.",
+      "alt": "Cofactr call to action section: centered one-line statement and green Book Demo button inside a faint octagon outline on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "98708d87ec",
+      "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Let’s solve your supply chain challenges together.",
+      "alt": "Cofactr footer section: dark green link columns, solutions slider, blue promo block, Get Started CTA and a green cofactr wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fc45fca003",
+      "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Electronics Supply Chain Infrastructure.",
+      "alt": "Cofactr hero section: nav and two headlines over a full-bleed dark photo of a jet engine fan, with supporting copy and a Start Free button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d959e29cb1",
+      "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["blog", "use-case"], "filenameDisagree": true,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "How Companies Improve Operations with Cofactr",
+      "alt": "Cofactr testimonials section: stacked customer case studies, each a large photo left with company name, solution chips and Learn More right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5b9f5747ca",
+      "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Trusted by leaders to deliver their most mission-critical hardware on time, every time.",
+      "alt": "Cofactr logo cloud section: centered two-line statement above a single row of gray customer logos like Snap Inc. and Neros on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a8334bcfb7",
+      "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Results that keep engineering moving and growth on track.",
+      "alt": "Cofactr value proposition section: left column with headline, demo button and a paged outcome card, beside crossing growth curves on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f62b4715c1",
+      "companyName": "Cofactr", "companySlug": "cofactr", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "Cofactr handles procure-to-ship with full transparency so your team can keep building.",
+      "alt": "Cofactr features section: dark green centered statement above three stacked product rows with green geometric icons and short descriptions",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "117cc8b4a3",
+      "companyName": "Dial", "companySlug": "dial", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "bento", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "It tracks. You work.",
+      "alt": "Dial features section: dark bento grid of time-tracking UI tiles, a large timer panel plus cards for idle detection, projects, insights and reports",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8703de3241",
+      "companyName": "Dial", "companySlug": "dial", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "metrics", "confidence": "high" }],
+      "headline": "Time, kept quietly.",
+      "alt": "Dial hero section: centered headline and Download for macOS button above a tilted Mac screen with timer UI, floating app icons and a stats bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2f4958a85c",
+      "companyName": "Dial", "companySlug": "dial", "domain": null, "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "A week on us. Then it's your call.",
+      "alt": "Dial pricing section: dark centered headline above two plan cards, a light $3.99 monthly subscription and a dark $49 lifetime option",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "eef7db927a",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Follow Us",
+      "alt": "Flynny's call to action section: Follow Us heading and yellow Instagram button left, two product photos of a black razor and yellow box right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4d193a1833",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "",
+      "alt": "Flynny's faq section: rounded bordered accordion in typewriter type with razor features open and packaging, manufacturing, shipping closed",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a9b8f13b5e",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "SAVE UP TO 50% VS COMPARABLE BLADES",
+      "alt": "Flynny's value proposition section: razor head on shaving foam photo left, benefit list with yellow icons and a Subscribe and Save button right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4b62c2dbdd",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition", "feature"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "FLYNNY'S",
+      "alt": "Flynny's about & mission section: tall photo of a man shaving left, large serif wordmark, short brand copy and yellow Starter Pack button right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d1f9a38d1f",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "oversized-type", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }, { "id": "form", "confidence": "medium" }],
+      "headline": "SHAVE WITH PURPOSE",
+      "alt": "Flynny's footer section: olive background with nav links, email signup field and a giant full-width black serif wordmark above legal links",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7bf52e10f9",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "",
+      "alt": "Flynny's how it works section: three numbered step cards with product and lifestyle photos above a wide yellow Subscribe and Save button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1ad5a776fc",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "other", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "full-bleed-media", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Flynny's other section: photo of a street billboard showing the olive and yellow Flynny's campaign with a runner and wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c68474506d",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "comparison", "categoryConfidence": "high", "categoryAlternates": ["pricing"], "filenameDisagree": true,
+      "tags": [{ "id": "table", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "THE HIGHEST QUALITY SHAVE, WITHOUT THE HIGH PRICE TAG.",
+      "alt": "Flynny's comparison section: typewriter headline left, table right comparing a yellow Flynny's column against others with prices and checks",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b9fca2308a",
+      "companyName": "Flynny's", "companySlug": "flynnys", "domain": "flynnys.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "SHAVE WITH PURPOSE",
+      "alt": "Flynny's hero section: promo bar and centered logo nav over a dark moss photo of a razor and yellow box, headline, reviews and button left",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

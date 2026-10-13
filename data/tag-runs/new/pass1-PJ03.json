@@ -1,0 +1,316 @@
+{
+  "taskId": "PJ03",
+  "sites": [
+    { "batch": "co-remote", "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "confidence": "high", "evidence": "hand-named files; remote wordmark in nav and footer, © 2026 Remote Technologies, Inc. in footer" },
+    { "batch": "co-rogo", "companyName": "Rogo", "companySlug": "rogo", "domain": "rogo.com", "confidence": "high", "evidence": "hand-named files; ROGO wordmark in nav and footer, Rogo app screenshot; known company" },
+    { "batch": "co-schematik", "companyName": "Schematik", "companySlug": "schematik", "domain": null, "confidence": "high", "evidence": "hand-named files; SCHEMATIK wordmark in nav and footer, © 2026 Schematik in footer" }
+  ],
+  "records": [
+    {
+      "id": "8b3dbc962d",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["contact"], "filenameDisagree": true,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "3d", "confidence": "medium" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Talk to us before your next pay day.",
+      "alt": "Remote call to action section: white headline and two buttons on a purple card with abstract 3D ribbon shapes on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "13f0546cf5",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Everything runs on the Remote Platform.",
+      "alt": "Remote features section: centered headline above a two-row grid of six features with cyan icon tiles on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f62711a02f",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Global employment, contractor management, and payroll, all in one platform",
+      "alt": "Remote features section: left-aligned headline above three cards with UI mockups on purple and cyan gradient tops",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b6e303ad80",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Scale your startup with global HR and payroll",
+      "alt": "Remote features section: centered headline above seven product items with purple icons in rows of four and three",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "33d5bae588",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Multi-country payroll, all in one place.",
+      "alt": "Remote features section: left-aligned headline above a six-item grid with cyan icon tiles and divider lines",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a83f3fb428",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "More ways to employ your global workforce.",
+      "alt": "Remote features section: centered headline above three bordered product cards with gradient icons and text links",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cbe60a122c",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "logo-strip", "confidence": "medium" }],
+      "headline": "The global employment infrastructure HR leaders build on.",
+      "alt": "Remote integrations section: headline above Workday, Personio and BambooHR cards plus a blue Your platform card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5051504814",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "bold-color", "confidence": "high" }, { "id": "3d", "confidence": "medium" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Run global payroll without the patchwork.",
+      "alt": "Remote call to action section: dark headline and two buttons on a lime-to-cyan gradient card with a blue 3D ribbon cube",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e627ac2343",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Built in-house, not stitched together.",
+      "alt": "Remote features section: logo row, large centered headline and four cards with payroll UI mockups on cyan and lime",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ce8bc38a9b",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Remote footer section: dark rounded panel with Remote wordmark, app store badges and link columns on a purple background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ef2ce13e58",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "Global payroll, one partner.",
+      "alt": "Remote hero section: nav, left headline with checklist and demo button beside a blurred blue and lime 3D cube on gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7476207a49",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Global employment & payroll for startups: built for speed and scale",
+      "alt": "Remote hero section: nav above a purple-to-cyan gradient card with headline left and timesheet UI cards in a wireframe box",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7bdf5a4cc2",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "Employer of Record in 90+ countries.",
+      "alt": "Remote hero section: nav, left headline with checklist and demo button beside blurred blue and lime 3D cubes on gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a286bcb9ea",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Global companies grow with Remote",
+      "alt": "Remote logo cloud section: small centered caption above two rows of gray customer logos on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dba4b054bd",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": ["hero"], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "glassmorphism", "confidence": "medium" }],
+      "headline": "Transparent pricing, from day one.",
+      "alt": "Remote pricing section: nav and centered headline above two plan cards, lime EOR and blue Global Payroll, on cyan gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bf0de5c269",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Work with global contractors on your terms",
+      "alt": "Remote pricing section: centered headline above three contractor plan cards in light cyan with a yellow-tinted highlight",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e19affdc9d",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "One platform for employment in the United States and globally.",
+      "alt": "Remote pricing section: headline on the left beside a light cyan PEO plan card with price and feature checklist",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "05790b9105",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Transparent pricing, no hidden fees.",
+      "alt": "Remote pricing section: headline and checklist on the left beside a purple gradient Global Payroll price card on cyan",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "455ba56d78",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "3d", "confidence": "medium" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Remote value proposition section: faded logo row above four light cyan benefit cards with purple 3D shapes at the bottom",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ec31fc58aa",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": ["security"], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Global breadth with local depth.",
+      "alt": "Remote stats section: centered headline, compliance checklist row, four large black metrics and an outlined demo button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e89d299879",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "A word from our customers",
+      "alt": "Remote testimonials section: centered heading above a carousel of bordered quote cards with company logos and avatars",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "df844bfe89",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "metrics", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Rated #1 Global Employment Platform.",
+      "alt": "Remote testimonials section: headline and G2 badge on the left beside a list of ratings from G2 and Trustpilot",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "23da07ac8a",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "metrics", "confidence": "medium" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Companies around the world are staying compliant with Remote.",
+      "alt": "Remote testimonials section: headline and See all button above a carousel of quote cards with large metrics on cyan",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f1c118b686",
+      "companyName": "Remote", "companySlug": "remote", "domain": "remote.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["use-case"], "filenameDisagree": true,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Remote for Startups",
+      "alt": "Remote call to action section: startup offer card with headline, checklist and button beside large 15% off text on purple gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2831a9b8e8",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": "rogo.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["hero"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "The operating system for finance",
+      "alt": "Rogo features section: serif heading above an agent picker UI mockup on the left and Agents text with a link on the right",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "6f888de144",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": "rogo.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "centered", "confidence": "high" }],
+      "headline": "All the data your team already uses",
+      "alt": "Rogo integrations section: centered serif headline inside a ring of colored data provider app icons fading to light blue",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cf9a6de0b2",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": "rogo.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Security built for institutional finance",
+      "alt": "Rogo security section: serif headline on dark green beside a grid of six compliance badges such as SOC 2, ISO and GDPR",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f2543cc385",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": "rogo.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "oversized-type", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Rogo footer section: five link columns on white above a huge faint gray serif ROGO wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "47ed5ffb46",
+      "companyName": "Rogo", "companySlug": "rogo", "domain": "rogo.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Built for real financial work",
+      "alt": "Rogo hero section: announcement bar, nav, centered serif headline and demo link above a chat app screenshot on dark green",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "14342fe727",
+      "companyName": "Schematik", "companySlug": "schematik", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Start from a template",
+      "alt": "Schematik features section: stats bar above a carousel of hardware template photo cards on a lime green background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "52205cdac6",
+      "companyName": "Schematik", "companySlug": "schematik", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pattern-background", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Schematik footer section: outlined SCHEMATIK wordmark, link columns and lime tagline on a dark green grid with a breadboard",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a32ff94ddd",
+      "companyName": "Schematik", "companySlug": "schematik", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "Real projects people are building with Schematik",
+      "alt": "Schematik testimonials section: headline above a carousel of user post cards with project photos on a beige background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a88a34830d",
+      "companyName": "Schematik", "companySlug": "schematik", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "pattern-background", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "BUILD HARDWARE WITH AI",
+      "alt": "Schematik hero section: nav, colored block headline and prompt input box on a beige grid background with arrow graphics",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "46f72f7b0d",
+      "companyName": "Schematik", "companySlug": "schematik", "domain": null, "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "code", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "From idea to hardware",
+      "alt": "Schematik how it works section: centered headline above three step cards for describe, review and build on beige",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

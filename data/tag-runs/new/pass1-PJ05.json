@@ -1,0 +1,117 @@
+{
+  "taskId": "PJ05",
+  "sites": [
+    { "batch": "co-tribe", "companyName": "Tribe AI", "companySlug": "tribe", "domain": "tribe.ai", "confidence": "high", "evidence": "hand-named files; TRIBE AI wordmark and © 2026 Tribe AI in footer, 'Tribe AI joins Google Cloud' post" },
+    { "batch": "co-visual", "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "confidence": "high", "evidence": "hand-named files; Visual logo in nav, © 2025 visual.app in footer" }
+  ],
+  "records": [
+    {
+      "id": "edfff71d0f",
+      "companyName": "Tribe AI", "companySlug": "tribe", "domain": "tribe.ai", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Notes from the field.",
+      "alt": "Tribe AI blog & resources section: serif headline above three insight cards with cover images, tag pills, dates and authors on off-white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4d6c3ef4f1",
+      "companyName": "Tribe AI", "companySlug": "tribe", "domain": "tribe.ai", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": ["logo-cloud"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Six Years In: What We Got Right—And Where We’re Going",
+      "alt": "Tribe AI blog & resources section: press logo row above a featured article card with a blue geometric cover left and serif title right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e4f188545c",
+      "companyName": "Tribe AI", "companySlug": "tribe", "domain": "tribe.ai", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "AI that ships, scales, and compounds.",
+      "alt": "Tribe AI footer section: dark navy footer with serif tagline, two buttons, security badges, link columns and a giant faded TRIBE AI wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "82bab51cdd",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "medium" }, { "id": "photography", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Visual / Blog",
+      "alt": "Visual blog & resources section: one wide and two narrow article cards with collage cover images, serif titles and authors on a dotted white page",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "aba74ffa1f",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["about"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "pattern-background", "confidence": "high" }],
+      "headline": "A picture is worth a thousand tokens",
+      "alt": "Visual call to action section: dark square panel with centered serif headline, a tokens pill and outline button over a checkerboard background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "bef8caf907",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["faq"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Put AI to work in every GTM workflow",
+      "alt": "Visual features section: charcoal split layout with serif headline and numbered accordion left, floating AI editing UI cards and portrait right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a97cafc0df",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Templates built for speed and scale",
+      "alt": "Visual features section: centered serif headline above a bento grid of presentation template previews in olive, cream, brown and charcoal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ae841f2174",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "code", "confidence": "medium" }],
+      "headline": "Keep every slide on-brand",
+      "alt": "Visual features section: two side-by-side panels, a light one with four brand-lock tiles and a dark one with stacked API endpoint cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "53a10743d6",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Visual footer section: dark charcoal footer with small wordmark, resources and company link columns, a white waitlist button and copyright",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9843b1c0c9",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "3d", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Design Agents for Revenue Teams",
+      "alt": "Visual hero section: nav bar and centered serif headline with two buttons above a glossy black 3D blob on checkerboard shapes",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f340f7ed70",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["value-proposition"], "filenameDisagree": true,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "bento", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Save your team 1 day a week",
+      "alt": "Visual features section: centered serif headline above a sales deck agent chat UI and three cards for QBRs, proposals and presentations",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f30f3647d3",
+      "companyName": "Visual", "companySlug": "visual", "domain": "visual.app", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "",
+      "alt": "Visual use cases section: three cards for sales, marketing and success with mono titles, short copy and black pixel-art icons on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

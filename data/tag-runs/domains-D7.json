@@ -1,0 +1,35 @@
+{
+  "taskId": "D7",
+  "companies": [
+    {
+      "slug": "thebrightapp",
+      "domain": "thebrightapp.xyz",
+      "confidence": "high",
+      "evidence": "Page title 'Bright OS | Your Super App for Health'; homepage contains 'super app for health', 'Energy Tracking', 'full picture of your health' and '200,000+ people ... trust Bright'. The App Store listing for Bright OS (Bright OS Group Pty Ltd) names thebrightapp.xyz as its developer site. thebrightapp.com is an unrelated Bright articles/learning app."
+    },
+    {
+      "slug": "dial",
+      "domain": "dial.software",
+      "confidence": "high",
+      "evidence": "Page title 'Dial, a time tracker that lives in your menu bar'; homepage contains 'It tracks. You work', 'Time, kept quietly' and 'A week on us', plus the $3.99/month and $49 lifetime pricing and 'Download for macOS'. The hinted dial.com and dial.app are parked domains for sale, and getdial.ai is a different company (communication stack for AI agents)."
+    },
+    {
+      "slug": "numa",
+      "domain": "numa.uprock.pro",
+      "confidence": "high",
+      "evidence": "This is the exact page the screenshot came from. Title 'Numa — Smart Insulin Pump for Diabetes Care', with the 'Start living' / 'Pre-order Numa' CTA. Its meta description calls it 'a smart insulin pump concept', and the footer credits Nikita Kisilyov, Valeriya Eolyan and Uprock studio. So it is a design studio concept, not a real company, and no other site exists. Use null instead if concept pages shouldn't be linked. The hinted numa.com (car dealership AI) and numa.so are unrelated."
+    },
+    {
+      "slug": "schematik",
+      "domain": "schematik.io",
+      "confidence": "high",
+      "evidence": "Page title 'AI Hardware IDE for Arduino, ESP32, and Pico | Schematik'; homepage contains 'Build hardware with AI', 'From idea to hardware', 'Start from a template' and 'Real projects people are building with Schematik'."
+    },
+    {
+      "slug": "therealhotels",
+      "domain": "therealhotels.com",
+      "confidence": "high",
+      "evidence": "Homepage has the headline 'Money can't buy you class, but it can buy you a vacation.' and lists Villa Bibbiani (RHOBH Season 15). The site catalogs hotels featured on The Real Housewives."
+    }
+  ]
+}

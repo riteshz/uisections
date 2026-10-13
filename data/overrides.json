@@ -145,37 +145,249 @@
       "removeTags": [
         "oversized-type"
       ],
-      "note": "oversized-type recheck: cap \u22489% of height (~42px), normal left-aligned hero H1 spanning ~55% width with subtitle/CTA below; large but not oversized"
+      "note": "oversized-type recheck: cap ≈9% of height (~42px), normal left-aligned hero H1 spanning ~55% width with subtitle/CTA below; large but not oversized"
     },
     "8f93f1d4ce": {
       "removeTags": [
         "oversized-type"
       ],
-      "note": "oversized-type recheck: cap \u22488% only because the crop is short (~34px), normal centered hero H1 spanning ~47% width"
+      "note": "oversized-type recheck: cap ≈8% only because the crop is short (~34px), normal centered hero H1 spanning ~47% width"
     },
     "b33a9177ae": {
       "removeTags": [
         "oversized-type"
       ],
-      "note": "oversized-type recheck: cap \u22488% (at threshold), light-weight centered H1 spanning ~40% width; equalizer graphic dominates"
+      "note": "oversized-type recheck: cap ≈8% (at threshold), light-weight centered H1 spanning ~40% width; equalizer graphic dominates"
     },
     "0ab70d4369": {
       "removeTags": [
         "oversized-type"
       ],
-      "note": "oversized-type recheck: cap \u22489% of a short banner (~33px), normal CTA heading inside circle spanning ~24% width"
+      "note": "oversized-type recheck: cap ≈9% of a short banner (~33px), normal CTA heading inside circle spanning ~24% width"
     },
     "f18238a4c8": {
       "removeTags": [
         "oversized-type"
       ],
-      "note": "oversized-type recheck: cap \u22484% of a tall section, spans ~68% width; flower imagery dominates"
+      "note": "oversized-type recheck: cap ≈4% of a tall section, spans ~68% width; flower imagery dominates"
     },
     "bd38a678c1": {
       "removeTags": [
         "oversized-type"
       ],
-      "note": "oversized-type recheck: cap \u22487% of height, spans ~34% width; normal left-column hero H1"
+      "note": "oversized-type recheck: cap ≈7% of height, spans ~34% width; normal left-column hero H1"
+    },
+    "08edb0c49e": {
+      "category": "cta",
+      "note": "filename said feature (a-lign-feature-2.webp); AI + blind check agreed on cta"
+    },
+    "9fa60a8765": {
+      "category": "about",
+      "note": "filename said how-it-works (a-lign-how-it-works.webp); AI + blind check agreed on about"
+    },
+    "c7fdfe3e96": {
+      "category": "integration",
+      "note": "filename said feature (agentid-feature-2.webp); AI + blind check agreed on integration"
+    },
+    "fb69154ac0": {
+      "category": "blog",
+      "note": "filename said feature (agentid-feature-3.webp); AI + blind check agreed on blog"
+    },
+    "e24aa8ac24": {
+      "category": "feature",
+      "note": "filename said how-it-works (agentid-how-it-works-2.webp); AI + blind check agreed on feature"
+    },
+    "cde9368d46": {
+      "category": "feature",
+      "note": "filename said logo-cloud (agentid-logo-cloud.webp); AI + blind check agreed on feature"
+    },
+    "5e161f3fc2": {
+      "category": "hero",
+      "note": "filename said newsletter (agentid-newsletter.webp); AI + blind check agreed on hero"
+    },
+    "d959e29cb1": {
+      "category": "testimonial",
+      "note": "filename said logo-cloud (cofactr-logo-cloud-2.webp); AI + blind check agreed on testimonial"
+    },
+    "a8334bcfb7": {
+      "category": "value-proposition",
+      "note": "filename said stats (cofactr-stats.webp); AI + blind check agreed on value-proposition"
+    },
+    "f62b4715c1": {
+      "category": "feature",
+      "note": "filename said team (cofactr-team.webp); AI + blind check agreed on feature"
+    },
+    "a9b8f13b5e": {
+      "category": "value-proposition",
+      "note": "filename said feature (flynnys-feature-2.webp); AI + blind check agreed on value-proposition"
+    },
+    "4b62c2dbdd": {
+      "category": "hero",
+      "note": "filename said feature (flynnys-feature.webp); three-way split, decided on review: brand wordmark, tagline, Starter Pack button and full-height photo"
+    },
+    "c68474506d": {
+      "category": "comparison",
+      "note": "filename said pricing (flynnys-pricing.webp); AI + blind check agreed on comparison"
+    },
+    "b9fca2308a": {
+      "category": "hero",
+      "note": "filename said testimonial (flynnys-testimonial.webp); AI + blind check agreed on hero"
+    },
+    "a85fc5781d": {
+      "category": "careers",
+      "note": "filename said cta (happyrobot-cta.webp); AI + blind check agreed on careers"
+    },
+    "6586d0337a": {
+      "category": "value-proposition",
+      "note": "filename said feature (happyrobot-feature-5.webp); AI + blind check agreed on value-proposition"
+    },
+    "7d3e7f25cf": {
+      "category": "divider",
+      "note": "filename said feature (happyrobot-feature.webp); AI + blind check agreed on divider"
+    },
+    "18a279cbb7": {
+      "category": "use-case",
+      "note": "filename said how-it-works (happyrobot-how-it-works.webp); AI + blind check agreed on use-case"
+    },
+    "4d693133ca": {
+      "category": "value-proposition",
+      "note": "filename said team (ideogram-team.webp); AI + blind check agreed on value-proposition"
+    },
+    "3dd15865c6": {
+      "category": "feature",
+      "note": "filename said testimonial (ideogram-testimonial.webp); AI + blind check agreed on feature"
+    },
+    "8b3dbc962d": {
+      "category": "cta",
+      "note": "filename said contact (remote-contact.webp); AI + blind check agreed on cta"
+    },
+    "cbe60a122c": {
+      "category": "integration",
+      "note": "filename said feature (remote-feature-5.webp); AI + blind check agreed on integration"
+    },
+    "5051504814": {
+      "category": "cta",
+      "note": "filename said feature (remote-feature-6.webp); AI + blind check agreed on cta"
+    },
+    "455ba56d78": {
+      "category": "value-proposition",
+      "note": "filename said security (remote-security.webp); three-way split, decided on review: four why-Remote benefit cards"
+    },
+    "f1c118b686": {
+      "category": "cta",
+      "note": "filename said use-case (remote-use-case.webp); AI + blind check agreed on cta"
+    },
+    "2831a9b8e8": {
+      "category": "feature",
+      "note": "filename said hero (rogo-hero-3.webp); AI + blind check agreed on feature"
+    },
+    "6f888de144": {
+      "category": "integration",
+      "note": "filename said hero (rogo-hero-5.webp); AI + blind check agreed on integration"
+    },
+    "cf9a6de0b2": {
+      "category": "security",
+      "note": "filename said hero (rogo-hero-7.webp); AI + blind check agreed on security"
+    },
+    "f2543cc385": {
+      "category": "footer",
+      "note": "filename said hero (rogo-hero-9.webp); AI + blind check agreed on footer"
+    },
+    "a32ff94ddd": {
+      "category": "testimonial",
+      "note": "filename said footer (schematik-footer.webp); AI + blind check agreed on testimonial"
+    },
+    "579b24b630": {
+      "category": "logo-cloud",
+      "note": "filename said divider (semrush-divider.webp); AI + blind check agreed on logo-cloud"
+    },
+    "1bf1aea06d": {
+      "category": "feature",
+      "note": "filename said faq (semrush-faq.webp); AI + blind check agreed on feature"
+    },
+    "9a0e02fd1d": {
+      "category": "hero",
+      "note": "filename said feature (semrush-feature copy.webp); AI + blind check agreed on hero"
+    },
+    "e250d8c204": {
+      "category": "hero",
+      "note": "filename said feature (semrush-feature.webp); AI + blind check agreed on hero"
+    },
+    "c7bc05f9e7": {
+      "category": "pricing",
+      "note": "filename said hero (semrush-hero.webp); AI + blind check agreed on pricing"
+    },
+    "cf23a57cf0": {
+      "category": "feature",
+      "note": "filename said integration (semrush-integration.webp); AI + blind check agreed on feature"
+    },
+    "b2d692540c": {
+      "category": "testimonial",
+      "note": "filename said stats (semrush-stats.webp); AI + blind check agreed on testimonial"
+    },
+    "fcdbed7e8e": {
+      "category": "feature",
+      "note": "filename said cta (sendr-cta.webp); AI + blind check agreed on feature"
+    },
+    "bfd3e4cb58": {
+      "category": "cta",
+      "note": "filename said feature (sendr-feature-2.webp); AI + blind check agreed on cta"
+    },
+    "4f6a8c7860": {
+      "category": "use-case",
+      "note": "filename said feature (sendr-feature-7 copy.webp); AI + blind check agreed on use-case"
+    },
+    "b1e6ba1906": {
+      "category": "use-case",
+      "note": "filename said feature (sendr-feature-7.webp); AI + blind check agreed on use-case"
+    },
+    "155bca4b26": {
+      "category": "hero",
+      "note": "filename said how-it-works (sendr-how-it-works.webp); AI + blind check agreed on hero"
+    },
+    "e6631b608c": {
+      "category": "value-proposition",
+      "note": "filename said logo-cloud (sendr-logo-cloud.webp); AI + blind check agreed on value-proposition"
+    },
+    "3346d2509c": {
+      "category": "faq",
+      "note": "filename said pricing (sendr-pricing-2.webp); AI + blind check agreed on faq"
+    },
+    "f4e1776d66": {
+      "category": "testimonial",
+      "note": "filename said stats (sendr-stats.webp); AI + blind check agreed on testimonial"
+    },
+    "836f637482": {
+      "category": "feature",
+      "note": "filename said team (sendr-team-2 copy.webp); AI + blind check agreed on feature"
+    },
+    "3f6315f001": {
+      "category": "feature",
+      "note": "filename said team (sendr-team-2.webp); AI + blind check agreed on feature"
+    },
+    "85194a200f": {
+      "category": "how-it-works",
+      "note": "filename said team (sendr-team.webp); AI + blind check agreed on how-it-works"
+    },
+    "de31c81738": {
+      "category": "testimonial",
+      "note": "filename said feature (thebrightapp-feature-3.webp); AI + blind check agreed on testimonial"
+    },
+    "36fb0a559a": {
+      "category": "cta",
+      "note": "filename said other (thebrightapp-other.webp); AI + blind check agreed on cta"
+    },
+    "4d6c3ef4f1": {
+      "category": "blog",
+      "note": "filename said feature (tribe-feature.webp); AI + blind check agreed on blog"
+    },
+    "bef8caf907": {
+      "category": "feature",
+      "note": "filename said faq (visual-faq.webp); AI + blind check agreed on feature"
+    },
+    "f340f7ed70": {
+      "category": "feature",
+      "note": "filename said team (visual-team.webp); AI + blind check agreed on feature"
     }
   },
   "companies": {}

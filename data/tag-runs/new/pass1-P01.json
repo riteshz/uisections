@@ -1,0 +1,65 @@
+{
+  "taskId": "P01",
+  "sites": [
+    {
+      "batch": "png-flynnys-com-ref-land-book-com",
+      "companyName": "Flynny's",
+      "companySlug": "flynnys",
+      "domain": "flynnys.com",
+      "confidence": "high",
+      "evidence": "FLYNNY'S wordmark centred in the nav and printed on the product box; matches filename hint flynnys.com"
+    },
+    {
+      "batch": "png-numa-uprock-pro-1",
+      "companyName": "Numa",
+      "companySlug": "numa",
+      "domain": null,
+      "confidence": "high",
+      "evidence": "numa wordmark and '© 2026 Numa. Smart insulin management system' in footer, 'Pre-order Numa' button; page credited to Uprock studio (numa.uprock.pro is a studio-hosted URL, so domain left null)"
+    }
+  ],
+  "records": [
+    {
+      "id": "1209926a55",
+      "companyName": "Flynny's",
+      "companySlug": "flynnys",
+      "domain": "flynnys.com",
+      "companyConfidence": "high",
+      "category": "hero",
+      "categoryConfidence": "high",
+      "categoryAlternates": [],
+      "filenameDisagree": false,
+      "tags": [
+        { "id": "full-bleed-media", "confidence": "high" },
+        { "id": "photography", "confidence": "high" },
+        { "id": "serif", "confidence": "medium" }
+      ],
+      "headline": "SHAVE WITH PURPOSE",
+      "alt": "Flynny's hero section: serif headline with a yellow-highlighted word, star rating and yellow CTA over a dark photo of a razor and its box on moss",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    },
+    {
+      "id": "1e36987455",
+      "companyName": "Numa",
+      "companySlug": "numa",
+      "domain": null,
+      "companyConfidence": "high",
+      "category": "cta",
+      "categoryConfidence": "high",
+      "categoryAlternates": ["footer"],
+      "filenameDisagree": false,
+      "tags": [
+        { "id": "oversized-type", "confidence": "high" },
+        { "id": "gradient", "confidence": "high" },
+        { "id": "centered", "confidence": "high" }
+      ],
+      "headline": "Start living",
+      "alt": "Numa call to action section: full-width blue headline above a white insulin device, pre-order button on a blue glow, slim footer row below",
+      "usable": true,
+      "issues": [],
+      "duplicateOf": null
+    }
+  ]
+}

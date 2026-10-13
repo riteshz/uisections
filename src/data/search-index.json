@@ -3,97 +3,97 @@
     "type": "category",
     "label": "Hero sections",
     "url": "/hero-sections/",
-    "count": 278
+    "count": 302
   },
   {
     "type": "category",
     "label": "Feature sections",
     "url": "/feature-sections/",
-    "count": 385
+    "count": 426
   },
   {
     "type": "category",
     "label": "Value proposition sections",
     "url": "/value-proposition-sections/",
-    "count": 57
+    "count": 63
   },
   {
     "type": "category",
     "label": "How it works sections",
     "url": "/how-it-works-sections/",
-    "count": 46
+    "count": 51
   },
   {
     "type": "category",
     "label": "Use case sections",
     "url": "/use-case-sections/",
-    "count": 38
+    "count": 41
   },
   {
     "type": "category",
     "label": "Testimonial sections",
     "url": "/testimonial-sections/",
-    "count": 165
+    "count": 176
   },
   {
     "type": "category",
     "label": "Logo cloud sections",
     "url": "/logo-cloud-sections/",
-    "count": 70
+    "count": 74
   },
   {
     "type": "category",
     "label": "Stats sections",
     "url": "/stats-sections/",
-    "count": 32
+    "count": 34
   },
   {
     "type": "category",
     "label": "Integration sections",
     "url": "/integration-sections/",
-    "count": 56
+    "count": 59
   },
   {
     "type": "category",
     "label": "Security sections",
     "url": "/security-sections/",
-    "count": 36
+    "count": 37
   },
   {
     "type": "category",
     "label": "Pricing sections",
     "url": "/pricing-sections/",
-    "count": 92
+    "count": 100
   },
   {
     "type": "category",
     "label": "Comparison sections",
     "url": "/comparison-sections/",
-    "count": 20
+    "count": 21
   },
   {
     "type": "category",
     "label": "FAQ sections",
     "url": "/faq-sections/",
-    "count": 55
+    "count": 60
   },
   {
     "type": "category",
     "label": "CTA sections",
     "url": "/cta-sections/",
-    "count": 145
+    "count": 158
   },
   {
     "type": "category",
     "label": "Blog & resources sections",
     "url": "/blog-sections/",
-    "count": 47
+    "count": 53
   },
   {
     "type": "category",
     "label": "Team sections",
     "url": "/team-sections/",
-    "count": 17
+    "count": 18
   },
   {
     "type": "category",
@@ -105,139 +105,139 @@
     "type": "category",
     "label": "About & mission sections",
     "url": "/about-sections/",
-    "count": 33
+    "count": 35
   },
   {
     "type": "category",
     "label": "Footer sections",
     "url": "/footer-sections/",
-    "count": 161
+    "count": 175
   },
   {
     "type": "style",
     "label": "Dark mode",
     "url": "/tags/dark-mode/",
-    "count": 473
+    "count": 511
   },
   {
     "type": "style",
     "label": "Gradient",
     "url": "/tags/gradient/",
-    "count": 110
+    "count": 127
   },
   {
     "type": "style",
     "label": "Bold color",
     "url": "/tags/bold-color/",
-    "count": 94
+    "count": 103
   },
   {
     "type": "style",
     "label": "Pastel",
     "url": "/tags/pastel/",
-    "count": 67
+    "count": 73
   },
   {
     "type": "style",
     "label": "Warm neutral",
     "url": "/tags/warm-neutral/",
-    "count": 182
+    "count": 186
   },
   {
     "type": "style",
     "label": "Monochrome",
     "url": "/tags/monochrome/",
-    "count": 458
+    "count": 492
   },
   {
     "type": "style",
     "label": "Bento grid",
     "url": "/tags/bento/",
-    "count": 75
+    "count": 79
   },
   {
     "type": "style",
     "label": "Alternating rows",
     "url": "/tags/alternating/",
-    "count": 16
+    "count": 17
   },
   {
     "type": "style",
     "label": "Tabs",
     "url": "/tags/tabs/",
-    "count": 177
+    "count": 182
   },
   {
     "type": "style",
     "label": "Carousel",
     "url": "/tags/carousel/",
-    "count": 138
+    "count": 151
   },
   {
     "type": "style",
     "label": "Table",
     "url": "/tags/table/",
-    "count": 22
+    "count": 24
   },
   {
     "type": "style",
     "label": "Full-bleed media",
     "url": "/tags/full-bleed-media/",
-    "count": 45
+    "count": 52
   },
   {
     "type": "style",
     "label": "Illustration",
     "url": "/tags/illustration/",
-    "count": 114
+    "count": 119
   },
   {
     "type": "style",
     "label": "3D",
     "url": "/tags/3d/",
-    "count": 87
+    "count": 98
   },
   {
     "type": "style",
     "label": "Photography",
     "url": "/tags/photography/",
-    "count": 246
+    "count": 275
   },
   {
     "type": "style",
     "label": "Code",
     "url": "/tags/code/",
-    "count": 50
+    "count": 57
   },
   {
     "type": "style",
     "label": "Glassmorphism",
     "url": "/tags/glassmorphism/",
-    "count": 9
+    "count": 11
   },
   {
     "type": "style",
     "label": "Pattern background",
     "url": "/tags/pattern-background/",
-    "count": 163
+    "count": 172
   },
   {
     "type": "style",
     "label": "Minimal",
     "url": "/tags/minimal/",
-    "count": 490
+    "count": 529
   },
   {
     "type": "style",
     "label": "Serif type",
     "url": "/tags/serif/",
-    "count": 281
+    "count": 300
   },
   {
     "type": "style",
     "label": "Oversized type",
     "url": "/tags/oversized-type/",
-    "count": 84
+    "count": 93
   },
   {
     "type": "style",
@@ -249,19 +249,19 @@
     "type": "industry",
     "label": "AI",
     "url": "/industries/ai/",
-    "count": 788
+    "count": 854
   },
   {
     "type": "industry",
     "label": "Developer tools",
     "url": "/industries/developer-tools/",
-    "count": 325
+    "count": 330
   },
   {
     "type": "industry",
     "label": "Fintech",
     "url": "/industries/fintech/",
-    "count": 305
+    "count": 310
   },
   {
     "type": "industry",
@@ -273,31 +273,31 @@
     "type": "industry",
     "label": "Sales & marketing",
     "url": "/industries/sales-marketing/",
-    "count": 262
+    "count": 293
   },
   {
     "type": "industry",
     "label": "Productivity",
     "url": "/industries/productivity/",
-    "count": 206
+    "count": 209
   },
   {
     "type": "industry",
     "label": "Data & analytics",
     "url": "/industries/data-analytics/",
-    "count": 91
+    "count": 100
   },
   {
     "type": "industry",
     "label": "Security",
     "url": "/industries/cybersecurity/",
-    "count": 28
+    "count": 38
   },
   {
     "type": "industry",
     "label": "HR & recruiting",
     "url": "/industries/hr/",
-    "count": 64
+    "count": 88
   },
   {
     "type": "industry",
@@ -309,13 +309,13 @@
     "type": "industry",
     "label": "E-commerce & retail",
     "url": "/industries/ecommerce/",
-    "count": 64
+    "count": 74
   },
   {
     "type": "industry",
     "label": "Design & creative",
     "url": "/industries/design-tools/",
-    "count": 93
+    "count": 110
   },
   {
     "type": "industry",
@@ -327,19 +327,19 @@
     "type": "industry",
     "label": "Healthcare",
     "url": "/industries/healthcare/",
-    "count": 52
+    "count": 61
   },
   {
     "type": "industry",
     "label": "Agencies & portfolios",
     "url": "/industries/agencies/",
-    "count": 55
+    "count": 64
   },
   {
     "type": "industry",
     "label": "Logistics & mobility",
     "url": "/industries/logistics/",
-    "count": 33
+    "count": 52
   },
   {
     "type": "industry",
@@ -367,6 +367,12 @@
   },
   {
     "type": "company",
+    "label": "A-LIGN",
+    "url": "/companies/a-lign/",
+    "count": 6
+  },
+  {
+    "type": "company",
     "label": "Acctual",
     "url": "/companies/acctual/",
     "count": 6
@@ -382,6 +388,12 @@
     "label": "Adora",
     "url": "/companies/adora/",
     "count": 5
+  },
+  {
+    "type": "company",
+    "label": "AgentID",
+    "url": "/companies/agentid/",
+    "count": 10
   },
   {
     "type": "company",
@@ -487,6 +499,12 @@
   },
   {
     "type": "company",
+    "label": "Bright",
+    "url": "/companies/thebrightapp/",
+    "count": 8
+  },
+  {
+    "type": "company",
     "label": "Brikken+Co",
     "url": "/companies/brikken-co/",
     "count": 5
@@ -574,6 +592,12 @@
     "label": "CodeRabbit",
     "url": "/companies/coderabbit/",
     "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Cofactr",
+    "url": "/companies/cofactr/",
+    "count": 7
   },
   {
     "type": "company",
@@ -700,6 +724,12 @@
     "label": "DevRev",
     "url": "/companies/devrev/",
     "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Dial",
+    "url": "/companies/dial/",
+    "count": 3
   },
   {
     "type": "company",
@@ -835,6 +865,12 @@
   },
   {
     "type": "company",
+    "label": "Flynny's",
+    "url": "/companies/flynnys/",
+    "count": 10
+  },
+  {
+    "type": "company",
     "label": "folk",
     "url": "/companies/folk/",
     "count": 4
@@ -913,6 +949,12 @@
   },
   {
     "type": "company",
+    "label": "HappyRobot",
+    "url": "/companies/happyrobot/",
+    "count": 10
+  },
+  {
+    "type": "company",
     "label": "Harmonic",
     "url": "/companies/harmonic/",
     "count": 6
@@ -988,6 +1030,12 @@
     "label": "Hyperline",
     "url": "/companies/hyperline/",
     "count": 5
+  },
+  {
+    "type": "company",
+    "label": "Ideogram",
+    "url": "/companies/ideogram/",
+    "count": 8
   },
   {
     "type": "company",
@@ -1321,6 +1369,12 @@
   },
   {
     "type": "company",
+    "label": "Piqo",
+    "url": "/companies/piqo/",
+    "count": 9
+  },
+  {
+    "type": "company",
     "label": "Plaid",
     "url": "/companies/plaid/",
     "count": 3
@@ -1465,6 +1519,12 @@
   },
   {
     "type": "company",
+    "label": "Remote",
+    "url": "/companies/remote/",
+    "count": 24
+  },
+  {
+    "type": "company",
     "label": "Response",
     "url": "/companies/response/",
     "count": 2
@@ -1491,7 +1551,7 @@
     "type": "company",
     "label": "Rogo",
     "url": "/companies/rogo/",
-    "count": 8
+    "count": 13
   },
   {
     "type": "company",
@@ -1537,6 +1597,12 @@
   },
   {
     "type": "company",
+    "label": "Schematik",
+    "url": "/companies/schematik/",
+    "count": 5
+  },
+  {
+    "type": "company",
     "label": "Seamless.AI",
     "url": "/companies/seamless/",
     "count": 7
@@ -1552,6 +1618,18 @@
     "label": "Semaloop",
     "url": "/companies/semaloop/",
     "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Semrush",
+    "url": "/companies/semrush/",
+    "count": 15
+  },
+  {
+    "type": "company",
+    "label": "Sendr",
+    "url": "/companies/sendr/",
+    "count": 16
   },
   {
     "type": "company",
@@ -1675,9 +1753,21 @@
   },
   {
     "type": "company",
+    "label": "The Real Hotels",
+    "url": "/companies/therealhotels/",
+    "count": 2
+  },
+  {
+    "type": "company",
     "label": "time.fyi",
     "url": "/companies/time-fyi/",
     "count": 11
+  },
+  {
+    "type": "company",
+    "label": "Tribe AI",
+    "url": "/companies/tribe/",
+    "count": 3
   },
   {
     "type": "company",
@@ -1744,6 +1834,12 @@
     "label": "VisionAI",
     "url": "/companies/visionai/",
     "count": 4
+  },
+  {
+    "type": "company",
+    "label": "Visual",
+    "url": "/companies/visual/",
+    "count": 9
   },
   {
     "type": "company",

@@ -943,5 +943,63 @@
   "solidroad": [
     "customer-support",
     "ai"
+  ],
+  "flynnys": [
+    "ecommerce"
+  ],
+  "numa": [
+    "healthcare"
+  ],
+  "a-lign": [
+    "agencies"
+  ],
+  "agentid": [
+    "cybersecurity",
+    "ai"
+  ],
+  "cofactr": [
+    "logistics"
+  ],
+  "dial": [
+    "productivity"
+  ],
+  "happyrobot": [
+    "ai",
+    "logistics"
+  ],
+  "ideogram": [
+    "design-tools",
+    "ai"
+  ],
+  "piqo": [
+    "data-analytics"
+  ],
+  "remote": [
+    "hr"
+  ],
+  "schematik": [
+    "ai",
+    "developer-tools"
+  ],
+  "semrush": [
+    "sales-marketing"
+  ],
+  "thebrightapp": [
+    "healthcare"
+  ],
+  "therealhotels": [
+    "logistics"
+  ],
+  "tribe": [
+    "agencies",
+    "ai"
+  ],
+  "visual": [
+    "design-tools",
+    "ai"
+  ],
+  "sendr": [
+    "sales-marketing",
+    "ai"
   ]
 }

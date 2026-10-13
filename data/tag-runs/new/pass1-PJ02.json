@@ -1,0 +1,262 @@
+{
+  "taskId": "PJ02",
+  "sites": [
+    { "batch": "co-happyrobot", "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "confidence": "high", "evidence": "hand-named files; HappyRobot wordmark in hero nav, © 2026 HappyRobot, Inc. in footer, 'Life at HappyRobot' link" },
+    { "batch": "co-ideogram", "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "confidence": "high", "evidence": "hand-named files; Ideogram wordmark in hero nav, 'What is Ideogram?' FAQ, api.ideogram.ai in code sample" },
+    { "batch": "co-piqo", "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "confidence": "high", "evidence": "hand-named files; Piqo logo in nav and footer, piqo.app script URL and hello@piqo.app, © 2026 MVP Stack LLC - Piqo Analytics" }
+  ],
+  "records": [
+    {
+      "id": "49d0433bfe",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Put agents to work in complex environments.",
+      "alt": "HappyRobot call to action section: centered two-tone headline in black and gray above a small black Book a demo button on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a85fc5781d",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "careers", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Help build an entirely new way to work.",
+      "alt": "HappyRobot careers section: Join us eyebrow, headline and two buttons on the left, photo of a team in a timber-roofed office on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2328a8d324",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["testimonial", "use-case"], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Deployed in the real world.",
+      "alt": "HappyRobot features section: headline with side note above three customer story cards (DHL, Naturgy, Kuehne+Nagel) on motion-blurred photos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8afa94fa23",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Agents need a platform.",
+      "alt": "HappyRobot features section: headline, button and three capability rows on the left, taupe block diagram of the agent platform on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1d57a9627d",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "video", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "This is Enterprise Superintelligence.",
+      "alt": "HappyRobot features section: left-aligned headline above a wide dark video player showing footage of a moving truck, on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6586d0337a",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature", "stats"], "filenameDisagree": true,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "warm-neutral", "confidence": "medium" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "We handle the work that matters most.",
+      "alt": "HappyRobot value proposition section: headline on a taupe background above three benefit cards and a row of four large metrics",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7d3e7f25cf",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "medium", "categoryAlternates": ["about", "value-proposition"], "filenameDisagree": true,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "The limit of what AI can do in your enterprise is not the model. It’s what the model knows about how your enterprise operates. That context is only captured one way: doing the work.",
+      "alt": "HappyRobot divider section: large left-aligned statement paragraph in black ending in gray text on a plain light gray band",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a8cd0a2ea6",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "HappyRobot footer section: large black logo mark, three link columns, tagline and policy links, compliance badge row and copyright on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ed661d0d78",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "form", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "The platform to build and scale AI agents.",
+      "alt": "HappyRobot hero section: announcement bar and nav over a left headline with email field and logo row, line-drawn grid of boxes on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "18a279cbb7",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "One system. Every vertical.",
+      "alt": "HappyRobot use cases section: headline with side note above a 4x2 grid of numbered industry tiles on blurred photos, Logistics to Telecom",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6390f4dc4d",
+      "companyName": "HappyRobot", "companySlug": "happyrobot", "domain": "happyrobot.ai", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Trusted by 150+ enterprises",
+      "alt": "HappyRobot logo cloud section: small eyebrow label above a 7x3 bordered grid of customer logos, some tiles on blurred photo backgrounds",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2e2a85e090",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Frequently asked questions",
+      "alt": "Ideogram faq section: heading on the left, accordion of six questions on the right with the first one expanded, on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ac61038372",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Introducing Ideogram 4.5",
+      "alt": "Ideogram features section: centered NEW badge, headline, copy and button above a wide video frame of a woman holding a perfume bottle",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8a984e3a23",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "medium" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "From the Ideogram community",
+      "alt": "Ideogram features section: headline and intro above a scattered gallery of community images incl. anime art, a poster and a surreal sphere",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7d0622abeb",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "One platform. Three ways to create.",
+      "alt": "Ideogram features section: two-line headline above three product cards with grainy pink and purple gradient panels, copy and buttons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8a7b60ffbc",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "The open models for visual intelligence.",
+      "alt": "Ideogram hero section: serif headline and buttons over a full-bleed hillside of flowers, release video thumbnail, logo strip below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4d693133ca",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "3d", "confidence": "medium" }],
+      "headline": "Outcomes your team will be measured on.",
+      "alt": "Ideogram value proposition section: eyebrow, headline and intro above four bordered outcome cards with numbered labels and glossy 3D icons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e31d85ed1a",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["use-case", "feature"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Built for the teams producing visual work at scale.",
+      "alt": "Ideogram testimonials section: dark navy split with headline, buttons and a Skechers quote left, photo grid of a red patterned shirt right",
+      "usable": true, "issues": ["broken-image"], "duplicateOf": null
+    },
+    {
+      "id": "3dd15865c6",
+      "companyName": "Ideogram", "companySlug": "ideogram", "domain": "ideogram.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }],
+      "headline": "One API, infinite possibilities",
+      "alt": "Ideogram features section: purple background, headline, copy and bullet list on the left, dark Python code snippet window on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9a2fe7b3b3",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Start seeing what actually works.",
+      "alt": "Piqo call to action section: centered headline, script tag snippet and two buttons inside a rounded charcoal card on a near-black page",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1bfc75e489",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Questions, answered.",
+      "alt": "Piqo faq section: centered pill label and headline above a rounded dark card with eight collapsed questions and a contact email",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b55fa59347",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Every feature, in every plan.",
+      "alt": "Piqo features section: rounded dark panel with pill label, headline and button above a 4x3 grid of icon features on near-black",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "7fb9fb327d",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "tabs", "confidence": "high" }],
+      "headline": "Everything that matters, in one dashboard.",
+      "alt": "Piqo features section: centered headline above a vertical feature tab list on the left and a dark revenue dashboard screenshot on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "288c6a9fd6",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Piqo footer section: rounded dark card with yellow logo and tagline, five link columns including other products, copyright row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0fee02d9f5",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "Dead simple, affordable analytics. Tied to revenue.",
+      "alt": "Piqo hero section: nav, centered headline with two buttons and avatars above a dark analytics dashboard with a demo play button, logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ccd46ccd16",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "code", "confidence": "high" }],
+      "headline": "From first visit to first payment.",
+      "alt": "Piqo how it works section: centered headline above three numbered step cards with a script snippet, top sources list and revenue UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "14f4c7d9ce",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "pricing", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "tabs", "confidence": "high" }],
+      "headline": "Simple pricing. Pick your traffic.",
+      "alt": "Piqo pricing section: centered headline and monthly/yearly toggle above three dark plan cards, the middle one highlighted as Most popular",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0fe9cd22e1",
+      "companyName": "Piqo", "companySlug": "piqo", "domain": "piqo.app", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Loved by makers who ship.",
+      "alt": "Piqo testimonials section: centered Wall of love label and headline above a three-column masonry of dark quote cards with avatars",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

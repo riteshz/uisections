@@ -111,6 +111,43 @@
     "addedAt": "2026-10-02T06:48:17.606Z"
   },
   {
+    "slug": "a-lign",
+    "name": "A-LIGN",
+    "industries": [
+      "agencies"
+    ],
+    "domain": "a-lign.studio",
+    "domainVerified": true,
+    "count": 6,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "testimonial",
+      "about",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "minimal",
+      "monochrome",
+      "photography",
+      "oversized-type",
+      "carousel"
+    ],
+    "sectionIds": [
+      "a01ee2b09e",
+      "2830c9e125",
+      "9fa60a8765",
+      "f7f2b05555",
+      "08edb0c49e",
+      "98d9f316c6"
+    ],
+    "cover": "a01ee2b09e",
+    "addedAt": "2026-10-13T11:02:00.000Z"
+  },
+  {
     "slug": "acctual",
     "name": "Acctual",
     "industries": [
@@ -219,6 +256,51 @@
     ],
     "cover": "947f362813",
     "addedAt": "2026-10-02T06:48:17.660Z"
+  },
+  {
+    "slug": "agentid",
+    "name": "AgentID",
+    "industries": [
+      "cybersecurity",
+      "ai"
+    ],
+    "domain": "agentid.com",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "integration",
+      "blog",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "card-grid",
+      "monochrome",
+      "split",
+      "product-ui",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "5e161f3fc2",
+      "dccd1a47a9",
+      "cde9368d46",
+      "e24aa8ac24",
+      "c54318524a",
+      "c7fdfe3e96",
+      "fb69154ac0",
+      "4a344129ce",
+      "0c63519147",
+      "6029e05576"
+    ],
+    "cover": "5e161f3fc2",
+    "addedAt": "2026-10-13T10:59:32.000Z"
   },
   {
     "slug": "agiloft",
@@ -966,6 +1048,45 @@
     "addedAt": "2026-10-02T06:48:17.893Z"
   },
   {
+    "slug": "thebrightapp",
+    "name": "Bright",
+    "industries": [
+      "healthcare"
+    ],
+    "domain": "thebrightapp.xyz",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "centered",
+      "3d",
+      "minimal",
+      "photography",
+      "gradient"
+    ],
+    "sectionIds": [
+      "13ee25fe9c",
+      "7865a98c2d",
+      "9bd5e844e4",
+      "840daf212b",
+      "a1d16df106",
+      "de31c81738",
+      "36fb0a559a",
+      "21cf545247"
+    ],
+    "cover": "13ee25fe9c",
+    "addedAt": "2026-10-13T10:59:11.148Z"
+  },
+  {
     "slug": "brikken-co",
     "name": "Brikken+Co",
     "industries": [
@@ -1674,6 +1795,46 @@
     ],
     "cover": "f398bc800b",
     "addedAt": "2026-10-02T14:37:28.088Z"
+  },
+  {
+    "slug": "cofactr",
+    "name": "Cofactr",
+    "industries": [
+      "logistics"
+    ],
+    "domain": "cofactr.com",
+    "domainVerified": true,
+    "count": 7,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "feature",
+      "testimonial",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "centered",
+      "photography",
+      "minimal",
+      "monochrome",
+      "carousel",
+      "split"
+    ],
+    "sectionIds": [
+      "fc45fca003",
+      "5b9f5747ca",
+      "a8334bcfb7",
+      "f62b4715c1",
+      "d959e29cb1",
+      "0715b292bf",
+      "98708d87ec"
+    ],
+    "cover": "fc45fca003",
+    "addedAt": "2026-10-13T10:53:42.000Z"
   },
   {
     "slug": "coframe",
@@ -2570,6 +2731,37 @@
     "addedAt": "2026-10-02T06:48:18.321Z"
   },
   {
+    "slug": "dial",
+    "name": "Dial",
+    "industries": [
+      "productivity"
+    ],
+    "domain": "dial.software",
+    "domainVerified": true,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "pricing"
+    ],
+    "topTags": [
+      "dark-mode",
+      "centered",
+      "product-ui",
+      "metrics",
+      "bento"
+    ],
+    "sectionIds": [
+      "8703de3241",
+      "117cc8b4a3",
+      "2f4958a85c"
+    ],
+    "cover": "8703de3241",
+    "addedAt": "2026-10-13T11:04:49.688Z"
+  },
+  {
     "slug": "ditto",
     "name": "Ditto",
     "industries": [
@@ -3439,6 +3631,50 @@
     "addedAt": "2026-09-30T10:33:08.000Z"
   },
   {
+    "slug": "flynnys",
+    "name": "Flynny's",
+    "industries": [
+      "ecommerce"
+    ],
+    "domain": "flynnys.com",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "how-it-works",
+      "comparison",
+      "faq",
+      "cta",
+      "footer",
+      "other"
+    ],
+    "topTags": [
+      "photography",
+      "split",
+      "full-bleed-media",
+      "serif",
+      "card-grid",
+      "table"
+    ],
+    "sectionIds": [
+      "4b62c2dbdd",
+      "b9fca2308a",
+      "1209926a55",
+      "a9b8f13b5e",
+      "7bf52e10f9",
+      "c68474506d",
+      "4d193a1833",
+      "eef7db927a",
+      "d1f9a38d1f",
+      "1ad5a776fc"
+    ],
+    "cover": "4b62c2dbdd",
+    "addedAt": "2026-10-13T10:53:34.000Z"
+  },
+  {
     "slug": "folk",
     "name": "folk",
     "industries": [
@@ -3965,6 +4201,51 @@
     "addedAt": "2026-10-01T04:53:44.000Z"
   },
   {
+    "slug": "happyrobot",
+    "name": "HappyRobot",
+    "industries": [
+      "ai",
+      "logistics"
+    ],
+    "domain": "happyrobot.ai",
+    "domainVerified": true,
+    "count": 10,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "feature",
+      "use-case",
+      "team",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "card-grid",
+      "minimal",
+      "photography",
+      "split",
+      "monochrome",
+      "form"
+    ],
+    "sectionIds": [
+      "ed661d0d78",
+      "6390f4dc4d",
+      "6586d0337a",
+      "2328a8d324",
+      "8afa94fa23",
+      "1d57a9627d",
+      "18a279cbb7",
+      "a85fc5781d",
+      "49d0433bfe",
+      "a8cd0a2ea6"
+    ],
+    "cover": "ed661d0d78",
+    "addedAt": "2026-10-13T11:04:38.000Z"
+  },
+  {
     "slug": "harmonic",
     "name": "Harmonic",
     "industries": [
@@ -4478,6 +4759,46 @@
     ],
     "cover": "1dd8c54e1b",
     "addedAt": "2026-10-02T06:48:18.989Z"
+  },
+  {
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
+    "domain": "ideogram.ai",
+    "domainVerified": true,
+    "count": 8,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "testimonial",
+      "faq"
+    ],
+    "topTags": [
+      "photography",
+      "card-grid",
+      "split",
+      "full-bleed-media",
+      "serif",
+      "logo-strip"
+    ],
+    "sectionIds": [
+      "8a7b60ffbc",
+      "4d693133ca",
+      "7d0622abeb",
+      "3dd15865c6",
+      "ac61038372",
+      "8a984e3a23",
+      "e31d85ed1a",
+      "2e2a85e090"
+    ],
+    "cover": "8a7b60ffbc",
+    "addedAt": "2026-10-13T11:05:02.097Z"
   },
   {
     "slug": "incident",
@@ -6237,6 +6558,31 @@
     "addedAt": "2026-10-02T06:48:19.775Z"
   },
   {
+    "slug": "numa",
+    "name": "Numa",
+    "industries": [
+      "healthcare"
+    ],
+    "domain": null,
+    "domainVerified": false,
+    "count": 1,
+    "hasPage": false,
+    "indexable": false,
+    "categories": [
+      "cta"
+    ],
+    "topTags": [
+      "oversized-type",
+      "gradient",
+      "centered"
+    ],
+    "sectionIds": [
+      "1e36987455"
+    ],
+    "cover": "1e36987455",
+    "addedAt": "2026-10-12T07:36:17.758Z"
+  },
+  {
     "slug": "operate",
     "name": "Operate",
     "industries": [
@@ -6744,6 +7090,49 @@
     ],
     "cover": "6be3524c82",
     "addedAt": "2026-10-02T06:48:19.986Z"
+  },
+  {
+    "slug": "piqo",
+    "name": "Piqo",
+    "industries": [
+      "data-analytics"
+    ],
+    "domain": "piqo.app",
+    "domainVerified": true,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "testimonial",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "dark-mode",
+      "monochrome",
+      "centered",
+      "product-ui",
+      "tabs",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "0fee02d9f5",
+      "7fb9fb327d",
+      "b55fa59347",
+      "ccd46ccd16",
+      "0fe9cd22e1",
+      "14f4c7d9ce",
+      "1bfc75e489",
+      "9a2fe7b3b3",
+      "288c6a9fd6"
+    ],
+    "cover": "0fee02d9f5",
+    "addedAt": "2026-10-13T10:54:16.000Z"
   },
   {
     "slug": "plaid",
@@ -7710,6 +8099,66 @@
     "addedAt": "2026-10-01T04:52:38.000Z"
   },
   {
+    "slug": "remote",
+    "name": "Remote",
+    "industries": [
+      "hr"
+    ],
+    "domain": "remote.com",
+    "domainVerified": true,
+    "count": 24,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "value-proposition",
+      "feature",
+      "stats",
+      "integration",
+      "testimonial",
+      "pricing",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "gradient",
+      "split",
+      "minimal",
+      "monochrome",
+      "card-grid",
+      "3d"
+    ],
+    "sectionIds": [
+      "ef2ce13e58",
+      "7476207a49",
+      "7bdf5a4cc2",
+      "a286bcb9ea",
+      "455ba56d78",
+      "13f0546cf5",
+      "f62711a02f",
+      "e627ac2343",
+      "b6e303ad80",
+      "33d5bae588",
+      "a83f3fb428",
+      "ec31fc58aa",
+      "cbe60a122c",
+      "e89d299879",
+      "23da07ac8a",
+      "df844bfe89",
+      "dba4b054bd",
+      "05790b9105",
+      "bf0de5c269",
+      "e19affdc9d",
+      "8b3dbc962d",
+      "f1c118b686",
+      "5051504814",
+      "ce8bc38a9b"
+    ],
+    "cover": "ef2ce13e58",
+    "addedAt": "2026-10-13T10:51:22.000Z"
+  },
+  {
     "slug": "response",
     "name": "Response",
     "industries": [
@@ -7867,7 +8316,7 @@
     ],
     "domain": "rogo.com",
     "domainVerified": true,
-    "count": 8,
+    "count": 13,
     "hasPage": true,
     "indexable": true,
     "categories": [
@@ -7876,11 +8325,13 @@
       "value-proposition",
       "stats",
       "security",
-      "footer"
+      "footer",
+      "feature",
+      "integration"
     ],
     "topTags": [
-      "monochrome",
       "serif",
+      "monochrome",
       "minimal",
       "dark-mode",
       "centered",
@@ -7893,11 +8344,16 @@
       "893783dfee",
       "3ba5d5c045",
       "11d2ab649e",
+      "47ed5ffb46",
       "0a83519f7b",
-      "2fc641f21c"
+      "2831a9b8e8",
+      "6f888de144",
+      "cf9a6de0b2",
+      "2fc641f21c",
+      "f2543cc385"
     ],
     "cover": "433d8a1ced",
-    "addedAt": "2026-10-02T14:21:06.000Z"
+    "addedAt": "2026-10-13T11:05:40.547Z"
   },
   {
     "slug": "routable",
@@ -8170,6 +8626,43 @@
     "addedAt": "2026-10-02T06:48:20.366Z"
   },
   {
+    "slug": "schematik",
+    "name": "Schematik",
+    "industries": [
+      "ai",
+      "developer-tools"
+    ],
+    "domain": "schematik.io",
+    "domainVerified": true,
+    "count": 5,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "how-it-works",
+      "testimonial",
+      "footer"
+    ],
+    "topTags": [
+      "warm-neutral",
+      "centered",
+      "pattern-background",
+      "bold-color",
+      "carousel",
+      "photography"
+    ],
+    "sectionIds": [
+      "a88a34830d",
+      "14342fe727",
+      "46f72f7b0d",
+      "a32ff94ddd",
+      "52205cdac6"
+    ],
+    "cover": "a88a34830d",
+    "addedAt": "2026-10-13T10:57:32.000Z"
+  },
+  {
     "slug": "seamless",
     "name": "Seamless.AI",
     "industries": [
@@ -8275,6 +8768,107 @@
     ],
     "cover": "7795aab282",
     "addedAt": "2026-10-02T14:28:07.276Z"
+  },
+  {
+    "slug": "semrush",
+    "name": "Semrush",
+    "industries": [
+      "sales-marketing"
+    ],
+    "domain": "semrush.com",
+    "domainVerified": true,
+    "count": 15,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "logo-cloud",
+      "feature",
+      "stats",
+      "testimonial",
+      "pricing",
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "dark-mode",
+      "minimal",
+      "card-grid",
+      "centered",
+      "pastel"
+    ],
+    "sectionIds": [
+      "9a0e02fd1d",
+      "e250d8c204",
+      "579b24b630",
+      "1bf1aea06d",
+      "cf23a57cf0",
+      "889a80f057",
+      "ece7447c98",
+      "9e3beebaa2",
+      "c59b21903c",
+      "b2d692540c",
+      "5f967d61e8",
+      "c7bc05f9e7",
+      "7f664e3d01",
+      "e9c7e9407e",
+      "8f7621b037"
+    ],
+    "cover": "9a0e02fd1d",
+    "addedAt": "2026-10-13T11:00:06.034Z"
+  },
+  {
+    "slug": "sendr",
+    "name": "Sendr",
+    "industries": [
+      "sales-marketing",
+      "ai"
+    ],
+    "domain": "sendr.ai",
+    "domainVerified": true,
+    "count": 16,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "value-proposition",
+      "feature",
+      "how-it-works",
+      "use-case",
+      "pricing",
+      "faq",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "product-ui",
+      "split",
+      "minimal",
+      "logo-strip",
+      "gradient",
+      "card-grid"
+    ],
+    "sectionIds": [
+      "0576e471ef",
+      "155bca4b26",
+      "e6631b608c",
+      "fcdbed7e8e",
+      "18a382eba5",
+      "3f6315f001",
+      "970829989c",
+      "825741f4e1",
+      "041d74f77f",
+      "c1628de57e",
+      "85194a200f",
+      "b1e6ba1906",
+      "1e7a5226ab",
+      "3346d2509c",
+      "bfd3e4cb58",
+      "521a36a48b"
+    ],
+    "cover": "0576e471ef",
+    "addedAt": "2026-10-13T11:03:05.416Z"
   },
   {
     "slug": "sevalla",
@@ -9117,6 +9711,36 @@
     "addedAt": "2026-10-02T06:48:20.563Z"
   },
   {
+    "slug": "therealhotels",
+    "name": "The Real Hotels",
+    "industries": [
+      "logistics"
+    ],
+    "domain": "therealhotels.com",
+    "domainVerified": true,
+    "count": 2,
+    "hasPage": true,
+    "indexable": false,
+    "categories": [
+      "hero",
+      "feature"
+    ],
+    "topTags": [
+      "serif",
+      "photography",
+      "centered",
+      "dark-mode",
+      "oversized-type",
+      "full-bleed-media"
+    ],
+    "sectionIds": [
+      "1a662f34c6",
+      "dc5ce977cc"
+    ],
+    "cover": "1a662f34c6",
+    "addedAt": "2026-10-13T10:54:42.000Z"
+  },
+  {
     "slug": "time-fyi",
     "name": "time.fyi",
     "industries": [
@@ -9159,6 +9783,38 @@
     ],
     "cover": "853ea57f85",
     "addedAt": "2026-10-01T12:23:44.000Z"
+  },
+  {
+    "slug": "tribe",
+    "name": "Tribe AI",
+    "industries": [
+      "agencies",
+      "ai"
+    ],
+    "domain": "tribe.ai",
+    "domainVerified": true,
+    "count": 3,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "blog",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "card-grid",
+      "split",
+      "logo-strip",
+      "dark-mode",
+      "oversized-type"
+    ],
+    "sectionIds": [
+      "edfff71d0f",
+      "4d6c3ef4f1",
+      "e4f188545c"
+    ],
+    "cover": "edfff71d0f",
+    "addedAt": "2026-10-13T10:57:21.378Z"
   },
   {
     "slug": "twin",
@@ -9615,6 +10271,48 @@
     ],
     "cover": "7fceadd956",
     "addedAt": "2026-10-01T04:44:24.728Z"
+  },
+  {
+    "slug": "visual",
+    "name": "Visual",
+    "industries": [
+      "design-tools",
+      "ai"
+    ],
+    "domain": "visual.app",
+    "domainVerified": true,
+    "count": 9,
+    "hasPage": true,
+    "indexable": true,
+    "categories": [
+      "hero",
+      "feature",
+      "use-case",
+      "blog",
+      "cta",
+      "footer"
+    ],
+    "topTags": [
+      "serif",
+      "monochrome",
+      "pattern-background",
+      "centered",
+      "dark-mode",
+      "product-ui"
+    ],
+    "sectionIds": [
+      "9843b1c0c9",
+      "bef8caf907",
+      "ae841f2174",
+      "f340f7ed70",
+      "a97cafc0df",
+      "f30f3647d3",
+      "82bab51cdd",
+      "aba74ffa1f",
+      "53a10743d6"
+    ],
+    "cover": "9843b1c0c9",
+    "addedAt": "2026-10-13T11:02:20.000Z"
   },
   {
     "slug": "vizcom",

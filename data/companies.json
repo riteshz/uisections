@@ -651,5 +651,65 @@
   },
   "groundcover": {
     "domain": "groundcover.com"
+  },
+  "a-lign": {
+    "name": "A-LIGN",
+    "domain": "a-lign.studio"
+  },
+  "agentid": {
+    "name": "AgentID",
+    "domain": "agentid.com"
+  },
+  "flynnys": {
+    "name": "Flynny's",
+    "domain": "flynnys.com"
+  },
+  "happyrobot": {
+    "name": "HappyRobot",
+    "domain": "happyrobot.ai"
+  },
+  "ideogram": {
+    "name": "Ideogram",
+    "domain": "ideogram.ai"
+  },
+  "piqo": {
+    "name": "Piqo",
+    "domain": "piqo.app"
+  },
+  "remote": {
+    "name": "Remote",
+    "domain": "remote.com"
+  },
+  "semrush": {
+    "name": "Semrush",
+    "domain": "semrush.com"
+  },
+  "sendr": {
+    "name": "Sendr",
+    "domain": "sendr.ai"
+  },
+  "tribe": {
+    "name": "Tribe AI",
+    "domain": "tribe.ai"
+  },
+  "visual": {
+    "name": "Visual",
+    "domain": "visual.app"
+  },
+  "cofactr": {
+    "name": "Cofactr",
+    "domain": "cofactr.com"
+  },
+  "thebrightapp": {
+    "domain": "thebrightapp.xyz"
+  },
+  "dial": {
+    "domain": "dial.software"
+  },
+  "schematik": {
+    "domain": "schematik.io"
+  },
+  "therealhotels": {
+    "domain": "therealhotels.com"
   }
 }

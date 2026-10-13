@@ -1,0 +1,19 @@
+{"companies":[
+{"slug":"flynnys","primary":"ecommerce","secondary":null,"confidence":"high","note":"D2C razor and blade brand with subscribe-and-save"},
+{"slug":"numa","primary":"healthcare","secondary":null,"confidence":"high","note":"Insulin delivery medical device available for pre-order"},
+{"slug":"a-lign","primary":"agencies","secondary":null,"confidence":"high","note":"Website design studio selling web design services"},
+{"slug":"agentid","primary":"cybersecurity","secondary":"ai","confidence":"medium","note":"Verified sign-in identity (OIDC) for AI agents so they need not use owner credentials"},
+{"slug":"cofactr","primary":"logistics","secondary":null,"confidence":"medium","note":"Electronics supply chain platform: component procurement, warehousing and kitting for hardware makers"},
+{"slug":"dial","primary":"productivity","secondary":null,"confidence":"high","note":"macOS automatic time-tracking app"},
+{"slug":"happyrobot","primary":"ai","secondary":"logistics","confidence":"high","note":"Enterprise AI agent platform deployed heavily in logistics (DHL, Kuehne+Nagel)"},
+{"slug":"ideogram","primary":"design-tools","secondary":"ai","confidence":"high","note":"Generative AI image creation platform and models"},
+{"slug":"piqo","primary":"data-analytics","secondary":null,"confidence":"high","note":"Simple web analytics tied to revenue attribution"},
+{"slug":"remote","primary":"hr","secondary":null,"confidence":"high","note":"Global HR platform: employer of record, contractor management and payroll"},
+{"slug":"schematik","primary":"ai","secondary":"developer-tools","confidence":"medium","note":"AI copilot that turns ideas into wiring diagrams, code and parts lists for hardware builds"},
+{"slug":"semrush","primary":"sales-marketing","secondary":null,"confidence":"high","note":"SEO and online visibility platform for search and AI answers"},
+{"slug":"sendr","primary":"sales-marketing","secondary":"ai","confidence":"medium","note":"AI-driven outbound sales platform with personalised pages, videos and a unified inbox"},
+{"slug":"thebrightapp","primary":"healthcare","secondary":null,"confidence":"high","note":"Consumer health and activity tracking super app"},
+{"slug":"therealhotels","primary":"logistics","secondary":null,"confidence":"medium","note":"Travel site curating luxury hotels featured on The Real Housewives, with affiliate booking"},
+{"slug":"tribe","primary":"agencies","secondary":"ai","confidence":"high","note":"AI consultancy embedding engineers to build and deploy enterprise AI"},
+{"slug":"visual","primary":"design-tools","secondary":"ai","confidence":"medium","note":"AI design agents that create on-brand decks and documents for revenue teams"}
+]}

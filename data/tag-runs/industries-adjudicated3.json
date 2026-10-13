@@ -1,0 +1,3 @@
+{ "companies": [
+  { "slug": "sendr", "primary": "sales-marketing", "secondary": "ai", "note": "Runs split only on the secondary; sendr.ai pages centre on AI-personalised outbound pages and replies" }
+] }

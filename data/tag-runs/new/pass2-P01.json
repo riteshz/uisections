@@ -1,0 +1,11 @@
+{
+  "taskId": "P01",
+  "sites": [
+    { "batch": "png-flynnys-com-ref-land-book-com", "companyName": "Flynny's", "companySlug": "flynnys", "confidence": "high", "evidence": "FLYNNY'S wordmark in nav and on product packaging" },
+    { "batch": "png-numa-uprock-pro-1", "companyName": "Numa", "companySlug": "numa", "confidence": "high", "evidence": "numa wordmark in footer, '© 2026 Numa. Smart insulin management system', 'Pre-order Numa' button" }
+  ],
+  "records": [
+    { "id": "1209926a55", "companyName": "Flynny's", "companySlug": "flynnys", "companyConfidence": "high", "category": "hero", "categoryConfidence": "high" },
+    { "id": "1e36987455", "companyName": "Numa", "companySlug": "numa", "companyConfidence": "high", "category": "cta", "categoryConfidence": "medium" }
+  ]
+}
