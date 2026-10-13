@@ -68,6 +68,9 @@ const ld = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null;
 
     <Font cssVariable="--font-inter" preload />
     {ld && <script type="application/ld+json" set:html={ld} />}
+    {/* Umami analytics (cookieless). Counts only the live domain; hash changes from the
+        viewer (#s-…) are not pageviews, the viewer sends its own events instead. */}
+    <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="76ae694d-859c-4f8c-9b14-ac5cb10b48a4" data-domains="uisections.com" data-exclude-hash="true"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>

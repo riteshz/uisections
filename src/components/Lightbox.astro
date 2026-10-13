@@ -358,6 +358,11 @@ const taxonomy = {
     const stage = $<HTMLElement>('[data-lb-stage]');
     const img = $<HTMLImageElement>('[data-lb-img]');
     const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+    type Umami = { track: (event: string, data?: Record<string, string>) => void };
+    /** Umami custom event for the section on screen; a no-op when analytics is blocked or not loaded. */
+    const track = (event: string) => {
+      if (current) (window as Window & { umami?: Umami }).umami?.track(event, { company: current.dataset.companyName ?? '', category: current.dataset.cat ?? '' });
+    };
     let current: HTMLElement | null = null;
     let currentA: HTMLAnchorElement | null = null;
     let pushed = false;
@@ -416,6 +421,7 @@ const taxonomy = {
       $('[data-lb-pos]').textContent = i >= 0 ? `${i + 1} / ${list.length}` : '';
       for (const n of [list[i - 1], list[i + 1]]) if (n) new Image().src = srcFor(n);
       current = card;
+      track('section-view');
       currentA = a;
       setMenu(false);
       resetCopy();
@@ -535,6 +541,7 @@ const taxonomy = {
         // The item is created inside the click (Safari requires that) with the PNG still pending.
         await navigator.clipboard.write([new ClipboardItem({ 'image/png': pngOf(currentA.href) })]);
         notify('Image copied to clipboard', copyMain);
+        track('copy-image');
       } catch {
         notify('Couldn’t copy the image. Try Download image instead.');
       }
@@ -645,6 +652,7 @@ const taxonomy = {
       try {
         await copyText(promptFor(currentA, current));
         notify('Prompt copied. Paste it with the image', promptBtn);
+        track('copy-prompt');
       } catch {
         notify('Couldn’t copy the prompt');
       }
@@ -659,6 +667,7 @@ const taxonomy = {
       link.click();
       link.remove();
       notify('Download started');
+      track('download-image');
     }
 
     copyMain.addEventListener('click', () => { setMenu(false); copyImage(); });
