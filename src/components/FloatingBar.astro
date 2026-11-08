@@ -1,0 +1,103 @@
+---
+// Floating search + filter bar at the bottom of every page (marked.dev-style).
+// Search hands what was typed to the ⌘K palette; Filter opens FilterDialog.
+import Icon from './Icon.astro';
+---
+<div class="fbar" data-fbar>
+  <form class="fbar-search" role="search" action="/categories/" data-fbar-search>
+    <label class="sr-only" for="fbar-q">Search section types, styles, industries and companies</label>
+    <Icon name="search" size={18} />
+    <input id="fbar-q" name="q" type="search" placeholder="Search sections, styles, companies…" data-short="Search sections…" autocomplete="off" spellcheck="false" enterkeyhint="search" />
+    <kbd class="kbd" aria-hidden="true">/</kbd>
+    <button type="submit" class="sr-only">Search</button>
+  </form>
+  <button type="button" class="fbar-filter" data-open-filter aria-label="Filter sections" aria-keyshortcuts="F" aria-haspopup="dialog">
+    <Icon name="sliders" size={18} />
+    <span class="label">Filter</span>
+    <span class="badge tabular" data-filter-badge hidden></span>
+    <kbd class="kbd" aria-hidden="true">F</kbd>
+  </button>
+</div>
+
+<style>
+  .fbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: max(20px, env(safe-area-inset-bottom));
+    z-index: 40;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 16px;
+    pointer-events: none;
+  }
+  .fbar-search,
+  .fbar-filter {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    corner-shape: squircle;
+    background: rgb(255 255 255 / 0.86);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    backdrop-filter: blur(16px) saturate(160%);
+    box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.08), 0 16px 40px -14px rgb(var(--ink-rgb) / 0.35);
+  }
+  .fbar-search { gap: 10px; width: 380px; max-width: calc(100% - 132px); padding: 0 10px 0 16px; color: var(--ink-4); }
+  .fbar-search:focus-within { box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.2), 0 0 0 4px hsl(212 100% 50% / 0.16), 0 16px 40px -14px rgb(var(--ink-rgb) / 0.35); }
+  .fbar-search > :global(svg) { flex: none; }
+  .fbar-search input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font: inherit;
+    font-size: 0.9375rem;
+    color: var(--ink);
+  }
+  .fbar-search input::placeholder { color: var(--ink-4); }
+  .fbar-search input:focus-visible { box-shadow: none; }
+  .fbar-search input::-webkit-search-cancel-button { display: none; }
+  .fbar-filter { position: relative; gap: 8px; padding: 0 10px 0 16px; color: var(--ink); font-size: 0.9375rem; font-weight: 550; cursor: pointer; transition: scale 0.2s var(--ease-spring); }
+  .fbar-filter:active { scale: 0.96; }
+  .badge { display: inline-grid; place-items: center; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 999px; background: var(--ink); color: #fff; font-size: 0.6875rem; font-weight: 600; }
+  .badge[hidden] { display: none; }
+  .kbd { flex: none; }
+
+  /* Phones: search fills the row, filter becomes a dark icon button. */
+  @media (max-width: 640px) {
+    .fbar { bottom: max(14px, env(safe-area-inset-bottom)); padding: 0 12px; }
+    .fbar-search { flex: 1; width: auto; max-width: none; border-radius: 18px; }
+    .fbar-search input { font-size: 16px; }
+    .fbar-filter { width: 50px; padding: 0; justify-content: center; border-radius: 18px; background: var(--ink); color: #fff; }
+    .fbar-filter .label, .fbar-filter .kbd { display: none; }
+    .fbar-filter .badge { position: absolute; top: -4px; right: -4px; background: #fff; color: var(--ink); box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.12); }
+  }
+  @media (max-width: 640px), (hover: none) { .fbar-search .kbd { display: none; } }
+  /* Keep the bar clear of open dialogs. */
+  :global(html:has(dialog[open])) .fbar { visibility: hidden; }
+</style>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('[data-fbar-search]');
+  if (form) {
+    const input = form.querySelector('input')!;
+    const open = () => {
+      const q = input.value;
+      input.value = '';
+      input.blur();
+      document.dispatchEvent(new CustomEvent('palette:open', { detail: { q } }));
+    };
+    input.addEventListener('input', (e) => { if (!(e as InputEvent).isComposing && input.value.trim()) open(); });
+    input.addEventListener('compositionend', () => { if (input.value.trim()) open(); });
+    form.addEventListener('submit', (e) => { e.preventDefault(); open(); });
+    // On touch screens a tap opens the full search straight away.
+    input.addEventListener('click', () => { if (matchMedia('(pointer: coarse)').matches) open(); });
+    // The long placeholder doesn't fit on phones.
+    if (matchMedia('(max-width: 640px)').matches && input.dataset.short) input.placeholder = input.dataset.short;
+  }
+</script>

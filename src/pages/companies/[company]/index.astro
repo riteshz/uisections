@@ -53,6 +53,7 @@ const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path, name: seo.h1
   ogAlt={seo.h1}
   noindex={!c.indexable}
   jsonld={jsonld}
+  filterPreset={{ company: [c.slug] }}
 >
   <div class="container-wide">
     <div class="co-head">

@@ -3,17 +3,17 @@ import Logo from './Logo.astro';
 import Icon from './Icon.astro';
 
 const links = [
-  { href: '/categories/', label: 'Sections' },
+  { href: '/', label: 'Explore' },
+  { href: '/categories/', label: 'Section types' },
   { href: '/tags/', label: 'Styles' },
   { href: '/industries/', label: 'Industries' },
   { href: '/companies/', label: 'Companies' },
-  { href: '/about/', label: 'About' },
 ];
 const current = Astro.url.pathname;
 const isCurrent = (href: string) =>
   current === href ||
   (href === '/categories/' && /^\/[a-z-]+-sections\/$/.test(current)) ||
-  (href !== '/categories/' && current.startsWith(href));
+  (href !== '/' && href !== '/categories/' && current.startsWith(href));
 ---
 <header class="site-header" data-header>
   <div class="bar container-wide">
@@ -27,17 +27,12 @@ const isCurrent = (href: string) =>
       </nav>
     </div>
 
-    <button type="button" class="search-pill" data-open-palette aria-label="Search sections, styles and companies" aria-keyshortcuts="Meta+K Control+K /">
-      <Icon name="search" size={16} />
-      <span class="label">Search sections, styles, companies…</span>
-      <kbd class="kbd" data-kbd>⌘K</kbd>
-    </button>
-
     <div class="tools">
+      <a class="about" href="/about/" aria-current={isCurrent('/about/') ? 'page' : undefined}>About</a>
       <details class="menu" data-menu>
         <summary class="icon-btn" aria-label="Open menu"><Icon name="menu" size={20} /></summary>
         <div class="menu-panel">
-          {links.map((l) => <a href={l.href} aria-current={isCurrent(l.href) ? 'page' : undefined}>{l.label}</a>)}
+          {[...links, { href: '/about/', label: 'About' }].map((l) => <a href={l.href} aria-current={isCurrent(l.href) ? 'page' : undefined}>{l.label}</a>)}
         </div>
       </details>
     </div>
@@ -90,37 +85,27 @@ const isCurrent = (href: string) =>
 
   .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 620; font-size: 1.0625rem; letter-spacing: -0.02em; color: var(--ink); }
   .brand:active { scale: 0.98; }
-  .nav { display: flex; gap: 22px; }
+  .nav { display: flex; gap: 24px; }
   .nav a { font-size: 0.875rem; font-weight: 520; color: var(--ink-3); transition: color 0.16s, scale 0.12s; }
   .nav a:hover, .nav a[aria-current='page'] { color: var(--ink); }
   .nav a:active { scale: 0.985; }
 
-  .search-pill {
-    margin-left: auto;
-    display: flex;
+  .about {
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
-    width: min(320px, 30vw);
-    height: 44px;
-    padding: 0 8px 0 16px;
-    border-radius: var(--r-btn);
+    height: 38px;
+    padding: 0 15px;
+    border-radius: var(--r-btn-sm);
     corner-shape: squircle;
     background: var(--wash);
-    color: var(--ink-4);
-    font-size: 0.875rem;
-    cursor: pointer;
-    transition: background-color 0.16s, box-shadow 0.24s var(--ease-morph);
+    color: var(--ink);
+    font-size: 0.8125rem;
+    font-weight: 550;
+    transition: background-color 0.16s, scale 0.2s var(--ease-spring);
   }
-  @media (hover: hover) { .search-pill:hover { background: var(--wash-hover); color: var(--ink-3); } }
-  .search-pill:active { scale: 0.98; }
-  .search-pill .label { flex: 1; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  [data-scrolled] .search-pill { background: rgb(255 255 255 / 0.6); box-shadow: inset 0 0 0 1px var(--line); }
-  [data-bare] .search-pill {
-    background: rgb(255 255 255 / 0.74);
-    -webkit-backdrop-filter: blur(8px) saturate(160%);
-    backdrop-filter: blur(8px) saturate(160%);
-    box-shadow: var(--shadow-float);
-  }
+  @media (hover: hover) { .about:hover { background: var(--wash-hover); } }
+  .about:active { scale: 0.97; }
+  .about[aria-current='page'] { background: var(--ink); color: #fff; }
 
   .menu { display: none; position: relative; }
   .menu summary { list-style: none; }
@@ -144,13 +129,9 @@ const isCurrent = (href: string) =>
   @media (hover: hover) { .menu-panel a:not(.btn):hover { background: var(--wash); color: var(--ink); } }
   @keyframes pop { from { opacity: 0; scale: 0.94; translate: 0 -4px; } }
 
-  @media (max-width: 1100px) {
-    .search-pill { width: 44px; padding: 0; justify-content: center; }
-    .search-pill .label, .search-pill .kbd { display: none; }
-  }
   /* Phones and tablets: the whole bar slides away on scroll-down and back on scroll-up. */
   @media (max-width: 900px) {
-    .nav { display: none; }
+    .nav, .about { display: none; }
     .menu { display: block; }
     .menu summary.icon-btn { width: 44px; height: 44px; }
     .site-header { transition: translate 0.32s var(--ease-morph); }
@@ -162,7 +143,6 @@ const isCurrent = (href: string) =>
     }
     .site-header[data-bare]::before { opacity: 1; }
     [data-bare] .lead, [data-bare] .tools { opacity: 1; translate: none; visibility: visible; }
-    [data-bare] .search-pill { background: var(--wash); box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
   }
   @media (max-width: 900px) and (prefers-reduced-motion: reduce) {
     .site-header[data-bare] { translate: none; }
@@ -191,8 +171,5 @@ const isCurrent = (href: string) =>
       const menu = header.querySelector<HTMLDetailsElement>('[data-menu]');
       if (menu?.open && !menu.contains(e.target as Node)) menu.open = false;
     });
-
-    // Show Ctrl K on non-Apple platforms.
-    if (!/Mac|iPhone|iPad/.test(navigator.platform)) header.querySelectorAll('[data-kbd]').forEach((k) => (k.textContent = 'Ctrl K'));
   }
 </script>

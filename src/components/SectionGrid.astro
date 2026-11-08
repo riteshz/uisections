@@ -9,73 +9,61 @@ interface Props {
   eagerCount?: number;
   /** Cards that get fetchpriority=high (0 when the grid is below the fold). */
   priorityCount?: number;
-  showCompany?: boolean;
-  showCategory?: boolean;
   label?: string;
 }
 
-const { items, id, eagerCount = 6, priorityCount = 2, showCompany = true, showCategory = true, label } = Astro.props;
+// The first row is fetched at high priority: in a masonry row the tallest card is often the LCP.
+const { items, id, eagerCount = 8, priorityCount = 4, label } = Astro.props;
 ---
-<ol class="section-grid" id={id} data-grid role="list" aria-label={label}>
-  {items.map((s, i) => (
-    <SectionCard s={s} index={i} eager={i < eagerCount} priority={i < priorityCount} showCompany={showCompany} showCategory={showCategory} />
-  ))}
+<ol class="section-grid" id={id} data-grid data-masonry role="list" aria-label={label}>
+  {items.map((s, i) => <SectionCard s={s} index={i} eager={i < eagerCount} priority={i < priorityCount} />)}
 </ol>
+<script is:inline>window.uiMasonry && window.uiMasonry(document.currentScript.previousElementSibling);</script>
 <p class="grid-empty t-meta" data-grid-empty hidden>No sections match this filter yet.</p>
 
 <style is:global>
-  /* Two columns from phones up, three on wide screens. */
+  /* Masonry: cards keep their own shape, in left-to-right order. Without the layout
+     script this is a plain grid; uiMasonry (BaseLayout) sets each card's row span. */
   .section-grid {
+    --cols: 2;
+    --gap: 10px;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 24px 10px;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    gap: var(--gap);
+    align-items: start;
   }
-  @media (min-width: 640px) { .section-grid { gap: 36px 20px; } }
-  @media (min-width: 1100px) { .section-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 24px; } }
+  @media (min-width: 720px) { .section-grid { --cols: 3; --gap: 14px; } }
+  /* Four columns at most, however wide the screen. */
+  @media (min-width: 1100px) { .section-grid { --cols: 4; } }
+  .section-grid.is-masonry { grid-auto-rows: 2px; row-gap: 0; }
 
   .card { position: relative; min-width: 0; }
-  /* Placeholder heights close to real card heights keep scrolling steady. */
-  .card:not(.eager) { content-visibility: auto; contain-intrinsic-size: auto 150px; }
-  @media (min-width: 640px) { .card:not(.eager) { contain-intrinsic-size: auto 260px; } }
-  @media (min-width: 1100px) { .card:not(.eager) { contain-intrinsic-size: auto 320px; } }
+  .card:not(.eager) { content-visibility: auto; contain-intrinsic-size: auto 240px; }
   .card[hidden] { display: none; }
 
   .card .thumb {
     display: block;
-    aspect-ratio: 16 / 10;
-    border-radius: 14px;
+    aspect-ratio: 1 / var(--r, 0.625);
+    border-radius: 16px;
+    corner-shape: squircle;
     background: var(--shot-bg, var(--wash));
     transition: box-shadow 0.3s var(--ease-out), translate 0.3s var(--ease-out), scale 0.2s var(--ease-spring);
   }
-  .card .thumb img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    transition: translate 0.3s var(--ease-out);
-  }
+  .card .thumb img { display: block; width: 100%; height: 100%; }
   .card .thumb img.cover { object-fit: cover; object-position: top center; }
   .card .thumb img.contain { object-fit: contain; object-position: center; }
 
   @media (hover: hover) {
-    .card .thumb:hover { box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.06), 0 14px 32px -12px rgb(var(--ink-rgb) / 0.22); translate: 0 -4px; }
+    .card .thumb:hover { box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.06), 0 14px 32px -12px rgb(var(--ink-rgb) / 0.22); translate: 0 -3px; }
   }
-  .card .thumb:active { scale: 0.98; transition-duration: 90ms; }
-
-  .card .meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; min-height: 24px; }
-  .card .co { min-width: 0; font-size: 0.9375rem; font-weight: 560; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .card a.co:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-  @media (max-width: 639px) {
-    .card .thumb { border-radius: 10px; }
-    .card .meta { margin-top: 8px; min-height: 20px; }
-    .card .meta .tag { display: none; }
-    .card .co { font-size: 0.8125rem; }
-  }
+  .card .thumb:active { scale: 0.985; transition-duration: 90ms; }
+  @media (max-width: 719px) { .card .thumb { border-radius: 12px; } }
 
   /* Entrances: first rows settle in (transform only, never invisible); the rest rise as they scroll in. */
   @media (prefers-reduced-motion: no-preference) {
-    .card.eager { animation: rise-solid 0.7s var(--ease-out-expo) both; animation-delay: calc(0.12s + var(--i) * 60ms); }
+    .card.eager { animation: rise-solid 0.7s var(--ease-out-expo) both; animation-delay: calc(0.08s + var(--i) * 50ms); }
     @supports (animation-timeline: view()) {
-      .card:not(.eager) { animation: wall-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+      .card:not(.eager) { animation: wall-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 45%; }
     }
   }
   @keyframes rise-solid { from { transform: translateY(14px); } }

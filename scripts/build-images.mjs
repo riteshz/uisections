@@ -10,6 +10,9 @@ const ENCODER_VERSION = 'v1';
 /** Card frame is 16:10; taller screenshots are cropped from the top. */
 export const FRAME_RATIO = 0.625;
 const THUMB_WIDTHS = [480, 960];
+/** Masonry cards keep each section's own shape, cropped from the top past 1.4× as tall as wide. */
+export const MASONRY_MAX_RATIO = 1.4;
+const MASONRY_WIDTH = 480;
 const LARGE_WIDTH = 1600;
 /** Full-height, mobile-friendly width for company pages and the lightbox on phones. */
 const MEDIUM_WIDTH = 1080;
@@ -26,9 +29,9 @@ async function encode(it) {
   const out = (suffix) => path.join(CACHE, `${it.id}-${suffix}.webp`);
   const entry = manifest[it.id] ?? {};
   const has = (key, suffix) => entry[key] && fs.existsSync(out(suffix));
-  const complete = THUMB_WIDTHS.every((w) => has(`t${w}`, w)) && has('lg', 'lg') && has('md', 'md');
-  if (complete) return;
-  if (!fs.existsSync(src)) throw new Error(`Original for ${it.id} (${it.file}) has moved and its web versions are incomplete — put the original back to re-encode it.`);
+  const fromOriginal = THUMB_WIDTHS.every((w) => has(`t${w}`, w)) && has('lg', 'lg') && has('md', 'md');
+  if (fromOriginal && has('m480', 'm480')) return;
+  if (!fromOriginal && !fs.existsSync(src)) throw new Error(`Original for ${it.id} (${it.file}) has moved and its web versions are incomplete — put the original back to re-encode it.`);
 
   // Thumbnails: crop the top of tall sections to the card frame.
   const cropH = it.ratio > FRAME_RATIO ? Math.round(it.width * FRAME_RATIO) : it.height;
@@ -40,6 +43,19 @@ async function encode(it) {
       .webp({ quality: 80, effort: 5, smartSubsample: true })
       .toFile(out(w));
     entry[`t${w}`] = { w: info.width, h: info.height, bytes: info.size };
+  }
+
+  // Masonry thumbnail: natural shape, very tall sections cropped from the top. Made from
+  // the cached full-height large image, so it works after originals have been moved.
+  if (!has('m480', 'm480')) {
+    const base = has('lg', 'lg') ? { file: out('lg'), ...entry.lg } : { file: src, w: it.width, h: it.height };
+    const mH = Math.min(base.h, Math.round(base.w * MASONRY_MAX_RATIO));
+    const info = await sharp(base.file)
+      .extract({ left: 0, top: 0, width: base.w, height: mH })
+      .resize({ width: Math.min(MASONRY_WIDTH, it.width) })
+      .webp({ quality: 80, effort: 5, smartSubsample: true })
+      .toFile(out('m480'));
+    entry.m480 = { w: info.width, h: info.height, bytes: info.size };
   }
 
   // Large (lightbox): full height. Small WebP originals are already web-ready.

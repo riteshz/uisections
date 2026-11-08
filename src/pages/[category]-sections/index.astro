@@ -36,7 +36,7 @@ const intro =
   `${c.count} hand-picked ${seo.keyword} examples from real product websites. Open any screenshot to see it full size, or filter by style to find the right pattern.`;
 const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: c.path, name: seo.h1, description: seo.description, items }));
 ---
-<BaseLayout title={seo.title} description={seo.description} ogImage={`/og/${c.id}-sections.jpg`} ogAlt={seo.h1} jsonld={jsonld}>
+<BaseLayout title={seo.title} description={seo.description} ogImage={`/og/${c.id}-sections.jpg`} ogAlt={seo.h1} jsonld={jsonld} filterPreset={{ type: [c.id] }}>
   <div class="container-wide">
     <PageIntro crumbs={crumbs} title={seo.h1} intro={intro} />
 
@@ -44,7 +44,7 @@ const jsonld = graph(breadcrumbNode(crumbs), collectionNode({ path: c.path, name
       <FilterBar options={styleOptions} total={items.length} attr="tags" param="style" target="grid" label="Filter by style" />
     </div>
 
-    <SectionGrid items={items} id="grid" showCategory={false} label={`${seo.name} examples`} />
+    <SectionGrid items={items} id="grid" label={`${seo.name} examples`} />
 
     <div class="below">
       <PatternsSummary items={items} title={`Common patterns in ${seo.keyword}s`} />

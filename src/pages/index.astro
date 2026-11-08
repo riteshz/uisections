@@ -1,127 +1,49 @@
 ---
+// Explore: every section newest first in a masonry grid (marked.dev-style). The first
+// page is static HTML; "Show more" and the filter dialog (?type=…&style=…) load the
+// rest from /explore.json.
 import BaseLayout from '../layouts/BaseLayout.astro';
-import HomeHero from '../components/HomeHero.astro';
-import HomeStyleFacets from '../components/HomeStyleFacets.astro';
 import HomeAbout from '../components/HomeAbout.astro';
-import Marquee from '../components/Marquee.astro';
-import SectionHeading from '../components/SectionHeading.astro';
-import TypeTiles from '../components/TypeTiles.astro';
-import FilterBar from '../components/FilterBar.astro';
+import PageIntro from '../components/PageIntro.astro';
 import SectionGrid from '../components/SectionGrid.astro';
-import { FACETS, categories, categoryStats, companies, pagedIndustries, pagedTags, sections, totals, type Section } from '../lib/data';
-import { fit, list } from '../lib/seo';
+import { categories, totals } from '../lib/data';
+import { EXPLORE_PAGE, exploreOrder } from '../lib/explore';
+import { fit } from '../lib/seo';
 import { SITE } from '../lib/site';
 import { collectionNode, graph, organizationNode, websiteNode } from '../lib/jsonld';
 
 const fmt = (n: number) => n.toLocaleString('en-US');
-const updated = new Date(totals.updated).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
-
-// Newest additions first, then spread so the same company never sits in neighbouring slots.
-const newest = [...sections].sort((a, b) => b.firstSeen.localeCompare(a.firstSeen)).slice(0, 48);
-const latest: Section[] = [];
-while (newest.length) {
-  const recent = new Set(latest.slice(-2).map((s) => s.company));
-  const i = newest.findIndex((s) => !recent.has(s.company));
-  latest.push(newest.splice(i < 0 ? 0 : i, 1)[0]);
-}
-
-// --- Marquee: 2 rows × 12, hero/feature first, one per company, dark and light alternating.
-// Deterministic: candidates are ordered by their content-hash id, which is stable but well mixed.
-const PER_ROW = 12;
-const preferred = new Set(['hero', 'feature']);
-const isFrame = (s: Section) => s.thumb.h / s.thumb.w >= 0.56 && s.company !== 'unknown';
-const byId = (a: Section, b: Section) => a.id.localeCompare(b.id);
-const pool = [
-  ...sections.filter((s) => isFrame(s) && preferred.has(s.category)).sort(byId),
-  ...sections.filter((s) => isFrame(s) && !preferred.has(s.category)).sort(byId),
-];
-const usedCompanies = new Set<string>();
-const pick = (dark: boolean) => {
-  const s = pool.find((x) => x.dark === dark && !usedCompanies.has(x.company)) ?? pool.find((x) => !usedCompanies.has(x.company));
-  if (s) usedCompanies.add(s.company);
-  return s;
-};
-const marqueeRows = [0, 1]
-  .map((r) => Array.from({ length: PER_ROW }, (_, i) => pick((i + r) % 2 === 0)).filter((s): s is Section => Boolean(s)))
-  .filter((row) => row.length >= 4);
-
-// --- Browse blocks
+const first = exploreOrder().slice(0, EXPLORE_PAGE);
 const sectionTypes = [...categories].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
-const latestOptions = categoryStats(latest).map((x) => ({ id: x.category.id, label: x.category.label, count: x.n }));
-const featured = companies
-  .filter((c) => c.hasPage && c.slug !== 'unknown')
-  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
-  .slice(0, 12);
-const styleGroups = FACETS.map((f) => ({
-  id: f.id,
-  label: f.label,
-  items: pagedTags
-    .filter((t) => t.facet === f.id)
-    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
-    .map((t) => ({ href: t.path, label: t.label, count: t.count })),
-})).filter((g) => g.items.length > 0);
-const industryTiles = [...pagedIndustries]
-  .sort((a, b) => b.companyCount - a.companyCount || a.label.localeCompare(b.label))
-  .map((i) => ({ path: i.path, label: i.label, count: i.companyCount, covers: i.covers }));
-const styleSub = `${pagedTags.length} ${pagedTags.length === 1 ? 'style' : 'styles'} across ${list(styleGroups.map((g) => g.label.toLowerCase()))}`;
 
 // --- SEO
 const h1 = 'Website section design inspiration';
+const intro = `${fmt(totals.sections)} real sections from ${fmt(totals.companies)} SaaS and startup sites, newest first. Open any screenshot full size, or filter by section type, style, industry and company.`;
 const title = `${SITE.name} — Website Section Design Inspiration`;
 const description = fit(
   `Browse ${fmt(totals.sections)} real website sections — heroes, pricing, features, footers and more — from ${fmt(totals.companies)} SaaS and startup sites. Filter by type and style.`,
   160,
 );
-const sub =
-  'A curated library of real sections from the best SaaS and startup websites. Browse heroes, pricing, features and footers by section type, style, industry and company.';
-const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '/', name: h1, description, items: latest, crumbs: false }));
+const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '/', name: h1, description, items: first, crumbs: false }));
 ---
 <BaseLayout title={title} description={description} path="/" ogImage="/og/default.jpg" ogAlt={`${SITE.name}: ${h1}`} jsonld={jsonld}>
-  <HomeHero
-    title={h1}
-    sub={sub}
-    pill={[`${fmt(totals.sections)} sections`, `${fmt(totals.companies)} companies`, `Updated ${updated}`]}
-    names={featured.slice(0, 6).map((c) => c.name)}
-    companyTotal={totals.companies}
-  />
+  <div class="container-wide explore">
+    <PageIntro title={h1} intro={intro} />
 
-  {marqueeRows.length > 0 && (
-    <div class="marquee-wrap enter-solid enter-5">
-      <Marquee rows={marqueeRows} />
+    <div class="active" data-active hidden>
+      <ul class="active-chips" aria-label="Active filters" data-active-chips></ul>
+      <p class="active-count tabular" aria-live="polite" data-active-count></p>
+      <a class="active-clear" href="/" data-active-clear>Clear all</a>
     </div>
-  )}
 
-  <section class="block container-wide" aria-labelledby="latest-title">
-    <div class="reveal">
-      <SectionHeading title="Recently added" id="latest-title" sub={`The latest ${latest.length} sections added to the library`} />
-      <div class="toolbar">
-        <FilterBar options={latestOptions} total={latest.length} attr="cat" param="section" target="latest" label="Filter recently added sections by type" />
-      </div>
+    <SectionGrid items={first} id="explore" label="Website sections, newest first" />
+
+    <div class="more-wrap">
+      <button type="button" class="btn btn-secondary" data-more>Show more sections</button>
     </div>
-    <SectionGrid items={latest} id="latest" eagerCount={0} priorityCount={0} label="Recently added sections" />
-  </section>
+  </div>
 
-  <section class="block container-wide reveal" aria-labelledby="types-title">
-    <SectionHeading title="Browse by section type" id="types-title" href="/categories/" linkLabel="All section types" sub={`${sectionTypes.length} section types`} />
-    <TypeTiles items={sectionTypes} />
-  </section>
-
-  {styleGroups.length > 0 && (
-    <section class="block container-wide reveal" aria-labelledby="styles-title">
-      <SectionHeading title="Browse by style" id="styles-title" href="/tags/" linkLabel="All styles" sub={styleSub} />
-      <HomeStyleFacets groups={styleGroups} />
-    </section>
-  )}
-
-  {industryTiles.length > 0 && (
-    <section class="block container-wide reveal" aria-labelledby="industries-title">
-      <SectionHeading title="Browse by industry" id="industries-title" href="/industries/" linkLabel="All industries" sub={`${industryTiles.length} industries, from fintech to developer tools`} />
-      <TypeTiles items={industryTiles} noun="companies" />
-    </section>
-  )}
-
-
-  <section class="block container-wide reveal" aria-labelledby="about-title">
+  <section class="block container-wide" aria-labelledby="about-title">
     <HomeAbout
       titleId="about-title"
       links={sectionTypes.slice(0, 5).map((c) => ({ href: c.path, label: c.plural }))}
@@ -135,16 +57,111 @@ const jsonld = graph(websiteNode(), organizationNode(), collectionNode({ path: '
 </BaseLayout>
 
 <style>
-  .marquee-wrap { margin-top: clamp(48px, 2rem + 3vw, 80px); }
-  .block { margin-top: clamp(56px, 2rem + 4vw, 120px); }
-  .toolbar { margin-bottom: 28px; }
-
-
-  /* Blocks below the fold rise in as they scroll into view (no JS; off without support or with reduced motion). */
-  @media (prefers-reduced-motion: no-preference) {
-    @supports (animation-timeline: view()) {
-      .reveal { animation: home-reveal linear both; animation-timeline: view(); animation-range: entry 0% entry 40%; }
-    }
+  .active { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: -8px 0 20px; }
+  .active[hidden] { display: none; }
+  .active-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .active-chips :global(button) {
+    display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 9px 0 13px;
+    border-radius: var(--r-btn-sm); corner-shape: squircle; background: var(--ink); color: #fff;
+    font-size: 0.8125rem; font-weight: 550; cursor: pointer; transition: scale 0.2s var(--ease-spring);
   }
-  @keyframes home-reveal { from { opacity: 0; transform: translateY(24px); } }
+  .active-chips :global(button:active) { scale: 0.96; }
+  .active-chips :global(svg) { opacity: 0.7; }
+  .active-count { font-size: 0.875rem; color: var(--ink-4); }
+  .active-clear { font-size: 0.875rem; font-weight: 550; color: var(--ink-2); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line-strong); }
+
+  .more-wrap { display: flex; justify-content: center; margin-top: 36px; }
+  .more-wrap [hidden] { display: none; }
+  .block { margin-top: clamp(64px, 2rem + 4vw, 120px); }
 </style>
+
+<script>
+  import { FACETS, cardElement, loadExplore, matcher, readSelection, relayout, selectionParams, selectionSize, type Facet, type Record_ } from '../scripts/explore-client';
+
+  const PAGE = 60;
+  const grid = document.getElementById('explore');
+  const more = document.querySelector<HTMLButtonElement>('[data-more]');
+  const active = document.querySelector<HTMLElement>('[data-active]');
+  const empty = document.querySelector<HTMLElement>('[data-grid-empty]');
+  if (grid && more && active) {
+    const chips = active.querySelector<HTMLElement>('[data-active-chips]')!;
+    const count = active.querySelector<HTMLElement>('[data-active-count]')!;
+    const staticCards = [...grid.children];
+    let list: Record_[] | null = null; // filtered results, or null for the full feed
+    let shown = staticCards.length;
+    let applied = ''; // the query the grid currently shows
+
+    const changed = () => document.dispatchEvent(new CustomEvent('explore:changed'));
+    const go = (url: string) => { history.pushState(null, '', url); apply(); };
+
+    async function apply() {
+      applied = location.search;
+      const sel = readSelection(new URLSearchParams(location.search));
+      if (!selectionSize(sel)) {
+        if (list) {
+          grid!.replaceChildren(...staticCards);
+          shown = staticCards.length;
+          list = null;
+          relayout(grid);
+        }
+        active!.hidden = true;
+        more!.hidden = false;
+        if (empty) empty.hidden = true;
+        changed();
+        return;
+      }
+      const data = await loadExplore();
+      const types = new Map(data.facets.type.map((t) => [t.id, t.label]));
+      list = data.sections.filter(matcher(data, sel));
+      grid!.replaceChildren(...list.slice(0, PAGE).map((r) => cardElement(data, r, types)));
+      shown = Math.min(PAGE, list.length);
+      relayout(grid);
+      more!.hidden = shown >= list.length;
+      if (empty) empty.hidden = list.length > 0;
+
+      // Active filter chips; each removes its own value.
+      const labels = new Map(FACETS.flatMap((f) => data.facets[f].map((o) => [`${f}:${o.id}`, o.label] as const)));
+      chips.replaceChildren(
+        ...FACETS.flatMap((f: Facet) =>
+          [...sel[f]].map((v) => {
+            const li = document.createElement('li');
+            const b = document.createElement('button');
+            b.type = 'button';
+            const label = labels.get(`${f}:${v}`) ?? v;
+            b.setAttribute('aria-label', `Remove ${label}`);
+            b.append(label);
+            b.insertAdjacentHTML('beforeend', '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>');
+            b.addEventListener('click', () => {
+              sel[f].delete(v);
+              const qs = selectionParams(sel);
+              go(`/${qs ? `?${qs}` : ''}`);
+            });
+            li.append(b);
+            return li;
+          }),
+        ),
+      );
+      count.textContent = `${list.length.toLocaleString('en-US')} ${list.length === 1 ? 'section' : 'sections'}`;
+      active!.hidden = false;
+      changed();
+    }
+
+    more.addEventListener('click', async () => {
+      more.disabled = true;
+      const data = await loadExplore();
+      const types = new Map(data.facets.type.map((t) => [t.id, t.label]));
+      const source = list ?? data.sections;
+      const next = source.slice(shown, shown + PAGE).map((r) => cardElement(data, r, types));
+      grid.append(...next);
+      shown += next.length;
+      relayout(grid);
+      more.hidden = shown >= source.length;
+      more.disabled = false;
+    });
+    active.querySelector('[data-active-clear]')!.addEventListener('click', (e) => { e.preventDefault(); go('/'); });
+    document.addEventListener('explore:apply', () => { apply(); window.scrollTo({ top: 0 }); });
+    // The viewer's #s-… history entries change only the hash: keep the grid as it is.
+    window.addEventListener('popstate', () => { if (location.search !== applied) apply(); });
+    if (location.search) apply();
+  }
+</script>

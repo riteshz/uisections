@@ -1,0 +1,280 @@
+---
+// Filter dialog (F): section type, style, industry and company checkboxes with a live
+// result count. On Explore it filters in place; elsewhere it opens Explore filtered,
+// starting from the page's own facet (BaseLayout's filterPreset).
+import Icon from './Icon.astro';
+---
+<dialog class="flt" data-filter-dialog aria-labelledby="flt-title">
+  <div class="flt-box">
+    <h2 id="flt-title" class="sr-only">Filter sections</h2>
+    <div class="flt-search">
+      <label class="sr-only" for="flt-q">Search filters</label>
+      <Icon name="search" size={18} />
+      <input id="flt-q" type="search" placeholder="Search section types, styles, industries, companies…" autocomplete="off" spellcheck="false" data-flt-q />
+      <button type="button" class="flt-esc" data-flt-close aria-label="Close filters">esc</button>
+    </div>
+    <div class="flt-body">
+      <nav class="flt-rail" aria-label="Filter groups">
+        <button type="button" data-flt-jump="type"><Icon name="grid" size={16} />Section type</button>
+        <button type="button" data-flt-jump="style"><Icon name="sparkle" size={16} />Style</button>
+        <button type="button" data-flt-jump="industry"><Icon name="briefcase" size={16} />Industry</button>
+        <button type="button" data-flt-jump="company"><Icon name="building" size={16} />Company</button>
+      </nav>
+      <div class="flt-list" data-flt-list>
+        <p class="flt-note">Loading filters…</p>
+      </div>
+    </div>
+    <div class="flt-foot">
+      <ul class="flt-chips" aria-label="Selected filters" data-flt-chips></ul>
+      <div class="flt-actions">
+        <button type="button" class="flt-reset" data-flt-reset>Reset</button>
+        <button type="button" class="flt-apply" data-flt-apply>Show sections</button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<style is:global>
+  .flt {
+    width: min(780px, calc(100vw - 24px));
+    height: min(620px, calc(100dvh - 48px));
+    max-width: none;
+    max-height: none;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 26px;
+    corner-shape: squircle;
+    background: #fff;
+    color: var(--ink);
+    box-shadow: 0 0 0 1px rgb(var(--ink-rgb) / 0.06), 0 40px 90px -30px rgb(0 0 0 / 0.5);
+    overflow: hidden;
+  }
+  .flt::backdrop { background: rgb(12 12 14 / 0.42); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+  .flt[open] { animation: flt-in 0.24s var(--ease-out-expo) both; }
+  .flt[open]::backdrop { animation: flt-fade 0.22s var(--ease-out) both; }
+  @keyframes flt-in { from { opacity: 0; transform: translateY(10px) scale(0.98); } }
+  @keyframes flt-fade { from { opacity: 0; } }
+
+  .flt-box { display: flex; flex-direction: column; height: 100%; }
+  .flt-search { flex: none; display: flex; align-items: center; gap: 12px; height: 60px; padding: 0 14px 0 22px; border-bottom: 1px solid var(--line); color: var(--ink-4); }
+  .flt-search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: transparent; font: inherit; font-size: 0.9375rem; color: var(--ink); }
+  .flt-search input::placeholder { color: var(--ink-4); }
+  .flt-search input:focus-visible { box-shadow: none; }
+  .flt-search input::-webkit-search-cancel-button { display: none; }
+  .flt-esc { height: 26px; padding: 0 9px; border-radius: 8px; corner-shape: squircle; background: var(--wash); font-size: 0.75rem; font-weight: 550; color: var(--ink-3); cursor: pointer; }
+
+  .flt-body { flex: 1; min-height: 0; display: flex; }
+  .flt-rail { flex: none; display: flex; flex-direction: column; gap: 2px; width: 200px; padding: 12px 10px; border-right: 1px solid var(--line); }
+  .flt-rail button { display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 12px; border-radius: var(--r-btn-sm); corner-shape: squircle; color: var(--ink-3); font-size: 0.875rem; text-align: left; cursor: pointer; transition: background-color 0.15s, color 0.15s; }
+  .flt-rail button[aria-current='true'] { background: var(--wash); color: var(--ink); font-weight: 560; }
+  @media (hover: hover) { .flt-rail button:hover { background: var(--wash); color: var(--ink); } }
+
+  .flt-list { flex: 1; min-width: 0; overflow-y: auto; overscroll-behavior: contain; padding: 4px 18px 16px; scrollbar-width: thin; }
+  .flt-note { padding: 24px 8px; color: var(--ink-4); font-size: 0.875rem; }
+  .flt-group { margin: 0; padding: 0; border: 0; }
+  .flt-group[hidden] { display: none; }
+  .flt-group legend { padding: 16px 8px 6px; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-4); }
+  .flt-row { display: flex; align-items: center; gap: 12px; min-height: 36px; padding: 0 8px; border-radius: 10px; font-size: 0.875rem; cursor: pointer; }
+  .flt-row[hidden] { display: none; }
+  @media (hover: hover) { .flt-row:hover { background: rgb(var(--ink-rgb) / 0.04); } }
+  .flt-row input { width: 16px; height: 16px; margin: 0; accent-color: var(--ink); flex: none; }
+  .flt-row .lbl { flex: 1; min-width: 0; }
+  .flt-row .n { font-size: 0.8125rem; color: var(--ink-4); font-variant-numeric: tabular-nums; }
+
+  .flt-foot { flex: none; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 72px; padding: 12px 16px 12px 20px; border-top: 1px solid var(--line); box-sizing: border-box; }
+  .flt-chips { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; max-height: 64px; overflow: hidden; }
+  .flt-chips button { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 8px 0 12px; border-radius: 10px; corner-shape: squircle; background: var(--wash); font-size: 0.8125rem; font-weight: 520; cursor: pointer; }
+  .flt-chips button svg { opacity: 0.6; }
+  .flt-actions { flex: none; display: flex; gap: 8px; }
+  .flt-reset, .flt-apply { height: 44px; padding: 0 18px; border-radius: var(--r-btn); corner-shape: squircle; font-size: 0.875rem; font-weight: 550; cursor: pointer; transition: background-color 0.15s, scale 0.2s var(--ease-spring); }
+  .flt-reset { background: var(--wash); color: var(--ink); }
+  .flt-apply { background: var(--ink); color: #fff; }
+  .flt-reset:active, .flt-apply:active { scale: 0.97; }
+  @media (hover: hover) { .flt-reset:hover { background: var(--wash-hover); } .flt-apply:hover { background: #2a2b2e; } }
+
+  /* Phones: a full-height sheet, groups as a scrolling row above the list. */
+  @media (max-width: 640px) {
+    .flt { width: 100vw; height: 100dvh; border-radius: 0; }
+    .flt-body { flex-direction: column; }
+    .flt-rail { flex-direction: row; width: auto; overflow-x: auto; padding: 8px 12px; border-right: 0; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+    .flt-rail button { flex: none; }
+    .flt-foot { flex-direction: column; align-items: stretch; padding-bottom: max(12px, env(safe-area-inset-bottom)); }
+    .flt-actions > * { flex: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) { .flt[open], .flt[open]::backdrop { animation: none; } }
+</style>
+
+<script>
+  import { FACETS, emptySelection, loadExplore, matcher, readSelection, selectionParams, selectionSize, type Facet, type Selection } from '../scripts/explore-client';
+  import type { ExploreData } from '../lib/explore';
+
+  const dialog = document.querySelector<HTMLDialogElement>('dialog[data-filter-dialog]');
+  if (dialog) {
+    const list = dialog.querySelector<HTMLElement>('[data-flt-list]')!;
+    const q = dialog.querySelector<HTMLInputElement>('[data-flt-q]')!;
+    const chips = dialog.querySelector<HTMLElement>('[data-flt-chips]')!;
+    const apply = dialog.querySelector<HTMLButtonElement>('[data-flt-apply]')!;
+    const rail = [...dialog.querySelectorAll<HTMLButtonElement>('[data-flt-jump]')];
+    const TITLES: Record<Facet, string> = { type: 'Section type', style: 'Style', industry: 'Industry', company: 'Company' };
+    const onExplore = location.pathname === '/';
+    let data: ExploreData | null = null;
+    let sel: Selection = emptySelection();
+    const labels = new Map<string, string>();
+
+    /** Listing pages declare their own facet, e.g. {"type":["pricing"]}. */
+    const preset = (): Selection => {
+      const out = emptySelection();
+      try {
+        const raw = JSON.parse(document.body.dataset.filterPreset || '{}') as Partial<Record<Facet, string[]>>;
+        for (const f of FACETS) for (const v of raw[f] ?? []) out[f].add(v);
+      } catch { /* no preset */ }
+      return out;
+    };
+    const current = () => (onExplore ? readSelection(new URLSearchParams(location.search)) : preset());
+
+    const updateBadges = () => {
+      const n = selectionSize(current());
+      for (const b of document.querySelectorAll<HTMLElement>('[data-filter-badge]')) {
+        b.hidden = n === 0;
+        b.textContent = String(n);
+      }
+    };
+
+    function render(d: ExploreData) {
+      list.replaceChildren(
+        ...FACETS.map((f) => {
+          const group = document.createElement('fieldset');
+          group.className = 'flt-group';
+          group.dataset.group = f;
+          const legend = document.createElement('legend');
+          legend.textContent = TITLES[f];
+          group.append(legend);
+          for (const o of d.facets[f]) {
+            labels.set(`${f}:${o.id}`, o.label);
+            const row = document.createElement('label');
+            row.className = 'flt-row';
+            row.dataset.text = o.label.toLowerCase();
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.value = o.id;
+            cb.dataset.f = f;
+            const lbl = document.createElement('span');
+            lbl.className = 'lbl';
+            lbl.textContent = o.label;
+            const n = document.createElement('span');
+            n.className = 'n';
+            n.textContent = o.count.toLocaleString('en-US');
+            row.append(cb, lbl, n);
+            group.append(row);
+          }
+          return group;
+        }),
+      );
+    }
+
+    function sync() {
+      if (!data) return;
+      for (const cb of list.querySelectorAll<HTMLInputElement>('input[type="checkbox"]')) cb.checked = sel[cb.dataset.f as Facet].has(cb.value);
+      chips.replaceChildren(
+        ...FACETS.flatMap((f) =>
+          [...sel[f]].map((v) => {
+            const li = document.createElement('li');
+            const b = document.createElement('button');
+            b.type = 'button';
+            const label = labels.get(`${f}:${v}`) ?? v;
+            b.setAttribute('aria-label', `Remove ${label}`);
+            b.append(label);
+            b.insertAdjacentHTML('beforeend', '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>');
+            b.addEventListener('click', () => { sel[f].delete(v); sync(); });
+            li.append(b);
+            return li;
+          }),
+        ),
+      );
+      const n = data.sections.filter(matcher(data, sel)).length;
+      apply.textContent = selectionSize(sel) ? `Show ${n.toLocaleString('en-US')} ${n === 1 ? 'section' : 'sections'}` : `Show all ${n.toLocaleString('en-US')} sections`;
+      apply.disabled = n === 0;
+    }
+
+    function filterRows() {
+      const t = q.value.trim().toLowerCase();
+      for (const group of list.querySelectorAll<HTMLElement>('.flt-group')) {
+        let any = false;
+        for (const row of group.querySelectorAll<HTMLElement>('.flt-row')) {
+          const show = !t || (row.dataset.text ?? '').includes(t);
+          row.hidden = !show;
+          any ||= show;
+        }
+        group.hidden = !any;
+      }
+    }
+
+    async function open() {
+      if (dialog!.open) return;
+      sel = current();
+      q.value = '';
+      dialog!.showModal();
+      q.focus();
+      if (!data) {
+        data = await loadExplore();
+        render(data);
+      }
+      filterRows();
+      sync();
+    }
+
+    list.addEventListener('change', (e) => {
+      const cb = e.target as HTMLInputElement;
+      if (cb.type !== 'checkbox') return;
+      const f = cb.dataset.f as Facet;
+      if (cb.checked) sel[f].add(cb.value);
+      else sel[f].delete(cb.value);
+      sync();
+    });
+    q.addEventListener('input', filterRows);
+    for (const b of rail) {
+      b.addEventListener('click', () => {
+        const group = list.querySelector<HTMLElement>(`[data-group="${b.dataset.fltJump}"]`);
+        if (group) list.scrollTo({ top: group.offsetTop - list.offsetTop, behavior: 'smooth' });
+      });
+    }
+    // Highlight the group in view.
+    list.addEventListener('scroll', () => {
+      let active = 'type';
+      for (const g of list.querySelectorAll<HTMLElement>('.flt-group:not([hidden])')) if (g.offsetTop - list.offsetTop <= list.scrollTop + 24) active = g.dataset.group!;
+      for (const b of rail) b.setAttribute('aria-current', String(b.dataset.fltJump === active));
+    }, { passive: true });
+    rail[0]?.setAttribute('aria-current', 'true');
+
+    dialog.querySelector('[data-flt-reset]')!.addEventListener('click', () => { sel = emptySelection(); sync(); });
+    dialog.querySelector('[data-flt-close]')!.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    apply.addEventListener('click', () => {
+      const qs = selectionParams(sel);
+      const url = `/${qs ? `?${qs}` : ''}`;
+      if (onExplore) {
+        history.pushState(null, '', url);
+        dialog.close();
+        document.dispatchEvent(new CustomEvent('explore:apply'));
+        updateBadges();
+      } else {
+        location.href = url;
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if ((e.target as HTMLElement).closest('[data-open-filter]')) { e.preventDefault(); open(); }
+    });
+    document.addEventListener('keydown', (e) => {
+      const typing = (e.target as HTMLElement).closest('input, textarea, select, [contenteditable]');
+      if ((e.key === 'f' || e.key === 'F') && !e.metaKey && !e.ctrlKey && !e.altKey && !typing && !document.querySelector('dialog[open]')) {
+        e.preventDefault();
+        open();
+      }
+    });
+    window.addEventListener('popstate', updateBadges);
+    document.addEventListener('explore:changed', updateBadges);
+    updateBadges();
+  }
+</script>

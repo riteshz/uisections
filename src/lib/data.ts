@@ -27,10 +27,12 @@ export interface Section {
   dark: boolean;
   thumb: Dim;
   thumb2x: Dim;
+  /** Masonry thumbnail: natural shape, capped at 1.4× as tall as wide. */
+  masonry: Dim;
   large: Dim;
   medium: Dim;
   slug: string;
-  files: { '480': string; '960': string; md: string; lg: string };
+  files: { '480': string; '960': string; m480: string; md: string; lg: string };
 }
 export interface Company {
   slug: string;

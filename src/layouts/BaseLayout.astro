@@ -5,6 +5,8 @@ import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import CommandPalette from '../components/CommandPalette.astro';
 import Lightbox from '../components/Lightbox.astro';
+import FloatingBar from '../components/FloatingBar.astro';
+import FilterDialog from '../components/FilterDialog.astro';
 import { SITE } from '../lib/site';
 import { absolute } from '../lib/urls';
 
@@ -24,9 +26,11 @@ interface Props {
   /** 404 and similar pages should not declare a canonical URL. */
   canonical?: boolean;
   jsonld?: object;
+  /** What the Filter dialog starts with on this page, e.g. { type: ['pricing'] }. */
+  filterPreset?: Partial<Record<'type' | 'style' | 'industry' | 'company', string[]>>;
 }
 
-const { title, description, ogImage = '/og/default.jpg', ogAlt = SITE.tagline, noindex = false, canonical: withCanonical = true, jsonld } = Astro.props;
+const { title, description, ogImage = '/og/default.jpg', ogAlt = SITE.tagline, noindex = false, canonical: withCanonical = true, jsonld, filterPreset } = Astro.props;
 const path = Astro.props.path ?? Astro.url.pathname;
 const canonical = absolute(path);
 const og = absolute(ogImage) + (ogVersions[ogImage] ? `?v=${ogVersions[ogImage]}` : '');
@@ -67,22 +71,56 @@ const ld = jsonld ? JSON.stringify(jsonld).replace(/</g, '\\u003c') : null;
     <meta name="twitter:image" content={og} />
 
     <Font cssVariable="--font-inter" preload />
+    {/* Masonry for [data-masonry] grids: each card spans 2px rows matching its box height.
+        Called inline right after each grid (no layout shift) and again on resize. */}
+    <script is:inline>
+      window.uiMasonry = function (g) {
+        if (!g || !g.children.length) return;
+        var cs = getComputedStyle(g);
+        var cols = cs.gridTemplateColumns.split(' ').length;
+        var gap = parseFloat(cs.columnGap) || 0;
+        var w = (g.clientWidth - (cols - 1) * gap) / cols;
+        for (var i = 0; i < g.children.length; i++) {
+          var li = g.children[i];
+          var r = parseFloat(li.style.getPropertyValue('--r')) || 0.625;
+          li.style.gridRowEnd = 'span ' + Math.ceil((w * r + gap) / 2);
+        }
+        g.classList.add('is-masonry');
+      };
+    </script>
     {ld && <script type="application/ld+json" set:html={ld} />}
     {/* Umami analytics (cookieless). Counts only the live domain; hash changes from the
         viewer (#s-…) are not pageviews, the viewer sends its own events instead. */}
     <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="76ae694d-859c-4f8c-9b14-ac5cb10b48a4" data-domains="uisections.com" data-exclude-hash="true"></script>
   </head>
-  <body>
+  <body data-filter-preset={filterPreset ? JSON.stringify(filterPreset) : undefined}>
     <a class="skip-link" href="#main">Skip to content</a>
     <SiteHeader />
     <main id="main" class="sheet">
       <slot />
     </main>
     <SiteFooter />
+    <FloatingBar />
     <CommandPalette />
+    <FilterDialog />
     <Lightbox />
   </body>
 </html>
+
+<script>
+  // Re-run the masonry layout when a grid's width changes.
+  const widths = new WeakMap<Element, number>();
+  const masonry = (window as unknown as { uiMasonry?: (g: Element) => void }).uiMasonry;
+  const ro = new ResizeObserver((entries) => {
+    for (const e of entries) {
+      const w = Math.round(e.contentRect.width);
+      if (widths.get(e.target) === w) continue;
+      widths.set(e.target, w);
+      masonry?.(e.target);
+    }
+  });
+  for (const g of document.querySelectorAll('[data-masonry]')) ro.observe(g);
+</script>
 
 <style>
   .skip-link {

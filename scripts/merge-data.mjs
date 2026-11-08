@@ -159,6 +159,7 @@ for (const it of items) {
     dark: it.darkFraction >= 0.6,
     thumb: m.t480,
     thumb2x: m.t960,
+    masonry: m.m480,
     large: m.lg,
     medium: m.md,
   });
@@ -221,7 +222,7 @@ const catById = new Map(categoriesVocab.map((c) => [c.id, c]));
 for (const s of sections) {
   const base = publishedSlugs[s.id] ?? `${s.company === 'unknown' ? 'website' : s.company}-${s.category}-section-${s.id}`;
   s.slug = base;
-  s.files = { 480: `${base}-480.webp`, 960: `${base}-960.webp`, md: `${base}-md.webp`, lg: `${base}-lg.webp` };
+  s.files = { 480: `${base}-480.webp`, 960: `${base}-960.webp`, m480: `${base}-m480.webp`, md: `${base}-md.webp`, lg: `${base}-lg.webp` };
   if (!s.alt) s.alt = `${s.companyName} ${catById.get(s.category).label.toLowerCase()} section${s.headline ? `: “${s.headline.slice(0, 90)}”` : ''}`;
 }
 

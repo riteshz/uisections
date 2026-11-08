@@ -13,7 +13,6 @@ const taxonomy = {
   <div class="lb-panel" data-lb-panel>
     <div class="lb-bar">
       <div class="lb-id">
-        <span class="lb-avatar" data-lb-avatar aria-hidden="true">U</span>
         <div class="lb-names">
           <h2 id="lb-title" class="lb-title" data-lb-title>Section preview</h2>
           <p class="lb-sub" data-lb-sub>Website section</p>
@@ -103,6 +102,7 @@ const taxonomy = {
     width: min(1180px, 100%);
     height: 100%;
     border-radius: 24px;
+    corner-shape: squircle;
     background: #fff;
     overflow: hidden;
     box-shadow: 0 0 0 1px rgb(0 0 0 / 0.06), 0 32px 80px -24px rgb(0 0 0 / 0.5);
@@ -121,18 +121,6 @@ const taxonomy = {
     border-bottom: 1px solid var(--line);
   }
   .lb-id { display: flex; align-items: center; gap: 12px; min-width: 0; }
-  .lb-avatar {
-    flex: none;
-    display: grid;
-    place-items: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
-    background: var(--ink);
-    color: #fff;
-    font-size: 0.9375rem;
-    font-weight: 620;
-  }
   .lb-names { min-width: 0; }
   .lb-title { font-size: 1rem; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .lb-sub { font-size: 0.8125rem; line-height: 1.35; color: var(--ink-4); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -386,9 +374,8 @@ const taxonomy = {
     function fill(a: HTMLAnchorElement, dir = 0) {
       const card = cardOf(a);
       const [catLabel, catHref] = taxonomy.c[card.dataset.cat ?? ''] ?? ['Website', ''];
-      const companyLink = card.querySelector<HTMLAnchorElement>('a.co');
-      const name = card.dataset.companyName || card.querySelector('.co')?.textContent || 'Website';
-      $('[data-lb-avatar]').textContent = name.replace(/[^\p{L}\p{N}]/gu, '').charAt(0).toUpperCase() || '•';
+      const companyHref = card.dataset.companyHref;
+      const name = card.dataset.companyName || 'Website';
       $('[data-lb-title]').textContent = name;
       $('[data-lb-sub]').textContent = a.dataset.headline ? `${catLabel} section · “${a.dataset.headline}”` : `${catLabel} section`;
       $('[data-lb-tags]').replaceChildren(
@@ -400,10 +387,9 @@ const taxonomy = {
       );
 
       const more = $<HTMLAnchorElement>('[data-lb-company]');
-      const samePage = companyLink && location.pathname === new URL(companyLink.href).pathname;
-      more.hidden = !companyLink || Boolean(samePage);
-      if (companyLink) more.href = companyLink.href;
-      $('[data-lb-more-label]').textContent = `More from ${name}`;
+      more.hidden = !companyHref || location.pathname === companyHref;
+      if (companyHref) more.href = companyHref;
+      $('[data-lb-more-label]').textContent = card.dataset.companyCount ? `More from ${name} (${card.dataset.companyCount})` : `More from ${name}`;
 
       img.width = Number(a.dataset.w);
       img.height = Number(a.dataset.h);

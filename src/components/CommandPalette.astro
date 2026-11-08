@@ -279,13 +279,14 @@ import Icon from './Icon.astro';
       el?.scrollIntoView({ block: 'nearest' });
     };
 
-    const openPalette = async () => {
+    const openPalette = async (q = '') => {
       if (dialog.open) return;
       dialog.showModal();
-      input.value = '';
+      input.value = q;
+      input.focus();
       await load();
       render();
-      input.focus();
+      input.setSelectionRange(q.length, q.length);
     };
 
     input.addEventListener('input', render);
@@ -305,6 +306,8 @@ import Icon from './Icon.astro';
     document.addEventListener('click', (e) => {
       if ((e.target as HTMLElement).closest('[data-open-palette]')) { e.preventDefault(); openPalette(); }
     });
+    // Other search fields (the floating search bar) hand over what was typed so far.
+    document.addEventListener('palette:open', (e) => openPalette((e as CustomEvent<{ q?: string }>).detail?.q ?? ''));
     document.addEventListener('keydown', (e) => {
       const typing = (e.target as HTMLElement).closest('input, textarea, [contenteditable]');
       if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !typing && !document.querySelector('dialog[open]'))) {
