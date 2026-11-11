@@ -711,5 +711,87 @@
   },
   "therealhotels": {
     "domain": "therealhotels.com"
+  },
+  "nominal-io": {
+    "name": "Nominal.io",
+    "domain": "nominal.io"
+  },
+  "artie": {
+    "name": "Artie",
+    "domain": "artie.com"
+  },
+  "audienceful": {
+    "name": "Audienceful",
+    "domain": "audienceful.com"
+  },
+  "catena": {
+    "name": "Catena",
+    "domain": "catena.com"
+  },
+  "coastpay": {
+    "name": "Coast",
+    "domain": "coastpay.com"
+  },
+  "collective": {
+    "name": "Collective",
+    "domain": "collective.com"
+  },
+  "infisical": {
+    "name": "Infisical",
+    "domain": "infisical.com"
+  },
+  "nooks": {
+    "name": "Nooks",
+    "domain": "nooks.ai"
+  },
+  "router": {
+    "name": "Router",
+    "domain": "router.com"
+  },
+  "whop": {
+    "name": "Whop",
+    "domain": "whop.com"
+  },
+  "wingify": {
+    "name": "Wingify",
+    "domain": "wingify.com"
+  },
+  "caddy": {
+    "name": "Caddy",
+    "domain": "caddy.app"
+  },
+  "hyphenate": {
+    "name": "Hyphenate",
+    "domain": "hyphenate.ai"
+  },
+  "rainbrand": {
+    "name": "Rainbrand",
+    "domain": "rainbrand.com"
+  },
+  "sable": {
+    "name": "Sable",
+    "domain": "sable.ai"
+  },
+  "volantissemi": {
+    "name": "Volantis",
+    "domain": "volantissemi.ai"
+  },
+  "lightyear": {
+    "verified": false
+  },
+  "lynq": {
+    "verified": false
+  },
+  "pluto": {
+    "domain": "pluto.security"
+  },
+  "sett": {
+    "domain": "sett.ai"
+  },
+  "telli": {
+    "domain": "telli.com"
+  },
+  "trajectory": {
+    "domain": "trajectory.ai"
   }
 }

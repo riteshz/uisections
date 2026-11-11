@@ -3,7 +3,7 @@
 // live page contains a headline from our own screenshots of that company.
 // Existing domains are re-checked the same way.
 // Output: data/agent-batches/domain-probe.json (nothing in the site data changes).
-// Usage: node scripts/find-domains.mjs [--existing]
+// Usage: node scripts/find-domains.mjs [--existing] [--only=slug,slug]
 import { Resolver } from 'node:dns/promises';
 import path from 'node:path';
 import { DATA_DIR, GEN_DIR, readJson, writeJson } from './lib/common.mjs';
@@ -65,7 +65,9 @@ async function pool(items, n, fn) {
   return out;
 }
 
-const targets = companies.filter((c) => (CHECK_EXISTING ? c.domain : !c.domain));
+// --only=slug,slug limits the run to those companies (e.g. a newly added batch).
+const only = new Set((process.argv.find((a) => a.startsWith('--only=')) ?? '').slice(7).split(',').filter(Boolean));
+const targets = companies.filter((c) => (CHECK_EXISTING ? c.domain : !c.domain) && (!only.size || only.has(c.slug)));
 let done = 0;
 const results = await pool(targets, 10, async (c) => {
   const headlines = headlinesOf(c.slug);

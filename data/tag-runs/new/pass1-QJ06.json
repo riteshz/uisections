@@ -1,0 +1,512 @@
+{
+  "taskId": "QJ06",
+  "sites": [
+    { "batch": "co-wingify", "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "confidence": "high", "evidence": "hand-named files (wingify); wingify wordmark in nav and footer, © 2026 Wingify. All rights reserved. in footer, Wingify repeated throughout copy" }
+  ],
+  "records": [
+    {
+      "id": "ac9afa009a",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Suggested for you",
+      "alt": "Wingify blog & resources section: serif heading with arrow controls above four article cards with colorful illustrated thumbnails",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9505da7ad4",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Boosted mobile conversions through targeted experimentation.",
+      "alt": "Wingify testimonials section: Booking.com logo and quote on deep green beside a pale card with a +36% mobile registrations stat",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4dea3ee642",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Everyone's building an agent. Wingify closes the whole loop.",
+      "alt": "Wingify call to action section: lime rounded banner with serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "7625fcd72f"
+    },
+    {
+      "id": "e82a8570f7",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Give your growth wings",
+      "alt": "Wingify call to action section: lime rounded banner with one-line serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "7625fcd72f"
+    },
+    {
+      "id": "7625fcd72f",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Have a bold idea? Give it wings.",
+      "alt": "Wingify call to action section: lime rounded banner with serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7cccc156c3",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "The better way to test, learn and grow",
+      "alt": "Wingify call to action section: lime rounded banner with serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "7625fcd72f"
+    },
+    {
+      "id": "f1596b3321",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Part of the flock",
+      "alt": "Wingify integrations section: centered serif headline, bird logo and Learn More button on light blue, ringed by tilted app icon tiles",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7a254895a4",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "warm-neutral", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Frequently Asked Questions",
+      "alt": "Wingify faq section: serif heading and subline at left, six rounded accordion question rows at right on a beige background",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "83da88a525"
+    },
+    {
+      "id": "83da88a525",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "warm-neutral", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Frequently Asked Questions",
+      "alt": "Wingify faq section: serif heading and subline at left, six rounded accordion question rows at right on a beige background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0213e3372c",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "For marketers, developers, and AI-supported workflows",
+      "alt": "Wingify features section: centered serif heading over three beige cards showing a visual editor menu, a JavaScript code editor and an AI chat",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3cea3cb083",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "AI that moves every test forward",
+      "alt": "Wingify features section: charcoal left half with serif headline, accordion steps and lime button; beige right half with an AI chat mockup",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "475227b84b",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Analytics that turn results into action",
+      "alt": "Wingify features section: centered serif heading over an A/B test report mockup on a lavender panel, with three text columns below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7849d43f62",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Everything you need to launch, manage, and learn",
+      "alt": "Wingify features section: centered serif heading above a 3x2 grid of beige cards, each with a short description and a small UI mockup",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f48be9656b",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Powerful on its own. Even stronger as part of Experimentation.",
+      "alt": "Wingify features section: centered serif headline, subline and dark button above two pale teal product cards with icons and links",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ed618b9e25",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "tabs", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "The Relevance Loop",
+      "alt": "Wingify how it works section: centered serif heading, AI chat mockup on a beige panel, and four step columns with an active progress bar",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "2d4c22ea20"
+    },
+    {
+      "id": "02b13ba7b8",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Agentic experimentation, with you in control",
+      "alt": "Wingify features section: charcoal layout with serif headline, Plan, Build, Track, Summarize accordion and lime button beside a pale blue panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5992a8d7ea",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Want to do it yourself?",
+      "alt": "Wingify features section: centered serif heading over a visual editor mockup on a beige panel beside a five-item accordion list",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b949578877",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "From insight to action, for relevance",
+      "alt": "Wingify features section: centered serif heading with an italic word over an A/B test report mockup on a pale blue panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "18d75f7138",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Look closer, grow faster",
+      "alt": "Wingify features section: centered serif heading above a large beige card with an illustrated figure holding a clock and two smaller icon cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2d4c22ea20",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "tabs", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "The Relevance Loop",
+      "alt": "Wingify how it works section: centered serif heading, AI chat mockup on a beige panel, and four step columns with an active progress bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "65ac0995c1",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Everyone's building an agent. Wingify closes the whole loop.",
+      "alt": "Wingify value proposition section: centered two-line serif headline and paragraph above three benefit columns with small colored icons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3e587d1cf5",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Digital optimization is a process. We power each step.",
+      "alt": "Wingify features section: centered serif headline and button above a slider of lavender product cards with illustrated figures and arrows",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "879b9a0566",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "The result looks solid. Does it still look good in week three?",
+      "alt": "Wingify features section: centered serif headline over a 2x2 grid of beige cards with checkout, journey, survey and traffic chart mockups",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "51cafeb161",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Turn optimization results into a data mine",
+      "alt": "Wingify features section: serif heading over a store page mockup with a drop-off stat on a deep green panel, and three tabbed text columns",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "98e2819e19",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Hand it to Wingz AI, and it will take care of the rest",
+      "alt": "Wingify features section: charcoal left half with serif headline, three-step accordion and lime button; beige right half with an AI chat mockup",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "904f36ece2",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "What changes for your data analytics team",
+      "alt": "Wingify features section: centered serif heading above a 3x2 grid of feature items, each with a small colored icon, serif title and text",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9574733964",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "One AI layer across every part of the loop.",
+      "alt": "Wingify features section: charcoal left half with eyebrow, serif headline, copy and lime button; pale blue right half with bird logo and labels",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e816c34cb8",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Growth without the guesswork",
+      "alt": "Wingify features section: centered serif heading with pill tab selectors above a slider of lavender product suite cards with UI snippets",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "92d2945bef",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Wingz AI is stronger with a solid data foundation",
+      "alt": "Wingify features section: charcoal left half with serif headline, checklist and lime button; pale blue right half with a visitor profile diagram",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "09620b31e0",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Built for teams who own the outcome",
+      "alt": "Wingify use cases section: serif headline and team pill tabs at left, photo of a woman on a magenta square with an overlay card, on beige",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c5f44e61d3",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "bold-color", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Even better together",
+      "alt": "Wingify about & mission section: merger note with serif headline, copy and button beside a lime panel showing VWO and AB Tasty logos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a087bf5751",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "warm-neutral", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Still deciding?",
+      "alt": "Wingify faq section: Still deciding? serif heading at left, six rounded accordion question rows at right on a beige background",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "83da88a525"
+    },
+    {
+      "id": "f6285bfdfa",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Growth without the guesswork",
+      "alt": "Wingify features section: serif heading at left beside a 2x2 grid of feature items with small black icons, serif titles and short text",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4d4a995fce",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["about", "divider"], "filenameDisagree": true,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Every visitor is different, but every experience is still the same.",
+      "alt": "Wingify value proposition section: problem statement with large serif headline at left, a paragraph and red-ruled pull quote at right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2691808f23",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "79f991899a"
+    },
+    {
+      "id": "6141f42e4f",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "79f991899a"
+    },
+    {
+      "id": "6f16d940dd",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "79f991899a"
+    },
+    {
+      "id": "79f991899a",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "pastel", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "55b37c0166",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "pastel", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "Curiosity that converts",
+      "alt": "Wingify hero section: lime announcement bar and pill nav on pale blue, left headline with buttons, right photo of a man with laptop and UI chips",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6f392b8266",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "Growth without the guesswork",
+      "alt": "Wingify hero section: pill nav on deep maroon, centered headline and buttons above an overhead photo of a woman with a suitcase and UI cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1ab55c70cc",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "pastel", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "Stop guessing. Start knowing.",
+      "alt": "Wingify hero section: lime announcement bar and pill nav on lavender, left headline with buttons, right overhead photo of a woman with a handbag",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4ab4fcf3ae",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "gradient", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "Make every digital experience relevant.",
+      "alt": "Wingify hero section: pill nav over a lime-to-white gradient, centered headline and buttons above an overhead photo of a woman with UI cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0e8909c106",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "bold-color", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Easily plugs into your existing stack",
+      "alt": "Wingify integrations section: centered serif headline, copy and button on lime, surrounded by scattered tilted app icon tiles",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dc1388816b",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "See what visitors actually do",
+      "alt": "Wingify features section: serif heading, two-item vertical list at left beside a pricing page mockup with heatmap overlays on a beige panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0ba8958f57",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Wingify logo cloud section: single row of customer logos including AXA, Clarins, Club Med and Europcar on white, cut off at the right edge",
+      "usable": true, "issues": ["cropped", "duplicate"], "duplicateOf": "0263b1226a"
+    },
+    {
+      "id": "94011846b2",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Wingify logo cloud section: single row of customer logos including AXA, Clarins, Club Med and Europcar below a strip of the maroon hero",
+      "usable": true, "issues": ["cropped", "duplicate"], "duplicateOf": "0263b1226a"
+    },
+    {
+      "id": "0263b1226a",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Wingify logo cloud section: single row of customer logos including AXA, Clarins, Club Med and Europcar on white, cut off at the right edge",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cf039ddd9b",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "pastel", "confidence": "medium" }, { "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Increase in demo requests from a single homepage test for Orah",
+      "alt": "Wingify testimonials section: Orah logo and serif quote on light blue beside a pale card with a large +63.27% demo request stat",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ba671b649e",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Enterprise-grade security & support from day one",
+      "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "5fdb1f4bac"
+    },
+    {
+      "id": "02a868e839",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Enterprise-grade security & support from day one",
+      "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "5fdb1f4bac"
+    },
+    {
+      "id": "ee2cb39cc8",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Enterprise-grade security & support from day one",
+      "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "5fdb1f4bac"
+    },
+    {
+      "id": "5fdb1f4bac",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Enterprise-grade security & support from day one",
+      "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "72a2bd165b",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Wingify stats section: four large maroon display numbers for years, countries, customers and experiences split by thin dividers on white",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "f837e621c8",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Close the loop from insight to impact",
+      "alt": "Wingify call to action section: deep maroon rounded banner with centered serif headline, short copy and a lime Explore button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "33491aff17",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "serif", "confidence": "medium" }],
+      "headline": "+108%",
+      "alt": "Wingify stats section: Samsonite logo above a huge light blue +108% serif figure on a deep maroon background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9f2efaef20",
+      "companyName": "Wingify", "companySlug": "wingify", "domain": "wingify.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "warm-neutral", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Personalized customer journeys with Wingify Emotions",
+      "alt": "Wingify testimonials section: serif case-study headline at left and a Samsonite manager quote with story link at right on beige",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

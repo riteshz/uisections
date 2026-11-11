@@ -1,0 +1,363 @@
+{
+  "taskId": "QJ04",
+  "sites": [
+    { "batch": "co-sable", "companyName": "Sable", "companySlug": "sable", "domain": null, "confidence": "high", "evidence": "hand-named files; Sable logo in nav, giant Sable wordmark in footer, copy mentions Sable" },
+    { "batch": "co-sett", "companyName": "Sett", "companySlug": "sett", "domain": null, "confidence": "high", "evidence": "hand-named files; sett wordmark in nav and footer, © 2026 Sett in footer" },
+    { "batch": "co-telli", "companyName": "telli", "companySlug": "telli", "domain": null, "confidence": "high", "evidence": "hand-named files; telli wordmark in nav and footer, © 2026 telli technologies GmbH" },
+    { "batch": "co-trajectory", "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "confidence": "high", "evidence": "hand-named files; Trajectory logo in nav, Trajectory © 2026 in footer" },
+    { "batch": "co-volantissemi", "companyName": "Volantis", "companySlug": "volantissemi", "domain": null, "confidence": "high", "evidence": "hand-named files; VOLANTIS logo in nav, giant VOLANTIS wordmark and © VOLANTIS 2026 in footer" }
+  ],
+  "records": [
+    {
+      "id": "33426fa709",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "How to get started with Aidan",
+      "alt": "Sable how it works section: 01 02 03 step pager above two numbered cards with a small app mockup and a node graph of topics",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cc65906adc",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Enterprise-grade security you can trust. Sable is a trusted partner with rigorous compliance, secure data handling, and zero training on your data.",
+      "alt": "Sable security section: statement with ISO, GDPR and SOC 2 tags and a Trust Center button beside line-drawn globes and a lock",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "06526906cd",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Curious about Aidan? Don't hesitate to contact us.",
+      "alt": "Sable call to action section: short headline and Hire Aidan button over a full-width photo of a mascot in a sweater outside a building",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e891ce927c",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "The first platform for creating AI employees",
+      "alt": "Sable features section: accordion of setup steps on a white card beside a yellow panel of floating recording and doc UI windows",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "176be9118d",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "The first AI employee powered by real time browser use and vision – to run customer calls at scale.",
+      "alt": "Sable features section: Brain, Hands and Eyes accordion on the left and a panel of white dots on the right on a light gray background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4018f4366e",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Sable footer section: giant white Sable wordmark and logo on a bright yellow background with a row of nav links above",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "49a94bd176",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Meet Aidan, your newest employee",
+      "alt": "Sable hero section: left-aligned headline under a compact nav above a wide office photo of a woman and a mascot at a laptop",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "a6409d201c",
+      "companyName": "Sable", "companySlug": "sable", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "",
+      "alt": "Sable testimonials section: gray bento tiles with investor quotes from Sequoia and 8VC beside customer logo tiles for Notion and Decagon",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7c05762b29",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "oversized-type", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Sett footer section: four link columns above a giant outlined sett wordmark with line-drawn clouds and hills on a cream background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2fb09d6f43",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "medium" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "WE WORK WITH THE BEST",
+      "alt": "Sett logo cloud section: two rows of black game studio logos such as Zynga, Unity and Rovio under a small label on cream",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6e0524e011",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "REAL WORDS FROM THE PEOPLE FIGHTING AD FATIGUE EVERY DAY",
+      "alt": "Sett testimonials section: condensed headline above a row of game and quote cards cut off at the edge, with a cartoon meerkat mascot",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b8ba0956f5",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "comparison", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "warm-neutral", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "YOU CAN'T PREDICT THE NEXT WINNING CREATIVE",
+      "alt": "Sett comparison section: centered headline above a bordered box contrasting Games that fail with thumbs-down and Games that win with thumbs-up",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "82696c7645",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "WHAT IF YOU COULD EXPLORE EVERY CREATIVE CONCEPT AT SCALE?",
+      "alt": "Sett features section: centered headline with prev/next arrows above an oval card with a line drawing of ad phones on a blue panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "90db42fbab",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "illustration", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }],
+      "headline": "HOW IT WORKS IN REAL LIFE",
+      "alt": "Sett how it works section: four numbered steps, each with text on the left and a cartoon meerkat illustration on the right, on cream",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "47862903bf",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "bold-color", "confidence": "medium" }],
+      "headline": "DON'T LET FATIGUE CHOKE YOUR UA",
+      "alt": "Sett call to action section: wide cream pill with a condensed headline and orange Get a demo button on a brown background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "574805606e",
+      "companyName": "Sett", "companySlug": "sett", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "warm-neutral", "confidence": "high" }, { "id": "oversized-type", "confidence": "medium" }],
+      "headline": "GET HIGH-QUALITY, DATA DRIVEN CREATIVES FROM AGENTS THAT KNOW THEIR SH*T",
+      "alt": "Sett hero section: large condensed uppercase headline, subcopy and two pill buttons centered on cream under a nav with a yellow circle",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "059d8ec16c",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Get started with telli today",
+      "alt": "telli call to action section: centered serif headline and demo pill over a soft painted landscape of two people on a hill",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "28860e5dfd",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "bento", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "The AI platform for your call operations",
+      "alt": "telli features section: Build, Run, Improve, Scale tabs above a bento of two large UI cards and four small capability cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1ee7dfb7dc",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "video", "confidence": "medium" }],
+      "headline": "Build, improve and run your agents with Charlie",
+      "alt": "telli features section: Charlie agent intro with icon on a blue glow beside a Watch demo video tile, with a booking strip below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3e0bdcc456",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["feature", "blog"], "filenameDisagree": true,
+      "tags": [{ "id": "video", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "See how leading teams transform customer conversations with AI",
+      "alt": "telli testimonials section: two video case-study cards for Sky and 1KOMMA5 with Watch video buttons and G2 rating badges",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "52739b84b0",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "telli footer section: logo and four link columns, investor logos and legal links above a large faint logo shape on off-white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "063d908a06",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Every customer call, handled by AI.",
+      "alt": "telli hero section: centered serif headline and demo call pill over a soft painted landscape with two people sitting on a hill",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "44bbda1d54",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Powering millions of customer conversations for leading B2C brands",
+      "alt": "telli logo cloud section: gray brand logos such as Sky, Enpal and Vaillant in a three-row bordered grid under a small caption",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5a85aee1a0",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "We value your trust.",
+      "alt": "telli security section: serif headline and copy on the left and a row of GDPR, HIPAA, EU AI Act and SOC 2 badges on a dark band",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "348b0815f3",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Loved by leading teams",
+      "alt": "telli testimonials section: four bordered quote columns with gray customer logos, quotes and names under an All Case Studies button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "aea2492ff5",
+      "companyName": "telli", "companySlug": "telli", "domain": null, "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Driving Results Across Teams",
+      "alt": "telli use cases section: Sales, Operations, Customer Service tabs over a photo of a woman on a call with chat bubbles and a card slider",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "dd722b2358",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["about"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "3d", "confidence": "high" }],
+      "headline": "Building intelligence that never stops learning",
+      "alt": "Trajectory features section: three cards with lavender isometric 3D platform renders and short product blurbs on a charcoal background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "af5d999cab",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "illustration", "confidence": "high" }],
+      "headline": "Research, writing and thinking from the team",
+      "alt": "Trajectory blog & resources section: slider of article cards with pastel painted artworks, titles and dates, plus arrows and a progress bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c87596609f",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "code", "confidence": "high" }],
+      "headline": "The easiest way to train your models",
+      "alt": "Trajectory features section: dashboard screenshot with trace metrics and a signal feed plus a Python capture snippet on charcoal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0c84001314",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Trajectory footer section: rounded charcoal panel with Navigation, Socials and Legal link columns above a small copyright line",
+      "usable": true, "issues": ["mostly-blank"], "duplicateOf": null
+    },
+    {
+      "id": "b74f71be82",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "illustration", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Own your own value function",
+      "alt": "Trajectory hero section: bottom-left headline and two buttons over a full-bleed pastel painting of clouds, sea and a fountain pen",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f0f0ea542e",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Where leading AI keeps learning",
+      "alt": "Trajectory logo cloud section: single row of muted Clay, Harvey and Decagon logos under a faint caption on a charcoal band",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9abcfd5eea",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "illustration", "confidence": "high" }],
+      "headline": "Your data, trained and deployed on your terms",
+      "alt": "Trajectory security section: painted jetpack figure in clouds beside three governance points, with a SOC 2 Certified badge, on charcoal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "079d2e1004",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "team", "categoryConfidence": "high", "categoryAlternates": ["about"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "medium" }, { "id": "logo-strip", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "Built by lifelong learners",
+      "alt": "Trajectory team section: centered intro and alumni logo row above an investor card with backer names and a painted train in clouds",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b12cdc49d8",
+      "companyName": "Trajectory", "companySlug": "trajectory", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "video", "confidence": "high" }],
+      "headline": "Already learning from real use",
+      "alt": "Trajectory testimonials section: featured NVIDIA quote with a keynote video still above a slider of white quote cards on charcoal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "276d714cc3",
+      "companyName": "Volantis", "companySlug": "volantissemi", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["divider", "value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "AI is limited by memory, not compute. Electrical wires only reach ~2mm, capping the fast memory you can put next to a chip.",
+      "alt": "Volantis call to action section: centered white and orange statement with a small Get Access button on a near-black brown band",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0213498a78",
+      "companyName": "Volantis", "companySlug": "volantissemi", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "The Volantis Photonic Design",
+      "alt": "Volantis features section: headline, copy and a large orange 100x stat beside a diagram comparing electrical and optical reach grids",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b479390e61",
+      "companyName": "Volantis", "companySlug": "volantissemi", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "oversized-type", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Volantis footer section: three small link columns and copyright above a giant dark brown VOLANTIS wordmark spanning the full width",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e9c8ec6119",
+      "companyName": "Volantis", "companySlug": "volantissemi", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }, { "id": "metrics", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Run giant models. At low latencies.",
+      "alt": "Volantis hero section: centered headline over a grainy black background with a memory-compute chip diagram, orange specs and a logo row",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

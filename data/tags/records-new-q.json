@@ -1,0 +1,6579 @@
+[
+  {
+    "id": "635faf52ea",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Watch your data replicate live",
+    "alt": "Artie call to action section: serif headline and two buttons on solid green, with pastel gradient circles and blocks on the right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "fc51da3aea",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "use-case",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "testimonial",
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bento",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "What teams build with Artie",
+    "alt": "Artie use cases section: serif heading over a grid of customer story cards with logos beside a large pink dithered city skyline photo",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4692fadc15",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Built for production",
+    "alt": "Artie features section: serif heading and intro above three ruled rows, each pairing a claim with two linked capability notes",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b451877698",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "We never store your data.",
+    "alt": "Artie security section: serif headline, copy and compliance badges left, mint panel with a database-to-destination flow diagram right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b1c2faed26",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Artie features section: two product cards on mint and lavender panels with small UI tables, serif titles and descriptions below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "c75c5f17c1",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Artie footer section: logo, tagline and four link columns above a huge outlined artie wordmark with construction guide lines",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "d492554764",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Your production data, streamed in real time.",
+    "alt": "Artie hero section: serif headline and two buttons beside gradient geometric shapes, above a dashboard screenshot on a green gradient",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "68bc33dc13",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "how-it-works",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Get your data streaming in 3 steps",
+    "alt": "Artie how it works section: three numbered steps in ruled rows, each with a serif title, description and small mint abstract graphic",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "eb02936355",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "value-proposition",
+      "how-it-works"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The promises behind the pipeline.",
+    "alt": "Artie features section: serif heading over a grid of pipeline status cards, with three numbered serif claims in columns below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "0aa1b5d526",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Built for the data stack you already run.",
+    "alt": "Artie integrations section: serif headline and button left, mint panel with database connector icons linked through the Artie logo right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "be7be9f1ed",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Artie logo cloud section: two rows of grayscale customer logos in a bordered ten-cell grid on light gray",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "ab7f9cd453",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "divider",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "value-proposition",
+      "other"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Managed means our engineers get paged, not yours.",
+    "alt": "Artie divider section: large serif statement across four lines, interleaved with pastel gradient circles and bars",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "530b70932d",
+    "companyName": "Artie",
+    "companySlug": "artie",
+    "domain": "artie.com",
+    "companyConfidence": "high",
+    "category": "use-case",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "From fast syncs to advanced architectures.",
+    "alt": "Artie use cases section: serif heading and button above five columns of stacked gradient blocks growing in height, each with a caption",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "39cc9d4bb9",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Start for free",
+    "alt": "Audienceful call to action section: pixel-font headline and blue button on a black dot grid background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "cd153b22d2",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Gorgeous templates for emails, forms, popups and landing pages.",
+    "alt": "Audienceful features section: headline with pixel-font accent, tab bar of template types and a sliding row of email template previews",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "cffb9a7788",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "medium"
+      },
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Go full autonomous. Use our agent or connect Claude, ChatGPT or any agent free.",
+    "alt": "Audienceful features section: headline above a list of agent tasks on the left and a campaign plan UI card on a soft glow panel right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "54eea98ea6",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "medium"
+      },
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "All-in-one platform for both humans and agents to run customer messaging.",
+    "alt": "Audienceful features section: headline above a vertical list of platform modules and a subscriber table screenshot on a pink panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "13049ec1cc",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Audienceful footer section: five link columns on black with a huge faint pixel-font audienceful wordmark along the bottom",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "00dd836c42",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Agentic Email.",
+    "alt": "Audienceful hero section: centered pixel-font headline and blue button above a collage of email templates and an editor UI",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9aeccf4505",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Audienceful logo cloud section: single row of six grayscale customer logos in bordered cells on white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "8dfe0ceb92",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "code",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Deliverability monitoring suite and full transactional API, built in.",
+    "alt": "Audienceful features section: headline over a deliverability dashboard screenshot and three cards with UI snippets and an API call",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "066618dd80",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Deep integrations and flows that build themselves, and track revenue.",
+    "alt": "Audienceful integrations section: dark headline block, row of store and billing logos, and a dark automation flow builder screenshot",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "6a281237e5",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "integration"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "code",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The whole Shopify and Stripe customer lifecycle, handled for you.",
+    "alt": "Audienceful features section: dark headline, lifecycle tab bar, trigger-to-output flow diagram and three dark cards with UI snippets",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "6d1c9e3656",
+    "companyName": "Audienceful",
+    "companySlug": "audienceful",
+    "domain": "audienceful.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "stats"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "metrics",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      }
+    ],
+    "headline": "See why 10,000+ businesses migrated from Klaviyo.",
+    "alt": "Audienceful testimonials section: headline above three photo cards with large stats, each paired with a quote card and avatar",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "5fa1a12fa2",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "3d",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Get your own Caddy today",
+    "alt": "Caddy call to action section: row of 3D mascot avatars in circles with speech bubbles above a centered headline and green button",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "5f48705107",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "faq",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Need more info?",
+    "alt": "Caddy faq section: gray rounded panel with heading and six collapsed question rows with plus icons",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "48f671eb23",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "photography",
+        "confidence": "medium"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Tackle any task with Caddy",
+    "alt": "Caddy features section: headline and copy above a scattered collage of chat bubbles, photos, a calendar, a menu and a doc card",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "730f44dac9",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "integration"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "minimal",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "All you have to do is text",
+    "alt": "Caddy features section: headline and copy above a blue voice memo bubble ringed by faint app icons on an orbit line",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "ebad5c2e00",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "value-proposition"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "3d",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Best part is, no two Caddys are alike",
+    "alt": "Caddy features section: centered headline and copy above four fanned colorful cards, each showing a 3D Caddy mascot",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4c13c64ce7",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Stay on top of work and life",
+    "alt": "Caddy hero section: centered headline, subline and green button above a phone chat mockup amid scattered photos and notes",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3d4c7c0852",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Caddy footer section: blurred flower photo card with white Caddy logo beside a gray panel of pill-shaped link buttons",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f6526e4c42",
+    "companyName": "Caddy",
+    "companySlug": "caddy",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "stats"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "carousel",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Stay focused on what matters",
+    "alt": "Caddy features section: headline, copy and button left, chat message mockup right, slider dots, with a large blank area below",
+    "usable": false,
+    "issues": [
+      "mostly-blank"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "c52548573f",
+    "companyName": "Catena",
+    "companySlug": "catena",
+    "domain": "catena.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "cta"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      },
+      {
+        "id": "form",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Money for Agents. Control for You.",
+    "alt": "Catena footer section: dark CTA band with serif headline and striped tiles, link columns, email field and a giant gray Catena wordmark",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "13157f09b7",
+    "companyName": "Catena",
+    "companySlug": "catena",
+    "domain": "catena.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "How AI Agents Use Money, Safely",
+    "alt": "Catena hero section: serif headline with lime accent and button on dark grid texture, above a mosaic of striped colorful tiles",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b14d7e4551",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Drive your fleet with Coast",
+    "alt": "Coast call to action section: bold headline, two buttons and three checkmark points on a bright blue panel with soft wave shapes",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "cfaecba2fd",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "cta"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "dark-mode",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Coast connects to your tools",
+    "alt": "Coast integrations section: navy panel with partner logos orbiting the Coast icon left and headline, copy and link right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "8f4dceb6bc",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "faq",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "minimal",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Frequently asked questions",
+    "alt": "Coast faq section: bold heading and subline above eight collapsed question rows with chevron icons on white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "92a8654b34",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "security"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Stop misuse. Prevent overspend.",
+    "alt": "Coast features section: icon, headline, checklist and button left, spend controls UI card with toggles on a pale blue panel right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "11248ce794",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "value-proposition",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Choose America's top-rated fuel card",
+    "alt": "Coast value proposition section: bold heading above three pale blue cards with card, support and credit visuals and short benefits",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "372e3e09c8",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "use-case"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "One card program for everything your team needs",
+    "alt": "Coast features section: centered headline and copy above two cards for fuel and corporate cards with photos and Coast card visuals",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "daedc308ab",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "form",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The smartest card for fuel, field, and office expenses",
+    "alt": "Coast hero section: bold headline, copy and email signup left, worker photo, blue card and phone chat mockup right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "c696303d79",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "stats",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "testimonial"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "metrics",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Thousands of businesses trust us",
+    "alt": "Coast stats section: star rating and trust heading beside three large metrics with labels, plus a source link below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "1e680af5f9",
+    "companyName": "Coast",
+    "companySlug": "coastpay",
+    "domain": "coastpay.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "use-case"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Works for businesses like yours",
+    "alt": "Coast testimonials section: heading and tab bar above a large pale blue quote card and a person card whose photo is missing",
+    "usable": true,
+    "issues": [
+      "broken-image"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "b816ff206d",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      }
+    ],
+    "headline": "A website that learns how to grow your revenue.",
+    "alt": "Coframe call to action section: left-aligned headline, copy and two buttons over a full-bleed teal cloudy sky photo",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "d650475ff7",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Coframe turns your traffic...",
+    "alt": "Coframe features section: centered headline above four glowing outlined capability cards on dark dithered background, large blank area below",
+    "usable": false,
+    "issues": [
+      "mostly-blank"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "15d42c8e8e",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Four ways Coframe helps you beat your number.",
+    "alt": "Coframe features section: centered headline over a 2x2 grid of numbered cards, each with copy and a product UI mockup, plus two buttons",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7d2026c059",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "form",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Coframe footer section: logo, tagline, social icons and email signup field left, three link columns right, dotted cheetah artwork on dark",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "c08b5803d7",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "form",
+        "confidence": "high"
+      },
+      {
+        "id": "logo-strip",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Turn your traffic into revenue.",
+    "alt": "Coframe hero section: centered headline, URL input and demo button over a dark full-bleed cheetah photo, customer logo row below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "be8e3171b7",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "comparison",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "how-it-works"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "medium"
+      },
+      {
+        "id": "photography",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Once you experience Coframe, you'll never want to go back.",
+    "alt": "Coframe comparison section: headline above two panels, a week-by-week current process timeline beside a With Coframe sky photo card",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "0890dc6b5f",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "how-it-works",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      }
+    ],
+    "headline": "You own the growth target. Take control of the execution.",
+    "alt": "Coframe how it works section: centered headline and buttons above a step list left and a landscape photo with URL field right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b95f40af3e",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "comparison",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "integration"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "table",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "We outperform both SaaS and CRO agencies.",
+    "alt": "Coframe comparison section: check and cross table vs traditional SaaS and CRO agencies on dark, then integrations logo grid beside text",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "ebd4f12ecb",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "medium"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Trusted by Fortune 500 companies and fast-growing brands",
+    "alt": "Coframe logo cloud section: centered headline above seven gray customer logo tiles in rows of three and four on white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3493af4e42",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Scalable and secure. Trusted by the Fortune 500.",
+    "alt": "Coframe security section: headline and copy left, 2x2 grid of outlined icons with SOC 2 Type II and AI protection points right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "168b627764",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "stats",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "testimonial"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bento",
+        "confidence": "high"
+      },
+      {
+        "id": "metrics",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Where AI meets ROI.",
+    "alt": "Coframe stats section: bento of a dark customer quote card beside three white cards with large conversion lift percentages and logos",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7c7a36d0bd",
+    "companyName": "Coframe",
+    "companySlug": "coframe",
+    "domain": "coframe.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "video",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Leading growth teams who have turned CRO into a growth channel they control.",
+    "alt": "Coframe testimonials section: centered headline above a carousel of customer story cards with a video thumbnail, play button and quote",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3ba37ce216",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "One platform to power your business",
+    "alt": "Collective features section: serif headline over a vertical list of product areas left, business setup checklist UI in a gray panel right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4111a39a41",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "video",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Your back office, finally figured out",
+    "alt": "Collective features section: laptop mockup of a transactions screen with a play button left, serif headline and copy right on white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "77afca5029",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "value-proposition"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "File your business taxes with confidence",
+    "alt": "Collective features section: shield icon and serif headline left, audit support and accuracy guarantee points right, soft lavender glow",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2454940c45",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "value-proposition",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Built to save you money and time",
+    "alt": "Collective value proposition section: serif headline above four white benefit cards with purple icons on a soft lavender gradient",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f3deffbd07",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Collective footer section: logo and blurb left, four link columns including Compare, disclaimers, copyright and social icons on charcoal",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "89f2867968",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "logo-strip",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Self-employed finances, simplified for artists",
+    "alt": "Collective hero section: Trustpilot rating, serif headline and two buttons left, masonry grid of creator photos right, press logos below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b8e6d791e9",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Why our members love us",
+    "alt": "Collective testimonials section: serif headline above a carousel of member portrait photo cards with quote snippets, names and roles",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "34647bb5d7",
+    "companyName": "Collective",
+    "companySlug": "collective",
+    "domain": "collective.com",
+    "companyConfidence": "high",
+    "category": "stats",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "testimonial"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "metrics",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Let the numbers speak for themselves",
+    "alt": "Collective stats section: serif headline above three white cards showing 4.7/5 stars, 120 hours yearly and $100M+ on a lavender gradient",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e45fb58106",
+    "companyName": "Hyphenate",
+    "companySlug": "hyphenate",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bento",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "One platform, the whole finance function.",
+    "alt": "Hyphenate features section: orange headline and button above a bento of five product tiles with copy and orange UI mockups",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "361be4be84",
+    "companyName": "Hyphenate",
+    "companySlug": "hyphenate",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Hyphenate footer section: faded logo mark left, three link columns, social icons and legal links on a deep red background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2146393ec0",
+    "companyName": "Hyphenate",
+    "companySlug": "hyphenate",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Finance that runs itself, so you can sprint ahead.",
+    "alt": "Hyphenate hero section: centered headline and two buttons over an orange gradient grid, large finance dashboard screenshot below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "aa62eaa302",
+    "companyName": "Hyphenate",
+    "companySlug": "hyphenate",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "medium"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Hyphenate logo cloud section: row of five maroon investor logos in bordered cells above a faded row of angel investor company logos",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e88685552d",
+    "companyName": "Hyphenate",
+    "companySlug": "hyphenate",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "metrics",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Trusted by real people running real companies.",
+    "alt": "Hyphenate testimonials section: customer logo tabs left, selected quote with avatar and two large orange metrics right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "00a93254e8",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "alternating",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Certificate Management",
+    "alt": "Infisical features section: two alternating rows pairing certificate and session replay UI on grainy yellow-orange panels with feature lists",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "40d2f15059",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Starting with Infisical is simple, fast, and free.",
+    "alt": "Infisical call to action section: centered headline with a black button and text link on a grainy lime green panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b73a563cda",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Secrets Management",
+    "alt": "Infisical features section: highlighted heading and copy above a feature list left and a secrets environment table UI on a green grainy panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3611257cce",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "how-it-works"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Agents shouldn't see your secrets. Give agents access without handing them credentials.",
+    "alt": "Infisical features section: headline above an agent-to-proxy-to-vault flow diagram with a chat card on black, three benefit columns below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "81e66b00dc",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "value-proposition"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Meet the all-in-one identity security stack for developers and AI agents.",
+    "alt": "Infisical features section: centered headline with a yellow highlighted phrase in a framed box, short copy and one black button",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e59a9c9731",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "minimal",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Infisical footer section: logo left and six link columns for product, use cases, developers, resources, legal and contact on white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "eb47d1ed69",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "logo-strip",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Security Infrastructure for Developers and Agents",
+    "alt": "Infisical hero section: headline with yellow highlights and two buttons left, stacked secrets table UI cards right, customer logo row below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2cc6ff1a02",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "We support your stack.",
+    "alt": "Infisical integrations section: grid of colorful cloud and DevOps tool icons left, headline and link right, on a grainy gray textured panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "691d1be444",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "medium"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The only security tool loved by developers.",
+    "alt": "Infisical testimonials section: headline in a framed box on a grainy gray band above a grid of developer tweet cards cut off at the edge",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9da35b4b5a",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Everyone has secrets. We secure 10 billion every day.",
+    "alt": "Infisical security section: headline and button above a gray and yellow dither dot wave, four bordered cells on compliance and uptime",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "1af385728f",
+    "companyName": "Infisical",
+    "companySlug": "infisical",
+    "domain": "infisical.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Infisical customers are happy customers.",
+    "alt": "Infisical testimonials section: headline and button above a carousel of quote cards with photo and texture backgrounds and arrow controls",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4562d8f923",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Put Analyst to work on your data",
+    "alt": "Nominal call to action section: centered headline and two mono buttons inside a riveted dark gray metal panel on a near-black background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "865d792a30",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "See it on your hardware data",
+    "alt": "Nominal call to action section: centered headline and single white button inside a riveted dark metal panel on a near-black background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3b4544cf3f",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Keep the evidence and continue the investigation",
+    "alt": "Nominal features section: left-aligned headline above a large dark app screenshot with a time-series chart, checklist and AI chat panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "c0ec718ab2",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The AI agent for people building hardware",
+    "alt": "Nominal hero section: announcement bar and nav over a centered headline, two buttons and a dark AI analyst app screenshot on a dot grid",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b8bf81e90c",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "What can Analyst do?",
+    "alt": "Nominal features section: left-aligned headline above a 3x2 grid of gray capability cells with pixel icons on a near-black background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2d0c2c9436",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "bento",
+        "confidence": "high"
+      }
+    ],
+    "headline": "No new formats. No new scripts.",
+    "alt": "Nominal integrations section: headline above a grid of app icon tiles like LabVIEW, MATLAB and Python plus a wide docs tile on a dark background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "88f77971e5",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Nominal footer section: five mono link columns above a giant embossed NOMINAL wordmark and a status, barcode and button row on near-black",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "1e32ca3ba3"
+  },
+  {
+    "id": "1e32ca3ba3",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Nominal footer section: five mono link columns above a giant embossed NOMINAL wordmark and a status, barcode and button row on near-black",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "534233f744",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "One foundation for all your hardware data",
+    "alt": "Nominal hero section: nav and centered headline over a full-bleed mountain sky photo with a rugged laptop showing the app on a rock",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "ecc4e17b8a",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "logo-cloud",
+      "stats"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Trusted by industry-leading engineering teams",
+    "alt": "Nominal testimonials section: headline above a carousel of grayscale photo case-study cards, the center one showing Anduril jets with a 6+ stat",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2fa1990522",
+    "companyName": "Nominal",
+    "companySlug": "nominal",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Secure by design",
+    "alt": "Nominal security section: headline and two outline buttons left, stacked compliance rows for SOC 2, Cyber Essentials, NIST and ITAR right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "317b95728d",
+    "companyName": "Nooks",
+    "companySlug": "nooks",
+    "domain": "nooks.ai",
+    "companyConfidence": "high",
+    "category": "about",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "team",
+      "blog"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Nooks Research",
+    "alt": "Nooks about & mission section: rounded black panel with headline, mission copy and scattered rounded team photos over a magenta dot grid",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "de8490869e",
+    "companyName": "Nooks",
+    "companySlug": "nooks",
+    "domain": "nooks.ai",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "value-proposition"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "glassmorphism",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The agent platform for modern GTM teams",
+    "alt": "Nooks features section: headline over a full-bleed photo of two men at a laptop with three frosted glass cards for Execution, Context and Learning",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9f2c4a5401",
+    "companyName": "Nooks",
+    "companySlug": "nooks",
+    "domain": "nooks.ai",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Nooks footer section: large pink nooks logo left, three link columns over a blurred magenta glow, and a legal links row on black",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7f9623c101",
+    "companyName": "Nooks",
+    "companySlug": "nooks",
+    "domain": "nooks.ai",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Revenue infrastructure for reps and agents",
+    "alt": "Nooks hero section: nav over a full-bleed portrait of a smiling woman on brown, with rating, bottom-left headline, pink button and news pill",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "cdfbd3cdd6",
+    "companyName": "Nooks",
+    "companySlug": "nooks",
+    "domain": "nooks.ai",
+    "companyConfidence": "high",
+    "category": "use-case",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "how-it-works",
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Run agents across the entire revenue lifecycle",
+    "alt": "Nooks use cases section: right-aligned headline, five numbered pill tabs from Inbound to Coaching, and a sliding card with copy, 20% stat and photo",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "058bf8365e",
+    "companyName": "Nooks",
+    "companySlug": "nooks",
+    "domain": "nooks.ai",
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "minimal",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The companies redefining software are redefining revenue with Nooks",
+    "alt": "Nooks logo cloud section: left-aligned headline above a three-row grid of 24 customer logos such as Notion, Vercel and HubSpot on white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f75998fe0f",
+    "companyName": "Nooks",
+    "companySlug": "nooks",
+    "domain": "nooks.ai",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "stats"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bento",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "metrics",
+        "confidence": "high"
+      },
+      {
+        "id": "video",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Agents that deliver. Numbers that prove it.",
+    "alt": "Nooks testimonials section: bento grid of customer video stills, a quote card with +31% stat, a pink metrics tile and logo tiles",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e5933c0697",
+    "companyName": "Pluto",
+    "companySlug": "pluto",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "cta"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Ready to go where no CISO has gone before?",
+    "alt": "Pluto footer section: bold headline over a yellow moon illustration with an astronaut monkey and Book a demo button, then logo and link row",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "8bed648e61",
+    "companyName": "Pluto",
+    "companySlug": "pluto",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Rule The AI Atmosphere",
+    "alt": "Pluto hero section: cartoon astronaut monkey peeking over a yellow planet on a salmon sky with planets, centered headline and dark button",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9c3efffc8e",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "about",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Agents do more of your work every day, but none of them have your brand. Rainbrand is brand infrastructure for your agents: one maintained system, plugged into the tools you already use.",
+    "alt": "Rainbrand about & mission section: small Manifesto pill above a centered large statement in gray and black text on a light gray background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "c6144ef678",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "hero"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "gradient",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      }
+    ],
+    "headline": "THE BRAND LAYER FOR AGENTS",
+    "alt": "Rainbrand call to action section: centered wide display headline and buttons on a dark panel with flowing orange and violet gradient shapes",
+    "usable": true,
+    "issues": [
+      "cropped"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "a6546d627a",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "faq",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Asked, answered.",
+    "alt": "Rainbrand faq section: large headline left and a white card with six numbered accordion questions, the first expanded, on light gray",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7f91ea71d3",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "how-it-works"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "medium"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "ON-BRAND, ON REPEAT.",
+    "alt": "Rainbrand features section: wide display headline and wireframe globe left, three connected rows of abstract color art with Brief, Generate, Review",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7eb77c0319",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Rainbrand footer section: white rounded card with wordmark, dashed wireframe globe drawing, pixel color trail and three mono link columns",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "d07d0727d4",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "THE BRAND LAYER FOR AGENTS",
+    "alt": "Rainbrand hero section: notice bar and nav over a white card with centered wide display headline, two buttons and a colorful pixel cursor trail",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3fad168460",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "how-it-works",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "integration"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "code",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Your brands, ready for agents.",
+    "alt": "Rainbrand how it works section: black panel diagram with input cards for files, website and Figma flowing into a hub and out to MCP and API cards",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3d9ab9c356",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "how-it-works"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Connect Rainbrand.",
+    "alt": "Rainbrand integrations section: headline card linked by lines to a tabbed panel for ChatGPT, Claude, Cursor and API with two setup steps",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2e79c516d8",
+    "companyName": "Rainbrand",
+    "companySlug": "rainbrand",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Teams building with Rainbrand.",
+    "alt": "Rainbrand testimonials section: headline card above three white quote cards with customer logos, names and Read the story links on gray",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "92271b8024",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "blog",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "More from the Lab",
+    "alt": "Router blog & resources section: headline above a row of outlined post cards with dates, titles and Read the post links, plus arrow controls",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f135dcb004",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "footer"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Tokens are money. Save both.",
+    "alt": "Router call to action section: centered headline and two buttons over a huge blurred lime dollar sign, above a dark footer link bar",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f150d52d64",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Control AI spend from inference to invoice.",
+    "alt": "Router features section: dark tagged-requests table over a hazy gray backdrop left, headline, copy and outline button right in a bordered frame",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4442c98f10",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Cut inference costs in seconds",
+    "alt": "Router hero section: ticker bar and nav over a centered headline and two buttons, with a giant glowing blurred Router wordmark on hazy blue-gray",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9728db1555",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "value-proposition"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Built for CTOs. Loved by CFOs.",
+    "alt": "Router features section: headline with a video link card above a dark cost-impact bar chart panel and a row of three benefit cards",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "5928780ed1",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "stats",
+      "blog"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "A benchmark built from real work.",
+    "alt": "Router features section: tabbed scatter chart of model solve rate versus cost with model logos left, headline, copy and outline button right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "de8a2f8214",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "value-proposition"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      },
+      {
+        "id": "code",
+        "confidence": "high"
+      },
+      {
+        "id": "logo-strip",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Router was built to reduce inference costs by matching every request to the most efficient model - balancing cost, speed, and quality of output.",
+    "alt": "Router features section: three numbered tabs over copy with an install command left and a dark CLI cost panel right, above a model logo strip",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "347b6e11f4",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "blog",
+      "stats"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bento",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Put to work at Ramp.",
+    "alt": "Router testimonials section: bento grid with a 2.75T+ stat tile, green and rust gradient case-study cards, and a CTO quote card with headshot",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "31785ab0fe",
+    "companyName": "Router",
+    "companySlug": "router",
+    "domain": "router.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Choosing the right model makes a meaningful difference to our AI spend. We run billions of tokens through Router, and have reduced our model costs by 92%.",
+    "alt": "Router testimonials section: outlined card with a customer logo, quote, and small headshot with name, plus arrow controls on white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "33426fa709",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "how-it-works",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "medium"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "How to get started with Aidan",
+    "alt": "Sable how it works section: 01 02 03 step pager above two numbered cards with a small app mockup and a node graph of topics",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "cc65906adc",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "medium"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Enterprise-grade security you can trust. Sable is a trusted partner with rigorous compliance, secure data handling, and zero training on your data.",
+    "alt": "Sable security section: statement with ISO, GDPR and SOC 2 tags and a Trust Center button beside line-drawn globes and a lock",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "06526906cd",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Curious about Aidan? Don't hesitate to contact us.",
+    "alt": "Sable call to action section: short headline and Hire Aidan button over a full-width photo of a mascot in a sweater outside a building",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e891ce927c",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The first platform for creating AI employees",
+    "alt": "Sable features section: accordion of setup steps on a white card beside a yellow panel of floating recording and doc UI windows",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "176be9118d",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The first AI employee powered by real time browser use and vision – to run customer calls at scale.",
+    "alt": "Sable features section: Brain, Hands and Eyes accordion on the left and a panel of white dots on the right on a light gray background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4018f4366e",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Sable footer section: giant white Sable wordmark and logo on a bright yellow background with a row of nav links above",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "49a94bd176",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Meet Aidan, your newest employee",
+    "alt": "Sable hero section: left-aligned headline under a compact nav above a wide office photo of a woman and a mascot at a laptop",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "a6409d201c",
+    "companyName": "Sable",
+    "companySlug": "sable",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bento",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Sable testimonials section: gray bento tiles with investor quotes from Sequoia and 8VC beside customer logo tiles for Notion and Decagon",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7c05762b29",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      },
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Sett footer section: four link columns above a giant outlined sett wordmark with line-drawn clouds and hills on a cream background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2fb09d6f43",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "medium"
+      },
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "WE WORK WITH THE BEST",
+    "alt": "Sett logo cloud section: two rows of black game studio logos such as Zynga, Unity and Rovio under a small label on cream",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "6e0524e011",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "REAL WORDS FROM THE PEOPLE FIGHTING AD FATIGUE EVERY DAY",
+    "alt": "Sett testimonials section: condensed headline above a row of game and quote cards cut off at the edge, with a cartoon meerkat mascot",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b8ba0956f5",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "comparison",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "YOU CAN'T PREDICT THE NEXT WINNING CREATIVE",
+    "alt": "Sett comparison section: centered headline above a bordered box contrasting Games that fail with thumbs-down and Games that win with thumbs-up",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "82696c7645",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "WHAT IF YOU COULD EXPLORE EVERY CREATIVE CONCEPT AT SCALE?",
+    "alt": "Sett features section: centered headline with prev/next arrows above an oval card with a line drawing of ad phones on a blue panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "90db42fbab",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "how-it-works",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      }
+    ],
+    "headline": "HOW IT WORKS IN REAL LIFE",
+    "alt": "Sett how it works section: four numbered steps, each with text on the left and a cartoon meerkat illustration on the right, on cream",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "47862903bf",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "bold-color",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "DON'T LET FATIGUE CHOKE YOUR UA",
+    "alt": "Sett call to action section: wide cream pill with a condensed headline and orange Get a demo button on a brown background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "574805606e",
+    "companyName": "Sett",
+    "companySlug": "sett",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "GET HIGH-QUALITY, DATA DRIVEN CREATIVES FROM AGENTS THAT KNOW THEIR SH*T",
+    "alt": "Sett hero section: large condensed uppercase headline, subcopy and two pill buttons centered on cream under a nav with a yellow circle",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "059d8ec16c",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Get started with telli today",
+    "alt": "telli call to action section: centered serif headline and demo pill over a soft painted landscape of two people on a hill",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "28860e5dfd",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "bento",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The AI platform for your call operations",
+    "alt": "telli features section: Build, Run, Improve, Scale tabs above a bento of two large UI cards and four small capability cards",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "1ee7dfb7dc",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "medium"
+      },
+      {
+        "id": "video",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Build, improve and run your agents with Charlie",
+    "alt": "telli features section: Charlie agent intro with icon on a blue glow beside a Watch demo video tile, with a booking strip below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3e0bdcc456",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "feature",
+      "blog"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "video",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      }
+    ],
+    "headline": "See how leading teams transform customer conversations with AI",
+    "alt": "telli testimonials section: two video case-study cards for Sky and 1KOMMA5 with Watch video buttons and G2 rating badges",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "52739b84b0",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "telli footer section: logo and four link columns, investor logos and legal links above a large faint logo shape on off-white",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "063d908a06",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      },
+      {
+        "id": "gradient",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Every customer call, handled by AI.",
+    "alt": "telli hero section: centered serif headline and demo call pill over a soft painted landscape with two people sitting on a hill",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "44bbda1d54",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Powering millions of customer conversations for leading B2C brands",
+    "alt": "telli logo cloud section: gray brand logos such as Sky, Enpal and Vaillant in a three-row bordered grid under a small caption",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "5a85aee1a0",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "We value your trust.",
+    "alt": "telli security section: serif headline and copy on the left and a row of GDPR, HIPAA, EU AI Act and SOC 2 badges on a dark band",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "348b0815f3",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Loved by leading teams",
+    "alt": "telli testimonials section: four bordered quote columns with gray customer logos, quotes and names under an All Case Studies button",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "aea2492ff5",
+    "companyName": "telli",
+    "companySlug": "telli",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "use-case",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Driving Results Across Teams",
+    "alt": "telli use cases section: Sales, Operations, Customer Service tabs over a photo of a woman on a call with chat bubbles and a card slider",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "dd722b2358",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "about"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "3d",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Building intelligence that never stops learning",
+    "alt": "Trajectory features section: three cards with lavender isometric 3D platform renders and short product blurbs on a charcoal background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "af5d999cab",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "blog",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Research, writing and thinking from the team",
+    "alt": "Trajectory blog & resources section: slider of article cards with pastel painted artworks, titles and dates, plus arrows and a progress bar",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "c87596609f",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "code",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The easiest way to train your models",
+    "alt": "Trajectory features section: dashboard screenshot with trace metrics and a signal feed plus a Python capture snippet on charcoal",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "0c84001314",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Trajectory footer section: rounded charcoal panel with Navigation, Socials and Legal link columns above a small copyright line",
+    "usable": true,
+    "issues": [
+      "mostly-blank"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "b74f71be82",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Own your own value function",
+    "alt": "Trajectory hero section: bottom-left headline and two buttons over a full-bleed pastel painting of clouds, sea and a fountain pen",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f0f0ea542e",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Where leading AI keeps learning",
+    "alt": "Trajectory logo cloud section: single row of muted Clay, Harvey and Decagon logos under a faint caption on a charcoal band",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9abcfd5eea",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Your data, trained and deployed on your terms",
+    "alt": "Trajectory security section: painted jetpack figure in clouds beside three governance points, with a SOC 2 Certified badge, on charcoal",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "079d2e1004",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "team",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "about"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "medium"
+      },
+      {
+        "id": "logo-strip",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Built by lifelong learners",
+    "alt": "Trajectory team section: centered intro and alumni logo row above an investor card with backer names and a painted train in clouds",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b12cdc49d8",
+    "companyName": "Trajectory",
+    "companySlug": "trajectory",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "video",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Already learning from real use",
+    "alt": "Trajectory testimonials section: featured NVIDIA quote with a keynote video still above a slider of white quote cards on charcoal",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "276d714cc3",
+    "companyName": "Volantis",
+    "companySlug": "volantissemi",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "divider",
+      "value-proposition"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "AI is limited by memory, not compute. Electrical wires only reach ~2mm, capping the fast memory you can put next to a chip.",
+    "alt": "Volantis call to action section: centered white and orange statement with a small Get Access button on a near-black brown band",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "0213498a78",
+    "companyName": "Volantis",
+    "companySlug": "volantissemi",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The Volantis Photonic Design",
+    "alt": "Volantis features section: headline, copy and a large orange 100x stat beside a diagram comparing electrical and optical reach grids",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b479390e61",
+    "companyName": "Volantis",
+    "companySlug": "volantissemi",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Volantis footer section: three small link columns and copyright above a giant dark brown VOLANTIS wordmark spanning the full width",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e9c8ec6119",
+    "companyName": "Volantis",
+    "companySlug": "volantissemi",
+    "domain": null,
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "logo-strip",
+        "confidence": "high"
+      },
+      {
+        "id": "metrics",
+        "confidence": "medium"
+      },
+      {
+        "id": "pattern-background",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Run giant models. At low latencies.",
+    "alt": "Volantis hero section: centered headline over a grainy black background with a memory-compute chip diagram, orange specs and a logo row",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f355252f74",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "about",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "minimal",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Our mission is to deliver everyone a sustainable income.",
+    "alt": "Whop about & mission section: left-aligned mission headline, short team paragraph, orange Join our team button and press contacts on white",
+    "usable": true,
+    "issues": [
+      "cropped"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "3ee349c71b",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "other"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Deploy a business instantly.",
+    "alt": "Whop features section: blueprint description and orange button beside a website template preview, with a row of template thumbnails below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e95eb866e7",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "code",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Run your business agentically",
+    "alt": "Whop features section: Whop CLI label, headline and orange install button on the left, terminal window listing CLI commands on the right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3828143517",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Thrive in competitive markets.",
+    "alt": "Whop features section: six light gray cards in a 3x2 grid, each with a small UI mockup for payments, ads, trading, accounts, cards and chat",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f1d1e5d9b5",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "other"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "video",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Featured customers",
+    "alt": "Whop testimonials section: customer story video player beside narrowing video thumbnails, with name, description and arrow controls below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "1b7e3a700d",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The fastest path to your next dollar",
+    "alt": "Whop features section: Economic Intelligence label, headline and orange button on the left, stacked recommendation cards with icons on the right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2fa49a8d45",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Whop footer section: black footer with app download QR code strip, four link columns, Whop wordmark at right and copyright row",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "1beeb9d232",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "full-bleed-media",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "The new economy.",
+    "alt": "Whop hero section: nav over a darkened full-bleed outdoor photo, bottom-left white headline, subline and orange Get started button",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "d4e63c7a49",
+    "companyName": "Whop",
+    "companySlug": "whop",
+    "domain": "whop.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "code",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Power your platform from our API.",
+    "alt": "Whop features section: gray panel with Checkout copy and a TSX code editor window, above a row of pill tabs for API products",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "ac9afa009a",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "blog",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Suggested for you",
+    "alt": "Wingify blog & resources section: serif heading with arrow controls above four article cards with colorful illustrated thumbnails",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9505da7ad4",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Boosted mobile conversions through targeted experimentation.",
+    "alt": "Wingify testimonials section: Booking.com logo and quote on deep green beside a pale card with a +36% mobile registrations stat",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4dea3ee642",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Everyone's building an agent. Wingify closes the whole loop.",
+    "alt": "Wingify call to action section: lime rounded banner with serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "7625fcd72f"
+  },
+  {
+    "id": "e82a8570f7",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Give your growth wings",
+    "alt": "Wingify call to action section: lime rounded banner with one-line serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "7625fcd72f"
+  },
+  {
+    "id": "7625fcd72f",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Have a bold idea? Give it wings.",
+    "alt": "Wingify call to action section: lime rounded banner with serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7cccc156c3",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The better way to test, learn and grow",
+    "alt": "Wingify call to action section: lime rounded banner with serif headline, demo and trial buttons, and an illustrated figure with a spyglass",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "7625fcd72f"
+  },
+  {
+    "id": "f1596b3321",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "cta"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Part of the flock",
+    "alt": "Wingify integrations section: centered serif headline, bird logo and Learn More button on light blue, ringed by tilted app icon tiles",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7a254895a4",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "faq",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Frequently Asked Questions",
+    "alt": "Wingify faq section: serif heading and subline at left, six rounded accordion question rows at right on a beige background",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "83da88a525"
+  },
+  {
+    "id": "83da88a525",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "faq",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Frequently Asked Questions",
+    "alt": "Wingify faq section: serif heading and subline at left, six rounded accordion question rows at right on a beige background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "0213e3372c",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "code",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "For marketers, developers, and AI-supported workflows",
+    "alt": "Wingify features section: centered serif heading over three beige cards showing a visual editor menu, a JavaScript code editor and an AI chat",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3cea3cb083",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "AI that moves every test forward",
+    "alt": "Wingify features section: charcoal left half with serif headline, accordion steps and lime button; beige right half with an AI chat mockup",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "475227b84b",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Analytics that turn results into action",
+    "alt": "Wingify features section: centered serif heading over an A/B test report mockup on a lavender panel, with three text columns below",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "7849d43f62",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Everything you need to launch, manage, and learn",
+    "alt": "Wingify features section: centered serif heading above a 3x2 grid of beige cards, each with a short description and a small UI mockup",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "f48be9656b",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Powerful on its own. Even stronger as part of Experimentation.",
+    "alt": "Wingify features section: centered serif headline, subline and dark button above two pale teal product cards with icons and links",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "ed618b9e25",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "how-it-works",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The Relevance Loop",
+    "alt": "Wingify how it works section: centered serif heading, AI chat mockup on a beige panel, and four step columns with an active progress bar",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "2d4c22ea20"
+  },
+  {
+    "id": "02b13ba7b8",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "how-it-works"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Agentic experimentation, with you in control",
+    "alt": "Wingify features section: charcoal layout with serif headline, Plan, Build, Track, Summarize accordion and lime button beside a pale blue panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "5992a8d7ea",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Want to do it yourself?",
+    "alt": "Wingify features section: centered serif heading over a visual editor mockup on a beige panel beside a five-item accordion list",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "b949578877",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "From insight to action, for relevance",
+    "alt": "Wingify features section: centered serif heading with an italic word over an A/B test report mockup on a pale blue panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "18d75f7138",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Look closer, grow faster",
+    "alt": "Wingify features section: centered serif heading above a large beige card with an illustrated figure holding a clock and two smaller icon cards",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2d4c22ea20",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "how-it-works",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The Relevance Loop",
+    "alt": "Wingify how it works section: centered serif heading, AI chat mockup on a beige panel, and four step columns with an active progress bar",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "65ac0995c1",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "value-proposition",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Everyone's building an agent. Wingify closes the whole loop.",
+    "alt": "Wingify value proposition section: centered two-line serif headline and paragraph above three benefit columns with small colored icons",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "3e587d1cf5",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "illustration",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Digital optimization is a process. We power each step.",
+    "alt": "Wingify features section: centered serif headline and button above a slider of lavender product cards with illustrated figures and arrows",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "879b9a0566",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "card-grid",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "The result looks solid. Does it still look good in week three?",
+    "alt": "Wingify features section: centered serif headline over a 2x2 grid of beige cards with checkout, journey, survey and traffic chart mockups",
+    "usable": true,
+    "issues": [
+      "cropped"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "51cafeb161",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "tabs",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Turn optimization results into a data mine",
+    "alt": "Wingify features section: serif heading over a store page mockup with a drop-off stat on a deep green panel, and three tabbed text columns",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "98e2819e19",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Hand it to Wingz AI, and it will take care of the rest",
+    "alt": "Wingify features section: charcoal left half with serif headline, three-step accordion and lime button; beige right half with an AI chat mockup",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "904f36ece2",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "What changes for your data analytics team",
+    "alt": "Wingify features section: centered serif heading above a 3x2 grid of feature items, each with a small colored icon, serif title and text",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9574733964",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "One AI layer across every part of the loop.",
+    "alt": "Wingify features section: charcoal left half with eyebrow, serif headline, copy and lime button; pale blue right half with bird logo and labels",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "e816c34cb8",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "carousel",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "medium"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Growth without the guesswork",
+    "alt": "Wingify features section: centered serif heading with pill tab selectors above a slider of lavender product suite cards with UI snippets",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "92d2945bef",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Wingz AI is stronger with a solid data foundation",
+    "alt": "Wingify features section: charcoal left half with serif headline, checklist and lime button; pale blue right half with a visitor profile diagram",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "09620b31e0",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "use-case",
+    "categoryConfidence": "high",
+    "categoryAlternates": [
+      "feature"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "tabs",
+        "confidence": "high"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Built for teams who own the outcome",
+    "alt": "Wingify use cases section: serif headline and team pill tabs at left, photo of a woman on a magenta square with an overlay card, on beige",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "c5f44e61d3",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "about",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "other"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Even better together",
+    "alt": "Wingify about & mission section: merger note with serif headline, copy and button beside a lime panel showing VWO and AB Tasty logos",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "a087bf5751",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "faq",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Still deciding?",
+    "alt": "Wingify faq section: Still deciding? serif heading at left, six rounded accordion question rows at right on a beige background",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "83da88a525"
+  },
+  {
+    "id": "f6285bfdfa",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Growth without the guesswork",
+    "alt": "Wingify features section: serif heading at left beside a 2x2 grid of feature items with small black icons, serif titles and short text",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4d4a995fce",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "value-proposition",
+    "categoryConfidence": "medium",
+    "categoryAlternates": [
+      "about",
+      "divider"
+    ],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Every visitor is different, but every experience is still the same.",
+    "alt": "Wingify value proposition section: problem statement with large serif headline at left, a paragraph and red-ruled pull quote at right",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "2691808f23",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "79f991899a"
+  },
+  {
+    "id": "6141f42e4f",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "79f991899a"
+  },
+  {
+    "id": "6f16d940dd",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "79f991899a"
+  },
+  {
+    "id": "79f991899a",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "footer",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      },
+      {
+        "id": "illustration",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify footer section: light blue footer with large wingify wordmark, social icons, five link columns, a peeking bird mascot and legal row",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "55b37c0166",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Curiosity that converts",
+    "alt": "Wingify hero section: lime announcement bar and pill nav on pale blue, left headline with buttons, right photo of a man with laptop and UI chips",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "6f392b8266",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Growth without the guesswork",
+    "alt": "Wingify hero section: pill nav on deep maroon, centered headline and buttons above an overhead photo of a woman with a suitcase and UI cards",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "1ab55c70cc",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "pastel",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Stop guessing. Start knowing.",
+    "alt": "Wingify hero section: lime announcement bar and pill nav on lavender, left headline with buttons, right overhead photo of a woman with a handbag",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "4ab4fcf3ae",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "hero",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "gradient",
+        "confidence": "high"
+      },
+      {
+        "id": "photography",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Make every digital experience relevant.",
+    "alt": "Wingify hero section: pill nav over a lime-to-white gradient, centered headline and buttons above an overhead photo of a woman with UI cards",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "0e8909c106",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "integration",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "bold-color",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Easily plugs into your existing stack",
+    "alt": "Wingify integrations section: centered serif headline, copy and button on lime, surrounded by scattered tilted app icon tiles",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "dc1388816b",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "feature",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "product-ui",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "See what visitors actually do",
+    "alt": "Wingify features section: serif heading, two-item vertical list at left beside a pricing page mockup with heatmap overlays on a beige panel",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "0ba8958f57",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "medium"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify logo cloud section: single row of customer logos including AXA, Clarins, Club Med and Europcar on white, cut off at the right edge",
+    "usable": true,
+    "issues": [
+      "cropped",
+      "duplicate"
+    ],
+    "duplicateOf": "0263b1226a"
+  },
+  {
+    "id": "94011846b2",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "medium"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify logo cloud section: single row of customer logos including AXA, Clarins, Club Med and Europcar below a strip of the maroon hero",
+    "usable": true,
+    "issues": [
+      "cropped",
+      "duplicate"
+    ],
+    "duplicateOf": "0263b1226a"
+  },
+  {
+    "id": "0263b1226a",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "logo-cloud",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "carousel",
+        "confidence": "medium"
+      },
+      {
+        "id": "minimal",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify logo cloud section: single row of customer logos including AXA, Clarins, Club Med and Europcar on white, cut off at the right edge",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "cf039ddd9b",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "pastel",
+        "confidence": "medium"
+      },
+      {
+        "id": "split",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Increase in demo requests from a single homepage test for Orah",
+    "alt": "Wingify testimonials section: Orah logo and serif quote on light blue beside a pale card with a large +63.27% demo request stat",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "ba671b649e",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Enterprise-grade security & support from day one",
+    "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "5fdb1f4bac"
+  },
+  {
+    "id": "02a868e839",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Enterprise-grade security & support from day one",
+    "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "5fdb1f4bac"
+  },
+  {
+    "id": "ee2cb39cc8",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Enterprise-grade security & support from day one",
+    "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+    "usable": true,
+    "issues": [
+      "duplicate"
+    ],
+    "duplicateOf": "5fdb1f4bac"
+  },
+  {
+    "id": "5fdb1f4bac",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "security",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "monochrome",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "Enterprise-grade security & support from day one",
+    "alt": "Wingify security section: centered serif heading over a large beige card of compliance badges beside two stacked cards on data and support",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "72a2bd165b",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "stats",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "metrics",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "",
+    "alt": "Wingify stats section: four large maroon display numbers for years, countries, customers and experiences split by thin dividers on white",
+    "usable": true,
+    "issues": [
+      "cropped"
+    ],
+    "duplicateOf": null
+  },
+  {
+    "id": "f837e621c8",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "cta",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "centered",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Close the loop from insight to impact",
+    "alt": "Wingify call to action section: deep maroon rounded banner with centered serif headline, short copy and a lime Explore button",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "33491aff17",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "stats",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "dark-mode",
+        "confidence": "high"
+      },
+      {
+        "id": "oversized-type",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "medium"
+      }
+    ],
+    "headline": "+108%",
+    "alt": "Wingify stats section: Samsonite logo above a huge light blue +108% serif figure on a deep maroon background",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  },
+  {
+    "id": "9f2efaef20",
+    "companyName": "Wingify",
+    "companySlug": "wingify",
+    "domain": "wingify.com",
+    "companyConfidence": "high",
+    "category": "testimonial",
+    "categoryConfidence": "high",
+    "categoryAlternates": [],
+    "filenameDisagree": false,
+    "tags": [
+      {
+        "id": "warm-neutral",
+        "confidence": "high"
+      },
+      {
+        "id": "serif",
+        "confidence": "high"
+      },
+      {
+        "id": "minimal",
+        "confidence": "high"
+      }
+    ],
+    "headline": "Personalized customer journeys with Wingify Emotions",
+    "alt": "Wingify testimonials section: serif case-study headline at left and a Samsonite manager quote with story link at right on beige",
+    "usable": true,
+    "issues": [],
+    "duplicateOf": null
+  }
+]

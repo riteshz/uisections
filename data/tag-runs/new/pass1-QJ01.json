@@ -1,0 +1,399 @@
+{
+  "taskId": "QJ01",
+  "sites": [
+    { "batch": "co-artie", "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "confidence": "high", "evidence": "hand-named files; artie wordmark in nav, app.artie.com in screenshot, © 2026 Artie in footer" },
+    { "batch": "co-audienceful", "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "confidence": "high", "evidence": "hand-named files; audienceful logo in nav, © 2021-2026 Audienceful and wordmark in footer" },
+    { "batch": "co-caddy", "companyName": "Caddy", "companySlug": "caddy", "domain": null, "confidence": "high", "evidence": "hand-named files; Caddy logo in nav and footer, product name repeated in copy" },
+    { "batch": "co-catena", "companyName": "Catena", "companySlug": "catena", "domain": "catena.com", "confidence": "high", "evidence": "hand-named files; Catena wordmark in nav and footer, © 2026 Catena Labs, hello@catena.com" },
+    { "batch": "co-coastpay", "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "confidence": "high", "evidence": "hand-named files (coastpay); coast logo in nav and on cards, Coast repeated in copy" }
+  ],
+  "records": [
+    {
+      "id": "635faf52ea",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "Watch your data replicate live",
+      "alt": "Artie call to action section: serif headline and two buttons on solid green, with pastel gradient circles and blocks on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "fc51da3aea",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "medium", "categoryAlternates": ["testimonial", "feature"], "filenameDisagree": true,
+      "tags": [{ "id": "bento", "confidence": "medium" }, { "id": "serif", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "What teams build with Artie",
+      "alt": "Artie use cases section: serif heading over a grid of customer story cards with logos beside a large pink dithered city skyline photo",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4692fadc15",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Built for production",
+      "alt": "Artie features section: serif heading and intro above three ruled rows, each pairing a claim with two linked capability notes",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b451877698",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "We never store your data.",
+      "alt": "Artie security section: serif headline, copy and compliance badges left, mint panel with a database-to-destination flow diagram right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b1c2faed26",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "pastel", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Artie features section: two product cards on mint and lavender panels with small UI tables, serif titles and descriptions below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c75c5f17c1",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "oversized-type", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "",
+      "alt": "Artie footer section: logo, tagline and four link columns above a huge outlined artie wordmark with construction guide lines",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d492554764",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Your production data, streamed in real time.",
+      "alt": "Artie hero section: serif headline and two buttons beside gradient geometric shapes, above a dashboard screenshot on a green gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "68bc33dc13",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Get your data streaming in 3 steps",
+      "alt": "Artie how it works section: three numbered steps in ruled rows, each with a serif title, description and small mint abstract graphic",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "eb02936355",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition", "how-it-works"], "filenameDisagree": true,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "The promises behind the pipeline.",
+      "alt": "Artie features section: serif heading over a grid of pipeline status cards, with three numbered serif claims in columns below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0aa1b5d526",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Built for the data stack you already run.",
+      "alt": "Artie integrations section: serif headline and button left, mint panel with database connector icons linked through the Artie logo right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "be7be9f1ed",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Artie logo cloud section: two rows of grayscale customer logos in a bordered ten-cell grid on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ab7f9cd453",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "divider", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition", "other"], "filenameDisagree": true,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "oversized-type", "confidence": "medium" }],
+      "headline": "Managed means our engineers get paged, not yours.",
+      "alt": "Artie divider section: large serif statement across four lines, interleaved with pastel gradient circles and bars",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "530b70932d",
+      "companyName": "Artie", "companySlug": "artie", "domain": "artie.com", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "From fast syncs to advanced architectures.",
+      "alt": "Artie use cases section: serif heading and button above five columns of stacked gradient blocks growing in height, each with a caption",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "39cc9d4bb9",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "minimal", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Start for free",
+      "alt": "Audienceful call to action section: pixel-font headline and blue button on a black dot grid background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cd153b22d2",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Gorgeous templates for emails, forms, popups and landing pages.",
+      "alt": "Audienceful features section: headline with pixel-font accent, tab bar of template types and a sliding row of email template previews",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cffb9a7788",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "split", "confidence": "medium" }, { "id": "tabs", "confidence": "medium" }],
+      "headline": "Go full autonomous. Use our agent or connect Claude, ChatGPT or any agent free.",
+      "alt": "Audienceful features section: headline above a list of agent tasks on the left and a campaign plan UI card on a soft glow panel right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "54eea98ea6",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "split", "confidence": "medium" }, { "id": "tabs", "confidence": "medium" }],
+      "headline": "All-in-one platform for both humans and agents to run customer messaging.",
+      "alt": "Audienceful features section: headline above a vertical list of platform modules and a subscriber table screenshot on a pink panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "13049ec1cc",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }],
+      "headline": "",
+      "alt": "Audienceful footer section: five link columns on black with a huge faint pixel-font audienceful wordmark along the bottom",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "00dd836c42",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Agentic Email.",
+      "alt": "Audienceful hero section: centered pixel-font headline and blue button above a collage of email templates and an editor UI",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9aeccf4505",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "",
+      "alt": "Audienceful logo cloud section: single row of six grayscale customer logos in bordered cells on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8dfe0ceb92",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "code", "confidence": "medium" }],
+      "headline": "Deliverability monitoring suite and full transactional API, built in.",
+      "alt": "Audienceful features section: headline over a deliverability dashboard screenshot and three cards with UI snippets and an API call",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "066618dd80",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Deep integrations and flows that build themselves, and track revenue.",
+      "alt": "Audienceful integrations section: dark headline block, row of store and billing logos, and a dark automation flow builder screenshot",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6a281237e5",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "code", "confidence": "medium" }],
+      "headline": "The whole Shopify and Stripe customer lifecycle, handled for you.",
+      "alt": "Audienceful features section: dark headline, lifecycle tab bar, trigger-to-output flow diagram and three dark cards with UI snippets",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "6d1c9e3656",
+      "companyName": "Audienceful", "companySlug": "audienceful", "domain": "audienceful.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }],
+      "headline": "See why 10,000+ businesses migrated from Klaviyo.",
+      "alt": "Audienceful testimonials section: headline above three photo cards with large stats, each paired with a quote card and avatar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5fa1a12fa2",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "3d", "confidence": "high" }],
+      "headline": "Get your own Caddy today",
+      "alt": "Caddy call to action section: row of 3D mascot avatars in circles with speech bubbles above a centered headline and green button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5f48705107",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Need more info?",
+      "alt": "Caddy faq section: gray rounded panel with heading and six collapsed question rows with plus icons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "48f671eb23",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "medium" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Tackle any task with Caddy",
+      "alt": "Caddy features section: headline and copy above a scattered collage of chat bubbles, photos, a calendar, a menu and a doc card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "730f44dac9",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["integration"], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "All you have to do is text",
+      "alt": "Caddy features section: headline and copy above a blue voice memo bubble ringed by faint app icons on an orbit line",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ebad5c2e00",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "3d", "confidence": "high" }],
+      "headline": "Best part is, no two Caddys are alike",
+      "alt": "Caddy features section: centered headline and copy above four fanned colorful cards, each showing a 3D Caddy mascot",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4c13c64ce7",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Stay on top of work and life",
+      "alt": "Caddy hero section: centered headline, subline and green button above a phone chat mockup amid scattered photos and notes",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3d4c7c0852",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "split", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Caddy footer section: blurred flower photo card with white Caddy logo beside a gray panel of pill-shaped link buttons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f6526e4c42",
+      "companyName": "Caddy", "companySlug": "caddy", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["stats"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "carousel", "confidence": "medium" }],
+      "headline": "Stay focused on what matters",
+      "alt": "Caddy features section: headline, copy and button left, chat message mockup right, slider dots, with a large blank area below",
+      "usable": false, "issues": ["mostly-blank"], "duplicateOf": null
+    },
+    {
+      "id": "c52548573f",
+      "companyName": "Catena", "companySlug": "catena", "domain": "catena.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "form", "confidence": "medium" }],
+      "headline": "Money for Agents. Control for You.",
+      "alt": "Catena footer section: dark CTA band with serif headline and striped tiles, link columns, email field and a giant gray Catena wordmark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "13157f09b7",
+      "companyName": "Catena", "companySlug": "catena", "domain": "catena.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "How AI Agents Use Money, Safely",
+      "alt": "Catena hero section: serif headline with lime accent and button on dark grid texture, above a mosaic of striped colorful tiles",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b14d7e4551",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Drive your fleet with Coast",
+      "alt": "Coast call to action section: bold headline, two buttons and three checkmark points on a bright blue panel with soft wave shapes",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cfaecba2fd",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "dark-mode", "confidence": "medium" }],
+      "headline": "Coast connects to your tools",
+      "alt": "Coast integrations section: navy panel with partner logos orbiting the Coast icon left and headline, copy and link right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8f4dceb6bc",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Frequently asked questions",
+      "alt": "Coast faq section: bold heading and subline above eight collapsed question rows with chevron icons on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "92a8654b34",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["security"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Stop misuse. Prevent overspend.",
+      "alt": "Coast features section: icon, headline, checklist and button left, spend controls UI card with toggles on a pale blue panel right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "11248ce794",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Choose America's top-rated fuel card",
+      "alt": "Coast value proposition section: bold heading above three pale blue cards with card, support and credit visuals and short benefits",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "372e3e09c8",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["use-case"], "filenameDisagree": false,
+      "tags": [{ "id": "photography", "confidence": "high" }, { "id": "centered", "confidence": "medium" }],
+      "headline": "One card program for everything your team needs",
+      "alt": "Coast features section: centered headline and copy above two cards for fuel and corporate cards with photos and Coast card visuals",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "daedc308ab",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "The smartest card for fuel, field, and office expenses",
+      "alt": "Coast hero section: bold headline, copy and email signup left, worker photo, blue card and phone chat mockup right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c696303d79",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": ["testimonial"], "filenameDisagree": false,
+      "tags": [{ "id": "metrics", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Thousands of businesses trust us",
+      "alt": "Coast stats section: star rating and trust heading beside three large metrics with labels, plus a source link below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1e680af5f9",
+      "companyName": "Coast", "companySlug": "coastpay", "domain": "coastpay.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": ["use-case"], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "pastel", "confidence": "medium" }],
+      "headline": "Works for businesses like yours",
+      "alt": "Coast testimonials section: heading and tab bar above a large pale blue quote card and a person card whose photo is missing",
+      "usable": true, "issues": ["broken-image"], "duplicateOf": null
+    }
+  ]
+}

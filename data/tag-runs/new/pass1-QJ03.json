@@ -1,0 +1,354 @@
+{
+  "taskId": "QJ03",
+  "sites": [
+    { "batch": "co-nominal", "companyName": "Nominal", "companySlug": "nominal", "domain": null, "confidence": "high", "evidence": "hand-named files; NOMINAL wordmark in nav, ©2026 NOMINAL, INC in footer, app.nominal.io in screenshot. Note: this is the hardware-data Nominal (nominal.io), not the accounting Nominal (nominal.so) already in known-companies; slug collision left for review" },
+    { "batch": "co-nooks", "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "confidence": "high", "evidence": "hand-named files; nooks logo in nav and footer, © NOOKS AI 2026 in footer" },
+    { "batch": "co-pluto", "companyName": "Pluto", "companySlug": "pluto", "domain": null, "confidence": "high", "evidence": "hand-named files; PLUTO logo in nav and footer, Copyright © 2026 Pluto Security in footer" },
+    { "batch": "co-rainbrand", "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "confidence": "high", "evidence": "hand-named files; RAINBRAND wordmark in nav and footer, © 2026 Rainbrand in footer" },
+    { "batch": "co-router", "companyName": "Router", "companySlug": "router", "domain": "router.com", "confidence": "high", "evidence": "hand-named files; router by ramp logo in nav and footer, ROUTER.COM eyebrow in hero and router.com install URL" }
+  ],
+  "records": [
+    {
+      "id": "4562d8f923",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Put Analyst to work on your data",
+      "alt": "Nominal call to action section: centered headline and two mono buttons inside a riveted dark gray metal panel on a near-black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "865d792a30",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "See it on your hardware data",
+      "alt": "Nominal call to action section: centered headline and single white button inside a riveted dark metal panel on a near-black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3b4544cf3f",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Keep the evidence and continue the investigation",
+      "alt": "Nominal features section: left-aligned headline above a large dark app screenshot with a time-series chart, checklist and AI chat panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c0ec718ab2",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "The AI agent for people building hardware",
+      "alt": "Nominal hero section: announcement bar and nav over a centered headline, two buttons and a dark AI analyst app screenshot on a dot grid",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b8bf81e90c",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "What can Analyst do?",
+      "alt": "Nominal features section: left-aligned headline above a 3x2 grid of gray capability cells with pixel icons on a near-black background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2d0c2c9436",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "bento", "confidence": "high" }],
+      "headline": "No new formats. No new scripts.",
+      "alt": "Nominal integrations section: headline above a grid of app icon tiles like LabVIEW, MATLAB and Python plus a wide docs tile on a dark background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "88f77971e5",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }],
+      "headline": "",
+      "alt": "Nominal footer section: five mono link columns above a giant embossed NOMINAL wordmark and a status, barcode and button row on near-black",
+      "usable": true, "issues": ["duplicate"], "duplicateOf": "1e32ca3ba3"
+    },
+    {
+      "id": "1e32ca3ba3",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }],
+      "headline": "",
+      "alt": "Nominal footer section: five mono link columns above a giant embossed NOMINAL wordmark and a status, barcode and button row on near-black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "534233f744",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "One foundation for all your hardware data",
+      "alt": "Nominal hero section: nav and centered headline over a full-bleed mountain sky photo with a rugged laptop showing the app on a rock",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ecc4e17b8a",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["logo-cloud", "stats"], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Trusted by industry-leading engineering teams",
+      "alt": "Nominal testimonials section: headline above a carousel of grayscale photo case-study cards, the center one showing Anduril jets with a 6+ stat",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2fa1990522",
+      "companyName": "Nominal", "companySlug": "nominal", "domain": null, "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "split", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Secure by design",
+      "alt": "Nominal security section: headline and two outline buttons left, stacked compliance rows for SOC 2, Cyber Essentials, NIST and ITAR right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "317b95728d",
+      "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "medium", "categoryAlternates": ["team", "blog"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Nooks Research",
+      "alt": "Nooks about & mission section: rounded black panel with headline, mission copy and scattered rounded team photos over a magenta dot grid",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "de8490869e",
+      "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "glassmorphism", "confidence": "high" }],
+      "headline": "The agent platform for modern GTM teams",
+      "alt": "Nooks features section: headline over a full-bleed photo of two men at a laptop with three frosted glass cards for Execution, Context and Learning",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9f2c4a5401",
+      "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Nooks footer section: large pink nooks logo left, three link columns over a blurred magenta glow, and a legal links row on black",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7f9623c101",
+      "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Revenue infrastructure for reps and agents",
+      "alt": "Nooks hero section: nav over a full-bleed portrait of a smiling woman on brown, with rating, bottom-left headline, pink button and news pill",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "cdfbd3cdd6",
+      "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "companyConfidence": "high",
+      "category": "use-case", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works", "feature"], "filenameDisagree": true,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Run agents across the entire revenue lifecycle",
+      "alt": "Nooks use cases section: right-aligned headline, five numbered pill tabs from Inbound to Coaching, and a sliding card with copy, 20% stat and photo",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "058bf8365e",
+      "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "The companies redefining software are redefining revenue with Nooks",
+      "alt": "Nooks logo cloud section: left-aligned headline above a three-row grid of 24 customer logos such as Notion, Vercel and HubSpot on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f75998fe0f",
+      "companyName": "Nooks", "companySlug": "nooks", "domain": "nooks.ai", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": ["stats"], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "video", "confidence": "medium" }],
+      "headline": "Agents that deliver. Numbers that prove it.",
+      "alt": "Nooks testimonials section: bento grid of customer video stills, a quote card with +31% stat, a pink metrics tile and logo tiles",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e5933c0697",
+      "companyName": "Pluto", "companySlug": "pluto", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": ["cta"], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "high" }, { "id": "bold-color", "confidence": "high" }],
+      "headline": "Ready to go where no CISO has gone before?",
+      "alt": "Pluto footer section: bold headline over a yellow moon illustration with an astronaut monkey and Book a demo button, then logo and link row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "8bed648e61",
+      "companyName": "Pluto", "companySlug": "pluto", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "high" }, { "id": "bold-color", "confidence": "high" }, { "id": "centered", "confidence": "high" }],
+      "headline": "Rule The AI Atmosphere",
+      "alt": "Pluto hero section: cartoon astronaut monkey peeking over a yellow planet on a salmon sky with planets, centered headline and dark button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9c3efffc8e",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Agents do more of your work every day, but none of them have your brand. Rainbrand is brand infrastructure for your agents: one maintained system, plugged into the tools you already use.",
+      "alt": "Rainbrand about & mission section: small Manifesto pill above a centered large statement in gray and black text on a light gray background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c6144ef678",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "medium", "categoryAlternates": ["hero"], "filenameDisagree": false,
+      "tags": [{ "id": "gradient", "confidence": "high" }, { "id": "centered", "confidence": "high" }],
+      "headline": "THE BRAND LAYER FOR AGENTS",
+      "alt": "Rainbrand call to action section: centered wide display headline and buttons on a dark panel with flowing orange and violet gradient shapes",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "a6546d627a",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "faq", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Asked, answered.",
+      "alt": "Rainbrand faq section: large headline left and a white card with six numbered accordion questions, the first expanded, on light gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7f91ea71d3",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "illustration", "confidence": "medium" }],
+      "headline": "ON-BRAND, ON REPEAT.",
+      "alt": "Rainbrand features section: wide display headline and wireframe globe left, three connected rows of abstract color art with Brief, Generate, Review",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7eb77c0319",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "illustration", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Rainbrand footer section: white rounded card with wordmark, dashed wireframe globe drawing, pixel color trail and three mono link columns",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d07d0727d4",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "THE BRAND LAYER FOR AGENTS",
+      "alt": "Rainbrand hero section: notice bar and nav over a white card with centered wide display headline, two buttons and a colorful pixel cursor trail",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3fad168460",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": ["integration"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Your brands, ready for agents.",
+      "alt": "Rainbrand how it works section: black panel diagram with input cards for files, website and Figma flowing into a hub and out to MCP and API cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3d9ab9c356",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Connect Rainbrand.",
+      "alt": "Rainbrand integrations section: headline card linked by lines to a tabbed panel for ChatGPT, Claude, Cursor and API with two setup steps",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2e79c516d8",
+      "companyName": "Rainbrand", "companySlug": "rainbrand", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Teams building with Rainbrand.",
+      "alt": "Rainbrand testimonials section: headline card above three white quote cards with customer logos, names and Read the story links on gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "92271b8024",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "blog", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "More from the Lab",
+      "alt": "Router blog & resources section: headline above a row of outlined post cards with dates, titles and Read the post links, plus arrow controls",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f135dcb004",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": ["footer"], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "centered", "confidence": "high" }],
+      "headline": "Tokens are money. Save both.",
+      "alt": "Router call to action section: centered headline and two buttons over a huge blurred lime dollar sign, above a dark footer link bar",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f150d52d64",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Control AI spend from inference to invoice.",
+      "alt": "Router features section: dark tagged-requests table over a hazy gray backdrop left, headline, copy and outline button right in a bordered frame",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4442c98f10",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "oversized-type", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Cut inference costs in seconds",
+      "alt": "Router hero section: ticker bar and nav over a centered headline and two buttons, with a giant glowing blurred Router wordmark on hazy blue-gray",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9728db1555",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["value-proposition"], "filenameDisagree": true,
+      "tags": [{ "id": "product-ui", "confidence": "high" }, { "id": "card-grid", "confidence": "medium" }],
+      "headline": "Built for CTOs. Loved by CFOs.",
+      "alt": "Router features section: headline with a video link card above a dark cost-impact bar chart panel and a row of three benefit cards",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "5928780ed1",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["stats", "blog"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "A benchmark built from real work.",
+      "alt": "Router features section: tabbed scatter chart of model solve rate versus cost with model logos left, headline, copy and outline button right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "de8a2f8214",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["value-proposition"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "code", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Router was built to reduce inference costs by matching every request to the most efficient model - balancing cost, speed, and quality of output.",
+      "alt": "Router features section: three numbered tabs over copy with an install command left and a dark CLI cost panel right, above a model logo strip",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "347b6e11f4",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["blog", "stats"], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Put to work at Ramp.",
+      "alt": "Router testimonials section: bento grid with a 2.75T+ stat tile, green and rust gradient case-study cards, and a CTO quote card with headshot",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "31785ab0fe",
+      "companyName": "Router", "companySlug": "router", "domain": "router.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Choosing the right model makes a meaningful difference to our AI spend. We run billions of tokens through Router, and have reduced our model costs by 92%.",
+      "alt": "Router testimonials section: outlined card with a customer logo, quote, and small headshot with name, plus arrow controls on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

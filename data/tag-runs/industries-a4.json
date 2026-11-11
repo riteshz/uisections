@@ -1,0 +1,22 @@
+{"companies":[
+{"slug":"artie","primary":"data-analytics","secondary":"developer-tools","confidence":"medium","note":"Real-time CDC replication streaming production databases into data warehouses"},
+{"slug":"audienceful","primary":"sales-marketing","secondary":"ai","confidence":"medium","note":"Email marketing and customer messaging platform built around an AI agent"},
+{"slug":"caddy","primary":"ai","secondary":"productivity","confidence":"medium","note":"Personal AI assistant you text in iMessage for tasks, reminders, email and calendar"},
+{"slug":"catena","primary":"fintech","secondary":"ai","confidence":"medium","note":"Catena Labs: financial accounts and payment controls for AI agents"},
+{"slug":"coastpay","primary":"fintech","secondary":"logistics","confidence":"high","note":"Fuel and spend card program with controls for vehicle fleets"},
+{"slug":"collective","primary":"fintech","secondary":null,"confidence":"high","note":"Back office for the self-employed: bookkeeping, business setup and tax filing"},
+{"slug":"hyphenate","primary":"fintech","secondary":"ai","confidence":"high","note":"Autonomous AI-agent platform for the CFO office: close, AP/AR, treasury, reporting (formerly Maximor)"},
+{"slug":"infisical","primary":"cybersecurity","secondary":"developer-tools","confidence":"high","note":"Secrets, certificate and identity security for developers and AI agents"},
+{"slug":"nominal-io","primary":"data-analytics","secondary":"ai","confidence":"medium","note":"Hardware test data platform with Analyst, an AI agent for investigating hardware data"},
+{"slug":"nooks","primary":"sales-marketing","secondary":"ai","confidence":"high","note":"AI agent platform and sales engagement for GTM and revenue teams"},
+{"slug":"pluto","primary":"cybersecurity","secondary":"ai","confidence":"medium","note":"Pluto Security: workspace security platform for securing employee AI building and agent use"},
+{"slug":"rainbrand","primary":"design-tools","secondary":"ai","confidence":"low","note":"Brand system served to AI agents via MCP/API so generated content stays on-brand"},
+{"slug":"router","primary":"ai","secondary":"developer-tools","confidence":"medium","note":"Ramp's LLM routing API that sends requests to the cheapest capable model to cut inference spend"},
+{"slug":"sable","primary":"ai","secondary":"sales-marketing","confidence":"medium","note":"Aidan, an AI employee that runs live product demos and customer calls via browser use and vision"},
+{"slug":"sett","primary":"sales-marketing","secondary":"ai","confidence":"medium","note":"Agentic AI that produces video and playable ad creatives for mobile game user acquisition"},
+{"slug":"telli","primary":"ai","secondary":"customer-support","confidence":"medium","note":"AI voice agents that handle call operations for B2C brands"},
+{"slug":"trajectory","primary":"ai","secondary":null,"confidence":"high","note":"Continual-learning platform that retrains and redeploys open models from product usage"},
+{"slug":"volantissemi","primary":"ai","secondary":null,"confidence":"low","note":"Photonic memory fabric chips/systems for AI inference; semiconductor hardware with no closer fit"},
+{"slug":"whop","primary":"ecommerce","secondary":"fintech","confidence":"medium","note":"Platform to launch and sell digital products and memberships, with payments, cards and ads built in"},
+{"slug":"wingify","primary":"sales-marketing","secondary":"data-analytics","confidence":"medium","note":"VWO experimentation and conversion optimization with behavior analytics"}
+]}

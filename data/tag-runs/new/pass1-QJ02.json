@@ -1,0 +1,335 @@
+{
+  "taskId": "QJ02",
+  "sites": [
+    { "batch": "co-coframe", "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "confidence": "high", "evidence": "hand-named files; Coframe logo in nav, © 2026 Coframe in footer; existing known company" },
+    { "batch": "co-collective", "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "confidence": "high", "evidence": "hand-named files; collective wordmark in nav and footer, © 2026 Collective Hub, Inc. in footer" },
+    { "batch": "co-hyphenate", "companyName": "Hyphenate", "companySlug": "hyphenate", "domain": null, "confidence": "high", "evidence": "hand-named files; HYPHENATE wordmark in dashboard UI, 'Hyphenate raises $45M Series A' banner, © 2026 Hyphenate in footer" },
+    { "batch": "co-infisical", "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "confidence": "high", "evidence": "hand-named files; Infisical logo in nav and footer, © 2026 Infisical in footer" }
+  ],
+  "records": [
+    {
+      "id": "b816ff206d",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "A website that learns how to grow your revenue.",
+      "alt": "Coframe call to action section: left-aligned headline, copy and two buttons over a full-bleed teal cloudy sky photo",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d650475ff7",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "card-grid", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Coframe turns your traffic...",
+      "alt": "Coframe features section: centered headline above four glowing outlined capability cards on dark dithered background, large blank area below",
+      "usable": false, "issues": ["mostly-blank"], "duplicateOf": null
+    },
+    {
+      "id": "15d42c8e8e",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Four ways Coframe helps you beat your number.",
+      "alt": "Coframe features section: centered headline over a 2x2 grid of numbered cards, each with copy and a product UI mockup, plus two buttons",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7d2026c059",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }, { "id": "form", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Coframe footer section: logo, tagline, social icons and email signup field left, three link columns right, dotted cheetah artwork on dark",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "c08b5803d7",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "form", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Turn your traffic into revenue.",
+      "alt": "Coframe hero section: centered headline, URL input and demo button over a dark full-bleed cheetah photo, customer logo row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "be8e3171b7",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "comparison", "categoryConfidence": "medium", "categoryAlternates": ["how-it-works"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "medium" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Once you experience Coframe, you'll never want to go back.",
+      "alt": "Coframe comparison section: headline above two panels, a week-by-week current process timeline beside a With Coframe sky photo card",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "0890dc6b5f",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "how-it-works", "categoryConfidence": "high", "categoryAlternates": ["feature"], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "photography", "confidence": "high" }],
+      "headline": "You own the growth target. Take control of the execution.",
+      "alt": "Coframe how it works section: centered headline and buttons above a step list left and a landscape photo with URL field right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b95f40af3e",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "comparison", "categoryConfidence": "medium", "categoryAlternates": ["integration"], "filenameDisagree": true,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "table", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "We outperform both SaaS and CRO agencies.",
+      "alt": "Coframe comparison section: check and cross table vs traditional SaaS and CRO agencies on dark, then integrations logo grid beside text",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "ebd4f12ecb",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "medium" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "Trusted by Fortune 500 companies and fast-growing brands",
+      "alt": "Coframe logo cloud section: centered headline above seven gray customer logo tiles in rows of three and four on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3493af4e42",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Scalable and secure. Trusted by the Fortune 500.",
+      "alt": "Coframe security section: headline and copy left, 2x2 grid of outlined icons with SOC 2 Type II and AI protection points right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "168b627764",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "medium", "categoryAlternates": ["testimonial"], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "metrics", "confidence": "high" }],
+      "headline": "Where AI meets ROI.",
+      "alt": "Coframe stats section: bento of a dark customer quote card beside three white cards with large conversion lift percentages and logos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "7c7a36d0bd",
+      "companyName": "Coframe", "companySlug": "coframe", "domain": "coframe.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "photography", "confidence": "high" }],
+      "headline": "Leading growth teams who have turned CRO into a growth channel they control.",
+      "alt": "Coframe testimonials section: centered headline above a carousel of customer story cards with a video thumbnail, play button and quote",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3ba37ce216",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "tabs", "confidence": "medium" }, { "id": "product-ui", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "One platform to power your business",
+      "alt": "Collective features section: serif headline over a vertical list of product areas left, business setup checklist UI in a gray panel right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "4111a39a41",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "video", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Your back office, finally figured out",
+      "alt": "Collective features section: laptop mockup of a transactions screen with a play button left, serif headline and copy right on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "77afca5029",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "serif", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "File your business taxes with confidence",
+      "alt": "Collective features section: shield icon and serif headline left, audit support and accuracy guarantee points right, soft lavender glow",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2454940c45",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "value-proposition", "categoryConfidence": "medium", "categoryAlternates": ["feature"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Built to save you money and time",
+      "alt": "Collective value proposition section: serif headline above four white benefit cards with purple icons on a soft lavender gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f3deffbd07",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "high" }],
+      "headline": "",
+      "alt": "Collective footer section: logo and blurb left, four link columns including Compare, disclaimers, copyright and social icons on charcoal",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "89f2867968",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Self-employed finances, simplified for artists",
+      "alt": "Collective hero section: Trustpilot rating, serif headline and two buttons left, masonry grid of creator photos right, press logos below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b8e6d791e9",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "high" }, { "id": "serif", "confidence": "high" }],
+      "headline": "Why our members love us",
+      "alt": "Collective testimonials section: serif headline above a carousel of member portrait photo cards with quote snippets, names and roles",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "34647bb5d7",
+      "companyName": "Collective", "companySlug": "collective", "domain": "collective.com", "companyConfidence": "high",
+      "category": "stats", "categoryConfidence": "high", "categoryAlternates": ["testimonial"], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "metrics", "confidence": "high" }, { "id": "serif", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Let the numbers speak for themselves",
+      "alt": "Collective stats section: serif headline above three white cards showing 4.7/5 stars, 120 hours yearly and $100M+ on a lavender gradient",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e45fb58106",
+      "companyName": "Hyphenate", "companySlug": "hyphenate", "domain": null, "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bento", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "One platform, the whole finance function.",
+      "alt": "Hyphenate features section: orange headline and button above a bento of five product tiles with copy and orange UI mockups",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "361be4be84",
+      "companyName": "Hyphenate", "companySlug": "hyphenate", "domain": null, "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Hyphenate footer section: faded logo mark left, three link columns, social icons and legal links on a deep red background",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2146393ec0",
+      "companyName": "Hyphenate", "companySlug": "hyphenate", "domain": null, "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "gradient", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Finance that runs itself, so you can sprint ahead.",
+      "alt": "Hyphenate hero section: centered headline and two buttons over an orange gradient grid, large finance dashboard screenshot below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "aa62eaa302",
+      "companyName": "Hyphenate", "companySlug": "hyphenate", "domain": null, "companyConfidence": "high",
+      "category": "logo-cloud", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Hyphenate logo cloud section: row of five maroon investor logos in bordered cells above a faded row of angel investor company logos",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e88685552d",
+      "companyName": "Hyphenate", "companySlug": "hyphenate", "domain": null, "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "metrics", "confidence": "high" }],
+      "headline": "Trusted by real people running real companies.",
+      "alt": "Hyphenate testimonials section: customer logo tabs left, selected quote with avatar and two large orange metrics right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "00a93254e8",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "alternating", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Certificate Management",
+      "alt": "Infisical features section: two alternating rows pairing certificate and session replay UI on grainy yellow-orange panels with feature lists",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "40d2f15059",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "cta", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "bold-color", "confidence": "high" }, { "id": "centered", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Starting with Infisical is simple, fast, and free.",
+      "alt": "Infisical call to action section: centered headline with a black button and text link on a grainy lime green panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "b73a563cda",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "gradient", "confidence": "medium" }],
+      "headline": "Secrets Management",
+      "alt": "Infisical features section: highlighted heading and copy above a feature list left and a secrets environment table UI on a green grainy panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3611257cce",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": ["how-it-works"], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Agents shouldn't see your secrets. Give agents access without handing them credentials.",
+      "alt": "Infisical features section: headline above an agent-to-proxy-to-vault flow diagram with a chat card on black, three benefit columns below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "81e66b00dc",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["value-proposition"], "filenameDisagree": false,
+      "tags": [{ "id": "centered", "confidence": "high" }, { "id": "minimal", "confidence": "high" }],
+      "headline": "Meet the all-in-one identity security stack for developers and AI agents.",
+      "alt": "Infisical features section: centered headline with a yellow highlighted phrase in a framed box, short copy and one black button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e59a9c9731",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Infisical footer section: logo left and six link columns for product, use cases, developers, resources, legal and contact on white",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "eb47d1ed69",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }, { "id": "logo-strip", "confidence": "high" }],
+      "headline": "Security Infrastructure for Developers and Agents",
+      "alt": "Infisical hero section: headline with yellow highlights and two buttons left, stacked secrets table UI cards right, customer logo row below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2cc6ff1a02",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "integration", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "We support your stack.",
+      "alt": "Infisical integrations section: grid of colorful cloud and DevOps tool icons left, headline and link right, on a grainy gray textured panel",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "691d1be444",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "carousel", "confidence": "medium" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "The only security tool loved by developers.",
+      "alt": "Infisical testimonials section: headline in a framed box on a grainy gray band above a grid of developer tweet cards cut off at the edge",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "9da35b4b5a",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "security", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "pattern-background", "confidence": "medium" }],
+      "headline": "Everyone has secrets. We secure 10 billion every day.",
+      "alt": "Infisical security section: headline and button above a gray and yellow dither dot wave, four bordered cells on compliance and uptime",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1af385728f",
+      "companyName": "Infisical", "companySlug": "infisical", "domain": "infisical.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "Infisical customers are happy customers.",
+      "alt": "Infisical testimonials section: headline and button above a carousel of quote cards with photo and texture backgrounds and arrow controls",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

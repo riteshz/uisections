@@ -1,0 +1,89 @@
+{
+  "taskId": "QJ05",
+  "sites": [
+    { "batch": "co-whop", "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "confidence": "high", "evidence": "hand-named files (whop); Whop wordmark in nav and footer, © 2026 Whop Inc. in footer, press@whop.com in copy" }
+  ],
+  "records": [
+    {
+      "id": "f355252f74",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "about", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "minimal", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Our mission is to deliver everyone a sustainable income.",
+      "alt": "Whop about & mission section: left-aligned mission headline, short team paragraph, orange Join our team button and press contacts on white",
+      "usable": true, "issues": ["cropped"], "duplicateOf": null
+    },
+    {
+      "id": "3ee349c71b",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "carousel", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }],
+      "headline": "Deploy a business instantly.",
+      "alt": "Whop features section: blueprint description and orange button beside a website template preview, with a row of template thumbnails below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "e95eb866e7",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "Run your business agentically",
+      "alt": "Whop features section: Whop CLI label, headline and orange install button on the left, terminal window listing CLI commands on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "3828143517",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "card-grid", "confidence": "high" }, { "id": "product-ui", "confidence": "high" }],
+      "headline": "Thrive in competitive markets.",
+      "alt": "Whop features section: six light gray cards in a 3x2 grid, each with a small UI mockup for payments, ads, trading, accounts, cards and chat",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "f1d1e5d9b5",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "testimonial", "categoryConfidence": "medium", "categoryAlternates": ["other"], "filenameDisagree": true,
+      "tags": [{ "id": "carousel", "confidence": "high" }, { "id": "video", "confidence": "high" }],
+      "headline": "Featured customers",
+      "alt": "Whop testimonials section: customer story video player beside narrowing video thumbnails, with name, description and arrow controls below",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1b7e3a700d",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "split", "confidence": "high" }, { "id": "product-ui", "confidence": "medium" }, { "id": "minimal", "confidence": "medium" }],
+      "headline": "The fastest path to your next dollar",
+      "alt": "Whop features section: Economic Intelligence label, headline and orange button on the left, stacked recommendation cards with icons on the right",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "2fa49a8d45",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "footer", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "dark-mode", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "",
+      "alt": "Whop footer section: black footer with app download QR code strip, four link columns, Whop wordmark at right and copyright row",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "1beeb9d232",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "hero", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": false,
+      "tags": [{ "id": "full-bleed-media", "confidence": "high" }, { "id": "photography", "confidence": "medium" }],
+      "headline": "The new economy.",
+      "alt": "Whop hero section: nav over a darkened full-bleed outdoor photo, bottom-left white headline, subline and orange Get started button",
+      "usable": true, "issues": [], "duplicateOf": null
+    },
+    {
+      "id": "d4e63c7a49",
+      "companyName": "Whop", "companySlug": "whop", "domain": "whop.com", "companyConfidence": "high",
+      "category": "feature", "categoryConfidence": "high", "categoryAlternates": [], "filenameDisagree": true,
+      "tags": [{ "id": "tabs", "confidence": "high" }, { "id": "code", "confidence": "high" }, { "id": "monochrome", "confidence": "medium" }],
+      "headline": "Power your platform from our API.",
+      "alt": "Whop features section: gray panel with Checkout copy and a TSX code editor window, above a row of pill tabs for API products",
+      "usable": true, "issues": [], "duplicateOf": null
+    }
+  ]
+}

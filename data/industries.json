@@ -1001,5 +1001,82 @@
   "sendr": [
     "sales-marketing",
     "ai"
+  ],
+  "audienceful": [
+    "sales-marketing",
+    "ai"
+  ],
+  "caddy": [
+    "ai",
+    "productivity"
+  ],
+  "catena": [
+    "fintech",
+    "ai"
+  ],
+  "coastpay": [
+    "fintech",
+    "logistics"
+  ],
+  "collective": [
+    "fintech"
+  ],
+  "hyphenate": [
+    "fintech",
+    "ai"
+  ],
+  "infisical": [
+    "cybersecurity",
+    "developer-tools"
+  ],
+  "nominal-io": [
+    "data-analytics",
+    "ai"
+  ],
+  "nooks": [
+    "sales-marketing",
+    "ai"
+  ],
+  "pluto": [
+    "cybersecurity",
+    "ai"
+  ],
+  "rainbrand": [
+    "design-tools",
+    "ai"
+  ],
+  "router": [
+    "ai",
+    "developer-tools"
+  ],
+  "sable": [
+    "ai",
+    "sales-marketing"
+  ],
+  "sett": [
+    "sales-marketing",
+    "ai"
+  ],
+  "telli": [
+    "ai",
+    "customer-support"
+  ],
+  "trajectory": [
+    "ai"
+  ],
+  "volantissemi": [
+    "ai"
+  ],
+  "whop": [
+    "ecommerce",
+    "fintech"
+  ],
+  "wingify": [
+    "sales-marketing",
+    "data-analytics"
+  ],
+  "artie": [
+    "data-analytics",
+    "developer-tools"
   ]
 }

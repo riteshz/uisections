@@ -388,6 +388,243 @@
     "f340f7ed70": {
       "category": "feature",
       "note": "filename said team (visual-team.webp); AI + blind check agreed on feature"
+    },
+    "4562d8f923": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so)"
+    },
+    "865d792a30": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so)"
+    },
+    "3b4544cf3f": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so); filename said faq (nominal-faq-3.webp); AI + blind check agreed on feature",
+      "category": "feature"
+    },
+    "c0ec718ab2": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so); filename said faq (nominal-faq.webp); AI + blind check agreed on hero",
+      "category": "hero"
+    },
+    "b8bf81e90c": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so)"
+    },
+    "2d0c2c9436": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so); filename said feature (nominal-feature.webp); AI + blind check agreed on integration",
+      "category": "integration"
+    },
+    "88f77971e5": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so)"
+    },
+    "1e32ca3ba3": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so)"
+    },
+    "534233f744": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so); filename said how-it-works (nominal-how-it-works.webp); AI + blind check agreed on hero",
+      "category": "hero"
+    },
+    "ecc4e17b8a": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so); filename said logo-cloud (nominal-logo-cloud-2.webp); AI + blind check agreed on testimonial",
+      "category": "testimonial"
+    },
+    "2fa1990522": {
+      "company": "nominal-io",
+      "note": "hardware-data Nominal (app.nominal.io), not the accounting Nominal (nominal.so)"
+    },
+    "fc51da3aea": {
+      "category": "use-case",
+      "note": "filename said feature (artie-feature-2.webp); AI + blind check agreed on use-case"
+    },
+    "b451877698": {
+      "category": "security",
+      "note": "filename said feature (artie-feature-4.webp); AI + blind check agreed on security"
+    },
+    "eb02936355": {
+      "category": "value-proposition",
+      "note": "filename said how-it-works (artie-how-it-works.webp); three-way split, decided on review: three numbered benefit claims"
+    },
+    "ab7f9cd453": {
+      "category": "divider",
+      "note": "filename said other (artie-other.webp); AI + blind check agreed on divider"
+    },
+    "530b70932d": {
+      "category": "use-case",
+      "note": "filename said security (artie-security.webp); AI + blind check agreed on use-case"
+    },
+    "8dfe0ceb92": {
+      "category": "feature",
+      "note": "filename said other (audienceful-other-2.webp); AI + blind check agreed on feature"
+    },
+    "066618dd80": {
+      "category": "integration",
+      "note": "filename said other (audienceful-other.webp); AI + blind check agreed on integration"
+    },
+    "6a281237e5": {
+      "category": "feature",
+      "note": "filename said pricing (audienceful-pricing.webp); AI + blind check agreed on feature"
+    },
+    "4c13c64ce7": {
+      "category": "hero",
+      "note": "filename said feature (caddy-feature.webp); AI + blind check agreed on hero"
+    },
+    "cfaecba2fd": {
+      "category": "integration",
+      "note": "filename said cta (coastpay-cta.webp); AI + blind check agreed on integration"
+    },
+    "11248ce794": {
+      "category": "value-proposition",
+      "note": "filename said feature (coastpay-feature-3.webp); AI + blind check agreed on value-proposition"
+    },
+    "be8e3171b7": {
+      "category": "comparison",
+      "note": "filename said how-it-works (coframe-how-it-works-2.webp); AI + blind check agreed on comparison"
+    },
+    "b95f40af3e": {
+      "category": "comparison",
+      "note": "filename said integration (coframe-integration.webp); AI + blind check agreed on comparison"
+    },
+    "3ba37ce216": {
+      "category": "feature",
+      "note": "filename said faq (collective-faq.webp); AI + blind check agreed on feature"
+    },
+    "2454940c45": {
+      "category": "value-proposition",
+      "note": "filename said feature (collective-feature.webp); AI + blind check agreed on value-proposition"
+    },
+    "34647bb5d7": {
+      "category": "stats",
+      "note": "filename said testimonial (collective-testimonial.webp); AI + blind check agreed on stats"
+    },
+    "00a93254e8": {
+      "category": "feature",
+      "note": "filename said blog (infisical-blog.webp); AI + blind check agreed on feature"
+    },
+    "691d1be444": {
+      "category": "testimonial",
+      "note": "filename said logo-cloud (infisical-logo-cloud.webp); AI + blind check agreed on testimonial"
+    },
+    "317b95728d": {
+      "category": "about",
+      "note": "filename said blog (nooks-blog.webp); AI + blind check agreed on about"
+    },
+    "cdfbd3cdd6": {
+      "category": "use-case",
+      "note": "filename said how-it-works (nooks-how-it-works.webp); AI + blind check agreed on use-case"
+    },
+    "9728db1555": {
+      "category": "feature",
+      "note": "filename said how-it-works (router-how-it-works.webp); AI + blind check agreed on feature"
+    },
+    "5928780ed1": {
+      "category": "feature",
+      "note": "filename said pricing (router-pricing-2.webp); AI + blind check agreed on feature"
+    },
+    "de8a2f8214": {
+      "category": "value-proposition",
+      "note": "filename said pricing (router-pricing.webp); three-way split, decided on review: three numbered benefit tabs and a cost-saving claim"
+    },
+    "33426fa709": {
+      "category": "how-it-works",
+      "note": "filename said cta (sable-cta-2.webp); AI + blind check agreed on how-it-works"
+    },
+    "cc65906adc": {
+      "category": "security",
+      "note": "filename said cta (sable-cta-3.webp); AI + blind check agreed on security"
+    },
+    "2fb09d6f43": {
+      "category": "logo-cloud",
+      "note": "filename said hero (sett-hero-2.webp); AI + blind check agreed on logo-cloud"
+    },
+    "6e0524e011": {
+      "category": "testimonial",
+      "note": "filename said hero (sett-hero-3.webp); AI + blind check agreed on testimonial"
+    },
+    "b8ba0956f5": {
+      "category": "comparison",
+      "note": "filename said hero (sett-hero-4.webp); AI + blind check agreed on comparison"
+    },
+    "82696c7645": {
+      "category": "feature",
+      "note": "filename said hero (sett-hero-5.webp); AI + blind check agreed on feature"
+    },
+    "90db42fbab": {
+      "category": "how-it-works",
+      "note": "filename said hero (sett-hero-6.webp); AI + blind check agreed on how-it-works"
+    },
+    "47862903bf": {
+      "category": "cta",
+      "note": "filename said hero (sett-hero-8.webp); AI + blind check agreed on cta"
+    },
+    "3e0bdcc456": {
+      "category": "testimonial",
+      "note": "filename said feature (telli-feature.webp); AI + blind check agreed on testimonial"
+    },
+    "dd722b2358": {
+      "category": "feature",
+      "note": "filename said about (trajectory-about.webp); AI + blind check agreed on feature"
+    },
+    "3ee349c71b": {
+      "category": "feature",
+      "note": "filename said blog (whop-blog-2.webp); AI + blind check agreed on feature"
+    },
+    "e95eb866e7": {
+      "category": "feature",
+      "note": "filename said blog (whop-blog.webp); AI + blind check agreed on feature"
+    },
+    "f1d1e5d9b5": {
+      "category": "testimonial",
+      "note": "filename said feature (whop-feature-3.webp); AI + blind check agreed on testimonial"
+    },
+    "d4e63c7a49": {
+      "category": "feature",
+      "note": "filename said how-it-works (whop-how-it-works.webp); AI + blind check agreed on feature"
+    },
+    "9505da7ad4": {
+      "category": "testimonial",
+      "note": "filename said blog (wingify-blog.webp); AI + blind check agreed on testimonial"
+    },
+    "f1596b3321": {
+      "category": "integration",
+      "note": "filename said cta (wingify-cta.webp); AI + blind check agreed on integration"
+    },
+    "2d4c22ea20": {
+      "category": "how-it-works",
+      "note": "filename said feature (wingify-feature-2.webp); AI + blind check agreed on how-it-works"
+    },
+    "65ac0995c1": {
+      "category": "value-proposition",
+      "note": "filename said feature (wingify-feature-20.webp); AI + blind check agreed on value-proposition"
+    },
+    "09620b31e0": {
+      "category": "use-case",
+      "note": "filename said feature (wingify-feature-6.webp); AI + blind check agreed on use-case"
+    },
+    "c5f44e61d3": {
+      "category": "about",
+      "note": "filename said feature (wingify-feature-7.webp); AI + blind check agreed on about"
+    },
+    "4d4a995fce": {
+      "category": "value-proposition",
+      "note": "filename said feature (wingify-feature.webp); AI + blind check agreed on value-proposition"
+    },
+    "dc1388816b": {
+      "category": "feature",
+      "note": "filename said integration (wingify-integration.webp); AI + blind check agreed on feature"
+    },
+    "cf039ddd9b": {
+      "category": "testimonial",
+      "note": "filename said pricing (wingify-pricing.webp); AI + blind check agreed on testimonial"
+    },
+    "f837e621c8": {
+      "category": "cta",
+      "note": "filename said stats (wingify-stats-3.webp); AI + blind check agreed on cta"
     }
   },
   "companies": {}
